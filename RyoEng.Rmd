@@ -5,7 +5,7 @@ output:
     fig_height: 3
     fig_width: 5
     highlight: zenburn
-    theme: cyborg
+    theme: cerulean
     toc: yes
   pdf_document:
     fig_height: 3
@@ -211,7 +211,7 @@ Jan-2007 to Jul-2007
     
 
 ```{r data, include=FALSE}
-tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2013-09','2013-10','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
+tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
 tmline <- data.frame(No=seq(nrow(tmline)),tmline)
 tmline$YearMonth <- as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y")
 #'@ write.csv(tmline,file=paste0(getwd(),'/dataset/dfm.csv'))
