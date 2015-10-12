@@ -180,6 +180,15 @@ Dec-2014 to Dec-2014
     * *Improve the efficiency of data management and also timing of calculation.*
     
     
+Feb-2014 to Mar-2014
+:   [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
+    
+    * *Learning* `Shiny` *and* `knitr` *in Coursera JHU* **09 Developing Data Products**, *occasionally noticed a* `fbRanks` * package, simply scrape the livescore of English Premier League to test the Dixon-Coles model.*
+    * *Similar with my previous research, the author wrote a scrape the data statical webpage but save as csv, but add-on a surface/venue parameter and also apply efficiency of the calculation for bigger size dataset. You can go to* <http://www.lastplanetranking.blogspot.my> *for more details.*
+    * *I've modified a bit my model by refer the idea* [efficiency of glm packages](http://stackoverflow.com/questions/19532651/benchmarking-logistic-regression-using-glm-fit-bigglm-speedglm-glmnet-libli) *of the author and will review again my model and also write my company website* [Scibrokes® Test Site](http://www.scibrokes.com/Test/) *by Shiny when free.*
+    * *Additional information about the website server*, [SoccerMetrics](http://www.soccermetrics.net/), [sotdoc](http://www.sotdoc.co.uk/) *and* [matchOdds.org](http://www.matchodds.org) *might be good referencens for my future writing website. SotDoc roughly brief about the annual returns of* [SmartOdds](http://www.smartodds.co.uk/) *around 2.5~3% while their investment returns rate around 7% per annum comapre to most of sportsbookmakers 0.5% or Crown 1.8%. SoccerMetrics using Python to setup* [Soccermetrics API Python Client](https://github.com/englianhu/soccermetrics-client-py) *while MatchOdds apply Tomcat to manage the data server.*
+    
+    
 Mar-2014 to Apr-2014
 :   [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
     
@@ -211,7 +220,7 @@ Jan-2007 to Jul-2007
     
 
 ```{r data, include=FALSE}
-tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
+tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-03','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','Test Dixon-Coles1996 model','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
 tmline <- data.frame(No=seq(nrow(tmline)),tmline)
 tmline$YearMonth <- as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y")
 #'@ write.csv(tmline,file=paste0(getwd(),'/dataset/dfm.csv'))
