@@ -34,7 +34,7 @@ if(!'BiocParallel' %in% installed.packages()){
   devtools::install_github('Bioconductor/BiocParallel')}
 
 suppressPackageStartupMessages(library('BBmisc'))
-pkgs <- c('mosaic','devtools','zoo','lubridate','stringr','rvest','googleVis','knitr','markdown','rmarkdown')
+pkgs <- c('mosaic','plyr','dplyr','devtools','zoo','lubridate','stringr','rvest','googleVis','knitr','markdown','rmarkdown')
 suppressAll(lib(pkgs)); rm(pkgs)
 ```
 
@@ -109,7 +109,7 @@ Jun-2015 to Aug-2015
     
 ### Experience
     
-May-2014 to Sep-2015
+May-2015 to Sep-2015
 :   **Online Gaming, Customer Service**; OneMedia Sdn Bhd
     
     * *Salary : MYR2500*
@@ -123,14 +123,14 @@ Feb-2015 to Apr-2015
     * *Job Task : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
     * *Resson of Leaving : Superior request to hit certain quantity of filtering transactions, therefore choose resign.*
     
-Nov-2013 to Mar-2014
+Nov-2013 to Apr-2014
 :   **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/)
     
     * *Salary : MYR3800*
     * *Job Task : Handling few members to update scores and bets settlement.*
     * *Resson of Leaving : Superior request hire more team members to lease the job, but I just would like to enjoy simple life office worker, therefore choose resign.*
     
-Nov-2012 to Mar-2013
+Nov-2012 to May-2013
 :   **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/)
     
     * *Salary : MYR2450*
@@ -183,7 +183,7 @@ Dec-2014 to Dec-2014
 Feb-2014 to Mar-2014
 :   [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
     
-    * *Learning* `Shiny` *and* `knitr` *in Coursera JHU* **09 Developing Data Products**, *occasionally noticed a* `fbRanks` * package, simply scrape the livescore of English Premier League to test the Dixon-Coles model.*
+    * *Learning* `Shiny` *and* `knitr` *in Coursera JHU* **09 Developing Data Products**, *occasionally noticed a* `fbRanks` *package, simply scrape the livescore of English Premier League to test the Dixon-Coles model.*
     * *Similar with my previous research, the author wrote a scrape the data statical webpage but save as csv, but add-on a surface/venue parameter and also apply efficiency of the calculation for bigger size dataset. You can go to* <http://www.lastplanetranking.blogspot.my> *for more details.*
     * *I've modified a bit my model by refer the idea* [efficiency of glm packages](http://stackoverflow.com/questions/19532651/benchmarking-logistic-regression-using-glm-fit-bigglm-speedglm-glmnet-libli) *of the author and will review again my model and also write my company website* [Scibrokes® Test Site](http://www.scibrokes.com/Test/) *by Shiny when free.*
     * *Additional information about the website server*, [SoccerMetrics](http://www.soccermetrics.net/), [sotdoc](http://www.sotdoc.co.uk/) *and* [matchOdds.org](http://www.matchodds.org) *might be good referencens for my future writing website. SotDoc roughly brief about the annual returns of* [SmartOdds](http://www.smartodds.co.uk/) *around 2.5~3% while their investment returns rate around 7% per annum comapre to most of sportsbookmakers 0.5% or Crown 1.8%. SoccerMetrics using Python to setup* [Soccermetrics API Python Client](https://github.com/englianhu/soccermetrics-client-py) *while MatchOdds apply Tomcat to manage the data server.*
