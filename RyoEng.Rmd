@@ -1,16 +1,17 @@
 ---
 title: "RYO®, ENG LIAN HU"
 output:
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+    highlight: zenburn
+    keep_tex: yes
+    toc: yes
   html_document:
     fig_height: 3
     fig_width: 5
     highlight: zenburn
     theme: cerulean
-    toc: yes
-  pdf_document:
-    fig_height: 3
-    fig_width: 5
-    highlight: zenburn
     toc: yes
   word_document:
     fig_height: 3
