@@ -1,17 +1,17 @@
 ---
 title: "RYO®, ENG LIAN HU"
 output:
-  pdf_document:
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    keep_tex: yes
-    toc: yes
   html_document:
     fig_height: 3
     fig_width: 5
     highlight: haddock
     theme: cerulean
+    toc: yes
+  pdf_document:
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
+    keep_tex: yes
     toc: yes
   word_document:
     fig_height: 3
@@ -312,7 +312,7 @@ It's useful to record some information about how your file was created.
   * Additional session information
   
 ```{r echo=FALSE, results='asis'}
-#'@ session_info()
+session_info()$platform
 ```
 
 
