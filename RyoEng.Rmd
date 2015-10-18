@@ -4,19 +4,19 @@ output:
   pdf_document:
     fig_height: 3
     fig_width: 5
-    highlight: zenburn
+    highlight: haddock
     keep_tex: yes
     toc: yes
   html_document:
     fig_height: 3
     fig_width: 5
-    highlight: zenburn
+    highlight: haddock
     theme: cerulean
     toc: yes
   word_document:
     fig_height: 3
     fig_width: 5
-    highlight: zenburn
+    highlight: haddock
 ---
 
 ```{r load-packages, include=FALSE}
