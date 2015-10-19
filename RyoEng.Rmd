@@ -289,6 +289,8 @@ I setup [Scibrokes Test Site](http://www.scibrokes.com/Test/) and also [Scibroke
 <a href='http://www.biostatistic.net/?120034'><img src='figure/biostatistic_36x36.jpg' height='48'></a>
 <a href='http://cos.name/cn/profile/ryo/'><img src='figure/cos_36x36.jpg' height='48'></a>
 <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='figure/jg_36x36.jpg' height='48'></a>
+<a href='http://mathchina.net/dvbbs/show.asp?username=englianhu'><img src='figure/dwang_36x36.jpg' height='48'></a>
+<a href='http://www.mathchina.com/bbs/home.php?mod=space&uid=44479'><img src='figure/mathchina_36x36.jpg' height='48'></a>
 <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='figure/centOS_36x36.jpg' height='48'></a>
 <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src='figure/bettingforum_36x36.jpg' height='48'></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='figure/PLounge_36x36.jpg' height='48'></a>
