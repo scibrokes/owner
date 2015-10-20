@@ -80,9 +80,9 @@ $®γθ$, Eng Lian Hu
 | Home Landline Contact      |                                                                   [+6-03-89570938](tel:+60389570938) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
 | Current Address            |                                                             43300 Seri Kembangan, Selangor, Malaysia |
-| Home Town                  |                                                             45500 Tanjong Karang, Selangor, Malaysia |
-| Nationality                |                                                                                            Malaysian |
+| Nationality                |                                                                                             Japanese |
 | Religion                   |                                                                                               Buddha |
+
 
 
 ### Education
@@ -105,6 +105,56 @@ Jun-2015 to Aug-2015
 :   **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)
     
     * *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+    
+Oct-1984 to Present
+:   [**日本史**](http://www.t3.rim.or.jp/~miukun/); 明治学校
+    
+    * [**第一話** *はじめに*](http://www.t3.rim.or.jp/~miukun/japan1.htm)
+    * [**第二話** *日本人の起源*](http://www.t3.rim.or.jp/~miukun/japan2.htm)
+    * [**第三話** *古代王朝*](http://www.t3.rim.or.jp/~miukun/japan3.htm)
+    * [**第四話** *平安時代*](http://www.t3.rim.or.jp/~miukun/japan4.htm)
+    * [**第五話** *幕府政治の登場*](http://www.t3.rim.or.jp/~miukun/japan5.htm)
+    * [**第六話** *南北朝と室町*](http://www.t3.rim.or.jp/~miukun/japan6.htm)
+    * [**第七話** *革新の時代*](http://www.t3.rim.or.jp/~miukun/japan7.htm)
+    * [**第八話** *徳川幕府*](http://www.t3.rim.or.jp/~miukun/japan8.htm)
+    * [**第九話** *明治維新*](http://www.t3.rim.or.jp/~miukun/japan9.htm)
+    * [**第十話** *帝国主義の道*](http://www.t3.rim.or.jp/~miukun/japan10.htm)
+    * [**第十一話** *そして、今*](http://www.t3.rim.or.jp/~miukun/japan11.htm)
+    
+Oct-1984 to Present
+:   [**中国史**](http://www.uraken.net/rekishi/rekichina.html); 明治学校
+    
+    * [**第１回** *古代中国～周、そして秦へ*](http://www.uraken.net/rekishi/reki-chu01.html)
+    * [**第２回** *秦の始皇帝の時代*](http://www.uraken.net/rekishi/reki-chu02.html)
+    * [**第３回** *漢の時代*](http://www.uraken.net/rekishi/reki-chu03.html)
+    * [**第４回** *後漢～復活した漢だが～*](http://www.uraken.net/rekishi/reki-chu04.html)
+    * [**第５回** *群雄割拠・三国志時代*](http://www.uraken.net/rekishi/reki-chu05.html)
+    * [**第６回** *南北朝時代*](http://www.uraken.net/rekishi/reki-chu06.html)
+    * [**第７回** *華開く南北朝文化*](http://www.uraken.net/rekishi/reki-chu07.html)
+    * [**第８回** *中華再統一した隋*](http://www.uraken.net/rekishi/reki-chu08.html)
+    * [**第９回** *女性皇帝も出た唐の時代*](http://www.uraken.net/rekishi/reki-chu09.html)
+    * [**第１０回** *国際色豊かな唐の文化*](http://www.uraken.net/rekishi/reki-chu010.html)
+    * [**第１１回** *五代十国から宋へ*](http://www.uraken.net/rekishi/reki-chu011.html)
+    * [**第１２回** *華北の金と江南の南宋*](http://www.uraken.net/rekishi/reki-chu012.html)
+    * [**第１３回** *宋の文化*](http://www.uraken.net/rekishi/reki-chu013.html)
+    * [**第１４回** *モンゴル帝国*](http://www.uraken.net/rekishi/reki-chu014.html)
+    * [**第１５回** *元の中国支配*](http://www.uraken.net/rekishi/reki-chu015.html)
+    * [**第１６回** *モンゴル・元代の文化*](http://www.uraken.net/rekishi/reki-chu016.html)
+    * [**第１７回** *最後の漢民族王朝・明の建国*](http://www.uraken.net/rekishi/reki-chu017.html)
+    * [**第１８回** *明時代の東シナ海*](http://www.uraken.net/rekishi/reki-chu018.html)
+    * [**第１９回** *北虜南倭の患、明の衰退*](http://www.uraken.net/rekishi/reki-chu019.html)
+    * [**第２０回** *百科事典も登場、明の文化*](http://www.uraken.net/rekishi/reki-chu020.html)
+    * [**第２１回** *女真族の後金・清と李自成の乱*](http://www.uraken.net/rekishi/reki-chu021.html)
+    * [**第２２回** *清の草創期～ドルゴンと順治帝～*](http://www.uraken.net/rekishi/reki-chu022.html)
+    * [**第２３回** *名君の時代１～康煕帝～*](http://www.uraken.net/rekishi/reki-chu023.html)
+    * [**第２４回** *名君の時代２～雍正帝～*](http://www.uraken.net/rekishi/reki-chu024.html)
+    * [**第２５回** *名君の時代３～乾隆帝～*](http://www.uraken.net/rekishi/reki-chu025.html)
+    * [**第２６回** *アヘン戦争前夜*](http://www.uraken.net/rekishi/reki-chu026.html)
+    * [**第２７回** *アヘン戦争*](http://www.uraken.net/rekishi/reki-chu027.html)
+    * [**第２８回** *今度はキリスト教？太平天国の乱*](http://www.uraken.net/rekishi/reki-chu028.html)
+    * [**第２９回** *第２次アヘン戦争のアロー戦争*](http://www.uraken.net/rekishi/reki-chu029.html)
+    * [**第３０回** *洋務運動と日仏露との領土問題*](http://www.uraken.net/rekishi/reki-chu030.html)
+    * [**第３１回** *日清戦争*](http://www.uraken.net/rekishi/reki-chu031.html)
     
     
     
@@ -218,21 +268,18 @@ Jan-2007 to Jul-2007
     * *Write own Poisson model based on what I learnt from* [*Stuart Doyle*](https://www.facebook.com/stuart.doyle1) *during working in Telebiz Sdn Bhd.*
     * *Due to not master in Macro VBA, I just simply recall the concept which was a spreadsheet VBA Excel file from* [*Paul Judge*](https://www.facebook.com/paul.judge.14) *for data management I accidentlly deleted few years ago.*
     * *Remarks: Stuart and Paul used be Sportsbook consultants to Telebiz and setup own advisor company [SportsTrust](http://www.sportstrust.com) during 2009/2010.*
-    
-
-```{r data, include=FALSE}
-tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-03','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','Test Dixon-Coles1996 model','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
-tmline <- data.frame(No=seq(nrow(tmline)),tmline)
-tmline$YearMonth <- as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y")
-#'@ write.csv(tmline,file=paste0(getwd(),'/dataset/dfm.csv'))
-#'@ tmline <- read.csv(file=paste0(getwd(),'/dataset/dfm.csv')) %>% tbl_df
-```
 
 
 
 ### Time Line
 
 ```{r timeline, echo=FALSE, results='asis'}
+tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-03','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','Test Dixon-Coles1996 model','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
+tmline <- data.frame(No=seq(nrow(tmline)),tmline)
+tmline$YearMonth <- as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y")
+#'@ write.csv(tmline,file=paste0(getwd(),'/dataset/dfm.csv'))
+#'@ tmline <- read.csv(file=paste0(getwd(),'/dataset/dfm.csv')) %>% tbl_df
+
 G <- gvisTable(tmline, options=list(width='automatic', height=400))
 M <- gvisMotionChart(tmline, idvar='Event', date.format='%b-%Y', timevar='YearMonth', options=list(width='automatic', height=400))
 GM <- gvisMerge(G, M, horizontal=TRUE, tableOptions='bgcolor=\'#CCCCCC\' cellspacing=10')
