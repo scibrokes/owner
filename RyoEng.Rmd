@@ -79,7 +79,6 @@ $®γθ$, Eng Lian Hu
 | Taiwanese Phone Numner     |                                                              [+886-098-910-4576](tel:+8860989104576) |
 | Home Landline Contact      |                                                                   [+6-03-89570938](tel:+60389570938) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
-| Current Address            |                                                             43300 Seri Kembangan, Selangor, Malaysia |
 | Nationality                |                                                                                             Japanese |
 | Religion                   |                                                                                               Buddha |
 
@@ -354,10 +353,11 @@ I setup [Scibrokes Test Site](http://www.scibrokes.com/Test/) and also [Scibroke
 
 It's useful to record some information about how your file was created.
 
-  * File creation date: `r Sys.Date()`
+  * File created/updated date: `r Sys.Date()`
   * `r R.version.string`
   * R version (short form): `r getRversion()`
   * `mosaic` package version: `r packageVersion("mosaic")`
+  * Github: [source code](https://github.com/Scibrokes/Owner)
   * Additional session information
   
 ```{r echo=FALSE, results='asis'}
