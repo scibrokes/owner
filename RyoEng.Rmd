@@ -71,6 +71,11 @@ $®γθ$, Eng Lian Hu
 
 ### About Me
 
+```{r, include=FALSE}
+## https://cran.r-project.org/web/packages/htmlTable/vignettes/tables.html
+## We can use the htmlTable package to plot below table. 
+```
+
 | **Title**                  |                                                                                          **Details** |
 |:---------------------------|-----------------------------------------------------------------------------------------------------:|
 | Date of Birth              |                                                                            `r x='22-10-1984';dmy(x)` |
