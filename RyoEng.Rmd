@@ -183,11 +183,10 @@ Jan-2007 to Jul-2007
     
 
 ```{r data, include=FALSE}
-tmline <- data.frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-03','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','Test Dixon-Coles1996 model','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
-tmline <- data.frame(No=seq(nrow(tmline)),tmline)
-tmline$YearMonth <- as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y")
+tmline <- data_frame(YearMonth=as.yearmon(c('2003-12','2004-06','2005-10','2005-11','2005-12','2006-03','2006-06','2006-07','2006-07','2006-08','2006-10','2007-07','2008-04','2010-04','2010-04','2013-09','2013-10','2014-03','2014-04','2014-12','2015-08')),Event=c('JLPT Level3','Joined Forex Trading Line','Joined Sportsbook Line','Learn Korean Language','Transfered to Purchasing Deprt','Learn Poisson Model','Conduct Corners BIR','Resigned from Telebiz','Join Caspo Inc','Transfered to Training Deprt','Learn Deutsch Language','Write own Basic Poisson Model','Joined Scicom (MSC) Bhd','Learn Sportsbook Line and Odds Modelling thoroughly','Odds Modelling and Testing Inefficiency of Sportsbookmakers','Soccer League Web Scrapping','Registered Scibrokes Trading Enterprise','Test Dixon-Coles1996 model','WebDriver Dynamic Webpage Scrapping','Testing Inefficiency of Sports-Bookmakers by Kelly Model','Professional Certificate - Specialization Data Science (Python)'))
+tmline <- data_frame(No=seq(nrow(tmline)),tmline) %>% mutate(YearMonth=as.Date(paste0("01",tmline$YearMonth), format="%d%b%Y"))
 #'@ write.csv(tmline,file=paste0(getwd(),'/dataset/dfm.csv'))
-#'@ tmline <- read.csv(file=paste0(getwd(),'/dataset/dfm.csv')) %>% tbl_df
+#'@ tmline <- read.csv(file=paste0(getwd(),'/dataset/dfm.csv')) %>% data_frame
 ```
 
 
@@ -213,7 +212,7 @@ options(op)
 ### Skill
 
 ```{r skill, echo=FALSE, result='asis'}
-skill <- data.frame(c('R Programming','MS Office','SQL','Python','Data Analysis','Customer Service','Sportsbook Industry'),c(7,8,3,4,9,9,7)) %>% tbl_df
+skill <- data_frame(c('R Programming','MS Office','SQL','Python','Data Analysis','Customer Service','Sportsbook Industry'),c(7,8,3,4,9,9,7))
 names(skill) <- c('Skill','Level (from newbie 1 to expert 10)')
 kable(skill)
 ```
@@ -273,7 +272,7 @@ It's useful to record some information about how your file was created.
   * `rmarkdown` package version: `r packageVersion('rmarkdown')`
   * File version: 1.0.1
   * File latest updated date: `r Sys.Date()`
-  * Author Profile: [Ryo®, Eng Lian Hu](http://rpubs.com/englianhu/ryoeng)
+  * Author Profile: [®γσ, Eng Lian Hu](http://rpubs.com/englianhu/ryoeng)
   * GitHub: [Source Code](https://github.com/Scibrokes/Owner)
   * Additional session information
   
