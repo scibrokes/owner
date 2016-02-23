@@ -1,4 +1,9 @@
 # Scibrokes Owner
+
 Personal CV
 
-you are welcome to browse my personal blog at <http://englianhu.wordpress.com>
+You are welcome to browse my personal blog :-
+  - <http://englianhu.wordpress.com> (old)
+  - <http://englianhu.github.io> (new)
+
+

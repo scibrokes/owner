@@ -1,8 +1,15 @@
 ---
 title: "®γσ, ENG LIAN HU"
-author: "[®γσ, Eng Lian Hu](http://englianhu.wordpress.com) <img src='figure/ShirotoNorimichi.jpg' width='24'> 白戸則道®"
+author: '[®γσ, Eng Lian Hu](http://englianhu.wordpress.com) <img src=''figure/ShirotoNorimichi.jpg''
+  width=''24''> 白戸則道®'
 date: "10/22/1984"
 output:
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
+    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -10,14 +17,8 @@ output:
     highlight: haddock
     theme: cerulean
     toc: yes
-  word_document: 
+  word_document:
     fig_caption: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
 ---
 
 
