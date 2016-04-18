@@ -4,6 +4,8 @@ author: '[®γσ, Eng Lian Hu](http://englianhu.wordpress.com) <img src=''figure
   width=''24''> 白戸則道®'
 date: "10/22/1984"
 output:
+  word_document:
+    fig_caption: yes
   pdf_document:
     fig_caption: yes
     fig_height: 3
@@ -17,8 +19,6 @@ output:
     highlight: haddock
     theme: cerulean
     toc: yes
-  word_document:
-    fig_caption: yes
 ---
 
 
