@@ -1,7 +1,7 @@
 # Scibrokes Owner
 
 Personal CV
-<https://rpubs.com/englianhu/ryoeng>
+<https://beta.rstudioconnect.com/englianhu/ryo-eng/>
 
 You are welcome to browse my personal blog :-
   - <http://englianhu.wordpress.com> (old)
