@@ -9,8 +9,8 @@ if(suppressMessages(!require('BBmisc'))){
 suppressMessages(library('BBmisc'))
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 
-          'googleVis', 'markdown', 'knitr', 'rmarkdown', 'formattable')
+pkgs <- c('plyr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 
+          'rvest', 'googleVis', 'markdown', 'knitr', 'rmarkdown', 'formattable')
 suppressAll(lib(pkgs)); rm(pkgs)
 
 ## Set the googleVis options first to change the behaviour of plot.gvis, so that 
