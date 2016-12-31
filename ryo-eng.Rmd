@@ -10,7 +10,7 @@ output:
     highlight: haddock
     theme: cerulean
     toc: yes
-    self_contained: no
+    self_contained : FALSE
   pdf_document:
     fig_caption: yes
     fig_height: 3
@@ -27,8 +27,15 @@ output:
 
 $®γσ$ , Eng Lian Hu
 
+<audio autoplay="autoplay" controls="controls">
+     <source src="./music/bigmoney.mp3" />     
+ </audio>
+
 ```{r load, include=FALSE}
 suppressMessages(source('function/libs.R'))
+
+#'@ <audio src='music/bigmoney.mp3' controls> # add controls will able to let users play manually
+#'@ <embed src="music/bigmoney.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
 ```
 
 ### 1. About Me
@@ -48,7 +55,9 @@ suppressMessages(source('function/libs.R'))
 
 ### 2. Education
 
-Apr-2014 to May-2016
+#### 2.1 Professional Certificate, Specialization Data Science (R Programming)
+
+**Apr-2014 to May-2016**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/)
   
   - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
@@ -63,27 +72,44 @@ Apr-2014 to May-2016
   - *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
   - [**Data Science  Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 
+<iframe src="https://raw.githubusercontent.com/scibrokes/owner/6839f2822dd10281c79ff40eb296643904b427d3/documents/Coursera%20Johns%20Hopkins%20-%2011%20Completed%2010%20Courses%20in%20Data%20Science.pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-Jun-2015 to Aug-2015
+*certificate 2.1.1 : Data Science  Specialization*
+
+#### 2.2 Professional Certificate, Specialization Data Science (Python)
+
+**Jun-2015 to Aug-2015**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)
     
   - *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
+<iframe src="https://raw.githubusercontent.com/scibrokes/owner/6839f2822dd10281c79ff40eb296643904b427d3/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
+
+*certificate 2.2.1 : Programming for Everybody*
+
 ### 3. Experience
 
-Nov-2016 to Present
+#### 3.1 Unemployment
+
+**Dec-2016 to Present**
+
+#### 3.2 Customer Service - ManPower Sdn Bhd
+
+**Nov-2016 to Dec-2016**
 : **Customer Service Executive**; [Mindpearl](https://www.mindpearl.com/)
 
   - *Salary             : MYR4000 (+ OT & Allowance if any)*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers.*
   - *Remarks            : Mindpearl is an outsourcing company for few Airlines companies which handle [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) customers. Converted from Manpower recruitment agency to a proper outsourcing company which based in [Fiji](https://en.wikipedia.org/wiki/Fiji) (an island nation in Asia Pacific).*
 
-May-2016 to Nov-2016
+**May-2016 to Nov-2016**
 : **Customer Service Executive**; [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)
 
   - *Salary             : MYR4000*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
   - *Remarks            : Manpower is an outsourcing HR company pay salary but work for [Mindpearl](https://www.mindpearl.com/) and training at [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) Subang office.*
+
+#### 3.3 Sportsbook Trader - Global Solution Sdn Bhd
 
 Oct-2015 to Jan-2016
 : **Online Gaming, Sportsbook Trader**; Global Solution Sdn Bhd
@@ -93,7 +119,9 @@ Oct-2015 to Jan-2016
   - *Remarks            : A Malaysian unnamed company based in Selangor but the head-quarter based Hong Kong and Macau.*
   - *Resson of Leaving  : Project manager announced closed project.*
 
-May-2015 to Sep-2015
+#### 3.4 Sportsbook Social Media Marketing - OneMedia Sdn Bhd
+
+**May-2015 to Sep-2015**
 : **Online Gaming, Customer Service**; OneMedia Sdn Bhd
   
   - *Salary             : MYR2500~MYR3000*
@@ -101,7 +129,9 @@ May-2015 to Sep-2015
   - *Remarks            : A new established company which is similar as bookie but employ own programmers and also server.*
   - *Resson of Leaving  : Superior request change to commission based sales and marketing but not my strength, therefore choose resign.*
 
-Feb-2015 to Apr-2015
+#### 3.5 Apple Product Fruad Prevention Analyst - IdealSeed Sdn Bhd
+
+**Feb-2015 to Apr-2015**
 : **Online Retails, Fraud Prevention**; [IdealSeed Sdn Bhd](http://www.idealseed.com/)
   
   - *Salary             : MYR4000*
@@ -109,7 +139,9 @@ Feb-2015 to Apr-2015
   - *Remarks            : An outsourcing HR company which insource staffs into [Xerox (M) Bhd](https://www.xerox.com/) but operate [Apple Inc.](http://www.apple.com)'s project.* 
   - *Resson of Leaving  : Superior request to hit certain quantity of filtering transactions, therefore choose resign.*
 
-Nov-2013 to Mar-2014
+#### 3.5 Sportsbook Trading Team Leader - SBSolutionCorp Ltd
+
+**Nov-2013 to Mar-2014**
 : **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/)
   
   - *Salary             : MYR3800*
@@ -117,7 +149,9 @@ Nov-2013 to Mar-2014
   - *Remarks            : Operation conducting by SB Solutioncorp based in Makati City (Manila, Philippines) but software company GBLinks based in Kowloon (Hong Kong, China)*
   - *Resson of Leaving  : Superior request hire more team members to lease the job, but I just would like to enjoy simple life office worker, therefore choose resign.*
 
-Nov-2012 to May-2013
+#### 3.6 Live Complaince Editor - U-Drive Media Sdn Bhd
+
+**Nov-2012 to May-2013**
 : **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/)
   
   - *Salary             : MYR2450*
@@ -125,7 +159,9 @@ Nov-2012 to May-2013
   - *Remarks            : An outsourcing company which insource staffs into [TM Bhd](https://tm.com.my/#/explore) (Telekom Malaysia).*
   - *Resson of Leaving  : Director request change to account or marketing department, but marketing is not my strength and I just would like to enjoy simple life office worker, therefore choose resign.*
 
-Mar-2008 to Jul-2012
+#### 3.7 Sportsbook Customer Service - Scicom (MSC) Bhd
+
+**Mar-2008 to Jul-2012**
 : **Outsourcing Business, Customer Service**; [Scicom (MSC) Bhd](http://www.scicom-intl.com/)
   
   - *Salary             : `r paste0('MYR',3250 * 1.125)`*
@@ -133,7 +169,9 @@ Mar-2008 to Jul-2012
   - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s business in Far East Asia.*
   - *Resson of Leaving  : HR request change project since closed project, since there has no sportsbook related project besides Ladbrokes during that time therefore choose resign.*
 
-Jul-2006 to Jun-2007
+#### 3.8 Sportsbook Trading Trainer - Caspo Inc.
+
+**Jul-2006 to Jun-2007**
 : **Online Gambling, Trainer/Trader**; [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/)
   
   - *Salary             : MYR`r 5000 + 220 * readLines('https://www.google.com/finance?q=USDMYR') %>% str_extract_all(pattern = '<span class=bld>.+</span>') %>% unlist %>% str_extract(pattern = '>[^&].+<') %>% str_replace_all('\\<|\\>', '') %>% str_replace('MYR', '') %>% as.numeric` + 3~99months Annual Bonus (SGDxxxxxx)*
@@ -141,8 +179,10 @@ Jul-2006 to Jun-2007
   - *Remarks            : A cross-global business group which co-orperate with couples of companies whic based in Hong Kong, Taiwan, IOM (United Kingdom), Cambodia etc.*
   - *Resson of Leaving  : Cannot stand for daily 12 to 16 working hours during that time, therefore choose resign.*
 
-Nov-2005 to Jul-2006
-: **Online Gambling, Team Leader/Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/).
+#### 3.9 Sportsbook Senior Trader - Telebiz Sdn Bhd
+
+**Nov-2005 to Jul-2006**
+: **Online Gambling, Team Leader/Senior Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/).
   
   - *Salary             : MYR2450 + Annual Bonus (MYRxxxx)*
   - *Job Task           : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
@@ -151,13 +191,17 @@ Nov-2005 to Jul-2006
 
 ### 4. Technical Experience
 
-Mar-2016 to Present
+#### 4.1 Analysing Financial Report of Bookmakers
+
+**Mar-2016 to Present**
 : [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
   - *Learn shiny (exmp: infrastruture, shinyjs, shinydashboard etc), [advance R](https://englianhu.files.wordpress.com/2016/05/advanced-r.pdf) (exmp: environment etc), data visualization (exmp: rCharts, DT, formattable, sparkline etc)*
   - *Learn to read financial report of public listed companies.*
 
-Jul-2015 to Present
+#### 4.2 Betting Strategy and Model Validation
+
+**Jul-2015 to Present**
 : [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
   
   - *Learn PhantomJS for background wbdriver, markdown, setup RStudio server. However RSelenium and PhamtonJS faced some error and then just simply apply rvest to harvest the data from spbo without odds price.*
@@ -167,7 +211,9 @@ Jul-2015 to Present
   - *Testing the efficiency of some coding.*
   - *Learn modified Kelly staking model.*
 
-Jan-2016 to Present
+#### 4.3 GitHub Blogs
+
+**Jan-2016 to Present**
 : [**GitHub Pages**](https://github.com/englianhu/englianhu.github.io)
   
   - *You are welcome to my [GitHub Blogs](https://englianhu.github.io) which is temporary under learning and testing.*
@@ -175,7 +221,9 @@ Jan-2016 to Present
   - *In order to easier manage my projects and also some comments and daily notes, all my projects will present and post on the coming personal blog.*
   - *All html format files under* <https://github.com/englianhu/englianhu.github.io/> *will be under* <https://englianhu.github.io/>*. For example, the file* <https://github.com/englianhu/englianhu.github.io/ryoeng.html> *will be able to open by enter url* <https://englianhu.github.io/ryoeng.html>
 
-Jan-2016 to Jan-2016
+#### 4.4 Introducing ®Studio Server for Data Scientists
+
+**Jan-2016 to Jan-2016**
 : [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
   
   - *Learn some command for Linux CentOS 7.*
@@ -184,14 +232,18 @@ Jan-2016 to Jan-2016
   - *Sharing own experience about setup ®Studio server, suggestion and comparison on relevant used apps.*
   - *Quotes:"授人以鱼，不如授人以渔", adviced that we all need to learning step-by-step from the basic but not insider trading.*
 
-Dec-2014 to Dec-2014
+#### 4.5 Testing Inefficiency of Sports-Bookmakers by Kelly Model
+
+**Dec-2014 to Dec-2014**
 : [**Testing Inefficiency of Sports-Bookmakers by Kelly Model**](https://github.com/Scibrokes/kelly-criterion)
   
   - *Apply poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
   - *Rewrite the Kelly model from- **Odds Modelling and Testing Inefficiency of Sports-Bookmakers*- *in R but also optimal value* $r$ *which is stated in* [*Dixon&Coles1996*](http://www.math.ku.dk/~rolf/teaching/thesis/DixonColes.pdf) *to test the efficiency and the returns of investment based from the Poisson model.*
   - *Improve the efficiency of data management and also timing of calculation.*
 
-Feb-2014 to Mar-2014
+#### 4.6 Test the Dixon-Coles 1996
+
+**Feb-2014 to Mar-2014**
 : [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
   
   - *Learning* `Shiny` *and* `knitr` *in Coursera JHU- **09 Developing Data Products**, *occasionally noticed a* `fbRanks` *package, simply scrape the livescore of English Premier League to test the Dixon-Coles model.*
@@ -199,18 +251,24 @@ Feb-2014 to Mar-2014
   - *I've modified a bit my model by refer the idea* [efficiency of glm packages](http://stackoverflow.com/questions/19532651/benchmarking-logistic-regression-using-glm-fit-bigglm-speedglm-glmnet-libli) *of the author and will review again my model and also write my company website* [Scibrokes® Test Site](http://www.scibrokes.com/Test/) *by Shiny when free.*
   - *Additional information about the website server*, [SoccerMetrics](http://www.soccermetrics.net/), [sotdoc](http://www.sotdoc.co.uk/) *and* [matchOdds.org](http://www.matchodds.org) *might be good referencens for my future writing website. SotDoc roughly brief about the annual returns of* [SmartOdds](http://www.smartodds.co.uk/) *around 2.5~3% while their investment returns rate around 7% per annum comapre to most of sportsbookmakers 0.5% or Crown 1.8%. SoccerMetrics using Python to setup* [Soccermetrics API Python Client](https://github.com/englianhu/soccermetrics-client-py) *while MatchOdds apply Tomcat to manage the data server.*
 
-Mar-2014 to Apr-2014
+#### 4.7 WebDriver Dynamic Webpage Scrapping
+
+**Mar-2014 to Apr-2014**
 : [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
   
   - *Relenium and RSelenium published, scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en/) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter the odds price data.*
 
-Aug-2013 to Sep-2013
+#### 4.8 Soccer League Web Scraping
+
+**Aug-2013 to Sep-2013**
 : [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
   
   - *Learning programming to gather livescore and also odds price data from* [*Gooooal*](http://app.en.gooooal.com/soccer/statistic/standing.do). *livescore website.*
   - *From the scrapped result, there has alot of errors and wrong result since the static website result unable changed once the score is updated. There might be some postponed matches and also suspended metches. Moreover dynamic webpage request selenium apps, due to Rpy loss maintenance and rPython,RSelenium are not yet published. Therefore forfeit and learn Python and started the- **WebDriver Dynamic Webpage Scrapping**.
 
-Apr-2008 to Apr-2010
+#### 4.9 Odds Modelling and Testing Inefficiency of Sports-Bookmakers
+
+**Apr-2008 to Apr-2010**
 : [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
   
   - *Learn RExcel, CrystalBall, ModelRisk etc. and choose R open source software to start my research.*
@@ -219,9 +277,11 @@ Apr-2008 to Apr-2010
   
 <iframe src="https://raw.githubusercontent.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers/master/Odds%20Modelling%20and%20Testing%20Inefficiency%20of%20Sports-Bookmakers/Odds_Modelling_and_Testing_Inefficiency_of_Sports-Bookmakers.pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*paper 4.4.3.1 : ®γσ, Eng Lian Hu (2016)*
+*paper 4.9.1 : ®γσ, Eng Lian Hu (2016)*
 
-Jan-2007 to Jul-2007
+#### 4.10 Apply Poisson regression on sports odds modelling
+
+**Jan-2007 to Jul-2007**
 : [**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
   
   - *Write own Poisson model based on what I learnt from* [*Stuart Doyle*](https://www.facebook.com/stuart.doyle1) *during working in Telebiz Sdn Bhd.*
