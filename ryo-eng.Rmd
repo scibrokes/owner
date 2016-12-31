@@ -1,6 +1,7 @@
 ---
 title: "®γσ, ENG LIAN HU"
-author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='figure/ENG.jpg' width='24'> <img src='figure/my-passport-size-photo.jpg' width='24'> 白戸則道®"
+subtitle: "Personal Profile"
+author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='figure/ENG.jpg' width='24' align='center' valign='middle'> <img src='figure/my-passport-size-photo.jpg' width='24' align='center' valign='middle'> 白戸則道®"
 date: "10/22/1984"
 output:
   html_document:
@@ -23,20 +24,21 @@ output:
 
 ## Curriculum Vitae
 
-<img src='figure/RYO-Photo.jpg' width='120'>
+<img src='figure/RYO-Photo.jpg' width='120' align='center' valign='middle'>
 
 $®γσ$ , Eng Lian Hu
 
-<audio autoplay="autoplay" controls="controls">
-     <source src="./music/bigmoney.mp3" />     
- </audio>
+<audio src='music/bigmoney.mp3' controls></audio>
 
-```{r load, include=FALSE}
-suppressMessages(source('function/libs.R'))
+```{r libs, message = FALSE, warning = FALSE, cache = TRUE, include = FALSE}
+## Setup Options, Loading Required Libraries and Preparing Environment
+## Loading the packages and setting adjustment
+suppressAll(source('function/libs.R'))
 
-#'@ <audio src='music/bigmoney.mp3' controls> # add controls will able to let users play manually
-#'@ <embed src="music/bigmoney.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
+#'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
+
+<br>
 
 ### 1. About Me
 
@@ -53,12 +55,14 @@ suppressMessages(source('function/libs.R'))
 | Nationality                |                                                                                            Malaysian |
 | Religion                   |                                                                                               Buddha |
 
+<br>
+
 ### 2. Education
 
 #### 2.1 Professional Certificate, Specialization Data Science (R Programming)
 
 **Apr-2014 to May-2016**
-:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/)
+:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='figure/jhu.jpg' width='60' align='center' valign='middle'>
   
   - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
   - *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
@@ -76,10 +80,12 @@ suppressMessages(source('function/libs.R'))
 
 *certificate 2.1.1 : Data Science  Specialization*
 
+<br>
+
 #### 2.2 Professional Certificate, Specialization Data Science (Python)
 
 **Jun-2015 to Aug-2015**
-:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)
+:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='figure/um.jpg' width='14' align='center' valign='middle'>
     
   - *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
@@ -87,27 +93,48 @@ suppressMessages(source('function/libs.R'))
 
 *certificate 2.2.1 : Programming for Everybody*
 
+<br>
+
+#### 2.3 Professional Certificate, Japanese Language Profeciency Test
+
+**Mar-2002 to Dec-2003**
+:  **Professional Certificate, Japanese Language Profeciency Test**; [JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='figure/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='figure/JEES.gif' width='68' align='center' valign='middle'>
+    
+  - *Course title : Japanese Language Profeciency Test - Level III*
+
+<img src='documents/JLPT%20Certificate.jpg' width='560' align='center' valign='middle'>
+
+*certificate 2.3.1 : JLPT III*
+
+<br>
+
 ### 3. Experience
 
 #### 3.1 Unemployment
 
 **Dec-2016 to Present**
+  - Availability : Immediately
+
+<br>
 
 #### 3.2 Customer Service - ManPower Sdn Bhd
 
 **Nov-2016 to Dec-2016**
-: **Customer Service Executive**; [Mindpearl](https://www.mindpearl.com/)
+: **Customer Service Executive**; [Mindpearl](https://www.mindpearl.com/) <img src='figure/mindpearl02.jpg' width='24' align='center' valign='middle'>
 
   - *Salary             : MYR4000 (+ OT & Allowance if any)*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers.*
-  - *Remarks            : Mindpearl is an outsourcing company for few Airlines companies which handle [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) customers. Converted from Manpower recruitment agency to a proper outsourcing company which based in [Fiji](https://en.wikipedia.org/wiki/Fiji) (an island nation in Asia Pacific).*
+  - *Remarks            : Mindpearl is an outsourcing company for few Airlines companies which handle [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='figure/mas.jpg' width='36' align='center' valign='middle'> customers. Converted from Manpower recruitment agency to a proper outsourcing company which based in [Fiji](https://en.wikipedia.org/wiki/Fiji) (an island nation in Asia Pacific).*
+  - *Reason of Leaving : HR Manager Muthu Kuna she say I don't know how to play black magic and silly follow Malaysian law to take public holidays and fire me. Because she is wizard controlled by HwaCai from No32 Tmn RHU and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
 
 **May-2016 to Nov-2016**
-: **Customer Service Executive**; [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)
+: **Customer Service Executive**; [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='figure/manpower.jpg' width='24' align='center' valign='middle'>
 
   - *Salary             : MYR4000*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
-  - *Remarks            : Manpower is an outsourcing HR company pay salary but work for [Mindpearl](https://www.mindpearl.com/) and training at [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) Subang office.*
+  - *Remarks            : Manpower is an outsourcing HR company pay salary but work for [Mindpearl](https://www.mindpearl.com/) <img src='figure/mindpearl02.jpg' width='24' align='center' valign='middle'> and training at [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='figure/mas.jpg' width='36' align='center' valign='middle'> Subang office.*
+
+<br>
 
 #### 3.3 Sportsbook Trader - Global Solution Sdn Bhd
 
@@ -119,6 +146,8 @@ Oct-2015 to Jan-2016
   - *Remarks            : A Malaysian unnamed company based in Selangor but the head-quarter based Hong Kong and Macau.*
   - *Resson of Leaving  : Project manager announced closed project.*
 
+<br>
+
 #### 3.4 Sportsbook Social Media Marketing - OneMedia Sdn Bhd
 
 **May-2015 to Sep-2015**
@@ -129,65 +158,87 @@ Oct-2015 to Jan-2016
   - *Remarks            : A new established company which is similar as bookie but employ own programmers and also server.*
   - *Resson of Leaving  : Superior request change to commission based sales and marketing but not my strength, therefore choose resign.*
 
+<br>
+
 #### 3.5 Apple Product Fruad Prevention Analyst - IdealSeed Sdn Bhd
 
 **Feb-2015 to Apr-2015**
-: **Online Retails, Fraud Prevention**; [IdealSeed Sdn Bhd](http://www.idealseed.com/)
+: **Online Retails, Fraud Prevention**; [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='figure/idealseed.jpg' width='12' align='center' valign='middle'>
   
   - *Salary             : MYR4000*
   - *Job Task           : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
-  - *Remarks            : An outsourcing HR company which insource staffs into [Xerox (M) Bhd](https://www.xerox.com/) but operate [Apple Inc.](http://www.apple.com)'s project.* 
-  - *Resson of Leaving  : Superior request to hit certain quantity of filtering transactions, therefore choose resign.*
+  - *Remarks            : An outsourcing HR company which insource staffs into [Xerox (M) Bhd](https://www.xerox.com/) <img src='figure/xerox.jpg' width='30' align='center' valign='middle'> but operate [Apple Inc.](http://www.apple.com)'s <img src='figure/apple.jpg' width='12' align='center' valign='middle'> project.* 
+  - *Resson of Leaving  : Manager Robin Wang Yan Ping say I don't know how to play black magic and fire me. Because he is wizard controlled by HwaCai from No32 Tmn RHU and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
+
+**Mar-2014 to Apr-2014**
+: **Customer Service Executive**; [FujiXerox](https://www.fujixerox.com) <img src='figure/fuji-xerox.jpg' width='50' align='center' valign='middle'>
+  
+  - *Salary             : MYR3000*
+  - *Job Task           : Handling inbound calls from Taiwanese customers' orders and maintenance.*
+  - *Remarks            : A printer company which provides an IT service to customers and few retailer's outlet clients (FamilyMart, 7Eleven, HiLife and OKMart <img src='figure/retailsshop.jpg' width='40' align='center' valign='middle'>).* 
+  - *Resson of Leaving  : Manager Chai Yun Cheah say I don't know how to play black magic and fire me. Because he is wizard controlled by JiGong from WanFosi and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
+
+<br>
 
 #### 3.5 Sportsbook Trading Team Leader - SBSolutionCorp Ltd
 
 **Nov-2013 to Mar-2014**
-: **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/)
+: **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/) <img src='figure/gblinks.jpg' width='32' align='center' valign='middle'>
   
   - *Salary             : MYR3800*
   - *Job Task           : Handling few members to update scores and bets settlement.*
   - *Remarks            : Operation conducting by SB Solutioncorp based in Makati City (Manila, Philippines) but software company GBLinks based in Kowloon (Hong Kong, China)*
-  - *Resson of Leaving  : Superior request hire more team members to lease the job, but I just would like to enjoy simple life office worker, therefore choose resign.*
+  - *Resson of Leaving  : Manager Mike Chong Yu Meng request to hire more team members to lease the job or need to knnow play black magic, but I just would like to enjoy simple life office worker and don't know black magic since I am not wizard, therefore choose resign.*
+
+<br>
 
 #### 3.6 Live Complaince Editor - U-Drive Media Sdn Bhd
 
 **Nov-2012 to May-2013**
-: **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/)
+: **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src='figure/u-drive-media.jpg' width='100' align='center' valign='middle'>
   
   - *Salary             : MYR2450*
   - *Job Task           : Watching and filtering video streaming from abroad prior to play in our country.*
-  - *Remarks            : An outsourcing company which insource staffs into [TM Bhd](https://tm.com.my/#/explore) (Telekom Malaysia).*
-  - *Resson of Leaving  : Director request change to account or marketing department, but marketing is not my strength and I just would like to enjoy simple life office worker, therefore choose resign.*
+  - *Remarks            : An outsourcing company which insource staffs into [TM Bhd](https://tm.com.my/#/explore) (Telekom Malaysia <img src='figure/tm.jpg' width='24' align='center' valign='middle'>).*
+  - *Resson of Leaving  : Director request change to account or marketing department, but marketing is not my strength and I just would like to enjoy simple life office worker, therefore choose resign. Director Kent say I don't know how to play black magic, Chinese need to follow Malay's instruction since Malaysia is not China nor Taiwan and fire me. Because he is wizard controlled by JiGong from WanFosi and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
+
+<br>
 
 #### 3.7 Sportsbook Customer Service - Scicom (MSC) Bhd
 
 **Mar-2008 to Jul-2012**
-: **Outsourcing Business, Customer Service**; [Scicom (MSC) Bhd](http://www.scicom-intl.com/)
+: **Outsourcing Business, Customer Service**; [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src='figure/scicom.jpg' width='30' align='center' valign='middle'>
   
-  - *Salary             : `r paste0('MYR',3250 * 1.125)`*
+  - *Salary             : `r paste0('MYR', 3250 * 1.125)`*
   - *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks*
-  - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s business in Far East Asia.*
+  - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='figure/ladbrokes.jpg' width='26' align='center' valign='middle'> business in Far East Asia.*
   - *Resson of Leaving  : HR request change project since closed project, since there has no sportsbook related project besides Ladbrokes during that time therefore choose resign.*
+
+<br>
 
 #### 3.8 Sportsbook Trading Trainer - Caspo Inc.
 
 **Jul-2006 to Jun-2007**
-: **Online Gambling, Trainer/Trader**; [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/)
+: **Online Gambling, Trainer/Trader**; [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src='figure/caspo.jpg' width='36' align='center' valign='middle'>
   
   - *Salary             : MYR`r 5000 + 220 * readLines('https://www.google.com/finance?q=USDMYR') %>% str_extract_all(pattern = '<span class=bld>.+</span>') %>% unlist %>% str_extract(pattern = '>[^&].+<') %>% str_replace_all('\\<|\\>', '') %>% str_replace('MYR', '') %>% as.numeric` + 3~99months Annual Bonus (SGDxxxxxx)*
   - *Job Task           : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
-  - *Remarks            : A cross-global business group which co-orperate with couples of companies whic based in Hong Kong, Taiwan, IOM (United Kingdom), Cambodia etc.*
+  - *Remarks            : A cross-global business group which co-orperate with couples of companies whic based in Hong Kong, Taiwan, IOM (United Kingdom), Cambodia etc. Few brands like 188Bet <img src='figure/188bet.jpg' width='24' align='center' valign='middle'>, Crown <img src='figure/rcrown.jpg' width='36' align='center' valign='middle'>, etc.*
   - *Resson of Leaving  : Cannot stand for daily 12 to 16 working hours during that time, therefore choose resign.*
+
+<br>
 
 #### 3.9 Sportsbook Senior Trader - Telebiz Sdn Bhd
 
 **Nov-2005 to Jul-2006**
-: **Online Gambling, Team Leader/Senior Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/).
+: **Online Gambling, Team Leader/Senior Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src='figure/telebiz.jpg' width='36' align='center' valign='middle'>
   
   - *Salary             : MYR2450 + Annual Bonus (MYRxxxx)*
   - *Job Task           : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
-  - *Remarks            : An outsourcing company which handle sportsbook trading based Malaysia but co-operates with quite some companies in Hongkongese Citics PLC, Australian Betworks Pty and also UK Starlizard Ltd etc.*
+  - *Remarks            : An outsourcing company which handle sportsbook trading based Malaysia but co-operates with quite some companies in Hongkongese Citics PLC, Australian Betworks Pty  <img src='figure/betworks.jpg' width='42' align='center' valign='middle'> and also UK Starlizard Ltd <img src='figure/starlizard.jpg' width='40' align='center' valign='middle'> etc.*
   - *Resson of Leaving  : Looking for better offer which introduced by friends.*
+
+<br>
 
 ### 4. Technical Experience
 
@@ -198,6 +249,8 @@ Oct-2015 to Jan-2016
 
   - *Learn shiny (exmp: infrastruture, shinyjs, shinydashboard etc), [advance R](https://englianhu.files.wordpress.com/2016/05/advanced-r.pdf) (exmp: environment etc), data visualization (exmp: rCharts, DT, formattable, sparkline etc)*
   - *Learn to read financial report of public listed companies.*
+
+<br>
 
 #### 4.2 Betting Strategy and Model Validation
 
@@ -210,6 +263,24 @@ Oct-2015 to Jan-2016
   - *Natural language analysis on the scrapped livescore data to match the team names from firm A.*
   - *Testing the efficiency of some coding.*
   - *Learn modified Kelly staking model.*
+  - *Learn investment fund management.*
+
+```{r bank-roll2, echo = FALSE, message = FALSE, warning = FALSE, results = 'asis'}
+## Run above codes and save.images() and now directly load for shinyApp use.
+dat <- read_rds(path = './data/shinyData.rds')
+source('./function/buildFund.R', local = TRUE)
+source('./function/plotChart.R', local = TRUE)
+
+SOFund = buildFund(dat)
+
+## Select 1st main-fund and also 1st sub-fund.
+plotFund <- plotChart(SOFund, type = 'single')
+plotFund
+```
+
+*graph 4.2.1 : Sample data of candle stick chart for fund growth of firm A via agent A. (\$1 = \$10,000)*
+
+<br>
 
 #### 4.3 GitHub Blogs
 
@@ -220,6 +291,12 @@ Oct-2015 to Jan-2016
   - *Currently study and learning about* [`jekyll`](https://jekyllrb.com/) *and* [`Hugo`](https://gohugo.io/)*, as well as [InkPaper](http://www.inkpaper.io/) which provides a platform for blogging* .
   - *In order to easier manage my projects and also some comments and daily notes, all my projects will present and post on the coming personal blog.*
   - *All html format files under* <https://github.com/englianhu/englianhu.github.io/> *will be under* <https://englianhu.github.io/>*. For example, the file* <https://github.com/englianhu/englianhu.github.io/ryoeng.html> *will be able to open by enter url* <https://englianhu.github.io/ryoeng.html>
+
+<img src='figure/20160910_121813.gif' width='560' align='center' valign='middle'>
+
+*graph 4.3.1 : Sample data GitHub-Pages Blog.*
+
+<br>
 
 #### 4.4 Introducing ®Studio Server for Data Scientists
 
@@ -232,6 +309,12 @@ Oct-2015 to Jan-2016
   - *Sharing own experience about setup ®Studio server, suggestion and comparison on relevant used apps.*
   - *Quotes:"授人以鱼，不如授人以渔", adviced that we all need to learning step-by-step from the basic but not insider trading.*
 
+<iframe src="https://beta.rstudioconnect.com/englianhu/Introducing-RStudio-Server-for-Data-Scientists-Slides/Introducing-RStudio-Server-for-Data-Scientists-slides.html" style="width:560px; height:500px;" frameborder="0"></iframe>
+
+*slides 4.4.1 : 为数据科学家们量身定做の专业统计软件 — ®Studio服务器*
+
+<br>
+
 #### 4.5 Testing Inefficiency of Sports-Bookmakers by Kelly Model
 
 **Dec-2014 to Dec-2014**
@@ -240,6 +323,46 @@ Oct-2015 to Jan-2016
   - *Apply poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
   - *Rewrite the Kelly model from- **Odds Modelling and Testing Inefficiency of Sports-Bookmakers*- *in R but also optimal value* $r$ *which is stated in* [*Dixon&Coles1996*](http://www.math.ku.dk/~rolf/teaching/thesis/DixonColes.pdf) *to test the efficiency and the returns of investment based from the Poisson model.*
   - *Improve the efficiency of data management and also timing of calculation.*
+
+```{r roi, echo = FALSE, results = 'asis'}
+kellyM <- read.table(file = './data/kellym.txt', header = TRUE) %>% 
+  llply(str_replace_all, '\\$|\\%', '') %>% bind_cols %>% 
+  mutate(Company = factor(Company), 
+         PL.2011.12 = currency(as.numeric(PL.2011.12)), Ratio.2011.12 = percent(Ratio.2011.12) * 0.01, 
+         PL2.2011.12 = currency(as.numeric(PL2.2011.12)), Ratio2.2011.12 = percent(Ratio2.2011.12) * 0.01, 
+         PL.2012.13 = currency(as.numeric(PL.2012.13)), Ratio.2012.13 = percent(Ratio.2012.13) * 0.01, 
+         PL2.2012.13 = currency(as.numeric(PL2.2012.13)), Ratio2.2012.13 = percent(Ratio2.2012.13) * 0.01)
+
+tagList(
+  tags$div(align = "center", 
+           class = "bg-info", 
+           tags$h3(class = "bg-primary", "Return of Investment from Kelly Model"), 
+           tags$h5(align = "center", class = "text-muted", 
+                   "Breakdown of Operators - Profit & Loss on the Odds Price with/without Overrounds.")), 
+  as.htmlwidget(kellyM %>% formattable(list(
+    
+    PL.2011.12 = color_tile('white', 'darkgoldenrod'), 
+    
+    Ratio.2011.12 = formatter('span', style = x ~ formattable::style(color = ifelse(rank(-x) <= 3, 'blue', 'grey')), x ~ sprintf('%1.2f%% (rank: %.0f)', 100 * x, rank(-x))), 
+    
+    PL2.2011.12 = color_tile('white', 'darkgoldenrod'), 
+    
+    Ratio2.2011.12 = formatter('span', style = x ~ formattable::style(color = ifelse(rank(-x) <= 3, 'blue', 'grey')), x ~ sprintf('%1.2f%% (rank: %.0f)', 100 * x, rank(-x))), 
+    
+    PL.2012.13 = color_tile('white', 'darkgoldenrod'), 
+    
+    Ratio.2012.13 = formatter('span', style = x ~ formattable::style(color = ifelse(rank(-x) <= 3, 'blue', 'grey')), x ~ sprintf('%1.2f%% (rank: %.0f)', 100 * x, rank(-x))), 
+    
+    PL2.2012.13 = color_tile('white', 'darkgoldenrod'), 
+    
+    Ratio2.2012.13 = formatter('span', style = x ~ formattable::style(color = ifelse(rank(-x) <= 3, 'blue', 'grey')), x ~ sprintf('%1.2f%% (rank: %.0f)', 100 * x, rank(-x)))
+    
+    ))))
+```
+
+*table 4.5.1 : Breakdown of Operators - Profit & Loss on the Odds Price with/without Overrounds.*
+
+<br>
 
 #### 4.6 Test the Dixon-Coles 1996
 
@@ -251,12 +374,20 @@ Oct-2015 to Jan-2016
   - *I've modified a bit my model by refer the idea* [efficiency of glm packages](http://stackoverflow.com/questions/19532651/benchmarking-logistic-regression-using-glm-fit-bigglm-speedglm-glmnet-libli) *of the author and will review again my model and also write my company website* [Scibrokes® Test Site](http://www.scibrokes.com/Test/) *by Shiny when free.*
   - *Additional information about the website server*, [SoccerMetrics](http://www.soccermetrics.net/), [sotdoc](http://www.sotdoc.co.uk/) *and* [matchOdds.org](http://www.matchodds.org) *might be good referencens for my future writing website. SotDoc roughly brief about the annual returns of* [SmartOdds](http://www.smartodds.co.uk/) *around 2.5~3% while their investment returns rate around 7% per annum comapre to most of sportsbookmakers 0.5% or Crown 1.8%. SoccerMetrics using Python to setup* [Soccermetrics API Python Client](https://github.com/englianhu/soccermetrics-client-py) *while MatchOdds apply Tomcat to manage the data server.*
 
+<iframe src="http://rpubs.com/englianhu/Dixon-Coles1996" style="width:560px; height:500px;" frameborder="0"></iframe>
+
+*website 4.6.1 : Dixon-Coles 1996*
+
+<br>
+
 #### 4.7 WebDriver Dynamic Webpage Scrapping
 
 **Mar-2014 to Apr-2014**
 : [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
   
   - *Relenium and RSelenium published, scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en/) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter the odds price data.*
+
+<br>
 
 #### 4.8 Soccer League Web Scraping
 
@@ -265,6 +396,8 @@ Oct-2015 to Jan-2016
   
   - *Learning programming to gather livescore and also odds price data from* [*Gooooal*](http://app.en.gooooal.com/soccer/statistic/standing.do). *livescore website.*
   - *From the scrapped result, there has alot of errors and wrong result since the static website result unable changed once the score is updated. There might be some postponed matches and also suspended metches. Moreover dynamic webpage request selenium apps, due to Rpy loss maintenance and rPython,RSelenium are not yet published. Therefore forfeit and learn Python and started the- **WebDriver Dynamic Webpage Scrapping**.
+
+<br>
 
 #### 4.9 Odds Modelling and Testing Inefficiency of Sports-Bookmakers
 
@@ -279,6 +412,8 @@ Oct-2015 to Jan-2016
 
 *paper 4.9.1 : ®γσ, Eng Lian Hu (2016)*
 
+<br>
+
 #### 4.10 Apply Poisson regression on sports odds modelling
 
 **Jan-2007 to Jul-2007**
@@ -288,12 +423,14 @@ Oct-2015 to Jan-2016
   - *Due to not master in Macro VBA, I just simply recall the concept which was a spreadsheet VBA Excel file from* [*Paul Judge*](https://www.facebook.com/paul.judge.14) *for data management I accidentlly deleted few years ago.*
   - *Remarks: Stuart and Paul used be Sportsbook consultants to Telebiz and setup own advisor company [SportsTrust](http://www.sportstrust.com) during 2009/2010.*
 
-```{r data, echo=FALSE, results='asis'}
+```{r data, echo = FALSE, results = 'asis'}
 tmline <- data_frame(YearMonth=as.yearmon(c('2003-12', '2004-06', '2005-10', '2005-11', '2005-12', '2006-03', '2006-06', '2006-07', '2006-07', '2006-08', '2006-10', '2007-07', '2007-07', '2008-04', '2010-04', '2010-04', '2012-07', '2013-09', '2013-10', '2013-11', '2014-03', '2014-03', '2014-04', '2014-12', '2015-02', '2015-04', '2015-05', '2015-08', '2015-09', '2015-10', '2016-01', '2016-01', '2016-05')), Event = c('JLPT Level3', 'Joined Forex Trading Line', 'Joined Sportsbook Line', 'Learn Korean Language', 'Transfered to Purchasing Deprt', 'Learn Poisson Model', 'Conduct Corners BIR', 'Resigned from Telebiz Sdn Bhd', 'Join Caspo Inc', 'Transfered to Training Deprt', 'Learn Deutsch Language', 'Write own Basic Poisson Model', 'Resigned from Caspo Inc', 'Joined Scicom (MSC) Bhd', 'Learn Sportsbook Line and Odds Modelling thoroughly', 'Odds Modelling and Testing Inefficiency of Sportsbookmakers', 'Resigned from Scicom (MSC) Bhd', 'Soccer League Web Scrapping', 'Registered Scibrokes Trading Enterprise', 'Join SB Solutioncorp', 'Resigned from SB Solutioncorp', 'Test Dixon-Coles1996 model', 'WebDriver Dynamic Webpage Scrapping', 'Testing Inefficiency of Sports-Bookmakers by Kelly Model', 'Joined IdealSeed Sdn Bhd', 'Resigned from IdealSeed Sdn Bhd', 'Joined OneMedia Sdn Bhd', 'Professional Certificate - Specialization Data Science (Python)', 'Resigned from OneMedia Sdn Bhd', 'Joined Global Solution Sdn Bhd', 'Resigned from Global Solution Sdn Bhd', 'Introducing ®Studio Server for Data Scientists', 'Professional Certificate - Specialization in Data Science')) %>% mutate(No = seq(nrow(.))) %>% select(No, YearMonth, Event) %>% mutate(YearMonth = as.Date(paste0('01', YearMonth), format = '%d%b%Y'))
 #'@ tmline <- data.frame(No = seq(nrow(tmline)), tmline) %>% tbl_df %>% mutate(YearMonth = as.Date(paste0("01", tmline$YearMonth), format = "%d%b%Y"))
-#'@ write.csv(tmline, file = paste0(getwd(), '/dataset/dfm.csv'))
-#'@ tmline <- read.csv(file = paste0(getwd(), '/dataset/dfm.csv')) %>% data_frame
+#'@ write.csv(tmline, file = paste0(getwd(), '/data/dfm.csv'))
+#'@ tmline <- read.csv(file = paste0(getwd(), '/data/dfm.csv')) %>% data_frame
 ```
+
+<br>
 
 ### 5. Time Line
 
@@ -311,21 +448,42 @@ plot(GM)
 options(op)
 ```
 
+<br>
+
 ### 6. Skill
 
 ```{r skill, echo = FALSE, result = 'asis'}
 skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics'), c(9, 8, 3, 4, 9, 9, 7, 7, 6))
-names(skill) <- c('Skill', 'Level (from newbie 1 to expert 10)')
-skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+names(skill) <- c('Skill', 'Level')
+
+#'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+
+tagList(
+  tags$div(align = "center", 
+           class = "bg-info", 
+           tags$h3(class = "bg-primary", "Skill and Expertise"), 
+           tags$h5(align = "center", class = "text-muted", 
+                   "Skill and Expertise Rating Level (from newbie 1 to expert 10)")), 
+  as.htmlwidget(skill %>% formattable(list(
+    Level = color_tile('white', 'darkgoldenrod')
+    ))))
 ```
+
+*table 6.1 : Skill and Expertise*
+
+<br>
 
 ### 7. Other/Miscellaneous
 
-  I wrote an article to share about [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='figure/rstudio.jpg' width='24'> and <s>currently registered for studying at [Master of Computer Science in Data Science](http://cs.illinois.edu/prospective-students/graduate-students/mcs-ds-apply-now) and [Bachelor of Science in Computer Science](http://www.uopeople.edu/programs/bachelor-of-science-computer-science/).</s> currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.].
+  I wrote an article to share about [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='figure/rstudio.jpg' width='24'> and <s>currently registered for studying at [Master of Computer Science in Data Science](http://cs.illinois.edu/prospective-students/graduate-students/mcs-ds-apply-now) and [Bachelor of Science in Computer Science](http://www.uopeople.edu/programs/bachelor-of-science-computer-science/).</s> currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though.
+  
+  I will wrote a **shinyapp** cv some other days to easy for categorize and viewing.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bFDTd4eYMCY" frameborder="0" allowfullscreen></iframe>
 
   You are welcome to own yours by refer to my [Personal WP Blog](https://englianhu.wordpress.com) (will be migrated to Jekyll/Hugo some other days). You are welcome to contact me at <englianhu@gmail.com>.
+
+<br>
 
 ### 8. Social Network
 
@@ -357,7 +515,11 @@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='figure/PLounge_36x36.jpg' height='48'></a>
 <a href='http://www.sportsbookreview.com/forum/'><img src='figure/SBR_36x36.jpg' height='48'></a>
 
+<br>
+
 ## Appendices
+
+<br>
 
 ### 9. Documenting File Creation 
 
@@ -387,7 +549,20 @@ data.frame(Sys.info = Sys.info()) %>% formattable %>% as.htmlwidget
 rm(sys1)
 ```
 
-### 10. References
+<br>
+
+### 10. Speech and Blooper
+
+  I tried to refer to some articles and embed the `GitHub` main page (readme.html) to ease for reading but doesn't work.
+  
+  - [Is there a way to embed github code into an iframe?](http://stackoverflow.com/questions/28338017/is-there-a-way-to-embed-github-code-into-an-iframe)
+  - [Github gist page won't load in iframe](http://stackoverflow.com/questions/7649361/github-gist-page-wont-load-in-iframe)
+
+> <iframe src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==" style="width:560px; height:500px;" frameborder="0"></iframe>
+
+<br>
+
+### 11. References
 
   - You are feel free to create  your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
   - `rticles` package version: `r packageVersion("rticles")`
@@ -396,6 +571,8 @@ rm(sys1)
   - Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
   - You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
   - There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+
+<br>
 
 **Powered by - Copyright© Intellectual Property Rights of <img src='figure/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
 
