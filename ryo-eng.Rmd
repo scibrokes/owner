@@ -1,7 +1,8 @@
 ---
 title: "®γσ, ENG LIAN HU"
-subtitle: "Personal Profile"
-author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='figure/ENG.jpg' width='24' align='center' valign='middle'> <img src='figure/my-passport-size-photo.jpg' width='24' align='center' valign='middle'> 白戸則道®"
+author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''figure/ENG.jpg''
+  width=''24'' align=''center'' valign=''middle''> <img src=''figure/my-passport-size-photo.jpg''
+  width=''24'' align=''center'' valign=''middle''> 白戸則道®'
 date: "10/22/1984"
 output:
   html_document:
@@ -9,9 +10,9 @@ output:
     fig_height: 3
     fig_width: 5
     highlight: haddock
+    self_contained: no
     theme: cerulean
     toc: yes
-    self_contained : FALSE
   pdf_document:
     fig_caption: yes
     fig_height: 3
@@ -20,6 +21,163 @@ output:
     toc: yes
   word_document:
     fig_caption: yes
+subtitle: Personal Profile
+resource_files:
+- figure/188bet.jpg
+- figure/20160910_121813.gif
+- figure/aboutme.jpg
+- figure/aboutme_36x36.jpg
+- figure/apple.jpg
+- figure/bettingforum.jpg
+- figure/bettingforum_36x36.jpg
+- figure/betworks.jpg
+- figure/biostatistic.jpg
+- figure/biostatistic_36x36.jpg
+- figure/bitbucket.jpg
+- figure/bitbucket_36x36.jpg
+- figure/caspo.jpg
+- figure/centOS.jpg
+- figure/centOS_36x36.jpg
+- figure/cos.jpg
+- figure/cos_36x36.jpg
+- figure/coursera.jpg
+- figure/coursera_36x36.jpg
+- figure/csdn.jpg
+- figure/csdn_36x36.jpg
+- figure/disqus.jpg
+- figure/disqus_36x36.jpg
+- figure/dwang.jpg
+- figure/dwang_36x36.jpg
+- figure/ENG.jpg
+- figure/facebook.jpg
+- figure/facebook_36x36.jpg
+- figure/facebook2.jpg
+- figure/facebook2_36x36.jpg
+- figure/fuji-xerox.jpg
+- figure/gblinks.JPG
+- figure/github.jpg
+- figure/github_36x36.jpg
+- figure/github2.jpg
+- figure/github2_36x36.jpg
+- figure/github3.jpg
+- figure/github3_36x36.jpg
+- figure/gplus.jpg
+- figure/gplus_36x36.jpg
+- figure/hot.jpg
+- figure/idealseed.jpg
+- figure/instagram.jpg
+- figure/instagram_36x36.jpg
+- figure/instagram2.jpg
+- figure/instagram2_36x36.jpg
+- figure/instagram3.jpg
+- figure/instagram3_36x36.jpg
+- figure/JEES.gif
+- figure/JFKL.jpg
+- figure/jg.jpg
+- figure/jg_36x36.jpg
+- figure/jhu.jpg
+- figure/ladbrokes.jpg
+- figure/linkedin.jpg
+- figure/linkedin_36x36.jpg
+- figure/LQ.jpg
+- figure/LQ_36x36.jpg
+- figure/LQ2.jpg
+- figure/LQ2_36x36.jpg
+- figure/manpower.jpg
+- figure/mas.jpg
+- figure/mathchina.jpg
+- figure/mathchina_36x36.jpg
+- figure/me.JPG
+- figure/mindpearl01.jpg
+- figure/mindpearl02.jpg
+- figure/my-passport-size-photo.jpg
+- figure/oda-army.jpg
+- figure/Orchard.jpg
+- figure/plotly.jpg
+- figure/plotly_36x36.jpg
+- figure/PLounge.jpg
+- figure/PLounge_36x36.jpg
+- figure/QQ wb.jpg
+- figure/QQ wb_36x36.jpg
+- figure/QQ.jpg
+- figure/QQ_36x36.jpg
+- figure/Qzone.jpg
+- figure/Qzone_36x36.jpg
+- figure/rcrown.jpg
+- figure/retailsshop.jpg
+- figure/rnable.jpg
+- figure/rnable_36x36.jpg
+- figure/rstudio.jpg
+- figure/RXforum.jpg
+- figure/RXforum_36x36.jpg
+- figure/RYO-Photo.jpg
+- figure/SBR.jpg
+- figure/SBR_36x36.jpg
+- figure/Scibrokes.png
+- figure/Scibrokes®-TonyStark®.jpg
+- figure/Scibrokes-TonyStark.png
+- figure/scicom.jpg
+- figure/ShirotoNorimichi.jpg
+- figure/ShirotoNorimichi2.jpg
+- figure/skype.jpg
+- figure/skype_36x36.jpg
+- figure/social.jpg
+- figure/social_36x34.jpg
+- figure/starlizard.jpg
+- figure/talkstats.jpg
+- figure/talkstats_36x36.jpg
+- figure/telebiz.jpg
+- figure/tm.jpg
+- figure/Thumbs.db
+- figure/TonyStark.png
+- figure/twitter.jpg
+- figure/twitter_36x36.jpg
+- figure/u-drive-media.jpg
+- figure/um.jpg
+- figure/weibo.jpg
+- figure/weibo_36x36.jpg
+- figure/wordpress.jpg
+- figure/wordpress_36x36.jpg
+- figure/xerox.jpg
+- figure/zeef.jpg
+- figure/zeef_36x36.jpg
+- data/dfm.csv
+- data/kellym.txt
+- data/shinyData.rds
+- function/buildFund.R
+- function/libs.R
+- function/plotChart.R
+- music/bigmoney.mp3
+- documents/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
+- documents/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
+- documents/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
+- documents/Coursera Illinous - Improving Business Finances and Operations - 02 Managerial
+  Accounting - Tools for Facilitating and Guiding Business Decisions.pdf
+- documents/Coursera Illinous - Improving Business Finances and Operations - 04 Financial
+  Evaluation and Strategy - Corporate Finance.pdf
+- documents/Coursera Illinous - Improving Business Finances and Operations - 05 Operations
+  Management.pdf
+- documents/Coursera Johns Hopkins - 01 Data Science Toolbox 2014.pdf
+- documents/Coursera Johns Hopkins - 02 R Programming.pdf
+- documents/Coursera Johns Hopkins - 03 Getting and Cleaning Data 2014.pdf
+- documents/Coursera Johns Hopkins - 04 Exploratory Data Analysis.pdf
+- documents/Coursera Johns Hopkins - 05 Reproducible Research.pdf
+- documents/Coursera Johns Hopkins - 06 Statistical Inference.pdf
+- documents/Coursera Johns Hopkins - 07 Regression Models.pdf
+- documents/Coursera Johns Hopkins - 08 Pratical Machine Learning.pdf
+- documents/Coursera Johns Hopkins - 09 Develeoping Data Products.pdf
+- documents/Coursera Johns Hopkins - 10 Data Science Capstone.pdf
+- documents/Coursera Johns Hopkins - 11 Completed 10 Courses in Data Science.pdf
+- documents/Coursera Michigan - Programming for Everybody (Python).pdf
+- documents/DataCamp - Data Analysis and Statistical Inference.pdf
+- documents/DataCamp - Intro to Computational Finance with R.pdf
+- documents/DataCamp - Introduction to R.pdf
+- documents/DataCamp - Kaggle R Tutorial on Machine Learning.pdf
+- documents/Google Analytics.pdf
+- documents/JLPT Certificate.jpg
+- documents/Scicom Appreciation Certificate.jpg
+- documents/Scicom CS Workshop.jpg
+- documents/SPM Certificate.jpg
 ---
 
 ## Curriculum Vitae
@@ -213,6 +371,10 @@ Oct-2015 to Jan-2016
   - *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks*
   - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='figure/ladbrokes.jpg' width='26' align='center' valign='middle'> business in Far East Asia.*
   - *Resson of Leaving  : HR request change project since closed project, since there has no sportsbook related project besides Ladbrokes during that time therefore choose resign.*
+
+<img src='documents/Scicom%20Appreciation%20Certificate.jpg' width='560' align='center' valign='middle'>
+
+<img src='documents/Scicom%20CS%20Workshop.jpg' width='560' align='center' valign='middle'>
 
 <br>
 

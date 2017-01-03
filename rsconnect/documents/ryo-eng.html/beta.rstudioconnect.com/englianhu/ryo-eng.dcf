@@ -3,9 +3,8 @@ title: ryo-eng
 account: englianhu
 server: beta.rstudioconnect.com
 appId: 800
-bundleId: 4773
+bundleId: 4768
 url: https://beta.rstudioconnect.com/englianhu/ryo-eng/
-when: 1483442821.86929
+when: 1483438841.67503
 asMultiple: TRUE
-asStatic: FALSE
-ignoredFiles: ryo-eng-lh.Rmd
+asStatic: TRUE
