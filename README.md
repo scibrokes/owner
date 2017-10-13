@@ -8,8 +8,8 @@
 
 ### Personal CV : 
 
-  - [$®γσ$ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST), (The [Alternative link](http://rpubs.com/englianhu/ryoeng) might broken)
-  - [$®γσ$ , Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/) (updated at 2016-05-15 00:39:25 JST)
+  - [®γσ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST), (The [Alternative link](http://rpubs.com/englianhu/ryoeng) might broken)
+  - [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/) (updated at 2016-05-15 00:39:25 JST)
 
 ### Blog
 
@@ -24,7 +24,7 @@ You are welcome to browse my personal blog :
 
 <img src='figure/RYO-Photo.jpg' width='120' align='center' valign='middle'>
 
-$®γσ$ , Eng Lian Hu
+®γσ , Eng Lian Hu
 
 <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 
@@ -47,7 +47,7 @@ $®γσ$ , Eng Lian Hu
 
 <br>
 
-You can refer to [$®γσ$ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST) for more information.
+You can refer to [®γσ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST) for more information.
 
 <br>
 

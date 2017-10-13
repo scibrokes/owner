@@ -18,10 +18,6 @@ body <- dashboardBody(
              tabPanel('简体中文',
                       plotOutput('plot3'),value=3),
              tabPanel('繁體中文',
-                      plotOutput('plot3'),value=3)，
-             tabPanel('Hanguk',
-                      plotOutput('plot3'),value=3),
-             tabPanel('Deutch',
                       plotOutput('plot3'),value=3)))))
 
 dashboardPage(

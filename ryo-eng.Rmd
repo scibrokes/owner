@@ -444,7 +444,22 @@ plotFund
 
 <br>
 
-#### 4.3 GitHub Blogs
+#### 4.3 binary.com Technical Assessment
+
+**Jan-2017 to Oct-2017**
+: [**binary.com Technical Assessment**](https://github.com/englianhu/binary.com-interview-question)
+  
+  - *Learn about quantitative analysis.*
+  - *time series modelling in forex.*
+  - *Financial betting products modelling and also betting strategy.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T6U3EQunEgE" frameborder="0" allowfullscreen></iframe>
+
+*video 4.3.1 : Forex forecasting and financial betting.*
+
+<br>
+
+#### 4.4 GitHub Blogs
 
 **Jan-2016 to Present**
 : [**GitHub Pages**](https://github.com/englianhu/englianhu.github.io)
@@ -456,11 +471,11 @@ plotFund
 
 <img src='figure/20160910_121813.gif' width='560' align='center' valign='middle'>
 
-*graph 4.3.1 : Sample data GitHub-Pages Blog.*
+*graph 4.4.1 : Sample data GitHub-Pages Blog.*
 
 <br>
 
-#### 4.4 Introducing ®Studio Server for Data Scientists
+#### 4.5 Introducing ®Studio Server for Data Scientists
 
 **Jan-2016 to Jan-2016**
 : [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
@@ -473,11 +488,11 @@ plotFund
 
 <iframe src="https://beta.rstudioconnect.com/englianhu/Introducing-RStudio-Server-for-Data-Scientists-Slides/Introducing-RStudio-Server-for-Data-Scientists-slides.html" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*slides 4.4.1 : 为数据科学家们量身定做の专业统计软件 — ®Studio服务器*
+*slides 4.5.1 : 为数据科学家们量身定做の专业统计软件 — ®Studio服务器*
 
 <br>
 
-#### 4.5 Testing Inefficiency of Sports-Bookmakers by Kelly Model
+#### 4.6 Testing Inefficiency of Sports-Bookmakers by Kelly Model
 
 **Dec-2014 to Dec-2014**
 : [**Testing Inefficiency of Sports-Bookmakers by Kelly Model**](https://github.com/Scibrokes/kelly-criterion)
@@ -522,11 +537,11 @@ tagList(
     ))))
 ```
 
-*table 4.5.1 : Breakdown of Operators - Profit & Loss on the Odds Price with/without Overrounds.*
+*table 4.6.1 : Breakdown of Operators - Profit & Loss on the Odds Price with/without Overrounds.*
 
 <br>
 
-#### 4.6 Test the Dixon-Coles 1996
+#### 4.7 Test the Dixon-Coles 1996
 
 **Feb-2014 to Mar-2014**
 : [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
@@ -538,11 +553,11 @@ tagList(
 
 <iframe src="http://rpubs.com/englianhu/Dixon-Coles1996" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*website 4.6.1 : Dixon-Coles 1996*
+*website 4.7.1 : Dixon-Coles 1996*
 
 <br>
 
-#### 4.7 WebDriver Dynamic Webpage Scrapping
+#### 4.8 WebDriver Dynamic Webpage Scrapping
 
 **Mar-2014 to Apr-2014**
 : [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
@@ -551,7 +566,7 @@ tagList(
 
 <br>
 
-#### 4.8 Soccer League Web Scraping
+#### 4.9 Soccer League Web Scraping
 
 **Aug-2013 to Sep-2013**
 : [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
@@ -561,7 +576,7 @@ tagList(
 
 <br>
 
-#### 4.9 Odds Modelling and Testing Inefficiency of Sports-Bookmakers
+#### 4.10 Odds Modelling and Testing Inefficiency of Sports-Bookmakers
 
 **Apr-2008 to Apr-2010**
 : [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
@@ -572,11 +587,11 @@ tagList(
   
 <iframe src="https://raw.githubusercontent.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers/master/Odds%20Modelling%20and%20Testing%20Inefficiency%20of%20Sports-Bookmakers/Odds_Modelling_and_Testing_Inefficiency_of_Sports-Bookmakers.pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*paper 4.9.1 : ®γσ, Eng Lian Hu (2016)*
+*paper 4.10.1 : ®γσ, Eng Lian Hu (2016)*
 
 <br>
 
-#### 4.10 Apply Poisson regression on sports odds modelling
+#### 4.11 Apply Poisson regression on sports odds modelling
 
 **Jan-2007 to Jul-2007**
 : [**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
@@ -586,7 +601,7 @@ tagList(
   - *Remarks: Stuart and Paul used be Sportsbook consultants to Telebiz and setup own advisor company [SportsTrust](http://www.sportstrust.com) during 2009/2010.*
 
 ```{r data, echo = FALSE, results = 'asis'}
-tmline <- data_frame(YearMonth=as.yearmon(c('2003-12', '2004-06', '2005-10', '2005-11', '2005-12', '2006-03', '2006-06', '2006-07', '2006-07', '2006-08', '2006-10', '2007-07', '2007-07', '2008-04', '2010-04', '2010-04', '2012-07', '2013-09', '2013-10', '2013-11', '2014-03', '2014-03', '2014-04', '2014-12', '2015-02', '2015-04', '2015-05', '2015-08', '2015-09', '2015-10', '2016-01', '2016-01', '2016-05')), Event = c('JLPT Level3', 'Joined Forex Trading Line', 'Joined Sportsbook Line', 'Learn Korean Language', 'Transfered to Purchasing Deprt', 'Learn Poisson Model', 'Conduct Corners BIR', 'Resigned from Telebiz Sdn Bhd', 'Join Caspo Inc', 'Transfered to Training Deprt', 'Learn Deutsch Language', 'Write own Basic Poisson Model', 'Resigned from Caspo Inc', 'Joined Scicom (MSC) Bhd', 'Learn Sportsbook Line and Odds Modelling thoroughly', 'Odds Modelling and Testing Inefficiency of Sportsbookmakers', 'Resigned from Scicom (MSC) Bhd', 'Soccer League Web Scrapping', 'Registered Scibrokes Trading Enterprise', 'Join SB Solutioncorp', 'Resigned from SB Solutioncorp', 'Test Dixon-Coles1996 model', 'WebDriver Dynamic Webpage Scrapping', 'Testing Inefficiency of Sports-Bookmakers by Kelly Model', 'Joined IdealSeed Sdn Bhd', 'Resigned from IdealSeed Sdn Bhd', 'Joined OneMedia Sdn Bhd', 'Professional Certificate - Specialization Data Science (Python)', 'Resigned from OneMedia Sdn Bhd', 'Joined Global Solution Sdn Bhd', 'Resigned from Global Solution Sdn Bhd', 'Introducing ®Studio Server for Data Scientists', 'Professional Certificate - Specialization in Data Science')) %>% mutate(No = seq(nrow(.))) %>% select(No, YearMonth, Event) %>% mutate(YearMonth = as.Date(paste0('01', YearMonth), format = '%d%b%Y'))
+tmline <- data_frame(YearMonth=as.yearmon(c('2003-12', '2004-06', '2005-10', '2005-11', '2005-12', '2006-03', '2006-06', '2006-07', '2006-07', '2006-08', '2006-10', '2007-07', '2007-07', '2008-04', '2010-04', '2010-04', '2012-07', '2013-09', '2013-10', '2013-11', '2014-03', '2014-03', '2014-04', '2014-12', '2015-02', '2015-04', '2015-05', '2015-08', '2015-09', '2015-10', '2016-01', '2016-01', '2016-05', '2017-10')), Event = c('JLPT Level3', 'Joined Forex Trading Line', 'Joined Sportsbook Line', 'Learn Korean Language', 'Transfered to Purchasing Deprt', 'Learn Poisson Model', 'Conduct Corners BIR', 'Resigned from Telebiz Sdn Bhd', 'Join Caspo Inc', 'Transfered to Training Deprt', 'Learn Deutsch Language', 'Write own Basic Poisson Model', 'Resigned from Caspo Inc', 'Joined Scicom (MSC) Bhd', 'Learn Sportsbook Line and Odds Modelling thoroughly', 'Odds Modelling and Testing Inefficiency of Sportsbookmakers', 'Resigned from Scicom (MSC) Bhd', 'Soccer League Web Scrapping', 'Registered Scibrokes Trading Enterprise', 'Join SB Solutioncorp', 'Resigned from SB Solutioncorp', 'Test Dixon-Coles1996 model', 'WebDriver Dynamic Webpage Scrapping', 'Testing Inefficiency of Sports-Bookmakers by Kelly Model', 'Joined IdealSeed Sdn Bhd', 'Resigned from IdealSeed Sdn Bhd', 'Joined OneMedia Sdn Bhd', 'Professional Certificate - Specialization Data Science (Python)', 'Resigned from OneMedia Sdn Bhd', 'Joined Global Solution Sdn Bhd', 'Resigned from Global Solution Sdn Bhd', 'Introducing ®Studio Server for Data Scientists', 'Professional Certificate - Specialization in Data Science', 'binary.com Technical Assessment')) %>% mutate(No = seq(nrow(.))) %>% select(No, YearMonth, Event) %>% mutate(YearMonth = as.Date(paste0('01', YearMonth), format = '%d%b%Y'))
 #'@ tmline <- data.frame(No = seq(nrow(tmline)), tmline) %>% tbl_df %>% mutate(YearMonth = as.Date(paste0("01", tmline$YearMonth), format = "%d%b%Y"))
 #'@ write.csv(tmline, file = paste0(getwd(), '/data/dfm.csv'))
 #'@ tmline <- read.csv(file = paste0(getwd(), '/data/dfm.csv')) %>% data_frame
