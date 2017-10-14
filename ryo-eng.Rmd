@@ -178,6 +178,9 @@ resource_files:
 - documents/Scicom Appreciation Certificate.jpg
 - documents/Scicom CS Workshop.jpg
 - documents/SPM Certificate.jpg
+- documents/Ryo Eng_Introduction to Machine Learning for Trading_certificate.pdf
+- documents/Ryo Eng_Quantitative Trading Strategies and Models_certificate.pdf
+- documents/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
 ---
 
 ## Curriculum Vitae
