@@ -220,7 +220,18 @@ suppressAll(source('function/libs.R'))
 
 ### 2. Education
 
-#### 2.1 Professional Certificate, Specialization Data Science (R Programming)
+#### 2.1 Professional Certificate, Algorithmic Trading
+
+**Oct-2017 to Oct-2017**
+:  **Professional Certificate, Executive Programme in Algorithmic Trading (EPAT™)** - [QuantInsti™ (QI)](https://www.quantinsti.com/) <img src='figure/qi-pioneer-logo.png' width='60' align='center' valign='middle'>
+  
+  - *01 Course title : [Introduction to Machine Learning for Trading](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Introduction%20to%20Machine%20Learning%20for%20Trading_certificate.pdf)*
+  - *02 Course title : [Quantitative Trading Strategies and Models](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Quantitative%20Trading%20Strategies%20and%20Models_certificate.pdf)*
+  - *03 Course title : [Trading using Options Sentiment Indicators](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%2C%20Eng%20Lian%20Hu_Trading%20using%20Options%20Sentiment%20Indicators_certificate.pdf)*
+
+<br>
+
+#### 2.2 Professional Certificate, Specialization Data Science (R Programming)
 
 **Apr-2014 to May-2016**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='figure/jhu.jpg' width='60' align='center' valign='middle'>
@@ -243,7 +254,7 @@ suppressAll(source('function/libs.R'))
 
 <br>
 
-#### 2.2 Professional Certificate, Specialization Data Science (Python)
+#### 2.3 Professional Certificate, Specialization Data Science (Python)
 
 **Jun-2015 to Aug-2015**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='figure/um.jpg' width='14' align='center' valign='middle'>
@@ -256,7 +267,7 @@ suppressAll(source('function/libs.R'))
 
 <br>
 
-#### 2.3 Professional Certificate, Japanese Language Profeciency Test
+#### 2.4 Professional Certificate, Japanese Language Profeciency Test
 
 **Mar-2002 to Dec-2003**
 :  **Professional Certificate, Japanese Language Profeciency Test**; [JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='figure/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='figure/JEES.gif' width='68' align='center' valign='middle'>
