@@ -220,7 +220,7 @@ suppressAll(source('function/libs.R'))
 
 ### 2. Education
 
-#### 2.1 Professional Certificate, Algorithmic Trading
+#### 2.1 Professional Certificate, Algorithmic Trading (Python)
 
 **Oct-2017 to Oct-2017**
 :  **Professional Certificate, Executive Programme in Algorithmic Trading (EPAT™)** - [QuantInsti™ (QI)](https://www.quantinsti.com/) <img src='figure/qi-pioneer-logo.png' width='60' align='center' valign='middle'>
@@ -428,9 +428,24 @@ Oct-2015 to Jan-2016
 
 <br>
 
-#### 4.2 Betting Strategy and Model Validation
+#### 4.2 binary.com Technical Assessment
 
-**Jul-2015 to Present**
+**Jan-2017 to Oct-2017**
+: [**binary.com Technical Assessment**](https://github.com/englianhu/binary.com-interview-question)
+  
+  - *Learn about quantitative analysis.*
+  - *time series modelling in forex.*
+  - *Financial betting products modelling and also betting strategy.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T6U3EQunEgE" frameborder="0" allowfullscreen></iframe>
+
+*video 4.2.1 : Forex forecasting and financial betting.*
+
+<br>
+
+#### 4.3 Betting Strategy and Model Validation
+
+**Jul-2015 to Oct-2017**
 : [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
   
   - *Learn PhantomJS for background wbdriver, markdown, setup RStudio server. However RSelenium and PhamtonJS faced some error and then just simply apply rvest to harvest the data from spbo without odds price.*
@@ -454,22 +469,7 @@ plotFund <- plotChart(SOFund, type = 'single')
 plotFund
 ```
 
-*graph 4.2.1 : Sample data of candle stick chart for fund growth of firm A via agent A. (\$1 = \$10,000)*
-
-<br>
-
-#### 4.3 binary.com Technical Assessment
-
-**Jan-2017 to Oct-2017**
-: [**binary.com Technical Assessment**](https://github.com/englianhu/binary.com-interview-question)
-  
-  - *Learn about quantitative analysis.*
-  - *time series modelling in forex.*
-  - *Financial betting products modelling and also betting strategy.*
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T6U3EQunEgE" frameborder="0" allowfullscreen></iframe>
-
-*video 4.3.1 : Forex forecasting and financial betting.*
+*graph 4.3.1 : Sample data of candle stick chart for fund growth of firm A via agent A. (\$1 = \$10,000)*
 
 <br>
 
