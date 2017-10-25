@@ -46,7 +46,7 @@ plotChart <- function(Fund, type = 'multiple', event = NULL, event.dates = NULL,
         list(title = list(text = NULL), height = '25%', top = '75%')
       ) %>% 
       # series :D
-      hc_add_series_ohlc(Fund, yAxis = 0, name = fname) %>% 
+      hc_add_series(Fund, yAxis = 0, name = fname) %>% 
       hc_add_series(FUND.SMA.10,  yAxis = 0, name = 'Fast MA') %>% 
       hc_add_series(FUND.SMA.200, yAxis = 0, name = 'Slow MA') %>% 
       hc_add_series(Fund[,names(Vo(Fund))], color = 'gray', yAxis = 1, name = 'Volume', 

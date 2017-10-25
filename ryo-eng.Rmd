@@ -1,10 +1,18 @@
 ---
 title: "®γσ, ENG LIAN HU"
-author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''figure/ENG.jpg''
-  width=''24'' align=''center'' valign=''middle''> <img src=''figure/my-passport-size-photo.jpg''
+author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg''
+  width=''24'' align=''center'' valign=''middle''> <img src=''www/my-passport-size-photo.jpg''
   width=''24'' align=''center'' valign=''middle''> 白戸則道®'
 date: "10/22/1984"
 output:
+  word_document:
+    fig_caption: yes
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
+    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -13,134 +21,127 @@ output:
     self_contained: no
     theme: cerulean
     toc: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
-  word_document:
-    fig_caption: yes
+always_allow_html: yes
 subtitle: Personal Profile
 resource_files:
-- figure/188bet.jpg
-- figure/20160910_121813.gif
-- figure/aboutme.jpg
-- figure/aboutme_36x36.jpg
-- figure/apple.jpg
-- figure/bettingforum.jpg
-- figure/bettingforum_36x36.jpg
-- figure/betworks.jpg
-- figure/biostatistic.jpg
-- figure/biostatistic_36x36.jpg
-- figure/bitbucket.jpg
-- figure/bitbucket_36x36.jpg
-- figure/caspo.jpg
-- figure/centOS.jpg
-- figure/centOS_36x36.jpg
-- figure/cos.jpg
-- figure/cos_36x36.jpg
-- figure/coursera.jpg
-- figure/coursera_36x36.jpg
-- figure/csdn.jpg
-- figure/csdn_36x36.jpg
-- figure/disqus.jpg
-- figure/disqus_36x36.jpg
-- figure/dwang.jpg
-- figure/dwang_36x36.jpg
-- figure/ENG.jpg
-- figure/facebook.jpg
-- figure/facebook_36x36.jpg
-- figure/facebook2.jpg
-- figure/facebook2_36x36.jpg
-- figure/fuji-xerox.jpg
-- figure/gblinks.JPG
-- figure/github.jpg
-- figure/github_36x36.jpg
-- figure/github2.jpg
-- figure/github2_36x36.jpg
-- figure/github3.jpg
-- figure/github3_36x36.jpg
-- figure/gplus.jpg
-- figure/gplus_36x36.jpg
-- figure/hot.jpg
-- figure/idealseed.jpg
-- figure/instagram.jpg
-- figure/instagram_36x36.jpg
-- figure/instagram2.jpg
-- figure/instagram2_36x36.jpg
-- figure/instagram3.jpg
-- figure/instagram3_36x36.jpg
-- figure/JEES.gif
-- figure/JFKL.jpg
-- figure/jg.jpg
-- figure/jg_36x36.jpg
-- figure/jhu.jpg
-- figure/ladbrokes.jpg
-- figure/linkedin.jpg
-- figure/linkedin_36x36.jpg
-- figure/LQ.jpg
-- figure/LQ_36x36.jpg
-- figure/LQ2.jpg
-- figure/LQ2_36x36.jpg
-- figure/manpower.jpg
-- figure/mas.jpg
-- figure/mathchina.jpg
-- figure/mathchina_36x36.jpg
-- figure/me.JPG
-- figure/mindpearl01.jpg
-- figure/mindpearl02.jpg
-- figure/my-passport-size-photo.jpg
-- figure/oda-army.jpg
-- figure/Orchard.jpg
-- figure/plotly.jpg
-- figure/plotly_36x36.jpg
-- figure/PLounge.jpg
-- figure/PLounge_36x36.jpg
-- figure/QQ wb.jpg
-- figure/QQ wb_36x36.jpg
-- figure/QQ.jpg
-- figure/QQ_36x36.jpg
-- figure/Qzone.jpg
-- figure/Qzone_36x36.jpg
-- figure/rcrown.jpg
-- figure/retailsshop.jpg
-- figure/rnable.jpg
-- figure/rnable_36x36.jpg
-- figure/rstudio.jpg
-- figure/RXforum.jpg
-- figure/RXforum_36x36.jpg
-- figure/RYO-Photo.jpg
-- figure/SBR.jpg
-- figure/SBR_36x36.jpg
-- figure/Scibrokes.png
-- figure/Scibrokes®-TonyStark®.jpg
-- figure/Scibrokes-TonyStark.png
-- figure/scicom.jpg
-- figure/ShirotoNorimichi.jpg
-- figure/ShirotoNorimichi2.jpg
-- figure/skype.jpg
-- figure/skype_36x36.jpg
-- figure/social.jpg
-- figure/social_36x34.jpg
-- figure/starlizard.jpg
-- figure/talkstats.jpg
-- figure/talkstats_36x36.jpg
-- figure/telebiz.jpg
-- figure/tm.jpg
-- figure/Thumbs.db
-- figure/TonyStark.png
-- figure/twitter.jpg
-- figure/twitter_36x36.jpg
-- figure/u-drive-media.jpg
-- figure/um.jpg
-- figure/weibo.jpg
-- figure/weibo_36x36.jpg
-- figure/wordpress.jpg
-- figure/wordpress_36x36.jpg
-- figure/xerox.jpg
-- figure/zeef.jpg
-- figure/zeef_36x36.jpg
+- www/188bet.jpg
+- www/20160910_121813.gif
+- www/aboutme.jpg
+- www/aboutme_36x36.jpg
+- www/apple.jpg
+- www/bettingforum.jpg
+- www/bettingforum_36x36.jpg
+- www/betworks.jpg
+- www/biostatistic.jpg
+- www/biostatistic_36x36.jpg
+- www/bitbucket.jpg
+- www/bitbucket_36x36.jpg
+- www/caspo.jpg
+- www/centOS.jpg
+- www/centOS_36x36.jpg
+- www/cos.jpg
+- www/cos_36x36.jpg
+- www/coursera.jpg
+- www/coursera_36x36.jpg
+- www/csdn.jpg
+- www/csdn_36x36.jpg
+- www/disqus.jpg
+- www/disqus_36x36.jpg
+- www/dwang.jpg
+- www/dwang_36x36.jpg
+- www/ENG.jpg
+- www/facebook.jpg
+- www/facebook_36x36.jpg
+- www/facebook2.jpg
+- www/facebook2_36x36.jpg
+- www/fuji-xerox.jpg
+- www/gblinks.JPG
+- www/github.jpg
+- www/github_36x36.jpg
+- www/github2.jpg
+- www/github2_36x36.jpg
+- www/github3.jpg
+- www/github3_36x36.jpg
+- www/gplus.jpg
+- www/gplus_36x36.jpg
+- www/hot.jpg
+- www/idealseed.jpg
+- www/instagram.jpg
+- www/instagram_36x36.jpg
+- www/instagram2.jpg
+- www/instagram2_36x36.jpg
+- www/instagram3.jpg
+- www/instagram3_36x36.jpg
+- www/JEES.gif
+- www/JFKL.jpg
+- www/jg.jpg
+- www/jg_36x36.jpg
+- www/jhu.jpg
+- www/ladbrokes.jpg
+- www/linkedin.jpg
+- www/linkedin_36x36.jpg
+- www/LQ.jpg
+- www/LQ_36x36.jpg
+- www/LQ2.jpg
+- www/LQ2_36x36.jpg
+- www/manpower.jpg
+- www/mas.jpg
+- www/mathchina.jpg
+- www/mathchina_36x36.jpg
+- www/me.JPG
+- www/mindpearl01.jpg
+- www/mindpearl02.jpg
+- www/my-passport-size-photo.jpg
+- www/oda-army.jpg
+- www/Orchard.jpg
+- www/plotly.jpg
+- www/plotly_36x36.jpg
+- www/PLounge.jpg
+- www/PLounge_36x36.jpg
+- www/QQ wb.jpg
+- www/QQ wb_36x36.jpg
+- www/QQ.jpg
+- www/QQ_36x36.jpg
+- www/Qzone.jpg
+- www/Qzone_36x36.jpg
+- www/rcrown.jpg
+- www/retailsshop.jpg
+- www/rnable.jpg
+- www/rnable_36x36.jpg
+- www/rstudio.jpg
+- www/RXforum.jpg
+- www/RXforum_36x36.jpg
+- www/RYO-Photo.jpg
+- www/SBR.jpg
+- www/SBR_36x36.jpg
+- www/Scibrokes.png
+- www/Scibrokes®-TonyStark®.jpg
+- www/Scibrokes-TonyStark.png
+- www/scicom.jpg
+- www/ShirotoNorimichi.jpg
+- www/ShirotoNorimichi2.jpg
+- www/skype.jpg
+- www/skype_36x36.jpg
+- www/social.jpg
+- www/social_36x34.jpg
+- www/starlizard.jpg
+- www/talkstats.jpg
+- www/talkstats_36x36.jpg
+- www/telebiz.jpg
+- www/tm.jpg
+- www/Thumbs.db
+- www/TonyStark.png
+- www/twitter.jpg
+- www/twitter_36x36.jpg
+- www/u-drive-media.jpg
+- www/um.jpg
+- www/weibo.jpg
+- www/weibo_36x36.jpg
+- www/wordpress.jpg
+- www/wordpress_36x36.jpg
+- www/xerox.jpg
+- www/zeef.jpg
+- www/zeef_36x36.jpg
 - data/dfm.csv
 - data/kellym.txt
 - data/shinyData.rds
@@ -185,7 +186,7 @@ resource_files:
 
 ## Curriculum Vitae
 
-<img src='figure/RYO-Photo.jpg' width='120' align='center' valign='middle'>
+<img src='www/RYO-Photo.jpg' width='120' align='center' valign='middle'>
 
 $®γσ$ , Eng Lian Hu
 
@@ -223,7 +224,7 @@ suppressAll(source('function/libs.R'))
 #### 2.1 Professional Certificate, Algorithmic Trading (Python)
 
 **Oct-2017 to Oct-2017**
-:  **Professional Certificate, Executive Programme in Algorithmic Trading (EPAT™)** - [QuantInsti™ (QI)](https://www.quantinsti.com/) <img src='figure/qi-pioneer-logo.png' width='60' align='center' valign='middle'>
+:  **Professional Certificate, Executive Programme in Algorithmic Trading (EPAT™)** - [QuantInsti™ (QI)](https://www.quantinsti.com/) <img src='www/qi-pioneer-logo.png' width='60' align='center' valign='middle'>
   
   - *01 Course title : [Introduction to Machine Learning for Trading](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Introduction%20to%20Machine%20Learning%20for%20Trading_certificate.pdf)*
   - *02 Course title : [Quantitative Trading Strategies and Models](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Quantitative%20Trading%20Strategies%20and%20Models_certificate.pdf)*
@@ -234,7 +235,7 @@ suppressAll(source('function/libs.R'))
 #### 2.2 Professional Certificate, Specialization Data Science (R Programming)
 
 **Apr-2014 to May-2016**
-:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='figure/jhu.jpg' width='60' align='center' valign='middle'>
+:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>
   
   - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
   - *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
@@ -257,7 +258,7 @@ suppressAll(source('function/libs.R'))
 #### 2.3 Professional Certificate, Specialization Data Science (Python)
 
 **Jun-2015 to Aug-2015**
-:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='figure/um.jpg' width='14' align='center' valign='middle'>
+:  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='www/um.jpg' width='14' align='center' valign='middle'>
     
   - *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
@@ -270,7 +271,7 @@ suppressAll(source('function/libs.R'))
 #### 2.4 Professional Certificate, Japanese Language Profeciency Test
 
 **Mar-2002 to Dec-2003**
-:  **Professional Certificate, Japanese Language Profeciency Test**; [JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='figure/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='figure/JEES.gif' width='68' align='center' valign='middle'>
+:  **Professional Certificate, Japanese Language Profeciency Test**; [JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='www/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='www/JEES.gif' width='68' align='center' valign='middle'>
     
   - *Course title : Japanese Language Profeciency Test - Level III*
 
@@ -292,19 +293,19 @@ suppressAll(source('function/libs.R'))
 #### 3.2 Customer Service - ManPower Sdn Bhd
 
 **Nov-2016 to Dec-2016**
-: **Customer Service Executive**; [Mindpearl](https://www.mindpearl.com/) <img src='figure/mindpearl02.jpg' width='24' align='center' valign='middle'>
+: **Customer Service Executive**; [Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>
 
   - *Salary             : MYR4000 (+ OT & Allowance if any)*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers.*
-  - *Remarks            : Mindpearl is an outsourcing company for few Airlines companies which handle [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='figure/mas.jpg' width='36' align='center' valign='middle'> customers. Converted from Manpower recruitment agency to a proper outsourcing company which based in [Fiji](https://en.wikipedia.org/wiki/Fiji) (an island nation in Asia Pacific).*
+  - *Remarks            : Mindpearl is an outsourcing company for few Airlines companies which handle [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='www/mas.jpg' width='36' align='center' valign='middle'> customers. Converted from Manpower recruitment agency to a proper outsourcing company which based in [Fiji](https://en.wikipedia.org/wiki/Fiji) (an island nation in Asia Pacific).*
   - *Reason of Leaving : HR Manager Muthu Kuna she say I don't know how to play black magic and silly follow Malaysian law to take public holidays and fire me. Because she is wizard controlled by HwaCai from No32 Tmn RHU and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
 
 **May-2016 to Nov-2016**
-: **Customer Service Executive**; [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='figure/manpower.jpg' width='24' align='center' valign='middle'>
+: **Customer Service Executive**; [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='www/manpower.jpg' width='24' align='center' valign='middle'>
 
   - *Salary             : MYR4000*
   - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
-  - *Remarks            : Manpower is an outsourcing HR company pay salary but work for [Mindpearl](https://www.mindpearl.com/) <img src='figure/mindpearl02.jpg' width='24' align='center' valign='middle'> and training at [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='figure/mas.jpg' width='36' align='center' valign='middle'> Subang office.*
+  - *Remarks            : Manpower is an outsourcing HR company pay salary but work for [Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'> and training at [Malaysian Airline](http://www.malaysiaairlines.com/my/en.html) <img src='www/mas.jpg' width='36' align='center' valign='middle'> Subang office.*
 
 <br>
 
@@ -335,19 +336,19 @@ Oct-2015 to Jan-2016
 #### 3.5 Apple Product Fruad Prevention Analyst - IdealSeed Sdn Bhd
 
 **Feb-2015 to Apr-2015**
-: **Online Retails, Fraud Prevention**; [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='figure/idealseed.jpg' width='12' align='center' valign='middle'>
+: **Online Retails, Fraud Prevention**; [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='www/idealseed.jpg' width='12' align='center' valign='middle'>
   
   - *Salary             : MYR4000*
   - *Job Task           : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
-  - *Remarks            : An outsourcing HR company which insource staffs into [Xerox (M) Bhd](https://www.xerox.com/) <img src='figure/xerox.jpg' width='30' align='center' valign='middle'> but operate [Apple Inc.](http://www.apple.com)'s <img src='figure/apple.jpg' width='12' align='center' valign='middle'> project.* 
+  - *Remarks            : An outsourcing HR company which insource staffs into [Xerox (M) Bhd](https://www.xerox.com/) <img src='www/xerox.jpg' width='30' align='center' valign='middle'> but operate [Apple Inc.](http://www.apple.com)'s <img src='www/apple.jpg' width='12' align='center' valign='middle'> project.* 
   - *Resson of Leaving  : Manager Robin Wang Yan Ping say I don't know how to play black magic and fire me. Because he is wizard controlled by HwaCai from No32 Tmn RHU and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
 
 **Mar-2014 to Apr-2014**
-: **Customer Service Executive**; [FujiXerox](https://www.fujixerox.com) <img src='figure/fuji-xerox.jpg' width='50' align='center' valign='middle'>
+: **Customer Service Executive**; [FujiXerox](https://www.fujixerox.com) <img src='www/fuji-xerox.jpg' width='50' align='center' valign='middle'>
   
   - *Salary             : MYR3000*
   - *Job Task           : Handling inbound calls from Taiwanese customers' orders and maintenance.*
-  - *Remarks            : A printer company which provides an IT service to customers and few retailer's outlet clients (FamilyMart, 7Eleven, HiLife and OKMart <img src='figure/retailsshop.jpg' width='40' align='center' valign='middle'>).* 
+  - *Remarks            : A printer company which provides an IT service to customers and few retailer's outlet clients (FamilyMart, 7Eleven, HiLife and OKMart <img src='www/retailsshop.jpg' width='40' align='center' valign='middle'>).* 
   - *Resson of Leaving  : Manager Chai Yun Cheah say I don't know how to play black magic and fire me. Because he is wizard controlled by JiGong from WanFosi and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
 
 <br>
@@ -355,7 +356,7 @@ Oct-2015 to Jan-2016
 #### 3.5 Sportsbook Trading Team Leader - SBSolutionCorp Ltd
 
 **Nov-2013 to Mar-2014**
-: **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/) <img src='figure/gblinks.jpg' width='32' align='center' valign='middle'>
+: **Online Gaming Trading, Team Leader/Trader**; [SBSolutionCorp Ltd](http://www.gb-links.com/) <img src='www/gblinks.jpg' width='32' align='center' valign='middle'>
   
   - *Salary             : MYR3800*
   - *Job Task           : Handling few members to update scores and bets settlement.*
@@ -367,11 +368,11 @@ Oct-2015 to Jan-2016
 #### 3.6 Live Complaince Editor - U-Drive Media Sdn Bhd
 
 **Nov-2012 to May-2013**
-: **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src='figure/u-drive-media.jpg' width='100' align='center' valign='middle'>
+: **TV Broadcasting Channel, Video Editor**; [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src='www/u-drive-media.jpg' width='100' align='center' valign='middle'>
   
   - *Salary             : MYR2450*
   - *Job Task           : Watching and filtering video streaming from abroad prior to play in our country.*
-  - *Remarks            : An outsourcing company which insource staffs into [TM Bhd](https://tm.com.my/#/explore) (Telekom Malaysia <img src='figure/tm.jpg' width='24' align='center' valign='middle'>).*
+  - *Remarks            : An outsourcing company which insource staffs into [TM Bhd](https://tm.com.my/#/explore) (Telekom Malaysia <img src='www/tm.jpg' width='24' align='center' valign='middle'>).*
   - *Resson of Leaving  : Director request change to account or marketing department, but marketing is not my strength and I just would like to enjoy simple life office worker, therefore choose resign. Director Kent say I don't know how to play black magic, Chinese need to follow Malay's instruction since Malaysia is not China nor Taiwan and fire me. Because he is wizard controlled by JiGong from WanFosi and be will scapegoat if I don't know black magic. In fact that is wizard's affairs but not our human's responsibility to be wizard's scapegoat.*
 
 <br>
@@ -379,11 +380,11 @@ Oct-2015 to Jan-2016
 #### 3.7 Sportsbook Customer Service - Scicom (MSC) Bhd
 
 **Mar-2008 to Jul-2012**
-: **Outsourcing Business, Customer Service**; [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src='figure/scicom.jpg' width='30' align='center' valign='middle'>
+: **Outsourcing Business, Customer Service**; [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src='www/scicom.jpg' width='30' align='center' valign='middle'>
   
   - *Salary             : `r paste0('MYR', 3250 * 1.125)`*
   - *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks*
-  - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='figure/ladbrokes.jpg' width='26' align='center' valign='middle'> business in Far East Asia.*
+  - *Remarks            : An outsourcing public listed company which handle Fortune 500 [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'> business in Far East Asia.*
   - *Resson of Leaving  : HR request change project since closed project, since there has no sportsbook related project besides Ladbrokes during that time therefore choose resign.*
 
 <img src='documents/Scicom%20Appreciation%20Certificate.jpg' width='560' align='center' valign='middle'>
@@ -395,11 +396,11 @@ Oct-2015 to Jan-2016
 #### 3.8 Sportsbook Trading Trainer - Caspo Inc.
 
 **Jul-2006 to Jun-2007**
-: **Online Gambling, Trainer/Trader**; [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src='figure/caspo.jpg' width='36' align='center' valign='middle'>
+: **Online Gambling, Trainer/Trader**; [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src='www/caspo.jpg' width='36' align='center' valign='middle'>
   
   - *Salary             : MYR`r 5000 + 220 * readLines('https://www.google.com/finance?q=USDMYR') %>% str_extract_all(pattern = '<span class=bld>.+</span>') %>% unlist %>% str_extract(pattern = '>[^&].+<') %>% str_replace_all('\\<|\\>', '') %>% str_replace('MYR', '') %>% as.numeric` + 3~99months Annual Bonus (SGDxxxxxx)*
   - *Job Task           : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
-  - *Remarks            : A cross-global business group which co-orperate with couples of companies whic based in Hong Kong, Taiwan, IOM (United Kingdom), Cambodia etc. Few brands like 188Bet <img src='figure/188bet.jpg' width='24' align='center' valign='middle'>, Crown <img src='figure/rcrown.jpg' width='36' align='center' valign='middle'>, etc.*
+  - *Remarks            : A cross-global business group which co-orperate with couples of companies whic based in Hong Kong, Taiwan, IOM (United Kingdom), Cambodia etc. Few brands like 188Bet <img src='www/188bet.jpg' width='24' align='center' valign='middle'>, Crown <img src='www/rcrown.jpg' width='36' align='center' valign='middle'>, etc.*
   - *Resson of Leaving  : Cannot stand for daily 12 to 16 working hours during that time, therefore choose resign.*
 
 <br>
@@ -407,11 +408,11 @@ Oct-2015 to Jan-2016
 #### 3.9 Sportsbook Senior Trader - Telebiz Sdn Bhd
 
 **Nov-2005 to Jul-2006**
-: **Online Gambling, Team Leader/Senior Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src='figure/telebiz.jpg' width='36' align='center' valign='middle'>
+: **Online Gambling, Team Leader/Senior Trader**; [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src='www/telebiz.jpg' width='36' align='center' valign='middle'>
   
   - *Salary             : MYR2450 + Annual Bonus (MYRxxxx)*
   - *Job Task           : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
-  - *Remarks            : An outsourcing company which handle sportsbook trading based Malaysia but co-operates with quite some companies in Hongkongese Citics PLC, Australian Betworks Pty  <img src='figure/betworks.jpg' width='42' align='center' valign='middle'> and also UK Starlizard Ltd <img src='figure/starlizard.jpg' width='40' align='center' valign='middle'> etc.*
+  - *Remarks            : An outsourcing company which handle sportsbook trading based Malaysia but co-operates with quite some companies in Hongkongese Citics PLC, Australian Betworks Pty  <img src='www/betworks.jpg' width='42' align='center' valign='middle'> and also UK Starlizard Ltd <img src='www/starlizard.jpg' width='40' align='center' valign='middle'> etc.*
   - *Resson of Leaving  : Looking for better offer which introduced by friends.*
 
 <br>
@@ -483,7 +484,7 @@ plotFund
   - *In order to easier manage my projects and also some comments and daily notes, all my projects will present and post on the coming personal blog.*
   - *All html format files under* <https://github.com/englianhu/englianhu.github.io/> *will be under* <https://englianhu.github.io/>*. For example, the file* <https://github.com/englianhu/englianhu.github.io/ryoeng.html> *will be able to open by enter url* <https://englianhu.github.io/ryoeng.html>
 
-<img src='figure/20160910_121813.gif' width='560' align='center' valign='middle'>
+<img src='www/20160910_121813.gif' width='560' align='center' valign='middle'>
 
 *graph 4.4.1 : Sample data GitHub-Pages Blog.*
 
@@ -666,7 +667,7 @@ tagList(
 
 ### 7. Other/Miscellaneous
 
-  I wrote an article to share about [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='figure/rstudio.jpg' width='24'> and <s>currently registered for studying at [Master of Computer Science in Data Science](http://cs.illinois.edu/prospective-students/graduate-students/mcs-ds-apply-now) and [Bachelor of Science in Computer Science](http://www.uopeople.edu/programs/bachelor-of-science-computer-science/).</s> currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though.
+  I wrote an article to share about [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'> and <s>currently registered for studying at [Master of Computer Science in Data Science](http://cs.illinois.edu/prospective-students/graduate-students/mcs-ds-apply-now) and [Bachelor of Science in Computer Science](http://www.uopeople.edu/programs/bachelor-of-science-computer-science/).</s> currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though.
   
   I will wrote a **shinyapp** cv some other days to easy for categorize and viewing.
 
@@ -678,33 +679,33 @@ tagList(
 
 ### 8. Social Network
 
-<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='figure/coursera_36x36.jpg' height='48'></a>
-<a href='https://jp.linkedin.com/in/englianhu'><img src='figure/linkedin_36x36.jpg' height='48'></a>
-<a href='skype:englianhu?call'><img src='figure/skype_36x36.jpg' height='48'></a>
-<a href='https://www.facebook.com/englianhu'><img src='figure/facebook2_36x36.jpg' height='48'></a>
-<a href='https://plus.google.com/+黄联富'><img src='figure/gplus_36x36.jpg' height='48'></a>
-<a href='https://twitter.com/englianhu'><img src='figure/twitter_36x36.jpg' height='48'></a>
-<a href='https://about.me/englianhu'><img src='figure/aboutme_36x36.jpg' height='48'></a>
-<a href='https://instagram.com/englianhu/'><img src='figure/instagram_36x36.jpg' height='48'></a>
-<a href='http://www.weibo.com/englianhu'><img src='figure/weibo_36x36.jpg' height='48'></a>
-<a href='http://t.qq.com/englianhu'><img src='figure/QQ wb_36x36.jpg' height='48'></a>
-<a href='http://user.qzone.qq.com/2837330579'><img src='figure/Qzone_36x36.jpg' height='48'></a>
-<a href='https://scibrokes.zeef.com/ryo.eng'><img src='figure/zeef_36x36.jpg' height='48'></a>
-<a href='https://disqus.com/by/englianhu'><img src='figure/disqus_36x36.jpg' height='48'></a>
-<a href='https://github.com/englianhu'><img src='figure/github_36x36.jpg' height='48'></a>
-<a href='https://bitbucket.org/englianhu/'><img src='figure/bitbucket_36x36.jpg' height='48'></a>
-<a href='https://plot.ly/~englianhu'><img src='figure/plotly_36x36.jpg' height='48'></a>
-<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='https://github.com/scibrokes/owner/blob/master/figure/rnable_36x36.jpg?raw=true' height='48'></a>
-<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='figure/talkstats_36x36.jpg' height='48'></a>
-<a href='http://blog.csdn.net/github_25731367'><img src='figure/csdn_36x36.jpg' height='48'></a>
-<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='figure/LQ_36x36.jpg' height='48'></a>
-<a href='http://www.biostatistic.net/?120034'><img src='figure/biostatistic_36x36.jpg' height='48'></a>
-<a href='http://cos.name/cn/profile/ryo/'><img src='figure/cos_36x36.jpg' height='48'></a>
-<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='https://github.com/scibrokes/owner/blob/master/figure/jg_36x36.jpg?raw=true' height='48'></a>
-<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='https://github.com/scibrokes/owner/blob/master/figure/centOS_36x36.jpg?raw=true' height='48'></a>
-<a href='http://www.betting-forum.com/members/englianhu.10020/'><img src='figure/bettingforum_36x36.jpg' height='48'></a>
-<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='figure/PLounge_36x36.jpg' height='48'></a>
-<a href='http://www.sportsbookreview.com/forum/'><img src='figure/SBR_36x36.jpg' height='48'></a>
+<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='www/coursera_36x36.jpg' height='48'></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src='www/linkedin_36x36.jpg' height='48'></a>
+<a href='skype:englianhu?call'><img src='www/skype_36x36.jpg' height='48'></a>
+<a href='https://www.facebook.com/englianhu'><img src='www/facebook2_36x36.jpg' height='48'></a>
+<a href='https://plus.google.com/+黄联富'><img src='www/gplus_36x36.jpg' height='48'></a>
+<a href='https://twitter.com/englianhu'><img src='www/twitter_36x36.jpg' height='48'></a>
+<a href='https://about.me/englianhu'><img src='www/aboutme_36x36.jpg' height='48'></a>
+<a href='https://instagram.com/englianhu/'><img src='www/instagram_36x36.jpg' height='48'></a>
+<a href='http://www.weibo.com/englianhu'><img src='www/weibo_36x36.jpg' height='48'></a>
+<a href='http://t.qq.com/englianhu'><img src='www/QQ wb_36x36.jpg' height='48'></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src='www/Qzone_36x36.jpg' height='48'></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src='www/zeef_36x36.jpg' height='48'></a>
+<a href='https://disqus.com/by/englianhu'><img src='www/disqus_36x36.jpg' height='48'></a>
+<a href='https://github.com/englianhu'><img src='www/github_36x36.jpg' height='48'></a>
+<a href='https://bitbucket.org/englianhu/'><img src='www/bitbucket_36x36.jpg' height='48'></a>
+<a href='https://plot.ly/~englianhu'><img src='www/plotly_36x36.jpg' height='48'></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true' height='48'></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='www/talkstats_36x36.jpg' height='48'></a>
+<a href='http://blog.csdn.net/github_25731367'><img src='www/csdn_36x36.jpg' height='48'></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='www/LQ_36x36.jpg' height='48'></a>
+<a href='http://www.biostatistic.net/?120034'><img src='www/biostatistic_36x36.jpg' height='48'></a>
+<a href='http://cos.name/cn/profile/ryo/'><img src='www/cos_36x36.jpg' height='48'></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true' height='48'></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true' height='48'></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020/'><img src='www/bettingforum_36x36.jpg' height='48'></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='www/PLounge_36x36.jpg' height='48'></a>
+<a href='http://www.sportsbookreview.com/forum/'><img src='www/SBR_36x36.jpg' height='48'></a>
 
 <br>
 
@@ -765,5 +766,5 @@ rm(sys1)
 
 <br>
 
-**Powered by - Copyright© Intellectual Property Rights of <img src='figure/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
+**Powered by - Copyright© Intellectual Property Rights of <img src='www/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
 
