@@ -23,7 +23,7 @@ You are welcome to browse my personal blog :
 
 ## Curriculum Vitae
 
-<img src='figure/RYO-Photo.jpg' width='120' align='center' valign='middle'>
+<img src='www/RYO-Photo.jpg' width='120' align='center' valign='middle'>
 
 ®γσ , Eng Lian Hu
 
@@ -48,10 +48,10 @@ You are welcome to browse my personal blog :
 
 <br>
 
-You can refer to [®γσ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST) for more information.
+You can refer to [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html) (updated at 2017-10-13 17:26:32 JST) for more information.
 
 <br>
 
-**Powered by - Copyright© Intellectual Property Rights of <img src='figure/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
+**Powered by - Copyright© Intellectual Property Rights of <img src='www/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
 
 
