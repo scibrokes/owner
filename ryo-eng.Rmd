@@ -7,12 +7,6 @@ date: "10/22/1984"
 output:
   word_document:
     fig_caption: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -20,6 +14,12 @@ output:
     highlight: haddock
     self_contained: no
     theme: cerulean
+    toc: yes
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
     toc: yes
 always_allow_html: yes
 subtitle: Personal Profile
@@ -232,7 +232,23 @@ suppressAll(source('function/libs.R'))
 
 <br>
 
-#### 2.2 Professional Certificate, Specialization Data Science (R Programming)
+#### 2.2 Professional Certificate, Specialization Improving Business Finances and Operations
+
+**Apr-2016 to Present**
+:  **Professional Certificate, Specialization Improving Business Finances and Operations**; [Cousera](http://www.coursera.org) - [University of Illinois at Urbana-Champaign (Illinois)](http://illinois.edu/) <img src='www/u-of-i-urbana-2.png' width='30' align='center' valign='middle'>
+  
+  - *01 Course title : [Managerial Accounting: Cost Behaviors, Systems, and Analysis]()*
+  - *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions]()*
+  - *03 Course title : [Financial Evaluation and Strategy: Investments]()*
+  - *04 Course title : [Financial Evaluation and Strategy: Corporate Finance]()*
+  - *05 Course title : [Operations Management]()*
+  - *06 Course title : [Process Improvement]()*
+  - *07 Course title : [Improving Business Finances and Operations Capstone]()*
+  - [**Improving Business Finances and Operations Specialization**](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+#### 2.3 Professional Certificate, Specialization Data Science (R Programming)
 
 **Apr-2014 to May-2016**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>
@@ -247,15 +263,15 @@ suppressAll(source('function/libs.R'))
   - *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
   - *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
   - *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
-  - [**Data Science  Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+  - [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 
 <iframe src="https://raw.githubusercontent.com/scibrokes/owner/6839f2822dd10281c79ff40eb296643904b427d3/documents/Coursera%20Johns%20Hopkins%20-%2011%20Completed%2010%20Courses%20in%20Data%20Science.pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*certificate 2.1.1 : Data Science  Specialization*
+*certificate 2.3.1 : Data Science  Specialization*
 
 <br>
 
-#### 2.3 Professional Certificate, Specialization Data Science (Python)
+#### 2.4 Professional Certificate, Specialization Data Science (Python)
 
 **Jun-2015 to Aug-2015**
 :  **Professional Certificate, Specialization Data Science**; [Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='www/um.jpg' width='14' align='center' valign='middle'>
@@ -264,11 +280,11 @@ suppressAll(source('function/libs.R'))
 
 <iframe src="https://raw.githubusercontent.com/scibrokes/owner/6839f2822dd10281c79ff40eb296643904b427d3/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
 
-*certificate 2.2.1 : Programming for Everybody*
+*certificate 2.4.1 : Programming for Everybody*
 
 <br>
 
-#### 2.4 Professional Certificate, Japanese Language Profeciency Test
+#### 2.5 Professional Certificate, Japanese Language Profeciency Test
 
 **Mar-2002 to Dec-2003**
 :  **Professional Certificate, Japanese Language Profeciency Test**; [JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='www/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='www/JEES.gif' width='68' align='center' valign='middle'>
@@ -277,7 +293,7 @@ suppressAll(source('function/libs.R'))
 
 <img src='documents/JLPT%20Certificate.jpg' width='560' align='center' valign='middle'>
 
-*certificate 2.3.1 : JLPT III*
+*certificate 2.5.1 : JLPT III*
 
 <br>
 
