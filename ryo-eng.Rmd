@@ -350,7 +350,7 @@ suppressAll(source('function/libs.R'))
 
   - *Analyse the financial report and stock price of gambling public listed company.*
   - *Analyse the profit and loss of Singbet and Singbet2.*
-  - *Kindly click [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers) for more infocmtion.*
+  - *Kindly click [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers) for more information.*
 
 <br>
 
@@ -358,7 +358,7 @@ suppressAll(source('function/libs.R'))
 
   - *Financial betting products modelling and also betting strategy.*
   - *Application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.*
-  - *Kindly click [here](https://github.com/englianhu/binary.com-interview-question) for more infocmtion.*
+  - *Kindly click [here](https://github.com/englianhu/binary.com-interview-question) for more information.*
 
 <br>
 
@@ -367,14 +367,14 @@ suppressAll(source('function/libs.R'))
   - *Using Selenium to gather soccer matches data via webdriver Phantomjs.*
   - *Natural language analysis on the scrapped livescore data to match the team names from firm A for automation soccer team name matching.*
   - *Application of different leverage of Kelly criterion for staking.*
-  - *Kindly click [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation) for more infocmtion.*
+  - *Kindly click [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation) for more information.*
 
 <br>
 
 [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
   
   - *An tutorial for setup RStudio server and shiny server on Linux CentOS 7.*
-  - *Kindly click [here](https://github.com/Scibrokes/setup-rstudio-server) for more infocmtion.*
+  - *Kindly click [here](https://github.com/Scibrokes/setup-rstudio-server) for more information.*
 
 <br>
 
@@ -382,7 +382,7 @@ suppressAll(source('function/libs.R'))
   
   - *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
   - *Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.*
-  - *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more infocmtion.*
+  - *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
 
 <br>
 
@@ -413,28 +413,14 @@ suppressAll(source('function/libs.R'))
   - *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
   - *Kindly click [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers) for more information.*
 
-<iframe src="https://raw.githubusercontent.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers/master/Odds%20Modelling%20and%20Testing%20Inefficiency%20of%20Sports-Bookmakers/Odds_Modelling_and_Testing_Inefficiency_of_Sports-Bookmakers.pdf" style="width:560px; height:500px;" frameborder="0"></iframe>
-
-*paper 4.10.1 : ®γσ, Eng Lian Hu (2016)*
-
 <br>
 
-#### 4.11 Apply Poisson regression on sports odds modelling
-
-**Jan-2007 to Jul-2007**
-: [**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+[**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
   
-  - *Write own Poisson model based on what I learnt from* [*Stuart Doyle*](https://www.facebook.com/stuart.doyle1) *during working in Telebiz Sdn Bhd.*
-  - *Due to not master in Macro VBA, I just simply recall the concept which was a spreadsheet VBA Excel file from* [*Paul Judge*](https://www.facebook.com/paul.judge.14) *for data management I accidentlly deleted few years ago.*
-  - *Remarks: Stuart and Paul used be Sportsbook consultants to Telebiz and setup own advisor company [SportsTrust](http://www.sportstrust.com) during 2009/2010.*
+  - *Application of Poison model onto soccer sports odds modelling.*
+  - *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
 
-```{r data, echo = FALSE, results = 'asis'}
-tmline <- data_frame(YearMonth=as.yearmon(c('2003-12', '2004-06', '2005-10', '2005-11', '2005-12', '2006-03', '2006-06', '2006-07', '2006-07', '2006-08', '2006-10', '2007-07', '2007-07', '2008-04', '2010-04', '2010-04', '2012-07', '2013-09', '2013-10', '2013-11', '2014-03', '2014-03', '2014-04', '2014-12', '2015-02', '2015-04', '2015-05', '2015-08', '2015-09', '2015-10', '2016-01', '2016-01', '2016-05', '2017-10')), Event = c('JLPT Level3', 'Joined Forex Trading Line', 'Joined Sportsbook Line', 'Learn Korean Language', 'Transfered to Purchasing Deprt', 'Learn Poisson Model', 'Conduct Corners BIR', 'Resigned from Telebiz Sdn Bhd', 'Join Caspo Inc', 'Transfered to Training Deprt', 'Learn Deutsch Language', 'Write own Basic Poisson Model', 'Resigned from Caspo Inc', 'Joined Scicom (MSC) Bhd', 'Learn Sportsbook Line and Odds Modelling thoroughly', 'Odds Modelling and Testing Inefficiency of Sportsbookmakers', 'Resigned from Scicom (MSC) Bhd', 'Soccer League Web Scrapping', 'Registered Scibrokes Trading Enterprise', 'Join SB Solutioncorp', 'Resigned from SB Solutioncorp', 'Test Dixon-Coles1996 model', 'WebDriver Dynamic Webpage Scrapping', 'Testing Inefficiency of Sports-Bookmakers by Kelly Model', 'Joined IdealSeed Sdn Bhd', 'Resigned from IdealSeed Sdn Bhd', 'Joined OneMedia Sdn Bhd', 'Professional Certificate - Specialization Data Science (Python)', 'Resigned from OneMedia Sdn Bhd', 'Joined Global Solution Sdn Bhd', 'Resigned from Global Solution Sdn Bhd', 'Introducing ®Studio Server for Data Scientists', 'Professional Certificate - Specialization in Data Science', 'binary.com Technical Assessment')) %>% mutate(No = seq(nrow(.))) %>% select(No, YearMonth, Event) %>% mutate(YearMonth = as.Date(paste0('01', YearMonth), format = '%d%b%Y'))
-#'@ tmline <- data.frame(No = seq(nrow(tmline)), tmline) %>% tbl_df %>% mutate(YearMonth = as.Date(paste0("01", tmline$YearMonth), format = "%d%b%Y"))
-#'@ write.csv(tmline, file = paste0(getwd(), '/data/dfm.csv'))
-#'@ tmline <- read.csv(file = paste0(getwd(), '/data/dfm.csv')) %>% data_frame
-```
-
+<br>
 <br>
 
 ### 5. Skill
@@ -460,12 +446,11 @@ tagList(
 
 ### 6. Other/Miscellaneous
 
-  I wrote an article to share about [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'> and <s>currently registered for studying at [Master of Computer Science in Data Science](http://cs.illinois.edu/prospective-students/graduate-students/mcs-ds-apply-now) and [Bachelor of Science in Computer Science](http://www.uopeople.edu/programs/bachelor-of-science-computer-science/).</s> currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though.
+  I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <englianhu@gmail.com>.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bFDTd4eYMCY" frameborder="0" allowfullscreen></iframe>
 
-  You are welcome to own yours by refer to my [Personal WP Blog](https://englianhu.wordpress.com) (will be migrated to Jekyll/Hugo some other days). You are welcome to contact me at <englianhu@gmail.com>.
-
+<br>
 <br>
 
 ### 7. Social Network
@@ -498,6 +483,7 @@ tagList(
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='www/PLounge_36x36.jpg' height='48'></a>
 <a href='http://www.sportsbookreview.com/forum/'><img src='www/SBR_36x36.jpg' height='48'></a>
 
+<br>
 <br>
 
 ## Appendices
@@ -533,6 +519,7 @@ rm(sys1)
 ```
 
 <br>
+<br>
 
 ### 9. References
 
@@ -544,6 +531,7 @@ rm(sys1)
   - You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
   - There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
 
+<br>
 <br>
 
 **Powered by - Copyright© Intellectual Property Rights of <img src='www/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
