@@ -1,5 +1,5 @@
 ---
-title: "®γσ, ENG LIAN HU"
+title: "[®γσ, ENG LIAN HU](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg''
   width=''24'' align=''center'' valign=''middle''> <img src=''www/my-passport-size-photo.jpg''
   width=''24'' align=''center'' valign=''middle''> 白戸則道®'
@@ -13,14 +13,14 @@ output:
     self_contained: no
     theme: cerulean
     toc: yes
-  word_document:
-    fig_caption: yes
   pdf_document:
     fig_caption: yes
     fig_height: 3
     fig_width: 5
     highlight: haddock
     toc: yes
+  word_document:
+    fig_caption: yes
 always_allow_html: yes
 subtitle: Personal Profile
 resource_files:
@@ -500,7 +500,7 @@ It's useful to record some information about how your file was created.
   - [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
   - File version: 1.0.1
   - File latest updated date: `r Sys.Date()`
-  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/)
+  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
   - GitHub: [Source Code](https://github.com/scibrokes/owner)
   - Additional session information
 
