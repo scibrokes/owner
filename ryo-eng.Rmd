@@ -5,6 +5,14 @@ author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg'
   width=''24'' align=''center'' valign=''middle''> 白戸則道®'
 date: "10/22/1984"
 output:
+  word_document:
+    fig_caption: yes
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
+    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -13,14 +21,6 @@ output:
     self_contained: no
     theme: cerulean
     toc: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
-  word_document:
-    fig_caption: yes
 always_allow_html: yes
 subtitle: Personal Profile
 resource_files:
@@ -213,7 +213,6 @@ suppressAll(source('function/libs.R'))
 | Taiwanese Phone Number     |                                                              [+886-098-910-4576](tel:+8860989104576) |
 | Home Land-line Contact     |                                                                   [+6-03-89570938](tel:+60389570938) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
-| Current Address            |                    9-11-02 Block Chengal, Taman Desaminium, 43300 Seri Kembangan, Selangor, Malaysia |
 | Home Town                  |                                    290 Kampung Tiram Buruk, 45500 Tanjong Karang, Selangor, Malaysia |
 | Nationality                |                                                                                            Malaysian |
 | Religion                   |                                                                                               Buddha |
@@ -222,27 +221,6 @@ suppressAll(source('function/libs.R'))
 <br>
 
 ### 2. Education
-
-**Oct-2017 to Oct-2017 :  Professional Certificate, Executive Programme in Algorithmic Trading (EPAT™)**; ([QuantInsti™ (QI)](https://www.quantinsti.com/) <img src='www/qi-pioneer-logo.png' width='60' align='center' valign='middle'>)
-  
-  - *01 Course title : [Introduction to Machine Learning for Trading](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Introduction%20to%20Machine%20Learning%20for%20Trading_certificate.pdf)*
-  - *02 Course title : [Quantitative Trading Strategies and Models](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%20Eng_Quantitative%20Trading%20Strategies%20and%20Models_certificate.pdf)*
-  - *03 Course title : [Trading using Options Sentiment Indicators](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Ryo%2C%20Eng%20Lian%20Hu_Trading%20using%20Options%20Sentiment%20Indicators_certificate.pdf)*
-
-<br>
-
-**Apr-2016 to Present :  Professional Certificate, Specialization Improving Business Finances and Operations**; ([Cousera](http://www.coursera.org) - [University of Illinois at Urbana-Champaign (Illinois)](http://illinois.edu/) <img src='www/u-of-i-urbana-2.png' width='30' align='center' valign='middle'>)
-  
-  - *01 Course title : [Managerial Accounting: Cost Behaviors, Systems, and Analysis]()*
-  - *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions]()*
-  - *03 Course title : [Financial Evaluation and Strategy: Investments]()*
-  - *04 Course title : [Financial Evaluation and Strategy: Corporate Finance]()*
-  - *05 Course title : [Operations Management]()*
-  - *06 Course title : [Process Improvement]()*
-  - *07 Course title : [Improving Business Finances and Operations Capstone]()*
-  - [**Improving Business Finances and Operations Specialization**](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
-
-<br>
 
 **Apr-2014 to May-2016 :  Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)
   
