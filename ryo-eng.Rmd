@@ -2,17 +2,9 @@
 title: "[®γσ, ENG LIAN HU](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg''
   width=''24'' align=''center'' valign=''middle''> <img src=''www/my-passport-size-photo.jpg''
-  width=''24'' align=''center'' valign=''middle''> 白戸則道®'
+  width=''24'' align=''center'' valign=''middle''>'
 date: "10/22/1984"
 output:
-  word_document:
-    fig_caption: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -20,6 +12,14 @@ output:
     highlight: haddock
     self_contained: no
     theme: cerulean
+    toc: yes
+  word_document:
+    fig_caption: yes
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
     toc: yes
 always_allow_html: yes
 subtitle: Personal Profile
@@ -210,10 +210,9 @@ suppressAll(source('function/libs.R'))
 | Date of Birth              |                                                                            `r x='22-10-1984';dmy(x)` |
 | Age                        |    `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
 | Malaysian Phone Number     |                                                                   [+6-017-2100905](tel:+60172100905) |
-| Taiwanese Phone Number     |                                                              [+886-098-910-4576](tel:+8860989104576) |
+| Cambodian Phone Number     |                                                              [+855-81-204-491](tel:+88581204491) |
 | Home Land-line Contact     |                                                                   [+6-03-89570938](tel:+60389570938) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
-| Home Town                  |                                    290 Kampung Tiram Buruk, 45500 Tanjong Karang, Selangor, Malaysia |
 | Nationality                |                                                                                            Malaysian |
 | Religion                   |                                                                                               Buddha |
 
@@ -253,9 +252,9 @@ suppressAll(source('function/libs.R'))
 
 ### 3. Experience
 
-**Aug-2017 to Present : Unemployment**
+**Nov-2017 to May-2018 : Customer Service Executive**;(employed by Aristocrat & Residence) (2nd job employed by 7LiveAsia)
 
-  - Availability : Immediately
+  - *Job Task           : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
 
 <br>
 
@@ -426,7 +425,9 @@ tagList(
 
   I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <englianhu@gmail.com>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bFDTd4eYMCY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br>
 <br>
