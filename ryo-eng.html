@@ -17,13 +17,22 @@
 
 <script src="ryo-eng_files/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="ryo-eng_files/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<link href="ryo-eng_files/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="ryo-eng_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="ryo-eng_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="ryo-eng_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="ryo-eng_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="ryo-eng_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="ryo-eng_files/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="ryo-eng_files/navigation-1.1/tabsets.js"></script>
+<script src="ryo-eng_files/navigation-1.1/codefolding.js"></script>
 <script src="ryo-eng_files/htmlwidgets-1.3/htmlwidgets.js"></script>
 <script src="ryo-eng_files/formattable_widget-binding-0.2.0.1/formattable_widget.js"></script>
+<script src="ryo-eng_files/echarts-2.2.3/echarts-all.js"></script>
+<script src="ryo-eng_files/echarts-binding-0.0.3/echarts.js"></script>
+<script src="ryo-eng_files/chart.js-2.4.0/./dist/Chart.min.js"></script>
+<script src="ryo-eng_files/chartJSRadar-binding-0.3.1/chartJSRadar.js"></script>
+<script src="ryo-eng_files/kePrint-0.0.1/kePrint.js"></script>
 
 
 
@@ -97,55 +106,145 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
 
 <div class="fluid-row" id="header">
 
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
-<h1 class="title toc-ignore"><a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html">®γσ, ENG LIAN HU</a></h1>
+
+<h1 class="title toc-ignore"><a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html"><span style="color:goldenrod">®γσ, ENG LIAN HU</span></a></h1>
 <h3 class="subtitle"><em>Personal Profile</em></h3>
 <h4 class="author"><em><a href="https://englianhu.github.io/">®γσ, Lian Hu</a> <img src='www/ENG.jpg' width='24' align='center' valign='middle'> <img src='www/my-passport-size-photo.jpg' width='24' align='center' valign='middle'>®</em></h4>
 <h4 class="date"><em>10/22/1984</em></h4>
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#curriculum-vitae">Curriculum Vitae</a><ul>
-<li><a href="#about-me">1. About Me</a></li>
-<li><a href="#education">2. Education</a></li>
-<li><a href="#experience">3. Experience</a></li>
-<li><a href="#technical-experience">4. Technical Experience</a></li>
-<li><a href="#skill">5. Skill</a></li>
-<li><a href="#othermiscellaneous">6. Other/Miscellaneous</a></li>
-<li><a href="#social-network">7. Social Network</a></li>
-</ul></li>
-<li><a href="#appendices">Appendices</a><ul>
-<li><a href="#documenting-file-creation">8. Documenting File Creation</a></li>
-<li><a href="#references">9. References</a></li>
-</ul></li>
-</ul>
-</div>
 
-<div id="curriculum-vitae" class="section level2">
-<h2>Curriculum Vitae</h2>
+<div id="curriculum-vitae" class="section level1">
+<h1><span class="header-section-number">1</span> Curriculum Vitae</h1>
 <p><img src='www/RYO-Photo.jpg' width='120' align='center' valign='middle'></p>
 <p><span class="math inline">\(®γσ\)</span> , Eng Lian Hu</p>
 <audio src="music/bigmoney.mp3" controls>
 </audio>
 <p><br> <br></p>
-<div id="about-me" class="section level3">
-<h3>1. About Me</h3>
+<div id="about-me" class="section level2">
+<h2><span class="header-section-number">1.1</span> About Me</h2>
 <table>
-<colgroup>
-<col width="21%" />
-<col width="78%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th align="left"><strong>Title</strong></th>
@@ -162,28 +261,20 @@ $(document).ready(function () {
 <td align="right">34y 0m 3d</td>
 </tr>
 <tr class="odd">
-<td align="left">Malaysian Phone Number</td>
+<td align="left">Mobile Phone Number</td>
 <td align="right"><a href="tel:+60172100905">+6-017-2100905</a></td>
-</tr>
-<tr class="even">
-<td align="left">Taiwanese Phone Number</td>
-<td align="right"><a href="tel:+8860989104576">+886-098-910-4576</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Home Land-line Contact</td>
-<td align="right"><a href="tel:+60389570938">+6-03-89570938</a></td>
 </tr>
 <tr class="even">
 <td align="left">Email Address</td>
 <td align="right"><a href="mailto:englianhu@gmail.com">englianhu@gmail.com</a></td>
 </tr>
 <tr class="odd">
-<td align="left">Home Town</td>
-<td align="right">290 Kampung Tiram Buruk, 45500 Tanjong Karang, Selangor, Malaysia</td>
-</tr>
-<tr class="even">
 <td align="left">Nationality</td>
 <td align="right">Malaysian</td>
+</tr>
+<tr class="even">
+<td align="left">Place of Birth</td>
+<td align="right">Tanjong Karang, Selangor, Malaysia</td>
 </tr>
 <tr class="odd">
 <td align="left">Religion</td>
@@ -193,8 +284,8 @@ $(document).ready(function () {
 </table>
 <p><br> <br></p>
 </div>
-<div id="education" class="section level3">
-<h3>2. Education</h3>
+<div id="education" class="section level2">
+<h2><span class="header-section-number">1.2</span> Education</h2>
 <p><strong>Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.jhu.edu/">Johns Hopkins University (JHU)</a> <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)</p>
 <ul>
 <li><em>01 Course title : <a href="https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL">The Data Scientist’s Toolbox</a></em></li>
@@ -221,11 +312,11 @@ $(document).ready(function () {
 </ul>
 <p><br> <br></p>
 </div>
-<div id="experience" class="section level3">
-<h3>3. Experience</h3>
-<p><strong>Aug-2017 to Present : Unemployment</strong></p>
+<div id="experience" class="section level2">
+<h2><span class="header-section-number">1.3</span> Experience</h2>
+<p><strong>Nov-2017 to May-2018 : Customer Service Executive</strong>;(employed by Aristocrat &amp; Residence) (2nd job employed by 7LiveAsia)</p>
 <ul>
-<li>Availability : Immediately</li>
+<li><em>Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.</em></li>
 </ul>
 <p><br></p>
 <p><strong>May-2016 to Dec-2016 : Customer Service Executive</strong>;(employed by <a href="http://www.manpower.com.my/">Manpower Human Resource Sdn Bhd</a> <img src='www/manpower.jpg' width='24' align='center' valign='middle'> and deployed by <a href="https://www.mindpearl.com/">Mindpearl</a> <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>)</p>
@@ -281,8 +372,8 @@ $(document).ready(function () {
 </ul>
 <p><br> <br></p>
 </div>
-<div id="technical-experience" class="section level3">
-<h3>4. Technical Experience</h3>
+<div id="technical-experience" class="section level2">
+<h2><span class="header-section-number">1.4</span> Technical Experience</h2>
 <p><a href="https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers"><strong>Analysing Financial Report of Bookmakers</strong></a></p>
 <ul>
 <li><em>Analyse the financial report and stock price of gambling public listed company.</em></li>
@@ -290,10 +381,11 @@ $(document).ready(function () {
 <li><em>Kindly click <a href="https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers">here</a> for more information.</em></li>
 </ul>
 <p><br></p>
-<p><a href="https://github.com/englianhu/binary.com-interview-question"><strong>binary.com Technical Assessment</strong></a></p>
+<p><a href="https://github.com/englianhu/binary.com-interview-question"><strong>binary.com : Job Application - Quantitative Analyst</strong></a></p>
 <ul>
-<li><em>Financial betting products modelling and also betting strategy.</em></li>
-<li><em>Application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.</em></li>
+<li><em>Backtest on financial betting products modelling and also betting strategy.</em></li>
+<li><em>Backtest on application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.</em></li>
+<li><em>Imputation of missing value dataset and backtest on high frequency trading.</em></li>
 <li><em>Kindly click <a href="https://github.com/englianhu/binary.com-interview-question">here</a> for more information.</em></li>
 </ul>
 <p><br></p>
@@ -311,7 +403,7 @@ $(document).ready(function () {
 <li><em>Kindly click <a href="https://github.com/Scibrokes/setup-rstudio-server">here</a> for more information.</em></li>
 </ul>
 <p><br></p>
-<p><a href="https://github.com/Scibrokes/kelly-criterion"><strong>Testing Inefficiency of Sports-Bookmakers by Kelly Model</strong></a></p>
+<p><a href="https://github.com/Scibrokes/kelly-criterion"><strong>Application of Kelly Criterion model in Sportsbook Investment</strong></a></p>
 <ul>
 <li>*Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping<em>- </em>to build an prediction model.*</li>
 <li><em>Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.</em></li>
@@ -350,34 +442,40 @@ $(document).ready(function () {
 </ul>
 <p><br> <br></p>
 </div>
-<div id="skill" class="section level3">
-<h3>5. Skill</h3>
+<div id="skill" class="section level2">
+<h2><span class="header-section-number">1.5</span> Skill</h2>
 <div align="center" class="bg-info">
 <h3 class="bg-primary">Skill and Expertise</h3>
 <h5 align="center" class="text-muted">Skill and Expertise Rating Level (from newbie 1 to expert 10)</h5>
 </div>
-<div id="htmlwidget-eec3799cb734da508c80" class="formattable_widget html-widget" style="width:100%;height:500px;" width="100%" height="500"></div>
-<script type="application/json" data-for="htmlwidget-eec3799cb734da508c80">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:right;\"> Skill <\/th>\n   <th style=\"text-align:right;\"> Level <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:right;\"> R Programming <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> MS Office <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> SQL <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff\">3<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Python <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #f3ead6\">4<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Analysis <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Customer Service <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Sportsbook Industry <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> RStudio Server <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Statistics <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-93f007d1e375b21e557b" class="formattable_widget html-widget" style="width:100%;height:500px;" width="100%" height="500"></div>
+<script type="application/json" data-for="htmlwidget-93f007d1e375b21e557b">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:right;\"> Skill <\/th>\n   <th style=\"text-align:right;\"> Level <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:right;\"> R Programming <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> MS Office <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> SQL <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff\">3<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Python <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #f3ead6\">4<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Analysis <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Customer Service <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Sportsbook Industry <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> RStudio Server <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Statistics <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Science <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Shiny Web Application <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Linux OS <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Web API <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p><div id="htmlwidget-acbdad540630b177d335" style="width:672px;height:480px;" class="echarts html-widget"></div>
+<script type="application/json" data-for="htmlwidget-acbdad540630b177d335">{"x":{"title":{"text":"Skill Rating","subtext":"(by @englianhu)","x":"center","y":"bottom","orient":"horizontal"},"tooltip":{"trigger":"item","axisPointer":{"show":true,"lineStyle":{"type":"dashed","width":1}}},"toolbox":{"show":true,"feature":{"mark":{"show":true},"dataZoom":{"show":true},"dataView":{"show":true,"readOnly":false},"magicType":{"show":false},"restore":{"show":true},"saveAsImage":{"show":true}},"x":"right","y":"top","orient":"horizontal"},"calculable":true,"series":[{"name":"Skill","type":"radar","data":[{"value":"9","name":"R Programming"},{"value":"8","name":"MS Office"},{"value":"3","name":"SQL"},{"value":"4","name":"Python"},{"value":"9","name":"Data Analysis"},{"value":"9","name":"Customer Service"},{"value":"7","name":"Sportsbook Industry"},{"value":"7","name":"RStudio Server"},{"value":"6","name":"Statistics"},{"value":"8","name":"Data Science"},{"value":"8","name":"Shiny Web Application"},{"value":"7","name":"Linux OS"},{"value":"6","name":"Web API"}],"itemStyle":{"normal":{"areaStyle":{"type":"default"}}}}],"renderAsImage":false,"color":["#7AC143","#7D3F98","#F47721","#D20962","#00A78E","#00BCE4","#B8D936","#EE3D94","#FDB933","#F58F9F","#60C3AE","#5F78BB","#5E9732","#CEA979","#EF4135","#7090A5"],"symbolList":["none","none","none","none","none","none","none","none","none","none","none","none","none"],"legend":{"show":true,"data":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","RStudio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"],"x":"left","y":"top","orient":"horizontal"},"polar":[{"radius":"70%","indicator":[{"text":"R Programming","max":11.25},{"text":"MS Office","max":10},{"text":"SQL","max":3.75},{"text":"Python","max":5},{"text":"Data Analysis","max":11.25},{"text":"Customer Service","max":11.25},{"text":"Sportsbook Industry","max":8.75},{"text":"RStudio Server","max":8.75},{"text":"Statistics","max":7.5},{"text":"Data Science","max":10},{"text":"Shiny Web Application","max":10},{"text":"Linux OS","max":8.75},{"text":"Web API","max":7.5}]}]},"evals":[],"jsHooks":[]}</script><canvas id="htmlwidget-7eaf258f188b6429363b" class="chartJSRadar html-widget" width="672" height="480"></canvas>
+<script type="application/json" data-for="htmlwidget-7eaf258f188b6429363b">{"x":{"data":{"labels":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","RStudio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"],"datasets":[{"label":"Level","data":[9,8,3,4,9,9,7,7,6,8,8,7,6],"backgroundColor":"rgba(255,0,0,0.2)","borderColor":"rgba(255,0,0,0.8)","pointBackgroundColor":"rgba(255,0,0,0.8)","pointBorderColor":"#fff","pointHoverBackgroundColor":"#fff","pointHoverBorderColor":"rgba(255,0,0,0.8)"}]},"options":{"responsive":true,"title":{"display":true,"text":"Skill Rating"},"scale":{"ticks":{"max":10,"min":0},"pointLabels":{"fontSize":18}},"tooltips":{"enabled":true,"mode":"label"},"legend":{"display":true}}},"evals":[],"jsHooks":[]}</script></p>
 <p><br></p>
 </div>
-<div id="othermiscellaneous" class="section level3">
-<h3>6. Other/Miscellaneous</h3>
+<div id="other-miscellaneous" class="section level2">
+<h2><span class="header-section-number">1.6</span> Other / Miscellaneous</h2>
 <p>I am currently learn to setup own sportsbook hedge fund company <a href="https://github.com/scibrokes">Scibrokes®</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my <a href="https://github.com/Scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a> <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <a href="mailto:englianhu@gmail.com">englianhu@gmail.com</a>.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bFDTd4eYMCY" frameborder="0" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 <p><br> <br></p>
 </div>
-<div id="social-network" class="section level3">
-<h3>7. Social Network</h3>
+<div id="social-network" class="section level2">
+<h2><span class="header-section-number">1.7</span> Social Network</h2>
 <p><a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='www/coursera_36x36.jpg' height='48'></a> <a href='https://jp.linkedin.com/in/englianhu'><img src='www/linkedin_36x36.jpg' height='48'></a> <a href='skype:englianhu?call'><img src='www/skype_36x36.jpg' height='48'></a> <a href='https://www.facebook.com/englianhu'><img src='www/facebook2_36x36.jpg' height='48'></a> <a href='https://plus.google.com/+黄联富'><img src='www/gplus_36x36.jpg' height='48'></a> <a href='https://twitter.com/englianhu'><img src='www/twitter_36x36.jpg' height='48'></a> <a href='https://about.me/englianhu'><img src='www/aboutme_36x36.jpg' height='48'></a> <a href='https://instagram.com/englianhu/'><img src='www/instagram_36x36.jpg' height='48'></a> <a href='http://www.weibo.com/englianhu'><img src='www/weibo_36x36.jpg' height='48'></a> <a href='http://t.qq.com/englianhu'><img src='www/QQ%20wb_36x36.jpg' height='48'></a> <a href='http://user.qzone.qq.com/2837330579'><img src='www/Qzone_36x36.jpg' height='48'></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src='www/zeef_36x36.jpg' height='48'></a> <a href='https://disqus.com/by/englianhu'><img src='www/disqus_36x36.jpg' height='48'></a> <a href='https://github.com/englianhu'><img src='www/github_36x36.jpg' height='48'></a> <a href='https://bitbucket.org/englianhu/'><img src='www/bitbucket_36x36.jpg' height='48'></a> <a href='https://plot.ly/~englianhu'><img src='www/plotly_36x36.jpg' height='48'></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true' height='48'></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='www/talkstats_36x36.jpg' height='48'></a> <a href='http://blog.csdn.net/github_25731367'><img src='www/csdn_36x36.jpg' height='48'></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='www/LQ_36x36.jpg' height='48'></a> <a href='http://www.biostatistic.net/?120034'><img src='www/biostatistic_36x36.jpg' height='48'></a> <a href='http://cos.name/cn/profile/ryo/'><img src='www/cos_36x36.jpg' height='48'></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true' height='48'></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true' height='48'></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src='www/bettingforum_36x36.jpg' height='48'></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='www/PLounge_36x36.jpg' height='48'></a> <a href='http://www.sportsbookreview.com/forum/'><img src='www/SBR_36x36.jpg' height='48'></a></p>
 <p><br> <br></p>
 </div>
 </div>
-<div id="appendices" class="section level2">
-<h2>Appendices</h2>
+<div id="appendices" class="section level1">
+<h1><span class="header-section-number">2</span> Appendices</h1>
 <p><br></p>
-<div id="documenting-file-creation" class="section level3">
-<h3>8. Documenting File Creation</h3>
+<div id="documenting-file-creation" class="section level2">
+<h2><span class="header-section-number">2.1</span> Documenting File Creation</h2>
 <p>It’s useful to record some information about how your file was created.</p>
 <ul>
 <li>File creation date: 2015-10-12</li>
@@ -385,21 +483,167 @@ $(document).ready(function () {
 <li>R version (short form): 3.5.1</li>
 <li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> package version: 1.10</li>
 <li>File version: 1.0.1</li>
-<li>File latest updated date: 2018-10-25</li>
+<li>File latest updated date: 2018-10-26</li>
 <li>Author Profile: <a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html">®γσ, Eng Lian Hu</a></li>
 <li>GitHub: <a href="https://github.com/scibrokes/owner">Source Code</a></li>
 <li>Additional session information</li>
 </ul>
-<p>[1] “2018-10-25 16:24:22 JST” <div id="htmlwidget-4f81b656045369acdaad" class="formattable_widget html-widget" style="width:100%;height:288px;" width="100%" height="288"></div>
-<script type="application/json" data-for="htmlwidget-4f81b656045369acdaad">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:right;\"> Category <\/th>\n   <th style=\"text-align:right;\"> session_info <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:right;\"> version <\/td>\n   <td style=\"text-align:right;\"> R version 3.5.1 (2018-07-02) <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> os <\/td>\n   <td style=\"text-align:right;\"> Windows 10 x64 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> system <\/td>\n   <td style=\"text-align:right;\"> x86_64, mingw32 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> ui <\/td>\n   <td style=\"text-align:right;\"> RTerm <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> language <\/td>\n   <td style=\"text-align:right;\"> en <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> collate <\/td>\n   <td style=\"text-align:right;\"> Japanese_Japan.932 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> ctype <\/td>\n   <td style=\"text-align:right;\"> Japanese_Japan.932 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> tz <\/td>\n   <td style=\"text-align:right;\"> Asia/Tokyo <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> date <\/td>\n   <td style=\"text-align:right;\"> 2018-10-25 <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script><div id="htmlwidget-9bbd18e0da8df925a943" class="formattable_widget html-widget" style="width:100%;height:288px;" width="100%" height="288"></div>
-<script type="application/json" data-for="htmlwidget-9bbd18e0da8df925a943">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:left;\">   <\/th>\n   <th style=\"text-align:right;\"> Sys.info <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:left;\"> sysname <\/td>\n   <td style=\"text-align:right;\"> Windows <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> release <\/td>\n   <td style=\"text-align:right;\"> 10 x64 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> version <\/td>\n   <td style=\"text-align:right;\"> build 17134 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> nodename <\/td>\n   <td style=\"text-align:right;\"> RSTUDIO-SCIBROK <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> machine <\/td>\n   <td style=\"text-align:right;\"> x86-64 <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> login <\/td>\n   <td style=\"text-align:right;\"> scibr <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> user <\/td>\n   <td style=\"text-align:right;\"> scibr <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:left;\"> effective_user <\/td>\n   <td style=\"text-align:right;\"> scibr <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script></p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<caption>
+Additional session information:
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Category
+</th>
+<th style="text-align:left;">
+session_info
+</th>
+<th style="text-align:left;">
+Category
+</th>
+<th style="text-align:left;">
+Sys.info
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+version
+</td>
+<td style="text-align:left;">
+R version 3.5.1 (2018-07-02)
+</td>
+<td style="text-align:left;">
+sysname
+</td>
+<td style="text-align:left;">
+Windows
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+os
+</td>
+<td style="text-align:left;">
+Windows 10 x64
+</td>
+<td style="text-align:left;">
+release
+</td>
+<td style="text-align:left;">
+10 x64
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+system
+</td>
+<td style="text-align:left;">
+x86_64, mingw32
+</td>
+<td style="text-align:left;">
+version
+</td>
+<td style="text-align:left;">
+build 17134
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ui
+</td>
+<td style="text-align:left;">
+RTerm
+</td>
+<td style="text-align:left;">
+nodename
+</td>
+<td style="text-align:left;">
+RSTUDIO-SCIBROK
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+language
+</td>
+<td style="text-align:left;">
+en
+</td>
+<td style="text-align:left;">
+machine
+</td>
+<td style="text-align:left;">
+x86-64
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+collate
+</td>
+<td style="text-align:left;">
+Japanese_Japan.932
+</td>
+<td style="text-align:left;">
+login
+</td>
+<td style="text-align:left;">
+scibr
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ctype
+</td>
+<td style="text-align:left;">
+Japanese_Japan.932
+</td>
+<td style="text-align:left;">
+user
+</td>
+<td style="text-align:left;">
+scibr
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tz
+</td>
+<td style="text-align:left;">
+Asia/Tokyo
+</td>
+<td style="text-align:left;">
+effective_user
+</td>
+<td style="text-align:left;">
+scibr
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+date
+</td>
+<td style="text-align:left;">
+2018-10-26
+</td>
+<td style="text-align:left;">
+Current time
+</td>
+<td style="text-align:left;">
+2018-10-26 03:57:21 JST
+</td>
+</tr>
+</tbody>
+</table>
 <p><br> <br></p>
 </div>
-<div id="references" class="section level3">
-<h3>9. References</h3>
+<div id="references" class="section level2">
+<h2><span class="header-section-number">2.2</span> References</h2>
 <ul>
 <li>You are feel free to create your own CV by R Markdown V2 by refer to <a href="http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&amp;mode=server">Document Templates</a></li>
-<li><code>rticles</code> package version: 0.6</li>
+<li><a href="http://yixuan.cos.name/prettydoc/">prettydoc</a></li>
 <li><a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">Pandoc Markdown</a></li>
 <li>You can plot a <a href="http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date">timeline</a> graph or load the <a href="http://jason.bryer.org/timeline/">timeline</a> package.</li>
 <li>Here I apply <a href="https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html">googleVis</a> package to plot the animated graph. You are feel free to browse over the <a href="https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf">vignettes</a> for more examples.</li>
@@ -420,6 +664,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 

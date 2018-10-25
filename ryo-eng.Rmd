@@ -1,18 +1,21 @@
 ---
-title: "[®γσ, ENG LIAN HU](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
-author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg''
-  width=''24'' align=''center'' valign=''middle''> <img src=''www/my-passport-size-photo.jpg''
-  width=''24'' align=''center'' valign=''middle''>®'
+title: "[<span style='color:goldenrod'>®γσ, ENG LIAN HU</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+subtitle: 'Personal Profile'
+author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='www/ENG.jpg'
+  width='24' align='center' valign='middle'> <img src='www/my-passport-size-photo.jpg'
+  width='24' align='center' valign='middle'>®"
 date: "10/22/1984"
 output:
   html_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
+    number_sections: yes
     highlight: haddock
     self_contained: no
-    theme: cerulean
+    theme: lumen
     toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+    code_folding: hide
   pdf_document:
     fig_caption: yes
     fig_height: 3
@@ -22,7 +25,6 @@ output:
   word_document:
     fig_caption: yes
 always_allow_html: yes
-subtitle: Personal Profile
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
@@ -184,7 +186,7 @@ resource_files:
 - documents/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
 ---
 
-## Curriculum Vitae
+# Curriculum Vitae
 
 <img src='www/RYO-Photo.jpg' width='120' align='center' valign='middle'>
 
@@ -203,208 +205,207 @@ suppressAll(source('function/libs.R'))
 <br>
 <br>
 
-### 1. About Me
+## About Me
 
 | **Title**                  |                                                                                          **Details** |
 |:---------------------------|-----------------------------------------------------------------------------------------------------:|
 | Date of Birth              |                                                                            `r x='22-10-1984';dmy(x)` |
 | Age                        |    `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| Malaysian Phone Number     |                                                                   [+6-017-2100905](tel:+60172100905) |
-| Taiwanese Phone Number     |                                                              [+886-098-910-4576](tel:+8860989104576) |
-| Home Land-line Contact     |                                                                   [+6-03-89570938](tel:+60389570938) |
+| Mobile Phone Number        |                                                                   [+6-017-2100905](tel:+60172100905) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
-| Home Town                  |                                    290 Kampung Tiram Buruk, 45500 Tanjong Karang, Selangor, Malaysia |
 | Nationality                |                                                                                            Malaysian |
+| Place of Birth             |                                                                   Tanjong Karang, Selangor, Malaysia |
 | Religion                   |                                                                                               Buddha |
 
 <br>
 <br>
 
-### 2. Education
+## Education
 
 **Apr-2014 to May-2016 :  Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)
-  
-  - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-  - *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
-  - *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
-  - *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
-  - *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
-  - *06 Course title : [Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
-  - *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
-  - *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
-  - *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-  - *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
-  - [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+
+- *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
+- *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 Course title : [Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
+- [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 
 <br>
 
 **Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src='www/um.jpg' width='14' align='center' valign='middle'>)
-    
-  - *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+  
+- *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
 <br>
 
 **Mar-2002 to Dec-2003 :  Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='www/JFKL.jpg' width='36' align='center' valign='middle'> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='www/JEES.gif' width='68' align='center' valign='middle'>)
-    
-  - *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+
+- *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br>
 <br>
 
-### 3. Experience
+## Experience
 
-**Aug-2017 to Present : Unemployment**
+**Nov-2017 to May-2018 : Customer Service Executive**;(employed by Aristocrat & Residence) (2nd job employed by 7LiveAsia)
 
-  - Availability : Immediately
+- *Job Task           : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
 
 <br>
 
 **May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='www/manpower.jpg' width='24' align='center' valign='middle'> and deployed by [Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>)
 
-  - *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
+- *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
 
 <br>
 
 **Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader**; (employed by Global Solution Sdn Bhd)
-  
-  - *Job Task           : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
+
+- *Job Task           : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
 
 <br>
 
 **May-2015 to Sep-2015 : Online Gaming, Customer Service**; (employed by OneMedia Sdn Bhd)
 
-  - *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
+- *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
 <br>
 
 **Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='www/idealseed.jpg' width='12' align='center' valign='middle'> and deployed by [Apple Inc.](http://www.apple.com) <img src='www/apple.jpg' width='12' align='center' valign='middle'>)
 
-  - *Job Task           : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
+- *Job Task           : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
 **Mar-2014 to Apr-2014 : Customer Service Executive**; (employed by [FujiXerox](https://www.fujixerox.com) <img src='www/fuji-xerox.jpg' width='50' align='center' valign='middle'>)
 
-  - *Job Task           : Handling inbound calls from Taiwanese customers' orders and printer maintenance.*
+- *Job Task           : Handling inbound calls from Taiwanese customers' orders and printer maintenance.*
 
 <br>
 
 **Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; ( employed by [SBSolutionCorp Ltd](http://www.gb-links.com/) <img src='www/gblinks.jpg' width='32' align='center' valign='middle'>)
 
-  - *Job Task           : Handling few members to update scores and bets settlement.*
+- *Job Task           : Handling few members to update scores and bets settlement.*
 
 <br>
 
 **Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src='www/u-drive-media.jpg' width='100' align='center' valign='middle'>)
 
-  - *Job Task           : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src='www/tm.jpg' width='24' align='center' valign='middle'> project*
+- *Job Task           : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src='www/tm.jpg' width='24' align='center' valign='middle'> project*
 
 <br>
 
 **Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src='www/scicom.jpg' width='30' align='center' valign='middle'>)
-  
-  - *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'> project*
-  - Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-  - Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+
+- *Job Task           : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'> project*
+- Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
+- Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
 **Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src='www/caspo.jpg' width='36' align='center' valign='middle'>)
 
-  - *Job Task           : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
+- *Job Task           : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
 
 <br>
 
 **Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src='www/telebiz.jpg' width='36' align='center' valign='middle'>)
 
-  - *Job Task           : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
+- *Job Task           : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
 
 <br>
 <br>
 
-### 4. Technical Experience
+## Technical Experience
 
 [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
-  - *Analyse the financial report and stock price of gambling public listed company.*
-  - *Analyse the profit and loss of Singbet and Singbet2.*
-  - *Kindly click [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers) for more information.*
+- *Analyse the financial report and stock price of gambling public listed company.*
+- *Analyse the profit and loss of Singbet and Singbet2.*
+- *Kindly click [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers) for more information.*
 
 <br>
 
-[**binary.com Technical Assessment**](https://github.com/englianhu/binary.com-interview-question)
+[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
-  - *Financial betting products modelling and also betting strategy.*
-  - *Application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.*
-  - *Kindly click [here](https://github.com/englianhu/binary.com-interview-question) for more information.*
+- *Backtest on financial betting products modelling and also betting strategy.*
+- *Backtest on application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.*
+- *Imputation of missing value dataset and backtest on high frequency trading.*
+- *Kindly click [here](https://github.com/englianhu/binary.com-interview-question) for more information.*
 
 <br>
 
 [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
-  
-  - *Using Selenium to gather soccer matches data via webdriver Phantomjs.*
-  - *Natural language analysis on the scrapped livescore data to match the team names from firm A for automation soccer team name matching.*
-  - *Application of different leverage of Kelly criterion for staking.*
-  - *Kindly click [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation) for more information.*
+
+- *Using Selenium to gather soccer matches data via webdriver Phantomjs.*
+- *Natural language analysis on the scrapped livescore data to match the team names from firm A for automation soccer team name matching.*
+- *Application of different leverage of Kelly criterion for staking.*
+- *Kindly click [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation) for more information.*
 
 <br>
 
 [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
-  
-  - *An tutorial for setup RStudio server and shiny server on Linux CentOS 7.*
-  - *Kindly click [here](https://github.com/Scibrokes/setup-rstudio-server) for more information.*
+
+- *An tutorial for setup RStudio server and shiny server on Linux CentOS 7.*
+- *Kindly click [here](https://github.com/Scibrokes/setup-rstudio-server) for more information.*
 
 <br>
 
-[**Testing Inefficiency of Sports-Bookmakers by Kelly Model**](https://github.com/Scibrokes/kelly-criterion)
-  
-  - *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
-  - *Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.*
-  - *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
+[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
+
+- *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
+- *Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.*
+- *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
 
 <br>
 
 [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
-  
-  - *Dixon & Coles 1996 soccer scores modelling.*
-  - *Kindly click [here](https://github.com/Scibrokes/Dixon-Coles1996) for more information.*
+
+- *Dixon & Coles 1996 soccer scores modelling.*
+- *Kindly click [here](https://github.com/Scibrokes/Dixon-Coles1996) for more information.*
 
 <br>
 
 [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
-  
-  - *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en/) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter the odds price data.*
-  - *Kindly click [here](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping) for more information.*
+
+- *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en/) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter the odds price data.*
+- *Kindly click [here](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping) for more information.*
 
 <br>
 
 [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
-  
-  - *Static webpage soccer scores scraping.*
-  - *Kindly click [here](https://github.com/Scibrokes/Soccer-League-Web-Scraping) for more information.*
+
+- *Static webpage soccer scores scraping.*
+- *Kindly click [here](https://github.com/Scibrokes/Soccer-League-Web-Scraping) for more information.*
 
 <br>
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
-  
-  - *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website and filter the odds price data from 2006 to 2011.*
-  - *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
-  - *Kindly click [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers) for more information.*
+
+- *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website and filter the odds price data from 2006 to 2011.*
+- *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
+- *Kindly click [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers) for more information.*
 
 <br>
 
 [**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
-  
-  - *Application of Poison model onto soccer sports odds modelling.*
-  - *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
+
+- *Application of Poison model onto soccer sports odds modelling.*
+- *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
 
 <br>
 <br>
 
-### 5. Skill
+## Skill
 
 ```{r skill, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics'), c(9, 8, 3, 4, 9, 9, 7, 7, 6))
+skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6))
 names(skill) <- c('Skill', 'Level')
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
@@ -422,16 +423,29 @@ tagList(
 
 <br>
 
-### 6. Other/Miscellaneous
+```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+skill %>% data.frame %>% 
+  recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radarfill', 
+                    symbolList='none', #palette=c('firebrick1','dodgerblue'), 
+                    title='Skill Rating', subtitle= '(by @englianhu)')
 
-  I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <englianhu@gmail.com>.
+chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
+```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bFDTd4eYMCY" frameborder="0" allowfullscreen></iframe>
+<br>
+
+## Other / Miscellaneous
+
+I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <englianhu@gmail.com>.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br>
 <br>
 
-### 7. Social Network
+## Social Network
 
 <a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='www/coursera_36x36.jpg' height='48'></a>
 <a href='https://jp.linkedin.com/in/englianhu'><img src='www/linkedin_36x36.jpg' height='48'></a>
@@ -464,50 +478,65 @@ tagList(
 <br>
 <br>
 
-## Appendices
+# Appendices
 
 <br>
 
-### 8. Documenting File Creation 
+## Documenting File Creation 
 
 It's useful to record some information about how your file was created.
-  
-  - File creation date: 2015-10-12
-  - `r R.version.string`
-  - R version (short form): `r getRversion()`
-  - [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
-  - File version: 1.0.1
-  - File latest updated date: `r Sys.Date()`
-  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
-  - GitHub: [Source Code](https://github.com/scibrokes/owner)
-  - Additional session information
 
-```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
-suppressMessages(require('dplyr', quietly = TRUE))
-suppressMessages(require('formattable', quietly = TRUE))
+- File creation date: 2015-10-12
+- `r R.version.string`
+- R version (short form): `r getRversion()`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
+- File version: 1.0.1
+- File latest updated date: `r Sys.Date()`
+- Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub: [Source Code](https://github.com/scibrokes/owner)
+- Additional session information
 
-lubridate::now()
-sys1 <- devtools::session_info()$platform %>% unlist %>% data.frame(Category = names(.), session_info = .)
+```{r info, echo=FALSE, warning=FALSE, results='asis'}
+sys1 <- session_info()$platform %>% 
+  unlist %>% 
+  data.frame(Category = names(.), session_info = .)
 rownames(sys1) <- NULL
-sys1 %>% formattable %>% as.htmlwidget
 
-data.frame(Sys.info = Sys.info()) %>% formattable %>% as.htmlwidget
+sys2 <- data.frame(Sys.info()) %>% 
+  mutate(Category = rownames(.)) %>% 
+  .[2:1]
+names(sys2)[2] <- c('Sys.info')
+rownames(sys2) <- NULL
 
-rm(sys1)
+if (nrow(sys1) == 7 & nrow(sys2) == 8) {
+  sys1 %<>% rbind(., data.frame(
+  Category = 'Current time', 
+  session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
+} else {
+  sys2 %<>% rbind(., data.frame(
+  Category = 'Current time', 
+  Sys.info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
+}
+
+cbind(sys1, sys2) %>% 
+  kable(caption = 'Additional session information:') %>% 
+  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))
+
+rm(sys1, sys2)
 ```
 
 <br>
 <br>
 
-### 9. References
+## References
 
-  - You are feel free to create  your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-  - `rticles` package version: `r packageVersion("rticles")`
-  - [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
-  - You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
-  - Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
-  - You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
-  - There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- You are feel free to create  your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+- [prettydoc](http://yixuan.cos.name/prettydoc/)
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
+- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
+- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
 
 <br>
 <br>
