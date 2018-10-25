@@ -2,17 +2,9 @@
 title: "[®γσ, ENG LIAN HU](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 author: '[®γσ, Lian Hu](https://englianhu.github.io/) <img src=''www/ENG.jpg''
   width=''24'' align=''center'' valign=''middle''> <img src=''www/my-passport-size-photo.jpg''
-  width=''24'' align=''center'' valign=''middle''> 白戸則道®'
+  width=''24'' align=''center'' valign=''middle''>®'
 date: "10/22/1984"
 output:
-  word_document:
-    fig_caption: yes
-  pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: haddock
-    toc: yes
   html_document:
     fig_caption: yes
     fig_height: 3
@@ -21,6 +13,14 @@ output:
     self_contained: no
     theme: cerulean
     toc: yes
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    highlight: haddock
+    toc: yes
+  word_document:
+    fig_caption: yes
 always_allow_html: yes
 subtitle: Personal Profile
 resource_files:
@@ -512,5 +512,6 @@ rm(sys1)
 <br>
 <br>
 
-**Powered by - Copyright© Intellectual Property Rights of <img src='www/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
+---
 
+<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)個人の経営企業**</span>

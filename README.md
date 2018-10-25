@@ -52,6 +52,6 @@ You can refer to [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/content/
 
 <br>
 
-**Powered by - Copyright© Intellectual Property Rights of <img src='www/oda-army.jpg' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
+---
 
-
+<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)個人の経営企業**</span>
