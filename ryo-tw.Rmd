@@ -241,7 +241,7 @@ suppressAll(source('function/libs.R'))
 
 ## 工作經驗
 
-**2017年11月 至 2018年5月：客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>）（在柬埔寨的第二份工作受聘於[7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='20' align='center' valign='middle'>）
+**2017年11月 至 2018年5月：客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>）（在柬埔寨的第二份工作受聘於[7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='18' align='center' valign='middle'>）
 
 - *工作明細：在柬埔寨工作，作為客服人員但時而得負責風控監控與審核客戶存取款與舞弊行為。*
 
@@ -322,7 +322,7 @@ suppressAll(source('function/libs.R'))
 
 [**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
-- *回測金融投註建模與投註策略.*
+- *回測金融投註建模與投註策略。*
 - *回測Arima、平滑模型與各種Garch模型，並且凱利投註模型等等。*
 - *彌補缺失值數據與回測高頻率交易。*
 - *欲知更多詳情，請點擊[此處](https://github.com/englianhu/binary.com-interview-question)。*
@@ -332,7 +332,7 @@ suppressAll(source('function/libs.R'))
 [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
 - *使用Selenium和Phantomjs軟件采集網絡足球彩券與賽事數據。*
-- *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對從基金的註單賽事隊名。*
+- *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
 - *運用不同的凱利標準杠桿投註。*
 - *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
 
@@ -393,17 +393,17 @@ suppressAll(source('function/libs.R'))
 ## 技能
 
 ```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6))
-names(skill) <- c('Skill', 'Level')
+skill <- data_frame(c('R编程语言', '微软办公软件', 'SQL语言', 'Python编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', 'Shiny应用', 'Linux操作系统', 'Web API接口', '量化交易'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
+names(skill) <- c('技能', '程度')
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
 
 tagList(
   tags$div(align = "center", 
            class = "bg-info", 
-           tags$h3(class = "bg-primary", "Skill and Expertise"), 
+           tags$h3(class = "bg-primary", "技能與掌握程度"), 
            tags$h5(align = "center", class = "text-muted", 
-                   "Skill and Expertise Rating Level (from newbie 1 to expert 10)")), 
+                   "技能評估（從新兵1至專業10）")), 
   as.htmlwidget(skill %>% formattable(list(
     Level = color_tile('white', 'darkgoldenrod')
     ))))
@@ -413,11 +413,11 @@ tagList(
 
 ```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill %>% data.frame %>% 
-  recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radarfill', 
+  recharts::echartR(x= ~技能, y= ~程度, series= ~技能, type='radarfill', 
                     symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='Skill Rating', subtitle= '(by @englianhu)')
+                    title='技能評估', subtitle= '(by @englianhu)')
 
-chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
+chartJSRadar(skill, main = '技能評估', maxScale = 10, showToolTipLabel=TRUE)
 ```
 
 <br>
@@ -476,7 +476,7 @@ chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
 
 - 文獻建立日：2015-10-12
 - `r R.version.string`
-- R元版本：`r getRversion()`
+- R版本：`r getRversion()`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown)程序包版本：`r packageVersion('rmarkdown')`
 - 文獻版本：1.1.1
 - 文獻最新更新日：`r Sys.Date()`
@@ -518,17 +518,17 @@ rm(sys1, sys2)
 
 ## 參考文獻
 
-- You are feel free to create  your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-- [prettydoc](http://yixuan.cos.name/prettydoc/)
-- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
-- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
-- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
-- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
-- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- 有意新建自己的履歷表者，歡迎參閱[Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)。
+- [prettydoc](http://yixuan.cos.name/prettydoc/)。
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)。
+- 您可以參閱[timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)與[timeline](http://jason.bryer.org/timeline/)程序包繪圖。
+- 這兒使用[googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)程序包繪制動畫圖，您可以參閱[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)。
+- 您亦可參閱[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/)修改網頁外觀。
+- [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有許多圖標可供參考與應用。
 
 <br>
 <br>
 
 ---
 
-<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)個人の経営企業**</span>
+[<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)<span style='color:RoyalBlue'>**企業知識產權®及版權®所有，盜版必究。**</span>

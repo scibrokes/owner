@@ -241,7 +241,7 @@ suppressAll(source('function/libs.R'))
 
 ## Experience
 
-**Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='20' align='center' valign='middle'>)
+**Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='18' align='center' valign='middle'>)
 
 - *Job Task           : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
 

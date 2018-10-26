@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.7)  25 OCT 2018 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.7)  26 OCT 2018 15:18
 entering extended mode
 **./ryo-eng.tex
 (ryo-eng.tex
@@ -949,10 +949,10 @@ Type  H <return>  for immediate help.
 l.92 \maketitle
                 
 Here is how much of TeX's memory you used:
- 12224 strings out of 493334
- 175339 string characters out of 3139253
- 279289 words of memory out of 3000000
- 15641 multiletter control sequences out of 15000+200000
+ 12220 strings out of 493334
+ 175315 string characters out of 3139253
+ 278061 words of memory out of 3000000
+ 15637 multiletter control sequences out of 15000+200000
  10958 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,1n,38p,234b,270s stack positions out of 5000i,500n,10000p,200000b,50000s

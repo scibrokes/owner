@@ -3,6 +3,7 @@ require('shinythemes')
 require('shinydashboard')
 require('dashboardthemes')
 require('shinyWidgets')
+require('shinyjs')
 
 ### creating custom logo object
 my_logo <- shinyDashboardLogoDIY(
@@ -107,6 +108,14 @@ shinyApp(
       #HTML(markdown::markdownToHTML('ryo-en.md'))
       #HTML(rmarkdown::render(knit('ryo-en.Rmd')))
       includeHTML("ryo-jp.html")
+    })
+    
+    observe({
+      input$rb
+      
+      isolate(
+        output$
+      )
     })
   }
 )

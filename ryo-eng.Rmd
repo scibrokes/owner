@@ -16,14 +16,11 @@ output:
       collapsed: yes
       smooth_scroll: yes
     code_folding: hide
+  word_document:
+    highlight: haddock
   pdf_document:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
     highlight: haddock
     toc: yes
-  word_document:
-    fig_caption: yes
 always_allow_html: yes
 resource_files:
 - www/188bet.jpg
@@ -253,7 +250,7 @@ suppressAll(source('function/libs.R'))
 
 ## Experience
 
-**Nov-2017 to May-2018 : Customer Service Executive**;(employed by Aristocrat & Residence) (2nd job employed by 7LiveAsia)
+**Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='18' align='center' valign='middle'>)
 
 - *Job Task           : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
 
@@ -261,7 +258,7 @@ suppressAll(source('function/libs.R'))
 
 **May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='www/manpower.jpg' width='24' align='center' valign='middle'> and deployed by [Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>)
 
-- *Job Task           : A customer service executive in Mindpearl but handle Malaysia Airlines customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
+- *Job Task           : A customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src='www/mas.jpg' width='36' align='center' valign='middle'> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
 
 <br>
 
@@ -279,7 +276,7 @@ suppressAll(source('function/libs.R'))
 
 **Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='www/idealseed.jpg' width='12' align='center' valign='middle'> and deployed by [Apple Inc.](http://www.apple.com) <img src='www/apple.jpg' width='12' align='center' valign='middle'>)
 
-- *Job Task           : Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
+- *Job Task           : Working in [Xerox](https://www.xerox.com/) <img src='www/xerox.jpg' width='36' align='center' valign='middle'> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
@@ -359,8 +356,8 @@ suppressAll(source('function/libs.R'))
 
 [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
-- *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from- **WebDriver Dynamic Webpage Scrapping*- *to build an prediction model.*
-- *Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.*
+- *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to build an prediction model.*
+- *Application of Kelly criterion model to betting on 10 sportsbookmakers in soccer season 2011/12 to 2012/13.*
 - *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
 
 <br>

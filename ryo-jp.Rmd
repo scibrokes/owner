@@ -208,193 +208,194 @@ suppressAll(source('function/libs.R'))
 <br>
 <br>
 
-## 學術背景
+## 学歴
 
-**2014年4月 至 2016年5月：專業文憑，數據科學系**；([Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)
+**2014年4月から 2016年5月まで：プロの証明書、専門データ科学**；([Cousera](http://www.coursera.org) - [ジョンズ ・ ホプキンス大学（JHU）](https://www.jhu.edu/) <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)
 
-- *01 課程：[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-- *02 課程：[R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
-- *03 課程：[Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
-- *04 課程：[Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
-- *05 課程：[Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
-- *06 課程：[Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
-- *07 課程：[Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
-- *08 課程：[Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
-- *09 課程：[Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 課程：[Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
+- *01 コース：[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 コース：[R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
+- *03 コース：[Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 コース：[Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 コース：[Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 コース：[Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 コース：[Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 コース：[Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 コース：[Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 コース：[Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
 - [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 
 <br>
 
-**2015年6月 至 2015年8月：專業文憑，數據科學系**；([Cousera](http://www.coursera.org) - [密歇根大學（UM）](https://www.umich.edu/)<img src='www/um.jpg' width='14' align='center' valign='middle'>)
+**2015年6月から 2015年8月まで：プロの証明書、専門データ科学**；([Cousera](http://www.coursera.org) - [ミシガン州大学（UM）](https://www.umich.edu/)<img src='www/um.jpg' width='14' align='center' valign='middle'>)
   
-- *課程：[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- *コース：[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
 <br>
 
-**2002年3月 至 2003年12月：專業文憑，日文能力測試**；([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src='www/JFKL.jpg' width='36' align='center' valign='middle'>與[Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src='www/JEES.gif' width='68' align='center' valign='middle'>)
+**2002年3月から 2003年12月まで：プロの証明書、日本語能力試験**；([JLPT](http://www.jlpt.jp/index.html) - [(日本語能力試験-日本財団クアラルンプール](http://www.jfkl.org.my/) <img src='www/JFKL.jpg' width='36' align='center' valign='middle'>與[日本国際教育支援協会](http://www.jees.or.jp/index.htm) <img src='www/JEES.gif' width='68' align='center' valign='middle'>)
 
-- *課程：[日文能力測試 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
-
-<br>
-<br>
-
-## 工作經驗
-
-**2017年11月 至 2018年5月：客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com/) <img src='www/anr.jpg' width='20' align='center' valign='middle'>）（在柬埔寨的第二份工作受聘於[7LiveAsia](https://www.7liveasia88.com) <img src='www/7live.jpg' width='20' align='center' valign='middle'>）
-
-- *工作明細：在柬埔寨工作，作為客服人員但時而得負責風控監控與審核客戶存取款與舞弊行為。*
-
-<br>
-
-**2016年5月 至 2016年12月：客服人員**；（受聘於[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src='www/manpower.jpg' width='24' align='center' valign='middle'>不過由[Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>部署）
-
-- *工作明細：在MindPearl辦公室工作、得接聽與郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src='www/mas.jpg' width='36' align='center' valign='middle'>項目的乘客/顧客，包括一般咨詢、預訂機票和修改機票等等事宜。*
-
-<br>
-
-**2015年10月 至 2016年1月：網絡遊戲，足球彩券操盤手**；（受聘於Global Solution Sdn Bhd）
-
-- *工作明細：跟單（跟隨長期盈利的職業玩家的註單投註）、打水套利、為中國客戶處理存款。*
-
-<br>
-
-**2015年5月 至 2015年9月：網絡遊戲，客服人員**；（受聘於OneMedia Sdn Bhd）
-
-- *工作明細：接聽電話與外撥電話、在線咨詢、計算優惠與返水、掌管臉譜賬號與負責市場營銷、所有存取款事項。*
-
-<br>
-
-**2015年2月 至 2015年4月：網絡零售，貿易與交易審查員**；（受聘於[IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src='www/idealseed.jpg' width='12' align='center' valign='middle'>不過由[Apple Inc.](http://www.apple.com) <img src='www/apple.jpg' width='12' align='center' valign='middle'>部署）
-
-- *工作明細：在[Xerox](https://www.xerox.com/)辦公 <img src='www/xerox.jpg' width='36' align='center' valign='middle'>。審查交易是否舞弊，外撥電話。*
-
-<br>
-
-**2014年3月 至 2014年4月：網絡零售，客服人員**；（受聘於[FujiXerox](https://www.fujixerox.com) <img src='www/fuji-xerox.jpg' width='50' align='center' valign='middle'>）
-
-- *工作明細：臺灣小組，接聽臺灣顧客的列印機問題、預訂、安排維修人員與退貨、在線技術支援等等。*
-
-<br>
-
-**2013年11月 至 2014年3月：網絡遊戲交易，队长兼操盘手**；（受聘於[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不過由[GBLinks](http://www.gb-links.com/) <img src='www/gblinks.jpg' width='32' align='center' valign='middle'>平臺與軟件技術支援）
-
-- *工作明細：管理下屬、更新比分、賽事結算。*
-
-<br>
-
-**2012年11月 至 2013年5月：電臺節目與電子媒體，節目直播審查員**；（受聘於[U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src='www/u-drive-media.jpg' width='100' align='center' valign='middle'>）
-
-- *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src='www/tm.jpg' width='24' align='center' valign='middle'>項目中的happTV。*
-
-<br>
-
-**2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src='www/scicom.jpg' width='30' align='center' valign='middle'>）
-
-- *工作明細：接聽所有[Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'>遠東客戶的外來電話、在線咨詢、電郵聯系、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
-- 獲獎[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-- 獲獎[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
-
-<br>
-
-**2006年7月 至 2007年6月：網絡生意，培訓師兼操盤手**；（受聘於[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src='www/caspo.jpg' width='36' align='center' valign='middle'>）
-
-- *工作明細：培訓新人、負責SB與SB2網站盈虧報表、操盤與分析數據等等。*
-
-<br>
-
-**2005年11月 至 2006年7月：網絡遊戲，隊長兼資深操盤手**；（受聘於[Telebiz Sdn Bhd](http://www.telebizness.com/) <img src='www/telebiz.jpg' width='36' align='center' valign='middle'>）
-
-- *工作明細：培訓新人、對沖、出貨、更新比分、賽事結算、數據分析、負責角球盤口等等事宜。*
+- *コース：[日本語能力試験 - レベル3](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br>
 <br>
 
-## 科研項目
+## 職務経験
+
+**2017年11月から 2018年5月まで：顧客サービス**；（[貴族酒店](http://www.aristocrat-rh.com/)で採用されている <img src='www/anr.jpg' width='20' align='center' valign='middle'>）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com)で採用されている <img src='www/7live.jpg' width='18' align='center' valign='middle'>）
+
+- *ジョブ タスク：カンボジアで仕事した、顧客サービス
+として、たまにはお客さんに詐欺のアクティビティを監査する。*
+
+<br>
+
+**2016年5月から 2016年12月まで：顧客サービス**；（[Mindpearl](https://www.mindpearl.com/) <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)で採用されている <img src='www/manpower.jpg' width='24' align='center' valign='middle'>）
+
+- *ジョブ タスク：MindPearlで仕事してる、[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src='www/mas.jpg' width='36' align='center' valign='middle'>のお客さんの一般相談、航空券の予約、航空券の変更など関してごとを処理する必要があります。*
+
+<br>
+
+**2015年10月から 2016年1月まで：オンライン ゲーム、スポーツ トレーダー**；（グローバル ソリューション会社で採用されている）
+
+- *ジョブ タスク：長期利益博徒の賭け方法をフォローする事や、アービトラージする事や、ヘッジする事や、中国顧客のお金デポジットを処理する。*
+
+<br>
+
+**2015年5月から 2015年9月まで：オンライン ゲーム、顧客サービス**；（OneMedia会社で採用されている）
+
+- *ジョブ タスク：インバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべて入出金取引を処理します。*
+
+<br>
+
+**2015年2月から 2015年4月まで：オンライン売り場、貿易與交易審查員**；（[Apple Inc.](http://www.apple.com) <img src='www/apple.jpg' width='12' align='center' valign='middle'>によって、[IdealSeed会社](http://www.idealseed.com/)で採用されている <img src='www/idealseed.jpg' width='12' align='center' valign='middle'>）
+
+- *ジョブ タスク：[ゼロックス](https://www.xerox.com/)事務所で仕事してる <img src='www/xerox.jpg' width='36' align='center' valign='middle'>、インバウンドとアウト．バウンドのコール、チェック、承認/拒否の顧客の注文トランザクションを処理します。*
+
+<br>
+
+**2014年3月から 2014年4月まで：オンライン売り場、顧客サービス**；（[富士ゼロックス](https://www.fujixerox.com)で採用されている <img src='www/fuji-xerox.jpg' width='50' align='center' valign='middle'>）
+
+- *ジョブ タスク：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカルサポートや、着信通話で処理します。*
+
+<br>
+
+**2013年11月から 2014年3月まで：オンライン ゲーム、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp会社](http://www.sbet.com)で採用されている、そして[GBLinks](http://www.gb-links.com/) <img src='www/gblinks.jpg' width='32' align='center' valign='middle'>は交易プラットフォームとソフトウェア技術サポートします）
+
+- *ジョブ タスク：従業員を管理し、スコアを更新し、ベットを決算します。*
+
+<br>
+
+**2012年11月から 2013年5月まで：テレビ放送チャンネル、ビデオ エディター**；（[U-Drive Media会社](http://www.udrive-media.com/)で採用されている <img src='www/u-drive-media.jpg' width='100' align='center' valign='middle'>）
+
+- *ジョブ タスク：[テレコム．マレーシア株式会社](https://tm.com.my/#/explore)　<img src='www/tm.jpg' width='24' align='center' valign='middle'>で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
+
+<br>
+
+**2008年3月から 2012年7月まで：アウトソーシング事業、顧客サービス**；（[Scicom (MSC)株式会社](http://www.scicom-intl.com/)で採用されている <img src='www/scicom.jpg' width='30' align='center' valign='middle'>）
+
+- *ジョブ タスク：[Ladbrokes株式会社](http://www.ladbrokesplc.com/)'s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
+- [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
+- [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
+
+<br>
+
+**2006年7月から 2007年6月まで：オンライン売り場、トレーナー/トレーダー**；（[Caspo会社](http://www.callcenterbeat.com/caspo-philippines/)で採用されている <img src='www/caspo.jpg' width='36' align='center' valign='middle'>）
+
+- *ジョブ タスク：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
+
+<br>
+
+**2005年11月から 2006年7月まで：オンライン ゲーム、チーム リーダー/シニア トレーダー**；（[Telebiz会社](http://www.telebizness.com/)で採用されている <img src='www/telebiz.jpg' width='36' align='center' valign='middle'>）
+
+- *ジョブ タスク：新規参入者のトレーニングし、ヘッジし、出荷し、スコアの更新し、イベント決済し、データ分析し、コーナーキックなど事もあります。*
+
+<br>
+<br>
+
+## 研究と技術的な経験
 
 [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
-- *分析上市公司的財務報表與股價。*
-- *分析新寶1與新寶2的財務報表。*
-- *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)。*
+- *株式会社/企業の財務諸表と株価の分析する。*
+- *SB1とSB2の財務諸表を分析する。*
+- *詳細については、[此処](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)でクリックしてください。*
 
 <br>
 
 [**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
-- *回測金融投註建模與投註策略.*
-- *回測Arima、平滑模型與各種Garch模型，並且凱利投註模型等等。*
-- *彌補缺失值數據與回測高頻率交易。*
-- *欲知更多詳情，請點擊[此處](https://github.com/englianhu/binary.com-interview-question)。*
+- *金融賭け製品モデリング、また戦略を賭けてのバックテストです。*
+- *Arimaモデル、スムージングモデルと様々なGarchモデル、Kellyベッティングモデルなどをバックテストする。*
+- *不足している値のデータセットを補完し、高頻度取引のバックテストもあります。*
+- *詳細については、[此処](https://github.com/englianhu/binary.com-interview-question)でクリックしてください。*
 
 <br>
 
 [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium和Phantomjs軟件采集網絡足球彩券與賽事數據。*
-- *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對從基金的註單賽事隊名。*
-- *運用不同的凱利標準杠桿投註。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
+- *SeleniumとPhantomjsソフトウェアを使用してオンラインサッカーデータを収集する。*
+- *自然言語解析してる、サッカーの試合データを収集し、ヘッジ．ファンドからのベットイベントのチームチーム名とチーム名を自動的に一致させます。*
+- *Kelly標準モデルでレバレッジベット賭け方法を使用する。*
+- *詳細については、[此処](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)でクリックしてください。*
 
 <br>
 
 [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
-- *如何在centOS7操作系統建立自己的RStudio與Shiny應用的教程。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/setup-rstudio-server)。*
+- *centOS7オペレーティングシステムで自分のRStudioとShinyアプリケーションチュートリアルを構築する方法を教えてあげます。*
+- *詳細については、[此処](https://github.com/Scibrokes/setup-rstudio-server)でクリックしてください。*
 
 <br>
 
 [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
-- *應用加權對角通膨雙變量泊松模型，而足球賽事的數據采集於* **WebDriver Dynamic Webpage Scrapping** *。*
-- *應用凱利標準模型，投註於10家博彩公司的英國2011/12與2012/13賽季的賽事。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/kelly-criterion)。*
+- *サッカーの試合のデータは**WebDriver Dynamic Webpage Scrapping**で収集されます、加重対角インフレーション二変量ポアソンモデルが適用されます。*
+- *Kelly標準モデルを適用して、2011/12から2012/13までの英国サッカーシーズンデーで10賭け会社に賭けます。*
+- *詳細については、[此処](https://github.com/Scibrokes/kelly-criterion)でクリックしてください。*
 
 <br>
 
 [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
 
-- *Dixon & Coles 1996 足球得分建模。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Dixon-Coles1996)。*
+- *Dixon & Coles 1996サッカースコアモデリング。*
+- *詳細については、[此処](https://github.com/Scibrokes/Dixon-Coles1996)でクリックしてください。*
 
 <br>
 
 [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
-- *使用RSelenium與Python軟件，從[7M](http://odds.7m.hk/en/)和[NowGoal](http://info.nowgoal.com/en/)網站采集博彩公司的賠率數據與賽事比分。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)。*
+- *RSeneniumとPythonソフトウェアを使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け会社のオッズデータを収集し、得点を合わせるも収集する。*
+- *詳細については、[此処](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)でクリックしてください。*
 
 <br>
 
 [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
-- *采集靜態網頁足球賽事數據。*
-- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Soccer-League-Web-Scraping)。*
+- *静的ウェブサッカーのマッチデータを収集する。*
+- *詳細については、[此処](https://github.com/Scibrokes/Soccer-League-Web-Scraping)でクリックしてください。*
 
 <br>
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
-- *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en/)網站的足球賽事比分與29家博彩公司的1x2、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
-- *應用加權對角通膨雙變量泊松模型，測試投註與回酬。*
-- *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)。*
+- *[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトからのサッカーの試合スコアは、賭博企業の1x2、アジアのディスク、大小の賭けで29の賭けをしたもので、すべてのデータには2006年から2011年までのデータが含まれていますを手動で収集する*
+- *ベットとリターンをテストするために加重対角インフレーション二変量ポアソンモデルを適用する。*
+- *詳細については、[此処](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)でクリックしてください。*
 
 <br>
 
 [**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
-- *應用單變量泊松模型足球賠率建模。*
-- *欲知更多詳情，請點擊[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)和[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)以了解更多科研詳情*
+- *単変量ポアソンモデルでサッカーオッズモデリングの応用する。*
+- *詳細については、[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)と[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)でクリックしてください。*
 
 <br>
 <br>
 
-## 技能
+## スキル
 
 ```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6))
-names(skill) <- c('Skill', 'Level')
+skill <- data_frame(c('Rプログラミング', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客サービス', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科学', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交易'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
+names(skill) <- c('技能', 'レベル')
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
 
@@ -403,7 +404,7 @@ tagList(
            class = "bg-info", 
            tags$h3(class = "bg-primary", "Skill and Expertise"), 
            tags$h5(align = "center", class = "text-muted", 
-                   "Skill and Expertise Rating Level (from newbie 1 to expert 10)")), 
+                   "技能評価 (新入生1から専門10まで)")), 
   as.htmlwidget(skill %>% formattable(list(
     Level = color_tile('white', 'darkgoldenrod')
     ))))
@@ -413,18 +414,18 @@ tagList(
 
 ```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill %>% data.frame %>% 
-  recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radarfill', 
+  recharts::echartR(x= ~技能, y= ~レベル, series= ~技能, type='radarfill', 
                     symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='Skill Rating', subtitle= '(by @englianhu)')
+                    title='技能評価', subtitle= '(by @englianhu)')
 
-chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
+chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 ```
 
 <br>
 
-## 其它
+## その他
 
-在下目前正在學習著建立自己的足彩對沖基金 [Scibrokes®](https://github.com/scibrokes)^[網站尚未建成，尚努力當中。] ，估計將會是亞洲第一家專業的對沖基金。有興趣建立自己的®Studio服務器者，可以參閱 [安裝 ®StudioとShiny服務器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>，而對於量化交易的熱忱者，可通過<englianhu@gmail.com>聯系本人。
+現在、私は自分のスポーツ ヘッジファンド会社[Scibrokes®](https://github.com/scibrokes)^[網站尚未建成，尚努力當中。]をセットアップために、また学ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計学ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>を参照してくださいする。量化交易に興味があるなら、うちに<englianhu@gmail.com>連絡を歓迎する、喜んで。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -433,7 +434,7 @@ chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
 <br>
 <br>
 
-## 社交媒體
+## ソーシャル．メディア
 
 <a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='www/coursera_36x36.jpg' height='48'></a>
 <a href='https://jp.linkedin.com/in/englianhu'><img src='www/linkedin_36x36.jpg' height='48'></a>
@@ -466,23 +467,23 @@ chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
 <br>
 <br>
 
-# 附錄
+# 付録
 
 <br>
 
-## 文件明細
+## ドキュメントの詳細
 
-以下乃此文獻的文件信息。
+この文書のファイル情報は次のとおりです。
 
-- 文獻建立日：2015-10-12
+- ファイルの作成日付：2015-10-12
 - `r R.version.string`
-- R元版本：`r getRversion()`
+- Rバージョン：`r getRversion()`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown)程序包版本：`r packageVersion('rmarkdown')`
-- 文獻版本：1.1.1
-- 文獻最新更新日：`r Sys.Date()`
-- 文獻作者：[®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
-- GitHub：[源代碼](https://github.com/scibrokes/owner)
-- 其它附屬信息
+- ファイルのバージョン：1.1.1
+- ファイルの最新更新日：`r Sys.Date()`
+- 著者プロフィール：[®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub：[ソース コード](https://github.com/scibrokes/owner)
+- 追加のセッション情報
 
 ```{r info, echo=FALSE, warning=FALSE, results='asis'}
 sys1 <- session_info()$platform %>% 
@@ -518,17 +519,17 @@ rm(sys1, sys2)
 
 ## 參考文獻
 
-- You are feel free to create  your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-- [prettydoc](http://yixuan.cos.name/prettydoc/)
-- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
-- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
-- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
-- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
-- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- 自身の履歴書を作成することに興味があるなら、[Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)を参照してください。
+- [prettydoc](http://yixuan.cos.name/prettydoc/)。
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)。
+- [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)と[timeline](http://jason.bryer.org/timeline/)に参考して、プロットすることができます。
+- [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)パッケージで使えなら、アニメーショングラフをプロットする。興味があるなら[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)に元々例が参考する。
+- また、[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/)参照によってウェブサイトのレイアウトを変更することもできます。
+- [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)は多様化したシンボルがたくさんあります。
 
 <br>
 <br>
 
 ---
 
-<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)個人の経営企業**</span>
+[<img src='www/scb_logo.jpg' width='64'>®](http://www.scibrokes.com)<span style='color:RoyalBlue'>**企業の知的財産権と著作権、海賊版は調査されなければならない。**</span>

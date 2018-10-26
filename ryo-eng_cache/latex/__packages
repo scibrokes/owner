@@ -1,6 +1,4 @@
 base
-methods
-utils
 BBmisc
 plyr
 tidyverse
@@ -12,7 +10,6 @@ purrr
 dplyr
 usethis
 devtools
-stats
 zoo
 lubridate
 stringr
@@ -25,6 +22,9 @@ rmarkdown
 htmltools
 formattable
 installr
-datasets
-grDevices
-graphics
+CGIwithR
+magrittr
+forcats
+kableExtra
+recharts
+radarchart
