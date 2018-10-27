@@ -5,6 +5,7 @@ require('dashboardthemes')
 require('shinyWidgets')
 require('shinyjs')
 require('memoise')
+if(!require('XML')) devtools::install_github('omegahat/XML')
 require('XML')
 
 ### creating custom logo object

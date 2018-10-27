@@ -4,6 +4,7 @@ require('shinydashboard')
 require('dashboardthemes')
 require('shinyWidgets')
 require('shinyjs')
+if(!require('XML')) devtools::install_github('omegahat/XML')
 require('XML')
 
 server <- shinyServer(function(input, output, session) {
