@@ -1,7 +1,5 @@
 base
-methods
 CGIwithR
-utils
 BBmisc
 plyr
 dplyr
@@ -16,7 +14,6 @@ stringr
 forcats
 devtools
 usethis
-stats
 zoo
 lubridate
 xml2
@@ -29,6 +26,5 @@ htmltools
 kableExtra
 formattable
 installr
-datasets
-grDevices
-graphics
+recharts
+radarchart

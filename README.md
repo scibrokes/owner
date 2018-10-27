@@ -8,12 +8,10 @@
 
 ### Personal CV : 
 
-  - [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/content/4348/ryo-eng.html) (updated at 2018-10-26 15:29:05 JST, (and [shinyCV](https://beta.rstudioconnect.com/content/4352/))
+  - [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/content/4351/ryo-eng.html) (updated at 2018-10-26 15:29:05 JST, (and [shinyCV](https://beta.rstudioconnect.com/content/4352/))
   - [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html) (updated at 2017-10-13 17:26:32 JST)
   - [®γσ , Eng Lian Hu](https://englianhu.github.io/2016/12/ryo-eng.html) (updated at 2016-12-31 23:03:31 JST), (The [Alternative link](http://rpubs.com/englianhu/ryoeng) might broken)
   - [®γσ , Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/) (updated at 2016-05-15 00:39:25 JST)
-
-![](www/20181027_002605.gif)
 
 ### Blog
 

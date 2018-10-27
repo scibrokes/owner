@@ -194,7 +194,9 @@ $®γσ$ , Eng Lian Hu
 ```{r libs, message = FALSE, warning = FALSE, cache = TRUE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
+library('BBmisc')
 suppressAll(source('function/libs.R'))
+require('lubridate')
 
 #'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
@@ -207,7 +209,7 @@ suppressAll(source('function/libs.R'))
 | **Title**                  |                                                                                          **Details** |
 |:---------------------------|-----------------------------------------------------------------------------------------------------:|
 | Date of Birth              |                                                                            `r x='22-10-1984';dmy(x)` |
-| Age                        |    `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
+| Age                        |        `r interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
 | Mobile Phone Number        |                                                                   [+6-017-2100905](tel:+60172100905) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
 | Nationality                |                                                                                            Malaysian |
@@ -438,6 +440,8 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br>
 <br>

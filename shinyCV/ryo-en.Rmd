@@ -185,7 +185,9 @@ $®γσ$ , Eng Lian Hu
 ```{r libs, message = FALSE, warning = FALSE, cache = TRUE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
+library('BBmisc')
 suppressAll(source('function/libs.R'))
+library('lubridate')
 
 #'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
@@ -431,6 +433,8 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br>
 <br>

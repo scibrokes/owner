@@ -26,3 +26,5 @@ formattable
 installr
 magrittr
 kableExtra
+recharts
+radarchart
