@@ -437,7 +437,9 @@ chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
 
 I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)^[The website not yet setup but now keep up learning.] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <englianhu@gmail.com>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y70lQ6xGG84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
