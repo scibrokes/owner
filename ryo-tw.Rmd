@@ -201,7 +201,7 @@ library('lubridate')
 |:------------:|:-------------------------------------------------------------------------------------------------:|
 | 生日         |                                                                         `r x='22-10-1984';dmy(x)` |
 | 年齡         | `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| 行動電話號碼 |                                                                [+6-017-2100905](tel:+60172100905) |
+| 行動電話號碼 |                                                                [+6-017-2100905](tel:+601110640095) |
 | 電子郵箱     |                                                                             <englianhu@gmail.com> |
 | 國籍         |                                                                                        馬來西亞人 |
 | 出生地       |                                                                      丹戎加弄，雪蘭莪州，馬來西亞 |
@@ -413,7 +413,9 @@ tagList(
 
 <br>
 
-```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2, eval = FALSE, echo = FALSE}
+#, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+
 skill %>% data.frame %>% 
   recharts::echartR(x= ~技能, y= ~程度, series= ~技能, type='radarfill', 
                     symbolList='none', #palette=c('firebrick1','dodgerblue'), 

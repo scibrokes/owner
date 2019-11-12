@@ -201,7 +201,7 @@ library('lubridate')
 |:---------------------------|-----------------------------------------------------------------------------------------------------:|
 | Date of Birth              |                                                                            `r x='22-10-1984';dmy(x)` |
 | Age                        |    `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| Mobile Phone Number        |                                                                   [+6-017-2100905](tel:+60172100905) |
+| Mobile Phone Number        |                                                                   [+6-017-2100905](tel:+601110640095) |
 | Email Address              |                                                                                <englianhu@gmail.com> |
 | Nationality                |                                                                                            Malaysian |
 | Place of Birth             |                                                                   Tanjong Karang, Selangor, Malaysia |
@@ -413,7 +413,9 @@ tagList(
 
 <br>
 
-```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2, eval = FALSE, echo = FALSE}
+#, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+
 skill %>% data.frame %>% 
   recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radarfill', 
                     symbolList='none', #palette=c('firebrick1','dodgerblue'), 

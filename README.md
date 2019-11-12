@@ -49,8 +49,8 @@ You are welcome to browse my personal blog :
 | **Title**                  |                           **Details** |
 |:---------------------------|--------------------------------------:|
 | Date of Birth              |                            22-10-1984 |
-| Age                        |                                    34 |
-| Malaysian Phone Number     |    [+6-017-2100905](tel:+60172100905) |
+| Age                        |                                    35 |
+| Malaysian Phone Number     | [+6-011-10640095](tel:+6011-10640095) |
 | Email Address              |                 <englianhu@gmail.com> |
 | Nationality                |                             Malaysian |
 | Place of Birth             |    Tanjong Karang, Selangor, Malaysia |
