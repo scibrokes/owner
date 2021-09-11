@@ -1,5 +1,7 @@
 # Sςιβrοκεrs Trαdιηg®️ Owner
 
+[![Jekyll site CI](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml/badge.svg)](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml)
+
 ## Company Profile
 
 Scibrokes® is just a list of research on sportsbook via GitHub by one person (as states at the bottom of the webpage) but **NOT EXIST** nor **NO ANY BUSINESS** in real life. I use the logo *Dragon* or *Sceau impérial du Japon* just because of growth in Japanese made products and animation since a child. I can casually move to personal repo <https://github.com/englianhu> **anytime**.
