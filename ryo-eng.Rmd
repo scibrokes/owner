@@ -2,7 +2,7 @@
 title: "[<span style='color:goldenrod'>®γσ, ENG LIAN HU</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
 author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='www/ENG.jpg'
-  width='24' align='center' valign='middle'> <img src='www/my-passport-size-photo.jpg'
+  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='24' align='center' valign='middle'>®"
 date: "10/22/1984"
 output:
@@ -88,6 +88,7 @@ resource_files:
 - www/mathchina.jpg
 - www/mathchina_36x36.jpg
 - www/me.JPG
+- www/me light mode.jpg
 - www/mindpearl01.jpg
 - www/mindpearl02.jpg
 - www/my-passport-size-photo.jpg
@@ -103,6 +104,7 @@ resource_files:
 - www/QQ_36x36.jpg
 - www/Qzone.jpg
 - www/Qzone_36x36.jpg
+- www/quantitative trader 2.jpg
 - www/rcrown.jpg
 - www/retailsshop.jpg
 - www/rnable.jpg
@@ -185,9 +187,9 @@ resource_files:
 
 # Curriculum Vitae
 
-<img src="www/RYO-Photo.jpg" width="120" align="center" valign="middle"/>
+<img src="www/quantitative trader 2.jpg" width="120" align="center" valign="middle"/>
 
-$®γσ$ , Eng Lian Hu
+$®γσ$ , $ξηg\ Lιαη\ Ημ$
 
 <audio src="music/bigmoney.mp3" controls>
 
@@ -221,7 +223,25 @@ require('lubridate')
 
 ## Education
 
-**Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+**May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu)<img src="www/ucsc.png" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
+
+<br>
+
+**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu)<img src="www/ucsc.png" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Bayesian Statistics Mixture Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+
+<br>
+
+**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn)<img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+
+<br>
+
+**Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
 -   *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
 -   *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
@@ -250,6 +270,12 @@ require('lubridate')
 <br> <br>
 
 ## Experience
+
+**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali & YiHaoCai under Lefa (Oriental Group)](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>)
+
+-   *Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
+
+<br>
 
 **Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)
 
