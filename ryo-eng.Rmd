@@ -198,9 +198,7 @@ $®γσ$ , $ξηg\ Lιαη\ Ημ$
 ```{r libs, message = FALSE, warning = FALSE, cache = TRUE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-library('BBmisc')
-suppressAll(source('function/libs.R'))
-require('lubridate')
+source('function/libs.R')
 
 #'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```

@@ -1,5 +1,7 @@
-buildFund <- function(mbase, initial = NULL, parallel = as.logical(FALSE), 
-                      by = 'daily', by.league = as.logical(FALSE), adjusted = 1) {
+buildFund <- function(mbase, initial = NULL, 
+                      parallel = as.logical(FALSE), 
+                      by = 'daily', by.league = as.logical(FALSE), 
+                      adjusted = 1) {
   ## The function similar with KellyPL() and compareKelly() but only convert existing 
   ##   staking data into quantmod xts format and fund size growth.
   
