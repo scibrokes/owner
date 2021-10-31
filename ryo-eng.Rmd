@@ -198,7 +198,34 @@ $®γσ$ , $ξηg\ Lιαη\ Ημ$
 ```{r libs, message = FALSE, warning = FALSE, cache = TRUE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-source('function/libs.R')
+#source('function/libs.R')
+
+## Setup Options, Loading Required Libraries and Preparing Environment
+
+## Setting to omit all warnings
+options(warn = -1)
+
+## Loading the package 'BBmisc'
+#if(suppressMessages(!require('BBmisc'))){
+#  install.packages('BBmisc')
+#  suppressMessages(library('BBmisc'))
+#}
+if (suppressMessages(!require('rmsfuns'))) {
+  install.packages('rmsfuns')
+  suppressMessages(library('rmsfuns'))
+}
+
+## Loading multiple packages at once
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
+          'lubridate', 'stringr', 'rvest', 'googleVis', 'markdown', 
+          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
+          'formattable', 'echarts4r', 'radarchart', 'MASS')
+#suppressAll(lib(pkgs)); rm(pkgs)
+load_pkg(pkgs); rm(pkgs)
+
+## Set the googleVis options first to change the behaviour of plot.gvis, so that 
+##  only the chart component of the HTML file is written into the output file.
+op <- options(gvis.plot.tag = 'chart')
 
 #'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
@@ -502,7 +529,7 @@ It's useful to record some information about how your file was created.
 -   GitHub: [Source Code](https://github.com/scibrokes/owner)
 -   Additional session information
 
-```{r info, echo=FALSE, warning=FALSE, results='asis'}
+```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
 sys1 <- session_info()$platform %>% 
   unlist %>% 
   data.frame(Category = names(.), session_info = .)
