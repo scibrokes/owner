@@ -217,8 +217,9 @@ $®γσ$, $ξηg\ Lιαη\ Ημ$
 <br>
 <span style='color:green'>**Theme Song**</span>
 <br>
-
-<audio src="music/bigmoney.mp3" controls></audio>
+<audio controls loop autoplay>
+<source src = 'music/bigmoney.mp3' type = 'audio/mp3'>
+</audio>
 <br>
 
 ------
@@ -289,6 +290,15 @@ h5 { color: #92AAC7; }
 ## https://stackoverflow.com/a/36846793/3806250
 options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
+
+## Set the timezone but not change the datetime
+Sys.setenv(TZ = 'Asia/Tokyo')
+## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+options(warn = -1, knitr.table.format = 'html')#, digits.secs = 6)
+
+## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
+knitr::opts_chunk$set(cache = TRUE, warning = FALSE, 
+                      message = FALSE, cache.lazy = FALSE)
 ```
 
 <br><br>
@@ -300,7 +310,7 @@ knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 
-#'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
+## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
 <br><br>
@@ -525,30 +535,53 @@ source('function/libs.R')
 ## Skill
 
 ```{r skill, echo = FALSE, result = 'asis'}
-skill <- data_frame(Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics'), Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9))
+suppressMessages(require('dplyr', quietly = TRUE))
+suppressMessages(require('magrittr', quietly = TRUE))
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
 
-#'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+skill <- data_frame(
+  Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics'), 
+  Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9))
+skill <- data_frame(No = 1:nrow(skill), skill)
 
 skill %>% 
-  mutate(Level = color_tile('white', 'darkgoldenrod')) %>% 
-  kbl(caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)') %>% 
+  dplyr::mutate(
+    Skill = cell_spec(Skill, italic = TRUE, 
+                      color = spec_color(1:16, option = 'A', 
+                                         begin = 0.1, end = 0.9), 
+                      tooltip = paste0('Level: ', Level), angle = 3)) %>%#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) %>% 
+  mutate_if(is.numeric, function(x){
+    cell_spec(x, 'html', color = 
+                spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
+                           direction = -1), angle = 20, 
+              font_size = spec_font_size(x), bold = TRUE)
+  }) %>% 
+  kbl(caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)', escape = FALSE, align = 'c') %>% 
   kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive')) %>% 
-  row_spec(0, background = 'DimGrey', color = 'yellow') %>% 
-  column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
-  column_spec(2, background = 'grey', color = 'black') %>% 
-  row_spec(9, bold = T, color = 'yellow', background = '#D7261E')
+  row_spec(0, background = 'DimGrey', color = 'yellow')# %>% 
+  #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  #column_spec(2, background = 'grey', color = 'black') %>% 
+  #column_spec(2, background = 'grey', color = 'black')
 ```
 
 <br>
 
 ```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill %>% 
-  data.frame %>% 
-  recharts::echartr(x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
-          symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
-          title = 'Skill Rating', subtitle = '(by @englianhu)')
+skill[,-1] %>% 
+  data_frame %>% 
+  recharts::echartr(
+    x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
+    symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+    title = 'Skill Rating', subtitle = '(by @englianhu)') %>% 
+  setToolbox(lang = 'en', pos = 2) %>% 
+    setTheme('infographic', calculable = TRUE, bgColor = '#FDE1C3')
 
-radarchart::chartJSRadar(skill, main = 'Skill Rating', width = '100%', height = '100%', maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+radarchart::chartJSRadar(
+  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 ```
 
 <br>
