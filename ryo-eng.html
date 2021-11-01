@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="®γσ, Lian Hu  ®" />
 
 <meta name="date" content="1984-10-22" />
 
-<title>®γσ, ENG LIAN HU</title>
+<title>®γσ, ξηg Lιαη Ημ</title>
 
-<script src="ryo-eng_files/jquery-1.11.3/jquery.min.js"></script>
+<script src="ryo-eng_files/header-attrs-2.11/header-attrs.js"></script>
+<script src="ryo-eng_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="ryo-eng_files/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="ryo-eng_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="ryo-eng_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="ryo-eng_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="ryo-eng_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="ryo-eng_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="ryo-eng_files/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="ryo-eng_files/navigation-1.1/tabsets.js"></script>
 <script src="ryo-eng_files/navigation-1.1/codefolding.js"></script>
-<script src="ryo-eng_files/htmlwidgets-1.3/htmlwidgets.js"></script>
-<script src="ryo-eng_files/formattable_widget-binding-0.2.0.1/formattable_widget.js"></script>
-<script src="ryo-eng_files/echarts-2.2.3/echarts-all.js"></script>
-<script src="ryo-eng_files/echarts-binding-0.0.3/echarts.js"></script>
+<script src="ryo-eng_files/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="ryo-eng_files/formattable_widget-binding-0.2.2.1/formattable_widget.js"></script>
+<script src="ryo-eng_files/echarts-2.2.7/echarts-all.js"></script>
+<script src="ryo-eng_files/charts-ext-2.2.7/main.js"></script>
+<script src="ryo-eng_files/charts-ext-2.2.7/BMap.js"></script>
+<script src="ryo-eng_files/echarts-binding-0.2.1/echarts.js"></script>
 <script src="ryo-eng_files/chart.js-2.4.0/./dist/Chart.min.js"></script>
 <script src="ryo-eng_files/chartJSRadar-binding-0.3.1/chartJSRadar.js"></script>
 <script src="ryo-eng_files/kePrint-0.0.1/kePrint.js"></script>
-
-
-
+<link href="ryo-eng_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
-</head>
 
-<body>
+
+
+
+<link rel="stylesheet" href="CSSBackgrounds.css" type="text/css" />
+
+
 
 <style type = "text/css">
 .main-container {
@@ -75,13 +71,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -92,11 +83,15 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -106,7 +101,6 @@ button.code-folding-btn:focus {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -142,6 +136,7 @@ button.code-folding-btn:focus {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -154,56 +149,12 @@ button.code-folding-btn:focus {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 <style type="text/css">
 .code-folding-btn { margin-bottom: 4px; }
 </style>
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -217,6 +168,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -252,8 +209,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -263,8 +218,18 @@ div.tocify {
 
 </style>
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -275,11 +240,11 @@ div.tocify {
 
 
 
-<div class="fluid-row" id="header">
+<div id="header">
 
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
 </ul>
@@ -287,22 +252,22 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore"><a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html"><span style="color:goldenrod">®γσ, ENG LIAN HU</span></a></h1>
-<h3 class="subtitle"><em>Personal Profile</em></h3>
-<h4 class="author"><em><a href="https://englianhu.github.io/">®γσ, Lian Hu</a> <img src='www/ENG.jpg' width='24' align='center' valign='middle'> <img src='www/my-passport-size-photo.jpg' width='24' align='center' valign='middle'>®</em></h4>
-<h4 class="date"><em>10/22/1984</em></h4>
+<h1 class="title toc-ignore"><a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html"><span style="color:goldenrod">®γσ, ξηg Lιαη Ημ</span></a></h1>
+<h3 class="subtitle">Personal Profile</h3>
+<h4 class="author"><a href="https://englianhu.github.io/">®γσ, Lian Hu</a> <img src='www/ENG.jpg' width='24' align='center' valign='middle'> <img src='www/me%20light%20mode.jpg' width='24' align='center' valign='middle'>®</h4>
+<h4 class="date">10/22/1984</h4>
 
 </div>
 
 
-<div id="curriculum-vitae" class="section level1">
+<div id="curriculum-vitae" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Curriculum Vitae</h1>
-<p><img src='www/RYO-Photo.jpg' width='120' align='center' valign='middle'></p>
-<p><span class="math inline">\(®γσ\)</span> , Eng Lian Hu</p>
+<p><img src="www/quantitative%20trader%202.jpg" width="120" align="center" valign="middle"/></p>
+<p><span class="math inline">\(®γσ\)</span> , <span class="math inline">\(ξηg\ Lιαη\ Ημ\)</span></p>
 <audio src="music/bigmoney.mp3" controls>
 </audio>
 <p><br> <br></p>
-<div id="about-me" class="section level2">
+<div id="about-me" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> About Me</h2>
 <table>
 <thead>
@@ -318,15 +283,15 @@ div.tocify {
 </tr>
 <tr class="even">
 <td align="left">Age</td>
-<td align="right">34y 0m 6d</td>
+<td align="right">37y 0m 10d</td>
 </tr>
 <tr class="odd">
 <td align="left">Mobile Phone Number</td>
-<td align="right"><a href="tel:+60172100905">+6-017-2100905</a></td>
+<td align="right"><a href="tel:+601110640095">+6-017-2100905</a></td>
 </tr>
 <tr class="even">
 <td align="left">Email Address</td>
-<td align="right"><a href="mailto:englianhu@gmail.com">englianhu@gmail.com</a></td>
+<td align="right"><a href="mailto:englianhu@gmail.com" class="email">englianhu@gmail.com</a></td>
 </tr>
 <tr class="odd">
 <td align="left">Nationality</td>
@@ -344,9 +309,24 @@ div.tocify {
 </table>
 <p><br> <br></p>
 </div>
-<div id="education" class="section level2">
+<div id="education" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Education</h2>
-<p><strong>Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.jhu.edu/">Johns Hopkins University (JHU)</a> <img src='www/jhu.jpg' width='60' align='center' valign='middle'>)</p>
+<p><strong>May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.nyu.edu">New York University</a><img src="www/ucsc.png" width="14" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Course title : <a href="https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance">Overview of Advanced Methods of Reinforcement Learning in Finance (Python)</a></em></li>
+</ul>
+<p><br></p>
+<p><strong>May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.universityofcalifornia.edu">University of California</a><img src="www/ucsc.png" width="14" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Course title : <a href="https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models">Bayesian Statistics Mixture Models (R)</a></em></li>
+</ul>
+<p><br></p>
+<p><strong>Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.pku.edu.cn">Peking University</a><img src="www/Peking%20University%2002.png" width="14" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Course title : <a href="https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods">Bioinformatics Introduction and Methods (Hidden Markov Model)</a></em></li>
+</ul>
+<p><br></p>
+<p><strong>Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.jhu.edu">Johns Hopkins University (JHU)</a> <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>01 Course title : <a href="https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL">The Data Scientist’s Toolbox</a></em></li>
 <li><em>02 Course title : <a href="https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B">R Programming</a></em></li>
@@ -361,27 +341,32 @@ div.tocify {
 <li><a href="https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB"><strong>Data Science Specialization</strong></a></li>
 </ul>
 <p><br></p>
-<p><strong>Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.umich.edu/">University of Michigan (UM)</a><img src='www/um.jpg' width='14' align='center' valign='middle'>)</p>
+<p><strong>Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.umich.edu/">University of Michigan (UM)</a><img src="www/um.jpg" width="14" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa">Programming for Everybody (Python)</a></em></li>
 </ul>
 <p><br></p>
-<p><strong>Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test</strong>; (<a href="http://www.jlpt.jp/index.html">JLPT</a> - <a href="http://www.jfkl.org.my/">Japan Foundation Kuala Lumpur</a> <img src='www/JFKL.jpg' width='36' align='center' valign='middle'> and <a href="http://www.jees.or.jp/index.htm">Japan Educational Exchanges and Services</a> <img src='www/JEES.gif' width='68' align='center' valign='middle'>)</p>
+<p><strong>Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test</strong>; (<a href="http://www.jlpt.jp/index.html">JLPT</a> - <a href="http://www.jfkl.org.my/">Japan Foundation Kuala Lumpur</a> <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and <a href="http://www.jees.or.jp/index.htm">Japan Educational Exchanges and Services</a> <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg">Japanese Language Profeciency Test - Level III</a></em></li>
 </ul>
 <p><br> <br></p>
 </div>
-<div id="experience" class="section level2">
+<div id="experience" class="section level2" number="1.3">
 <h2><span class="header-section-number">1.3</span> Experience</h2>
-<p><strong>Nov-2017 to May-2018 : Customer Service Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Aristocrat &amp; Residence</a> <img src='www/anr.jpg' width='20' align='center' valign='middle'>) (2nd job employed by <a href="https://www.7liveasia88.com">7LiveAsia</a> <img src='www/7live.jpg' width='18' align='center' valign='middle'>)</p>
+<p><strong>Nov-2019 to Jul-2020 : Marketing Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Ali &amp; YiHaoCai under Lefa (Oriental Group)</a> <img src="www/anr.jpg" width="20" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.</em></li>
 </ul>
 <p><br></p>
-<p><strong>May-2016 to Dec-2016 : Customer Service Executive</strong>;(employed by <a href="http://www.manpower.com.my/">Manpower Human Resource Sdn Bhd</a> <img src='www/manpower.jpg' width='24' align='center' valign='middle'> and deployed by <a href="https://www.mindpearl.com/">Mindpearl</a> <img src='www/mindpearl02.jpg' width='24' align='center' valign='middle'>)</p>
+<p><strong>Nov-2017 to May-2018 : Customer Service Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Aristocrat &amp; Residence</a> <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by <a href="https://www.7liveasia88.com">7LiveAsia</a> <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : A customer service executive in Mindpearl but handle <a href="https://www.malaysiaairlines.com/my/en.html">Malaysia Airlines</a> <img src='www/mas.jpg' width='36' align='center' valign='middle'> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.</em></li>
+<li><em>Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.</em></li>
+</ul>
+<p><br></p>
+<p><strong>May-2016 to Dec-2016 : Customer Service Executive</strong>;(employed by <a href="http://www.manpower.com.my/">Manpower Human Resource Sdn Bhd</a> <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by <a href="https://www.mindpearl.com/">Mindpearl</a> <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Job Task : A customer service executive in Mindpearl but handle <a href="https://www.malaysiaairlines.com/my/en.html">Malaysia Airlines</a><img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.</em></li>
 </ul>
 <p><br></p>
 <p><strong>Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader</strong>; (employed by Global Solution Sdn Bhd)</p>
@@ -394,45 +379,45 @@ div.tocify {
 <li><em>Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention</strong>; (employed by <a href="http://www.idealseed.com/">IdealSeed Sdn Bhd</a> <img src='www/idealseed.jpg' width='12' align='center' valign='middle'> and deployed by <a href="http://www.apple.com">Apple Inc.</a> <img src='www/apple.jpg' width='12' align='center' valign='middle'>)</p>
+<p><strong>Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention</strong>; (employed by <a href="http://www.idealseed.com/">IdealSeed Sdn Bhd</a> <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by <a href="http://www.apple.com">Apple Inc.</a> <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : Working in <a href="https://www.xerox.com/">Xerox</a> <img src='www/xerox.jpg' width='36' align='center' valign='middle'> office. Handling inbound and outbound calls, check and approve/reject customers’ ordered transactions.</em></li>
+<li><em>Job Task : Working in <a href="https://www.xerox.com/">Xerox</a><img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers’ ordered transactions.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Mar-2014 to Apr-2014 : Customer Service Executive</strong>; (employed by <a href="https://www.fujixerox.com">FujiXerox</a> <img src='www/fuji-xerox.jpg' width='50' align='center' valign='middle'>)</p>
+<p><strong>Mar-2014 to Apr-2014 : Customer Service Executive</strong>; (employed by <a href="https://www.fujixerox.com">FujiXerox</a> <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Handling inbound calls from Taiwanese customers’ orders and printer maintenance.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader</strong>; ( employed by <a href="http://www.gb-links.com/">SBSolutionCorp Ltd</a> <img src='www/gblinks.JPG' width='32' align='center' valign='middle'>)</p>
+<p><strong>Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader</strong>; ( employed by <a href="http://www.gb-links.com/">SBSolutionCorp Ltd</a> <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Handling few members to update scores and bets settlement.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor</strong>; (employed by <a href="http://www.udrive-media.com/">U-Drive Media Sdn Bhd</a> <img src='www/u-drive-media.jpg' width='100' align='center' valign='middle'>)</p>
+<p><strong>Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor</strong>; (employed by <a href="http://www.udrive-media.com/">U-Drive Media Sdn Bhd</a> <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : Watching and filtering video streaming from abroad prior to play in our country. <a href="https://tm.com.my/#/explore">TM Bhd</a> Telekom Malaysia <img src='www/tm.jpg' width='24' align='center' valign='middle'> project</em></li>
+<li><em>Job Task : Watching and filtering video streaming from abroad prior to play in our country. <a href="https://tm.com.my/#/explore">TM Bhd</a> Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project</em></li>
 </ul>
 <p><br></p>
-<p><strong>Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service</strong>; (employed by <a href="http://www.scicom-intl.com/">Scicom (MSC) Bhd</a> <img src='www/scicom.jpg' width='30' align='center' valign='middle'>)</p>
+<p><strong>Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service</strong>; (employed by <a href="http://www.scicom-intl.com/">Scicom (MSC) Bhd</a> <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets’ transactions. Sometimes need to do translation and also analysis job tasks. <a href="http://www.ladbrokesplc.com/">Ladbrokes PLC</a>’s <img src='www/ladbrokes.jpg' width='26' align='center' valign='middle'> project</em></li>
+<li><em>Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets’ transactions. Sometimes need to do translation and also analysis job tasks. <a href="http://www.ladbrokesplc.com/">Ladbrokes PLC</a>’s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project</em></li>
 <li>Awarded <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg">Customer Service Workshop</a></li>
 <li>Awarded <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg">(Ladbrokes) Appreciation Certificate.jpg</a></li>
 </ul>
 <p><br></p>
-<p><strong>Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader</strong>; (employed by <a href="http://www.callcenterbeat.com/caspo-philippines/">Caspo Inc.</a> <img src='www/caspo.jpg' width='36' align='center' valign='middle'>)</p>
+<p><strong>Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader</strong>; (employed by <a href="http://www.callcenterbeat.com/caspo-philippines/">Caspo Inc.</a> <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader</strong>; (employed by <a href="http://www.telebizness.com/">Telebiz Sdn Bhd</a> <img src='www/telebiz.jpg' width='36' align='center' valign='middle'>)</p>
+<p><strong>Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader</strong>; (employed by <a href="http://www.telebizness.com/">Telebiz Sdn Bhd</a> <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.</em></li>
 </ul>
 <p><br> <br></p>
 </div>
-<div id="technical-experience" class="section level2">
+<div id="technical-experience" class="section level2" number="1.4">
 <h2><span class="header-section-number">1.4</span> Technical Experience</h2>
 <p><a href="https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers"><strong>Analysing Financial Report of Bookmakers</strong></a></p>
 <ul>
@@ -502,23 +487,24 @@ div.tocify {
 </ul>
 <p><br> <br></p>
 </div>
-<div id="skill" class="section level2">
+<div id="skill" class="section level2" number="1.5">
 <h2><span class="header-section-number">1.5</span> Skill</h2>
 <div align="center" class="bg-info">
 <h3 class="bg-primary">Skill and Expertise</h3>
 <h5 align="center" class="text-muted">Skill and Expertise Rating Level (from newbie 1 to expert 10)</h5>
 </div>
-<div id="htmlwidget-96515dd8553262fab369" class="formattable_widget html-widget" style="width:100%;height:500px;" width="100%" height="500"></div>
-<script type="application/json" data-for="htmlwidget-96515dd8553262fab369">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:right;\"> Skill <\/th>\n   <th style=\"text-align:right;\"> Level <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:right;\"> R Programming <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> MS Office <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> SQL <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff\">3<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Python <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #f3ead6\">4<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Analysis <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Customer Service <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Sportsbook Industry <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> RStudio Server <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Statistics <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Science <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Shiny Web Application <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Linux OS <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Web API <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-f2e2b0c496330d5ea567" class="formattable_widget html-widget" style="width:100%;height:500px;" width="100%" height="500"></div>
+<script type="application/json" data-for="htmlwidget-f2e2b0c496330d5ea567">{"x":{"html":"<table class=\"table table-condensed\">\n <thead>\n  <tr>\n   <th style=\"text-align:right;\"> Skill <\/th>\n   <th style=\"text-align:right;\"> Level <\/th>\n  <\/tr>\n <\/thead>\n<tbody>\n  <tr>\n   <td style=\"text-align:right;\"> R Programming <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> MS Office <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> SQL <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff\">3<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Python <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #f3ead6\">4<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Analysis <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Customer Service <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b\">9<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Sportsbook Industry <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> ®Studio Server <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Statistics <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Data Science <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Shiny Web Application <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #c39a33\">8<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Linux OS <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #cfae5c\">7<\/span> <\/td>\n  <\/tr>\n  <tr>\n   <td style=\"text-align:right;\"> Web API <\/td>\n   <td style=\"text-align:right;\"> <span style=\"display: block; padding: 0 4px; border-radius: 4px; background-color: #dbc285\">6<\/span> <\/td>\n  <\/tr>\n<\/tbody>\n<\/table>"},"evals":[],"jsHooks":[]}</script>
 <p><br></p>
-<p><div id="htmlwidget-b6a0911150cf8a42301b" style="width:672px;height:480px;" class="echarts html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b6a0911150cf8a42301b">{"x":{"title":{"text":"Skill Rating","subtext":"(by @englianhu)","x":"center","y":"bottom","orient":"horizontal"},"tooltip":{"trigger":"item","axisPointer":{"show":true,"lineStyle":{"type":"dashed","width":1}}},"toolbox":{"show":true,"feature":{"mark":{"show":true},"dataZoom":{"show":true},"dataView":{"show":true,"readOnly":false},"magicType":{"show":false},"restore":{"show":true},"saveAsImage":{"show":true}},"x":"right","y":"top","orient":"horizontal"},"calculable":true,"series":[{"name":"Skill","type":"radar","data":[{"value":"9","name":"R Programming"},{"value":"8","name":"MS Office"},{"value":"3","name":"SQL"},{"value":"4","name":"Python"},{"value":"9","name":"Data Analysis"},{"value":"9","name":"Customer Service"},{"value":"7","name":"Sportsbook Industry"},{"value":"7","name":"RStudio Server"},{"value":"6","name":"Statistics"},{"value":"8","name":"Data Science"},{"value":"8","name":"Shiny Web Application"},{"value":"7","name":"Linux OS"},{"value":"6","name":"Web API"}],"itemStyle":{"normal":{"areaStyle":{"type":"default"}}}}],"renderAsImage":false,"color":["#7AC143","#7D3F98","#F47721","#D20962","#00A78E","#00BCE4","#B8D936","#EE3D94","#FDB933","#F58F9F","#60C3AE","#5F78BB","#5E9732","#CEA979","#EF4135","#7090A5"],"symbolList":["none","none","none","none","none","none","none","none","none","none","none","none","none"],"legend":{"show":true,"data":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","RStudio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"],"x":"left","y":"top","orient":"horizontal"},"polar":[{"radius":"70%","indicator":[{"text":"R Programming","max":11.25},{"text":"MS Office","max":10},{"text":"SQL","max":3.75},{"text":"Python","max":5},{"text":"Data Analysis","max":11.25},{"text":"Customer Service","max":11.25},{"text":"Sportsbook Industry","max":8.75},{"text":"RStudio Server","max":8.75},{"text":"Statistics","max":7.5},{"text":"Data Science","max":10},{"text":"Shiny Web Application","max":10},{"text":"Linux OS","max":8.75},{"text":"Web API","max":7.5}]}]},"evals":[],"jsHooks":[]}</script><canvas id="htmlwidget-a972c03725a2bad9ffe1" class="chartJSRadar html-widget" width="672" height="480"></canvas>
-<script type="application/json" data-for="htmlwidget-a972c03725a2bad9ffe1">{"x":{"data":{"labels":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","RStudio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"],"datasets":[{"label":"Level","data":[9,8,3,4,9,9,7,7,6,8,8,7,6],"backgroundColor":"rgba(255,0,0,0.2)","borderColor":"rgba(255,0,0,0.8)","pointBackgroundColor":"rgba(255,0,0,0.8)","pointBorderColor":"#fff","pointHoverBackgroundColor":"#fff","pointHoverBorderColor":"rgba(255,0,0,0.8)"}]},"options":{"responsive":true,"title":{"display":true,"text":"Skill Rating"},"scale":{"ticks":{"max":10,"min":0},"pointLabels":{"fontSize":18}},"tooltips":{"enabled":true,"mode":"label"},"legend":{"display":true}}},"evals":[],"jsHooks":[]}</script></p>
+<div id="htmlwidget-5446eff0f648ac09e66e" style="width:672px;height:480px;" class="echarts html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5446eff0f648ac09e66e">{"x":{"series":[{"type":"radar","symbol":"none","name":0,"data":[{"name":"®Studio Server","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Customer Service","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Data Analysis","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Data Science","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Linux OS","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"MS Office","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Python","value":[4,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"R Programming","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Shiny Web Application","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Sportsbook Industry","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"SQL","value":[3,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Statistics","value":[6,"-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Web API","value":[6,"-","-","-","-","-","-","-","-","-","-","-","-"]}]}],"legend":{"show":true,"data":["®Studio Server","Customer Service","Data Analysis","Data Science","Linux OS","MS Office","Python","R Programming","Shiny Web Application","Sportsbook Industry","SQL","Statistics","Web API"],"x":"left","y":"top","orient":"horizontal","selectedMode":"multiple"},"xAxis":[{"type":"category","show":false,"position":"bottom","name":"","nameLocation":"end","boundaryGap":[0,0],"scale":true,"axisLine":{"show":true,"onZero":false},"axisTick":{"show":false},"axisLabel":{"show":true},"splitLine":{"show":true},"splitArea":{"show":false},"data":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","®Studio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"]}],"yAxis":[{"type":"value","show":false,"position":"left","name":"","nameLocation":"end","boundaryGap":[0,0],"scale":true,"axisLine":{"show":true,"onZero":false},"axisTick":{"show":false},"axisLabel":{"show":true},"splitLine":{"show":true},"splitArea":{"show":false}}],"grid":{"borderWidth":0},"tooltip":{"show":true,"trigger":"item","axisPointer":{"type":"none","crossStyle":{"type":"dashed"},"lineStyle":{"type":"solid","width":1},"shadowStyle":{"color":"rgba(150,150,150,0.3)","width":"auto","type":"default"}},"textStyle":{"color":"#fff"},"islandFormatter":"{a} < br/>{b} : {c}","enterable":false,"showDelay":20,"hideDelay":100,"transitionDuration":0.4,"backgroundColor":"rgba(0,0,0,0.7)","borderColor":"#333","borderWidth":0,"borderRadius":4},"toolbox":{"show":true,"feature":{"mark":{"show":true},"dataZoom":{"show":true},"dataView":{"show":true,"readOnly":false},"magicType":{"show":false},"restore":{"show":true},"saveAsImage":{"show":true}},"x":"right","y":"top","orient":"horizontal"},"polar":[{"center":["50%","50%"],"radius":"80%","indicator":[{"text":"®Studio Server","max":8.4},{"text":"Customer Service","max":10.8},{"text":"Data Analysis","max":10.8},{"text":"Data Science","max":9.6},{"text":"Linux OS","max":8.4},{"text":"MS Office","max":9.6},{"text":"Python","max":4.8},{"text":"R Programming","max":10.8},{"text":"Shiny Web Application","max":9.6},{"text":"Sportsbook Industry","max":8.4},{"text":"SQL","max":3.6},{"text":"Statistics","max":7.2},{"text":"Web API","max":7.2}]}]},"evals":[],"jsHooks":[]}</script>
+<canvas id="htmlwidget-b62c0389f87fbf404d0b" class="chartJSRadar html-widget" width="672" height="480"></canvas>
+<script type="application/json" data-for="htmlwidget-b62c0389f87fbf404d0b">{"x":{"data":{"labels":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","®Studio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API"],"datasets":[{"label":"Level","data":[9,8,3,4,9,9,7,7,6,8,8,7,6],"backgroundColor":"rgba(255,0,0,0.2)","borderColor":"rgba(255,0,0,0.8)","pointBackgroundColor":"rgba(255,0,0,0.8)","pointBorderColor":"#fff","pointHoverBackgroundColor":"#fff","pointHoverBorderColor":"rgba(255,0,0,0.8)"}]},"options":{"responsive":true,"title":{"display":true,"text":"Skill Rating"},"scale":{"ticks":{"max":10,"min":0},"pointLabels":{"fontSize":18}},"tooltips":{"enabled":true,"mode":"label"},"legend":{"display":true}}},"evals":[],"jsHooks":[]}</script>
 <p><br></p>
 </div>
-<div id="other-miscellaneous" class="section level2">
+<div id="other-miscellaneous" class="section level2" number="1.6">
 <h2><span class="header-section-number">1.6</span> Other / Miscellaneous</h2>
-<p>I am currently learn to setup own sportsbook hedge fund company <a href="https://github.com/scibrokes">Scibrokes®</a><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my <a href="https://github.com/Scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a> <img src='www/rstudio.jpg' width='24'>. You are welcome to contact me at <a href="mailto:englianhu@gmail.com">englianhu@gmail.com</a>.</p>
+<p>I am currently learn to setup own sportsbook hedge fund company <a href="https://github.com/scibrokes">Scibrokes®</a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my <a href="https://github.com/Scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a> <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at <a href="mailto:englianhu@gmail.com" class="email">englianhu@gmail.com</a>.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
@@ -529,25 +515,25 @@ div.tocify {
 </iframe>
 <p><br> <br></p>
 </div>
-<div id="social-network" class="section level2">
+<div id="social-network" class="section level2" number="1.7">
 <h2><span class="header-section-number">1.7</span> Social Network</h2>
-<p><a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src='www/coursera_36x36.jpg' height='48'></a> <a href='https://jp.linkedin.com/in/englianhu'><img src='www/linkedin_36x36.jpg' height='48'></a> <a href='skype:englianhu?call'><img src='www/skype_36x36.jpg' height='48'></a> <a href='https://www.facebook.com/englianhu'><img src='www/facebook2_36x36.jpg' height='48'></a> <a href='https://plus.google.com/+黄联富'><img src='www/gplus_36x36.jpg' height='48'></a> <a href='https://twitter.com/englianhu'><img src='www/twitter_36x36.jpg' height='48'></a> <a href='https://about.me/englianhu'><img src='www/aboutme_36x36.jpg' height='48'></a> <a href='https://instagram.com/englianhu/'><img src='www/instagram_36x36.jpg' height='48'></a> <a href='http://www.weibo.com/englianhu'><img src='www/weibo_36x36.jpg' height='48'></a> <a href='http://t.qq.com/englianhu'><img src='www/QQ%20wb_36x36.jpg' height='48'></a> <a href='http://user.qzone.qq.com/2837330579'><img src='www/Qzone_36x36.jpg' height='48'></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src='www/zeef_36x36.jpg' height='48'></a> <a href='https://disqus.com/by/englianhu'><img src='www/disqus_36x36.jpg' height='48'></a> <a href='https://github.com/englianhu'><img src='www/github_36x36.jpg' height='48'></a> <a href='https://bitbucket.org/englianhu/'><img src='www/bitbucket_36x36.jpg' height='48'></a> <a href='https://plot.ly/~englianhu'><img src='www/plotly_36x36.jpg' height='48'></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true' height='48'></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='www/talkstats_36x36.jpg' height='48'></a> <a href='http://blog.csdn.net/github_25731367'><img src='www/csdn_36x36.jpg' height='48'></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='www/LQ_36x36.jpg' height='48'></a> <a href='http://www.biostatistic.net/?120034'><img src='www/biostatistic_36x36.jpg' height='48'></a> <a href='http://cos.name/cn/profile/ryo/'><img src='www/cos_36x36.jpg' height='48'></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true' height='48'></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true' height='48'></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src='www/bettingforum_36x36.jpg' height='48'></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src='www/PLounge_36x36.jpg' height='48'></a> <a href='http://www.sportsbookreview.com/forum/'><img src='www/SBR_36x36.jpg' height='48'></a></p>
+<p><a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ%20wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a></p>
 <p><br> <br></p>
 </div>
 </div>
-<div id="appendices" class="section level1">
+<div id="appendices" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Appendices</h1>
 <p><br></p>
-<div id="documenting-file-creation" class="section level2">
+<div id="documenting-file-creation" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Documenting File Creation</h2>
 <p>It’s useful to record some information about how your file was created.</p>
 <ul>
 <li>File creation date: 2015-10-12</li>
-<li>R version 3.5.1 (2018-07-02)</li>
-<li>R version (short form): 3.5.1</li>
-<li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> package version: 1.10.14</li>
+<li>R version 4.1.1 (2021-08-10)</li>
+<li>R version (short form): 4.1.1</li>
+<li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> package version: 2.11</li>
 <li>File version: 1.0.1</li>
-<li>File latest updated date: 2018-10-28</li>
+<li>File latest updated date: 2021-11-01</li>
 <li>Author Profile: <a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html">®γσ, Eng Lian Hu</a></li>
 <li>GitHub: <a href="https://github.com/scibrokes/owner">Source Code</a></li>
 <li>Additional session information</li>
@@ -578,13 +564,13 @@ Sys.info
 version
 </td>
 <td style="text-align:left;">
-R version 3.5.1 (2018-07-02)
+R version 4.1.1 (2021-08-10)
 </td>
 <td style="text-align:left;">
 sysname
 </td>
 <td style="text-align:left;">
-Windows
+Linux
 </td>
 </tr>
 <tr>
@@ -592,13 +578,13 @@ Windows
 os
 </td>
 <td style="text-align:left;">
-Windows 10 x64
+Ubuntu 20.04.3 LTS
 </td>
 <td style="text-align:left;">
 release
 </td>
 <td style="text-align:left;">
-10 x64
+5.11.0-40-generic
 </td>
 </tr>
 <tr>
@@ -606,13 +592,13 @@ release
 system
 </td>
 <td style="text-align:left;">
-x86_64, mingw32
+x86_64, linux-gnu
 </td>
 <td style="text-align:left;">
 version
 </td>
 <td style="text-align:left;">
-build 17134
+#44~20.04.2-Ubuntu SMP Tue Oct 26 18:07:44 UTC 2021
 </td>
 </tr>
 <tr>
@@ -620,13 +606,13 @@ build 17134
 ui
 </td>
 <td style="text-align:left;">
-RTerm
+X11
 </td>
 <td style="text-align:left;">
 nodename
 </td>
 <td style="text-align:left;">
-RSTUDIO-SCIBROK
+Scibrokes-Trading
 </td>
 </tr>
 <tr>
@@ -634,13 +620,13 @@ RSTUDIO-SCIBROK
 language
 </td>
 <td style="text-align:left;">
-en
+en_US:zh_CN:zh_TW:ja:ko:en_GB:de:fr:it
 </td>
 <td style="text-align:left;">
 machine
 </td>
 <td style="text-align:left;">
-x86-64
+x86_64
 </td>
 </tr>
 <tr>
@@ -648,13 +634,13 @@ x86-64
 collate
 </td>
 <td style="text-align:left;">
-Japanese_Japan.932
+en_US.UTF-8
 </td>
 <td style="text-align:left;">
 login
 </td>
 <td style="text-align:left;">
-scibr
+englianhu
 </td>
 </tr>
 <tr>
@@ -662,13 +648,13 @@ scibr
 ctype
 </td>
 <td style="text-align:left;">
-Japanese_Japan.932
+zh_CN.utf-8
 </td>
 <td style="text-align:left;">
 user
 </td>
 <td style="text-align:left;">
-scibr
+englianhu
 </td>
 </tr>
 <tr>
@@ -682,7 +668,7 @@ Asia/Tokyo
 effective_user
 </td>
 <td style="text-align:left;">
-scibr
+englianhu
 </td>
 </tr>
 <tr>
@@ -690,20 +676,20 @@ scibr
 date
 </td>
 <td style="text-align:left;">
-2018-10-28
+2021-11-01
 </td>
 <td style="text-align:left;">
 Current time
 </td>
 <td style="text-align:left;">
-2018-10-28 21:54:56 JST
+2021-11-01 21:57:13 JST
 </td>
 </tr>
 </tbody>
 </table>
 <p><br> <br></p>
 </div>
-<div id="references" class="section level2">
+<div id="references" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> References</h2>
 <ul>
 <li>You are feel free to create your own CV by R Markdown V2 by refer to <a href="http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&amp;mode=server">Document Templates</a></li>
@@ -716,13 +702,13 @@ Current time
 </ul>
 <p><br> <br></p>
 <hr />
-<p><span style="color:RoyalBlue"><strong>Powered by - Copyright® Intellectual Property Rights of <a href="http://www.scibrokes.com"><img src='www/scb_logo.jpg' width='64'>®</a>個人の経営企業</strong></span></p>
+<p><span style="color:RoyalBlue"><strong>Powered by - Copyright® Intellectual Property Rights of <a href="http://www.scibrokes.com"><img src="www/scb_logo.jpg" width="64"/>®</a>個人の経営企業</strong></span></p>
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>The website not yet setup but now keep up learning.<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>The website not yet setup but now keep up learning.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -737,7 +723,7 @@ Current time
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -746,12 +732,63 @@ $(document).ready(function () {
 
 </script>
 
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5,h6",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
