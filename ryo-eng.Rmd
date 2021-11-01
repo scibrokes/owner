@@ -3,15 +3,14 @@ title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https:
 subtitle: 'Personal Profile'
 author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  width='24' align='center' valign='middle'>®"
-date: "10/22/1984"
+  width='17' align='center' valign='middle'>®"
+date: "22-Oct-1984"
 output:
   html_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
     self_contained: no
-    theme: lumen
     toc: yes
     toc_depth: 6
     toc_float:
@@ -213,11 +212,88 @@ resource_files:
 
 <img src="www/quantitative trader 2.jpg" width="120" align="center" valign="middle"/>
 
-$®γσ$ , $ξηg\ Lιαη\ Ημ$
+$®γσ$, $ξηg\ Lιαη\ Ημ$
 
-<audio src="music/bigmoney.mp3" controls>
+<br>
+<span style='color:green'>**Theme Song**</span>
+<br>
 
-</audio>
+<audio src="music/bigmoney.mp3" controls></audio>
+<br>
+
+------
+
+# Setting
+
+## SCSS Setup
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+.table-hover > tbody > tr:hover { 
+  background-color: #8D918D;
+}
+</style>
+
+```{r class.source = 'bg-success', class.output = 'bg-primary', message = FALSE, warning = FALSE}
+# install.packages("remotes")
+library('BBmisc', 'rmsfuns')
+#remotes::install_github("rstudio/sass")
+lib('sass')
+```
+
+```{scss class.source = 'bg-success', class.output = 'bg-primary'}
+/* https://stackoverflow.com/a/66029010/3806250 */
+h1 { color: #002C54; }
+h2 { color: #2F496E; }
+h3 { color: #375E97; }
+h4 { color: #556DAC; }
+h5 { color: #92AAC7; }
+
+/* ----------------------------------------------------------------- */
+/* https://gist.github.com/himynameisdave/c7a7ed14500d29e58149#file-broken-gradient-animation-less */
+.hover01 {
+  /* color: #FFD64D; */
+  background: linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%);
+    }
+  }
+
+.hover02 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+    }
+  }
+
+.hover03 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #A10115 20%, #FF3C5C 80%);
+    }
+  }
+```
+
+```{r global_options, class.source='hover01', class.output='hover02'}
+## https://stackoverflow.com/a/36846793/3806250
+options(width = 999)
+knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
+```
+
+<br><br>
+
+## Setup
 
 ```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
@@ -227,7 +303,7 @@ source('function/libs.R')
 #'@ <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
-<br> <br>
+<br><br>
 
 ## About Me
 
@@ -449,31 +525,30 @@ source('function/libs.R')
 ## Skill
 
 ```{r skill, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6))
-names(skill) <- c('Skill', 'Level')
+skill <- data_frame(Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics'), Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9))
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
 
-tagList(
-  tags$div(align = "center", 
-           class = "bg-info", 
-           tags$h3(class = "bg-primary", "Skill and Expertise"), 
-           tags$h5(align = "center", class = "text-muted", 
-                   "Skill and Expertise Rating Level (from newbie 1 to expert 10)")), 
-  as.htmlwidget(skill %>% formattable(list(
-    Level = color_tile('white', 'darkgoldenrod')
-    ))))
+skill %>% 
+  mutate(Level = color_tile('white', 'darkgoldenrod')) %>% 
+  kbl(caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)') %>% 
+  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive')) %>% 
+  row_spec(0, background = 'DimGrey', color = 'yellow') %>% 
+  column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  column_spec(2, background = 'grey', color = 'black') %>% 
+  row_spec(9, bold = T, color = 'yellow', background = '#D7261E')
 ```
 
 <br>
 
 ```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill %>% data.frame %>% 
-  recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radar', 
-                    symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='Skill Rating', subtitle= '(by @englianhu)')
+skill %>% 
+  data.frame %>% 
+  recharts::echartr(x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
+          symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+          title = 'Skill Rating', subtitle = '(by @englianhu)')
 
-chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
+radarchart::chartJSRadar(skill, main = 'Skill Rating', width = '100%', height = '100%', maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 ```
 
 <br>
@@ -484,19 +559,19 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 [^1]: The website not yet setup but now keep up learning.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
@@ -512,47 +587,57 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 <br>
 
-## Documenting File Creation
+## Documenting File Creation 
 
 It's useful to record some information about how your file was created.
 
--   File creation date: 2015-10-12
--   `r R.version.string`
--   R version (short form): `r getRversion()`
--   [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
--   File version: 1.0.1
--   File latest updated date: `r Sys.Date()`
--   Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
--   GitHub: [Source Code](https://github.com/scibrokes/owner)
--   Additional session information
+- File creation date: 2015-10-12
+- File latest updated date: `r today('Asia/Tokyo')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
+- File version: 0.2.1
+- Author Profile: [®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub: [Source Code](https://github.com/scibrokes/owner)
+- Additional session information
 
-```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
-sys1 <- session_info()$platform %>% 
-  unlist %>% 
-  data.frame(Category = names(.), session_info = .)
+```{r info, warning=FALSE, error=TRUE, results='asis'}
+suppressMessages(require('dplyr', quietly = TRUE))
+suppressMessages(require('magrittr', quietly = TRUE))
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
+
+sys1 <- devtools::session_info()$platform %>% 
+  unlist %>% data.frame(Category = names(.), session_info = .)
 rownames(sys1) <- NULL
 
 sys2 <- data.frame(Sys.info()) %>% 
-  mutate(Category = rownames(.)) %>% 
-  .[2:1]
+  dplyr::mutate(Category = rownames(.)) %>% .[2:1]
 names(sys2)[2] <- c('Sys.info')
 rownames(sys2) <- NULL
 
-if (nrow(sys1) == 7 & nrow(sys2) == 8) {
-  sys1 %<>% rbind(., data.frame(
-  Category = 'Current time', 
-  session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
-} else {
+if (nrow(sys1) == 9 & nrow(sys2) == 8) {
   sys2 %<>% rbind(., data.frame(
   Category = 'Current time', 
-  Sys.info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
+  Sys.info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST🗾')))
+} else {
+  sys1 %<>% rbind(., data.frame(
+  Category = 'Current time', 
+  session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST🗾')))
 }
 
-cbind(sys1, sys2) %>% 
-  kable(caption = 'Additional session information:') %>% 
-  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))
+sys <- cbind(sys1, sys2) %>% 
+  kbl(caption = 'Additional session information:') %>% 
+  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive')) %>% 
+  row_spec(0, background = 'DimGrey', color = 'yellow') %>% 
+  column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  column_spec(2, background = 'grey', color = 'black') %>% 
+  column_spec(3, background = 'CornflowerBlue', color = 'blue') %>% 
+  column_spec(4, background = 'grey', color = 'white') %>% 
+  row_spec(9, bold = T, color = 'yellow', background = '#D7261E')
 
 rm(sys1, sys2)
+sys
 ```
 
 <br> <br>
@@ -571,4 +656,4 @@ rm(sys1, sys2)
 
 ------------------------------------------------------------------------
 
-[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/scb_logo.jpg" width="64"/>®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
+[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
