@@ -317,15 +317,15 @@ source('function/libs.R')
 
 ## About Me
 
-| **Title**           |                                                                                    **Details**|
-|:--------------------|----------------------------------------------------------------------------------------------:|
-| Date of Birth       |                                                                      `r x='22-10-1984';dmy(x)`|
-| Age                 |  `r interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')`|
-| Mobile Phone Number |                                                            [+6-017-2100905](tel:+601110640095)|
-| Email Address       |                                     [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}|
-| Nationality         |                                                                                      Malaysian|
-| Place of Birth      |                                                             Tanjong Karang, Selangor, Malaysia|
-| Religion            |                                                                                         Buddha|
+| **Title**           |                                                                                                                       **Details**|
+|:--------------------|---------------------------------------------------------------------------------------------------------------------------------:|
+| Date of Birth       |                                                                                    `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo')`|
+| Age                 |   `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()`|
+| Mobile Phone Number |                                                                                               [+6-017-2100905](tel:+601110640095)|
+| Email Address       |                                                                        [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}|
+| Nationality         |                                                                                                                         Malaysian|
+| Place of Birth      |                                                                                                Tanjong Karang, Selangor, Malaysia|
+| Religion            |                                                                                                                            Buddha|
 
 <br> <br>
 
@@ -542,14 +542,14 @@ suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
 
 skill <- data_frame(
-  Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics'), 
-  Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9))
+  Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics', 'Web Driver'), 
+  Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9, 4))
 skill <- data_frame(No = 1:nrow(skill), skill)
 
 skill %>% 
   dplyr::mutate(
     Skill = cell_spec(Skill, italic = TRUE, 
-                      color = spec_color(1:16, option = 'A', 
+                      color = spec_color(seq(nrow(skill)), option = 'A', 
                                          begin = 0.1, end = 0.9), 
                       tooltip = paste0('Level: ', Level), angle = 3)) %>%#, 
     #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) %>% 
@@ -576,8 +576,10 @@ skill[,-1] %>%
     x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
     symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
     title = 'Skill Rating', subtitle = '(by @englianhu)') %>% 
-  setToolbox(lang = 'en', pos = 2) %>% 
-    setTheme('infographic', calculable = TRUE, bgColor = '#FDE1C3')
+  recharts::setSymbols('star4') %>% 
+  recharts::setToolbox(lang = 'en', pos = 2) %>% 
+  recharts::setTheme('infographic', calculable = TRUE, bgColor = '#FBF2E9', 
+                     animationEasing = 'BounceInOut', animationDuration = 500)
 
 radarchart::chartJSRadar(
   skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
@@ -640,14 +642,13 @@ suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
 
-sys1 <- devtools::session_info()$platform %>% 
-  unlist %>% data.frame(Category = names(.), session_info = .)
-rownames(sys1) <- NULL
+sys1 <- devtools::session_info()$platform |> 
+    unlist() |> 
+    {\(.) data.frame(row.names = 1:length(.), 
+                     Category = names(.), session_info = .)}()
 
-sys2 <- data.frame(Sys.info()) %>% 
-  dplyr::mutate(Category = rownames(.)) %>% .[2:1]
-names(sys2)[2] <- c('Sys.info')
-rownames(sys2) <- NULL
+sys2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
 
 if (nrow(sys1) == 9 & nrow(sys2) == 8) {
   sys2 %<>% rbind(., data.frame(
@@ -667,7 +668,7 @@ sys <- cbind(sys1, sys2) %>%
   column_spec(2, background = 'grey', color = 'black') %>% 
   column_spec(3, background = 'CornflowerBlue', color = 'blue') %>% 
   column_spec(4, background = 'grey', color = 'white') %>% 
-  row_spec(9, bold = T, color = 'yellow', background = '#D7261E')
+  row_spec(9, bold = TRUE, color = 'yellow', background = '#D7261E')
 
 rm(sys1, sys2)
 sys

@@ -15,7 +15,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 
 ## Loading multiple packages at once
 pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'googleVis', 'markdown', 
+          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
           'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
           'formattable', 'echarts4r', 'radarchart', 'MASS')
 #suppressAll(lib(pkgs)); rm(pkgs)
