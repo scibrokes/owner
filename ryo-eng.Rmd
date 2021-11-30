@@ -636,8 +636,6 @@ It's useful to record some information about how your file was created.
 - Additional session information
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}
-suppressMessages(require('dplyr', quietly = TRUE))
-suppressMessages(require('magrittr', quietly = TRUE))
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
@@ -656,13 +654,13 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST🌏'))))}()
+                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
 
 } else {
   sys1 <- sys1 |> 
     {\(.) rbind(., data.frame(
       Category = 'Current time', 
-      session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST🌏')))}()
+      session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏')))}()
 }
 
 sys <- cbind(sys1, sys2) |> 

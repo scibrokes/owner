@@ -461,43 +461,63 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 It's useful to record some information about how your file was created.
 
--   File creation date: 2015-10-12
--   `r R.version.string`
--   R version (short form): `r getRversion()`
--   [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
--   File version: 1.1.1
--   File latest updated date: `r Sys.Date()`
--   Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
--   GitHub: [Source Code](https://github.com/scibrokes/owner)
--   Additional session information
+- File creation date: 2015-10-12
+- File latest updated date: `r today('Asia/Tokyo')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
+- File version: 0.2.1
+- Author Profile: [®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub: [Source Code](https://github.com/scibrokes/owner)
+- Additional session information
 
-```{r info, echo=FALSE, warning=FALSE, results='asis'}
-sys1 <- session_info()$platform %>% 
-  unlist %>% 
-  data.frame(Category = names(.), session_info = .)
-rownames(sys1) <- NULL
+```{r info, warning=FALSE, error=TRUE, results='asis'}
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
 
-sys2 <- data.frame(Sys.info()) %>% 
-  mutate(Category = rownames(.)) %>% 
-  .[2:1]
-names(sys2)[2] <- c('Sys.info')
-rownames(sys2) <- NULL
+sys1 <- devtools::session_info()$platform |> 
+    unlist() |> 
+    {\(.) data.frame(row.names = 1:length(.), 
+                     Category = names(.), session_info = .)}()
 
-if (nrow(sys1) == 7 & nrow(sys2) == 8) {
-  sys1 %<>% rbind(., data.frame(
-  Category = 'Current time', 
-  session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
+sys2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
+
+if (nrow(sys1) == 11 & nrow(sys2) == 8) {
+  sys2 <- sys2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+
 } else {
-  sys2 %<>% rbind(., data.frame(
-  Category = 'Current time', 
-  Sys.info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST')))
+  sys1 <- sys1 |> 
+    {\(.) rbind(., data.frame(
+      Category = 'Current time', 
+      session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏')))}()
 }
 
-cbind(sys1, sys2) %>% 
-  kable(caption = 'Additional session information:') %>% 
-  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))
+sys <- cbind(sys1, sys2) |> 
+  {\(.) 
+    kbl(., caption = 'Additional session information:')}() |> 
+  {\(.) 
+    kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) 
+    row_spec(., 0, background = 'DimGrey', color = 'yellow')}() |> 
+  {\(.) 
+    column_spec(., 1, background = 'CornflowerBlue', color = 'red')}() |> 
+  {\(.) 
+    column_spec(., 2, background = 'grey', color = 'black')}() |> 
+  {\(.) 
+    column_spec(., 3, background = 'CornflowerBlue', color = 'blue')}() |> 
+  {\(.) 
+    column_spec(., 4, background = 'grey', color = 'white')}() |> 
+  {\(.) 
+    row_spec(., 11, bold = TRUE, color = 'yellow', background = '#D7261E')}()
 
 rm(sys1, sys2)
+sys
 ```
 
 <br> <br>

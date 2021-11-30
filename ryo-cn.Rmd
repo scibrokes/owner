@@ -471,46 +471,67 @@ chartJSRadar(skill, main = '技能评估', maxScale = 10, showToolTipLabel=TRUE)
 
 <br>
 
-## 文件明细
+## 文书明细
 
-以下乃此文献的文件信息。
+以下乃此文书的文件信息。
 
--   文献建立日：2015-10-12
--   `r R.version.string`
--   R版本：`r getRversion()`
--   [**rmarkdown**](https://github.com/rstudio/rmarkdown)程序包版本：`r packageVersion('rmarkdown')`
--   文献版本：1.1.1
--   文献最新更新日：`r Sys.Date()`
--   文献作者：[®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
--   GitHub：[源代码](https://github.com/scibrokes/owner)
--   其它附属信息
+- 文集建立日：2015-10-12
+- 文集最新更新日：`r today('Asia/Tokyo')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
+- 文集版本：0.2.1
+- 文集作者：[®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub：[源代码](https://github.com/scibrokes/owner)
+- 其它附属信息
 
-```{r info, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
-sys1 <- session_info()$platform %>% 
-  unlist %>% 
-  data.frame(Category = names(.), session_info = .)
-rownames(sys1) <- NULL
+```{r info, warning=FALSE, error=TRUE, results='asis'}
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
 
-sys2 <- data.frame(Sys.info()) %>% 
-  mutate(Category = rownames(.)) %>% 
-  .[2:1]
-names(sys2)[2] <- c('Sys.info')
-rownames(sys2) <- NULL
+sys1 <- devtools::session_info()$platform |> 
+    unlist() |> 
+    {\(.) data.frame(row.names = 1:length(.), 
+                     Category = names(.), session_info = .)}()
 
-if (nrow(sys1) == 7 & nrow(sys2) == 8) {
-  sys1 %<>% rbind(., data.frame(
-  Category = 'Current time', 
-  session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🗾')))
+sys2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
+
+if (nrow(sys1) == 11 & nrow(sys2) == 8) {
+  sys2 <- sys2 |> 
+    {\(.) rbind(., data.frame(
+    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+
 } else {
-  sys2 %<>% rbind(., data.frame(
-  Category = 'Current time', 
-  Sys.info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🗾')))
+  sys1 <- sys1 |> 
+    {\(.) rbind(., data.frame(
+      Category = 'Current time', 
+      session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏')))}()
 }
 
-cbind(sys1, sys2) %>% 
-  kbl(caption = 'Additional session information:') %>% 
-  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive')) %>% 
-   row_spec(9, bold = T, color = 'white', background = 'red')
+sys <- cbind(sys1, sys2) |> 
+  {\(.) 
+    kbl(., caption = 'Additional session information:')}() |> 
+  {\(.) 
+    kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) 
+    row_spec(., 0, background = 'DimGrey', color = 'yellow')}() |> 
+  {\(.) 
+    column_spec(., 1, background = 'CornflowerBlue', color = 'red')}() |> 
+  {\(.) 
+    column_spec(., 2, background = 'grey', color = 'black')}() |> 
+  {\(.) 
+    column_spec(., 3, background = 'CornflowerBlue', color = 'blue')}() |> 
+  {\(.) 
+    column_spec(., 4, background = 'grey', color = 'white')}() |> 
+  {\(.) 
+    row_spec(., 11, bold = TRUE, color = 'yellow', background = '#D7261E')}()
+
+rm(sys1, sys2)
+sys
 ```
 
 <br> <br>
