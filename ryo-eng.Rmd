@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, Lian Hu](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io/) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -675,6 +675,7 @@ sys1 <- devtools::session_info()$platform |>
 sys2 <- data.frame(Sys.info()) |> 
     {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
 
+#remarks, dim(sys1), dim(sys2)
 if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
@@ -682,12 +683,16 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
-
-} else {
-  sys1 <- sys1 |> 
+  
+} else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
+  sys1 %<>% rbind(., data.frame(Category = '', session_info = ''))
+  
+  sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
-      Category = 'Current time', 
-      session_info = paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏')))}()
+    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Sys.info = c(as.character(getwd()), 
+                 as.character(packageVersion('rsconnect')), 
+                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
 }
 
 sys <- cbind(sys1, sys2) |> 
