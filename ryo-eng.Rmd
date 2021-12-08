@@ -308,7 +308,34 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 ```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-source('function/libs.R')
+# source('function/libs.R')
+
+## Setup Options, Loading Required Libraries and Preparing Environment
+
+## Setting to omit all warnings
+options(warn = -1)
+
+## Loading the package 'BBmisc'
+#if(suppressMessages(!require('BBmisc'))){
+#  install.packages('BBmisc')
+#  suppressMessages(library('BBmisc'))
+#}
+if (suppressMessages(!require('rmsfuns'))) {
+  install.packages('rmsfuns')
+  suppressMessages(library('rmsfuns'))
+}
+
+## Loading multiple packages at once
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
+          'lubridate', 'stringr', 'rvest', 'markdown', #'googleVis', 
+          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
+          'formattable', 'echarts4r', 'radarchart', 'MASS')
+#suppressAll(lib(pkgs)); rm(pkgs)
+load_pkg(pkgs); rm(pkgs)
+
+## Set the googleVis options first to change the behaviour of plot.gvis, so that 
+##  only the chart component of the HTML file is written into the output file.
+#op <- options(gvis.plot.tag = 'chart')
 
 ## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
@@ -541,10 +568,10 @@ require('formattable', quietly = TRUE, warn.conflicts = FALSE)
 require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
-skill <- data_frame(
+skill <- tibble(
   Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics', 'Web Driver'), 
   Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9, 4))
-skill <- data_frame(No = 1:nrow(skill), skill)
+skill <- tibble(No = 1:nrow(skill), skill)
 
 skill %>% 
   dplyr::mutate(
