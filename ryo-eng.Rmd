@@ -206,6 +206,15 @@ resource_files:
 - documents/Ryo Eng_Introduction to Machine Learning for Trading_certificate.pdf
 - documents/Ryo Eng_Quantitative Trading Strategies and Models_certificate.pdf
 - documents/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
+- documents/Coursera JHU 01 - The R Programming Environment.pdf
+- documents/Coursera JHU 02 - Advanced R Programming.pdf
+- documents/Coursera JHU 03 - Building R Packages.pdf
+- documents/Coursera JHU 04 - Building Data Visualization Tools.pdf
+- documents/Coursera JHU 05 - Mastering Software Development in R Capstone.pdf
+- documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
+- documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
+- documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+
 ---
 
 # Curriculum Vitae
