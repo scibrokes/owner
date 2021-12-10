@@ -317,8 +317,10 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 ```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-# source('function/libs.R')
+source('function/libs.R')
+```
 
+```{r eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -336,7 +338,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 
 ## Loading multiple packages at once
 pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'markdown', #'googleVis', 
+          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
           'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
           'formattable', 'echarts4r', 'radarchart', 'MASS')
 #suppressAll(lib(pkgs)); rm(pkgs)
@@ -344,7 +346,7 @@ load_pkg(pkgs); rm(pkgs)
 
 ## Set the googleVis options first to change the behaviour of plot.gvis, so that 
 ##  only the chart component of the HTML file is written into the output file.
-#op <- options(gvis.plot.tag = 'chart')
+op <- options(gvis.plot.tag = 'chart')
 
 ## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
 ```
@@ -578,26 +580,25 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  Skill = c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Econometrics', 'Web Driver'), 
-  Level = c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 9, 4))
+  Skill = c('ξconometrics', 'Quantitative Trading', 'R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Web Driver'), 
+  Level = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 4))
 skill <- tibble(No = 1:nrow(skill), skill)
 
-skill %>% 
-  dplyr::mutate(
-    Skill = cell_spec(Skill, italic = TRUE, 
-                      color = spec_color(seq(nrow(skill)), option = 'A', 
-                                         begin = 0.1, end = 0.9), 
-                      tooltip = paste0('Level: ', Level), angle = 3)) %>%#, 
-    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) %>% 
-  mutate_if(is.numeric, function(x){
+skill |> 
+    {\(.) dplyr::mutate(
+      ., Skill = cell_spec(Skill, italic = TRUE, 
+                           color = spec_color(seq(nrow(skill)), option = 'A', 
+                                              begin = 0.1, end = 0.9), 
+                           tooltip = paste0('Level: ', Level), angle = 3))}() |>#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
+  {\(.) mutate_if(., is.numeric, function(x){ 
     cell_spec(x, 'html', color = 
                 spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
                            direction = -1), angle = 20, 
-              font_size = spec_font_size(x), bold = TRUE)
-  }) %>% 
-  kbl(caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)', escape = FALSE, align = 'c') %>% 
-  kable_styling(bootstrap_options = c('striped', 'hover', 'condensed', 'responsive')) %>% 
-  row_spec(0, background = 'DimGrey', color = 'yellow')# %>% 
+              font_size = spec_font_size(x), bold = TRUE) })}() |> 
+  {\(.) kbl(., caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)', escape = FALSE, align = 'c')}() |> 
+  {\(.) kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) row_spec(., 0, background = 'DimGrey', color = 'yellow')}()# %>% 
   #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
   #column_spec(2, background = 'grey', color = 'black') %>% 
   #column_spec(2, background = 'grey', color = 'black')
@@ -606,16 +607,16 @@ skill %>%
 <br>
 
 ```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill[,-1] %>% 
-  data_frame %>% 
-  recharts::echartr(
-    x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
-    symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
-    title = 'Skill Rating', subtitle = '(by @englianhu)') %>% 
-  recharts::setSymbols('star4') %>% 
-  recharts::setToolbox(lang = 'en', pos = 2) %>% 
-  recharts::setTheme('infographic', calculable = TRUE, bgColor = '#FBF2E9', 
-                     animationEasing = 'BounceInOut', animationDuration = 500)
+skill[,-1] |> 
+  tibble() |> 
+  {\(.) recharts::echartr(., 
+        x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
+        symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+        title = 'Skill Rating', subtitle = '(by @englianhu)')}() |> 
+  {\(.) recharts::setSymbols(., 'star4')}() |> 
+  {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
+  {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
+                           animationEasing = 'BounceInOut', animationDuration = 500)}()
 
 radarchart::chartJSRadar(
   skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
