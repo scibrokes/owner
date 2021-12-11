@@ -1,7 +1,7 @@
 ---
-title: "[<span style='color:goldenrod'>®γσ, ENG LIAN HU</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: ""[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io/) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -215,7 +215,7 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 
----
+------
 
 # Curriculum Vitae
 

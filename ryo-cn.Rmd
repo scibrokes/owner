@@ -215,11 +215,11 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 
----
+------
 
 # 简历
 
-<img src="www/quantitative trader 2.jpg" width="120" align="center" valign="middle"/>
+<img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
 雷欧，黄联富
 

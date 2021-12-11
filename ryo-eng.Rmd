@@ -215,7 +215,7 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 
----
+------
 
 # Curriculum Vitae
 
@@ -415,21 +415,27 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Experience
 
-**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali & YiHaoCai under Lefa (Oriental Group)](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>)
+**Oct-2020 to Present : 
 
--   *Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
+-   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^1]*
+-   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, probably flight to China Mainland.*
+
+**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)]() <img src="www/anr.jpg" width="20" align="center" valign="middle"/>)
+
+-   *Summary : Oriental Group is a Chinese business group.*
+-   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and mostly Chinese) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)
 
--   *Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
+-   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and mostly Chinese but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
-**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
--   *Job Task : A customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
+-   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
 <br>
 
@@ -447,7 +453,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
--   *Job Task : Working in [Xerox](https://www.xerox.com/)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
+-   *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
@@ -465,12 +471,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
+-   *Summary : TM is a bluechip company in Malaysia.*
 -   *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
 
 <br>
 
 **Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
+-   *Summary : Work for English.*
 -   *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
 -   Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 -   Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
@@ -479,12 +487,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
 
+-   *Summary : Caspo is an online gaming group by Singaporean and Taiwanese.*
 -   *Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
 
 <br>
 
-**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
+**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
+-   *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, and co-orperate with Hong Kongnese, Australian etc*
 -   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
 
 <br><br>
@@ -654,9 +664,9 @@ skill |>
 
 ## Other / Miscellaneous
 
-I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)[^1] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^1] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
-[^1]: The website not yet setup but now keep up learning.
+[^1]: [Sςιβrοκεrs Trαdιηg® (Official Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).
 
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
