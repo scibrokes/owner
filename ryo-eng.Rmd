@@ -127,7 +127,7 @@ resource_files:
 - www/QQ_36x36.jpg
 - www/Qzone.jpg
 - www/Qzone_36x36.jpg
-- www/quantitative trader 2.jpg
+- www/quantitative trader 1.jpg
 - www/rcrown.jpg
 - www/retailsshop.jpg
 - www/rnable.jpg
@@ -219,16 +219,14 @@ resource_files:
 
 # Curriculum Vitae
 
-<img src="www/quantitative trader 2.jpg" width="120" align="center" valign="middle"/>
+<img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
 <br>
 <span style='color:green'>**Theme Song**</span>
 <br>
-<audio controls loop autoplay>
-<source src = 'music/bigmoney.mp3' type = 'audio/mp3'>
-</audio>
+<audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
 ------
@@ -340,7 +338,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
           'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
           'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
-          'formattable', 'echarts4r', 'radarchart', 'MASS')
+          'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
 
@@ -365,7 +363,7 @@ op <- options(gvis.plot.tag = 'chart')
 | Place of Birth      |                                                                                                Tanjong Karang, Selangor, Malaysia|
 | Religion            |                                                                                                                            Buddha|
 
-<br> <br>
+<br><br>
 
 ## Education
 
@@ -413,7 +411,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 -   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
-<br> <br>
+<br><br>
 
 ## Experience
 
@@ -489,7 +487,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 -   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
 
-<br> <br>
+<br><br>
 
 ## Technical Experience
 
@@ -568,7 +566,7 @@ op <- options(gvis.plot.tag = 'chart')
 -   *Application of Poison model onto soccer sports odds modelling.*
 -   *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
 
-<br> <br>
+<br><br>
 
 ## Skill
 
@@ -606,7 +604,7 @@ skill |>
 
 <br>
 
-```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2A, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   tibble() |> 
   {\(.) recharts::echartr(., 
@@ -617,10 +615,39 @@ skill[,-1] |>
   {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
   {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
                            animationEasing = 'BounceInOut', animationDuration = 500)}()
+```
 
-radarchart::chartJSRadar(
-  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
-  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(Skill) |> 
+  echarts4r::e_radar(Level, max = 10, name = 'Skill', 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
 ```
 
 <br>
@@ -647,13 +674,13 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 </iframe>
 
-<br> <br>
+<br><br>
 
 ## Social Network
 
 <a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a>
 
-<br> <br>
+<br><br>
 
 # Appendices
 
@@ -727,19 +754,20 @@ rm(sys1, sys2)
 sys
 ```
 
-<br> <br>
+<br><br>
 
 ## References
 
--   You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
--   [prettydoc](http://yixuan.cos.name/prettydoc/)
--   [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
--   You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
--   Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
--   You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
--   There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+- [prettydoc](http://yixuan.cos.name/prettydoc/)
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
+- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
+- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
 
-<br> <br>
+<br><br>
 
 ------------------------------------------------------------------------
 
