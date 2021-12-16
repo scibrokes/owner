@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="®γσ, Lian Hu  ®" />
+<meta name="author" content="®γσ, ξηg Lιαη Ημ  ®" />
 
 
 <title>®γσ, ξηg Lιαη Ημ</title>
@@ -38,12 +38,10 @@
 <script src="ryo-eng_files/kePrint-0.0.1/kePrint.js"></script>
 <link href="ryo-eng_files/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <script src="ryo-eng_files/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<script src="ryo-eng_files/echarts-2.2.7/echarts-all.js"></script>
-<script src="ryo-eng_files/charts-ext-2.2.7/main.js"></script>
-<script src="ryo-eng_files/charts-ext-2.2.7/BMap.js"></script>
-<script src="ryo-eng_files/echarts-binding-0.2.1/echarts.js"></script>
-<script src="ryo-eng_files/chart.js-2.4.0/./dist/Chart.min.js"></script>
-<script src="ryo-eng_files/chartJSRadar-binding-0.3.1/chartJSRadar.js"></script>
+<script src="ryo-eng_files/echarts4r-4.8.0/echarts-en.min.js"></script>
+<script src="ryo-eng_files/echarts4r-4.8.0/ecStat.min.js"></script>
+<script src="ryo-eng_files/echarts4r-4.8.0/dataTool.min.js"></script>
+<script src="ryo-eng_files/echarts4r-binding-0.4.2/echarts4r.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -351,20 +349,18 @@ div.tocify {
 
 <h1 class="title toc-ignore"><a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html"><span style="color:goldenrod">®γσ, ξηg Lιαη Ημ</span></a></h1>
 <h3 class="subtitle">Personal Profile</h3>
-<h4 class="author"><a href="https://englianhu.github.io/">®γσ, Lian Hu</a> <img src='www/ENG.jpg' width='24' align='center' valign='middle'> <img src='www/me%20light%20mode.jpg' width='17' align='center' valign='middle'>®</h4>
+<h4 class="author"><a href="https://englianhu.github.io/">®γσ, ξηg Lιαη Ημ</a> <img src='www/ENG.jpg' width='24' align='center' valign='middle'> <img src='www/me%20light%20mode.jpg' width='17' align='center' valign='middle'>®</h4>
 <h4 class="date">22-Oct-1984</h4>
 
 </div>
 
 
+<hr />
 <div id="curriculum-vitae" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Curriculum Vitae</h1>
-<p><img src="www/quantitative%20trader%202.jpg" width="120" align="center" valign="middle"/></p>
+<p><img src="www/quantitative%20trader%201.jpg" width="120" align="center" valign="middle"/></p>
 <p><span class="math inline">\(®γσ\)</span>, <span class="math inline">\(ξηg\ Lιαη\ Ημ\)</span></p>
-<p><br> <span style="color:green"><strong>Theme Song</strong></span> <br></p>
-<audio src="music/bigmoney.mp3" controls>
-</audio>
-<p><br></p>
+<p><br> <span style="color:green"><strong>Theme Song</strong></span> <br> <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio> <br></p>
 <hr />
 </div>
 <div id="setting" class="section level1" number="2">
@@ -429,11 +425,23 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </style>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/a/36846793/3806250</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">width =</span> <span class="dv">999</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span></code></pre></div>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Set the timezone but not change the datetime</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Tokyo&#39;</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = &#39;html&#39;) will set all kableExtra tables to be &#39;html&#39;, otherwise need to set the parameter on every single table.</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">knitr.table.format =</span> <span class="st">&#39;html&#39;</span>)<span class="co">#, digits.secs = 6)</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">cache =</span> <span class="cn">TRUE</span>, <span class="at">warning =</span> <span class="cn">FALSE</span>, </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>                      <span class="at">message =</span> <span class="cn">FALSE</span>, <span class="at">cache.lazy =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <p><br><br></p>
 </div>
 <div id="setup" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Setup</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Setup Options, Loading Required Libraries and Preparing Environment</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Loading the packages and setting adjustment</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">&#39;function/libs.R&#39;</span>)</span></code></pre></div>
 <p><br><br></p>
 </div>
 <div id="about-me" class="section level2" number="2.3">
@@ -452,11 +460,11 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </tr>
 <tr class="even">
 <td align="left">Age</td>
-<td align="right">37y 0m 10d</td>
+<td align="right">37y 1m 25d</td>
 </tr>
 <tr class="odd">
 <td align="left">Mobile Phone Number</td>
-<td align="right"><a href="tel:+601110640095">+6-017-2100905</a></td>
+<td align="right"><a href="tel:+60176482776">+6-017-6482776</a></td>
 </tr>
 <tr class="even">
 <td align="left">Email Address</td>
@@ -476,21 +484,44 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </tr>
 </tbody>
 </table>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="education" class="section level2" number="2.4">
 <h2><span class="header-section-number">2.4</span> Education</h2>
-<p><strong>May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.nyu.edu">New York University</a><img src="www/ucsc.png" width="14" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2021 to Present : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.nyif.com">New York Institute of Finance (ニューヨーク金融研究所)</a> <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>01 Course title : <a href="https://github.com/englianhu/Coursera-Machine-Learning-for-Trading">The Data Scientist’s Toolbox</a></em></li>
+<li><em>02 Course title : <a href="https://github.com/englianhu/Coursera-Machine-Learning-for-Trading">R Programming</a></em></li>
+<li><em>03 Course title : <a href="https://github.com/englianhu/Coursera-Machine-Learning-for-Trading">Getting and Cleaning Data</a></em></li>
+<li><a href="https://github.com/englianhu/Coursera-Machine-Learning-for-Trading"><strong>Data Science Specialization</strong></a></li>
+</ul>
+<p><br></p>
+<p><strong>Dec-2021 to Present : Python and Statistics for Financial Analysis</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://hkust.edu.hk">香港科技大学 (The Hong Kong University of Science and Technology)</a> <img src="www/UST.jpg" width="14" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Course title : <a href="https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis">Python and Statistics for Financial Analysis</a></em></li>
+</ul>
+<p><br></p>
+<p><strong>Oct-2018 to Nov-2021 : Professional Certificate, Specialization Mastering Software Development in R</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.jhu.edu">Johns Hopkins University (JHU)</a> <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>01 Course title : <a href="https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R">The R Programming Environment</a></em></li>
+<li><em>02 Course title : <a href="https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC">Advanced R Programming</a></em></li>
+<li><em>03 Course title : <a href="https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y">Building R Packages</a></em></li>
+<li><em>04 Course title : <a href="https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD">Building Data Visualization Tools</a></em></li>
+<li><em>05 Course title : <a href="https://www.coursera.org/account/accomplishments/certificate/W6XDFFQ62NDX">Mastering Software Development in R Capstone</a></em></li>
+<li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC"><strong>Mastering Software Development in R Specialization</strong></a></li>
+</ul>
+<p><br></p>
+<p><strong>May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.nyu.edu">New York University</a> <img src="www/nyu.png" width="14" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance">Overview of Advanced Methods of Reinforcement Learning in Finance (Python)</a></em></li>
 </ul>
 <p><br></p>
-<p><strong>May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.universityofcalifornia.edu">University of California</a><img src="www/ucsc.png" width="14" align="center" valign="middle"/>)</p>
+<p><strong>May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.universityofcalifornia.edu">University of California</a> <img src="www/ucsc.jpg" width="14" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models">Bayesian Statistics Mixture Models (R)</a></em></li>
 </ul>
 <p><br></p>
-<p><strong>Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.pku.edu.cn">Peking University</a><img src="www/Peking%20University%2002.png" width="14" align="center" valign="middle"/>)</p>
+<p><strong>Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.pku.edu.cn">Peking University</a> <img src="www/Peking%20University%2002.png" width="14" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods">Bioinformatics Introduction and Methods (Hidden Markov Model)</a></em></li>
 </ul>
@@ -510,32 +541,39 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <li><a href="https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB"><strong>Data Science Specialization</strong></a></li>
 </ul>
 <p><br></p>
-<p><strong>Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.umich.edu/">University of Michigan (UM)</a><img src="www/um.jpg" width="14" align="center" valign="middle"/>)</p>
+<p><strong>Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science</strong>; (<a href="http://www.coursera.org">Cousera</a> - <a href="https://www.umich.edu">University of Michigan (UM)</a><img src="www/um.jpg" width="14" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa">Programming for Everybody (Python)</a></em></li>
 </ul>
 <p><br></p>
-<p><strong>Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test</strong>; (<a href="http://www.jlpt.jp/index.html">JLPT</a> - <a href="http://www.jfkl.org.my/">Japan Foundation Kuala Lumpur</a> <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and <a href="http://www.jees.or.jp/index.htm">Japan Educational Exchanges and Services</a> <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)</p>
+<p><strong>Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test</strong>; (<a href="http://www.jlpt.jp/index.html">JLPT</a> - <a href="http://www.jfkl.org.my">Japan Foundation Kuala Lumpur</a> <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and <a href="http://www.jees.or.jp/index.htm">Japan Educational Exchanges and Services</a> <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Course title : <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg">Japanese Language Profeciency Test - Level III</a></em></li>
 </ul>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="experience" class="section level2" number="2.5">
 <h2><span class="header-section-number">2.5</span> Experience</h2>
-<p><strong>Nov-2019 to Jul-2020 : Marketing Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Ali &amp; YiHaoCai under Lefa (Oriental Group)</a> <img src="www/anr.jpg" width="20" align="center" valign="middle"/>)</p>
+<p><strong>Oct-2020 to Present : </strong>; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/></p>
 <ul>
-<li><em>Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.</em></li>
+<li><em>Summary : <a href="https://www.scibrokes.com" style="color:RoyalBlue"><strong>Sςιβrοκεrs Trαdιηg®</strong></a></em><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></li>
+<li><em>Job Task : Conducting R&amp;D on statistical modelling and HFT in financial market etc and data analysis, probably flight to China Mainland.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2017 to May-2018 : Customer Service Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Aristocrat &amp; Residence</a> <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by <a href="https://www.7liveasia88.com">7LiveAsia</a> <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2019 to Jul-2020 : Marketing Executive</strong>;(employed by <a href="https://rpubs.com/englianhu/goucai">Ali Lottery &amp; YiHaoCai under Lefa (Oriental Group)</a> <img src="www/ali.jpg" width="14" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.</em></li>
+<li><em>Summary : Oriental Group is a Chinese business group.</em></li>
+<li><em>Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and mostly Chinese) for half-year and then switch to be a data analyst in anti-fraud, products &amp; P&amp;L department.</em></li>
 </ul>
 <p><br></p>
-<p><strong>May-2016 to Dec-2016 : Customer Service Executive</strong>;(employed by <a href="http://www.manpower.com.my/">Manpower Human Resource Sdn Bhd</a> <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by <a href="https://www.mindpearl.com/">Mindpearl</a> <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2017 to May-2018 : Online Gaming, Customer Service Executive</strong>;(employed by <a href="http://www.aristocrat-rh.com/">Aristocrat &amp; Residence</a> <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by <a href="https://www.7liveasia88.com">7LiveAsia</a> <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : A customer service executive in Mindpearl but handle <a href="https://www.malaysiaairlines.com/my/en.html">Malaysia Airlines</a><img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.</em></li>
+<li><em>Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and mostly Chinese but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia &amp; Vietnam) with 7LiveAsia with Indonesians</em></li>
+</ul>
+<p><br></p>
+<p><strong>May-2016 to Dec-2016 : Customer Service Executive</strong>;(employed by <a href="http://www.manpower.com.my/">Manpower Human Resource Sdn Bhd</a> <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by <a href="https://www.mindpearl.com">Mindpearl</a> <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)</p>
+<ul>
+<li><em>Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle <a href="https://www.malaysiaairlines.com/my/en.html">Malaysia Airlines</a><img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.</em></li>
 </ul>
 <p><br></p>
 <p><strong>Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader</strong>; (employed by Global Solution Sdn Bhd)</p>
@@ -550,7 +588,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <p><br></p>
 <p><strong>Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention</strong>; (employed by <a href="http://www.idealseed.com/">IdealSeed Sdn Bhd</a> <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by <a href="http://www.apple.com">Apple Inc.</a> <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)</p>
 <ul>
-<li><em>Job Task : Working in <a href="https://www.xerox.com/">Xerox</a><img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers’ ordered transactions.</em></li>
+<li><em>Job Task : Working in <a href="https://www.xerox.com">Xerox</a><img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers’ ordered transactions.</em></li>
 </ul>
 <p><br></p>
 <p><strong>Mar-2014 to Apr-2014 : Customer Service Executive</strong>; (employed by <a href="https://www.fujixerox.com">FujiXerox</a> <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)</p>
@@ -558,33 +596,37 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <li><em>Job Task : Handling inbound calls from Taiwanese customers’ orders and printer maintenance.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader</strong>; ( employed by <a href="http://www.gb-links.com/">SBSolutionCorp Ltd</a> <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader</strong>; (employed by <a href="http://www.gb-links.com">SBSolutionCorp Ltd</a> <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)</p>
 <ul>
 <li><em>Job Task : Handling few members to update scores and bets settlement.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor</strong>; (employed by <a href="http://www.udrive-media.com/">U-Drive Media Sdn Bhd</a> <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor</strong>; (employed by <a href="http://www.udrive-media.com">U-Drive Media Sdn Bhd</a> <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)</p>
 <ul>
+<li><em>Summary : TM is a bluechip company in Malaysia.</em></li>
 <li><em>Job Task : Watching and filtering video streaming from abroad prior to play in our country. <a href="https://tm.com.my/#/explore">TM Bhd</a> Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project</em></li>
 </ul>
 <p><br></p>
-<p><strong>Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service</strong>; (employed by <a href="http://www.scicom-intl.com/">Scicom (MSC) Bhd</a> <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)</p>
+<p><strong>Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service</strong>; (employed by <a href="http://www.scicom-intl.com">Scicom (MSC) Bhd</a> <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)</p>
 <ul>
+<li><em>Summary : Work for English.</em></li>
 <li><em>Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets’ transactions. Sometimes need to do translation and also analysis job tasks. <a href="http://www.ladbrokesplc.com/">Ladbrokes PLC</a>’s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project</em></li>
 <li>Awarded <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg">Customer Service Workshop</a></li>
 <li>Awarded <a href="https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg">(Ladbrokes) Appreciation Certificate.jpg</a></li>
 </ul>
 <p><br></p>
-<p><strong>Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader</strong>; (employed by <a href="http://www.callcenterbeat.com/caspo-philippines/">Caspo Inc.</a> <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)</p>
+<p><strong>Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader</strong>; (employed by <a href="http://www.callcenterbeat.com/caspo-philippines">Caspo Inc.</a> <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)</p>
 <ul>
+<li><em>Summary : Caspo is an online gaming group by Singaporean and Taiwanese.</em></li>
 <li><em>Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.</em></li>
 </ul>
 <p><br></p>
-<p><strong>Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader</strong>; (employed by <a href="http://www.telebizness.com/">Telebiz Sdn Bhd</a> <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)</p>
+<p><strong>Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader</strong>; (employed by <a href="http://www.telebizness.com">Telebiz Sdn Bhd</a> <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)</p>
 <ul>
+<li><em>Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, and co-orperate with Hong Kongnese, Australian etc</em></li>
 <li><em>Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.</em></li>
 </ul>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="technical-experience" class="section level2" number="2.6">
 <h2><span class="header-section-number">2.6</span> Technical Experience</h2>
@@ -649,170 +691,241 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <li><em>Kindly click <a href="https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers">here</a> for more information.</em></li>
 </ul>
 <p><br></p>
-<p><a href="https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0"><strong>Apply Poisson regression on sports odds modelling</strong></a></p>
+<p><a href="https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0"><strong>Apply Poisson Regression on Sports Odds Modelling</strong></a></p>
 <ul>
 <li><em>Application of Poison model onto soccer sports odds modelling.</em></li>
 <li><em>Kindly click on <a href="https://github.com/scibrokes/owner/blob/master/data/Calculator.xls">Calculator.xls</a> and <a href="https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls">Statistics (ver3).xls</a> for the research.</em></li>
 </ul>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="skill" class="section level2" number="2.7">
 <h2><span class="header-section-number">2.7</span> Skill</h2>
-<table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <caption>
 Skill and Expertise Rating Level (from newbie 1 to expert 10)
 </caption>
 <thead>
 <tr>
-<th style="text-align:left;color: yellow !important;background-color: DimGrey !important;">
+<th style="text-align:center;color: yellow !important;background-color: DimGrey !important;">
+No
+</th>
+<th style="text-align:center;color: yellow !important;background-color: DimGrey !important;">
 Skill
 </th>
-<th style="text-align:left;color: yellow !important;background-color: DimGrey !important;">
+<th style="text-align:center;color: yellow !important;background-color: DimGrey !important;">
 Level
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(0, 0, 4, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 9”&gt;R Programming&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(254, 206, 145, 1) !important;font-size: 8px;">1</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b”&gt;9&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(21, 14, 55, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 9">ξconometrics</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(24, 15, 61, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 8”&gt;MS Office&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #c2972d”&gt;8&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">9</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(69, 16, 119, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 3”&gt;SQL&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(254, 184, 126, 1) !important;font-size: 8px;">2</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #f4eddc”&gt;3&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(37, 18, 84, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 9">Quantitative Trading</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(114, 31, 129, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 4”&gt;Python&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #eadcb9”&gt;4&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">9</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(158, 47, 127, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 9”&gt;Data Analysis&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(254, 162, 110, 1) !important;font-size: 9px;">3</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b”&gt;9&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(56, 16, 109, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 9">R Programming</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(205, 64, 113, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 9”&gt;Customer Service&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b”&gt;9&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">9</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(241, 96, 93, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 7”&gt;Sportsbook Industry&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(252, 139, 99, 1) !important;font-size: 9px;">4</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #cca850”&gt;7&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(77, 17, 123, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 8">MS Office</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(253, 148, 103, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 7”&gt;®Studio Server&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #cca850”&gt;7&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(64, 15, 116, 1) !important;font-size: 15px;">8</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(254, 202, 141, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 6”&gt;Statistics&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(248, 117, 92, 1) !important;font-size: 10px;">5</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #d6b973”&gt;6&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(96, 24, 128, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 3">SQL</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(252, 253, 191, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 8”&gt;Data Science&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #c2972d”&gt;8&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(253, 154, 106, 1) !important;font-size: 9px;">3</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(0, 0, 4, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 8”&gt;Shiny Web Application&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(240, 96, 93, 1) !important;font-size: 10px;">6</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #c2972d”&gt;8&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(114, 31, 129, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 4">Python</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(24, 15, 61, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 7”&gt;Linux OS&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #cca850”&gt;7&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(242, 98, 93, 1) !important;font-size: 10px;">4</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(69, 16, 119, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 6”&gt;Web API&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(228, 79, 100, 1) !important;font-size: 11px;">7</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #d6b973”&gt;6&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(133, 38, 129, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 9">Data Analysis</span></span>
 </td>
-</tr>
-<tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(114, 31, 129, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 2”&gt;Sparklyr&lt;/span&gt;
-</td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff”&gt;2&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">9</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(158, 47, 127, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 2”&gt;Tensorflow&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(210, 67, 111, 1) !important;font-size: 11px;">8</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff”&gt;2&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(152, 45, 128, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 9">Customer Service</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">9</span></span>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
-&lt;span style=” color: rgba(205, 64, 113, 1) !important;” data-toggle=“tooltip” data-container=“body” data-placement=“right” title=“Level: 9”&gt;Econometrics&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(192, 58, 119, 1) !important;font-size: 12px;">9</span></span>
 </td>
-<td style="text-align:left;color: black !important;background-color: grey !important;">
-&lt;span style=“display: block; padding: 0 4px; border-radius: 4px; background-color: #b8860b”&gt;9&lt;/span&gt;
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(172, 52, 124, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 7">Sportsbook Industry</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(112, 31, 129, 1) !important;font-size: 14px;">7</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(172, 52, 124, 1) !important;font-size: 12px;">10</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(192, 58, 119, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 7">®Studio Server</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(112, 31, 129, 1) !important;font-size: 14px;">7</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(152, 45, 128, 1) !important;font-size: 13px;">11</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(210, 67, 111, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 6">Statistics</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(157, 47, 127, 1) !important;font-size: 13px;">6</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(133, 38, 129, 1) !important;font-size: 13px;">12</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(228, 79, 100, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 8">Data Science</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(64, 15, 116, 1) !important;font-size: 15px;">8</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(114, 31, 129, 1) !important;font-size: 14px;">13</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(240, 96, 93, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 8">Shiny Web Application</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(64, 15, 116, 1) !important;font-size: 15px;">8</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(96, 24, 128, 1) !important;font-size: 14px;">14</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(248, 117, 92, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 7">Linux OS</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(112, 31, 129, 1) !important;font-size: 14px;">7</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(77, 17, 123, 1) !important;font-size: 15px;">15</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(252, 139, 99, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 6">Web API</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(157, 47, 127, 1) !important;font-size: 13px;">6</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(56, 16, 109, 1) !important;font-size: 15px;">16</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(254, 162, 110, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 2">Sparklyr</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(254, 206, 145, 1) !important;font-size: 8px;">2</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(37, 18, 84, 1) !important;font-size: 16px;">17</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(254, 184, 126, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 2">Tensorflow</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(254, 206, 145, 1) !important;font-size: 8px;">2</span></span>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(21, 14, 55, 1) !important;font-size: 16px;">18</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -ms-transform: rotate(3deg); -o-transform: rotate(3deg); transform: rotate(3deg); display: inline-block; "><span style="  font-style: italic;   color: rgba(254, 206, 145, 1) !important;" data-toggle="tooltip" data-container="body" data-placement="right" title="Level: 4">Web Driver</span></span>
+</td>
+<td style="text-align:center;">
+<span style="-webkit-transform: rotate(20deg); -moz-transform: rotate(20deg); -ms-transform: rotate(20deg); -o-transform: rotate(20deg); transform: rotate(20deg); display: inline-block; "><span style=" font-weight: bold;    color: rgba(242, 98, 93, 1) !important;font-size: 10px;">4</span></span>
 </td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
-<div id="htmlwidget-b2f288d50dba900cc0ae" style="width:672px;height:480px;" class="echarts html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b2f288d50dba900cc0ae">{"x":{"series":[{"type":"radar","symbol":"none","name":0,"data":[{"name":"®Studio Server","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Customer Service","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Data Analysis","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Data Science","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Econometrics","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Linux OS","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"MS Office","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Python","value":[4,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"R Programming","value":[9,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Shiny Web Application","value":[8,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Sparklyr","value":[2,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Sportsbook Industry","value":[7,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"SQL","value":[3,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Statistics","value":[6,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Tensorflow","value":[2,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]},{"name":"Web API","value":[6,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]}]}],"legend":{"show":true,"data":["®Studio Server","Customer Service","Data Analysis","Data Science","Econometrics","Linux OS","MS Office","Python","R Programming","Shiny Web Application","Sparklyr","Sportsbook Industry","SQL","Statistics","Tensorflow","Web API"],"x":"left","y":"top","orient":"horizontal","selectedMode":"multiple"},"xAxis":[{"type":"category","show":false,"position":"bottom","name":"","nameLocation":"end","boundaryGap":[0,0],"scale":true,"axisLine":{"show":true,"onZero":false},"axisTick":{"show":false},"axisLabel":{"show":true},"splitLine":{"show":true},"splitArea":{"show":false},"data":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","®Studio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API","Sparklyr","Tensorflow","Econometrics"]}],"yAxis":[{"type":"value","show":false,"position":"left","name":"","nameLocation":"end","boundaryGap":[0,0],"scale":true,"axisLine":{"show":true,"onZero":false},"axisTick":{"show":false},"axisLabel":{"show":true},"splitLine":{"show":true},"splitArea":{"show":false}}],"grid":{"borderWidth":0},"tooltip":{"show":true,"trigger":"item","axisPointer":{"type":"none","crossStyle":{"type":"dashed"},"lineStyle":{"type":"solid","width":1},"shadowStyle":{"color":"rgba(150,150,150,0.3)","width":"auto","type":"default"}},"textStyle":{"color":"#fff"},"islandFormatter":"{a} < br/>{b} : {c}","enterable":false,"showDelay":20,"hideDelay":100,"transitionDuration":0.4,"backgroundColor":"rgba(0,0,0,0.7)","borderColor":"#333","borderWidth":0,"borderRadius":4},"toolbox":{"show":true,"feature":{"mark":{"show":true},"dataZoom":{"show":true},"dataView":{"show":true,"readOnly":false},"magicType":{"show":false},"restore":{"show":true},"saveAsImage":{"show":true}},"x":"right","y":"top","orient":"horizontal"},"polar":[{"center":["50%","50%"],"radius":"80%","indicator":[{"text":"®Studio Server","max":8.4},{"text":"Customer Service","max":10.8},{"text":"Data Analysis","max":10.8},{"text":"Data Science","max":9.6},{"text":"Econometrics","max":10.8},{"text":"Linux OS","max":8.4},{"text":"MS Office","max":9.6},{"text":"Python","max":4.8},{"text":"R Programming","max":10.8},{"text":"Shiny Web Application","max":9.6},{"text":"Sparklyr","max":2.4},{"text":"Sportsbook Industry","max":8.4},{"text":"SQL","max":3.6},{"text":"Statistics","max":7.2},{"text":"Tensorflow","max":2.4},{"text":"Web API","max":7.2}]}]},"evals":[],"jsHooks":[]}</script>
-<canvas id="htmlwidget-b578cf8fb16a8e3d57de" class="chartJSRadar html-widget" width="100%" height="100%"></canvas>
-<script type="application/json" data-for="htmlwidget-b578cf8fb16a8e3d57de">{"x":{"data":{"labels":["R Programming","MS Office","SQL","Python","Data Analysis","Customer Service","Sportsbook Industry","®Studio Server","Statistics","Data Science","Shiny Web Application","Linux OS","Web API","Sparklyr","Tensorflow","Econometrics"],"datasets":[{"label":"Level","data":[9,8,3,4,9,9,7,7,6,8,8,7,6,2,2,9],"backgroundColor":"rgba(255,0,0,0.2)","borderColor":"rgba(255,0,0,0.8)","pointBackgroundColor":"rgba(255,0,0,0.8)","pointBorderColor":"#fff","pointHoverBackgroundColor":"#fff","pointHoverBorderColor":"rgba(255,0,0,0.8)"}]},"options":{"responsive":true,"title":{"display":true,"text":"Skill Rating"},"scale":{"ticks":{"max":10,"min":0},"pointLabels":{"fontSize":"auto"}},"tooltips":{"enabled":true,"mode":"label"},"legend":{"display":true}}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-c634dc6150155187160a" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c634dc6150155187160a">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"radar":[{"indicator":[{"name":"ξconometrics","max":"10"},{"name":"Quantitative Trading","max":"10"},{"name":"R Programming","max":"10"},{"name":"MS Office","max":"10"},{"name":"SQL","max":"10"},{"name":"Python","max":"10"},{"name":"Data Analysis","max":"10"},{"name":"Customer Service","max":"10"},{"name":"Sportsbook Industry","max":"10"},{"name":"®Studio Server","max":"10"},{"name":"Statistics","max":"10"},{"name":"Data Science","max":"10"},{"name":"Shiny Web Application","max":"10"},{"name":"Linux OS","max":"10"},{"name":"Web API","max":"10"},{"name":"Sparklyr","max":"10"},{"name":"Tensorflow","max":"10"},{"name":"Web Driver","max":"10"}]}],"series":[{"type":"radar","data":[{"value":[9,9,9,8,3,4,9,9,7,7,6,8,8,7,6,2,2,4],"name":"Skill"}],"radarIndex":0,"itemStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#EDAE01' },\n       { offset: 1, color: '#FFEB94' }\n     ])"},"areaStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#002C54' },\n       { offset: 1, color: '#4CB5F5' }\n     ])"}}],"legend":{"data":["Skill"]},"tooltip":{"trigger":"item"}},"dispose":true},"evals":["opts.series.0.itemStyle.color","opts.series.0.areaStyle.color"],"jsHooks":[]}</script>
 <p><br></p>
 </div>
 <div id="other-miscellaneous" class="section level2" number="2.8">
 <h2><span class="header-section-number">2.8</span> Other / Miscellaneous</h2>
-<p>I am currently learn to setup own sportsbook hedge fund company <a href="https://github.com/scibrokes">Scibrokes®</a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my <a href="https://github.com/Scibrokes/setup-rstudio-server">安装 ®StudioとShiny服务器</a> <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at <a href="mailto:englianhu@gmail.com" class="email">englianhu@gmail.com</a>.</p>
+<p>I am currently learn to setup own hedge fund company <a href="https://www.scibrokes.com" style="color:RoyalBlue"><strong>Sςιβrοκεrs Trαdιηg®</strong></a><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my <a href="https://github.com/Scibrokes/setup-rstudio-server">安装®StudioとShiny服务器</a> <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at <a href="mailto:englianhu@gmail.com" class="email">englianhu@gmail.com</a>.</p>
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
@@ -821,12 +934,12 @@ Level
 </iframe>
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="social-network" class="section level2" number="2.9">
 <h2><span class="header-section-number">2.9</span> Social Network</h2>
 <p><a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ%20wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a></p>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 </div>
 <div id="appendices" class="section level1" number="3">
@@ -837,51 +950,66 @@ Level
 <p>It’s useful to record some information about how your file was created.</p>
 <ul>
 <li>File creation date: 2015-10-12</li>
-<li>File latest updated date: 2021-11-02</li>
-<li>R version 4.1.1 (2021-08-10)</li>
+<li>File latest updated date: 2021-12-17</li>
+<li>R version 4.1.2 (2021-11-01)</li>
 <li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> package version: 2.11</li>
 <li>File version: 0.2.1</li>
 <li>Author Profile: <a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html">®γσ, ξηg Lιαη Ημ</a></li>
 <li>GitHub: <a href="https://github.com/scibrokes/owner">Source Code</a></li>
 <li>Additional session information</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;dplyr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;magrittr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;formattable&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;knitr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;kableExtra&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>sys1 <span class="ot">&lt;-</span> devtools<span class="sc">::</span><span class="fu">session_info</span>()<span class="sc">$</span>platform <span class="sc">%&gt;%</span> </span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  unlist <span class="sc">%&gt;%</span> <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="fu">names</span>(.), <span class="at">session_info =</span> .)</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(sys1) <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>sys2 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">Sys.info</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">Category =</span> <span class="fu">rownames</span>(.)) <span class="sc">%&gt;%</span> .[<span class="dv">2</span><span class="sc">:</span><span class="dv">1</span>]</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(sys2)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&#39;Sys.info&#39;</span>)</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(sys2) <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">9</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">Category =</span> <span class="st">&#39;Current time&#39;</span>, </span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">Sys.info =</span> <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST🗾&#39;</span>)))</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">Category =</span> <span class="st">&#39;Current time&#39;</span>, </span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">session_info =</span> <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST🗾&#39;</span>)))</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kbl</span>(<span class="at">caption =</span> <span class="st">&#39;Additional session information:&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">&#39;striped&#39;</span>, <span class="st">&#39;hover&#39;</span>, <span class="st">&#39;condensed&#39;</span>, <span class="st">&#39;responsive&#39;</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">0</span>, <span class="at">background =</span> <span class="st">&#39;DimGrey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">1</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;red&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">2</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;black&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">3</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;blue&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">column_spec</span>(<span class="dv">4</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;white&#39;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">row_spec</span>(<span class="dv">9</span>, <span class="at">bold =</span> T, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>, <span class="at">background =</span> <span class="st">&#39;#D7261E&#39;</span>)</span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(sys1, sys2)</span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>sys</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;formattable&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;knitr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;kableExtra&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>sys1 <span class="ot">&lt;-</span> devtools<span class="sc">::</span><span class="fu">session_info</span>()<span class="sc">$</span>platform <span class="sc">|&gt;</span> </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">unlist</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">row.names =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(.), </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Category =</span> <span class="fu">names</span>(.), <span class="at">session_info =</span> .)}()</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>sys2 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">Sys.info</span>()) <span class="sc">|&gt;</span> </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="fu">row.names</span>(.), <span class="at">Sys.info =</span> .[,<span class="dv">1</span>])}()</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">#remarks, dim(sys1), dim(sys2)</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">11</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">&#39;&#39;</span>, <span class="at">session_info =</span> <span class="st">&#39;&#39;</span>))</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">|&gt;</span> </span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kbl</span>(., <span class="at">caption =</span> <span class="st">&#39;Additional session information:&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(., <span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">&#39;striped&#39;</span>, <span class="st">&#39;hover&#39;</span>, <span class="st">&#39;condensed&#39;</span>, <span class="st">&#39;responsive&#39;</span>))}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">0</span>, <span class="at">background =</span> <span class="st">&#39;DimGrey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">1</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;red&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">2</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;black&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">3</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;blue&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">4</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;white&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">11</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>, <span class="at">background =</span> <span class="st">&#39;#D7261E&#39;</span>)}()</span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(sys1, sys2)</span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>sys</span></code></pre></div>
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <caption>
 Additional session information:
@@ -908,7 +1036,7 @@ Sys.info
 version
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-R version 4.1.1 (2021-08-10)
+R version 4.1.2 (2021-11-01)
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 sysname
@@ -928,7 +1056,7 @@ Ubuntu 20.04.3 LTS
 release
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;">
-5.11.0-40-generic
+5.15.7-051507-generic
 </td>
 </tr>
 <tr>
@@ -942,7 +1070,7 @@ x86_64, linux-gnu
 version
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;">
-#44~20.04.2-Ubuntu SMP Tue Oct 26 18:07:44 UTC 2021
+#202112081053-Ubuntu SMP Wed Dec 8 11:10:32 UTC 2021
 </td>
 </tr>
 <tr>
@@ -964,7 +1092,7 @@ Scibrokes-Trading
 language
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-en_US:zh_CN:zh_TW:ja:ko:en_GB:de:fr:it
+en
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 machine
@@ -992,7 +1120,7 @@ englianhu
 ctype
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-zh_CN.utf-8
+en_US.UTF-8
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 user
@@ -1016,22 +1144,48 @@ englianhu
 </td>
 </tr>
 <tr>
-<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
+<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
 date
 </td>
+<td style="text-align:left;color: black !important;background-color: grey !important;">
+2021-12-17
+</td>
+<td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
+rmarkdown
+</td>
+<td style="text-align:left;color: white !important;background-color: grey !important;">
+/home/englianhu/Documents/GitHub/owner
+</td>
+</tr>
+<tr>
+<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;">
+pandoc
+</td>
+<td style="text-align:left;color: black !important;background-color: grey !important;">
+2.14.0.3 @ /usr/lib/rstudio/bin/pandoc/ (via rmarkdown)
+</td>
+<td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
+rsconnect
+</td>
+<td style="text-align:left;color: white !important;background-color: grey !important;">
+0.8.25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;color: red !important;background-color: CornflowerBlue !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
+</td>
 <td style="text-align:left;color: black !important;background-color: grey !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
-2021-11-02
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
 Current time
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
-2021-11-02 03:31:49 JST🗾
+2021-12-17 05:14:47 JST 🌏
 </td>
 </tr>
 </tbody>
 </table>
-<p><br> <br></p>
+<p><br><br></p>
 </div>
 <div id="references" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> References</h2>
@@ -1043,8 +1197,9 @@ Current time
 <li>Here I apply <a href="https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html">googleVis</a> package to plot the animated graph. You are feel free to browse over the <a href="https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf">vignettes</a> for more examples.</li>
 <li>You can also modify the layout of website by referring <a href="http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/">Top Five CSS Customizations for R Presentations</a>.</li>
 <li>There are a lot of diversified symbols I get from <a href="http://www.rapidtables.com/math/symbols/greek_alphabet.htm">Greek Alphabet Symbols</a></li>
+<li><a href="https://stackoverflow.com/a/67562291/3806250">Gradient color in <code>radarchart</code> using <code>echarts</code> in R</a></li>
 </ul>
-<p><br> <br></p>
+<p><br><br></p>
 <hr />
 <p><span style="color:RoyalBlue"><strong>Powered by - Copyright® Intellectual Property Rights of <a href="http://www.scibrokes.com"><img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®</a>個人の経営企業</strong></span></p>
 </div>
@@ -1052,7 +1207,8 @@ Current time
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>The website not yet setup but now keep up learning.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p><a href="https://www.scibrokes.com"><em>Sςιβrοκεrs Trαdιηg® (Official Website)</em></a> <em>and <a href="https://github.com/scibrokes">Sςιβrοκεrs Trαdιηg® (GitHub)</a> and <a href="https://facebook.com/scibrokes">Sςιβrοκεrs Trαdιηg® (Facebook)</a>.</em><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.scibrokes.com">Sςιβrοκεrs Trαdιηg® (Official Website)</a> and <a href="https://github.com/scibrokes">Sςιβrοκεrs Trαdιηg® (GitHub)</a> and <a href="https://facebook.com/scibrokes">Sςιβrοκεrs Trαdιηg® (Facebook)</a>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 

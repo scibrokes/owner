@@ -50,6 +50,10 @@ resource_files:
 - www/20160910_121813.gif
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/ali.jpg
+- www/ali_36x36.jpg
+- www/alibaba.jpg
+- www/alibaba2.jpg
 - www/apple.jpg
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
@@ -214,6 +218,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+---
 
 ------
 
@@ -335,7 +340,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'recharts',  'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
 
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
@@ -355,7 +360,7 @@ op <- options(gvis.plot.tag = 'chart')
 |:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
 | Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
 | Age                 | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
-| Mobile Phone Number |                                                                                             [+6-017-2100905](tel:+601110640095) |
+| Mobile Phone Number |                                                                                              [+6-017-6482776](tel:+60176482776) |
 | Email Address       |                                                                      [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email} |
 | Nationality         |                                                                                                                       Malaysian |
 | Place of Birth      |                                                                                              Tanjong Karang, Selangor, Malaysia |
@@ -365,92 +370,82 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-**May-2021 to Jul-2021 : Professional Certificate, Specialization
-Machine Learning and Reinforcement Learning in Finance**;
-([Cousera](http://www.coursera.org) - [New York
-University](https://www.nyu.edu)<img src="www/ucsc.png" width="14" align="center" valign="middle"/>)
+**Nov-2021 to Present : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
--   *Course title : [Overview of Advanced Methods of Reinforcement
-    Learning in Finance
-    (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
+-   *01 Course title : [The Data Scientist's Toolbox](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *02 Course title : [R Programming](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *03 Course title : [Getting and Cleaning Data](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   [**Data Science Specialization**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics
-Mixture Models**; ([Cousera](http://www.coursera.org) - [University of
-California](https://www.universityofcalifornia.edu)<img src="www/ucsc.png" width="14" align="center" valign="middle"/>)
+**Dec-2021 to Present : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/UST.jpg" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Bayesian Statistics Mixture
-    Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+-   *Course title : [Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis)*
 
 <br>
 
-**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics :
-Introduction and Methods 生物信息学: 导论与方法**;
-([Cousera](http://www.coursera.org) - [Peking
-University](https://www.pku.edu.cn)<img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+**Oct-2018 to Nov-2021 : Professional Certificate, Specialization Mastering Software Development in R**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
--   *Course title : [Bioinformatics Introduction and Methods (Hidden
-    Markov
-    Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
-
-<br>
-
-**Apr-2014 to May-2016 : Professional Certificate, Specialization Data
-Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins
-University (JHU)](https://www.jhu.edu)
-<img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
-
--   *01 Course title : [The Data Scientist's
-    Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
--   *02 Course title : [R
-    Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
--   *03 Course title : [Getting and Cleaning
-    Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
--   *04 Course title : [Exploratory Data
-    Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
--   *05 Course title : [Reproducible
-    Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
--   *06 Course title : [Statistical
-    Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
--   *07 Course title : [Regression
-    Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
--   *08 Course title : [Practical Machine
-    Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
--   *09 Course title : [Developing Data
-    Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
--   *10 Course title : [Data Science
-    Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
--   [**Data Science
-    Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+-   *01 Course title : [The R Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+-   *02 Course title : [Advanced R Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+-   *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+-   *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+-   *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/certificate/W6XDFFQ62NDX)*
+-   [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
 
 <br>
 
-**Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data
-Science**; ([Cousera](http://www.coursera.org) - [University of Michigan
-(UM)](https://www.umich.edu/)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+**May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/nyu.png" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Programming for Everybody
-    (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+-   *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
 
 <br>
 
-**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language
-Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan
-Foundation Kuala Lumpur](http://www.jfkl.org.my/)
-<img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and
-[Japan Educational Exchanges and
-Services](http://www.jees.or.jp/index.htm)
-<img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/ucsc.jpg" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Japanese Language Profeciency Test - Level
-    III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+-   *Course title : [Bayesian Statistics Mixture Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+
+<br>
+
+**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+
+<br>
+
+**Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+
+-   *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+-   *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
+-   *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+-   *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+-   *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+-   *06 Course title : [Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+-   *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+-   *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+-   *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+-   *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
+-   [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+
+<br>
+
+**Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+
+<br>
+
+**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and
+Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+
+-   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br><br>
 
 ## Experience
 
-\*\*Oct-2020 to Present :
+**Oct-2020 to Present : **; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 -   *Summary : [**Sςιβrοκεrs
     Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
@@ -463,9 +458,9 @@ Services](http://www.jees.or.jp/index.htm)
     (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg®
     (Facebook)](https://facebook.com/scibrokes).*
 
-**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery
-& YiHaoCai under Lefa (Oriental Group)]()
-<img src="www/anr.jpg" width="20" align="center" valign="middle"/>)
+<br>
+
+**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Summary : Oriental Group is a Chinese business group.*
 -   *Job Task : Work in Clark (Philippines) as an online marketing
@@ -475,12 +470,7 @@ Services](http://www.jees.or.jp/index.htm)
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gaming, Customer Service
-Executive**;(employed by [Aristocrat &
-Residence](http://www.aristocrat-rh.com/)
-<img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd
-job employed by [7LiveAsia](https://www.7liveasia88.com)
-<img src="www/7live.jpg" width="18" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Sihanoukville (Cambodia) as a customer service
     executive in ALIFA Lottery (employed by Chinese and mostly Chinese
@@ -490,11 +480,7 @@ job employed by [7LiveAsia](https://www.7liveasia88.com)
 
 <br>
 
-**May-2016 to Dec-2016 : Customer Service Executive**;(employed by
-[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)
-<img src="www/manpower.jpg" width="24" align="center" valign="middle"/>
-and deployed by [Mindpearl](https://www.mindpearl.com)
-<img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Subang Jaya (Malaysia) as a customer service
     executive in Mindpearl but handle [Malaysia
@@ -505,8 +491,7 @@ and deployed by [Mindpearl](https://www.mindpearl.com)
 
 <br>
 
-**Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader**; (employed
-by Global Solution Sdn Bhd)
+**Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader**; (employed by Global Solution Sdn Bhd)
 
 -   *Job Task : Follow (Back) sportsbook punters' bets, hedging and
     oppose (Lay) pathological gamblers, doing deposit transactions for
@@ -514,19 +499,14 @@ by Global Solution Sdn Bhd)
 
 <br>
 
-**May-2015 to Sep-2015 : Online Gaming, Customer Service**; (employed by
-OneMedia Sdn Bhd)
+**May-2015 to Sep-2015 : Online Gaming, Customer Service**; (employed by OneMedia Sdn Bhd)
 
 -   *Job Task : Handling inbound and outbound calls, livechat, feedback,
     all deposit and withdrawal transactions.*
 
 <br>
 
-**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed
-by [IdealSeed Sdn Bhd](http://www.idealseed.com/)
-<img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>
-and deployed by [Apple Inc.](http://www.apple.com)
-<img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
 -   *Job Task : Working in
     [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/>
@@ -535,27 +515,21 @@ and deployed by [Apple Inc.](http://www.apple.com)
 
 <br>
 
-**Mar-2014 to Apr-2014 : Customer Service Executive**; (employed by
-[FujiXerox](https://www.fujixerox.com)
-<img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
+**Mar-2014 to Apr-2014 : Customer Service Executive**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
 
 -   *Job Task : Handling inbound calls from Taiwanese customers' orders
     and printer maintenance.*
 
 <br>
 
-**Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; (
-employed by [SBSolutionCorp Ltd](http://www.gb-links.com/)
-<img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
+**Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
 
 -   *Job Task : Handling few members to update scores and bets
     settlement.*
 
 <br>
 
-**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**;
-(employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com/)
-<img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
+**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
 -   *Summary : TM is a bluechip company in Malaysia.*
 -   *Job Task : Watching and filtering video streaming from abroad prior
@@ -566,9 +540,7 @@ employed by [SBSolutionCorp Ltd](http://www.gb-links.com/)
 
 <br>
 
-**Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**;
-(employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com/)
-<img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
+**Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
 -   *Summary : Work for English.*
 -   *Job Task : Handling inbound and outbound calls, livechat, feedback,
@@ -584,9 +556,7 @@ employed by [SBSolutionCorp Ltd](http://www.gb-links.com/)
 
 <br>
 
-**Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by
-[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/)
-<img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
+**Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
 
 -   *Summary : Caspo is an online gaming group by Singaporean and
     Taiwanese.*
@@ -596,9 +566,7 @@ employed by [SBSolutionCorp Ltd](http://www.gb-links.com/)
 
 <br>
 
-**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**;
-(employed by [Telebiz Sdn Bhd](http://www.telebizness.com)
-<img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
+**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
 -   *Summary : Telebiz is an online gaming group with MGSC which develop
     online gaming platform, and co-orperate with Hong Kongnese,
@@ -612,8 +580,7 @@ employed by [SBSolutionCorp Ltd](http://www.gb-links.com/)
 
 ## Technical Experience
 
-[**Analysing Financial Report of
-Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+[**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 -   *Analyse the financial report and stock price of gambling public
     listed company.*
@@ -624,8 +591,7 @@ Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-
 
 <br>
 
-[**binary.com : Job Application - Quantitative
-Analyst**](https://github.com/englianhu/binary.com-interview-question)
+[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
 -   *Backtest on financial betting products modelling and also betting
     strategy.*
@@ -639,8 +605,7 @@ Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
 <br>
 
-[**Betting Strategy and Model
-Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
+[**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
 -   *Using Selenium to gather soccer matches data via webdriver
     Phantomjs.*
@@ -654,8 +619,7 @@ Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation
 
 <br>
 
-[**Introducing ®Studio Server for Data
-Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
+[**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
 -   *An tutorial for setup RStudio server and shiny server on Linux
     CentOS 7.*
@@ -665,8 +629,7 @@ Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
 <br>
 
-[**Application of Kelly Criterion model in Sportsbook
-Investment**](https://github.com/Scibrokes/kelly-criterion)
+[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
 -   *Apply dynamic weighted diagonal inflated bivariate poisson model to
     the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to
@@ -686,8 +649,7 @@ Investment**](https://github.com/Scibrokes/kelly-criterion)
 
 <br>
 
-[**WebDriver Dynamic Webpage
-Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
+[**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 -   *Application of RSelenium and Python to scrape the odds price of
     sportbookmakers and also livescore data from*
@@ -700,8 +662,7 @@ Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 <br>
 
-[**Soccer League Web
-Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
+[**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
 -   *Static webpage soccer scores scraping.*
 -   *Kindly click
@@ -710,8 +671,7 @@ Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
 <br>
 
-[**Odds Modelling and Testing Inefficiency of
-Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 -   *Collect the livescore and also 1x2, Asian Handicap, Over Under odds
     price data of 29 sportsbookmakers manually from*
@@ -726,8 +686,7 @@ Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-ine
 
 <br>
 
-[**Apply Poisson regression on sports odds
-modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+[**Apply Poisson Regression on Sports Odds Modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
 -   *Application of Poison model onto soccer sports odds modelling.*
 -   *Kindly click on
@@ -774,7 +733,7 @@ skill |>
 
 <br>
 
-```{r skill2A, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   tibble() |> 
   {\(.) recharts::echartr(., 
@@ -824,13 +783,7 @@ skill |>
 
 ## Other / Miscellaneous
 
-I am currently learn to setup own hedge fund company [**Sςιβrοκεrs
-Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and
-use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System.
-You are welcome to own yours by refer to my [安装
-®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server)
-<img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me
-at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
 [^2]: [Sςιβrοκεrs Trαdιηg® (Official
     Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg®
