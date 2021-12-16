@@ -1,0 +1,56 @@
+##						Emacs please make this -*- R -*-
+## empty Rprofile.site for R on Debian
+##
+## Copyright (C) 2008 - 2018  Dirk Eddelbuettel and GPL'ed
+##
+## see help(Startup) for documentation on ~/.Rprofile and Rprofile.site
+
+# ## Example of .Rprofile
+# options(width=65, digits=5)
+# options(show.signif.stars=FALSE)
+# setHook(packageEvent('grDevices', 'onLoad'),
+#         function(...) grDevices::ps.options(horizontal=FALSE))
+# set.seed(1234)
+# .First <- function() cat("\n   Welcome to R!\n\n")
+
+## ======================== Micro Editor ===================================
+
+## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
+## Micro – A Modern Terminal Based Text Editor with Syntax Highlighting
+
+## ============================= PATH ======================================
+#system('sudo chmod +rwx /usr/lib/R')
+
+#.pth <- .libPaths(c('/usr/lib/R/library', '/usr/lib/R/site-library'))
+#.libPaths(.pth)
+
+#dir(paste0(R.home(component = 'home'), '/etc'))
+## https://www.jumpingrivers.com/blog/customising-your-rprofile/
+
+## -------------------------------------------------------------------------
+
+## https://stackoverflow.com/a/13736073/3806250
+# candidates <- c(Sys.getenv('R_PROFILE'),
+# file.path(Sys.getenv('R_HOME'), 'etc', 'Rprofile.site'),
+# Sys.getenv('R_PROFILE_USER'),
+#file.path(getwd(), '.Rprofile') )
+# 
+# Filter(file.exists, candidates)
+
+## https://github.com/rstudio/reticulate/issues/496#issuecomment-601446838
+#Sys.setenv(RETICULATE_PYTHON = '/usr/bin/python3')
+#Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python')
+## https://d.cosx.org/d/422269-r-410/11
+Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3', 
+           '_R_USE_PIPEBIND_' = 'true')
+#Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/envs/py38/bin/python')
+
+## -------------------------------------------------------------------------
+
+## We set the cloud mirror, which is 'network-close' to everybody, as default
+local({
+  r <- getOption('repos')
+  #r['CRAN'] <- 'https://cran.us.r-project.org'
+  r['CRAN'] <- 'https://cloud.r-project.org'
+  options(repos = r)
+})
