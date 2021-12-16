@@ -370,7 +370,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-**Nov-2021 to Present : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
 -   *01 Course title : [The Data Scientist's Toolbox](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
 -   *02 Course title : [R Programming](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
@@ -379,7 +379,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Dec-2021 to Present : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/UST.jpg" width="14" align="center" valign="middle"/>)
+**[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
 
 -   *Course title : [Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis)*
 
@@ -396,13 +396,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/nyu.png" width="14" align="center" valign="middle"/>)
+**May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
 
 -   *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
 
 <br>
 
-**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/ucsc.jpg" width="14" align="center" valign="middle"/>)
+**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
 
 -   *Course title : [Bayesian Statistics Mixture Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
 
@@ -436,8 +436,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and
-Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
 
 -   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
@@ -445,136 +444,91 @@ Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" al
 
 ## Experience
 
-**Oct-2020 to Present : **; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *Summary : [**Sςιβrοκεrs
-    Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
--   *Job Task : Conducting R&D on statistical modelling and HFT in
-    financial market etc and data analysis, probably flight to China
-    Mainland.*
+-   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
+-   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, probably flight to China Mainland.*
 
-[^1]: [*Sςιβrοκεrs Trαdιηg® (Official
-    Website)*](https://www.scibrokes.com) *and [Sςιβrοκεrs Trαdιηg®
-    (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg®
-    (Facebook)](https://facebook.com/scibrokes).*
+[^1]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) *and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).*
 
 <br>
 
 **Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Summary : Oriental Group is a Chinese business group.*
--   *Job Task : Work in Clark (Philippines) as an online marketing
-    service executive (employed by Chinese and mostly Chinese) for
-    half-year and then switch to be a data analyst in anti-fraud,
-    products & P&L department.*
+-   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and mostly Chinese) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
--   *Job Task : Work in Sihanoukville (Cambodia) as a customer service
-    executive in ALIFA Lottery (employed by Chinese and mostly Chinese
-    but our project mostly Malaysian) but some times need to handle
-    anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam)
-    with 7LiveAsia with Indonesians*
+-   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and mostly Chinese but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
-**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
--   *Job Task : Work in Subang Jaya (Malaysia) as a customer service
-    executive in Mindpearl but handle [Malaysia
-    Airlines](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>
-    customers, need to handle Malaysia Airlines customers (mostly Asia
-    Pacific, other branch handle European etc). General enquiry, new
-    booking, booking amendment.*
+-   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
 <br>
 
 **Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader**; (employed by Global Solution Sdn Bhd)
 
--   *Job Task : Follow (Back) sportsbook punters' bets, hedging and
-    oppose (Lay) pathological gamblers, doing deposit transactions for
-    China mainland customers.*
+-   *Job Task : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
 
 <br>
 
 **May-2015 to Sep-2015 : Online Gaming, Customer Service**; (employed by OneMedia Sdn Bhd)
 
--   *Job Task : Handling inbound and outbound calls, livechat, feedback,
-    all deposit and withdrawal transactions.*
+-   *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
 <br>
 
-**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
--   *Job Task : Working in
-    [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/>
-    office. Handling inbound and outbound calls, check and
-    approve/reject customers' ordered transactions.*
+-   *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
 **Mar-2014 to Apr-2014 : Customer Service Executive**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
 
--   *Job Task : Handling inbound calls from Taiwanese customers' orders
-    and printer maintenance.*
+-   *Job Task : Handling inbound calls from Taiwanese customers' orders and printer maintenance.*
 
 <br>
 
 **Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
 
--   *Job Task : Handling few members to update scores and bets
-    settlement.*
+-   *Job Task : Handling few members to update scores and bets settlement.*
 
 <br>
 
 **Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
 -   *Summary : TM is a bluechip company in Malaysia.*
--   *Job Task : Watching and filtering video streaming from abroad prior
-    to play in our country. [TM Bhd](https://tm.com.my/#/explore)
-    Telekom Malaysia
-    <img src="www/tm.jpg" width="24" align="center" valign="middle"/>
-    project*
+-   *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
 
 <br>
 
 **Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
 -   *Summary : Work for English.*
--   *Job Task : Handling inbound and outbound calls, livechat, feedback,
-    all deposit, withdrawal and also phone bets' transactions. Sometimes
-    need to do translation and also analysis job tasks. [Ladbrokes
-    PLC](http://www.ladbrokesplc.com/)'s
-    <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>
-    project*
--   Awarded [Customer Service
-    Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
--   Awarded [(Ladbrokes) Appreciation
-    Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+-   *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
+-   Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
+-   Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
 **Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
 
--   *Summary : Caspo is an online gaming group by Singaporean and
-    Taiwanese.*
--   *Job Task : Provides training to newbies on sportsbook trading and
-    live scout. Need to backup for trading as well. Sometimes need to do
-    translation and also analysis job tasks.*
+-   *Summary : Caspo is an online gaming group by Singaporean and Taiwanese.*
+-   *Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
 
 <br>
 
 **Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
--   *Summary : Telebiz is an online gaming group with MGSC which develop
-    online gaming platform, and co-orperate with Hong Kongnese,
-    Australian etc*
--   *Job Task : Provides training to newbies on sportsbook trading
-    purchasing stocks, need to update scores for bets financial
-    settlement. Handle live-matches on corners. Sometimes need to do
-    translation and also analysis job tasks.*
+-   *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, and co-orperate with Hong Kongnese, Australian etc*
+-   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
 
 <br><br>
 
@@ -582,118 +536,78 @@ Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" al
 
 [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
--   *Analyse the financial report and stock price of gambling public
-    listed company.*
+-   *Analyse the financial report and stock price of gambling public listed company.*
 -   *Analyse the profit and loss of Singbet and Singbet2.*
--   *Kindly click
-    [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
-    for more information.*
+-   *Kindly click [here](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers) for more information.*
 
 <br>
 
 [**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
--   *Backtest on financial betting products modelling and also betting
-    strategy.*
--   *Backtest on application of Arima, Exponential Smoothing model, and
-    various Garch models for prediction and Kelly model for investment.*
--   *Imputation of missing value dataset and backtest on high frequency
-    trading.*
--   *Kindly click
-    [here](https://github.com/englianhu/binary.com-interview-question)
-    for more information.*
+-   *Backtest on financial betting products modelling and also betting strategy.*
+-   *Backtest on application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.*
+-   *Imputation of missing value dataset and backtest on high frequency trading.*
+-   *Kindly click [here](https://github.com/englianhu/binary.com-interview-question) for more information.*
 
 <br>
 
 [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
--   *Using Selenium to gather soccer matches data via webdriver
-    Phantomjs.*
--   *Natural language analysis on the scrapped livescore data to match
-    the team names from firm A for automation soccer team name
-    matching.*
+-   *Using Selenium to gather soccer matches data via webdriver Phantomjs.*
+-   *Natural language analysis on the scrapped livescore data to match the team names from firm A for automation soccer team name matching.*
 -   *Application of different leverage of Kelly criterion for staking.*
--   *Kindly click
-    [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
-    for more information.*
+-   *Kindly click [here](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation) for more information.*
 
 <br>
 
 [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
--   *An tutorial for setup RStudio server and shiny server on Linux
-    CentOS 7.*
--   *Kindly click
-    [here](https://github.com/Scibrokes/setup-rstudio-server) for more
-    information.*
+-   *An tutorial for setup RStudio server and shiny server on Linux CentOS 7.*
+-   *Kindly click [here](https://github.com/Scibrokes/setup-rstudio-server) for more information.*
 
 <br>
 
 [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
--   *Apply dynamic weighted diagonal inflated bivariate poisson model to
-    the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to
-    build an prediction model.*
--   *Application of Kelly criterion model to betting on 10
-    sportsbookmakers in soccer season 2011/12 to 2012/13.*
--   *Kindly click [here](https://github.com/Scibrokes/kelly-criterion)
-    for more information.*
+-   *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to build an prediction model.*
+-   *Application of Kelly criterion model to betting on 10 sportsbookmakers in soccer season 2011/12 to 2012/13.*
+-   *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
 
 <br>
 
 [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
 
 -   *Dixon & Coles 1996 soccer scores modelling.*
--   *Kindly click [here](https://github.com/Scibrokes/Dixon-Coles1996)
-    for more information.*
+-   *Kindly click [here](https://github.com/Scibrokes/Dixon-Coles1996) for more information.*
 
 <br>
 
 [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
--   *Application of RSelenium and Python to scrape the odds price of
-    sportbookmakers and also livescore data from*
-    [*7M*](http://odds.7m.hk/en/) *and*
-    [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter
-    the odds price data.*
--   *Kindly click
-    [here](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
-    for more information.*
+-   *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en) *and* [*NowGoal*](http://info.nowgoal.com/en) *website as well as filter the odds price data.*
+-   *Kindly click [here](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping) for more information.*
 
 <br>
 
 [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
 -   *Static webpage soccer scores scraping.*
--   *Kindly click
-    [here](https://github.com/Scibrokes/Soccer-League-Web-Scraping) for
-    more information.*
+-   *Kindly click [here](https://github.com/Scibrokes/Soccer-League-Web-Scraping) for more information.*
 
 <br>
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
--   *Collect the livescore and also 1x2, Asian Handicap, Over Under odds
-    price data of 29 sportsbookmakers manually from*
-    [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com)
-    *and* [*NowGoal*](http://info.nowgoal.com/en/) *website and filter
-    the odds price data from 2006 to 2011.*
--   *Apply dynamical weighted diagonal inflated bivariate Poisson model
-    in R to test the return of the investment.*
--   *Kindly click
-    [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
-    for more information.*
+-   *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en) *website and filter the odds price data from 2006 to 2011.*
+-   *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
+-   *Kindly click [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers) for more information.*
 
 <br>
 
 [**Apply Poisson Regression on Sports Odds Modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
 -   *Application of Poison model onto soccer sports odds modelling.*
--   *Kindly click on
-    [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)
-    and [Statistics
-    (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)
-    for the research.*
+-   *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
 
 <br><br>
 
@@ -785,10 +699,7 @@ skill |>
 
 I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
-[^2]: [Sςιβrοκεrs Trαdιηg® (Official
-    Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg®
-    (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg®
-    (Facebook)](https://facebook.com/scibrokes).
+[^2]: [Sςιβrοκεrs Trαdιηg® (Official Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).
 
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
@@ -831,8 +742,8 @@ I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdι
 <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a>
 <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a>
 <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a>
-<a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a>
-<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos_36x36.jpg" height="48"/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/jg-logo.png" height="48"/></a>
 <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a>
 <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a>
@@ -918,34 +829,19 @@ sys
 
 ## References
 
--   You are feel free to create your own CV by R Markdown V2 by refer to
-    [Document
-    Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
--   [prettydoc](http://yixuan.cos.name/prettydoc/)
--   [Pandoc
-    Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
--   You can plot a
-    [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)
-    graph or load the [timeline](http://jason.bryer.org/timeline/)
-    package.
--   Here I apply
-    [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)
-    package to plot the animated graph. You are feel free to browse over
-    the
-    [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)
-    for more examples.
--   You can also modify the layout of website by referring [Top Five CSS
-    Customizations for R
-    Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
--   There are a lot of diversified symbols I get from [Greek Alphabet
-    Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
--   [Gradient color in `radarchart` using `echarts` in
-    R](https://stackoverflow.com/a/67562291/3806250)
+-   You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+-   [prettydoc](http://yixuan.cos.name/prettydoc)
+-   [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+-   You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
+-   Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+-   You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
+-   There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+-   [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+-   [`echarts4r`](https://echarts4r.john-coene.com) r package.
+-   [`sass`](https://rstudio.github.io/sass) r package.
 
 <br><br>
 
 ------------------------------------------------------------------------
 
-[**Powered by - Copyright® Intellectual Property Rights of
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs
-Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
+[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
