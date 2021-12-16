@@ -1,10 +1,10 @@
 ## https://d.cosx.org/d/422196-xaringan
-# http_proxy=http://127.0.0.1:12333
-# https_proxy=http://127.0.0.1:12333
+# http_proxy = http://127.0.0.1:12333
+# https_proxy = http://127.0.0.1:12333
 
+## https://askubuntu.com/a/1160369/424049
 Zotero_Web_API = NyW5XeQXorSax85gtkuG5mBe
 
 ## https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
-GITHUB_PAT = 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
-
+GITHUB_PAT = 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
 
