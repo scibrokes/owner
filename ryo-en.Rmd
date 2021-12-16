@@ -355,7 +355,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**           |                                                                                        **Details**|
 |:--------------------|--------------------------------------------------------------------------------------------------:|
-| Date of Birth       |                                                                          `r x='22-10-1984';dmy(x)`|
+| Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
 | Age                 |  `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')`|
 | Mobile Phone Number |                                                                [+6-017-2100905](tel:+601110640095)|
 | Email Address       |                                         [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}|

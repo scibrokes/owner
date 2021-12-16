@@ -335,7 +335,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'recharts',  'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
 
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
@@ -353,7 +353,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**           |                                                                                                                     **Details** |
 |:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
-| Date of Birth       |                                                                                  `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo')` |
+| Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
 | Age                 | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
 | Mobile Phone Number |                                                                                             [+6-017-2100905](tel:+601110640095) |
 | Email Address       |                                                                      [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email} |
