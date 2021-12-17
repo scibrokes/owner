@@ -1,0 +1,13 @@
+@@ -1,12 +0,0 @@
+name: ryo-eng5
+title: ryo-eng
+username: englianhu
+account: englianhu
+server: beta.rstudioconnect.com
+hostUrl: https://beta.rstudioconnect.com/__api__
+appId: 4351
+bundleId: 9803
+url: https://beta.rstudioconnect.com/content/4351/
+when: 1540560877.89394
+asMultiple: FALSE
+asStatic: TRUE
