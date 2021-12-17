@@ -735,21 +735,21 @@ I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdι
 
 ## Social Network
 
-<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a>
 <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a>
 <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a>
 <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a>
 <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a>
 <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a>
 <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a>
-<a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a>
+<a href='https://instagram.com/englianhu'><img src="www/instagram_36x36.jpg" height="48"/></a>
 <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a>
 <a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a>
 <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a>
 <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a>
 <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a>
 <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a>
-<a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket_36x36.jpg" height="48"/></a>
 <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a>
 <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a>
 <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a>
@@ -771,12 +771,9 @@ I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdι
 <a href='https://medium.com/@englianhu'><img src="www/Reddit.png" height="48"/></a>
 <a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom.png" height="48"/></a>
 <a href='https://www.vk.com/englianhu'><img src="www/vk.png" height="48"/></a>
-<a href='https://www.ok.ru'><img src="www/OKru.png" height="48"/></a>
+<a href='https://ok.ru/englianhu'><img src="www/OKru.png" height="48"/></a>
 <a href='https://www.yandex.com'><img src="www/Yandex.png" height="48"/></a>
 <a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" height="48"/></a>
-
-
-
 
 <br><br>
 
