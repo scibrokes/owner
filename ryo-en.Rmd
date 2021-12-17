@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -50,6 +50,10 @@ resource_files:
 - www/20160910_121813.gif
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/ali.jpg
+- www/ali_36x36.jpg
+- www/alibaba.jpg
+- www/alibaba2.jpg
 - www/apple.jpg
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
@@ -214,6 +218,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+---
 
 ------
 
@@ -224,7 +229,7 @@ resource_files:
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
 <br>
-<span style='color:green'>**Theme Song**</span>
+[**Theme Song**]{style="color:green"}
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
@@ -312,13 +317,13 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 ## Setup
 
-```{r libs, message = FALSE, warning = FALSE, include = FALSE}
+```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
-```{r eval=FALSE}
+```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -335,10 +340,8 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
-          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
-          'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
 
@@ -353,21 +356,71 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## About Me
 
-| **Title**           |                                                                                        **Details**|
-|:--------------------|--------------------------------------------------------------------------------------------------:|
+| **Title**           |                                                                                                                     **Details** |
+|:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
 | Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
-| Age                 |  `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')`|
-| Mobile Phone Number |                                                                [+6-017-2100905](tel:+601110640095)|
-| Email Address       |                                         [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}|
-| Nationality         |                                                                                          Malaysian|
-| Place of Birth      |                                                                 Tanjong Karang, Selangor, Malaysia|
-| Religion            |                                                                                             Buddha|
+| Age                 | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| Mobile Phone Number |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| Mobile Phone Number |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| Mobile Phone Number |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| Mobile Phone Number |                                                                              🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| Mobile Phone Number |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| Mobile Phone Number |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| Mobile Phone Number |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| Email Address       |                                                                      [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email} |
+| Nationality         |                                                                                                                       Malaysian |
+| Place of Birth      |                                                                                              Tanjong Karang, Selangor, Malaysia |
+| Religion            |                                                                                                                          Buddha |
 
 <br><br>
 
 ## Education
 
-**Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+
+-   *01 Course title : [Introduction to Trading, Machine Learning & GCP](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *02 Course title : [Using Machine Learning in Trading and Finance](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *03 Course title : [Reinforcement Learning for Trading Strategies](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   [**Machine Learning for Trading Specialization**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+
+<br>
+
+**[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
+
+-   *Course title : [Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis)*
+
+<br>
+
+**Oct-2018 to Nov-2021 : Professional Certificate, Specialization Mastering Software Development in R**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+
+-   *01 Course title : [The R Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+-   *02 Course title : [Advanced R Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+-   *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+-   *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+-   *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/certificate/W6XDFFQ62NDX)*
+-   [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
+
+<br>
+
+**May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
+
+-   *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
+
+<br>
+
+**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Bayesian Statistics Mixture Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+
+<br>
+
+**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+
+<br>
+
+**Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
 -   *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
 -   *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
@@ -383,13 +436,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu/)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+**Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 
 <br>
 
-**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
 
 -   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
@@ -397,15 +450,31 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Experience
 
-**Nov-2017 to May-2018 : Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>)
+**[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *Job Task : Work in Cambodia, a customer service executive but some times need to handle anti-fraud.*
+-   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
+-   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, probably flight to China Mainland.*
+
+[^1]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) *and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).*
 
 <br>
 
-**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
--   *Job Task : A customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers. General enquiry, new booking, booking amendment.*
+-   *Summary : Oriental Group is a Chinese business group.*
+-   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
+
+<br>
+
+**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+
+-   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
+
+<br>
+
+**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+
+-   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
 <br>
 
@@ -421,9 +490,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
--   *Job Task : Working in [Xerox](https://www.xerox.com/)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
+-   *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
@@ -433,39 +502,60 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; ( employed by [SBSolutionCorp Ltd](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
+**Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
 
 -   *Job Task : Handling few members to update scores and bets settlement.*
 
 <br>
 
-**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
+**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
+-   *Summary : TM is a bluechip company in Malaysia.*
 -   *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
 
 <br>
 
-**Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
+**Mar-2008 to Jul-2012 : Outsourcing Business, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
+-   *Summary : Work for English.*
 -   *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
 -   Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 -   Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
-**Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
+**Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
 
+-   *Summary : Caspo is an online gaming group by Singaporean and Taiwanese.*
 -   *Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
 
 <br>
 
-**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
+**Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
+-   *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, and co-orperate with Hong Kongnese, Australian etc*
 -   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
 
 <br><br>
 
 ## Technical Experience
+
+[**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
+
+-   *Intraday data collection, data streaming, `sparklyr` etc*
+-   *High frequency algorithmic trading etc*
+-   *Statistical modelling, trading strategies, risk management etc*
+-   *Kindly click [here](https://github.com/scibrokes/real-time-fxcm) for more information.*
+
+<br>
+
+[**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
+
+-   *Analyse the financial report and stock price of Ali lottery.*
+-   *Analyse the profit and loss of customers and products, customers' consuming habit.*
+-   *Kindly click [here](https://github.com/englianhu/report) for more information.*
+
+<br>
 
 [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
@@ -503,7 +593,7 @@ op <- options(gvis.plot.tag = 'chart')
 [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
 -   *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to build an prediction model.*
--   *Application of Kelly criterion model to betting on 10 sportsbookmakers in year 2011/12 and 2012/13.*
+-   *Application of Kelly criterion model to betting on 10 sportsbookmakers in soccer season 2011/12 to 2012/13.*
 -   *Kindly click [here](https://github.com/Scibrokes/kelly-criterion) for more information.*
 
 <br>
@@ -517,7 +607,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
--   *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en/) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website as well as filter the odds price data.*
+-   *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en) *and* [*NowGoal*](http://info.nowgoal.com/en) *website as well as filter the odds price data.*
 -   *Kindly click [here](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping) for more information.*
 
 <br>
@@ -531,13 +621,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
--   *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en/) *website and filter the odds price data from 2006 to 2011.*
+-   *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en) *website and filter the odds price data from 2006 to 2011.*
 -   *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
 -   *Kindly click [here](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers) for more information.*
 
 <br>
 
-[**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+[**Apply Poisson Regression on Sports Odds Modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
 -   *Application of Poison model onto soccer sports odds modelling.*
 -   *Kindly click on [Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls) and [Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls) for the research.*
@@ -546,57 +636,107 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Skill
 
-```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6))
-names(skill) <- c('Skill', 'Level')
+```{r skill, echo = FALSE, result = 'asis'}
+require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
+require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
+require('formattable', quietly = TRUE, warn.conflicts = FALSE)
+require('knitr', quietly = TRUE, warn.conflicts = FALSE)
+require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
-#'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+skill <- tibble(
+  Skill = c('ξconometrics', 'Quantitative Trading', 'R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Tensorflow', 'Web Driver'), 
+  Level = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 4))
+skill <- tibble(No = 1:nrow(skill), skill)
 
-tagList(
-  tags$div(align = "center", 
-           class = "bg-info", 
-           tags$h3(class = "bg-primary", "Skill and Expertise"), 
-           tags$h5(align = "center", class = "text-muted", 
-                   "Skill and Expertise Rating Level (from newbie 1 to expert 10)")), 
-  as.htmlwidget(skill %>% formattable(list(
-    Level = color_tile('white', 'darkgoldenrod')
-    ))))
+skill |> 
+    {\(.) dplyr::mutate(
+      ., Skill = cell_spec(Skill, italic = TRUE, 
+                           color = spec_color(seq(nrow(skill)), option = 'A', 
+                                              begin = 0.1, end = 0.9), 
+                           tooltip = paste0('Level: ', Level), angle = 3))}() |>#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
+  {\(.) mutate_if(., is.numeric, function(x){ 
+    cell_spec(x, 'html', color = 
+                spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
+                           direction = -1), angle = 20, 
+              font_size = spec_font_size(x), bold = TRUE) })}() |> 
+  {\(.) kbl(., caption = 'Skill and Expertise Rating Level (from newbie 1 to expert 10)', escape = FALSE, align = 'c')}() |> 
+  {\(.) kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) row_spec(., 0, background = 'DimGrey', color = 'yellow')}()# %>% 
+  #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  #column_spec(2, background = 'grey', color = 'black') %>% 
+  #column_spec(2, background = 'grey', color = 'black')
 ```
 
 <br>
 
-```{r skill2, eval = FALSE, echo = FALSE}
-#, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+skill[,-1] |> 
+  tibble() |> 
+  {\(.) recharts::echartr(., 
+        x = ~Skill, y = ~Level, series = ~Skill, type = 'radar', 
+        symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+        title = 'Skill Rating', subtitle = '(by @englianhu)')}() |> 
+  {\(.) recharts::setSymbols(., 'star4')}() |> 
+  {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
+  {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
+                           animationEasing = 'BounceInOut', animationDuration = 500)}()
+```
 
-skill %>% data.frame %>% 
-  recharts::echartR(x= ~Skill, y= ~Level, series= ~Skill, type='radarfill', 
-                    symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='Skill Rating', subtitle= '(by @englianhu)')
+```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 
-chartJSRadar(skill, main = 'Skill Rating', maxScale = 10, showToolTipLabel=TRUE)
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(Skill) |> 
+  echarts4r::e_radar(Level, max = 10, name = 'Skill', 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
 ```
 
 <br>
 
 ## Other / Miscellaneous
 
-I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](https://github.com/scibrokes)[^1] which will be the first professional sportsbook hedge fund in Asia I though. You are welcome to own yours by refer to my [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
-[^1]: The website not yet setup but now keep up learning.
+[^2]: [Sςιβrοκεrs Trαdιηg® (Official Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+</iframe>
+
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
@@ -604,7 +744,66 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 ## Social Network
 
-<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a>
+<a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a>
+<a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a>
+<a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a>
+<a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a>
+<a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a>
+<a href='https://instagram.com/englianhu'><img src="www/instagram_36x36.jpg" height="48"/></a>
+<a href='https://weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a>
+<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.jpeg" height="48"/></a>
+<a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a>
+<a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a>
+<a href='http://douyin.com/'><img src="www/DouYin.png" height="48"/></a>
+<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" height="48"/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" height="48"/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" height="48"/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" height="48"/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.jpg" height="48"/></a>
+<a href='https://discord.com'><img src="www/discord2.jpg" height="48"/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" height="48"/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" height="48"/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" height="48"/></a>
+<a href='https://xiaohongshu.com'><img src="www/hong.jpg" height="48"/></a>
+<a href='https://jianshu.com'><img src="www/JianShu.png" height="48"/></a>
+<a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" height="48"/></a>
+<a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" height="48"/></a>
+<a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" height="48"/></a>
+<a href='https://www.iq.com'><img src="www/iq.png" height="48"/></a>
+<a href='https://www.vk.com/englianhu'><img src="www/vk.png" height="48"/></a>
+<a href='https://ok.ru/englianhu'><img src="www/OKru.png" height="48"/></a>
+<a href='https://www.yandex.com'><img src="www/Yandex.png" height="48"/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" height="48"/></a>
+<a href='https://mlog.club/user/6960'><img src="www/MClub.png" height="48"/></a>
+<a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket_36x36.jpg" height="48"/></a>
+<a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a>
+<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos_36x36.jpg" height="48"/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" height="48"/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a>
+<a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" height="48"/></a>
+<a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" height="48"/></a>
+<a href='https://medium.com/@englianhu'><img src="www/Reddit.png" height="48"/></a>
+<a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom1.png" height="48"/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" height="48"/></a>
+<a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" height="48"/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" height="48"/></a>
+<a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" height="48"/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" height="48"/></a>
+<a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" height="48"/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum_36x36.jpg" height="48"/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge_36x36.jpg" height="48"/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR_36x36.jpg" height="48"/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" height="48"/></a>
 
 <br><br>
 
@@ -616,14 +815,16 @@ I am currently learn to setup own sportsbook hedge fund company [Scibrokes®](ht
 
 It's useful to record some information about how your file was created.
 
-- File creation date: 2015-10-12
-- File latest updated date: `r today('Asia/Tokyo')`
-- `r R.version.string`
-- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
-- File version: 0.2.1
-- Author Profile: [®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
-- GitHub: [Source Code](https://github.com/scibrokes/owner)
-- Additional session information
+-   File creation date: 2015-10-12
+-   File latest updated date: `r today('Asia/Tokyo')`
+-   `r R.version.string`
+-   [**rmarkdown**](https://github.com/rstudio/rmarkdown) package
+    version: `r packageVersion('rmarkdown')`
+-   File version: 0.2.1
+-   Author Profile: [®γσ, ξηg Lιαη
+    Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+-   GitHub: [Source Code](https://github.com/scibrokes/owner)
+-   Additional session information
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}
 suppressMessages(require('formattable', quietly = TRUE))
@@ -684,14 +885,16 @@ sys
 
 ## References
 
-- You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-- [prettydoc](http://yixuan.cos.name/prettydoc/)
-- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
-- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline/) package.
-- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
-- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
-- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
-- [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+-   You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+-   [prettydoc](http://yixuan.cos.name/prettydoc)
+-   [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+-   You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
+-   Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+-   You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
+-   There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+-   [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+-   [`echarts4r`](https://echarts4r.john-coene.com) r package.
+-   [`sass`](https://rstudio.github.io/sass) r package.
 
 <br><br>
 

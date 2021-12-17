@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>雷欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
-author: "[雷欧，黄联富](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[雷欧，黄联富](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -50,6 +50,10 @@ resource_files:
 - www/20160910_121813.gif
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/ali.jpg
+- www/ali_36x36.jpg
+- www/alibaba.jpg
+- www/alibaba2.jpg
 - www/apple.jpg
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
@@ -214,6 +218,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+---
 
 ------
 
@@ -231,9 +236,9 @@ resource_files:
 
 ------
 
-# Setting
+# 设定
 
-## SCSS Setup
+## SCSS 设置
 
 <style>
 pre {
@@ -310,15 +315,15 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## Setup
+## 设置
 
-```{r libs, message = FALSE, warning = FALSE, include = FALSE}
+```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
-```{r eval=FALSE}
+```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -335,10 +340,8 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
-          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
-          'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
 
@@ -353,65 +356,125 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 关于我
 
-|   **类别**   |                                           **明细**                                            |
-|:------------:|:---------------------------------------------------------------------------------------------:|
-|     生日     |                                   `r x='22-10-1984';dmy(x)`                                   |
-|     年龄     | `r interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| 行动电话号码 |                              [+6-017-6482776](tel:+60176482776)                               |
-|   电子邮箱   |                  [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}                   |
-|     国籍     |                                          马来西亚人                                           |
-|    出生地    |                                 丹戎加弄，雪兰莪州，马来西亚                                  |
-|     宗教     |                                             佛教                                              |
+| **类别**            |                                                                                                                        **明细** |
+|:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
+| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
+| 年龄                | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 行动电话号码        |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行动电话号码        |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行动电话号码        |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| 行动电话号码        |                                                                              🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| 行动电话号码        |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行动电话号码        |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行动电话号码        |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 电子邮箱            |                                                                      [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email} |
+| 国籍                |                                                                                                                      马来西亚人 |
+| 出生地              |                                                                                                    丹戎加弄，雪兰莪州，马来西亚 |
+| 宗教                |                                                                                                                            佛教 |
 
 <br><br>
 
 ## 学术背景
 
-**2014年4月 至 2016年5月：专业文凭，数据科学系**；([Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+**[2021年11月 至今]{style="color:Red"}：专业文凭，学习金融交易机械化**; ([Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
--   *01 课程：[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
--   *02 课程：[R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
--   *03 课程：[Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
--   *04 课程：[Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
--   *05 课程：[Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
--   *06 课程：[Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
--   *07 课程：[Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
--   *08 课程：[Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
--   *09 课程：[Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
--   *10 课程：[Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
--   [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+-   *01 课程：[讲解交易、学习与GCP谷歌云端平台](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *02 课程：[实践金融交易机械化](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *03 课程：[学习强化版交易策略](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   [**学习金融交易机械化专业文凭**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**2015年6月 至 2015年8月：专业文凭，数据科学系**；([Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu/)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+**[2021年12月 至今]{style="color:Red"}：专业文凭，Python统计学之金融分析**; ([Cousera](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
 
--   *课程：[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+-   *课程：[Python统计学之金融分析](https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis)*
 
 <br>
 
-**2002年3月 至 2003年12月：专业文凭，日文能力测试**；([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>与[Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**2018年10月 至 2021年11月：专业文凭，掌握R语言软件开发**; ([Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
--   *课程：[日文能力测试 - 第3级](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+-   *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+-   *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+-   *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+-   *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+-   *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/certificate/W6XDFFQ62NDX)*
+-   [**掌握R语言软件开发专业文凭**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
+
+<br>
+
+**2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化**; ([Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
+
+-   *课程：[强化版金融机械化简介（Python）](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
+
+<br>
+
+**2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**; ([Cousera](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
+
+-   *课程：[贝叶斯统计混合模型（R语言）](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+
+<br>
+
+**2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+
+-   *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+
+<br>
+
+**2014年4月 至 2016年5月：专业文凭，数据科学系**；([Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+
+-   *01 课程：[The Data Scientist's Toolbox（数据科学家必备工具）](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+-   *02 课程：[R Programming（R编程语言）](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
+-   *03 课程：[Getting and Cleaning Data（获取和清理数据）](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+-   *04 课程：[Exploratory Data Analysis（探索性数据分析）](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+-   *05 课程：[Reproducible Research（再循环科研）](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+-   *06 课程：[Statistical Inference（统计推断）](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+-   *07 课程：[Regression Models（线性统计模型）](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+-   *08 课程：[Practical Machine Learning（实用机械化）](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+-   *09 课程：[Developing Data Products（开发数据产品）](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+-   *10 课程：[Data Science Capstone（数据科学顶点）](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
+-   [**Data Science Specialization（数据科学专业文凭）**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+
+<br>
+
+**2015年6月 至 2015年8月：专业文凭，数据科学系**；([Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+
+-   *课程：[为每个人而设的编程语言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+
+<br>
+
+**2002年3月 至 2003年12月：专业文凭，日文能力测试**；([JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>与[日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+
+-   *课程：[日本语能力测试 - 第3级](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br><br>
 
 ## 工作经验
 
-**2019年11月 至 2020年7月：客服人员**；（受聘于**东方集团旗下：乐发集团** - 阿里彩票) <img src="www/ali_36x36.jpg" width="20" align="center" valign="middle"/>）
+**[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *工作明细：在菲律宾工作，作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；然后转到运维部门分析数据与负责风控。*
+-   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
+-   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, probably flight to China Mainland.*
 
-<br>
-
-**2017年11月 至 2018年5月：客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
-
--   *工作明细：在柬埔寨工作，作为客服人员但时而得负责风控监控与审核客户存取款与舞弊行为。*
+[^1]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) *and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).*
 
 <br>
 
-**2016年5月 至 2016年12月：客服人员**；（受聘于[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+**2019年11月 至 2020年7月：客服人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali_36x36.jpg" width="20" align="center" valign="middle"/>）
 
--   *工作明细：在MindPearl办公室工作、得接听与邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客，包括一般咨询、预订机票和修改机票等等事宜。*
+-   *简介：东方集团乃中国商业集团*
+-   *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析数据与负责风控。*
+
+<br>
+
+**2017年11月 至 2018年5月：客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+
+-   *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
+
+<br>
+
+**2016年5月 至 2016年12月：客服人员**；（受聘于[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+
+-   *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
 
 <br>
 
@@ -439,20 +502,22 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年11月 至 2014年3月：网络游戏交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络游戏交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 -   *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
 
-**2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
+-   *简介： TM乃马来西亚蓝筹股*
 -   *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
 **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
+-   *为英国人打工*
 -   *工作明细：接听所有[Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
 -   获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 -   获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
@@ -461,6 +526,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2006年7月 至 2007年6月：网络生意，培训师兼操盘手**；（受聘于[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
+-
 -   *工作明细：培训新人、负责SB与SB2网站盈亏报表、操盘与分析数据等等。*
 
 <br>

@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -376,12 +376,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
--   *01 Course title : [The Data Scientist's Toolbox](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   *02 Course title : [R Programming](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   *03 Course title : [Getting and Cleaning Data](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   [**Data Science Specialization**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+-   *01 Course title : [Introduction to Trading, Machine Learning & GCP](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *02 Course title : [Using Machine Learning in Trading and Finance](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   *03 Course title : [Reinforcement Learning for Trading Strategies](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
+-   [**Machine Learning for Trading Specialization**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
@@ -459,16 +459,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Summary : Oriental Group is a Chinese business group.*
--   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and mostly Chinese) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
+-   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
 **Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
--   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and mostly Chinese but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
+-   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
@@ -539,6 +539,15 @@ op <- options(gvis.plot.tag = 'chart')
 <br><br>
 
 ## Technical Experience
+
+[**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
+
+-   *Intraday data collection, data streaming, `sparklyr` etc*
+-   *High frequency algorithmic trading etc*
+-   *Statistical modelling, trading strategies, risk management etc*
+-   *Kindly click [here](https://github.com/scibrokes/real-time-fxcm) for more information.*
+
+<br>
 
 [**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
 
@@ -749,6 +758,27 @@ I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdι
 <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a>
 <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a>
 <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a>
+<a href='http://douyin.com/'><img src="www/DouYin.png" height="48"/></a>
+<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" height="48"/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" height="48"/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" height="48"/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" height="48"/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.jpg" height="48"/></a>
+<a href='https://discord.com'><img src="www/discord2.jpg" height="48"/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" height="48"/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" height="48"/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" height="48"/></a>
+<a href='https://xiaohongshu.com'><img src="www/hong.jpg" height="48"/></a>
+<a href='https://jianshu.com'><img src="www/JianShu.png" height="48"/></a>
+<a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" height="48"/></a>
+<a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" height="48"/></a>
+<a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" height="48"/></a>
+<a href='https://www.iq.com'><img src="www/iq.png" height="48"/></a>
+<a href='https://www.vk.com/englianhu'><img src="www/vk.png" height="48"/></a>
+<a href='https://ok.ru/englianhu'><img src="www/OKru.png" height="48"/></a>
+<a href='https://www.yandex.com'><img src="www/Yandex.png" height="48"/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" height="48"/></a>
+<a href='https://mlog.club/user/6960'><img src="www/MClub.png" height="48"/></a>
 <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a>
 <a href='https://bitbucket.org/englianhu'><img src="www/bitbucket_36x36.jpg" height="48"/></a>
 <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a>
@@ -773,12 +803,7 @@ I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdι
 <a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum_36x36.jpg" height="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge_36x36.jpg" height="48"/></a>
 <a href='http://www.sportsbookreview.com/forum'><img src="www/SBR_36x36.jpg" height="48"/></a>
-<a href='http://douyin.com/'><img src="www/DouYin.png" height="48"/></a>
-<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" height="48"/></a>
-<a href='https://www.vk.com/englianhu'><img src="www/vk.png" height="48"/></a>
-<a href='https://ok.ru/englianhu'><img src="www/OKru.png" height="48"/></a>
-<a href='https://www.yandex.com'><img src="www/Yandex.png" height="48"/></a>
-<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" height="48"/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" height="48"/></a>
 
 <br><br>
 
