@@ -459,16 +459,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2019年11月 至 2020年7月：网络游戏，客服人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali_36x36.jpg" width="20" align="center" valign="middle"/>）
+**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali_36x36.jpg" width="20" align="center" valign="middle"/>）
 
 -   *简介：东方集团乃中国商业集团*
 -   *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析数据与负责风控。*
 
 <br>
 
-**2017年11月 至 2018年5月：网络游戏，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+**2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
--   *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
+-   *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
 
 <br>
 
@@ -478,13 +478,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2015年10月 至 2016年1月：网络游戏，足球彩券操盘手**；（受聘于Global Solution Sdn Bhd）
+**2015年10月 至 2016年1月：网络博彩，足球彩券操盘手**；（受聘于Global Solution Sdn Bhd）
 
 -   *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
-**2015年5月 至 2015年9月：网络游戏，客服人员**；（受聘于OneMedia Sdn Bhd）
+**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于OneMedia Sdn Bhd）
 
 -   *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
@@ -502,7 +502,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年11月 至 2014年3月：网络游戏交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 -   *工作明细：管理下属、更新比分、赛事结算。*
 
@@ -531,7 +531,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年11月 至 2006年7月：网络游戏，队长兼资深操盘手**；（受聘于[Telebiz Sdn Bhd](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手**；（受聘于[Telebiz Sdn Bhd](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 -   *工作明细：培训新人、对冲、出货、更新比分、赛事结算、数据分析、负责角球盘口等等事宜。*
 
@@ -648,9 +648,7 @@ skill |>
   #column_spec(2, background = 'grey', color = 'black')
 ```
 
-<br>
-
-```{r skill2, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   {\(.) tibble(.) |> 
       recharts::echartr(., 
@@ -665,6 +663,39 @@ skill[,-1] |>
 radarchart::chartJSRadar(
   skill[,-1], main = '技能评估', width = '100%', height = '100%', 
   maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+```
+
+```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(`技能`) |> 
+  echarts4r::e_radar(`程度`, max = 10, name = skill$`技能`, 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
 ```
 
 <br>
