@@ -459,32 +459,32 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2019 to Jul-2020 : Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Summary : Oriental Group is a Chinese business group.*
 -   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gaming, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gambling, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
-**May-2016 to Dec-2016 : Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Online Retails, Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
 <br>
 
-**Oct-2015 to Jan-2016 : Online Gaming, Sportsbook Trader**; (employed by Global Solution Sdn Bhd)
+**Oct-2015 to Jan-2016 : Online Gambling, Trader**; (employed by Global Solution Sdn Bhd)
 
 -   *Job Task : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
 
 <br>
 
-**May-2015 to Sep-2015 : Online Gaming, Customer Service**; (employed by OneMedia Sdn Bhd)
+**May-2015 to Sep-2015 : Online Gambling, Customer Service**; (employed by OneMedia Sdn Bhd)
 
 -   *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
@@ -496,15 +496,22 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Mar-2014 to Apr-2014 : Customer Service Executive**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
+**Mar-2014 to Apr-2014 : Online Retails, Customer Service Executive**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
 
--   *Job Task : Handling inbound calls from Taiwanese customers' orders and printer maintenance.*
+-   *Job Task : Handling inbound calls from Taiwanese customers' orders, printers' trading and maintenance.*
 
 <br>
 
-**Nov-2013 to Mar-2014 : Online Gaming Trading, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
+**Nov-2013 to Mar-2014 : Online Gambling, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
 
 -   *Job Task : Handling few members to update scores and bets settlement.*
+
+<br>
+
+**Oct-2013 to Nov-2013 : Pipeline Construction and Maintenance, Customer Service Executive**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+
+-   *Summary : Work for Germans/Deutsche (Unsere Besten).*
+-   *Job Task : Base in KL Sentral (Malaysia), handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
 
 <br>
 
@@ -535,6 +542,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 -   *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, and co-orperate with Hong Kongnese, Australian etc*
 -   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
+
+<br>
+
+**Jul-2005 to Oct-2005 : Online Financial Market, Trader/Agent**; (employed by [Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>)
+
+-   *Summary : Prestige Investment Ltd (New Zealand) Asia Pacific*
+-   *Job Task : One series service on marketing, R&D, risk management, trading, training etc in Forex market.*
 
 <br><br>
 
@@ -720,7 +734,7 @@ skill |>
 
 ## Other / Miscellaneous
 
-I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+First job introduced by ex-classmate Teo Hue Yen to work as a waiter in Esquire Kitchen (Klang Parade), and used to work as a part time Chinese language teacher for Indians, a vehicle salesman/engineer in Kepong, a waiter Dynasty Hotel Kuala Lumpur, an actor with Singaporean and Malaysian companies, etc. Because of noted that George Soros's mom know multi-languages, used to learn Korean langauge, German language, <s>French language</s>. I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and use shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
 [^2]: [Sςιβrοκεrs Trαdιηg® (Official Website)](https://www.scibrokes.com) and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).
 
