@@ -1,7 +1,7 @@
 ## update packages via terminal
 sudo su - -c "R -e \"pkgs <- c(''); lapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library')\""
 sudo su - -c "R -e \"devtools::update_packages()\""
-sudo su - -c "R -e \"update.packages(ask=FALSE)\"
+sudo su - -c "R -e \"update.packages(ask=FALSE)\""
 
 
 ## ===========================================================
