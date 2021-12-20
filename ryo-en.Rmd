@@ -442,6 +442,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
+**XXX-2004 to XXX-2004 : Professional Certificate, CAT**; ([ACCA](http://www.acca.com) - [...](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+
+-   *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+
+<br>
+
 **Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
 
 -   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
@@ -459,7 +465,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**;(employed by [(Ali Lottery) ALI & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Summary : Oriental Group is a Chinese business group.*
 -   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
