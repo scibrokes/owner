@@ -229,10 +229,12 @@ resource_files:
 雷欧，黄联富
 
 <br>
-[[**主题曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)
+[[**主题曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
+
+[^0]: [此菜只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html?seed=0)<br>As fantastic/heavenly as this dish, it's one in the million of a chance to have it made so exquisite and one in the million for you to have.
 
 ------
 
@@ -371,6 +373,10 @@ op <- options(gvis.plot.tag = 'chart')
 | 国籍                |                                                                                                                      马来西亚人 |
 | 出生地              |                                                                                                    丹戎加弄，雪兰莪州，马来西亚 |
 | 宗教                |                                                                                                                            佛教 |
+| 祖籍                |                                                                                 [中国福建省永春人]{style="color:RoyalBlue"}[^1] |
+| 母语                |                                                                                                                 福建闽南 / 汉语 |
+
+[^1]: 秒懂：*古称[会稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，现称[永春县](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史记·勾践世家》**载，夏帝少康之庶子无余封于会稽（在今绍兴市一带），为越国之始祖。*<br>*会稽人王充在《论衡·书虚篇》中引吴君高之语：“会稽本山名。夏禹巡狩，**会计于此山**，因以郡名，**故曰会稽**。”*
 
 <br><br>
 
@@ -469,10 +475,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[2020年10月 至今]{style="color:Red"} : Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^1]
+-   *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
 -   *工作明细：在金融市场中科研统计建模与高频量化交易等，和数据分析，之后会到中国大陆发展。*
 
-[^1]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) *and [Sςιβrοκεrs Trαdιηg® (GitHub)](https://github.com/scibrokes) and [Sςιβrοκεrs Trαdιηg® (Facebook)](https://facebook.com/scibrokes).*
+[^2]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -562,7 +568,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：网上金融市场，交易员/代理**; (受聘于[Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>)
+**2005年7月 至 2005年10月：网上金融市场，交易员/代理**；（受聘于[Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
 -   *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
 -   *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
@@ -749,25 +755,27 @@ skill |>
 
 <br>
 
-## 其它
+## 其它 / 杂谈
 
-在下目前正在学习着建立自己的足彩对冲基金 [Scibrokes®](https://github.com/scibrokes)[^1] ，估计将会是亚洲第一家专业的对冲基金。有兴趣建立自己的®Studio服务器者，可以参阅 [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+当初首份工作经中学同学张慧燕介绍到[大人餐厅](https://esquirekitchen.com)巴生百利广场当前台服务生、在吉隆坡怡保路三石路HSBC后当业余华语家庭教师授教一些印度华小生、在适耕庄高峰电脑中心为大学同班同学打工当个柜台小生、在吉隆坡怡保路五石路/甲洞当汽车零件销售员/维修人员、在[吉隆坡王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL)的唐宫当服务生、在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)[跑龙套当临时演员]{style="color:RoyalBlue"}[^3]、 a vehicle salesman/engineer in Kepong, a waiter Dynasty Hotel Kuala Lumpur, an actor with Singaporean and Malaysian media companies, an outdoor salesman with Mybooks Publisher in Equine Park and Alor Stars, an indoor salesman in Euroluce Mid-Valley, a restaurant frontend/backend server in Bakut-Teh restaurant next to Balakong Aeon Mall, a part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall, a customer service in Golden-Royal（黄金城）Cambodia, etc. When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
 
-[^1]: 网站尚未建成，尚努力当中。
+[^3]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*听到没有？！这就是我经常对大家说的专业！*<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金 [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅 [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
-</iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+</iframe>
+
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
