@@ -691,6 +691,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
+[体育统计学社区](http://soccer.oksport.cn)
+
+-   **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn) but unfortunately banded by Chinese Online Police in year 2013 when I worked in AIA and open an ICBC bank account.
+-   The sportsbook forum shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding,  除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析各足彩平台优缺势，还当代理与合作伙伴打广告，结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。
+
+<br>
+
 [**Apply Poisson Regression on Sports Odds Modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
 -   *Application of Poison model onto soccer sports odds modelling.*
@@ -786,16 +793,17 @@ skill |>
 
 - **2001/2002**, First job introduced by ex-classmate Cecilia Teo Hue Yen to work as a waiter in [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) being [Klang Parade](https://www.klang.parade.com.my).
 - **2003/2004**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor, 4 persons/shareholders.
-- **2003/2004**, An indoor salesman in a Singaporean owned Euroluce in Mid-Valley.
+- **2003/2004**, An indoor salesman in a Singaporean owned Euroluce lighting shop in Mid-Valley.
 - **2003/2004**, Worked as a part time Chinese language home tuition teacher for Indians from Chinese primary school students in KL Ipoh Road 3rd miles behind HSBC.
 - **2003/2004**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
 - **2003/2004**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
 - **2003/2004**, A groccery store staff in [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
 - **2003/2004**, Employed by [my TARC's classmate (best friend) Chia Teck Chai]{style="color:RoyalBlue"}[^3] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
 - **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Phillipines within few days without resignation.
-- **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐餐馆）Equine Park, the owner of the restaurant is a Taiwanese lady.
-- **2009 to 2010**, [Big Sister YY姐 from Cari Forum](https://l.facebook.com/l.php?u=https%3A%2F%2Fent.cari.com.my%2Fforum.php%3Fmod%3Dviewthread%26tid%3D1061770%26page%3D59%26extra%26mobile%3D2%26fbclid%3DIwAR0XlBe06YBLwaBQrrZC7qC4FRvBarUdQuz8_47ZuKZBrDYMVaMLh9NHynw%23pid135325301&h=AT1fuIprH9pTkweF4d_ZhpwrkaNYCkzCPfDjB8jnt538fgrb6fqHUnZLa7NmIFxQGqPMBAUB3-dXyhrUhFn8DgJO8_HLgZUNqqSQ3EHbTUOdddk5O9T8aLJR3bpk_nWiX7vZgB9si9hh&__tn__=R*F) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^4]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
-- **2013**, setup owned RStudio server, learn web scrapping and flight to Taiwan for few months.
+- **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady.
+- **2009 to 2010**, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^4]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
+- **2013**, Setup owned RStudio server, learn web scrapping and flight to Taiwan for few months.
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
 - **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
 - **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
@@ -858,6 +866,8 @@ Kindly refer to my personal blogs for more information about me.
 <a href='http://douyin.com/'><img src="www/DouYin.png" height="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" height="48"/></a>
 <a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" height="48"/></a>
+<a href='http://englianhu.360doc.com'><img src="www/360doc.jpeg" width="48"/></a>
+<a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" height="48"/></a>
 <a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" height="48"/></a>
 <a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" height="48"/></a>
 <a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" height="48"/></a>
@@ -900,6 +910,7 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" height="48"/></a>
 <a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" height="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" height="48"/></a>
+<a href='http://www.madio.net/archiver'><img src="www/madio.png" height="48"/></a>
 <a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum_36x36.jpg" height="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge_36x36.jpg" height="48"/></a>
 <a href='http://www.sportsbookreview.com/forum'><img src="www/SBR_36x36.jpg" height="48"/></a>
