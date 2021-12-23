@@ -473,7 +473,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 至今]{style="color:Red"} : Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[2020年10月 至今]{style="color:Red"}：Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 -   *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
 -   *工作明细：在金融市场中科研统计建模与高频量化交易等，和数据分析，之后会到中国大陆发展。*
@@ -531,10 +531,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年10月 至 2013年11月：水管建设与维修，客服人员**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+**2013年10月 至 2013年11月：水管建设与维修，客服人员**; (受聘于[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
--   *Summary : Work for Germans/Deutsche (Unsere Besten)。*
--   *Job Task : Base in KL Sentral (Malaysia), handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
+-   *简介：为德意志德国人（伟大的德国人Unsere Besten）做工。*
+-   *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+
+<br>
+
+**2013年7月 至 2013年9月：保险业，电销员**; (受聘于[AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+
+-   *简介：美国友邦保险（American Isurance Assurance）。*
+-   *工作明细：外拨的保险电销员。*
 
 <br>
 
@@ -547,7 +554,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
--   *为英国人打工。*
+-   *为布列颠英国人做工。*
 -   *工作明细：接听所有[Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
 -   获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 -   获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
@@ -572,6 +579,26 @@ op <- options(gvis.plot.tag = 'chart')
 
 -   *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
 -   *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
+
+<br>
+
+**2003年7月 至 2003年8月：迷你市场，杂货店工人**；(受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>)
+
+-   *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
+-   *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
+
+<br>
+
+**2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
+
+-   *工作明细：在酒店内的唐宫当前台服务员。*
+
+<br>
+
+**2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
+
+-   *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
+-   *工作明细：前台服务员。*
 
 <br><br>
 
@@ -756,6 +783,31 @@ skill |>
 <br>
 
 ## 其它 / 杂谈
+
+
+- **2001/2002**, First job introduced by ex-classmate Cecilia Teo Hue Yen to work as a waiter in [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) Klang Parade.
+- **2003/2004**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor.
+- **2003/2004**, An indoor salesman in Euroluce Mid-Valley.
+- **2003/2004**, Worked as a part time Chinese language home tuition teacher for Indians in KL Ipoh Road 3rd miles behind HSBC.
+- **2003/2004**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img
+src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
+- **2003/2004**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
+- **2003/2004**, A groccery store staff in [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
+- **2003/2004**, Employed by my University's classmate as a cybercafe counter staff in Pyramid Computer Center Sekinchan.
+- **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Phillipines within few days without resignation.
+- **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐餐馆）Equine Park, the owner of the restaurant is a Taiwanese lady.
+- **2009 to 2010**, a part time [actor]{style="color:RoyalBlue"}[^3]（[跑龙套当演员]{style="color:#F6A217"}）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **2013**, setup owned RStudio server, learn web scrapping and flight to Taiwan for few months.
+- **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
+- **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
+- **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
+- **Mar-2014**（before employed by FujiXerox last day of Mar-2014）, A restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor.
+- **2014**, Hunting for some online gaming jobs etc.
+- **2016**, An outdoor salesman with Mybooks Publisher in Equine Park (Selangor and Kedah states).
+- **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall.
+- **2018**, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
+- **2018**, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img
+src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia, etc.
 
 当初首份工作经中学同学张慧燕介绍到[大人餐厅](https://esquirekitchen.com)巴生百利广场当前台服务生、在吉隆坡怡保路三石路HSBC后当业余华语家庭教师授教一些印度华小生、在适耕庄高峰电脑中心为大学同班同学打工当个柜台小生、在吉隆坡怡保路五石路/甲洞当汽车零件销售员/维修人员、在[吉隆坡王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL)的唐宫当服务生、在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)[跑龙套当临时演员]{style="color:RoyalBlue"}[^3]、在怡观园MyBooks出版社（雪州与吉打州）当户外销售员、在谷中城Euroluce灯饰专卖店当室内销售员、在无拉港Aeon Mall后面的大德古早味肉古茶餐馆打工（包括前台与后台）, a restaurant frontend/backend server in Bakut-Teh restaurant next to Balakong Aeon Mall, a part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall, a customer service in Golden-Royal（黄金城）Cambodia, etc. When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
 

@@ -531,10 +531,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Oct-2013 to Nov-2013 : Pipeline Construction and Maintenance, Customer Service Executive**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+**Sep-2013 to Nov-2013 : Pipeline Construction and Maintenance, Customer Service Executive**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 -   *Summary : Work for Germans/Deutsche (Unsere Besten).*
 -   *Job Task : Base in KL Sentral (Malaysia), handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
+
+<br>
+
+**Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+
+-   *Summary : American Isurance Assurance*
+-   *Job Task : An insurance telesales for outbound calls.*
 
 <br>
 
@@ -575,10 +582,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>)
+**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>)
 
--   *Summary : All Japanese but few Malaysians, Japanese boss.*
--   *Job Task : Grocery store staff, coincident during Bon-Odori（盆踊り）festival.*
+-   *Summary : Work for Japanese. All Japanese but few Malaysians, Japanese boss.*
+-   *Job Task : Not only work as an indoor grocery store staff, coincident during Bon-Odori（盆踊り）festival and build a stall as hawker in Panasonic Stadium Shah Alam to sell Japanese cuisine foods.*
+
+<br>
+
+**Jul-2003 to Jul-2003 : Restaurant, Waiter**; (employed by [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>)
+
+-   *Job Task : Front desk server / waiter in Tang Restaurant（唐宫）inside Hotel.*
 
 <br>
 
@@ -771,29 +784,42 @@ skill |>
 
 ## Other / Miscellaneous
 
-- 2001/2002, First job introduced by ex-classmate Cecilia Teo Hue Yen to work as a waiter in [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) Klang Parade.
-- 2003/2004, Setup own company **Starline Platation Ltd** with brothers and neighbor.
-- 2003/2004, An indoor salesman in Euroluce Mid-Valley.
-- 2003/2004, Worked as a part time Chinese language home tuition teacher for Indians in KL Ipoh Road 3rd miles behind HSBC
-- 2003/2004, A waiter in [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img
-src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>
-- 2003/2004, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
-- 2003/2004, Employed by my University's classmate as a cybercafe counter staff in Pyramid Computer Center Sekinchan.
-- 2007 to 2008 (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐餐馆）Equine Park, the owner of the restaurant is a Taiwanese lady.
-- 2009 to 2010, a part time [actor]{style="color:RoyalBlue"}[^3]（跑龙套演员）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
-- Mar-2014（before employed by FujiXerox last day of Mar-2014）, A restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor.
-- 2014, Hunting for some online gaming jobs etc.
-- 2016, An outdoor salesman with Mybooks Publisher in Equine Park (Selangor and Kedah states).
-- 2018, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall.
-- 2018, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
-- 2018, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img
+- **2001/2002**, First job introduced by ex-classmate Cecilia Teo Hue Yen to work as a waiter in [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) Klang Parade.
+- **2003/2004**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor.
+- **2003/2004**, An indoor salesman in Euroluce Mid-Valley.
+- **2003/2004**, Worked as a part time Chinese language home tuition teacher for Indians in KL Ipoh Road 3rd miles behind HSBC.
+- **2003/2004**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img
+src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
+- **2003/2004**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
+- **2003/2004**, A groccery store staff in [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
+- **2003/2004**, Employed by my University's classmate as a cybercafe counter staff in Pyramid Computer Center Sekinchan.
+- **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Phillipines within few days without resignation.
+- **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐餐馆）Equine Park, the owner of the restaurant is a Taiwanese lady.
+- **2009 to 2010**, a part time [actor]{style="color:RoyalBlue"}[^3]（[跑龙套当演员]{style="color:#F6A217"}）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **2013**, setup owned RStudio server, learn web scrapping and flight to Taiwan for few months.
+- **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
+- **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
+- **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
+- **Mar-2014**（before employed by FujiXerox last day of Mar-2014）, A restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor.
+- **2014**, Hunting for some online gaming jobs etc.
+- **2016**, An outdoor salesman with Mybooks Publisher in Equine Park (Selangor and Kedah states).
+- **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall.
+- **2018**, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
+- **2018**, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img
 src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia, etc.
 
 When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
 
-[^3]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*听到没有？！这就是我经常对大家说的专业！*<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
+[^3]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*听到没有？！这就是我经常对大家说的专业！*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
 Because of noted that George Soros's mom know multilingual and there has a lot of advantages, I learnt Korean langauge, German language, <s>French language</s>. I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+
+Kindly refer to my personal blogs for more information about me.
+
+- [WordPress Blog](https://englianhu.wordpress.com)
+- [GitHub Blog](https://englianhu.github.io)([GitHub Repo Source Code](https://github.com/englianhu/englianhu.github.io))
+- [JianShu（简书）](https://www.jianshu.com/u/4565fc707969)
+- [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu)
 
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
@@ -841,6 +867,8 @@ Because of noted that George Soros's mom know multilingual and there has a lot o
 <a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" height="48"/></a>
 <a href='https://xiaohongshu.com'><img src="www/hong.jpg" height="48"/></a>
 <a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" height="48"/></a>
+<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" height="48"/></a>
+<a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" height="48"/></a>
 <a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" height="48"/></a>
 <a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" height="48"/></a>
 <a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" height="48"/></a>
@@ -865,9 +893,9 @@ Because of noted that George Soros's mom know multilingual and there has a lot o
 <a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" height="48"/></a>
 <a href='https://medium.com/@englianhu'><img src="www/Reddit.png" height="48"/></a>
 <a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom1.png" height="48"/></a>
-<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" height="48"/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" width="48"/></a>
 <a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" height="48"/></a>
-<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" height="48"/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" width="48"/></a>
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" height="48"/></a>
 <a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" height="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" height="48"/></a>
