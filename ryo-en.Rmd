@@ -892,13 +892,14 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a>
 <a href='https://bitbucket.org/englianhu'><img src="www/bitbucket_36x36.jpg" height="48"/></a>
 <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a>
-<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable_36x36.jpg" height="48"/></a>
 <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a>
-<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" height="48"/></a>
 <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a>
 <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a>
 <a href='http://cos.name/cn/profile/englianhu'><img src="www/cos_36x36.jpg" height="48"/></a>
 <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" height="48"/></a>
+<a href='http://www.madio.net/archiver'><img src="www/madio.png" height="48"/></a>
 <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a>
 <a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" height="48"/></a>
 <a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" height="48"/></a>
@@ -910,7 +911,6 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" height="48"/></a>
 <a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" height="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" height="48"/></a>
-<a href='http://www.madio.net/archiver'><img src="www/madio.png" height="48"/></a>
 <a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum_36x36.jpg" height="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge_36x36.jpg" height="48"/></a>
 <a href='http://www.sportsbookreview.com/forum'><img src="www/SBR_36x36.jpg" height="48"/></a>
