@@ -693,8 +693,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 [体育统计学社区](http://soccer.oksport.cn)
 
--   **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn) but unfortunately banded by Chinese Online Police in year 2013 when I worked in AIA and open an ICBC bank account.
--   The sportsbook forum shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding,  除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析各足彩平台优缺势，还当代理与合作伙伴打广告，结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。
+-   **2009 to 2013**, *Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn) but unfortunately banded by Chinese Online Police in year 2013 when I worked in AIA and open an ICBC bank account.*
+-   *As a one-man-band forum, the sportsbook forum major in soccer sports but also get involve other casino, lottery and gaming. Shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding, risk management, trading strategies, latest news of gambling industry, embed livescores, news bulletins, analyse and compare different bookmakers not only platforms' but also operations' and managements' pros and cons (Art of War* --- **Know thyself, ever-victorious**), *looking for like-minded friends. meanwhile, be the agent and affiliate partner of couple European and Asian bookmakers and advertise through some forums, email and QQ marketing etc.*
+-   *Due to the forums no more (and I switched to financial market and won't return to gambling industry), kindly click on [...]() and [...]() for more information.*
 
 <br>
 
