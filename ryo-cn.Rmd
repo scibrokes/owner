@@ -48,48 +48,80 @@ always_allow_html: yes
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
+- www/360doc.jpeg
+- www/7live.jpg
+- www/7live_36x36.jpg
+- www/aaa1.jpg
+- www/aaa2.jpg
+- www/aaaa.jpg
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/academia.jpg
+- www/AIA.png
 - www/ali.jpg
 - www/ali_36x36.jpg
-- www/alibaba.jpg
+- www/alibaba1.jpg
 - www/alibaba2.jpg
+- www/anr.jpg
+- www/anr_36x36.jpg
 - www/apple.jpg
+- www/Arduino.png
+- www/AskUbuntu.png
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
 - www/betworks.jpg
+- www/BiliBili.png
 - www/biostatistic.jpg
 - www/biostatistic_36x36.jpg
 - www/bitbucket.jpg
 - www/bitbucket_36x36.jpg
+- www/cari.png
 - www/caspo.jpg
 - www/centOS.jpg
 - www/centOS_36x36.jpg
+- www/Chris_Evans_Captain_America.jpg
 - www/cos.jpg
 - www/cos_36x36.jpg
 - www/coursera.jpg
 - www/coursera_36x36.jpg
 - www/csdn.jpg
 - www/csdn_36x36.jpg
+- www/csdn2.png
+- www/dashencaicai2.jpg
+- www/discord1.jpg
+- www/discord2.jpg
+- www/Discuss.png
 - www/disqus.jpg
 - www/disqus_36x36.jpg
+- www/DouYin.png
 - www/dwang.jpg
 - www/dwang_36x36.jpg
+- www/dwang2.png
+- www/Dynasty_Hotel_Tang.png
 - www/ENG.jpg
+- www/Esquire_Kitchen.png
 - www/facebook.jpg
 - www/facebook_36x36.jpg
 - www/facebook2.jpg
 - www/facebook2_36x36.jpg
+- www/FB.jpeg
+- www/FossCom1.png
+- www/FossCom2.png
 - www/fuji-xerox.jpg
 - www/gblinks.JPG
+- www/getronics.png
 - www/github.jpg
 - www/github_36x36.jpg
 - www/github2.jpg
 - www/github2_36x36.jpg
 - www/github3.jpg
 - www/github3_36x36.jpg
+- www/Golden-Royal.png
 - www/gplus.jpg
 - www/gplus_36x36.jpg
+- www/guokr.jpeg
+- www/HKUST.png
+- www/hong.jpg
 - www/hot.jpg
 - www/idealseed.jpg
 - www/instagram.jpg
@@ -98,78 +130,176 @@ resource_files:
 - www/instagram2_36x36.jpg
 - www/instagram3.jpg
 - www/instagram3_36x36.jpg
+- www/InventKDE1.jpeg
+- www/InventKDE2.png
+- www/iq.png
+- www/jckl.png
 - www/JEES.gif
 - www/JFKL.jpg
 - www/jg.jpg
 - www/jg_36x36.jpg
+- www/JG1.png
+- www/JG2.png
 - www/jhu.jpg
+- www/JianShu.png
+- www/joey_jeans.jpg
+- www/KuaiShou.png
 - www/ladbrokes.jpg
+- www/library.jpg
+- www/library2.jpg
+- www/library3.jpg
 - www/linkedin.jpg
 - www/linkedin_36x36.jpg
+- www/linkedIn.jpeg
+- www/LinuxConfig1.jpg
+- www/LinuxConfig2.png
 - www/LQ.jpg
 - www/LQ_36x36.jpg
 - www/LQ2.jpg
 - www/LQ2_36x36.jpg
+- www/madio.png
 - www/manpower.jpg
 - www/mas.jpg
+- www/math & stats.jpg
+- www/math-3d-hd-wallpaper.jpg
+- www/math-theme-03.jpg
 - www/mathchina.jpg
 - www/mathchina_36x36.jpg
+- www/maths.jpg
+- www/MClub.png
+- www/Me byteDance.jpg
+- www/me light mode.jpg
 - www/me.JPG
 - www/me light mode.jpg
+- www/medium.png
 - www/mindpearl01.jpg
 - www/mindpearl02.jpg
 - www/my-passport-size-photo.jpg
+- www/no-sex-at-the-moment.png
+- www/NYIF.jpeg
+- www/NYU.png
+- www/nyu.png
 - www/oda-army.jpg
+- www/OKru.png
+- www/oksportcn_01.png
+- www/oksportcn_02.png
+- www/oksportcn_03.png
+- www/oksportcn_04.png
 - www/Orchard.jpg
+- www/PAAC.jpg
+- www/Peking University 02.png
+- www/phabricator.png
+- www/pixnet.jpeg
 - www/plotly.jpg
 - www/plotly_36x36.jpg
 - www/PLounge.jpg
 - www/PLounge_36x36.jpg
+- www/prestige.png
+- www/qi-pioneer-logo.png
 - www/QQ wb.jpg
 - www/QQ wb_36x36.jpg
 - www/QQ.jpg
 - www/QQ_36x36.jpg
+- www/qi-pioneer-logo.png
+- www/quant_trader_adj.jpg
+- www/quantitative trader.jpg
+- www/quantitative trader 1.jpg
+- www/quantitative trader 2.jpg
+- www/quantitative_trader.jpg
+- www/Quora.jpg
 - www/Qzone.jpg
 - www/Qzone_36x36.jpg
-- www/quantitative trader 1.jpg
+- www/RB.png
 - www/rcrown.jpg
+- www/Reddit.png
 - www/retailsshop.jpg
+- www/RG.png
 - www/rnable.jpg
 - www/rnable_36x36.jpg
 - www/rstudio.jpg
+- www/RStudioCom1.png
+- www/RStudioCom2.png
+- www/RT1.jpg
+- www/RT2.jpg
+- www/RT3.jpg
 - www/RXforum.jpg
 - www/RXforum_36x36.jpg
 - www/RYO-Photo.jpg
+- www/RYO.jpg
+- www/RYU.jpg
 - www/SBR.jpg
 - www/SBR_36x36.jpg
 - www/Scibrokes.png
+- www/scb_logo.jpg
+- www/scb_logo2.jpg
+- www/scb-logo3.jpg
+- www/scb-logo3rs.jpg
 - www/Scibrokes®-TonyStark®.jpg
 - www/Scibrokes-TonyStark.png
 - www/scicom.jpg
+- www/SE.png
 - www/ShirotoNorimichi.jpg
 - www/ShirotoNorimichi2.jpg
 - www/skype.jpg
 - www/skype_36x36.jpg
 - www/social.jpg
 - www/social_36x34.jpg
+- www/SocialMedia.jpg
+- www/SOF.jpg
 - www/starlizard.jpg
+- www/stats.jpg
+- www/Steam.jpeg
 - www/talkstats.jpg
 - www/talkstats_36x36.jpg
+- www/TARC.jpg
 - www/telebiz.jpg
-- www/tm.jpg
 - www/Thumbs.db
+- www/tm.jpg
 - www/TonyStark.png
+- www/tsujiki-mart.png
+- www/Tumblr.png
+- www/Tumblr1.png
+- www/Tumblr2.jpeg
+- www/Tumblr3.jpg
 - www/twitter.jpg
 - www/twitter_36x36.jpg
 - www/u-drive-media.jpg
+- www/u-of-i-urbana-2.png
+- www/UCSC.jpeg
+- www/ucsc.jpg
 - www/um.jpg
+- www/UST.jpg
+- www/uwants.png
+- www/vimeo.jpg
+- www/vk.png
+- www/Wechat.jpeg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/weibo.jpg
 - www/weibo_36x36.jpg
 - www/wordpress.jpg
 - www/wordpress_36x36.jpg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/xerox.jpg
+- www/xueba.jpg
+- www/xueba1.jpg
+- www/xueba2.jpg
+- www/xueba2.png
+- www/xueba3.jpg
+- www/Yandex.png
+- www/YouTube.jpeg
 - www/zeef.jpg
 - www/zeef_36x36.jpg
+- www/ZhiHu.png
+- www/zoom.jpeg
+- www/βεst Jοεγ 7.jpg
+- www/βεst Jοεγ 8.jpg
+- www/βεst Jοεγ 胸有大痣.png
+- www/βεst Jοεγ.jpg
+- www/中国区划.gif
+- www/美国省区旗.png
+- www/βεst Jοεγ 胸有大痣.png
 - data/dfm.csv
 - data/kellym.txt
 - data/shinyData.rds
@@ -177,6 +307,7 @@ resource_files:
 - function/libs.R
 - function/plotChart.R
 - music/bigmoney.mp3
+- www/b4TDbiz-.pdf
 - documents/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
 - documents/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
 - documents/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
@@ -817,7 +948,7 @@ skill |>
 
 、在吉隆坡怡保路三石路HSBC后当业余华语家庭教师授教一些印度华小生、在适耕庄高峰电脑中心为大学同班同学打工当个柜台小生、在吉隆坡怡保路五石路/甲洞当汽车零件销售员/维修人员、在[吉隆坡王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL)的唐宫当服务生、在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)[跑龙套当临时演员]{style="color:RoyalBlue"}[^3]、在怡观园MyBooks出版社（雪州与吉打州）当户外销售员、在谷中城Euroluce灯饰专卖店当室内销售员、在无拉港Aeon Mall后面的大德古早味肉古茶餐馆打工（包括前台与后台）, a restaurant frontend/backend server in Bakut-Teh restaurant next to Balakong Aeon Mall, a part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall, a customer service in Golden-Royal（黄金城）Cambodia, etc. When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
 
-[^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz)中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
+[^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 
 [^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*听到没有？！这就是我经常对大家说的专业！*<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
