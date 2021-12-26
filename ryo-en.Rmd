@@ -524,117 +524,130 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
--   *01 Course title : [Introduction to Trading, Machine Learning & GCP](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   *02 Course title : [Using Machine Learning in Trading and Finance](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   *03 Course title : [Reinforcement Learning for Trading Strategies](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)*
--   [**Machine Learning for Trading Specialization**](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- *01 Course title : Introduction to Trading, Machine Learning & GCP*
+- *02 Course title : Using Machine Learning in Trading and Finance*
+- *03 Course title : Reinforcement Learning for Trading Strategies*
+- **Machine Learning for Trading Specialization**
+- **GitHub** : [Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 **[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
 
--   *Course title : [Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Python-Statistics-Financial-Analysis)*
+- *Course title : Python and Statistics for Financial Analysis*
+- **GitHub** : [Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
 **Oct-2018 to Nov-2021 : Professional Certificate, Specialization Mastering Software Development in R**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
--   *01 Course title : [The R Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
--   *02 Course title : [Advanced R Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
--   *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
--   *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
--   *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/certificate/W6XDFFQ62NDX)*
--   [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
+- *01 Course title : [The R Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 Course title : [Advanced R Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
+- **GitHub** : [Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
 **May-2021 to Jul-2021 : Professional Certificate, Specialization Machine Learning and Reinforcement Learning in Finance**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
 
--   *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)*
+- *Course title : [Overview of Advanced Methods of Reinforcement Learning in Finance (Python)](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- **GitHub** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 **May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Bayesian Statistics Mixture Models (R)](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)*
+- *Course title : [Bayesian Statistics Mixture Models (R)](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- **GitHub** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+- *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
+- **GitHub** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 **<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
 
--   *Course title : [Computer Science](https://github.com/englianhu/UoP-computer-science)*
+- <s>Course title : Computer Science</s>
+- **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
 **Jun-2016 to Aug-2016 : <s>Professional Certificate, Specialization Improving Business Finances and Operations</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
 
--   *01 Course title : [Managerial Accounting: Cost Behaviors, Systems, and Analysis](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *03 Course title : [Financial Evaluation and Strategy: Investments](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *04 Course title : [Financial Evaluation and Strategy: Corporate Finance](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *05 Course title : [Operations Management](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *06 Course title : [Process Improvement](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
--   *06 Course title : [Improving Business Finances and Operations Capstone](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+- <s>*01 Course title : Managerial Accounting: Cost Behaviors, Systems, and Analysis*</s>
+- *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
+- <s>*03 Course title : Financial Evaluation and Strategy: Investments*</s>
+- *04 Course title : [Financial Evaluation and Strategy: Corporate Finance](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
+- *05 Course title : [Operations Management](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
+- <s>*06 Course title : Process Improvement*</s>
+- <s>**Improving Business Finances and Operations Capstone**</s>
+- **GitHub** : [Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
 **Apr-2016 to Aug-2016 : <s>Professional Certificate, Specialization Data Mining</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
 
--   *01 Course title : [Data Visualization](https://github.com/englianhu/Coursera-Data-Mining)*
--   *02 Course title : [Text Retrieval and Search Engines](https://github.com/englianhu/Coursera-Data-Mining)*
--   *03 Course title : [Text Mining and Analytics](https://github.com/englianhu/Coursera-Data-Mining)*
--   *04 Course title : [Pattern Discovery in Data Mining](https://github.com/englianhu/Coursera-Data-Mining)*
+- *01 Course title : [Data Visualization](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
+- *02 Course title : [Text Retrieval and Search Engines](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *03 Course title : [Text Mining and Analytics](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
+- <s>*04 Course title : Pattern Discovery in Data Mining*</s>
+- <s>*05 Course title : Cluster Analysis in Data Mining*</s>
+- <s>**Data Mining Capstone**</s>
+- **Github** : [Coursera Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
 **Apr-2014 to May-2016 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
--   *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
--   *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
--   *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
--   *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
--   *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
--   *06 Course title : [Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
--   *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
--   *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
--   *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
--   *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
--   [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 Course title : [Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/certificate/RRYWVWNAP5EB)*
+- [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- **Github** : [Coursera Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
 **Jun-2015 to Aug-2015 : Professional Certificate, Specialization Data Science**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
 
--   *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- *Course title : [Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- **Github** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
 **XXX-2004 to XXX-2004 : <s>Certified Accounting Technician (CAT) Qualification</s>**; ([ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC Business Institute (PAAC)](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>)
 
--   *01 Course title : [FAU Foundations in Audit]()*
--   *02 Course title : [FTX Foundations in Taxation]()*
--   *03 Course title : [FFM Foundations in Financial Management]()*
+- *01 Course title : FAU Foundations in Audit*
+- *02 Course title : FTX Foundations in Taxation*
+- *03 Course title : FFM Foundations in Financial Management*
 
 <br>
 
 **Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
 
--   *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br>
 
 **<s>May-2002 to Aug-2005</s> May-2002 to Dec-2003 : <s>Becholar Degree, Computer Science (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
 
--   *Freshman*
--   *Sophomore*
--   <s>*Junior*</s>
--   <s>*Senior*</s>
+- *Freshman*
+- *Sophomore*
+- <s>*Junior*</s>
+- <s>*Senior*</s>
 
 <br><br>
 
