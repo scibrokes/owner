@@ -701,50 +701,50 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2014年3月 至 2014年4月：网络零售，客服人员**；（受聘于[FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
--   *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
+- *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
 
 <br>
 
 **2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
--   *工作明细：管理下属、更新比分、赛事结算。*
+- *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
 
-**2013年10月 至 2013年11月：水管建设与维修，客服人员**; (受聘于[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+**2013年10月 至 2013年11月：水管建设与维修，客服人员**；(受聘于[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
--   *简介：为德意志德国人（伟大的德国人Unsere Besten）做工。*
--   *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+- *简介：为德意志德国人（伟大的德国人Unsere Besten）做工。*
+- *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
 
 <br>
 
-**2013年7月 至 2013年9月：保险业，电销员**; (受聘于[AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+**2013年7月 至 2013年9月：保险业，电销员**；(受聘于[AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
--   *简介：美国友邦保险（American Insurance Assurance）。*
--   *工作明细：外拨的保险电销员。*
+- *简介：美国友邦保险（American Insurance Assurance）。*
+- *工作明细：外拨的保险电销员。*
 
 <br>
 
 **2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
--   *简介： TM乃马来西亚蓝筹股。*
--   *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
+- *简介： TM乃马来西亚蓝筹股。*
+- *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
 **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
--   *为布列颠英国人做工。*
--   *工作明细：接听所有[Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
--   获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
--   获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+- *为布列颠英国人做工。*
+- *工作明细：接听所有[Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
+- 获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
+- 获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
 **2006年7月 至 2007年6月：网络生意，培训师兼操盘手**；（受聘于[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
--   *简介： Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
--   *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
+- *简介： Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
+- *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
@@ -757,28 +757,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2005年7月 至 2005年10月：网上金融市场，交易员/代理**；（受聘于[Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
--   *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
--   *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
+- *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
+- *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
 
 <br>
 
-**2003年7月 至 2003年8月：迷你市场，杂货店工人**；(受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>)
+**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>）
 
--   *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
--   *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
+- *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
+- *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
 
 <br>
 
 **2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
 
--   *工作明细：在酒店内的唐宫当前台服务员。*
+- *工作明细：在酒店内的唐宫当前台服务员。*
 
 <br>
 
 **2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
 
--   *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
--   *工作明细：前台服务员。*
+- *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
+- *工作明细：前台服务员。*
 
 <br><br>
 
@@ -786,96 +786,96 @@ op <- options(gvis.plot.tag = 'chart')
 
 [**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
 
--   *Intraday data collection, data streaming, `sparklyr` etc*
--   *High frequency algorithmic trading etc*
--   *Statistical modelling, trading strategies, risk management etc*
--   *Kindly click [here](https://github.com/scibrokes/real-time-fxcm) for more information.*
+- *Intraday data collection, data streaming, `sparklyr` etc*
+- *High frequency algorithmic trading etc*
+- *Statistical modelling, trading strategies, risk management etc*
+- *Kindly click [here](https://github.com/scibrokes/real-time-fxcm) for more information.*
 
 <br>
 
 [**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
 
--   *Analyse the financial report and stock price of Ali lottery.*
--   *Analyse the profit and loss of customers and products, customers' consuming habit.*
--   *Kindly click [here](https://github.com/englianhu/report) for more information.*
+- *Analyse the financial report and stock price of Ali lottery.*
+- *Analyse the profit and loss of customers and products, customers' consuming habit.*
+- *Kindly click [here](https://github.com/englianhu/report) for more information.*
 
 <br>
 
 [**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
--   *分析上市公司的财务报表与股价。*
--   *分析新宝1与新宝2的财务报表。*
--   *欲知更多详情，请点击[此处](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)。*
+- *分析上市公司的财务报表与股价。*
+- *分析新宝1与新宝2的财务报表。*
+- *欲知更多详情，请点击[此处](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)。*
 
 <br>
 
 [**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
 
--   *回测金融投注建模与投注策略。*
--   *回测Arima、平滑模型与各种Garch模型，并且凯利投注模型等等。*
--   *弥补缺失值数据与回测高频率交易。*
--   *欲知更多详情，请点击[此处](https://github.com/englianhu/binary.com-interview-question)。*
+- *回测金融投注建模与投注策略。*
+- *回测Arima、平滑模型与各种Garch模型，并且凯利投注模型等等。*
+- *弥补缺失值数据与回测高频率交易。*
+- *欲知更多详情，请点击[此处](https://github.com/englianhu/binary.com-interview-question)。*
 
 <br>
 
 [**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
--   *使用Selenium和Phantomjs软件采集网络足球彩券与赛事数据。*
--   *自然语言分析采集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
--   *运用不同的凯利标准杠杆投注。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
+- *使用Selenium和Phantomjs软件采集网络足球彩券与赛事数据。*
+- *自然语言分析采集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
+- *运用不同的凯利标准杠杆投注。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
 
 <br>
 
 [**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/Scibrokes/setup-rstudio-server)
 
--   *如何在centOS7操作系统建立自己的RStudio与Shiny应用的教程。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/setup-rstudio-server)。*
+- *如何在centOS7操作系统建立自己的RStudio与Shiny应用的教程。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/setup-rstudio-server)。*
 
 <br>
 
 [**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/Scibrokes/kelly-criterion)
 
--   *应用加权对角通膨双变量泊松模型，而足球赛事的数据采集于* **WebDriver Dynamic Webpage Scrapping** *。*
--   *应用凯利标准模型，投注于10家博彩公司的英国2011/12与2012/13赛季的赛事。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/kelly-criterion)。*
+- *应用加权对角通膨双变量泊松模型，而足球赛事的数据采集于* **WebDriver Dynamic Webpage Scrapping** *。*
+- *应用凯利标准模型，投注于10家博彩公司的英国2011/12与2012/13赛季的赛事。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/kelly-criterion)。*
 
 <br>
 
 [**Dixon-Coles1996（迪克逊-克尔斯1996统计模型）**](https://github.com/Scibrokes/Dixon-Coles1996)
 
--   *Dixon & Coles 1996 足球得分建模。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Dixon-Coles1996)。*
+- *Dixon & Coles 1996 足球得分建模。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Dixon-Coles1996)。*
 
 <br>
 
 [**WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
--   *使用RSelenium与Python软件，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)网站采集博彩公司的赔率数据与赛事比分。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)。*
+- *使用RSelenium与Python软件，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)网站采集博彩公司的赔率数据与赛事比分。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)。*
 
 <br>
 
 [**Soccer League Web Scraping（采集网上足球联赛信息）**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
--   *采集静态网页足球赛事数据。*
--   *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Soccer-League-Web-Scraping)。*
+- *采集静态网页足球赛事数据。*
+- *欲知更多详情，请点击[此处](https://github.com/Scibrokes/Soccer-League-Web-Scraping)。*
 
 <br>
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
--   *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)网站的足球赛事比分与29家博彩公司的1x2、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
--   *应用加权对角通膨双变量泊松模型，测试投注与回酬。*
--   *欲知更多详情，请点击[此处](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)。*
+- *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)网站的足球赛事比分与29家博彩公司的1x2、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
+- *应用加权对角通膨双变量泊松模型，测试投注与回酬。*
+- *欲知更多详情，请点击[此处](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)。*
 
 <br>
 
 [体育统计学社区](http://soccer.oksport.cn)
 
--   **2009年 至 2013年**, *通过[互动力量](http://oksport.cn)建立个专业的体育赔率建模论坛 --- [体育统计学社区](http://soccer.oksport.cn)，奈何2013年在美国友邦保险公司当电销时，到工商银行开户后，论坛就被中国网上公安屏蔽了。*
--   *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
--   *基于该论坛已屏蔽（已转到金融行业，也不打算回博彩行业）。*
+- **2009年 至 2013年**, *通过[互动力量](http://oksport.cn)建立个专业的体育赔率建模论坛 --- [体育统计学社区](http://soccer.oksport.cn)，奈何2013年在美国友邦保险公司当电销时，到工商银行开户后，论坛就被中国网上公安屏蔽了。*
+- *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
+- *基于该论坛已屏蔽（已转到金融行业，也不打算回博彩行业）。*
 
     - [谷歌捜贴](www/oksportcn_01.png)
     - [统计之都交流](www/oksportcn_02.png)
@@ -886,8 +886,8 @@ op <- options(gvis.plot.tag = 'chart')
 
 [**Apply Poisson regression on sports odds modelling（在体育赔率建模中使用柏松现行模型）**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
 
--   *应用单变量泊松模型足球赔率建模。*
--   *欲知更多详情，请点击[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)和[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)以了解更多科研详情*
+- *应用单变量泊松模型足球赔率建模。*
+- *欲知更多详情，请点击[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)和[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)以了解更多科研详情*
 
 <br><br>
 
@@ -988,8 +988,8 @@ skill |>
 - **2006年7月**，在Telebiz工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。
 - **2007年 至 2008年** (受聘于Scicom前 --- 2008年3月30日前)，大哥在怡观园的皇帽旗下代理餐馆（一家台湾女老板的餐馆 --- 大家乐小食中心）开档口当小贩。
 - **2009年 至 2010年**，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style="color:RoyalBlue"}[^4]。
-- **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析各足彩平台优缺势，还当代理与合作伙伴打广告，结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。
-- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、 server, learn web scrapping and flight to Taiwan for few months.
+- **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
+- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没有人际与客源。
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
 - **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
 - **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
@@ -1001,7 +1001,7 @@ skill |>
 - **2018**, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
 - **2018**, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia, etc.
 
-、在吉隆坡怡保路三石路HSBC后当业余华语家庭教师授教一些印度华小生、在适耕庄高峰电脑中心为大学同班同学打工当个柜台小生、在吉隆坡怡保路五石路/甲洞当汽车零件销售员/维修人员、在[吉隆坡王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL)的唐宫当服务生、在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)[跑龙套当临时演员]{style="color:RoyalBlue"}[^3]、在怡观园MyBooks出版社（雪州与吉打州）当户外销售员、在谷中城Euroluce灯饰专卖店当室内销售员、在无拉港Aeon Mall后面的大德古早味肉古茶餐馆打工（包括前台与后台）, a restaurant frontend/backend server in Bakut-Teh restaurant next to Balakong Aeon Mall, a part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall, a customer service in Golden-Royal（黄金城）Cambodia, etc. When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
+When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
 
 [^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 
