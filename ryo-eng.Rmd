@@ -130,6 +130,7 @@ resource_files:
 - www/IG3.png
 - www/IG4.png
 - www/IG5.png
+- www/Illinois.jpg
 - www/instagram.jpg
 - www/instagram_36x36.jpg
 - www/instagram2.jpg
@@ -565,7 +566,32 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**；（[University of the People (UoP)](https://github.com/englianhu/UoP-computer-science) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
+**<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
+
+-   *Course title : [Computer Science](https://github.com/englianhu/UoP-computer-science)*
+
+<br>
+
+**Jun-2016 to Aug-2016 : <s>Professional Certificate, Specialization Improving Business Finances and Operations</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+
+-   *01 Course title : [Managerial Accounting: Cost Behaviors, Systems, and Analysis](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *03 Course title : [Financial Evaluation and Strategy: Investments](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *04 Course title : [Financial Evaluation and Strategy: Corporate Finance](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *05 Course title : [Operations Management](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *06 Course title : [Process Improvement](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   [**Improving Business Finances and Operations Capstone**](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+**Apr-2016 to Aug-2016 : <s>Professional Certificate, Specialization Data Mining</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+
+-   *01 Course title : [Data Visualization](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *02 Course title : [Text Retrieval and Search Engines](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *03 Course title : [Text Mining and Analytics](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *04 Course title : [Pattern Discovery in Data Mining](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *05 Course title : [Cluster Analysis in Data Mining](https://github.com/englianhu/Coursera-Data-Mining)*
+-   [**Data Mining Capstone**](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -978,21 +1004,15 @@ Kindly refer to my personal blogs for more information about me.
 - [JianShu（简书）](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
 - [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 

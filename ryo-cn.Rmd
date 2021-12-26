@@ -130,6 +130,7 @@ resource_files:
 - www/IG3.png
 - www/IG4.png
 - www/IG5.png
+- www/Illinois.jpg
 - www/instagram.jpg
 - www/instagram_36x36.jpg
 - www/instagram2.jpg
@@ -565,7 +566,32 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2016月4月 to 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学（专攻统计学）</s>**；（[人民大学 (UoP)](https://github.com/englianhu/UoP-computer-science) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+**<s>2016月4月 to 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
+
+-   *课程：[电脑科学](https://github.com/englianhu/UoP-computer-science)*
+
+<br>
+
+**2016年6月 至 2016年8月：<s>专业文凭，Specialization Improving Business Finances and Operations</s>**; ([Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+
+-   *01 课程：[会计管理：行为、系统和分析的成本](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *02 课程：[管理会计：促进和指导商业决策的工具](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *03 课程：[财务评价和战略：投资](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *04 课程：[财务评价与战略：公司财务](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *05 课程：[运营管理](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   *06 课程：[工艺改进](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)*
+-   [**改善企业财务和运营状况顶点**](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+**2016年4月 至 2016年8月：<s>专业文凭，数据挖掘</s>**; ([Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+
+-   *01 课程：[数据视觉化](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *02 课程：[文本检索和搜索引擎](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *03 课程：[文本挖掘与分析](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *04 课程：[探索数据挖掘模式](https://github.com/englianhu/Coursera-Data-Mining)*
+-   *05 课程：[数据挖掘中的聚类分析](https://github.com/englianhu/Coursera-Data-Mining)*
+-   [**数据挖掘顶点**](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -605,7 +631,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月5月 to 2005年8月</s> 2002年5月 至 2003年12月 : <s>大学本科，电脑科学（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月5月 to 2005年8月</s> 2002年5月 至 2003年12月：<s>大学本科，电脑科学（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -   *大一*
 -   *大二*
@@ -972,21 +998,15 @@ skill |>
 
 由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金 [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅 [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 
