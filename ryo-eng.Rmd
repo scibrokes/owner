@@ -116,6 +116,7 @@ resource_files:
 - www/github2_36x36.jpg
 - www/github3.jpg
 - www/github3_36x36.jpg
+- www/Github_Pages.png
 - www/Golden-Royal.png
 - www/gplus.jpg
 - www/gplus_36x36.jpg
@@ -124,6 +125,11 @@ resource_files:
 - www/hong.jpg
 - www/hot.jpg
 - www/idealseed.jpg
+- www/IG1.png
+- www/IG2.png
+- www/IG3.png
+- www/IG4.png
+- www/IG5.png
 - www/instagram.jpg
 - www/instagram_36x36.jpg
 - www/instagram2.jpg
@@ -157,6 +163,7 @@ resource_files:
 - www/LQ_36x36.jpg
 - www/LQ2.jpg
 - www/LQ2_36x36.jpg
+- www/ltree.png
 - www/madio.png
 - www/manpower.jpg
 - www/mas.jpg
@@ -268,6 +275,7 @@ resource_files:
 - www/UCSC.jpeg
 - www/ucsc.jpg
 - www/um.jpg
+- www/UoP-logo.jpg
 - www/UST.jpg
 - www/uwants.png
 - www/vimeo.jpg
@@ -500,7 +508,7 @@ op <- options(gvis.plot.tag = 'chart')
 | Mobile Phone Number |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
 | Mobile Phone Number |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
 | Mobile Phone Number |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
-| Email Address       |                                                                      [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email} |
+| Email Address       |                                                                                                             englianhu@gmail.com |
 | Nationality         |                                                                                                                       Malaysian |
 | Place of Birth      |                                                                                              Tanjong Karang, Selangor, Malaysia |
 | Religion            |                                                                                                                          Buddha |
@@ -554,6 +562,10 @@ op <- options(gvis.plot.tag = 'chart')
 **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
 
 -   *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)*
+
+<br>
+
+**<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**；（[University of the People (UoP)](https://github.com/englianhu/UoP-computer-science) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
 
 <br>
 
@@ -822,16 +834,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-[体育统计学社区](http://soccer.oksport.cn)
+[体育统计学社区 (http://soccer.oksport.cn)](http://soccer.oksport.cn)
 
 -   **2009 to 2013**, *Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn) via [互动力量](http://oksport.cn) but unfortunately banded by Chinese Online Police in year 2013 when I worked in AIA and open an ICBC bank account.*
 -   *As a one-man-band forum, the sportsbook forum major in soccer sports but also get involve other casino, lottery and gaming. Shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding, risk management, trading strategies, latest news of gambling industry, embed livescores, news bulletins, analyse and compare different bookmakers not only platforms' but also operations' and managements' pros and cons (Art of War* --- **Know thyself, ever-victorious**), *looking for like-minded friends. meanwhile, be the agent and affiliate partner of couple European and Asian bookmakers and advertise through some forums, email and QQ marketing etc.*
 -   *Due to the forums no more (and I switched to financial market and won't return to gambling industry), below figures are some archive.*
 
-- [oksport.cn 1](www/oksportcn_01.png)
-- [oksport.cn 2](www/oksportcn_02.png)
-- [oksport.cn 3](www/oksportcn_03.png)
-- [Chinese Mathematical Forum（数学建模社区-数学中国）](www/oksportcn_04.png)
+    - [Google'ing（谷歌捜贴）](www/oksportcn_01.png)
+    - [COS Exchange（统计之都交流）](www/oksportcn_02.png)
+    - [Cari Forum Google'ing（佳礼论坛-捜贴）](www/oksportcn_03.png)
+    - [Chinese Mathematical Forum（数学建模社区-数学中国）](www/oksportcn_04.png)
 
 <br>
 
@@ -961,10 +973,10 @@ Because of noted that George Soros's mom know multilingual and there has a lot o
 
 Kindly refer to my personal blogs for more information about me.
 
-- [WordPress Blog](https://englianhu.wordpress.com)
-- [GitHub Blog](https://englianhu.github.io)([GitHub Repo Source Code](https://github.com/englianhu/englianhu.github.io))
-- [JianShu（简书）](https://www.jianshu.com/u/4565fc707969)
-- [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu)
+- [WordPress Blog](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [GitHub Blog](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo Source Code](https://github.com/englianhu/englianhu.github.io))
+- [JianShu（简书）](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
+- [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
 
@@ -986,20 +998,21 @@ Kindly refer to my personal blogs for more information about me.
 
 ## Social Network
 
-<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" width="48"/></a>
-<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" width="48"/></a>
-<a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" width="48"/></a>
-<a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" width="48"/></a>
-<a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" width="48"/></a>
-<a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" width="48"/></a>
-<a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" width="48"/></a>
-<a href='https://instagram.com/englianhu'><img src="www/instagram_36x36.jpg" width="48"/></a>
-<a href='https://weibo.com/englianhu'><img src="www/weibo_36x36.jpg" width="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.jpg" width="48"/></a>
+<a href='https://www.facebook.com/englianhu'><img src="www/facebook2.jpg" width="48"/></a>
+<a href='https://instagram.com/englianhu'><img src="www/IG4.png" width="48"/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.jpg" width="48"/></a>
+<a href='skype:englianhu?call'><img src="www/skype.jpg" width="48"/></a>
+<a href='https://plus.google.com/+黄联富'><img src="www/gplus.jpg" width="48"/></a>
+<a href='https://twitter.com/englianhu'><img src="www/twitter.jpg" width="48"/></a>
+<a href='https://about.me/englianhu'><img src="www/aboutme.jpg" width="48"/></a>
+<a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
+<a href='https://weibo.com/englianhu'><img src="www/weibo.jpg" width="48"/></a>
 <a href='https://www.wechat.com/englianhu'><img src="www/Wechat.jpeg" width="48"/></a>
-<a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" width="48"/></a>
-<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" width="48"/></a>
-<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" width="48"/></a>
-<a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" width="48"/></a>
+<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.jpg" width="48"/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
+<a href='https://disqus.com/by/englianhu'><img src="www/disqus.jpg" width="48"/></a>
 <a href='http://douyin.com/'><img src="www/DouYin.png" width="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
 <a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
@@ -1017,6 +1030,8 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" width="48"/></a>
 <a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" width="48"/></a>
 <a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
+<a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
+<a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
 <a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" width="48"/></a>
 <a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" width="48"/></a>
 <a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" width="48"/></a>
@@ -1026,19 +1041,19 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://www.yandex.com'><img src="www/Yandex.png" width="48"/></a>
 <a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" width="48"/></a>
 <a href='https://mlog.club/user/6960'><img src="www/MClub.png" width="48"/></a>
-<a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" width="48"/></a>
-<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket_36x36.jpg" width="48"/></a>
-<a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" width="48"/></a>
-<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable_36x36.jpg" width="48"/></a>
-<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" width="48"/></a>
+<a href='https://github.com/englianhu'><img src="www/github.jpg" width="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.jpg" width="48"/></a>
+<a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.jpg" width="48"/></a>
 <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
-<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" width="48"/></a>
-<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" width="48"/></a>
-<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos_36x36.jpg" width="48"/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
+<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.jpg" width="48"/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos.jpg" width="48"/></a>
 <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" width="48"/></a>
 <a href='http://www.madio.net/archiver'><img src="www/madio.png" width="48"/></a>
 <a href='http://www.mathchina.com/bbs'><img src="www/mathchina.jpg" width="48"/></a>
-<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS_36x36.jpg?raw=true" width="48"/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.jpg?raw=true" width="48"/></a>
 <a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" width="48"/></a>
 <a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" width="48"/></a>
 <a href='https://medium.com/@englianhu'><img src="www/Reddit.png" width="48"/></a>
@@ -1049,9 +1064,9 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
 <a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" width="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
-<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum_36x36.jpg" width="48"/></a>
-<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge_36x36.jpg" width="48"/></a>
-<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR_36x36.jpg" width="48"/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.jpg" width="48"/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
 <a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
 
 <br><br>
