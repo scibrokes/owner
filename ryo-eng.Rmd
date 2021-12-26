@@ -655,27 +655,27 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
--   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, will flight to China Mainland.*
+- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
+- *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, will flight to China Mainland.*
 
 [^2]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
-**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
--   *Summary : Oriental Group is a Chinese business group.*
--   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
+- *Summary : Oriental Group is a Chinese business group.*
+- *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gambling, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gambling, Customer Service Executive**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
-**May-2016 to Dec-2016 : Online Retails, Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Online Retails, Customer Service Executive**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
@@ -720,7 +720,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
--   *Summary : American Isurance Assurance*
+-   *Summary : American Insurance Assurance*
 -   *Job Task : An insurance telesales for outbound calls.*
 
 <br>
@@ -744,14 +744,14 @@ op <- options(gvis.plot.tag = 'chart')
 **Jul-2006 to Jun-2007 : Online Gambling, Trainer/Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
 
 -   *Summary : Caspo is an online gaming group owned by Singaporean and Taiwanese, similar with [Taiwanese Cinema 《黑金》(The Island of Greed)](https://www.bilibili.com/video/BV1Gv411y7ED).*
--   *Job Task : Provides training to newbies on sportsbook trading and live scout. Need to backup for trading as well. Sometimes need to do translation and also analysis job tasks.*
+-   *Job Task : Provides training to newbies includes sportsbook trading and live scout. In charges to analyse the P&L reports of SB1 and SB2, need to trading as well, translate and also analysis job tasks.*
 
 <br>
 
 **Nov-2005 to Jul-2006 : Online Gambling, Team Leader/Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
--   *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, owned by Malaysian and co-orperate with Hong Kongnese, Australian etc*
--   *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, need to update scores for bets financial settlement. Handle live-matches on corners. Sometimes need to do translation and also analysis job tasks.*
+- *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, owned by Malaysian and co-orperate with Hong Kongnese, Australian etc*
+- *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, update scores for bets financial settlement, writing training manuals. Handle live-matches on corners (includes R&D on the match odds), translate and also analysis job tasks (compare the market matches and odds price etc).*
 
 <br>
 

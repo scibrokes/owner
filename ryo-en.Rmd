@@ -546,7 +546,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/certificate/KTF8BDLMBLQC)
+- [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **GitHub** : [Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
@@ -574,7 +574,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
 
-- <s>Course title : Computer Science</s>
+- <s>*Course title : Computer Science*</s>
 - **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
@@ -588,7 +588,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *05 Course title : [Operations Management](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 Course title : Process Improvement*</s>
 - <s>**Improving Business Finances and Operations Capstone**</s>
-- **GitHub** : [Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- **GitHub** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
@@ -600,7 +600,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*04 Course title : Pattern Discovery in Data Mining*</s>
 - <s>*05 Course title : Cluster Analysis in Data Mining*</s>
 - <s>**Data Mining Capstone**</s>
-- **Github** : [Coursera Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- **Github** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -615,9 +615,9 @@ op <- options(gvis.plot.tag = 'chart')
 - *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
 - *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/certificate/RRYWVWNAP5EB)*
+- *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **Github** : [Coursera Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
@@ -655,27 +655,27 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
--   *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, will flight to China Mainland.*
+- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
+- *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, will flight to China Mainland.*
 
 [^2]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
-**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**;(employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
 
--   *Summary : Oriental Group is a Chinese business group.*
--   *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
+- *Summary : Oriental Group is a Chinese business group.*
+- *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gambling, Customer Service Executive**;(employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2017 to May-2018 : Online Gambling, Customer Service Executive**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians*
 
 <br>
 
-**May-2016 to Dec-2016 : Online Retails, Customer Service Executive**;(employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : Online Retails, Customer Service Executive**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
 
 -   *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in Mindpearl but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
@@ -720,7 +720,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
--   *Summary : American Isurance Assurance*
+-   *Summary : American Insurance Assurance*
 -   *Job Task : An insurance telesales for outbound calls.*
 
 <br>
