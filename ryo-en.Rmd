@@ -765,7 +765,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="52" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
+**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
 
 - *Summary : Work for Japanese. All Japanese but few Malaysians, Japanese boss.*
 - *Job Task : Not only work as an indoor grocery store staff, coincident during Bon-Odori（盆踊り）festival and build a stall as hawker in Panasonic Stadium Shah Alam to sell Japanese cuisine foods.*
@@ -1128,6 +1128,7 @@ It's useful to record some information about how your file was created.
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
 
 sys1 <- devtools::session_info()$platform |> 
     unlist() |> 

@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>雷歐，黃聯富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '個人簡歷'
-author: "[雷歐，黃聯富](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[雷歐，黃聯富](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -48,124 +48,267 @@ always_allow_html: yes
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
+- www/360doc.jpeg
+- www/7live.jpg
+- www/7live_36x36.jpg
+- www/aaa1.jpg
+- www/aaa2.jpg
+- www/aaaa.jpg
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/academia.jpg
+- www/AIA.png
+- www/ali.jpg
+- www/ali_36x36.jpg
+- www/alibaba1.jpg
+- www/alibaba2.jpg
+- www/anr.jpg
+- www/anr_36x36.jpg
 - www/apple.jpg
+- www/Arduino.png
+- www/AskUbuntu.png
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
 - www/betworks.jpg
+- www/BiliBili.png
 - www/biostatistic.jpg
 - www/biostatistic_36x36.jpg
 - www/bitbucket.jpg
 - www/bitbucket_36x36.jpg
+- www/cari.png
 - www/caspo.jpg
 - www/centOS.jpg
 - www/centOS_36x36.jpg
+- www/Chris_Evans_Captain_America.jpg
 - www/cos.jpg
 - www/cos_36x36.jpg
 - www/coursera.jpg
 - www/coursera_36x36.jpg
 - www/csdn.jpg
 - www/csdn_36x36.jpg
+- www/csdn2.png
+- www/dashencaicai2.jpg
+- www/discord1.jpg
+- www/discord2.jpg
+- www/Discuss.png
 - www/disqus.jpg
 - www/disqus_36x36.jpg
+- www/DouYin.png
 - www/dwang.jpg
 - www/dwang_36x36.jpg
+- www/dwang2.png
+- www/Dynasty_Hotel_Tang.png
 - www/ENG.jpg
+- www/Esquire_Kitchen.png
 - www/facebook.jpg
 - www/facebook_36x36.jpg
 - www/facebook2.jpg
 - www/facebook2_36x36.jpg
+- www/FB.jpeg
+- www/FossCom1.png
+- www/FossCom2.png
 - www/fuji-xerox.jpg
 - www/gblinks.JPG
+- www/getronics.png
 - www/github.jpg
 - www/github_36x36.jpg
 - www/github2.jpg
 - www/github2_36x36.jpg
 - www/github3.jpg
 - www/github3_36x36.jpg
+- www/Github_Pages.png
+- www/Golden-Royal.png
 - www/gplus.jpg
 - www/gplus_36x36.jpg
+- www/guokr.jpeg
+- www/HKUST.png
+- www/hong.jpg
 - www/hot.jpg
 - www/idealseed.jpg
+- www/IG1.png
+- www/IG2.png
+- www/IG3.png
+- www/IG4.png
+- www/IG5.png
+- www/Illinois.jpg
 - www/instagram.jpg
 - www/instagram_36x36.jpg
 - www/instagram2.jpg
 - www/instagram2_36x36.jpg
 - www/instagram3.jpg
 - www/instagram3_36x36.jpg
+- www/InventKDE1.jpeg
+- www/InventKDE2.png
+- www/iq.png
+- www/jckl.png
 - www/JEES.gif
 - www/JFKL.jpg
 - www/jg.jpg
 - www/jg_36x36.jpg
+- www/JG1.png
+- www/JG2.png
 - www/jhu.jpg
+- www/JianShu.png
+- www/joey_jeans.jpg
+- www/KuaiShou.png
 - www/ladbrokes.jpg
+- www/library.jpg
+- www/library2.jpg
+- www/library3.jpg
 - www/linkedin.jpg
 - www/linkedin_36x36.jpg
+- www/linkedIn.jpeg
+- www/LinuxConfig1.jpg
+- www/LinuxConfig2.png
 - www/LQ.jpg
 - www/LQ_36x36.jpg
 - www/LQ2.jpg
 - www/LQ2_36x36.jpg
+- www/ltree.png
+- www/madio.png
 - www/manpower.jpg
 - www/mas.jpg
+- www/math & stats.jpg
+- www/math-3d-hd-wallpaper.jpg
+- www/math-theme-03.jpg
 - www/mathchina.jpg
 - www/mathchina_36x36.jpg
+- www/maths.jpg
+- www/MClub.png
+- www/Me byteDance.jpg
+- www/me light mode.jpg
 - www/me.JPG
 - www/me light mode.jpg
+- www/medium.png
 - www/mindpearl01.jpg
 - www/mindpearl02.jpg
 - www/my-passport-size-photo.jpg
+- www/no-sex-at-the-moment.png
+- www/NYIF.jpeg
+- www/NYU.png
+- www/nyu.png
 - www/oda-army.jpg
+- www/OKru.png
+- www/oksportcn_01.png
+- www/oksportcn_02.png
+- www/oksportcn_03.png
+- www/oksportcn_04.png
 - www/Orchard.jpg
+- www/PAAC.jpg
+- www/Peking University 02.png
+- www/phabricator.png
+- www/pixnet.jpeg
 - www/plotly.jpg
 - www/plotly_36x36.jpg
 - www/PLounge.jpg
 - www/PLounge_36x36.jpg
+- www/prestige.png
+- www/qi-pioneer-logo.png
 - www/QQ wb.jpg
 - www/QQ wb_36x36.jpg
 - www/QQ.jpg
 - www/QQ_36x36.jpg
+- www/qi-pioneer-logo.png
+- www/quant_trader_adj.jpg
+- www/quantitative trader.jpg
+- www/quantitative trader 1.jpg
+- www/quantitative trader 2.jpg
+- www/quantitative_trader.jpg
+- www/Quora.jpg
 - www/Qzone.jpg
 - www/Qzone_36x36.jpg
-- www/quantitative trader 1.jpg
+- www/RB.png
 - www/rcrown.jpg
+- www/Reddit.png
 - www/retailsshop.jpg
+- www/RG.png
 - www/rnable.jpg
 - www/rnable_36x36.jpg
 - www/rstudio.jpg
+- www/RStudioCom1.png
+- www/RStudioCom2.png
+- www/RT1.jpg
+- www/RT2.jpg
+- www/RT3.jpg
 - www/RXforum.jpg
 - www/RXforum_36x36.jpg
 - www/RYO-Photo.jpg
+- www/RYO.jpg
+- www/RYU.jpg
 - www/SBR.jpg
 - www/SBR_36x36.jpg
 - www/Scibrokes.png
+- www/scb_logo.jpg
+- www/scb_logo2.jpg
+- www/scb-logo3.jpg
+- www/scb-logo3rs.jpg
 - www/Scibrokes®-TonyStark®.jpg
 - www/Scibrokes-TonyStark.png
 - www/scicom.jpg
+- www/SE.png
 - www/ShirotoNorimichi.jpg
 - www/ShirotoNorimichi2.jpg
 - www/skype.jpg
 - www/skype_36x36.jpg
 - www/social.jpg
 - www/social_36x34.jpg
+- www/SocialMedia.jpg
+- www/SOF.jpg
 - www/starlizard.jpg
+- www/stats.jpg
+- www/Steam.jpeg
 - www/talkstats.jpg
 - www/talkstats_36x36.jpg
+- www/TARC.jpg
 - www/telebiz.jpg
-- www/tm.jpg
 - www/Thumbs.db
+- www/tm.jpg
 - www/TonyStark.png
+- www/tsujiki-mart.png
+- www/Tumblr.png
+- www/Tumblr1.png
+- www/Tumblr2.jpeg
+- www/Tumblr3.jpg
 - www/twitter.jpg
 - www/twitter_36x36.jpg
 - www/u-drive-media.jpg
+- www/u-of-i-urbana-2.png
+- www/UCSC.jpeg
+- www/ucsc.jpg
 - www/um.jpg
+- www/UoP-logo.jpg
+- www/UST.jpg
+- www/uwants.png
+- www/vimeo.jpg
+- www/vk.png
+- www/Wechat.jpeg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/weibo.jpg
 - www/weibo_36x36.jpg
 - www/wordpress.jpg
 - www/wordpress_36x36.jpg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/xerox.jpg
+- www/xueba.jpg
+- www/xueba1.jpg
+- www/xueba2.jpg
+- www/xueba2.png
+- www/xueba3.jpg
+- www/Yandex.png
+- www/YouTube.jpeg
 - www/zeef.jpg
 - www/zeef_36x36.jpg
+- www/ZhiHu.png
+- www/zoom.jpeg
+- www/βεst Jοεγ 7.jpg
+- www/βεst Jοεγ 8.jpg
+- www/βεst Jοεγ 胸有大痣.png
+- www/βεst Jοεγ.jpg
+- www/中国区划.gif
+- www/美国省区旗.png
+- www/βεst Jοεγ 胸有大痣.png
 - data/dfm.csv
 - data/kellym.txt
 - data/shinyData.rds
@@ -173,6 +316,7 @@ resource_files:
 - function/libs.R
 - function/plotChart.R
 - music/bigmoney.mp3
+- www/b4TDbiz-.pdf
 - documents/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
 - documents/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
 - documents/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
@@ -214,6 +358,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+---
 
 ------
 
@@ -224,16 +369,18 @@ resource_files:
 雷歐，黃聯富
 
 <br>
-<span style='color:green'>**Theme Song**</span>
+[[**主題曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
+[^0]: [此菜只應天上有，人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0)<br>As fantastic/heavenly as this dish, it's one in the million of a chance to have it made so exquisite and one in the million for you to have.
+
 ------
 
-# Setting
+# 設定
 
-## SCSS Setup
+## SCSS 設置
 
 <style>
 pre {
@@ -310,15 +457,15 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## Setup
+## 設置
 
-```{r libs, message = FALSE, warning = FALSE, include = FALSE}
+```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
-```{r eval=FALSE}
+```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -335,10 +482,8 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
-          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
-          'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
 
@@ -353,258 +498,612 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 關於我
 
-|   **類別**   |                                              **明細**                                             |
-|:------------:|:-------------------------------------------------------------------------------------------------:|
-|     生日     |                                     `r x='22-10-1984';dmy(x)`                                     |
-|     年齡     | `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| 行動電話號碼 |                                [+6-017-2100905](tel:+601110640095)                                |
-|   電子郵箱   |                     [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}                    |
-|     國籍     |                                             馬來西亞人                                            |
-|    出生地    |                                    丹戎加弄，雪蘭莪州，馬來西亞                                   |
-|     宗教     |                                                佛教                                               |
+| **類別**            |                                                                                                                        **明細** |
+|:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
+| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
+| 年齡                | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 行動電話號碼        |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行動電話號碼        |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行動電話號碼        |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| 行動電話號碼        |                                                                              🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| 行動電話號碼        |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行動電話號碼        |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行動電話號碼        |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 電子郵箱            |                                                                                                             englianhu@gmail.com |
+| 國籍                |                                                                                                                      馬來西亞人 |
+| 出生地              |                                                                                                    丹戎加弄，雪蘭莪州，馬來西亞 |
+| 宗教                |                                                                                                                            佛教 |
+| 祖籍                |                                                                                 [中國福建省永春人]{style="color:RoyalBlue"}[^1] |
+| 母語                |                                                                                                                 福建閩南 / 漢語 |
+
+[^1]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，夏帝少康之庶子無余封於會稽（在今紹興市一帶），為越國之始祖。*<br>*會稽人王充在《論衡·書虛篇》中引吳君高之語：「會稽本山名。夏禹巡狩，**會計於此山**，因以郡名，**故曰會稽**。」*
 
 <br><br>
 
 ## 學術背景
 
-**2014年4月 至 2016年5月：專業文憑，數據科學系**；([Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+**[2021年11月 至今]{style="color:Red"}：專業文憑，學習金融交易機械化**；（[Cousera](http://www.coursera.org) - [紐約金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
--   *01 課程：[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
--   *02 課程：[R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
--   *03 課程：[Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
--   *04 課程：[Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
--   *05 課程：[Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
--   *06 課程：[Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
--   *07 課程：[Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
--   *08 課程：[Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
--   *09 課程：[Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
--   *10 課程：[Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
--   [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- *01 課程：講解交易、學習與GCP谷歌雲端平臺*
+- *02 課程：實踐金融交易機械化*
+- *03 課程：學習強化版交易策略*
+- **學習金融交易機械化專業文憑**
+- **GitHub**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**2015年6月 至 2015年8月：專業文憑，數據科學系**；([Cousera](http://www.coursera.org) - [密歇根大學（UM）](https://www.umich.edu/)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+**[2021年12月 至今]{style="color:Red"}：專業文憑，Python統計學之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
--   *課程：[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- *課程：Python統計學之金融分析*
+- **GitHub**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2002年3月 至 2003年12月：專業文憑，日文能力測試**；([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my/) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>與[Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**2018年10月 至 2021年11月：專業文憑，掌握R語言軟件開發**；（[Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
--   *課程：[日文能力測試 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *01 課程：[R編程語言環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 課程：[高級R編程語言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 課程：[R程序包開發](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *04 課程：[開發數據視覺化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *05 課程：[掌握R語言軟件開發頂點](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**掌握R語言軟件開發專業文憑**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- **GitHub**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+
+<br>
+
+**2021年5月 至 2021年7月：專業文憑，學習強化版金融機械化**；（[Cousera](http://www.coursera.org) - [紐約大學（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+
+- *課程：[強化版金融機械化簡介（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- **GitHub** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+
+<br>
+
+**2021年5月 至 2021年7月：專業文憑，貝葉斯統計混合模型**；（[Cousera](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
+
+- *課程：[貝葉斯統計混合模型（R語言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- **GitHub** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+
+<br>
+
+**2021年1月 至 2021年1月：專業文憑，生物信息學: 導論與方法**；（[Cousera](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
+
+- *課程：[生物信息學: 導論與方法（隱馬爾科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
+- **GitHub** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+
+<br>
+
+**<s>2016月4月 to 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+
+- <s>*課程：電腦科學*</s>
+- **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+
+<br>
+
+**2016年6月 至 2016年8月：<s>專業文憑，Specialization Improving Business Finances and Operations</s>**；（[Cousera](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- <s>*01 課程：會計管理：行為、系統和分析的成本*</s>
+- *02 課程：[管理會計：促進和指導商業決策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
+- <s>*03 課程：財務評價和戰略：投資*</s>
+- *04 課程：[財務評價與戰略：公司財務](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
+- *05 課程：[運營管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
+- <s>*06 課程：工藝改進*</s>
+- <s>**改善企業財務和運營狀況頂點**</s>
+- **GitHub** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+**2016年4月 至 2016年8月：<s>專業文憑，數據挖掘</s>**；（[Cousera](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- *01 課程：[數據視覺化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
+- *02 課程：[文本檢索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *03 課程：[文本挖掘與分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
+- <s>*04 課程：探索數據挖掘模式*</s>
+- <s>*05 課程：數據挖掘中的聚類分析*</s>
+- <s>**數據挖掘頂點**</s>
+- **Github** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+
+<br>
+
+**2014年4月 至 2016年5月：專業文憑，數據科學系**；（[Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+
+- *01 課程：[數據科學家必備工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 課程：[R編程語言](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *03 課程：[獲取和清理數據](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 課程：[探索性數據分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 課程：[再循環科研](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 課程：[統計推斷](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 課程：[線性統計模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 課程：[實用機械化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 課程：[開發數據產品](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 課程：[數據科學頂點](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- [**數據科學專業文憑**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+
+<br>
+
+**2015年6月 至 2015年8月：專業文憑，數據科學系**；（[Cousera](http://www.coursera.org) - [密歇根大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+
+- *課程：[為每個人而設的編程語言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- **Github** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+
+<br>
+
+**2004年X月 至 2004年X月：<s>國際公認會計技師，Certified Accounting Technician (CAT)</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商業學院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+
+- *01 課程：審計基礎（FAU Foundations in Audit）*
+- *02 課程：稅務基礎（FTX Foundations in Taxation）*
+- *03 課程：金融管理基礎（FFM Foundations in Financial Management）*
+
+<br>
+
+**2002年3月 至 2003年12月：專業文憑，日文能力測試**；（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>與[日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>）
+
+- *課程：[日本語能力測試 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+
+<br>
+
+**<s>2002月5月 to 2005年8月</s> 2002年5月 至 2003年12月：<s>大學本科，電腦科學（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+
+-   *大一*
+-   *大二*
+-   <s>*大三*</s>
+-   <s>*大四*</s>
 
 <br><br>
 
-## 工作經驗
+## 工作经验
 
-**2017年11月 至 2018年5月：客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘於[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+**[2020年10月 至今]{style="color:Red"}：Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *工作明細：在柬埔寨工作，作為客服人員但時而得負責風控監控與審核客戶存取款與舞弊行為。*
+- *簡介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
+- *工作明細：在金融市場中科研統計建模與高頻量化交易等，和數據分析，之後會到中國大陸發展。*
 
-<br>
-
-**2016年5月 至 2016年12月：客服人員**；（受聘於[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>部署）
-
--   *工作明細：在MindPearl辦公室工作、得接聽與郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客，包括一般咨詢、預訂機票和修改機票等等事宜。*
+[^2]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
-**2015年10月 至 2016年1月：網絡遊戲，足球彩券操盤手**；（受聘於Global Solution Sdn Bhd）
+**2019年11月 至 2020年7月：網絡博彩，推廣人員**；（受聘於[東方集團旗下：樂發集團的阿裏和一號彩（阿裏彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
--   *工作明細：跟單（跟隨長期盈利的職業玩家的註單投註）、打水套利、為中國客戶處理存款。*
-
-<br>
-
-**2015年5月 至 2015年9月：網絡遊戲，客服人員**；（受聘於OneMedia Sdn Bhd）
-
--   *工作明細：接聽電話與外撥電話、在線咨詢、計算優惠與返水、掌管臉譜賬號與負責市場營銷、所有存取款事項。*
+- *簡介：東方集團乃中國商業集團*
+- *工作明細：在菲律賓克拉克工作（除了少許外國人，全是中國大陸同胞），作為佛系推廣人員，推廣審查單帶會員，分析彩票中獎率與編寫交易系統；半年後轉到運維部門分析數據與負責風控。*
 
 <br>
 
-**2015年2月 至 2015年4月：網絡零售，貿易與交易審查員**；（受聘於[IdealSeed Sdn Bhd](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不過由[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+**2017年11月 至 2018年5月：網絡博彩，客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘於[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
--   *工作明細：在[Xerox](https://www.xerox.com/)辦公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。審查交易是否舞弊，外撥電話。*
+- *工作明細：在柬埔寨西哈努克（西港）工作，作為阿裏彩票客服人員（除了咱們項目多數是馬來西亞人，其余全是中國大陸同事和少許柬埔寨人）但時而得負責風控監控與審核客戶存取款與舞弊行為，第2份工作則在巴域（柬埔寨與越南邊境）。*
+
+<br>
+
+**2016年5月 至 2016年12月：網絡零售，客服人員**；（受聘於[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+
+- *工作明細：在疏邦再也（馬來西亞）MindPearl辦公室工作、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。*
+
+<br>
+
+**2015年10月 至 2016年1月：網絡博彩，足球彩券操盤手**；（受聘於Global Solution Sdn Bhd）
+
+- *簡介：受聘於郭建輝，在舊巴生路特易購樓上Soho的13A/14樓上班，老板們是香港人，Eric妻子馬來西亞籍故此常駐馬來西亞、而君豪和君傑時常到澳門。*
+- *工作明細：跟單（跟隨長期盈利的職業玩家的註單投註）、打水套利、為中國客戶處理存款。*
+
+<br>
+
+**2015年5月 至 2015年9月：網絡博彩，客服人員**；（受聘於OneMedia Sdn Bhd）
+
+- *簡介：公司在吉隆坡南門。*
+- *工作明細：接聽電話與外撥電話、在線咨詢、計算優惠與返水、掌管臉譜賬號與負責市場營銷、所有存取款事項。*
+
+<br>
+
+**2015年2月 至 2015年4月：網絡零售，貿易與交易審查員**；（受聘於[IdealSeed Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不過由[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+
+- *工作明細：在[Xerox](https://www.xerox.com)辦公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。審查交易是否舞弊，外撥電話。*
 
 <br>
 
 **2014年3月 至 2014年4月：網絡零售，客服人員**；（受聘於[FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
--   *工作明細：臺灣小組，接聽臺灣顧客的列印機問題、預訂、安排維修人員與退貨、在線技術支援等等。*
+- *工作明細：臺灣小組，接聽臺灣顧客的列印機問題、預訂、安排維修人員與退貨、在線技術支援等等。*
 
 <br>
 
-**2013年11月 至 2014年3月：網絡遊戲交易，队长兼操盘手**；（受聘於[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不過由[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
+**2013年11月 至 2014年3月：網絡博彩交易，隊長兼操盤手**；（受聘於[SBSolutionCorp Ltd](http://www.sbet.com)操盤，不過由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
 
--   *工作明細：管理下屬、更新比分、賽事結算。*
-
-<br>
-
-**2012年11月 至 2013年5月：電臺節目與電子媒體，節目直播審查員**；（受聘於[U-Drive Media Sdn Bhd](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
-
--   *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
+- *簡介：GBlink在香港九龍紅磡，老板們都是香港人。*
+- *工作明細：管理下屬、更新比分、賽事結算。*
 
 <br>
 
-**2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[Scicom (MSC) Bhd](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+**2013年10月 至 2013年11月：水管建設與維修，客服人員**；(受聘於[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
--   *工作明細：接聽所有[Ladbrokes PLC](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯系、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
--   獲獎[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
--   獲獎[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
-
-<br>
-
-**2006年7月 至 2007年6月：網絡生意，培訓師兼操盤手**；（受聘於[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
-
--   *工作明細：培訓新人、負責SB與SB2網站盈虧報表、操盤與分析數據等等。*
+- *簡介：為德意誌德國人（偉大的德國人Unsere Besten）做工。*
+- *工作明細：位於吉隆坡中央車站（KL Sentral），通過電話和網上接待國外大型水管建設與維修的客戶（幾乎都是來自於美國、歐洲、亞太的洋人和少許華人）。*
 
 <br>
 
-**2005年11月 至 2006年7月：網絡遊戲，隊長兼資深操盤手**；（受聘於[Telebiz Sdn Bhd](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2013年7月 至 2013年9月：保險業，電銷員**；(受聘於[AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
--   *工作明細：培訓新人、對沖、出貨、更新比分、賽事結算、數據分析、負責角球盤口等等事宜。*
+- *簡介：美國友邦保險（American Insurance Assurance）。*
+- *工作明細：外撥的保險電銷員。*
+
+<br>
+
+**2012年11月 至 2013年5月：電臺節目與電子媒體，節目直播審查員**；（受聘於[U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+
+- *簡介： TM乃馬來西亞藍籌股。*
+- *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
+
+<br>
+
+**2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+
+- *為布列顛英國人做工。*
+- *工作明細：接聽所有[Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯系、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
+- 獲獎[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
+- 獲獎[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+
+<br>
+
+**2006年7月 至 2007年6月：網絡生意，培訓師兼操盤手**；（受聘於[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+
+- *簡介： Caspo乃臺灣同胞與新加坡同胞持有，如同[著名電影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
+- *工作明細：培訓新人包括操盤與連線賽事現場、負責SB與SB2網站盈虧報表，也得操盤、翻譯與分析數據等等。*
+
+<br>
+
+**2005年11月 至 2006年7月：網絡博彩，隊長兼資深操盤手**；（受聘於[Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+
+- *簡介：Telebiz乃一家網絡博彩公司與一家研發與賃租博彩平臺的姐妹公司為馬來西亞人所有，與香港同胞和澳洲同胞等國家合作。*
+- *工作明細：培訓新人、對沖、出貨、更新比分、賽事結算、翻譯、輯寫培訓手冊等、數據分析（包括比較市場上競爭對手的盤口與賽事等）、負責角球盤口（包括科研盤口與賠率）等等事宜。*
+
+<br>
+
+**2005年7月 至 2005年10月：網上金融市場，交易員/代理**；（受聘於[Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+
+- *簡介：Prestige Investment Ltd乃一家亞太紐西蘭外匯投資機構。*
+- *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交易、培訓等，以獲得投資回酬。*
+
+<br>
+
+**2003年7月 至 2003年8月：迷你市場，雜貨店工人**；（受聘於[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+
+- *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
+- *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
+
+<br>
+
+**2003年7月 至 2003年7月：飲食業，前臺服務員**；（受聘於[王朝大酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
+
+- *工作明細：在酒店內的唐宮當前臺服務員。*
+
+<br>
+
+**2001年11月 至 2002年4月：飲食業，前臺服務員**；（受聘於[《大人餐廳》（Esquire Kitchen）](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
+
+- *簡介：一家中華料理連鎖餐廳，而招牌菜乃[東波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宮保雞丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
+- *工作明細：前臺服務員。*
 
 <br><br>
 
 ## 科研項目
 
-[**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+[**Real Time FXCM（FXCM實時數據與交易）**](https://github.com/scibrokes/real-time-fxcm)
 
--   *分析上市公司的財務報表與股價。*
--   *分析新寶1與新寶2的財務報表。*
--   *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)。*
-
-<br>
-
-[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
-
--   *回測金融投註建模與投註策略。*
--   *回測Arima、平滑模型與各種Garch模型，並且凱利投註模型等等。*
--   *彌補缺失值數據與回測高頻率交易。*
--   *欲知更多詳情，請點擊[此處](https://github.com/englianhu/binary.com-interview-question)。*
+- *Intraday data collection, data streaming, `sparklyr` etc*
+- *High frequency algorithmic trading etc*
+- *Statistical modelling, trading strategies, risk management etc*
+- *Kindly click [here](https://github.com/scibrokes/real-time-fxcm) for more information.*
 
 <br>
 
-[**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
+[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
 
--   *使用Selenium和Phantomjs軟件采集網絡足球彩券與賽事數據。*
--   *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
--   *運用不同的凱利標準杠桿投註。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
-
-<br>
-
-[**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
-
--   *如何在centOS7操作系統建立自己的RStudio與Shiny應用的教程。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/setup-rstudio-server)。*
+- *Analyse the financial report and stock price of Ali lottery.*
+- *Analyse the profit and loss of customers and products, customers' consuming habit.*
+- *Kindly click [here](https://github.com/englianhu/report) for more information.*
 
 <br>
 
-[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
+[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
--   *應用加權對角通膨雙變量泊松模型，而足球賽事的數據采集於* **WebDriver Dynamic Webpage Scrapping** *。*
--   *應用凱利標準模型，投註於10家博彩公司的英國2011/12與2012/13賽季的賽事。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/kelly-criterion)。*
-
-<br>
-
-[**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
-
--   *Dixon & Coles 1996 足球得分建模。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Dixon-Coles1996)。*
+- *分析上市公司的財務報表與股價。*
+- *分析新寶1與新寶2的財務報表。*
+- *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)。*
 
 <br>
 
-[**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
+[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交易員崗位）**](https://github.com/englianhu/binary.com-interview-question)
 
--   *使用RSelenium與Python軟件，從[7M](http://odds.7m.hk/en/)和[NowGoal](http://info.nowgoal.com/en/)網站采集博彩公司的賠率數據與賽事比分。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)。*
-
-<br>
-
-[**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
-
--   *采集靜態網頁足球賽事數據。*
--   *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Soccer-League-Web-Scraping)。*
+- *回測金融投註建模與投註策略。*
+- *回測Arima、平滑模型與各種Garch模型，並且凱利投註模型等等。*
+- *彌補缺失值數據與回測高頻率交易。*
+- *欲知更多詳情，請點擊[此處](https://github.com/englianhu/binary.com-interview-question)。*
 
 <br>
 
-[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+[**Betting Strategy and Model Validation（博彩交易策略與模型驗證）**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
--   *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en/)網站的足球賽事比分與29家博彩公司的1x2、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
--   *應用加權對角通膨雙變量泊松模型，測試投註與回酬。*
--   *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)。*
+- *使用Selenium和Phantomjs軟件采集網絡足球彩券與賽事數據。*
+- *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
+- *運用不同的凱利標準杠桿投註。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)。*
 
 <br>
 
-[**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®Studio服務器）**](https://github.com/Scibrokes/setup-rstudio-server)
 
--   *應用單變量泊松模型足球賠率建模。*
--   *欲知更多詳情，請點擊[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)和[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)以了解更多科研詳情*
+- *如何在centOS7操作系統建立自己的RStudio與Shiny應用的教程。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/setup-rstudio-server)。*
+
+<br>
+
+[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/Scibrokes/kelly-criterion)
+
+- *應用加權對角通膨雙變量泊松模型，而足球賽事的數據采集於* **WebDriver Dynamic Webpage Scrapping** *。*
+- *應用凱利標準模型，投註於10家博彩公司的英國2011/12與2012/13賽季的賽事。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/kelly-criterion)。*
+
+<br>
+
+[**Dixon-Coles1996（迪克遜-克爾斯1996統計模型）**](https://github.com/Scibrokes/Dixon-Coles1996)
+
+- *Dixon & Coles 1996 足球得分建模。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Dixon-Coles1996)。*
+
+<br>
+
+[**WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
+
+- *使用RSelenium與Python軟件，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)網站采集博彩公司的賠率數據與賽事比分。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)。*
+
+<br>
+
+[**Soccer League Web Scraping（采集網上足球聯賽信息）**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
+
+- *采集靜態網頁足球賽事數據。*
+- *欲知更多詳情，請點擊[此處](https://github.com/Scibrokes/Soccer-League-Web-Scraping)。*
+
+<br>
+
+[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+
+- *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)與[NowGoal](http://info.nowgoal.com/en)網站的足球賽事比分與29家博彩公司的1x2、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
+- *應用加權對角通膨雙變量泊松模型，測試投註與回酬。*
+- *欲知更多詳情，請點擊[此處](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)。*
+
+<br>
+
+[體育統計學社區](http://soccer.oksport.cn)
+
+- **2009年 至 2013年**, *通過[互動力量](http://oksport.cn)建立個專業的體育賠率建模論壇 --- [體育統計學社區](http://soccer.oksport.cn)，奈何2013年在美國友邦保險公司當電銷時，到工商銀行開戶後，論壇就被中國網上公安屏蔽了。*
+- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交易策略、行業動態、嵌入比分網信息、滾動行業動態新聞、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
+- *基於該論壇已屏蔽（已轉到金融行業，也不打算回博彩行業）。*
+
+    - [谷歌捜貼](www/oksportcn_01.png)
+    - [統計之都交流](www/oksportcn_02.png)
+    - [佳禮論壇-捜貼](www/oksportcn_03.png)
+    - [數學建模社區-數學中國](www/oksportcn_04.png)
+
+<br>
+
+[**Apply Poisson regression on sports odds modelling（在體育賠率建模中使用柏松現行模型）**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+
+- *應用單變量泊松模型足球賠率建模。*
+- *欲知更多詳情，請點擊[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)和[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)以了解更多科研詳情*
 
 <br><br>
 
 ## 技能
 
-```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R编程语言', '微软办公软件', 'SQL语言', 'Python编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', 'Shiny应用', 'Linux操作系统', 'Web API接口', '量化交易'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
-names(skill) <- c('技能', '程度')
+```{r skill, echo = FALSE, result = 'asis'}
+require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
+require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
+require('formattable', quietly = TRUE, warn.conflicts = FALSE)
+require('knitr', quietly = TRUE, warn.conflicts = FALSE)
+require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
-#'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+skill <- tibble('技能' = c('計量經濟學', '量化交易', 'R編程語言', '微軟辦公軟件', 'SQL語言', 'Python編程語言', '數據分析', '客服工作', '體育博彩行業', '建立RStudio服務器', '統計學', '數據科學', 'Shiny應用', 'Linux操作系統', 'Web API應用程序接口', 'Sparklyr大數據分析', '張量Tensorflow', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 4, 3, 5))
+skill <- tibble('序列' = 1:nrow(skill), skill)
 
-tagList(
-  tags$div(align = "center", 
-           class = "bg-info", 
-           tags$h3(class = "bg-primary", "技能與掌握程度"), 
-           tags$h5(align = "center", class = "text-muted", 
-                   "技能評估（從新兵1至專業10）")), 
-  as.htmlwidget(skill %>% formattable(list(
-    Level = color_tile('white', 'darkgoldenrod')
-    ))))
+skill |> 
+    {\(.) dplyr::mutate(
+      ., `技能` = cell_spec(`技能`, italic = TRUE, 
+                           color = spec_color(seq(nrow(skill)), option = 'A', 
+                                              begin = 0.1, end = 0.9), 
+                           tooltip = paste0('程度: ', `程度`), angle = 3))}() |>#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
+  {\(.) mutate_if(., is.numeric, function(x){ 
+    cell_spec(x, 'html', color = 
+                spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
+                           direction = -1), angle = 20, 
+              font_size = spec_font_size(x), bold = TRUE) })}() |> 
+  {\(.) kbl(., caption = '技能評估（從新兵1至專業10）', escape = FALSE, align = 'c')}() |> 
+  {\(.) kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) row_spec(., 0, background = 'DimGrey', color = 'yellow')}()# %>% 
+  #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  #column_spec(2, background = 'grey', color = 'black') %>% 
+  #column_spec(2, background = 'grey', color = 'black')
+```
+
+```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+skill[,-1] |> 
+  {\(.) tibble(.) |> 
+      recharts::echartr(., 
+        x = ~`技能`, y = ~`程度`, series = ~`技能`, type = 'radar', 
+        symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+        title = '技能評估', subtitle = '(by @englianhu)')}() |> 
+  {\(.) recharts::setSymbols(., 'star4')}() |> 
+  {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
+  {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
+                           animationEasing = 'BounceInOut', animationDuration = 500)}()
+
+radarchart::chartJSRadar(
+  skill[,-1], main = '技能評估', width = '100%', height = '100%', 
+  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+```
+
+```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(`技能`) |> 
+  echarts4r::e_radar(`程度`, max = 10, name = skill$`技能`, 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
 ```
 
 <br>
 
-```{r skill2, eval = FALSE, echo = FALSE}
-#, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+## 其它 / 雜談
 
-skill %>% data.frame %>% 
-  recharts::echartR(x= ~技能, y= ~程度, series= ~技能, type='radarfill', 
-                    symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='技能評估', subtitle= '(by @englianhu)')
+- **2001/2002年**，當初首份工作經中學同學張慧燕介紹到[巴生百利廣場](https://www.klang.parade.com.my)內的[大人餐廳](https://esquirekitchen.com)當前臺服務生。
+- **2003/2004年**，與兩個哥哥和鄰居，四人創辦[**Starline Platation Ltd**]{style="color:RoyalBlue"}農業公司。
+- **2003/2004年**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce燈飾專賣店當室內銷售員。
+- **2003/2004年**，在吉隆坡怡保路3裏路HSBC銀行後面當中文家庭教師，授教一些華小的印度同胞小學生中文。
+- **2003/2004年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宮當前臺服務員。
+- **2003/2004年**，在吉隆坡怡保路5裏路/甲洞當汽車銷售員/維修員。
+- **2003/2004年**，在谷中城對面的[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>內的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/>當迷你市場店員。
+- **2003/2004年**，經[拉曼學院電腦科學系同學兼最佳好友謝德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^3]錄用，到他家鄉適耕莊的網吧（高峰電腦中心）當櫃臺小生。
+- **2006年7月**，在Telebiz工作時，遠到新加坡喜來登酒店樓下大廳和歐陽兄弟倆（歐陽金泰和歐陽金喜）面試，沒幾周歐陽金喜就匆匆忙忙撥電給我到焦賴一家旅遊中心找Amy拿機票到菲律賓工作，當時沒辭職就飛到菲律賓去了。
+- **2007年 至 2008年** (受聘於Scicom前 --- 2008年3月30日前)，大哥在怡觀園的皇帽旗下代理餐館（一家臺灣女老板的餐館 --- 大家樂小食中心）開檔口當小販。
+- **2009年 至 2010年**，經過[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介紹，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下當個業余演員，[跑龍套當演員]{style="color:RoyalBlue"}[^4]。
+- **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
+- **2013年**，建立自個兒的RStudio服務器、學習采集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交易公司的工作，不過沒多久就不幹了。
+- **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
+- **2013年10月1號**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的皮夾[財神挺臺灣夜總會]{style="color:#F6A217"}。
+- **2013年11月**，有天麥克張有銘匆匆忙忙打電話聯系並錄用我並買了張機票，還沒辭職就飛往香港九龍了。在SBet工作時，Howie宋家豪時常論及我穿的休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}。
+- **2014年3月**，在2014年3月31日受祿於富士全祿前，在瓜雪One Plaza購物廣場後的森林茶餐廳（Xing's Restaurant）幫大哥打工一個月。
+- **2014年**，找了幾份網遊之類的工作。
+- **2016年**，在怡觀園（Equine Park）的Mybooks出版社當個戶外銷售員；原本在雪州，後來移到吉打州。
+- **2018年**，在無拉港Aeon Mall廣場後面的大德古早味肉古茶行當（包括前臺後臺）店員，間中都有到另外兩家分行工作（無拉港Aeon商場後面、疏邦再也精英大學對面、國內最大夜市焦賴康樂花園）。
+- **2018年**，經過一位古早味頭手介紹，到無拉港Aeon Mall商場對面（焦賴南鎮118）的記德撈*海鮮火鍋食*（PTN Steamboat Restaurant） 打零工。
+- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>當客服人員，因為非常危險，有天午休時間2樓宿舍大爆炸和許多槍聲後，員工紛紛逃跑到公司，有位小胖經理走來叫我馬上飛回國。
+- **2018年**，Bron Ong通過臉譜聘用到新山當真人荷官（合作商家為柬埔寨西哈努克港）的客服人員，幹了一個月正（非常危險，而且公司作假張還不讓員工辭職），由於母親去世才能回雪州。
+- **2020年10月10號**，重新註冊了間公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-chartJSRadar(skill, main = '技能評估', maxScale = 10, showToolTipLabel=TRUE)
-```
+2003/2004年離開*Prestige Investment Ltd*網上外匯交易商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
-<br>
+[^3]: [遲了一年，更新履歷表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 電子書](documents/b4TDbiz-.pdf))中記載著以前尚未加入博彩行業的一段[創業與金融行業]{style="color:RoyalBlue"}小歷史。
 
-## 其它
+[^4]: [哢，精神點，臨時演員也是演員！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因為不想死，浪費了多少秒、多少錢、多少片底、多少工作人員的時間和心血！換個專業的！*<br>Unprofessional Hedge Fund（不夠專業避險基金）:[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影視剪輯］精神點！臨時演員也是演員！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*聽到沒有？！這就是我經常對大家說的專業！*<br>Expert / Professional Hedge Fund（專業避險基金）:[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-在下目前正在學習著建立自己的足彩對沖基金 [Scibrokes®](https://github.com/scibrokes)[^1] ，估計將會是亞洲第一家專業的對沖基金。有興趣建立自己的®Studio服務器者，可以參閱 [安裝 ®StudioとShiny服務器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
+由於佐治.索羅斯之母精通多國語言有優勢，故此學過韓語、德語、<s>法語</s>。 目前在學習建立自個兒的避險基金[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過 shiny 應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
 
-[^1]: 網站尚未建成，尚努力當中。
+欲知更多關於我的詳情，請參閱個人部落格。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+- [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [GitHub 部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo 源代碼](https://github.com/englianhu/englianhu.github.io))
+- [簡書](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
+- [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 
 ## 社交媒體
 
-<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.jpg" width="48"/></a>
+<a href='https://www.facebook.com/englianhu'><img src="www/facebook2.jpg" width="48"/></a>
+<a href='https://instagram.com/englianhu'><img src="www/IG4.png" width="48"/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.jpg" width="48"/></a>
+<a href='skype:englianhu?call'><img src="www/skype.jpg" width="48"/></a>
+<a href='https://plus.google.com/+黄联富'><img src="www/gplus.jpg" width="48"/></a>
+<a href='https://twitter.com/englianhu'><img src="www/twitter.jpg" width="48"/></a>
+<a href='https://about.me/englianhu'><img src="www/aboutme.jpg" width="48"/></a>
+<a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
+<a href='https://weibo.com/englianhu'><img src="www/weibo.jpg" width="48"/></a>
+<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.jpeg" width="48"/></a>
+<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.jpg" width="48"/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
+<a href='https://disqus.com/by/englianhu'><img src="www/disqus.jpg" width="48"/></a>
+<a href='http://douyin.com/'><img src="www/DouYin.png" width="48"/></a>
+<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
+<a href='http://englianhu.360doc.com'><img src="www/360doc.jpeg" width="48"/></a>
+<a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
+<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" width="48"/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.jpg" width="48"/></a>
+<a href='https://discord.com'><img src="www/discord2.jpg" width="48"/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" width="48"/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" width="48"/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" width="48"/></a>
+<a href='https://xiaohongshu.com'><img src="www/hong.jpg" width="48"/></a>
+<a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" width="48"/></a>
+<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" width="48"/></a>
+<a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
+<a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
+<a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
+<a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" width="48"/></a>
+<a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" width="48"/></a>
+<a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" width="48"/></a>
+<a href='https://www.iq.com'><img src="www/iq.png" width="48"/></a>
+<a href='https://www.vk.com/englianhu'><img src="www/vk.png" width="48"/></a>
+<a href='https://ok.ru/englianhu'><img src="www/OKru.png" width="48"/></a>
+<a href='https://www.yandex.com'><img src="www/Yandex.png" width="48"/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" width="48"/></a>
+<a href='https://mlog.club/user/6960'><img src="www/MClub.png" width="48"/></a>
+<a href='https://github.com/englianhu'><img src="www/github.jpg" width="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.jpg" width="48"/></a>
+<a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.jpg" width="48"/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
+<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.jpg" width="48"/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos.jpg" width="48"/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" width="48"/></a>
+<a href='http://www.madio.net/archiver'><img src="www/madio.png" width="48"/></a>
+<a href='http://www.mathchina.com/bbs'><img src="www/mathchina.jpg" width="48"/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.jpg?raw=true" width="48"/></a>
+<a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" width="48"/></a>
+<a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" width="48"/></a>
+<a href='https://medium.com/@englianhu'><img src="www/Reddit.png" width="48"/></a>
+<a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom1.png" width="48"/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" width="48"/></a>
+<a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" width="48"/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" width="48"/></a>
+<a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" width="48"/></a>
+<a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.jpg" width="48"/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
 
 <br><br>
 
@@ -629,6 +1128,7 @@ chartJSRadar(skill, main = '技能評估', maxScale = 10, showToolTipLabel=TRUE)
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
 
 sys1 <- devtools::session_info()$platform |> 
     unlist() |> 
@@ -642,7 +1142,7 @@ sys2 <- data.frame(Sys.info()) |>
 if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '當下'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
@@ -652,7 +1152,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '當下'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
@@ -660,7 +1160,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
 
 sys <- cbind(sys1, sys2) |> 
   {\(.) 
-    kbl(., caption = 'Additional session information:')}() |> 
+    kbl(., caption = '附加電腦會話信息：')}() |> 
   {\(.) 
     kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
   {\(.) 
@@ -685,13 +1185,15 @@ sys
 ## 參考文獻
 
 - 有意新建自己的履歷表者，歡迎參閱[Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)。
-- [prettydoc](http://yixuan.cos.name/prettydoc/)。
+- [prettydoc](http://yixuan.cos.name/prettydoc)。
 - [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)。
-- 您可以參閱[timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)與[timeline](http://jason.bryer.org/timeline/)程序包繪圖。
-- 這兒使用[googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)程序包繪制動畫圖，您可以參閱[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)。
-- 您亦可參閱[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/)修改網頁外觀。
+- 您可以參閱[timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)與[timeline](http://jason.bryer.org/timeline)程序包繪圖。
+- 這兒使用[googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)程序包繪製動畫圖，您可以參閱[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)。
+- 您亦可參閱[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)修改網頁外觀。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有許多圖標可供參考與應用。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+- [`echarts4r`](https://echarts4r.john-coene.com) R程序包。
+- [`sass`](https://rstudio.github.io/sass) R程序包。
 
 <br><br>
 

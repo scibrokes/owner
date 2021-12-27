@@ -765,7 +765,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="52" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -1128,6 +1128,7 @@ skill |>
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
 
 sys1 <- devtools::session_info()$platform |> 
     unlist() |> 
@@ -1141,7 +1142,7 @@ sys2 <- data.frame(Sys.info()) |>
 if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '当下'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
@@ -1151,7 +1152,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '当下'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
@@ -1159,7 +1160,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
 
 sys <- cbind(sys1, sys2) |> 
   {\(.) 
-    kbl(., caption = 'Additional session information:')}() |> 
+    kbl(., caption = '附加电脑会话信息：')}() |> 
   {\(.) 
     kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
   {\(.) 
