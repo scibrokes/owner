@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>リョウ，黃聯富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '個人簡歷'
-author: "[リョウ，黃聯富](https://englianhu.github.io/) <img src='www/ENG.jpg'
+author: "[リョウ，黃聯富](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -48,124 +48,267 @@ always_allow_html: yes
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
+- www/360doc.jpeg
+- www/7live.jpg
+- www/7live_36x36.jpg
+- www/aaa1.jpg
+- www/aaa2.jpg
+- www/aaaa.jpg
 - www/aboutme.jpg
 - www/aboutme_36x36.jpg
+- www/academia.jpg
+- www/AIA.png
+- www/ali.jpg
+- www/ali_36x36.jpg
+- www/alibaba1.jpg
+- www/alibaba2.jpg
+- www/anr.jpg
+- www/anr_36x36.jpg
 - www/apple.jpg
+- www/Arduino.png
+- www/AskUbuntu.png
 - www/bettingforum.jpg
 - www/bettingforum_36x36.jpg
 - www/betworks.jpg
+- www/BiliBili.png
 - www/biostatistic.jpg
 - www/biostatistic_36x36.jpg
 - www/bitbucket.jpg
 - www/bitbucket_36x36.jpg
+- www/cari.png
 - www/caspo.jpg
 - www/centOS.jpg
 - www/centOS_36x36.jpg
+- www/Chris_Evans_Captain_America.jpg
 - www/cos.jpg
 - www/cos_36x36.jpg
 - www/coursera.jpg
 - www/coursera_36x36.jpg
 - www/csdn.jpg
 - www/csdn_36x36.jpg
+- www/csdn2.png
+- www/dashencaicai2.jpg
+- www/discord1.jpg
+- www/discord2.jpg
+- www/Discuss.png
 - www/disqus.jpg
 - www/disqus_36x36.jpg
+- www/DouYin.png
 - www/dwang.jpg
 - www/dwang_36x36.jpg
+- www/dwang2.png
+- www/Dynasty_Hotel_Tang.png
 - www/ENG.jpg
+- www/Esquire_Kitchen.png
 - www/facebook.jpg
 - www/facebook_36x36.jpg
 - www/facebook2.jpg
 - www/facebook2_36x36.jpg
+- www/FB.jpeg
+- www/FossCom1.png
+- www/FossCom2.png
 - www/fuji-xerox.jpg
 - www/gblinks.JPG
+- www/getronics.png
 - www/github.jpg
 - www/github_36x36.jpg
 - www/github2.jpg
 - www/github2_36x36.jpg
 - www/github3.jpg
 - www/github3_36x36.jpg
+- www/Github_Pages.png
+- www/Golden-Royal.png
 - www/gplus.jpg
 - www/gplus_36x36.jpg
+- www/guokr.jpeg
+- www/HKUST.png
+- www/hong.jpg
 - www/hot.jpg
 - www/idealseed.jpg
+- www/IG1.png
+- www/IG2.png
+- www/IG3.png
+- www/IG4.png
+- www/IG5.png
+- www/Illinois.jpg
 - www/instagram.jpg
 - www/instagram_36x36.jpg
 - www/instagram2.jpg
 - www/instagram2_36x36.jpg
 - www/instagram3.jpg
 - www/instagram3_36x36.jpg
+- www/InventKDE1.jpeg
+- www/InventKDE2.png
+- www/iq.png
+- www/jckl.png
 - www/JEES.gif
 - www/JFKL.jpg
 - www/jg.jpg
 - www/jg_36x36.jpg
+- www/JG1.png
+- www/JG2.png
 - www/jhu.jpg
+- www/JianShu.png
+- www/joey_jeans.jpg
+- www/KuaiShou.png
 - www/ladbrokes.jpg
+- www/library.jpg
+- www/library2.jpg
+- www/library3.jpg
 - www/linkedin.jpg
 - www/linkedin_36x36.jpg
+- www/linkedIn.jpeg
+- www/LinuxConfig1.jpg
+- www/LinuxConfig2.png
 - www/LQ.jpg
 - www/LQ_36x36.jpg
 - www/LQ2.jpg
 - www/LQ2_36x36.jpg
+- www/ltree.png
+- www/madio.png
 - www/manpower.jpg
 - www/mas.jpg
+- www/math & stats.jpg
+- www/math-3d-hd-wallpaper.jpg
+- www/math-theme-03.jpg
 - www/mathchina.jpg
 - www/mathchina_36x36.jpg
+- www/maths.jpg
+- www/MClub.png
+- www/Me byteDance.jpg
+- www/me light mode.jpg
 - www/me.JPG
 - www/me light mode.jpg
+- www/medium.png
 - www/mindpearl01.jpg
 - www/mindpearl02.jpg
 - www/my-passport-size-photo.jpg
+- www/no-sex-at-the-moment.png
+- www/NYIF.jpeg
+- www/NYU.png
+- www/nyu.png
 - www/oda-army.jpg
+- www/OKru.png
+- www/oksportcn_01.png
+- www/oksportcn_02.png
+- www/oksportcn_03.png
+- www/oksportcn_04.png
 - www/Orchard.jpg
+- www/PAAC.jpg
+- www/Peking University 02.png
+- www/phabricator.png
+- www/pixnet.jpeg
 - www/plotly.jpg
 - www/plotly_36x36.jpg
 - www/PLounge.jpg
 - www/PLounge_36x36.jpg
+- www/prestige.png
+- www/qi-pioneer-logo.png
 - www/QQ wb.jpg
 - www/QQ wb_36x36.jpg
 - www/QQ.jpg
 - www/QQ_36x36.jpg
+- www/qi-pioneer-logo.png
+- www/quant_trader_adj.jpg
+- www/quantitative trader.jpg
+- www/quantitative trader 1.jpg
+- www/quantitative trader 2.jpg
+- www/quantitative_trader.jpg
+- www/Quora.jpg
 - www/Qzone.jpg
 - www/Qzone_36x36.jpg
-- www/quantitative trader 1.jpg
+- www/RB.png
 - www/rcrown.jpg
+- www/Reddit.png
 - www/retailsshop.jpg
+- www/RG.png
 - www/rnable.jpg
 - www/rnable_36x36.jpg
 - www/rstudio.jpg
+- www/RStudioCom1.png
+- www/RStudioCom2.png
+- www/RT1.jpg
+- www/RT2.jpg
+- www/RT3.jpg
 - www/RXforum.jpg
 - www/RXforum_36x36.jpg
 - www/RYO-Photo.jpg
+- www/RYO.jpg
+- www/RYU.jpg
 - www/SBR.jpg
 - www/SBR_36x36.jpg
 - www/Scibrokes.png
+- www/scb_logo.jpg
+- www/scb_logo2.jpg
+- www/scb-logo3.jpg
+- www/scb-logo3rs.jpg
 - www/Scibrokes®-TonyStark®.jpg
 - www/Scibrokes-TonyStark.png
 - www/scicom.jpg
+- www/SE.png
 - www/ShirotoNorimichi.jpg
 - www/ShirotoNorimichi2.jpg
 - www/skype.jpg
 - www/skype_36x36.jpg
 - www/social.jpg
 - www/social_36x34.jpg
+- www/SocialMedia.jpg
+- www/SOF.jpg
 - www/starlizard.jpg
+- www/stats.jpg
+- www/Steam.jpeg
 - www/talkstats.jpg
 - www/talkstats_36x36.jpg
+- www/TARC.jpg
 - www/telebiz.jpg
-- www/tm.jpg
 - www/Thumbs.db
+- www/tm.jpg
 - www/TonyStark.png
+- www/tsujiki-mart.png
+- www/Tumblr.png
+- www/Tumblr1.png
+- www/Tumblr2.jpeg
+- www/Tumblr3.jpg
 - www/twitter.jpg
 - www/twitter_36x36.jpg
 - www/u-drive-media.jpg
+- www/u-of-i-urbana-2.png
+- www/UCSC.jpeg
+- www/ucsc.jpg
 - www/um.jpg
+- www/UoP-logo.jpg
+- www/UST.jpg
+- www/uwants.png
+- www/vimeo.jpg
+- www/vk.png
+- www/Wechat.jpeg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/weibo.jpg
 - www/weibo_36x36.jpg
 - www/wordpress.jpg
 - www/wordpress_36x36.jpg
+- www/Wechat1.png
+- www/Wechat2.png
 - www/xerox.jpg
+- www/xueba.jpg
+- www/xueba1.jpg
+- www/xueba2.jpg
+- www/xueba2.png
+- www/xueba3.jpg
+- www/Yandex.png
+- www/YouTube.jpeg
 - www/zeef.jpg
 - www/zeef_36x36.jpg
+- www/ZhiHu.png
+- www/zoom.jpeg
+- www/βεst Jοεγ 7.jpg
+- www/βεst Jοεγ 8.jpg
+- www/βεst Jοεγ 胸有大痣.png
+- www/βεst Jοεγ.jpg
+- www/中国区划.gif
+- www/美国省区旗.png
+- www/βεst Jοεγ 胸有大痣.png
 - data/dfm.csv
 - data/kellym.txt
 - data/shinyData.rds
@@ -173,6 +316,7 @@ resource_files:
 - function/libs.R
 - function/plotChart.R
 - music/bigmoney.mp3
+- www/b4TDbiz-.pdf
 - documents/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
 - documents/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
 - documents/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
@@ -214,26 +358,29 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+---
 
 ------
 
-# 履歴書
+# 履歴書（りれきしょ）
 
 <img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
 リョウ，黃聯富（こう.れん.ふ/とみ）
 
 <br>
-<span style='color:green'>**Theme Song**</span>
+[[**主題曲（しゅだいきょく）**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
+[^0]: [此菜只應天上有，人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0)<br>As fantastic/heavenly as this dish, it's one in the million of a chance to have it made so exquisite and one in the million for you to have.（この野菜/料理が天堂にあるべきで,人間ではめったに何度も食べられない。）
+
 ------
 
-# Setting
+# 設定（せってい）
 
-## SCSS Setup
+## SCSS 設置（せっち）
 
 <style>
 pre {
@@ -310,15 +457,15 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## Setup
+## 設置（せっち）
 
-```{r libs, message = FALSE, warning = FALSE, include = FALSE}
+```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
-```{r eval=FALSE}
+```{r libs, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -335,10 +482,8 @@ if (suppressMessages(!require('rmsfuns'))) {
 }
 
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
-          'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 
-          'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 
-          'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
 
@@ -353,99 +498,210 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 私について
 
-|   **類別**   |                                              **詳細**                                             |
-|:------------:|:-------------------------------------------------------------------------------------------------:|
-|     生日     |                                     `r x='22-10-1984';dmy(x)`                                     |
-|     年齡     | `r new_interval(dmy(x),now()) %>% as.period(,.unit=years) %>% str_replace(., '(?<=d).{1,}$', '')` |
-| 行動電話號碼 |                                [+6-017-2100905](tel:+601110640095)                                |
-|   電子郵箱   |                     [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}                    |
-|     國籍     |                                            マレーシアン                                           |
-|    出生地    |                           タンジョン カラン, セランゴール州, マレーシア                           |
-|     宗教     |                                                 仏                                                |
+| **類別（るいべつ）**|                                                                                                            **明細（めいさい）** |
+|:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
+| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
+| 年齡                | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 行動電話號碼        |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行動電話號碼        |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行動電話號碼        |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| 行動電話號碼        |                                                                              🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| 行動電話號碼        |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行動電話號碼        |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行動電話號碼        |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 電子郵箱            |                                                                                                             englianhu@gmail.com |
+| 國籍                |                                                                                                                    マレーシア人 |
+| 出生地              |                                                                               タンジョング.カラング, セランゴール州, マレーシア |
+| 宗教                |                                                                                                                  仏家（ぶっけ） |
+| 祖籍                |                                    [中国福建省永春人（ちゅうごく.ふっけん‐しょう.えいしゅんじん）]{style="color:RoyalBlue"}[^1] |
+| 母語                |                                                                                  福建閩南（ふっけん.びんなん） / 漢語（かんご） |
+
+[^1]: すぐ理解する：*古稱（こしょう）[会稽郡（かいけいぐん）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱（げんしょう）[永春県（えいしゅん-けん）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾践世家（しき·こうせんせいか）》**載（さい），夏帝（かてい）少康（しょうこう）の庶子（しょし）無余（むよ）は会稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。*<br>*会稽人王充（おうじゅう）は《論衡·書虛篇》中で引用（いんよう）吳君高の言葉：「会稽本山名。夏禹巡狩，**会計於此山**，因以郡名，**故曰会稽**。」。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
 
 <br><br>
 
-## 学歴
+## 学歴（がくれき）
 
-**2014年4月から 2016年5月まで：プロの証明書、専門データ科学**；([Cousera](http://www.coursera.org) - [ジョンズ ・ ホプキンス大学（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+**[2021年11月から 今迄]{style="color:Red"}：专业文凭，学习金融交易机械化**；（[Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
--   *01 コース：[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
--   *02 コース：[R Programming](https://www.coursera.org/account/accomplishments/certificate/VBB2XUA29B)*
--   *03 コース：[Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
--   *04 コース：[Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
--   *05 コース：[Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
--   *06 コース：[Statistical Inference](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
--   *07 コース：[Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
--   *08 コース：[Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
--   *09 コース：[Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
--   *10 コース：[Data Science Capstone](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)*
--   [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- *01 课程：讲解交易、学习与GCP谷歌云端平台*
+- *02 课程：实践金融交易机械化*
+- *03 课程：学习强化版交易策略*
+- **学习金融交易机械化专业文凭**
+- **GitHub**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**2015年6月から 2015年8月まで：プロの証明書、専門データ科学**；([Cousera](http://www.coursera.org) - [ミシガン州大学（UM）](https://www.umich.edu/)<img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+**[2021年12月から 今迄]{style="color:Red"}：专业文凭，Python统计学之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
--   *コース：[Programming for Everybody (Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- *课程：Python统计学之金融分析*
+- **GitHub**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2002年3月から 2003年12月まで：プロの証明書、日本語能力試験**；([JLPT](http://www.jlpt.jp/index.html) - [(日本語能力試験-日本財団クアラルンプール](http://www.jfkl.org.my/) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>與[日本国際教育支援協会](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**2018年10月から 2021年11月：专业文凭，掌握R语言软件开发**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
--   *コース：[日本語能力試験 - レベル3](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**掌握R语言软件开发专业文凭**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- **GitHub**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+
+<br>
+
+**2021年5月から 2021年7月：专业文凭，学习强化版金融机械化**；（[Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+
+- *课程：[强化版金融机械化简介（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- **GitHub** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+
+<br>
+
+**2021年5月から 2021年7月：专业文凭，贝叶斯统计混合模型**；（[Cousera](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
+
+- *课程：[贝叶斯统计混合模型（R语言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- **GitHub** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+
+<br>
+
+**2021年1月から 2021年1月：专业文凭，生物信息学: 导论与方法**；（[Cousera](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
+
+- *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
+- **GitHub** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+
+<br>
+
+**<s>2016月4月から 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+
+- <s>*课程：电脑科学*</s>
+- **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+
+<br>
+
+**2016年6月から 2016年8月：<s>专业文凭，Specialization Improving Business Finances and Operations</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- <s>*01 课程：会计管理：行为、系统和分析的成本*</s>
+- *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
+- <s>*03 课程：财务评价和战略：投资*</s>
+- *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
+- *05 课程：[运营管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
+- <s>*06 课程：工艺改进*</s>
+- <s>**改善企业财务和运营状况顶点**</s>
+- **GitHub** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+**2016年4月から 2016年8月：<s>专业文凭，数据挖掘</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- *01 课程：[数据视觉化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
+- *02 课程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *03 课程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
+- <s>*04 课程：探索数据挖掘模式*</s>
+- <s>*05 课程：数据挖掘中的聚类分析*</s>
+- <s>**数据挖掘顶点**</s>
+- **Github** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+
+<br>
+
+**2014年4月から 2016年5月迄：専業証明書、専門データ科学**；（[Cousera](http://www.coursera.org) - [ジョンズ ・ ホプキンス大学（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+
+- *01 课程：[データ科学者に必要な工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 课程：[Rプログラミング言語](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *03 课程：[データの獲取と清り](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 课程：[探究データ分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 课程：[再現性の研究](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 课程：[推計統計学](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 课程：[回帰モデル](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 课程：[機械実用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 课程：[データ製品開発](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 课程：[データ科学絶頂](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- [**データ科学専業証明書**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+
+<br>
+
+**2015年6月から 2015年8月迄：専業証明書、専門データ科学**；（[Cousera](http://www.coursera.org) - [ミシガン州大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+
+- *课程：[皆の為のプログラミング（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- **Github** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+
+<br>
+
+**2004年X月から 2004年X月迄：<s>認許会計士，Certified Accounting Technician (CAT)</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+
+- *01 课程：監査の基礎（FAU Foundations in Audit）*
+- *02 课程：課税の基礎（FTX Foundations in Taxation）*
+- *03 课程：財務管理の基礎（FFM Foundations in Financial Management）*
+
+<br>
+
+**2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；（[JLPT](http://www.jlpt.jp/index.html) - [日本語能力試験-日本財団クアラルンプール（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>与[日本国際教育支援協会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>）
+
+- *课程：[日本語能力試験 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+
+<br>
+
+**<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>学部、コンピュータ科学(統計学専攻)</s>**；（[ラマン学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+
+-   *１年生*
+-   *２年生*
+-   <s>*３年生*</s>
+-   <s>*４年生*</s>
 
 <br><br>
 
 ## 職務経験
 
-**2017年11月から 2018年5月まで：顧客サービス**；（[貴族酒店](http://www.aristocrat-rh.com/)で採用されている <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com)で採用されている <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+**2017年11月から 2018年5月迄：顧客サービス**；（[貴族酒店](http://www.aristocrat-rh.com/)で採用されている <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com)で採用されている <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：カンボジアで仕事した、顧客サービス として、たまにはお客さんに詐欺のアクティビティを監査する。*
 
 <br>
 
-**2016年5月から 2016年12月まで：顧客サービス**；（[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)で採用されている <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>）
+**2016年5月から 2016年12月迄：顧客サービス**；（[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)で採用されている <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：MindPearlで仕事してる、[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>のお客さんの一般相談、航空券の予約、航空券の変更など関してごとを処理する必要があります。*
 
 <br>
 
-**2015年10月から 2016年1月まで：オンライン ゲーム、スポーツ トレーダー**；（グローバル ソリューション会社で採用されている）
+**2015年10月から 2016年1月迄：オンライン ゲーム、スポーツ トレーダー**；（グローバル ソリューション会社で採用されている）
 
 -   *ジョブ タスク：長期利益博徒の賭け方法をフォローする事や、アービトラージする事や、ヘッジする事や、中国顧客のお金デポジットを処理する。*
 
 <br>
 
-**2015年5月から 2015年9月まで：オンライン ゲーム、顧客サービス**；（OneMedia会社で採用されている）
+**2015年5月から 2015年9月迄：オンライン ゲーム、顧客サービス**；（OneMedia会社で採用されている）
 
 -   *ジョブ タスク：インバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべて入出金取引を処理します。*
 
 <br>
 
-**2015年2月から 2015年4月まで：オンライン売り場、貿易與交易審查員**；（[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed会社](http://www.idealseed.com/)で採用されている <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>）
+**2015年2月から 2015年4月迄：オンライン売り場、貿易與交易審查員**；（[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed会社](http://www.idealseed.com/)で採用されている <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：[ゼロックス](https://www.xerox.com/)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、インバウンドとアウト．バウンドのコール、チェック、承認/拒否の顧客の注文トランザクションを処理します。*
 
 <br>
 
-**2014年3月から 2014年4月まで：オンライン売り場、顧客サービス**；（[富士ゼロックス](https://www.fujixerox.com)で採用されている <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+**2014年3月から 2014年4月迄：オンライン売り場、顧客サービス**；（[富士ゼロックス](https://www.fujixerox.com)で採用されている <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカルサポートや、着信通話で処理します。*
 
 <br>
 
-**2013年11月から 2014年3月まで：オンライン ゲーム、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp会社](http://www.sbet.com)で採用されている、そして[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交易プラットフォームとソフトウェア技術サポートします）
+**2013年11月から 2014年3月迄：オンライン ゲーム、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp会社](http://www.sbet.com)で採用されている、そして[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交易プラットフォームとソフトウェア技術サポートします）
 
 -   *ジョブ タスク：従業員を管理し、スコアを更新し、ベットを決算します。*
 
 <br>
 
-**2012年11月から 2013年5月まで：テレビ放送チャンネル、ビデオ エディター**；（[U-Drive Media会社](http://www.udrive-media.com/)で採用されている <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月から 2013年5月迄：テレビ放送チャンネル、ビデオ エディター**；（[U-Drive Media会社](http://www.udrive-media.com/)で採用されている <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：[テレコム．マレーシア株式会社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
 
 <br>
 
-**2008年3月から 2012年7月まで：アウトソーシング事業、顧客サービス**；（[Scicom (MSC)株式会社](http://www.scicom-intl.com/)で採用されている <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+**2008年3月から 2012年7月迄：アウトソーシング事業、顧客サービス**；（[Scicom (MSC)株式会社](http://www.scicom-intl.com/)で採用されている <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：[Ladbrokes株式会社](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
 -   [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
@@ -453,13 +709,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月から 2007年6月まで：オンライン売り場、トレーナー/トレーダー**；（[Caspo会社](http://www.callcenterbeat.com/caspo-philippines/)で採用されている <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2006年7月から 2007年6月迄：オンライン売り場、トレーナー/トレーダー**；（[Caspo会社](http://www.callcenterbeat.com/caspo-philippines/)で採用されている <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
 
 <br>
 
-**2005年11月から 2006年7月まで：オンライン ゲーム、チーム リーダー/シニア トレーダー**；（[Telebiz会社](http://www.telebizness.com/)で採用されている <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月から 2006年7月迄：オンライン ゲーム、チーム リーダー/シニア トレーダー**；（[Telebiz会社](http://www.telebizness.com/)で採用されている <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 -   *ジョブ タスク：新規参入者のトレーニングし、ヘッジし、出荷し、スコアの更新し、イベント決済し、データ分析し、コーナーキックなど事もあります。*
 
@@ -503,7 +759,7 @@ op <- options(gvis.plot.tag = 'chart')
 [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
 
 -   *サッカーの試合のデータは**WebDriver Dynamic Webpage Scrapping**で収集されます、加重対角インフレーション二変量ポアソンモデルが適用されます。*
--   *Kelly標準モデルを適用して、2011/12から2012/13までの英国サッカーシーズンデーで10賭け会社に賭けます。*
+-   *Kelly標準モデルを適用して、2011/12から2012/13迄の英国サッカーシーズンデーで10賭け会社に賭けます。*
 -   *詳細については、[此処](https://github.com/Scibrokes/kelly-criterion)でクリックしてください。*
 
 <br>
@@ -531,7 +787,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
--   [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトからのサッカーの試合スコアは、賭博企業の1x2、アジアのディスク、大小の賭けで29の賭けをしたもので、すべてのデータには2006年から2011年までのデータが含まれていますを手動で収集する*
+-   [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトからのサッカーの試合スコアは、賭博企業の1x2、アジアのディスク、大小の賭けで29の賭けをしたもので、すべてのデータには2006年から2011年迄のデータが含まれていますを手動で収集する*
 -   *ベットとリターンをテストするために加重対角インフレーション二変量ポアソンモデルを適用する。*
 -   *詳細については、[此処](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)でクリックしてください。*
 
@@ -557,7 +813,7 @@ tagList(
            class = "bg-info", 
            tags$h3(class = "bg-primary", "Skill and Expertise"), 
            tags$h5(align = "center", class = "text-muted", 
-                   "技能評価 (新入生1から専門10まで)")), 
+                   "技能評価 (新入生1から専門10迄)")), 
   as.htmlwidget(skill %>% formattable(list(
     Level = color_tile('white', 'darkgoldenrod')
     ))))

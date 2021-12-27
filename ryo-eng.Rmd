@@ -516,7 +516,7 @@ op <- options(gvis.plot.tag = 'chart')
 | Ancestral Home      |                                                                         [Chinese Fujian Yong Chun]{style="color:RoyalBlue"}[^1] |
 | Mother Tongue       |                                                                                                              Hokkien / Mandarin |
 
-[^1]: Tips: *Ancient named [会稽郡（Kuaiji County）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217), now named [永春县（Yongchun County）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF).<br>**《史记·勾践世家》**载，夏帝少康之庶子无余封于会稽（在今绍兴市一带），为越国之始祖。<br>会稽人王充在《论衡·书虚篇》中引吴君高之语：“会稽本山名。夏禹巡狩，**会计于此山**，因以郡名，**故曰会稽**。”*
+[^1]: Tips: *Ancient named [会稽郡（Kuaiji County）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217), now named [永春县（Yongchun County）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF).<br>**《史记·勾践世家》**载，夏帝少康之庶子无余封于会稽（现今浙江省绍兴市一带），为越国之始祖。<br>会稽人王充在《论衡·书虚篇》中引吴君高之语：“会稽本山名。夏禹巡狩，**会计于此山**，因以郡名，**故曰会稽**。”*
 
 <br><br>
 

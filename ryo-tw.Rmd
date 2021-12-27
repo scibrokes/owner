@@ -516,13 +516,13 @@ op <- options(gvis.plot.tag = 'chart')
 | 祖籍                |                                                                                 [中國福建省永春人]{style="color:RoyalBlue"}[^1] |
 | 母語                |                                                                                                                 福建閩南 / 漢語 |
 
-[^1]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，夏帝少康之庶子無余封於會稽（在今紹興市一帶），為越國之始祖。*<br>*會稽人王充在《論衡·書虛篇》中引吳君高之語：「會稽本山名。夏禹巡狩，**會計於此山**，因以郡名，**故曰會稽**。」*
+[^1]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，夏帝少康之庶子無余封於會稽（現今浙江省紹興市一帶），為越國之始祖。*<br>*會稽人王充在《論衡·書虛篇》中引吳君高之語：「會稽本山名。夏禹巡狩，**會計於此山**，因以郡名，**故曰會稽**。」*
 
 <br><br>
 
-## 學術背景
+## 學歷
 
-**[2021年11月 至今]{style="color:Red"}：專業文憑，學習金融交易機械化**；（[Cousera](http://www.coursera.org) - [紐約金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+**[2021年11月 迄今]{style="color:Red"}：專業文憑，學習金融交易機械化**；（[Cousera](http://www.coursera.org) - [紐約金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
 - *01 課程：講解交易、學習與GCP谷歌雲端平臺*
 - *02 課程：實踐金融交易機械化*
@@ -532,7 +532,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**[2021年12月 至今]{style="color:Red"}：專業文憑，Python統計學之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
+**[2021年12月 迄今]{style="color:Red"}：專業文憑，Python統計學之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *課程：Python統計學之金融分析*
 - **GitHub**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
@@ -572,7 +572,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2016月4月 to 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+**<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*課程：電腦科學*</s>
 - **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
@@ -612,9 +612,9 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 課程：[探索性數據分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
 - *05 課程：[再循環科研](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
 - *06 課程：[統計推斷](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
-- *07 課程：[線性統計模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
-- *08 課程：[實用機械化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
-- *09 課程：[開發數據產品](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *07 課程：[回歸模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 課程：[機械實用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 課程：[數據產品開發](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 課程：[數據科學頂點](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**數據科學專業文憑**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
@@ -632,7 +632,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 - *01 課程：審計基礎（FAU Foundations in Audit）*
 - *02 課程：稅務基礎（FTX Foundations in Taxation）*
-- *03 課程：金融管理基礎（FFM Foundations in Financial Management）*
+- *03 課程：財務管理基礎（FFM Foundations in Financial Management）*
 
 <br>
 
@@ -642,7 +642,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月5月 to 2005年8月</s> 2002年5月 至 2003年12月：<s>大學本科，電腦科學（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月5月 至 2005年8月</s> 2002年5月 至 2003年12月：<s>大學本科，電腦科學（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -   *大一*
 -   *大二*
@@ -653,7 +653,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 至今]{style="color:Red"}：Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[2020年10月 迄今]{style="color:Red"}：Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *簡介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
 - *工作明細：在金融市場中科研統計建模與高頻量化交易等，和數據分析，之後會到中國大陸發展。*
