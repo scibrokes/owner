@@ -662,7 +662,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali_36x36.jpg" width="20" align="center" valign="middle"/>）
+**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
 - *简介：东方集团乃中国商业集团*
 - *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析数据与负责风控。*
@@ -683,12 +683,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2015年10月 至 2016年1月：网络博彩，足球彩券操盘手**；（受聘于Global Solution Sdn Bhd）
 
+- *简介：受聘于郭建辉，在旧巴生路特易购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
 **2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于OneMedia Sdn Bhd）
 
+- *简介：公司在吉隆坡南门。*
 - *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
 <br>
@@ -707,6 +709,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
+- *简介：GBlink在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
@@ -762,7 +765,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="52" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -989,25 +992,33 @@ skill |>
 - **2007年 至 2008年** (受聘于Scicom前 --- 2008年3月30日前)，大哥在怡观园的皇帽旗下代理餐馆（一家台湾女老板的餐馆 --- 大家乐小食中心）开档口当小贩。
 - **2009年 至 2010年**，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style="color:RoyalBlue"}[^4]。
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
-- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没有人际与客源。
-- **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
-- **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
-- **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
-- **Mar-2014**（before employed by FujiXerox last day of Mar-2014）, A restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor.
-- **2014**, Hunting for some online gaming jobs etc.
-- **2016**, An outdoor salesman with Mybooks Publisher in Equine Park (Selangor and Kedah states).
-- **2016**, [Bachelor Degree in Computer Science http://my.uopeople.edu/my](https://github.com/englianhu/UoP-computer-science) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>
-- **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall.
-- **2018**, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
-- **2018**, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia, etc.
+- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
+- **2013年7月 至 2013年9月**，在安邦的AIA大厦的[AIA（友邦保险）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
+- **2013年10月1号**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
+- **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
+- **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
+- **2014年**，找了几份网游之类的工作。
+- **2016年**，在怡观园（Equine Park）的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
+- **2018年**，在无拉港Aeon Mall广场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港Aeon商场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
+- **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
+- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间2楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
+- **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
+- **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
+2003/2004年离开*Prestige Investment Ltd*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 
 [^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 
-[^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*听到没有？！这就是我经常对大家说的专业！*<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
+[^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*<br>Unprofessional Hedge Fund（不够专业避险基金）:[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>*听到没有？！这就是我经常对大家说的专业！*<br>Expert / Professional Hedge Fund（专业避险基金）:[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金 [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅 [安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+
+欲知更多关于我的详情，请参阅个人部落格。
+
+- [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [GitHub 部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo 源代码](https://github.com/englianhu/englianhu.github.io))
+- [简书](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
+- [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -1180,6 +1191,8 @@ sys
 - 您亦可参阅[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)修改网页外观。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有许多图标可供参考与应用。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+- [`echarts4r`](https://echarts4r.john-coene.com) R程序包。
+- [`sass`](https://rstudio.github.io/sass) R程序包。
 
 <br><br>
 

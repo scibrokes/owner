@@ -662,7 +662,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali_36x36.jpg" width="14" align="center" valign="middle"/>)
+**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>)
 
 - *Summary : Oriental Group is a Chinese business group.*
 - *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
@@ -683,12 +683,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Oct-2015 to Jan-2016 : Online Gambling, Trader**; (employed by Global Solution Sdn Bhd)
 
+- *Summary : employ by Quah Kian Huei and work in 13A/14 floor Soho upstairs Tesco Old Klang Road, bosses are Hong Kongnese, Eric‘s is Malaysian therefore long stay Malaysia, Kuan-Hao and Kuan-Keat always travelling Macao.*
 - *Job Task : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
 
 <br>
 
 **May-2015 to Sep-2015 : Online Gambling, Customer Service**; (employed by OneMedia Sdn Bhd)
 
+- *Summary : Being KL SouthGate。*
 - *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
 <br>
@@ -707,6 +709,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Nov-2013 to Mar-2014 : Online Gambling, Team Leader/Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
 
+- *Summary : GBlink being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
 - *Job Task : Handling few members to update scores and bets settlement.*
 
 <br>
@@ -762,7 +765,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>)
+**Jul-2003 to Aug-2003 : Mini-Market, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="52" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
 
 - *Summary : Work for Japanese. All Japanese but few Malaysians, Japanese boss.*
 - *Job Task : Not only work as an indoor grocery store staff, coincident during Bon-Odori（盆踊り）festival and build a stall as hawker in Panasonic Stadium Shah Alam to sell Japanese cuisine foods.*
@@ -989,22 +992,24 @@ skill |>
 - **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady.
 - **2009 to 2010**, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^4]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
 - **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
-- **2013**, Setup owned RStudio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but .
+- **2013**, Setup owned RStudio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
 - **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
-- **Nov-2013**, Mike Chong Yu Ming rush to contact me and bought a ticket to me to flight to Hong Kong, I flight to Hong Kong within few days without resignation, colleagues Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"}.
-- **Mar-2014** (before employed by FujiXerox last day of Mar-2014), A restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor.
+- **Nov-2013**, One day, Mike Chong Yu Ming rush to contact and employ me, bought a air ticket for me, I flight to Hong Kong Kow Long within few days without resignation. Colleague Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"} when I work in SBet.
+- **Mar-2014**, Work with my eldest brother as a restaurant frontend/backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor for one month before employed by FujiXerox on 31-Mar-2014).
 - **2014**, Hunting for some online gaming jobs etc.
-- **2016**, An outdoor salesman with Mybooks Publisher in Equine Park (Selangor and Kedah states).
-- **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall.
-- **2018**, A part-time kitchen staff in steamboat restaurant（记德食） opposite Balakong Aeon Mall.
-- **2018**, A customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia, etc.
+- **2016**, An outdoor salesman with Mybooks Publisher in Equine Park. Initially being Selangor and then move to Kedah state.
+- **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall, work in other 2 branches as well (behind Aeon Mall Balakong, Subang Jaya in front of Help University, largest night market Cheras Tmn Connaught).
+- **2018**, A chief of Bakut-Teh introduce me to work as a part-time kitchen staff in PTN Steamboat Restaurant（记德捞*海鲜火锅食*） opposite Balakong Aeon Mall, Cheras Selatan 118.
+- **2018**, Work as a customer service in [Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia Sihanoukville, due to very dangerous and one day 2nd floor of hostel explode and few gunshots during lunch time, staffs escape to office and a fatty guy manager ask me to flight back Malaysia on spot.
+- **2018**, employ by Bron Ong through facebook and work as an online casino dealer's agent in Johor Bharu (clients being Cambodia Sihanoukville) for one month (the company wrongly doing accounting and audit, very dangerous but the boss don't let me resign), resign and get back Selangor upon my mother's death.
+- **10-Oct-2020**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> again.
 
-When the day I leaving *Prestige Investment Ltd*, the boss Thomas only say "哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays.
+2003/2004, when the day I leaving *Prestige Investment Ltd*, the boss Thomas only say ["哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays]{style="color:#F6A217"}.
 
 [^3]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style="color:RoyalBlue"} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
 
-[^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不够专业避险基金） : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*听到没有？！这就是我经常对大家说的专业！*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（专业避险基金） : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
+[^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund (不够专业避险基金) : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*听到没有？！这就是我经常对大家说的专业！*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund (专业避险基金) : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
 Because of noted that George Soros's mom know multilingual and there has a lot of advantages, I learnt Korean langauge, German language, <s>French language</s>. I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
@@ -1110,16 +1115,14 @@ Kindly refer to my personal blogs for more information about me.
 
 It's useful to record some information about how your file was created.
 
--   File creation date: 2015-10-12
--   File latest updated date: `r today('Asia/Tokyo')`
--   `r R.version.string`
--   [**rmarkdown**](https://github.com/rstudio/rmarkdown) package
-    version: `r packageVersion('rmarkdown')`
--   File version: 0.2.1
--   Author Profile: [®γσ, ξηg Lιαη
-    Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
--   GitHub: [Source Code](https://github.com/scibrokes/owner)
--   Additional session information
+- File creation date: 2015-10-12
+- File latest updated date: `r today('Asia/Tokyo')`
+- `r R.version.string`
+- [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
+- File version: 0.2.1
+- Author Profile: [®γσ, ξηg Lιαη     Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- GitHub: [Source Code](https://github.com/scibrokes/owner)
+- Additional session information
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}
 suppressMessages(require('formattable', quietly = TRUE))
@@ -1180,16 +1183,16 @@ sys
 
 ## References
 
--   You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
--   [prettydoc](http://yixuan.cos.name/prettydoc)
--   [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
--   You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
--   Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
--   You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
--   There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
--   [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
--   [`echarts4r`](https://echarts4r.john-coene.com) r package.
--   [`sass`](https://rstudio.github.io/sass) r package.
+- You are feel free to create your own CV by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+- [prettydoc](http://yixuan.cos.name/prettydoc)
+- [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+- You can plot a [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date) graph or load the [timeline](http://jason.bryer.org/timeline) package.
+- Here I apply [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) package to plot the animated graph. You are feel free to browse over the [vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf) for more examples.
+- You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
+- There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
+- [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
+- [`echarts4r`](https://echarts4r.john-coene.com) R package.
+- [`sass`](https://rstudio.github.io/sass) R package.
 
 <br><br>
 
