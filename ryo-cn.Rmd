@@ -522,64 +522,64 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 学历
 
-**[2021年11月 迄今]{style="color:Red"}：专业文凭，学习金融交易机械化**；（[Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+**[2021年11月 迄今]{style="color:Red"}：专业文凭，学习金融交易机械化专项课程**；（[Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
 - *01 课程：讲解交易、学习与GCP谷歌云端平台*
 - *02 课程：实践金融交易机械化*
 - *03 课程：学习强化版交易策略*
-- **学习金融交易机械化专业文凭**
-- **GitHub**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- **学习金融交易机械化专项课程**
+- **GitHub库**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 **[2021年12月 迄今]{style="color:Red"}：专业文凭，Python统计学之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *课程：Python统计学之金融分析*
-- **GitHub**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **GitHub库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2018年10月 至 2021年11月：专业文凭，掌握R语言软件开发**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+**2018年10月 至 2021年11月：专业文凭，掌握R语言软件开发专项课程**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
 - *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
 - *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
 - *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**掌握R语言软件开发专业文凭**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **GitHub**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- [**掌握R语言软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- **GitHub库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
 **2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化**；（[Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
 
 - *课程：[强化版金融机械化简介（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
-- **GitHub** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+- **GitHub库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[Cousera](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
 - *课程：[贝叶斯统计混合模型（R语言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **GitHub** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- **GitHub库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[Cousera](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **GitHub** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+- **GitHub库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*课程：电脑科学*</s>
-- **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- **GitHub库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-**2016年6月 至 2016年8月：<s>专业文凭，Specialization Improving Business Finances and Operations</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+**2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - <s>*01 课程：会计管理：行为、系统和分析的成本*</s>
 - *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
@@ -587,24 +587,26 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 课程：[运营管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 课程：工艺改进*</s>
-- <s>**改善企业财务和运营状况顶点**</s>
-- **GitHub** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- <s>*07 课程：提升企业财务和运营顶点*</s>
+- <s>**提升企业财务和运营专项课程**</s>
+- **GitHub库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
-**2016年4月 至 2016年8月：<s>专业文凭，数据挖掘</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+**2016年4月 至 2016年8月：<s>专业文凭，数据挖掘专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 课程：[数据视觉化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 课程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
 - *03 课程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
 - <s>*04 课程：探索数据挖掘模式*</s>
 - <s>*05 课程：数据挖掘中的聚类分析*</s>
-- <s>**数据挖掘顶点**</s>
-- **Github** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- <s>*数据挖掘顶点*</s>
+- <s>**数据挖掘专项课程**</s>
+- **GitHub库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
-**2014年4月 至 2016年5月：专业文凭，数据科学系**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+**2014年4月 至 2016年5月：专业文凭，数据科学专项课程**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
 - *01 课程：[数据科学家必备工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
 - *02 课程：[R编程语言](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
@@ -616,15 +618,15 @@ op <- options(gvis.plot.tag = 'chart')
 - *08 课程：[机械实用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 课程：[数据产品开发](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 课程：[数据科学顶点](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
-- [**数据科学专业文凭**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- [**数据科学专项课程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- **GitHub库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
 **2015年6月 至 2015年8月：专业文凭，数据科学系**；（[Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
 - *课程：[为每个人而设的编程语言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- **Github** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- **GitHub库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
@@ -642,7 +644,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月5月 至 2005年8月</s> 2002年5月 至 2003年12月：<s>大学本科，电脑科学（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月5月 至 2005年8月</s> 2002年5月 至 2003年12月：<s>大学本科，电脑科学系（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -   *大一*
 -   *大二*
