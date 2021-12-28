@@ -516,7 +516,7 @@ op <- options(gvis.plot.tag = 'chart')
 | 祖籍                |                                                                                 [中国福建省永春人]{style="color:RoyalBlue"}[^1] |
 | 母语                |                                                                                                                 福建闽南 / 汉语 |
 
-[^1]: 秒懂：*古称[会稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，现称[永春县](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史记·勾践世家》**载，夏帝少康之庶子无余封于会稽（现今浙江省绍兴市一带），为越国之始祖。*<br>*会稽人王充在《论衡·书虚篇》中引吴君高之语：“会稽本山名。夏禹巡狩，**会计于此山**，因以郡名，**故曰会稽**。”*
+[^1]: 秒懂：*古称[会稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，现称[永春县](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史记·勾践世家》**载，夏帝少康之庶子无余封于会稽（现今浙江省绍兴市一带），为越国之始祖。*<br>*会稽人王充在《论衡·书虚篇》中引吴君高之语：「会稽本山名。夏禹巡狩，**会计于此山**，因以郡名，**故曰会稽**。」*
 
 <br><br>
 
@@ -524,18 +524,18 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[2021年11月 迄今]{style="color:Red"}：专业文凭，学习金融交易机械化专项课程**；（[Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
-- *01 课程：讲解交易、学习与GCP谷歌云端平台*
+- *01 课程：初识交易、学习与谷歌云端平台（GCP）*
 - *02 课程：实践金融交易机械化*
 - *03 课程：学习强化版交易策略*
 - **学习金融交易机械化专项课程**
-- **GitHub库**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- **Github库**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 **[2021年12月 迄今]{style="color:Red"}：专业文凭，Python统计学之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *课程：Python统计学之金融分析*
-- **GitHub库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **Github库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -547,35 +547,39 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**掌握R语言软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **GitHub库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **Github库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化**；（[Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+**2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化专项课程**；（[Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
 
-- *课程：[强化版金融机械化简介（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
-- **GitHub库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+- <s>*01 课程：金融机械化导览*</s>
+- <s>*02 课程：金融机械化基础*</s>
+- <s>*03 课程：强化版金融学*</s>
+- *04 课程：[概述强化版金融机械化（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- **学习强化版金融机械化专项课程**
+- **Github库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[Cousera](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
 - *课程：[贝叶斯统计混合模型（R语言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **GitHub库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- **Github库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[Cousera](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **GitHub库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+- **Github库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*课程：电脑科学*</s>
-- **GitHub库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- **Github库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
@@ -589,7 +593,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*06 课程：工艺改进*</s>
 - <s>*07 课程：提升企业财务和运营顶点*</s>
 - <s>**提升企业财务和运营专项课程**</s>
-- **GitHub库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- **Github库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
@@ -600,9 +604,9 @@ op <- options(gvis.plot.tag = 'chart')
 - *03 课程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
 - <s>*04 课程：探索数据挖掘模式*</s>
 - <s>*05 课程：数据挖掘中的聚类分析*</s>
-- <s>*数据挖掘顶点*</s>
+- <s>*06 课程：数据挖掘项目*</s>
 - <s>**数据挖掘专项课程**</s>
-- **GitHub库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- **Github库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -619,14 +623,19 @@ op <- options(gvis.plot.tag = 'chart')
 - *09 课程：[数据产品开发](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 课程：[数据科学顶点](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**数据科学专项课程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **GitHub库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **Github库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
-**2015年6月 至 2015年8月：专业文凭，数据科学系**；（[Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+**2015年6月 至 2015年8月：专业文凭，为每个人而设的Python专项课程**；（[Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
-- *课程：[为每个人而设的编程语言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- **GitHub库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- *01 课程：[为每个人而设的编程语言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- <s>*02 课程：Python数据结构*</s>
+- <s>*03 课程：使用Python读取网络数据*</s>
+- <s>*04 课程：在Python中使用数据库*</s>
+- <s>*05 课程：使用Python检索、处理和数据视觉化顶点*</s>
+- <s>**为每个人而设的Python专项课程**</s>
+- **Github库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
@@ -655,7 +664,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 迄今]{style="color:Red"}：Owner**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[2020年10月 迄今]{style="color:Red"}：创办人兼物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
 - *工作明细：在金融市场中科研统计建模与高频量化交易等，和数据分析，之后会到中国大陆发展。*

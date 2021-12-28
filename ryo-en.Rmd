@@ -604,7 +604,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *03 Course title : [Text Mining and Analytics](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
 - <s>*04 Course title : Pattern Discovery in Data Mining*</s>
 - <s>*05 Course title : Cluster Analysis in Data Mining*</s>
-- <s>*06 Course title : Data Mining Capstone Capstone*</s>
+- <s>*06 Course title : Data Mining Project*</s>
 - <s>**Data Mining Specialization**</s>
 - **Github Repo** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
@@ -664,7 +664,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Experience
 
-**[Oct-2020 to Present]{style="color:Red"} : Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[Oct-2020 to Present]{style="color:Red"} : Founder and Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
 - *Job Task : Conducting R&D on statistical modelling and HFT in financial market etc and data analysis, will flight to China Mainland.*
