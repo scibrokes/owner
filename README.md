@@ -73,4 +73,4 @@ You are welcome to browse my personal blog :
 
 ---
 
-[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/>®](http://www.scibrokes.com)個人の経営企業**]{style="color:RoyalBlue"}
+<span style='color:RoyalBlue'>**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com) 個人の経営企業**</span>

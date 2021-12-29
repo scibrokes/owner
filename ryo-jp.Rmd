@@ -724,80 +724,70 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 研究と技術的な経験
 
-[**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+**Github倉庫**：[**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 -   *株式會社/企業の財務諸表と株価の分析する。*
 -   *SB1とSB2の財務諸表を分析する。*
--   *詳細については、[此処](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)でクリックしてください。*
 
 <br>
 
-[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
+**Github倉庫**：[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
 -   *金融賭け製品モデリング、また戦略を賭けてのバックテストです。*
 -   *Arimaモデル、スムージングモデルと様々なGarchモデル、Kellyベッティングモデルなどをバックテストする。*
 -   *不足している値のデータセットを補完し、高頻度取引のバックテストもあります。*
--   *詳細については、[此処](https://github.com/englianhu/binary.com-interview-question)でクリックしてください。*
 
 <br>
 
-[**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
+**Github倉庫**：[**Betting Strategy and Model Validation**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
 -   *SeleniumとPhantomjsソフトウェアを使用してオンラインサッカーデータを収集する。*
 -   *自然言語解析してる、サッカーの試合データを収集し、ヘッジ．ファンドからのベットイベントのチームチーム名とチーム名を自動的に一致させます。*
 -   *Kelly標準モデルでレバレッジベット賭け方法を使用する。*
--   *詳細については、[此処](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)でクリックしてください。*
 
 <br>
 
-[**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
+**Github倉庫**：[**Introducing ®Studio Server for Data Scientists**](https://github.com/scibrokes/setup-rstudio-server)
 
 -   *centOS7オペレーティングシステムで自分のRStudioとShinyアプリケーションチュートリアルを構築する方法を教えてあげます。*
--   *詳細については、[此処](https://github.com/Scibrokes/setup-rstudio-server)でクリックしてください。*
 
 <br>
 
-[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
+**Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/scibrokes/kelly-criterion)
 
 -   *サッカーの試合のデータは**WebDriver Dynamic Webpage Scrapping**で収集されます、加重対角インフレーション二変量ポアソンモデルが適用されます。*
 -   *Kelly標準モデルを適用して、2011/12から2012/13迄の英国サッカーシーズンデーで10賭け會社に賭けます。*
--   *詳細については、[此処](https://github.com/Scibrokes/kelly-criterion)でクリックしてください。*
 
 <br>
 
-[**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
+**Github倉庫**：[**Dixon-Coles1996**](https://github.com/scibrokes/Dixon-Coles1996)
 
 -   *Dixon & Coles 1996サッカースコアモデリング。*
--   *詳細については、[此処](https://github.com/Scibrokes/Dixon-Coles1996)でクリックしてください。*
 
 <br>
 
-[**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
+**Github倉庫**：[**WebDriver Dynamic Webpage Scrapping**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 -   *RSeneniumとPythonソフトウェアを使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け會社のオッズデータを収集し、得点を合わせるも収集する。*
--   *詳細については、[此処](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)でクリックしてください。*
 
 <br>
 
-[**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
+**Github倉庫**：[**Soccer League Web Scraping**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 -   *静的ウェブサッカーのマッチデータを収集する。*
--   *詳細については、[此処](https://github.com/Scibrokes/Soccer-League-Web-Scraping)でクリックしてください。*
 
 <br>
 
-[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+**Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 -   [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトからのサッカーの試合スコアは、賭博企業の1x2、アジアのディスク、大小の賭けで29の賭けをしたもので、すべてのデータには2006年から2011年迄のデータが含まれていますを手動で収集する*
 -   *ベットとリターンをテストするために加重対角インフレーション二変量ポアソンモデルを適用する。*
--   *詳細については、[此処](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)でクリックしてください。*
 
 <br>
 
-[**Apply Poisson regression on sports odds modelling**](https://www.dropbox.com/sh/h3e6gv59onz311j/AAAFcfFOfon-kEhveTzvHGHza?dl=0)
+**Github倉庫**：[**Apply Poisson regression on sports odds modelling**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 -   *単変量ポアソンモデルでサッカーオッズモデリングの応用する。*
--   *詳細については、[Calculator.xls](https://github.com/scibrokes/owner/blob/master/data/Calculator.xls)と[Statistics (ver3).xls](https://github.com/scibrokes/owner/blob/master/data/Statistics%20(ver3).xls)でクリックしてください。*
 
 <br><br>
 
@@ -837,7 +827,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 
 ## その他
 
-現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交易に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
+現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交易に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
 
 [^1]: 網站尚未建成，尚努力當中。
 
