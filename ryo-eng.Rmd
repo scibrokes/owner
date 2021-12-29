@@ -522,7 +522,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance (ニューヨーク金融研究所)](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
 - *01 Course title : Introduction to Trading, Machine Learning & GCP*
 - *02 Course title : Using Machine Learning in Trading and Finance*
@@ -532,7 +532,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [香港科技大学 (The Hong Kong University of Science and Technology)](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
+**[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [The Hong Kong University of Science and Technology](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
 
 - *Course title : Python and Statistics for Financial Analysis*
 - **Github Repo** : [Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
@@ -569,7 +569,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods 生物信息学: 导论与方法**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
 
 - *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github Repo** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
@@ -706,7 +706,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+**Feb-2015 to Apr-2015 : Online Retails, Fraud Prevention**; (employed by [IdealSeed Resources Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
 - *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
@@ -739,7 +739,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
+**Nov-2012 to May-2013 : TV Broadcasting Channel, Video Editor**; (employed by [UDrive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
 - *Summary : TM is a bluechip company in Malaysia.*
 - *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
@@ -789,7 +789,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2001 to Apr-2002 : Restaurant, Waiter**; (employed by [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>)
+**Nov-2001 to Apr-2002 : Restaurant, Waiter**; (employed by [Esquire Kitchen](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>)
 
 - *Summary : A Chinese cuisine chain restaurant with chef's special [Braised Pork Belly（东波肉）]{style="color:#F6A217"} and [Boneless Chicken Breast（宫保鸡丁）]{style="color:#F6A217"} etc.*
 - *Job Task : Front desk server / waiter.*

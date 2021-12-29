@@ -544,7 +544,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
 - *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
 - *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
-- *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *04 课程：[开发数据视觉化工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**掌握R语言软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github仓库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
@@ -585,12 +585,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
-- <s>*01 课程：会计管理：行为、系统和分析的成本*</s>
+- <s>*01 课程：会计管理：成本习性、系统与分析*</s>
 - *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
 - <s>*03 课程：财务评价和战略：投资*</s>
 - *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 课程：[运营管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
-- <s>*06 课程：工艺改进*</s>
+- <s>*06 课程：工艺提升*</s>
 - <s>*07 课程：提升企业财务和运营顶点*</s>
 - <s>**提升企业财务和运营专项课程**</s>
 - **Github仓库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
@@ -639,11 +639,11 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2004年X月 至 2004年X月：<s>国际公认会计技师，Certified Accounting Technician (CAT)</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+**2004年X月 至 2004年X月：<s>国际公认会计技师（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
 
-- *01 课程：审计基础（FAU Foundations in Audit）*
-- *02 课程：税务基础（FTX Foundations in Taxation）*
-- *03 课程：财务管理基础（FFM Foundations in Financial Management）*
+- *01 课程：审计基础*
+- *02 课程：税务基础*
+- *03 课程：财务管理基础*
 
 <br>
 
@@ -686,110 +686,110 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月 至 2016年12月：网络零售，客服人员**；（受聘于[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+**2016年5月 至 2016年12月：网络零售，客服人员**；（受聘于[万宝盛华人力资源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
 
 - *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
 
 <br>
 
-**2015年10月 至 2016年1月：网络博彩，足球彩券操盘手**；（受聘于Global Solution Sdn Bhd）
+**2015年10月 至 2016年1月：网络博彩，足球彩券操盘手**；（受聘于Global Solution有限公司）
 
 - *简介：受聘于郭建辉，在旧巴生路特易购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
-**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于OneMedia Sdn Bhd）
+**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于OneMedia有限公司）
 
 - *简介：公司在吉隆坡南门。*
 - *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
 <br>
 
-**2015年2月 至 2015年4月：网络零售，贸易与交易审查员**；（受聘于[IdealSeed Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+**2015年2月 至 2015年4月：网络零售，贸易与交易审查员**；（受聘于[IdealSeed资源有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
-- *工作明细：在[Xerox](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
+- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
 
 <br>
 
-**2014年3月 至 2014年4月：网络零售，客服人员**；（受聘于[FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+**2014年3月 至 2014年4月：网络零售，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 - *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
 
 <br>
 
-**2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp Ltd](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 - *简介：GBlink在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
 
-**2013年10月 至 2013年11月：水管建设与维修，客服人员**；(受聘于[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+**2013年10月 至 2013年11月：水管建设与维修，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
-- *简介：为德意志德国人（伟大的德国人Unsere Besten）做工。*
+- *简介：资信利（Getronics）乃德国公司，为德意志德国人（伟大的德国人Unsere Besten）做工。*
 - *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
 
 <br>
 
-**2013年7月 至 2013年9月：保险业，电销员**；(受聘于[AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+**2013年7月 至 2013年9月：保险业，电销员**；(受聘于[美国友邦保险](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
 - *简介：美国友邦保险（American Insurance Assurance）。*
 - *工作明细：外拨的保险电销员。*
 
 <br>
 
-**2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[U-Drive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[UDrive Media有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *简介：TM乃马来西亚蓝筹股。*
 - *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
-**2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+**2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 - *简介：为布列颠英国人做工。*
-- *工作明细：接听所有[Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
+- *工作明细：接听所有[立博上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
 - 获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - 获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
-**2006年7月 至 2007年6月：网络生意，培训师兼操盘手**；（受聘于[Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2006年7月 至 2007年6月：网络生意，培训师兼操盘手**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
-**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手**；（受聘于[Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手**；（受聘于[Telebiz有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：Telebiz乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：网上金融市场，交易员/代理**；（受聘于[Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：网上金融市场，交易员/代理**；（受聘于[Prestige投资有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
 - *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
 
 <br>
 
-**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[筑地商场（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
 
 <br>
 
-**2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
+**2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
 
 - *工作明细：在酒店内的唐宫当前台服务员。*
 
 <br>
 
-**2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
+**2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[大人餐厅](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
 
 - *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
 - *工作明细：前台服务员。*

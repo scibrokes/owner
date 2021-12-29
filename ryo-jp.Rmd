@@ -366,7 +366,7 @@ resource_files:
 
 <img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
-リョウ，黃聯富（こう.れん.ふ/とみ）
+リョウ，黃聯富（こう・れん・ふ/とみ）
 
 <br>
 [[**主題曲（しゅだいきょく）**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
@@ -457,7 +457,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## 設置（せっち）
+## 設置
 
 ```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
@@ -511,139 +511,149 @@ op <- options(gvis.plot.tag = 'chart')
 | 行動電話號碼        |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
 | 電子郵箱            |                                                                                                             englianhu@gmail.com |
 | 國籍                |                                                                                                                    マレーシア人 |
-| 出生地              |                                                                               タンジョング.カラング, セランゴール州, マレーシア |
+| 出生地              |                                                                              タンジョング・カラング, セランゴール州, マレーシア |
 | 宗教                |                                                                                                                  仏家（ぶっけ） |
-| 祖籍                |                                    [中国福建省永春人（ちゅうごく.ふっけん‐しょう.えいしゅんじん）]{style="color:RoyalBlue"}[^1] |
+| 祖籍                |                                  [中国福建省永春人（ちゅうごく・ふっけん‐しょう・えいしゅんじん）]{style="color:RoyalBlue"}[^1] |
 | 母語                |                                                                                  福建閩南（ふっけん.びんなん） / 漢語（かんご） |
 
-[^1]: すぐ理解する：*古稱（こしょう）[會稽郡（かいけいぐん）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱（げんしょう）[永春県（えいしゅん-けん）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾践世家（しき·こうせんせいか）》**載（さい），夏帝（かてい）少康（しょうこう）の庶子（しょし）無余（むよ）は會稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。*<br>*會稽人王充（おうじゅう）は《論衡·書虛篇》中で引用（いんよう）吳君高の言葉：「會稽本山名。夏禹巡狩，**會計於此山**，因以郡名，**故曰會稽**。」。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
+[^1]: すぐ理解する：*古稱（こしょう）[會稽郡（かいけい-ぐん）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱（げんしょう）[永春県（えいしゅん-けん）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記・勾践世家（しき・こうせん・せいか）》**載（さい），[*「夏帝少康（かてい・しょうこう）の庶子（しょし）無余（むよ）は會稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。」*]{style="color:#F6A217"}<br>*會稽人王充（おうじゅう）は《論衡・書虛篇》中で引用（いんよう）吳君高の言葉：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
 
 <br><br>
 
 ## 學歴（がくれき）
 
-**[2021年11月から 今迄]{style="color:Red"}：専業証明書、學习金融交易机械化**；（[Cousera](http://www.coursera.org) - [纽约金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+**[2021年11月から 今迄]{style="color:Red"}：専業証明書、専門學習金融交昜機械化**；（[Cousera](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
-- *01 课程：讲解交易、學习与GCP谷歌云端平台*
-- *02 课程：实践金融交易机械化*
-- *03 课程：學习强化版交易策略*
-- **學习金融交易机械化专业文凭**
-- **GitHub**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
-
-<br>
-
-**[2021年12月から 今迄]{style="color:Red"}：専業証明書、Python统计學之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
-
-- *课程：Python统计學之金融分析*
-- **GitHub**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- *01 課程：初識交昜、學習とグーグル雲端平臺（ひらだい）（GCP）*
+- *02 課程：金融交昜の機械化を實踐する*
+- *03 課程：學習強化版交昜の戦略*
+- **専門學習金融交昜機械化**
+- **Github倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**2018年10月から 2021年11月：専業証明書、掌握R语言软件开发**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+**[2021年12月から 今迄]{style="color:Red"}：専業証明書、Python统计學の金融分析**；（[Cousera](http://www.coursera.org) - [香港科技（かぎ）大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
-- *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
-- *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
-- *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
-- *04 课程：[开发数据视觉化之工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**掌握R语言软件开发专业文凭**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **GitHub**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- *課程：Python统计學の金融分析*
+- **Github倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2021年5月から 2021年7月：専業証明書、學习强化版金融机械化**；（[Cousera](http://www.coursera.org) - [纽约大學（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+**2018年10月から 2021年11月迄：専業証明書、専門習得R言語軟件開発**；（[Cousera](http://www.coursera.org) - [ジョンズ・ホプキンズ大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
-- *课程：[强化版金融机械化简介（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
-- **GitHub** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
-
-<br>
-
-**2021年5月から 2021年7月：専業証明書、贝叶斯统计混合模型**；（[Cousera](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
-
-- *课程：[贝叶斯统计混合模型（R语言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **GitHub** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- *01 課程：[R編程（へんてい）言語環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 課程：[上級R编程言語](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 課程：[Rパッケージ開発](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *04 課程：[開発データ視覚化（しかくか）工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *05 課程：[習得R言語軟件開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**専門習得R言語軟件開発**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- **Github倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2021年1月から 2021年1月：専業証明書、生物信息學: 导论与方法**；（[Cousera](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
+**2021年5月から 2021年7月迄：専業証明書、専門學習強化版金融機械化**；（[Cousera](http://www.coursera.org) - [ニューヨーク大學（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
 
-- *课程：[生物信息學: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **GitHub** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
-
-<br>
-
-**<s>2016月4月から 2019年7月</s> 2016年4月 至 2016年6月：<s>學部、コンピュータ科學繫</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
-
-- <s>*课程：电脑科學*</s>
-- **GitHub** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- <s>*01 課程：金融機械化ガイド*</s>
+- <s>*02 課程：金融機械化の基礎*</s>
+- <s>*03 課程：強化版金融學*</s>
+- *04 課程：[強化版金融機械化の概要（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- **専門學習強化版金融機械化**
+- **Github倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
-**2016年6月から 2016年8月：<s>専業証明書、Specialization Improving Business Finances and Operations</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+**2021年5月から 2021年7月迄：専業証明書、ベイズ統計混合模型**；（[Cousera](http://www.coursera.org) - [カリフォルニア大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
-- <s>*01 课程：會计管理：行为、系统和分析的成本*</s>
-- *02 课程：[管理會计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
-- <s>*03 课程：财务评价和战略：投资*</s>
-- *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
-- *05 课程：[运营管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
-- <s>*06 课程：工艺改进*</s>
-- <s>**改善企业财务和运营状况顶点**</s>
-- **GitHub** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- *課程：[ベイズ統計混合模型（こんごう・もけい）（R言语）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- **Github倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-**2016年4月から 2016年8月：<s>専業証明書、専門数据挖掘</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+**2021年1月から 2021年1月迄：専業証明書、生物情報學: 導論と方法**；（[Cousera](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
-- *01 课程：[数据视觉化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
-- *02 课程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
-- *03 课程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
-- <s>*04 课程：探索数据挖掘模式*</s>
-- <s>*05 课程：数据挖掘中的聚类分析*</s>
-- <s>*06 课程：数据挖掘顶点*</s>
-- <s>**数据挖掘専業証明書**</s>
-- **Github** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- *課程：[生物情報學: 導論と方法（隠れマルコフ模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
+- **Github倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-**2014年4月から 2016年5月迄：専業証明書、専門データ科學**；（[Cousera](http://www.coursera.org) - [ジョンズ ・ ホプキンス大學（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+**<s>2016月4月から 2019年7月</s> 2016年4月 至 2016年6月迄：<s>學部、電脳科學繫</s>**；（[人民（じんみん）大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
-- *01 课程：[データ科學者に必要な工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-- *02 课程：[Rプログラミング言語](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
-- *03 课程：[データの獲取と清り](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
-- *04 课程：[探究データ分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
-- *05 课程：[再現性の研究](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
-- *06 课程：[推計統計學](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
-- *07 课程：[回帰モデル](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
-- *08 课程：[機械実用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
-- *09 课程：[データ製品開発](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 课程：[データ科學絶頂](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- <s>*課程：電脳（でんのう）科學*</s>
+- **Github倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+
+<br>
+
+**2016年6月から 2016年8月迄：<s>専業証明書、専門企業の財務と運営向上</s>**；（[Cousera](http://www.coursera.org) - [イリノイ大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- <s>*01 課程：会計管理：コスト習性、繫統（けいとう）と分析*</s>
+- *02 課程：[管理會計：商業決定の促進と指導ために工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
+- <s>*03 課程：財務評価と戦略：投資*</s>
+- *04 課程：[財務評価と戦略：企業財務](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
+- *05 課程：[運用管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
+- <s>*06 課程：工藝向上*</s>
+- <s>*07 課程：企業の財務と運営向上頂點*</s>
+- <s>**専門企業の財務と運営向上**</s>
+- **Github倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+
+<br>
+
+**2016年4月から 2016年8月迄：<s>専業証明書、専門データ掘出</s>**；（[Cousera](http://www.coursera.org) - [イリノイ大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+
+- *01 課程：[データ視覚化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
+- *02 課程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *03 課程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
+- <s>*04 課程：探索数据挖掘模式*</s>
+- <s>*05 課程：数据挖掘中的聚类分析*</s>
+- <s>*06 課程：データ掘出（ほりだす）項目（こうもく）*</s>
+- <s>**専門データ掘出**</s>
+- **Github倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+
+<br>
+
+**2014年4月から 2016年5月迄：専業証明書、専門データ科學**；（[Cousera](http://www.coursera.org) - [ジョンズ・ホプキンズ大學（JHU）](https://www.jhu.edu/) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+
+- *01 課程：[データ科學者に必要な工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
+- *02 課程：[R编程言語](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *03 課程：[データの獲取と清り](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
+- *04 課程：[探究データ分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
+- *05 課程：[再現性の研究](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
+- *06 課程：[推計統計學](https://www.coursera.org/account/accomplishments/records/jXzs4bAFXZfJ3Dne)*
+- *07 課程：[回帰モデル](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
+- *08 課程：[機械実用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
+- *09 課程：[データ製品開発](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
+- *10 課程：[データ科學絶頂](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**データ科學専業証明書**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **Github** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **Github倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
-**2015年6月から 2015年8月迄：専業証明書、専門データ科學**；（[Cousera](http://www.coursera.org) - [ミシガン州大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+**2015年6月から 2015年8月迄：専業証明書、専門皆の為にPython**；（[Cousera](http://www.coursera.org) - [ミシガン大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
-- *课程：[皆の為のプログラミング（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- **Github** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- *01 課程：[皆の為に编程言語（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- <s>*02 課程：Python數據結構*</s>
+- <s>*03 課程：使用Python讀取網絡數據*</s>
+- <s>*04 課程：在Python中使用數據庫*</s>
+- <s>*05 課程：使用Python檢索、處理和數據視覺化頂點*</s>
+- <s>**専門皆の為にPython**</s>
+- **Github倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
-**2004年X月から 2004年X月迄：<s>認許會計士，Certified Accounting Technician (CAT)</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业學院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+**2004年X月から 2004年X月迄：<s>認許會計士（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业學院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
 
-- *01 课程：監査の基礎（FAU Foundations in Audit）*
-- *02 课程：課税の基礎（FTX Foundations in Taxation）*
-- *03 课程：財務管理の基礎（FFM Foundations in Financial Management）*
+- *01 課程：監査の基礎*
+- *02 課程：課税の基礎*
+- *03 課程：財務管理の基礎*
 
 <br>
 
 **2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>与[日本国際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>）
 
-- *课程：[日本語能力試験 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *課程：[日本語能力試験 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
 
 <br>
 
-**<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>學部、コンピュータ科學繫（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>學部、電脳科學繫（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -   *１年生*
 -   *２年生*
