@@ -633,7 +633,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*02 课程：Python数据结构*</s>
 - <s>*03 课程：使用Python读取网络数据*</s>
 - <s>*04 课程：在Python中使用数据库*</s>
-- <s>*05 课程：使用Python检索、处理和数据视觉化顶点*</s>
+- <s>*05 课程：使用Python检索、处理和视觉化数据顶点*</s>
 - <s>**为每个人而设的Python专项课程**</s>
 - **Github仓库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
@@ -664,16 +664,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 迄今]{style="color:Red"}：创办人兼物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人兼物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
-- *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}*[^2]
-- *工作明细：在金融市场中科研统计建模与高频量化交易等，和数据分析，之后会到中国大陆发展。*
+- *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
+- *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易等，和数据分析，之后会到中国大陆发展。*
 
-[^2]: [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
+[^2]: [*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg®（GitHub）*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg®（脸谱）*](https://facebook.com/scibrokes).
 
 <br>
 
-**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai)) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
+**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
 - *简介：东方集团乃中国商业集团*
 - *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析数据与负责风控。*
@@ -686,7 +686,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月 至 2016年12月：网络零售，客服人员**；（受聘于[万宝盛华人力资源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+**2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
 
 - *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
 
@@ -706,26 +706,26 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2015年2月 至 2015年4月：网络零售，贸易与交易审查员**；（受聘于[IdealSeed资源有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+**2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[IdealSeed资源有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
 - *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
 
 <br>
 
-**2014年3月 至 2014年4月：网络零售，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+**2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 - *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
 
 <br>
 
-**2013年11月 至 2014年3月：网络博彩交易，队长兼操盘手**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络博彩，队长兼操盘手**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 - *简介：GBlink在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
 
-**2013年10月 至 2013年11月：水管建设与维修，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+**2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *简介：资信利（Getronics）乃德国公司，为德意志德国人（伟大的德国人Unsere Besten）做工。*
 - *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
@@ -739,7 +739,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2012年11月 至 2013年5月：电台节目与电子媒体，节目直播审查员**；（受聘于[UDrive Media有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月 至 2013年5月：电子媒体，节目直播审查员**；（受聘于[UDrive Media有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *简介：TM乃马来西亚蓝筹股。*
 - *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
@@ -750,12 +750,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 - *简介：为布列颠英国人做工。*
 - *工作明细：接听所有[立博上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
-- 获奖[Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-- 获奖[(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+- 获奖[客服研讨会](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
+- 获奖[（立博）嘉许状.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
-**2006年7月 至 2007年6月：网络生意，培训师兼操盘手**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2006年7月 至 2007年6月：网络博彩，培训师兼操盘手**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
@@ -769,14 +769,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：网上金融市场，交易员/代理**；（受聘于[Prestige投资有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：网络金融业，交易员/代理**；（受聘于[Prestige投资有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
 - *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
 
 <br>
 
-**2003年7月 至 2003年8月：迷你市场，杂货店工人**；（受聘于[筑地商场（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -993,7 +993,7 @@ skill |>
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
 - **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大厦的[AIA（友邦保险）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
-- **2013年10月1号**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
+- **2013年10月1号**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
 - **2014年**，找了几份网游之类的工作。
@@ -1002,7 +1002,7 @@ skill |>
 - **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
 - **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间2楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
-- **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
+- **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
 2003/2004年离开*Prestige Investment Ltd*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 

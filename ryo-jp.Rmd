@@ -545,7 +545,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 課程：[上級R编程言語](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
 - *03 課程：[Rパッケージ開発](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 課程：[開発データ視覚化（しかくか）工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 課程：[習得R言語軟件開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- *05 課程：[習得R言語軟件（なんけん）開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**専門習得R言語軟件開発**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
@@ -600,10 +600,10 @@ op <- options(gvis.plot.tag = 'chart')
 **2016年4月から 2016年8月迄：<s>専業証明書、専門データ掘出</s>**；（[Cousera](http://www.coursera.org) - [イリノイ大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 課程：[データ視覚化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
-- *02 課程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
-- *03 課程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
-- <s>*04 課程：探索数据挖掘模式*</s>
-- <s>*05 課程：数据挖掘中的聚类分析*</s>
+- *02 課程：[テキスト検索（けんさく）と検索エンジン](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *03 課程：[テキスト掘出と解析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
+- <s>*04 課程：探索データ掘出モード*</s>
+- <s>*05 課程：データ掘出中のクラスタ分析*</s>
 - <s>*06 課程：データ掘出（ほりだす）項目（こうもく）*</s>
 - <s>**専門データ掘出**</s>
 - **Github倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
@@ -622,7 +622,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *08 課程：[機械実用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 課程：[データ製品開発](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 課程：[データ科學絶頂](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
-- [**データ科學専業証明書**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
+- [**専門データ科學**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
@@ -630,10 +630,10 @@ op <- options(gvis.plot.tag = 'chart')
 **2015年6月から 2015年8月迄：専業証明書、専門皆の為にPython**；（[Cousera](http://www.coursera.org) - [ミシガン大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 課程：[皆の為に编程言語（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- <s>*02 課程：Python數據結構*</s>
-- <s>*03 課程：使用Python讀取網絡數據*</s>
-- <s>*04 課程：在Python中使用數據庫*</s>
-- <s>*05 課程：使用Python檢索、處理和數據視覺化頂點*</s>
+- <s>*02 課程：Pythonデータ構造*</s>
+- <s>*03 課程：Pythonでインターネットデータを読み込み*</s>
+- <s>*04 課程：Pythonで使用データベース*</s>
+- <s>*05 課程：Pythonでデータを取得、処理と視覚化頂點*</s>
 - <s>**専門皆の為にPython**</s>
 - **Github倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
@@ -655,80 +655,166 @@ op <- options(gvis.plot.tag = 'chart')
 
 **<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>學部、電脳科學繫（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
--   *１年生*
--   *２年生*
--   <s>*３年生*</s>
--   <s>*４年生*</s>
+-   *一年生*
+-   *二年生*
+-   <s>*三年生*</s>
+-   <s>*四年生*</s>
 
 <br><br>
 
 ## 職務経験
 
-**2017年11月から 2018年5月迄：顧客サービス**；（[貴族酒店](http://www.aristocrat-rh.com/)で採用されている <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com)で採用されている <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+**[2020年10月から 今迄]{style="color:Red"}：線上（せんじょう）金融業、創始者（そうししゃ）兼物主/オーナー**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
--   *ジョブ タスク：カンボジアで仕事した、顧客サービス として、たまにはお客さんに詐欺のアクティビティを監査する。*
+- *簡介（かんかい）：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]が世界的な市場では、投資家のための数理統計によって高投資収益率を生産する量化投資管理会社です。*
+- *仕事詳細：金融市場で科学研究統計モデリング、危機管理や高周波自動演算量化交昜、データ分析など、その後中国大陸に発展する。*
+
+[^2]: [*Sςιβrοκεrs Trαdιηg®（公式サイト）*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg®（GitHub）*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg®（睑谱（れんぷ）/隈取（くまどり））*](https://facebook.com/scibrokes).
 
 <br>
 
-**2016年5月から 2016年12月迄：顧客サービス**；（[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/)で採用されている <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>）
+**2019年11月から 2020年7月迄：線上富くじ、業務員（ぎょうむいん）**；（[東方集団旗下（きか）：樂發集団の阿裏と一號彩（阿裏富くじ）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>に雇用（こよう）された）
+
+- *簡介：東方集團乃中國商業集團*
+- *仕事詳細：在菲律賓克拉克工作（除了少許外國人，全是中國大陸同胞），作為佛繫推廣人員，推廣審查單帶會員，分析彩票中獎率與編寫交昜繫統；半年後轉到運維部門分析數據與負責風控。*
+
+<br>
+
+**2017年11月から 2018年5月迄：線上富くじ、顧客支援（こきゃく・しえん）**；（[貴族酒店](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>に雇用された）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>に雇用された）
+
+-   *ジョブ タスク：カンボジアで仕事した、顧客支援として、たまにはお客さんに詐欺のアクティビティを監査する。*
+
+- *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
+
+<br>
+
+**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>に雇用された）
 
 -   *ジョブ タスク：MindPearlで仕事してる、[マレーシア航空會社](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>のお客さんの一般相談、航空券の予約、航空券の変更など関してごとを処理する必要があります。*
 
+- *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
+
 <br>
 
-**2015年10月から 2016年1月迄：オンライン ゲーム、スポーツ トレーダー**；（グローバル ソリューション會社で採用されている）
+**2015年10月から 2016年1月迄：線上遊戯（ゆうぎ）、交昜員**；（グローバル ソリューション會社に雇用された）
 
 -   *ジョブ タスク：長期利益博徒の賭け方法をフォローする事や、アービトラージする事や、ヘッジする事や、中国顧客のお金デポジットを処理する。*
 
+- *简介：受聘于郭建辉，在旧巴生路特昜购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
+- *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
+
 <br>
 
-**2015年5月から 2015年9月迄：オンライン ゲーム、顧客サービス**；（OneMedia會社で採用されている）
+**2015年5月から 2015年9月迄：線上富くじ、顧客支援**；（OneMedia會社に雇用された）
 
 -   *ジョブ タスク：インバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべて入出金取引を処理します。*
 
+- *简介：公司在吉隆坡南门。*
+- *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
+
 <br>
 
-**2015年2月から 2015年4月迄：オンライン売り場、貿易與交易審查員**；（[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed會社](http://www.idealseed.com/)で採用されている <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>）
+**2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed會社](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
 -   *ジョブ タスク：[ゼロックス](https://www.xerox.com/)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、インバウンドとアウト．バウンドのコール、チェック、承認/拒否の顧客の注文トランザクションを処理します。*
 
-<br>
-
-**2014年3月から 2014年4月迄：オンライン売り場、顧客サービス**；（[富士ゼロックス](https://www.fujixerox.com)で採用されている <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
-
--   *ジョブ タスク：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカルサポートや、着信通話で処理します。*
+- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交昜是否舞弊，外拨电话。*
 
 <br>
 
-**2013年11月から 2014年3月迄：オンライン ゲーム、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp會社](http://www.sbet.com)で採用されている、そして[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交易プラットフォームとソフトウェア技術サポートします）
+**2014年3月から 2014年4月迄：線上売り、顧客支援**；（[富士ゼロックス](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>に雇用された）
+
+-   *ジョブ タスク：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカル支援や、着信通話で処理します。*
+
+- *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
+
+<br>
+
+**2013年11月から 2014年3月迄：線上遊戯、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp會社](http://www.sbet.com)に雇用された、そして[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援します）
 
 -   *ジョブ タスク：従業員を管理し、スコアを更新し、ベットを決算します。*
 
+- *简介：GBlink在香港九龙红磡，老板们都是香港人。*
+- *工作明细：管理下属、更新比分、赛事结算。*
+
 <br>
 
-**2012年11月から 2013年5月迄：テレビ放送チャンネル、ビデオ エディター**；（[U-Drive Media會社](http://www.udrive-media.com/)で採用されている <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2013年10月 至 2013年11月：排水工程、顧客支援**；([资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
+
+- *简介：资信利（Getronics）乃德国公司，为德意志德国人（伟大的德国人Unsere Besten）做工。*
+- *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+
+<br>
+
+**2013年7月 至 2013年9月：保险业，电销员**；([美国友邦保险](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">に雇用された)
+
+- *简介：美国友邦保险（American Insurance Assurance）。*
+- *工作明细：外拨的保险电销员。*
+
+<br>
+
+**2012年11月から 2013年5月迄：テレビ放送チャンネル、ビデオ エディター**；（[UDrive Media會社](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
 
 -   *ジョブ タスク：[テレコム．マレーシア株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
 
-<br>
-
-**2008年3月から 2012年7月迄：アウトソーシング事業、顧客サービス**；（[Scicom (MSC)株式會社](http://www.scicom-intl.com/)で採用されている <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
-
--   *ジョブ タスク：[Ladbrokes株式會社](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
--   [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
--   [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
+- *简介：TM乃马来西亚蓝筹股。*
+- *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
-**2006年7月から 2007年6月迄：オンライン売り場、トレーナー/トレーダー**；（[Caspo會社](http://www.callcenterbeat.com/caspo-philippines/)で採用されている <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2008年3月から 2012年7月迄：アウトソーシング事業、顧客支援**；（[Scicom (MSC)株式會社](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
+
+-   *ジョブ タスク：[立博（たつひろ）株式會社](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
+-   [顧客支援研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
+-   [(立博) 感謝状（かんしゃじょう）.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
+
+- *简介：为布列颠英国人做工。*
+- *工作明细：接听所有[立博上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
+
+<br>
+
+**2006年7月から 2007年6月迄：線上売り場、トレーナー/トレーダー**；（[Caspo會社](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
 -   *ジョブ タスク：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
 
+- *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
+- *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
+
 <br>
 
-**2005年11月から 2006年7月迄：オンライン ゲーム、チーム リーダー/シニア トレーダー**；（[Telebiz會社](http://www.telebizness.com/)で採用されている <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月から 2006年7月迄：線上遊戯、チーム リーダー/シニア トレーダー**；（[Telebiz會社](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
 -   *ジョブ タスク：新規参入者のトレーニングし、ヘッジし、出荷し、スコアの更新し、イベント決済し、データ分析し、コーナーキックなど事もあります。*
+
+- *简介：Telebiz乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
+- *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
+
+<br>
+
+**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestige投資有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>に雇用された）
+
+- *簡介：Prestige Investment Ltd乃一家亞太紐西蘭外匯投資機構。*
+- *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
+
+<br>
+
+**2003年7月 至 2003年8月：零售業，雜貨店工人**；（[築地商場（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
+
+- *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
+- *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
+
+<br>
+
+**2003年7月 至 2003年7月：飲食業，前臺服務員**；（[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>に雇用された）
+
+- *工作明細：在酒店內的唐宮當前臺服務員。*
+
+<br>
+
+**2001年11月 至 2002年4月：飲食業，前臺服務員**；（[大人餐廳](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>に雇用された）
+
+- *簡介：一家中華料理連鎖餐廳，而招牌菜乃[東波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宮保雞丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
+- *工作明細：前臺服務員。*
 
 <br><br>
 
@@ -751,7 +837,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github倉庫**：[**Betting Strategy and Model Validation**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
--   *SeleniumとPhantomjsソフトウェアを使用してオンラインサッカーデータを収集する。*
+-   *SeleniumとPhantomjs軟件を使用して線上（せんじょう）サッカーデータを収集する。*
 -   *自然言語解析してる、サッカーの試合データを収集し、ヘッジ．ファンドからのベットイベントのチームチーム名とチーム名を自動的に一致させます。*
 -   *Kelly標準モデルでレバレッジベット賭け方法を使用する。*
 
@@ -778,7 +864,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
--   *RSeneniumとPythonソフトウェアを使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け會社のオッズデータを収集し、得点を合わせるも収集する。*
+-   *RSeneniumとPython軟件を使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け會社のオッズデータを収集し、得点を合わせるも収集する。*
 
 <br>
 
@@ -804,7 +890,7 @@ op <- options(gvis.plot.tag = 'chart')
 ## スキル
 
 ```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('Rプログラミング', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客サービス', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科學', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交易'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
+skill <- data_frame(c('Rプログラミング', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客支援（こきゃく・しえん）', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科學', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交昜'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
 names(skill) <- c('技能', 'レベル')
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
@@ -837,7 +923,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 
 ## その他
 
-現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交易に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
+現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交昜に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
 
 [^1]: 網站尚未建成，尚努力當中。
 
