@@ -887,7 +887,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中使用柏松現行模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+**Github倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中使用柏松線性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 - *應用單變量泊松模型足球賠率建模。*
 
@@ -902,7 +902,9 @@ require('formattable', quietly = TRUE, warn.conflicts = FALSE)
 require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
-skill <- tibble('技能' = c('計量經濟學', '量化交昜', 'R編程語言', '微軟辦公軟件', 'SQL語言', 'Python編程語言', '數據分析', '客服工作', '體育博彩行業', '建立RStudio服務器', '統計學', '數據科學', 'Shiny應用', 'Linux操作繫統', 'Web API應用程序接口', 'Sparklyr大數據分析', '張量Tensorflow', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 2, 4, 3, 5))
+skill <- tibble(
+  '技能' = c('計量經濟學', '量化交昜', 'R編程語言', '微軟辦公軟件', 'SQL語言', 'Python編程語言', '數據分析', '客服工作', '體育博彩行業', '建立RStudio服務器', '統計學', '數據科學', 'Shiny應用', 'Linux操作繫統', 'Web API應用程序接口', 'Sparklyr大數據分析', '高級 R', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / pytorch', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
 skill |> 
