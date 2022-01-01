@@ -655,8 +655,8 @@ op <- options(gvis.plot.tag = 'chart')
 
 **<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>學部、電脳科學繫（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
--   *一年生*
--   *二年生*
+-  *一年生*
+-  *二年生*
 -   <s>*三年生*</s>
 -   <s>*四年生*</s>
 
@@ -673,50 +673,54 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2019年11月から 2020年7月迄：線上富くじ、業務員（ぎょうむいん）**；（[東方集団旗下（きか）：樂發集団の阿裏と一號彩（阿裏富くじ）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>に雇用（こよう）された）
+**2019年11月から 2020年7月迄：線上富くじ、業務員**；（[東方集団旗下（きか）：樂發集団の阿裏と壱號彩（阿裏富くじ）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>に雇用（こよう）された）
 
-- *簡介：東方集團乃中國商業集團*
-- *仕事詳細：在菲律賓克拉克工作（除了少許外國人，全是中國大陸同胞），作為佛繫推廣人員，推廣審查單帶會員，分析彩票中獎率與編寫交昜繫統；半年後轉到運維部門分析數據與負責風控。*
-
-<br>
-
-**2017年11月から 2018年5月迄：線上富くじ、顧客支援（こきゃく・しえん）**；（[貴族酒店](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>に雇用された）（カンボジアで、第二の仕事は[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>に雇用された）
-
--   *ジョブ タスク：カンボジアで仕事した、顧客支援として、たまにはお客さんに詐欺のアクティビティを監査する。*
-
-- *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
+- *簡介：東方集団は中國商業集団で御座います*
+- *仕事詳細：クラーク（フィリピン）で働いて(少しの外国人を除いて、すべて中国大陸の同胞です)、仏系業務員（ぎょうむいん）として、普及や審査会員の反詐欺して、富くじの当選一率を分析して交昜平臺を編纂します;半年後に運維部門に移って會社の財務、会員や製品損益報告書を分析して、反詐欺と風制御も担当します。*
 
 <br>
 
-**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[Mindpearl](https://www.mindpearl.com/) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[Manpower Human Resource Sdn Bhd](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>に雇用された）
+**2017年11月から 2018年5月迄：線上富くじ、顧客支援**；（[貴族酒店（しゅてん）](http://www.aristocrat-rh.com/) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>に雇用された）（カンボジアで、二番目の仕事は[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：MindPearlで仕事してる、[マレーシア航空會社](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>のお客さんの一般相談、航空券の予約、航空券の変更など関してごとを処理する必要があります。*
-
-- *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
+- *仕事詳細：カンボジアのシハヌク(西港)で働いていて、阿裏發の顧客支援（こきゃく・しえん）員(私たちのプロジェクトはほとんどマレーシア人ですが、すべて中国大陸の同胞と少しのカンボジア人)として働いていますが、時には顧客の預金と不正行為を監視し、審査し無ければ成りません。二番目の仕事は巴域(カンボジアとベトナムの国境)です。*
 
 <br>
 
-**2015年10月から 2016年1月迄：線上遊戯（ゆうぎ）、交昜員**；（グローバル ソリューション會社に雇用された）
+**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（じんりょくしげん）有限會社（ゆうげんがいしゃ）](http://www.manpower.com.my/) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：長期利益博徒の賭け方法をフォローする事や、アービトラージする事や、ヘッジする事や、中国顧客のお金デポジットを処理する。*
+- *仕事詳細：疎邦再也(マレーシア)MindPearl事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜州（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。。*
+
+<br>
+
+**2015年10月から 2016年1月迄：線上富くじ、交昜員**；（グローバル・ソリューション有限會社に雇用された）
+
+- *仕事詳細：長期利益博徒の賭け方法をフォローする事や、アービトラージする事や、ヘッジする事や、中国顧客のお金デポジットを処理する。*
 
 - *简介：受聘于郭建辉，在旧巴生路特昜购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
+郭建輝に招聘され、旧巴生路テスコ商場上の13A/14階で出勤した。ボスたちは香港人で、Eric妻マレーシア籍のためマレーシアに常駐していたが、君豪と君傑はよくマカオに着いた。
+
+仕事の明細:フォロー(長期的に利益を得たプロプレイヤーの注文に従って賭ける)、水を打って利益を得て、中国の取引先のために預金を処理します。
+
+*要約：クア・キアンHueiによる雇用と13 / 14階ソーホーのテオコ旧クランロード、上司で働いています、上司は香港Kongnese、エリックのはマレーシアのため、長い滞在マレーシア、kuan haoとkuanキーートは常にマカオを旅行している*
+
+*ジョブタスク：SportsBooks Puntersの賭けに従って、ヘッジして、病的なギャンブラーに反対して、中国本土顧客のために預金取引をしてく
+
 <br>
 
-**2015年5月から 2015年9月迄：線上富くじ、顧客支援**；（OneMedia會社に雇用された）
+**2015年5月から 2015年9月迄：線上富くじ、顧客支援**；（OneMedia有限會社に雇用された）
 
--   *ジョブ タスク：インバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべて入出金取引を処理します。*
+- *仕事詳細：インバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべて入出金取引を処理します。*
 
 - *简介：公司在吉隆坡南门。*
 - *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
 <br>
 
-**2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed會社](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
+**2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple有限會社](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[IdealSeed資源有限會社](http://www.idealseed.com/) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：[ゼロックス](https://www.xerox.com/)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、インバウンドとアウト．バウンドのコール、チェック、承認/拒否の顧客の注文トランザクションを処理します。*
+- *仕事詳細：[ゼロックス](https://www.xerox.com/)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、インバウンドとアウト．バウンドのコール、チェック、承認/拒否の顧客の注文トランザクションを処理します。*
 
 - *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交昜是否舞弊，外拨电话。*
 
@@ -724,7 +728,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2014年3月から 2014年4月迄：線上売り、顧客支援**；（[富士ゼロックス](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカル支援や、着信通話で処理します。*
+- *仕事詳細：台湾組で働いて、台湾顧客にプリンタのメンテナンスー関して事や、販売することや、テクニカル支援や、着信通話で処理します。*
 
 - *工作明细：台湾小组，接听台湾顾客的列印机问题、预订、安排维修人员与退货、在线技术支援等等。*
 
@@ -732,7 +736,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2013年11月から 2014年3月迄：線上遊戯、チーム リーダー/トレーダー**；（トレーダーのために、[SBSolutionCorp會社](http://www.sbet.com)に雇用された、そして[GBLinks](http://www.gb-links.com/) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援します）
 
--   *ジョブ タスク：従業員を管理し、スコアを更新し、ベットを決算します。*
+-  *仕事詳細：従業員を管理し、スコアを更新し、ベットを決算します。*
 
 - *简介：GBlink在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
@@ -755,16 +759,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2012年11月から 2013年5月迄：テレビ放送チャンネル、ビデオ エディター**；（[UDrive Media會社](http://www.udrive-media.com/) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：[テレコム．マレーシア株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
+-  *仕事詳細：[テレコム．マレーシア株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
 
 - *简介：TM乃马来西亚蓝筹股。*
 - *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
-**2008年3月から 2012年7月迄：アウトソーシング事業、顧客支援**；（[Scicom (MSC)株式會社](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
+**2008年3月から 2012年7月迄：アウトソーシング事業、顧客支援**；（[Scicom (MSC)有限會社](http://www.scicom-intl.com/) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：[立博（たつひろ）株式會社](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
+-  *仕事詳細：[立博（たつひろ）上场會社（じょうじょうかいしゃ）](http://www.ladbrokesplc.com/)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の極東お客さんからのインバウンドとアウト．バウンドの電話、ライブ チャット、フィードバック、すべての預金、撤退、また電話で賭ける事を処理します。*
 -   [顧客支援研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
 -   [(立博) 感謝状（かんしゃじょう）.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
 
@@ -775,7 +779,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2006年7月から 2007年6月迄：線上売り場、トレーナー/トレーダー**；（[Caspo會社](http://www.callcenterbeat.com/caspo-philippines/) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
+-  *仕事詳細：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
 
 - *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
@@ -784,21 +788,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2005年11月から 2006年7月迄：線上遊戯、チーム リーダー/シニア トレーダー**；（[Telebiz會社](http://www.telebizness.com/) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
--   *ジョブ タスク：新規参入者のトレーニングし、ヘッジし、出荷し、スコアの更新し、イベント決済し、データ分析し、コーナーキックなど事もあります。*
+-  *仕事詳細：新規参入者のトレーニングし、ヘッジし、出荷し、スコアの更新し、イベント決済し、データ分析し、コーナーキックなど事もあります。*
 
 - *简介：Telebiz乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestige投資有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>に雇用された）
+**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestige投資有限會社](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>に雇用された）
 
 - *簡介：Prestige Investment Ltd乃一家亞太紐西蘭外匯投資機構。*
 - *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
 
 <br>
 
-**2003年7月 至 2003年8月：零售業，雜貨店工人**；（[築地商場（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
+**2003年7月 至 2003年8月：零售業，雜貨店工人**；（[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
 
 - *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
@@ -822,75 +826,75 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github倉庫**：[**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
--   *株式會社/企業の財務諸表と株価の分析する。*
--   *SB1とSB2の財務諸表を分析する。*
+-  *株式會社/企業の財務諸表と株価の分析する。*
+-  *SB1とSB2の財務諸表を分析する。*
 
 <br>
 
 **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
--   *金融賭け製品モデリング、また戦略を賭けてのバックテストです。*
--   *Arimaモデル、スムージングモデルと様々なGarchモデル、Kellyベッティングモデルなどをバックテストする。*
--   *不足している値のデータセットを補完し、高頻度取引のバックテストもあります。*
+-  *金融賭け製品モデリング、また戦略を賭けてのバックテストです。*
+-  *Arimaモデル、スムージングモデルと様々なGarchモデル、Kellyベッティングモデルなどをバックテストする。*
+-  *不足している値のデータセットを補完し、高頻度取引のバックテストもあります。*
 
 <br>
 
 **Github倉庫**：[**Betting Strategy and Model Validation**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
--   *SeleniumとPhantomjs軟件を使用して線上（せんじょう）サッカーデータを収集する。*
--   *自然言語解析してる、サッカーの試合データを収集し、ヘッジ．ファンドからのベットイベントのチームチーム名とチーム名を自動的に一致させます。*
--   *Kelly標準モデルでレバレッジベット賭け方法を使用する。*
+-  *SeleniumとPhantomjs軟件を使用して線上（せんじょう）サッカーデータを収集する。*
+-  *自然言語解析してる、サッカーの試合データを収集し、ヘッジ．ファンドからのベットイベントのチームチーム名とチーム名を自動的に一致させます。*
+-  *Kelly標準モデルでレバレッジベット賭け方法を使用する。*
 
 <br>
 
 **Github倉庫**：[**Introducing ®Studio Server for Data Scientists**](https://github.com/scibrokes/setup-rstudio-server)
 
--   *centOS7オペレーティングシステムで自分のRStudioとShinyアプリケーションチュートリアルを構築する方法を教えてあげます。*
+-  *centOS7オペレーティングシステムで自分のRStudioとShinyアプリケーションチュートリアルを構築する方法を教えてあげます。*
 
 <br>
 
 **Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/scibrokes/kelly-criterion)
 
--   *サッカーの試合のデータは**WebDriver Dynamic Webpage Scrapping**で収集されます、加重対角インフレーション二変量ポアソンモデルが適用されます。*
--   *Kelly標準モデルを適用して、2011/12から2012/13迄の英国サッカーシーズンデーで10賭け會社に賭けます。*
+-  *サッカーの試合のデータは**WebDriver Dynamic Webpage Scrapping**で収集されます、加重対角インフレーション二変量ポアソンモデルが適用されます。*
+-  *Kelly標準モデルを適用して、2011/12から2012/13迄の英国サッカーシーズンデーで10賭け會社に賭けます。*
 
 <br>
 
 **Github倉庫**：[**Dixon-Coles1996**](https://github.com/scibrokes/Dixon-Coles1996)
 
--   *Dixon & Coles 1996サッカースコアモデリング。*
+-  *Dixon & Coles 1996サッカースコアモデリング。*
 
 <br>
 
 **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
--   *RSeneniumとPython軟件を使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け會社のオッズデータを収集し、得点を合わせるも収集する。*
+-  *RSeneniumとPython軟件を使用して，[7M](http://odds.7m.hk/en/)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトから賭け會社のオッズデータを収集し、得点を合わせるも収集する。*
 
 <br>
 
 **Github倉庫**：[**Soccer League Web Scraping**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
--   *静的ウェブサッカーのマッチデータを収集する。*
+-  *静的ウェブサッカーのマッチデータを収集する。*
 
 <br>
 
 **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 -   [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en/)ウェブサイトからのサッカーの試合スコアは、賭博企業の1x2、アジアのディスク、大小の賭けで29の賭けをしたもので、すべてのデータには2006年から2011年迄のデータが含まれていますを手動で収集する*
--   *ベットとリターンをテストするために加重対角インフレーション二変量ポアソンモデルを適用する。*
+-  *ベットとリターンをテストするために加重対角インフレーション二変量ポアソンモデルを適用する。*
 
 <br>
 
 **Github倉庫**：[**Apply Poisson regression on sports odds modelling**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
--   *単変量ポアソンモデルでサッカーオッズモデリングの応用する。*
+-  *単変量ポアソンモデルでサッカーオッズモデリングの応用する。*
 
 <br><br>
 
-## スキル
+## 技能（ぎのう）
 
 ```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('Rプログラミング', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客支援（こきゃく・しえん）', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科學', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交昜'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
+skill <- data_frame(c('R編程言語', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客支援', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科學', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交昜'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
 names(skill) <- c('技能', 'レベル')
 
 #'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
@@ -923,31 +927,134 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 
 ## その他
 
+- **2001/2002年**，当初首份工作经中学同学张慧燕介绍到[巴生百利广场](https://www.klang.parade.com.my)内的[大人餐厅](https://esquirekitchen.com)当前台服务生。
+- **2003/2004年**，与两个哥哥和邻居，四人创办[**Starline Platation Ltd**]{style="color:RoyalBlue"}农业公司。
+- **2003/2004年**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce灯饰专卖店当室内销售员。
+- **2003/2004年**，在吉隆坡怡保路3里路HSBC银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
+- **2003/2004年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宫当前台服务员。
+- **2003/2004年**，在吉隆坡怡保路5里路/甲洞当汽车销售员/维修员。
+- **2003/2004年**，在谷中城对面的[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>内的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/>当迷你市场店员。
+- **2003/2004年**，经[拉曼学院电脑科学系同学兼最佳好友谢德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^3]录用，到他家乡适耕庄的网吧（高峰电脑中心）当柜台小生。
+- **2006年7月**，在Telebiz工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。
+- **2007年 至 2008年** (受聘于Scicom前 --- 2008年3月30日前)，大哥在怡观园的皇帽旗下代理餐馆（一家台湾女老板的餐馆 --- 大家乐小食中心）开档口当小贩。
+- **2009年 至 2010年**，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style="color:RoyalBlue"}[^4]。
+- **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
+- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
+- **2013年7月 至 2013年9月**，在安邦的AIA大厦的[AIA（友邦保险）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
+- **2013年10月1号**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
+- **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
+- **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
+- **2014年**，找了几份网游之类的工作。線上遊戯（ゆうぎ）
+- **2014年12月**，在斯裏肯邦安大學嶺的Aqua Health Service水機過濾器公司當電銷。
+- **2016年**，在怡观园（Equine Park）的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
+- **2018年**，在无拉港Aeon Mall广场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港Aeon商场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
+- **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
+- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间2楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
+- **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
+- **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
+
+2003/2004年离开*Prestige Investment Ltd*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
+
 現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交昜に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
 
-[^1]: 網站尚未建成，尚努力當中。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XkriLEIOyqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+[^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 
-</iframe>
+[^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不够专业避险基金）：[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（专业避险基金）：[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dtq88JrzYfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
-</iframe>
+欲知更多关于我的详情，请参阅个人部落格。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3pnXMEusQCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+- [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [GitHub 部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo 源代码](https://github.com/englianhu/englianhu.github.io))
+- [简书](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
+- [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E9_eAm2tTns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</iframe>
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 
 ## ソーシャル．メディア
 
-<a href='https://www.coursera.org/user/i/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera_36x36.jpg" height="48"/></a> <a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin_36x36.jpg" height="48"/></a> <a href='skype:englianhu?call'><img src="www/skype_36x36.jpg" height="48"/></a> <a href='https://www.facebook.com/englianhu'><img src="www/facebook2_36x36.jpg" height="48"/></a> <a href='https://plus.google.com/+黄联富'><img src="www/gplus_36x36.jpg" height="48"/></a> <a href='https://twitter.com/englianhu'><img src="www/twitter_36x36.jpg" height="48"/></a> <a href='https://about.me/englianhu'><img src="www/aboutme_36x36.jpg" height="48"/></a> <a href='https://instagram.com/englianhu/'><img src="www/instagram_36x36.jpg" height="48"/></a> <a href='http://www.weibo.com/englianhu'><img src="www/weibo_36x36.jpg" height="48"/></a> <a href='http://t.qq.com/englianhu'><img src="www/QQ wb_36x36.jpg" height="48"/></a> <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone_36x36.jpg" height="48"/></a> <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef_36x36.jpg" height="48"/></a> <a href='https://disqus.com/by/englianhu'><img src="www/disqus_36x36.jpg" height="48"/></a> <a href='https://github.com/englianhu'><img src="www/github_36x36.jpg" height="48"/></a> <a href='https://bitbucket.org/englianhu/'><img src="www/bitbucket_36x36.jpg" height="48"/></a> <a href='https://plot.ly/~englianhu'><img src="www/plotly_36x36.jpg" height="48"/></a> <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="https://github.com/scibrokes/owner/blob/master/www/rnable_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats_36x36.jpg" height="48"/></a> <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn_36x36.jpg" height="48"/></a> <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ_36x36.jpg" height="48"/></a> <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic_36x36.jpg" height="48"/></a> <a href='http://cos.name/cn/profile/ryo/'><img src="www/cos_36x36.jpg" height="48"/></a> <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="https://github.com/scibrokes/owner/blob/master/www/jg_36x36.jpg?raw=true" height="48"/></a> <a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="https://github.com/scibrokes/owner/blob/master/www/centOS_36x36.jpg?raw=true" height="48"/></a> <a href='http://www.betting-forum.com/members/englianhu.10020/'><img src="www/bettingforum_36x36.jpg" height="48"/></a> <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng/'><img src="www/PLounge_36x36.jpg" height="48"/></a> <a href='http://www.sportsbookreview.com/forum/'><img src="www/SBR_36x36.jpg" height="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.jpg" width="48"/></a>
+<a href='https://www.facebook.com/englianhu'><img src="www/facebook2.jpg" width="48"/></a>
+<a href='https://instagram.com/englianhu'><img src="www/IG4.png" width="48"/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.jpg" width="48"/></a>
+<a href='skype:englianhu?call'><img src="www/skype.jpg" width="48"/></a>
+<a href='https://plus.google.com/+黄联富'><img src="www/gplus.jpg" width="48"/></a>
+<a href='https://twitter.com/englianhu'><img src="www/twitter.jpg" width="48"/></a>
+<a href='https://about.me/englianhu'><img src="www/aboutme.jpg" width="48"/></a>
+<a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
+<a href='https://weibo.com/englianhu'><img src="www/weibo.jpg" width="48"/></a>
+<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.jpeg" width="48"/></a>
+<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.jpg" width="48"/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
+<a href='https://disqus.com/by/englianhu'><img src="www/disqus.jpg" width="48"/></a>
+<a href='http://douyin.com/'><img src="www/DouYin.png" width="48"/></a>
+<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
+<a href='http://englianhu.360doc.com'><img src="www/360doc.jpeg" width="48"/></a>
+<a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
+<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" width="48"/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.jpg" width="48"/></a>
+<a href='https://discord.com'><img src="www/discord2.jpg" width="48"/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" width="48"/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" width="48"/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" width="48"/></a>
+<a href='https://xiaohongshu.com'><img src="www/hong.jpg" width="48"/></a>
+<a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" width="48"/></a>
+<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" width="48"/></a>
+<a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
+<a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
+<a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
+<a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" width="48"/></a>
+<a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" width="48"/></a>
+<a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" width="48"/></a>
+<a href='https://www.iq.com'><img src="www/iq.png" width="48"/></a>
+<a href='https://www.vk.com/englianhu'><img src="www/vk.png" width="48"/></a>
+<a href='https://ok.ru/englianhu'><img src="www/OKru.png" width="48"/></a>
+<a href='https://www.yandex.com'><img src="www/Yandex.png" width="48"/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" width="48"/></a>
+<a href='https://mlog.club/user/6960'><img src="www/MClub.png" width="48"/></a>
+<a href='https://github.com/englianhu'><img src="www/github.jpg" width="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.jpg" width="48"/></a>
+<a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.jpg" width="48"/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
+<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.jpg" width="48"/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos.jpg" width="48"/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" width="48"/></a>
+<a href='http://www.madio.net/archiver'><img src="www/madio.png" width="48"/></a>
+<a href='http://www.mathchina.com/bbs'><img src="www/mathchina.jpg" width="48"/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.jpg?raw=true" width="48"/></a>
+<a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" width="48"/></a>
+<a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" width="48"/></a>
+<a href='https://medium.com/@englianhu'><img src="www/Reddit.png" width="48"/></a>
+<a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom1.png" width="48"/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" width="48"/></a>
+<a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" width="48"/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" width="48"/></a>
+<a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" width="48"/></a>
+<a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.jpg" width="48"/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
 
 <br><br>
 

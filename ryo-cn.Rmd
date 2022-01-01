@@ -667,35 +667,35 @@ op <- options(gvis.plot.tag = 'chart')
 **[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人兼物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
-- *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易等，和数据分析，之后会到中国大陆发展。*
+- *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
 
 [^2]: [*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg®（GitHub）*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg®（脸谱）*](https://facebook.com/scibrokes).
 
 <br>
 
-**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和一号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
+**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和壹号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
-- *简介：东方集团乃中国商业集团*
-- *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析数据与负责风控。*
+- *简介：东方集团乃中国商业集团。*
+- *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广和审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析公司财务、会员、产品盈亏报表与负责风控。*
 
 <br>
 
 **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
-- *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里彩票客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
+- *工作明细：在柬埔寨西哈努克（西港）工作，作为阿里发客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）。*
 
 <br>
 
 **2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
 
-- *工作明细：在疏邦再也（马来西亚）MindPearl办公室工作、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html)<img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
+- *工作明细：在疏邦再也（马来西亚）UOA商业中心的13A/14楼MindPearl办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
 
 <br>
 
-**2015年10月 至 2016年1月：网络博彩，足球彩券操盘手**；（受聘于Global Solution有限公司）
+**2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于Global Solution有限公司）
 
 - *简介：受聘于郭建辉，在旧巴生路特易购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
-- *工作明细：跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
+- *工作明细：足球彩券跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
@@ -718,7 +718,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年11月 至 2014年3月：网络博彩，队长兼操盘手**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络博彩，队长兼操盘手/交易员**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 - *简介：GBlink在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
@@ -755,28 +755,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月 至 2007年6月：网络博彩，培训师兼操盘手**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2006年7月 至 2007年6月：网络博彩，培训师兼操盘手/交易员**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
-**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手**；（受聘于[Telebiz有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手/交易员**；（受聘于[Telebiz有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：Telebiz乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：网络金融业，交易员/代理**；（受聘于[Prestige投资有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：网络金融业，操盘手/交易员兼代理**；（受聘于[Prestige投资有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
 - *简介：Prestige Investment Ltd乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
 
 <br>
 
-**2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -997,6 +997,7 @@ skill |>
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
 - **2014年**，找了几份网游之类的工作。
+- **2014年12月**，在斯里肯邦安大学岭的Aqua Health Service水机过滤器公司当电销。
 - **2016年**，在怡观园（Equine Park）的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
 - **2018年**，在无拉港Aeon Mall广场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港Aeon商场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
 - **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
