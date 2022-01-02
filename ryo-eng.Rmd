@@ -682,7 +682,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Nov-2017 to May-2018 : Online Gambling, Customer Service**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
-- *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians.*
+- *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud for 5 months. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians for 1 month.*
 
 <br>
 
@@ -927,8 +927,6 @@ skill |>
   #column_spec(2, background = 'grey', color = 'black')
 ```
 
-<br>
-
 ```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   tibble() |> 
@@ -940,6 +938,10 @@ skill[,-1] |>
   {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
   {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
                            animationEasing = 'BounceInOut', animationDuration = 500)}()
+
+radarchart::chartJSRadar(
+  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 ```
 
 ```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
@@ -980,16 +982,25 @@ skill |>
 ## Other / Miscellaneous
 
 - **2001/2002**, First job introduced by ex-classmate Cecilia Teo Hue Yen to work as a waiter in [《大人餐厅》（Esquire Kitchen）](https://esquirekitchen.com) being [Klang Parade](https://www.klang.parade.com.my).
-- **2003/2004**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor, 4 persons/shareholders.
-- **2003/2004**, An indoor salesman in a Singaporean owned Euroluce lighting shop in Mid-Valley.
-- **2003/2004**, Worked as a part time Chinese language home tuition teacher for Indians from Chinese primary school students in KL Ipoh Road 3rd miles behind HSBC.
-- **2003/2004**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
-- **2003/2004**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
-- **2003/2004**, A grocery store staff in [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
-- **2003/2004**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style="color:RoyalBlue"}[^3] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
+- **2003**, Studying Japanese language with home tuition class when the time as a computer science student in TARC, and attend the JLPT on Dec-2003.
+- **2003**, Inquiry and wanna studying the French language class with [Alliance Francaise Kuala Lumpur (AFKL)](https://www.alliancefrancaise.org.my/alliance-francaise-de-kuala-lumpur), and also German language with [Goethe Institut Malaysia](https://www.goethe.de/ins/my/en/index.html).
+- **2003 to 2005**, Start trading in financial market with [OSK Security Firm](https://www.oskgroup.com).
+- **2003 to 2005**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor, 4 persons/shareholders.
+- **2003 to 2005**, An indoor salesman in a Singaporean owned Euroluce lighting shop in Mid-Valley.
+- **2003 to 2005**, Worked as a part time Chinese language home tuition teacher for Indians from Chinese primary school students in KL Ipoh Road 3rd miles behind HSBC.
+- **2003 to 2005**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
+- **2003 to 2005**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
+- **2003 to 2005**, A grocery store staff in [Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
+- **2003 to 2005**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style="color:RoyalBlue"}[^3] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
+- **Feb-2006**, When I working in Telebiz, study part time Korean language class in Ampang Korean Village, and learn Taekwondo at a Korean Martial Art center within the Ampang Korean Village area.
 - **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Philippines within few days without resignation.
-- **2007 to 2008** (before employed by Scicom 30-Mar-2008), Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady.
-- **2009 to 2010**, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^4]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **Jul-2006 to Dec-2006**, When I working in Caspo Inc, inquiry some Japanese language center and also Korean language center,and then register the advanced level --- JLPT Level I at [Japan Foundation Manila](https://jfmo.org.ph), and take the exam at [Dela Salle University Manila](https://www.dlsu.edu.ph) in Dec-2006.
+- **Jan-2007 to Apr 2007**, Studying German language part time class at [Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html) when I working in Caspo Inc, Manila.
+- **Jul-2006 to Apr-2007**, When I working in Caspo Inc, William Chen always invite me to learn Muay Thai (and also Japanese Aikido, Korean Hapkido) while the Thai Martial Art center being ground floor of office (PBCom Tower).
+- **Aug-2007 to Mar-2008**, Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady.
+- **2009 to 2010**, When I working in Scicom, start trading in United States and Hong Kong financial market with OSK security firm and also CIMB Singapore.
+- **2009 to 2010**, When I working in Scicom, Jack Soh and me go to few Martial Art center and fitness center, I learn Chinese Martial Art (洪拳、长拳) at a Chinese Martial Art center being Serdang.
+- **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^4]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
 - **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
 - **2013**, Setup owned RStudio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
@@ -1049,7 +1060,7 @@ Kindly refer to my personal blogs for more information about me.
 <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
 <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
 <a href='https://disqus.com/by/englianhu'><img src="www/disqus.jpg" width="48"/></a>
-<a href='http://douyin.com/'><img src="www/DouYin.png" width="48"/></a>
+<a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src="www/DouYin.png" width="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
 <a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
 <a href='http://englianhu.360doc.com'><img src="www/360doc.jpeg" width="48"/></a>
