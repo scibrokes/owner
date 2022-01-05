@@ -647,13 +647,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2002年3月 至 2003年12月：專業文憑，日文能力測試**；（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>與[日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>）
+**2002年3月 至 2003年12月：專業文憑，日文能力測試**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
-- *課程：[日本語能力測試 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *2003年12月7日：[日語能力測試 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
+- 2004年12月5日：<s>**日語能力測試 - 第2級** *being Kuala Lumpur*</s>
+- 2005年12月4日<s>**日語能力測試 - 第1級** *being Kuala Lumpur*</s>
+- 2006年12月3日<s>**日語能力測試 - 第1級** *being Manila*</s>
+- 2003年A member of [吉隆坡日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
 
 <br>
 
-**<s>2002月5月 至 2005年8月</s> 2002年5月 至 2003年12月：<s>大學本科，電腦科學繫（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大學本科，電腦科學繫聯合主流A（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -   *大一*
 -   *大二*
@@ -686,7 +690,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/> 部署）
+**2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
 - *工作明細：在疏邦再也（馬來西亞）UOA商業中心的13A/14樓MindPearl辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。*
 
@@ -755,7 +759,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月 至 2007年6月：網絡博彩，培訓師兼操盤手/交昜員**；（受聘於[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>）
+**2006年7月 至 2007年6月：網絡博彩，培訓師兼操盤手/交昜員**；（受聘於[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
 
 - *簡介：Caspo乃臺灣同胞與新加坡同胞持有，如同[著名電影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明細：培訓新人包括操盤與連線賽事現場、負責SB與SB2網站盈虧報表，也得操盤、翻譯與分析數據等等。*

@@ -647,13 +647,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>与[日本国際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>）
+**2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
-- *課程：[日本語能力試験 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *2003年12月7日：[日本語能力試験 - 第3級](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
+- 2004年12月5日：<s>**日本語能力試験 - 第2級** *being Kuala Lumpur*</s>
+- 2005年12月4日<s>**日本語能力試験 - 第1級** *being Kuala Lumpur*</s>
+- 2006年12月3日<s>**日本語能力試験 - 第1級** *being Manila*</s>
+- 2003年A member of [吉隆坡日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
 
 <br>
 
-**<s>2002月5月から 2005年8月迄</s> 2002年5月から 2003年12月迄：<s>學部、電脳科學繫（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月4月11日から 2005年5月迄</s> 2002年4月11日から 2003年10月11日迄：<s>學部、電脳科學繫聯合主流A（統計學専攻）</s>**；（[ラマン學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -  *一年生*
 -  *二年生*
@@ -686,7 +690,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[マインドパール](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（じんりょく・しげん）有限會社（ゆうげんがいしゃ）](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>に雇用された）
+**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[マインドパール](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（じんりょく・しげん）有限會社（ゆうげんがいしゃ）](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
 
 - *仕事詳細：疎邦再也(マレーシア)MindPearl事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜州（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。*
 
@@ -759,7 +763,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月から 2007年6月迄：線上売り場、トレーナー/トレーダー**；（[Caspo會社](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>に雇用された）
+**2006年7月から 2007年6月迄：線上売り場、トレーナー/トレーダー**；（[Caspo會社](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>に雇用された）
 
 -  *仕事詳細：SBやSB2ウェブサイトの損益計算書、取引と分析のデータなどを担当する、新しい人を訓練することなどもあります。*
 

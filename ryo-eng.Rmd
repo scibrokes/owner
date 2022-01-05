@@ -647,13 +647,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Mar-2002 to Dec-2003 : Professional Certificate, Japanese Language Profeciency Test**; ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> and [Japan Educational Exchanges and Services](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>)
+**22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
 
-- *Course title : [Japanese Language Profeciency Test - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)*
+- *7-Dec-2003 : [JLPT - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
+- 5-Dec-2004 : <s>**JLPT - Level II** *being Kuala Lumpur*</s>
+- 4-Dec-2005 : <s>**JLPT - Level I** *being Kuala Lumpur*</s>
+- 3-Dec-2006 : <s>**JLPT - Level I** *being Manila*</s>
+- A member of [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
 
 <br>
 
-**<s>May-2002 to Aug-2005</s> May-2002 to Dec-2003 : <s>Becholar Degree, Computer Science (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
+**<s>11-Apr-2002 to May-2005</s> 11-Apr-2002 to 11-Oct-2003 : <s>Becholar Degree, Computer Science Combination A Stream (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
 
 - *Freshman*
 - *Sophomore*
@@ -686,7 +690,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>)
+**May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/>)
 
 - *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in UOA Business Park 13A/14 floor Mindpearl office but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment.*
 
@@ -755,7 +759,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="36" align="center" valign="middle"/>)
+**Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>)
 
 - *Summary : Caspo is an online gaming group owned by Singaporean and Taiwanese, similar with [Taiwanese Cinema 《黑金》(The Island of Greed)](https://www.bilibili.com/video/BV1Gv411y7ED).*
 - *Job Task : Provides training to newbies includes sportsbook trading and live scout. In charges to analyse the P&L reports of SB1 and SB2, need to trading as well, translate and also analysis job tasks.*
