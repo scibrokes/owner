@@ -16,7 +16,7 @@
 ## ======================== Micro Editor ===================================
 
 ## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
-## Micro – A Modern Terminal Based Text Editor with Syntax Highlighting
+## Micro ??? A Modern Terminal Based Text Editor with Syntax Highlighting
 
 ## ============================= PATH ======================================
 #system('sudo chmod +rwx /usr/lib/R')
@@ -39,7 +39,7 @@
 ## ======================== Micro Editor ===================================
 
 ## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
-## Micro – A Modern Terminal Based Text Editor with Syntax Highlighting
+## Micro ??? A Modern Terminal Based Text Editor with Syntax Highlighting
 
 ## ============================= PATH ======================================
 #system('sudo chmod +rwx /usr/lib/R')
@@ -88,7 +88,7 @@ suppressPackageStartupMessages(require('rmsfuns'))
 
 if(!suppressPackageStartupMessages(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
-                   INSTALL_opts = '--no-lock')       
+                   INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
 }
 
