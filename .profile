@@ -29,6 +29,14 @@ fi
 #FreeFileSync: ensure the freefilesync symlink will be found:
 export PATH=$PATH:/home/englianhu/.local/bin
 
+#Emoji Input Method
+#https://askubuntu.com/a/1293089/424049
+#https://askubuntu.com/a/1283671/424049
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+ibus-daemon -d -x
+
 #https://stackoverflow.com/a/33416794/3806250
 export R_LIBS_USER=/usr/lib/R/library
 export R_LIBS_USER=/usr/lib/R/site-library

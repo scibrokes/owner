@@ -1,0 +1,27 @@
+
+## [已解决]如何让 xaringan 使用代理服务器？
+## https://d.cosx.org/d/422196-xaringan/12
+
+## 设置虚拟网络和代理服务器
+## http://www.geekyprojects.com/ubuntu/ubuntu-vpn-connection/
+
+## How to Setup VPN connection in Kubuntu / KDE Plasma using L2TP protocol?
+## http://help.limevpn.com/en/articles/3639180-how-to-setup-vpn-connection-in-kubuntu-kde-plasma-using-l2tp-protocol
+
+## ----------------------------------------------------
+
+## How To Set up OpenVPN Server In 5 Minutes on Ubuntu Linux
+## https://www.cyberciti.biz/faq/howto-setup-openvpn-server-on-ubuntu-linux-14-04-or-16-04-lts
+
+## 下载OpenVPN代理服务器
+wget https://git.io/vpn -O openvpn-install.sh
+
+## 授权执行权限
+sudo chmod +x openvpn-install.sh
+
+## 安装OpenVPN代理服务器
+sudo bash openvpn-install.sh
+
+## 停止运行OpenVPN代理服务器
+sudo systemctl stop openvpn-server@server.service
+
