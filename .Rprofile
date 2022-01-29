@@ -297,7 +297,7 @@ if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
 
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
 if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
-    
+  
   # Only useful if you use Makefiles
   rprofile::create_make_functions()
   
