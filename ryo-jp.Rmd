@@ -916,7 +916,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 - **2001/2002年**，当初首份工作经中学同学张慧燕介绍到[巴生百利广场](https://www.klang.parade.com.my)内的[大人餐厅](https://esquirekitchen.com)当前台服务生。
 - **2003年**，在拉曼學院修讀電腦科學同時，也在業余時間報讀家庭日語班，同年年底2003年12月報考JLPT日語考試。
 - **2003年から 2005年迄**，与两个哥哥和邻居，四人创办[**Starline Platation Ltd**]{style="color:RoyalBlue"}农业公司。
-- **2003年から 2005年迄**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce灯饰专卖店当室内销售员。
+- **2003年12月**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce灯饰专卖店当一个月室内销售员。
 - **2003年から 2005年迄**，在吉隆坡怡保路3里路HSBC银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
 - **2003年から 2005年迄**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宫当前台服务员。
 - **2003年から 2005年迄**，在吉隆坡怡保路5里路/甲洞当汽车销售员/维修员。
