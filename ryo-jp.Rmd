@@ -645,6 +645,11 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 課程：課税の基礎*
 - *03 課程：財務管理の基礎*
 
+    - 17-Mar-2004: [*ACCA - Recording Financial Transactions*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Recording%20Financial%20Transactions.jpg)
+    - 18-Mar-2004: [*ACCA - Information for Management Control*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Accounting%20for%20Costs.jpg)
+    - 21-Jun-2004: [*ACCA - Maintaining Financial Records*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Maintaining%20Financial%20Records.jpg)
+    - 22-Jun-2004: [*ACCA - Accounting for Costs*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.jpg)
+
 <br>
 
 **2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）

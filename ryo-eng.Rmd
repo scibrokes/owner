@@ -645,11 +645,16 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 Course title : FTX Foundations in Taxation*
 - *03 Course title : FFM Foundations in Financial Management*
 
+    - 17-Mar-2004: [*ACCA - Recording Financial Transactions*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Recording%20Financial%20Transactions.jpg)
+    - 18-Mar-2004: [*ACCA - Information for Management Control*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Accounting%20for%20Costs.jpg)
+    - 21-Jun-2004: [*ACCA - Maintaining Financial Records*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Maintaining%20Financial%20Records.jpg)
+    - 22-Jun-2004: [*ACCA - Accounting for Costs*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.jpg)
+
 <br>
 
 **22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
 
-- *7-Dec-2003 : [JLPT - Level III](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
+- *7-Dec-2003 : [**JLPT - Level III**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
 - 5-Dec-2004 : <s>**JLPT - Level II** *being Kuala Lumpur*</s>
 - 4-Dec-2005 : <s>**JLPT - Level I** *being Kuala Lumpur*</s>
 - 3-Dec-2006 : <s>**JLPT - Level I** *being Manila*</s>
