@@ -654,10 +654,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
-- *2003年12月7日：[日语能力测试 - 第3级](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
-- 2004年12月5日：<s>**日语能力测试 - 第2级** *being Kuala Lumpur*</s>
-- 2005年12月4日<s>**日语能力测试 - 第1级** *being Kuala Lumpur*</s>
-- 2006年12月3日<s>**日语能力测试 - 第1级** *being Manila*</s>
+- 2003年12月7日：[日语能力测试 - 第3级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) *being Kuala Lumpur*
+- 2004年12月5日：[**日语能力测试 - 第2级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) *being Kuala Lumpur* [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
+- 2005年12月4日：[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) *being Kuala Lumpur* [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
+- 2006年12月3日：[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) *being Manila* [**不合格**]{style="color:Red"}
 - 2003年开始[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
 
 <br>
