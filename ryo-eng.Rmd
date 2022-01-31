@@ -655,9 +655,9 @@ op <- options(gvis.plot.tag = 'chart')
 **22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
 
 - *7-Dec-2003 : [**JLPT - Level III**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg) being Kuala Lumpur*
-- 5-Dec-2004 : <s>**JLPT - Level II** *being Kuala Lumpur*</s>
-- 4-Dec-2005 : <s>**JLPT - Level I** *being Kuala Lumpur*</s>
-- 3-Dec-2006 : <s>**JLPT - Level I** *being Manila*</s>
+- 5-Dec-2004 : <s>[**JLPT - Level II**]() *being Kuala Lumpur* [**Failed**]{style="color:Red"}</s>
+- 4-Dec-2005 : <s>[**JLPT - Level I**]() *being Kuala Lumpur* [**Failed**]{style="color:Red"}</s>
+- 3-Dec-2006 : <s>[**JLPT - Level I**]() *being Manila* [**Failed**]{style="color:Red"}</s>
 - A member of [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
 
 <br>
