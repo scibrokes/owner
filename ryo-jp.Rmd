@@ -723,7 +723,8 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2014年3月から 2014年4月迄：線上売り、顧客支援**；（[富士ゼロックス](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：台湾組で働いて、台湾顧客に印刷機の修理と維持と修繕関して事や、販売することや、技術支援や、着信通話します。*
+- *仕事詳細：台湾組で働いて、臺湾顧客に印刷機の修理と維持と修繕関して事や、販売することや、技術支援や、着信通話します。*
+- **JCKL会员**
 
 <br>
 
@@ -797,6 +798,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 - *簡介：ニッポン人の為に働いてる。為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
+- **JCKL会员**
 
 <br>
 
@@ -920,6 +922,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 
 - **2001/2002年**，当初首份工作经中学同学张慧燕介绍到[巴生百利广场](https://www.klang.parade.com.my)内的[大人餐厅](https://esquirekitchen.com)当前台服务生。
 - **2003年**，在拉曼學院修讀電腦科學同時，也在業余時間報讀家庭日語班，同年年底2003年12月報考JLPT日語考試。
+- **2003年**，加入[英國文化協會](https://www.britishcouncil.my/zh-Hans)成為會員。
 - **2003年から 2005年迄**，与两个哥哥和邻居，四人创办[**Starline Platation Ltd**]{style="color:RoyalBlue"}农业公司。
 - **2003年12月**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce灯饰专卖店当一个月室内销售员。
 - **2003年から 2005年迄**，在吉隆坡怡保路3里路HSBC银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
@@ -930,7 +933,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 - **2006年2月**，在Telebiz工作時，業余時間到安邦韓國村修讀韓語，同時也在韓國村一帶的韓國跆拳道館學跆拳道。
 - **2006年7月**，在Telebiz工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。
 - **2006年7月 至 2006年12月**，在馬尼拉Caspo Inc工作時，咨询了一些日语中心和一些韩语中心咨询课程，在[Japan Foundation Manila](https://jfmo.org.ph) 报考高级日语JLPT Level I后，在[德拉萨大学 Dela Salle University Manila](https://www.dlsu.edu.ph)考高级日语。
-- **2007年1月 至 2007年4月**，在馬尼拉Caspo Inc工作時，到[Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修讀德語業余課程。
+- **2007年1月 至 2007年4月**，在馬尼拉Caspo Inc工作時，到[Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修讀[德語業余課程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)。
 - **2006年7月 至 2007年4月**，在馬尼拉Caspo Inc工作時，曾威廉時常邀約習武練泰拳（還有日本合氣道、韓國合氣道），而泰拳館就在公司PBCom大廈的一樓而已。
 - **2007年8月 至 2008年3月**，大哥在怡观园的皇帽旗下代理餐馆（一家台湾女老板的餐馆 --- 大家乐小食中心）开档口当小贩。
 - **2009年 至 2010年**，在西世康工作時，通過僑豐銀行和聯昌銀行（新加坡），開始在香港和美國金融市場進行交易。
