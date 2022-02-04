@@ -31,3 +31,29 @@ sudo systemctl stop openvpn-server@server.service
 ## https://www.educba.com/linux-proxy-server
 ## https://www.cnblogs.com/ssgeek/p/12302135.html
 
+## ----------------------------------------------------
+## https://support.ivacy.com/setup_guide/how-to-configure-openvpn-on-kubuntu
+## https://support.ivacy.com/vpnusecases/openvpn-files-windows-routers-ios-linux-and-mac/?__cf_chl_managed_tk__=Dp35SDWpDfUCiVz_zHM5SYw.FgS5OAb5mjbAhfIO83c-1643377818-0-gaNycGzNCz0
+
+Username : ivacy0s10974204
+Password : SciTr@d343v@
+
+au-sd1.dns2use.com
+nl1.dns2use.com
+de1.dns2use.com
+ukl.dns2use.com
+usil1.dns2use.com
+ustx1.dns2use.com
+usca1.dns2use.com
+usfl1.dns2use.com
+usny1.dns2use.com
+uswdc1.dns2use.com
+
+us-ovpn-obf.dns2use.com
+uk-ovpn-obf.dns2use.com
+sg-ovpn-obf.dns2use.com
+de-ovpn-obf.dns2use.com
+
+
+
+
