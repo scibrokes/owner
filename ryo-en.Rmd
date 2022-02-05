@@ -1152,8 +1152,9 @@ suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
 suppressMessages(require('magittr', quietly = TRUE))
+suppressMessages(require('devtools', quietly = TRUE))
 
-sys1 <- devtools::session_info()$platform |> 
+sys1 <- session_info()$platform |> 
     unlist() |> 
     {\(.) data.frame(row.names = 1:length(.), 
                      Category = names(.), session_info = .)}()
