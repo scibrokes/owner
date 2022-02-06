@@ -400,6 +400,10 @@ pre code {
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
 lib('sass')
+
+## https://support.rstudio.com/hc/en-us/articles/200532197
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
+#Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -1002,7 +1006,7 @@ skill |>
 - **2003年 至 2005年**，在吉隆坡怡保路3里路HSBC银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
 - **2003年 至 2005年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宫当前台服务员。
 - **2003年 至 2005年**，在吉隆坡怡保路5里路/甲洞当汽车销售员/维修员。
-- **2003年 至 2005年**，在谷中城对面的[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>内的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsuzuki-mart.png" width="42" align="center" valign="middle"/>当迷你市场店员。
+- **2003年 至 2005年**，在谷中城对面的[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>内的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>当迷你市场店员。
 - **2003年 至 2005年**，经[拉曼学院电脑科学系同学兼最佳好友谢德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^3]录用，到他家乡适耕庄的网吧（高峰电脑中心）当柜台小生。
 - **2006年2月**，在Telebiz工作时，业余时间到安邦韩国村修读韩语，同时也在韩国村一带的韩国跆拳道馆学跆拳道。
 - **2006年7月**，在Telebiz工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。

@@ -400,6 +400,10 @@ pre code {
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
 lib('sass')
+
+## https://support.rstudio.com/hc/en-us/articles/200532197
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
+#Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -1156,7 +1160,7 @@ suppressMessages(require('devtools', quietly = TRUE))
 
 sys1 <- session_info()$platform |> 
     unlist() |> 
-    {\(.) data.frame(row.names = 1:length(.), 
+    {\(.) data.frame(row.names = seq_along(.), 
                      Category = names(.), session_info = .)}()
 
 sys2 <- data.frame(Sys.info()) |> 

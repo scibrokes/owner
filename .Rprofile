@@ -21,8 +21,12 @@
 ## ============================= PATH ======================================
 #system('sudo chmod +rwx /usr/lib/R')
 
-.pth <- .libPaths(c('/cloud/lib/R/library', '/cloud/lib/R/site-library'))
+.pth <- .libPaths(c('/cloud/lib/R/library')) #, '/cloud/lib/R/site-library'))
 .libPaths(.pth)
+
+## https://support.rstudio.com/hc/en-us/articles/200532197
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/2
+Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
