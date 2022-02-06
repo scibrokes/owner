@@ -450,7 +450,7 @@ options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
 
 ## Set the timezone but not change the datetime
-Sys.setenv(TZ = 'Asia/Tokyo')
+Sys.setenv(TZ = 'Asia/Shanghai')
 ## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
 options(warn = -1, knitr.table.format = 'html')#, digits.secs = 6)
 
@@ -504,8 +504,8 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**           |                                                                                                                     **Details** |
 |:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
-| Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
-| Age                 | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| Date of Birth       |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
+| Age                 | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
 | Mobile Phone Number |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
 | Mobile Phone Number |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
 | Mobile Phone Number |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
@@ -1143,7 +1143,7 @@ Kindly refer to my personal blogs for more information about me.
 It's useful to record some information about how your file was created.
 
 - File creation date: 2015-10-12
-- File latest updated date: `r today('Asia/Tokyo')`
+- File latest updated date: `r today('Asia/Shanghai')`
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
 - File version: 0.2.1
@@ -1173,7 +1173,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
   
 } else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
   sys1 %<>% rbind(., data.frame(Category = '', session_info = ''))
@@ -1183,7 +1183,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
 }
 
 sys <- cbind(sys1, sys2) |> 

@@ -446,7 +446,7 @@ options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
 
 ## Set the timezone but not change the datetime
-Sys.setenv(TZ = 'Asia/Tokyo')
+Sys.setenv(TZ = 'Asia/Shanghai')
 ## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
 options(warn = -1, knitr.table.format = 'html')#, digits.secs = 6)
 
@@ -500,8 +500,8 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **類別（るいべつ）**|                                                                                                            **明細（めいさい）** |
 |:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
-| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Tokyo'))` |
-| 年齡                | `r interval(x, now(tzone = 'Asia/Tokyo')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
+| 年齡                | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
 | 行動電話號碼        |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
 | 行動電話號碼        |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
 | 行動電話號碼        |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
@@ -1073,7 +1073,7 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 この文書の情報は次のとおりです。
 
 - 文集（ぶんしゅう）の作成日付：2015-10-12
-- 文集の最新更新日：`r today('Asia/Tokyo')`
+- 文集の最新更新日：`r today('Asia/Shanghai')`
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集版本（はんぽん）：0.2.1
@@ -1085,8 +1085,10 @@ chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
+suppressMessages(require('devtools', quietly = TRUE))
 
-sys1 <- devtools::session_info()$platform |> 
+sys1 <- session_info()$platform |> 
     unlist() |> 
     {\(.) data.frame(row.names = 1:length(.), 
                      Category = names(.), session_info = .)}()
@@ -1101,7 +1103,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
   
 } else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
   sys1 %<>% rbind(., data.frame(Category = '', session_info = ''))
@@ -1111,7 +1113,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Tokyo')), 'JST 🌏'))))}()
+                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
 }
 
 sys <- cbind(sys1, sys2) |> 

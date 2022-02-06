@@ -428,7 +428,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Set the timezone but not change the datetime</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Tokyo&#39;</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Shanghai&#39;</span>)</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = &#39;html&#39;) will set all kableExtra tables to be &#39;html&#39;, otherwise need to set the parameter on every single table.</span></span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">knitr.table.format =</span> <span class="st">&#39;html&#39;</span>)<span class="co">#, digits.secs = 6)</span></span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
@@ -1239,7 +1239,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
 <span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
 <span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
 <span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
 <span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">&#39;&#39;</span>, <span class="at">session_info =</span> <span class="st">&#39;&#39;</span>))</span>
@@ -1249,7 +1249,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
 <span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
 <span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
 <span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">|&gt;</span> </span>
@@ -1396,7 +1396,7 @@ englianhu
 tz
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-Asia/Tokyo
+Asia/Shanghai
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 effective_user
@@ -1442,7 +1442,7 @@ rsconnect
 Current time
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
-2022-02-06 20:06:40 JST 🌏
+2022-02-06 20:54:07 CST 🗺
 </td>
 </tr>
 </tbody>
