@@ -796,9 +796,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融業，操盤手/交昜員兼代理**；（受聘於[Prestige投資有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：網絡金融業，操盤手/交昜員兼代理**；（受聘於[Prestigen盈利有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
 
-- *簡介：Prestige Investment Ltd乃一家亞太紐西蘭外匯投資機構。*
+- *簡介：Prestigen盈利有限公司乃一家亞太紐西蘭外匯投資機構。*
 - *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
 
 <br>
@@ -1051,7 +1051,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，Bron Ong通過臉譜聘用到新山當真人荷官（合作商家為柬埔寨西哈努克港）的客服人員，幹了一個月正（非常危險，而且公司作假張還不讓員工辭職），由於母親去世才能回雪州。
 - **2020年10月10號**，重新註冊了間公司[*Sςιβrοκεrs Trαdιηg®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-2003/2004年離開*Prestige Investment Ltd*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
+2003/2004年離開*Prestigen盈利有限公司*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
 [^3]: [遲了一年，更新履歷表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 電子書](documents/b4TDbiz-.pdf))中記載著以前尚未加入博彩行業的一段[創業與金融行業]{style="color:RoyalBlue"}小歷史。
 

@@ -727,7 +727,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **May-2015 to Sep-2015 : Online Gambling, Customer Service**; (employed by OneMedia Sdn Bhd)
 
-- *Summary : Being KL SouthGate。*
+- *Summary : Being KL SouthGate.*
 - *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
 <br>
@@ -796,9 +796,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by [Prestige Investment Ltd](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>)
+**Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by [Prestigen Profits Limited](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>)
 
-- *Summary : Prestige Investment Ltd (New Zealand) --- Asia Pacific is a Forex market investment company.*
+- *Summary : Prestigen Profits Limited (New Zealand) --- Asia Pacific is a Forex market investment company.*
 - *Job Task : One series service on marketing, R&D, risk management, trading, training etc in Forex market to generate ROI for investors.*
 
 <br>
@@ -1051,7 +1051,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018**, employ by Bron Ong through facebook and work as an online casino dealer's agent in Johor Bharu (clients being Cambodia Sihanoukville) for one month (the company wrongly doing accounting and audit, very dangerous but the boss don't let me resign), resign and get back Selangor upon my mother's death.
 - **10-Oct-2020**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> again.
 
-2003/2004, when the day I leaving *Prestige Investment Ltd*, the boss Thomas only say ["哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays]{style="color:#F6A217"}.
+2003/2004, when the day I leaving *Prestigen Profits Limited*, the boss Thomas only say ["哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays]{style="color:#F6A217"}.
 
 [^3]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style="color:RoyalBlue"} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
 

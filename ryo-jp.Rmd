@@ -800,9 +800,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestige投資有限會社](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>に雇用された）
+**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestigen盈利有限會社](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>に雇用された）
 
-- *簡介：Prestige Investment Ltd乃一家亞太紐西蘭外匯投資機構。*
+- *簡介：Prestigen盈利有限會社乃一家亞太紐西蘭外匯投資機構。*
 - *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
 
 <br>
@@ -1025,7 +1025,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
 - **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-2003/2004年离开*Prestige Investment Ltd*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
+2003/2004年离开*Prestigen盈利有限會社*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 
 現在、私は自分のスポーツ ヘッジファンド會社[Scibrokes®](https://github.com/scibrokes)[^1]をセットアップために、また學ぶ続ける、アジアのはじめのプロ．スポーツ ヘッジファンドと思います。誰か自分の統計學ソフトを立て事に興味があるなら、[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>を参照してくださいする。量化交昜に興味があるなら、うちに[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}連絡を歓迎する、喜んで。
 
