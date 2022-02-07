@@ -387,7 +387,9 @@ pre code {
 ## TRUE</code></pre>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r bg-success"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://support.rstudio.com/hc/en-us/articles/200532197</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="do">## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;en_US.UTF-8&quot;)</span></span></code></pre></div>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;en_US.UTF-8&quot;)</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;zh_CN.UTF-8&quot;)</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_CTYPE&quot;, &quot;Chinese (Simplified)_China.936&quot;)</span></span></code></pre></div>
 <pre class="scss bg-success"><code>/* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -431,7 +433,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Set the timezone but not change the datetime</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Tokyo&#39;</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Shanghai&#39;</span>)</span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = &#39;html&#39;) will set all kableExtra tables to be &#39;html&#39;, otherwise need to set the parameter on every single table.</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">knitr.table.format =</span> <span class="st">&#39;html&#39;</span>)<span class="co">#, digits.secs = 6)</span></span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
@@ -463,7 +465,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </tr>
 <tr class="even">
 <td align="left">Age</td>
-<td align="right">37y 3m 15d</td>
+<td align="right">37y 3m 16d</td>
 </tr>
 <tr class="odd">
 <td align="left">Mobile Phone Number</td>
@@ -1137,8 +1139,8 @@ Level
 </tr>
 </tbody>
 </table>
-<div id="htmlwidget-880cdde6bfabb91bb69b" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
-<script type="application/json" data-for="htmlwidget-880cdde6bfabb91bb69b">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"radar":[{"indicator":[{"name":"<U+03BE>conometrics","max":"10"},{"name":"Quantitative Trading","max":"10"},{"name":"R Programming","max":"10"},{"name":"MS Office","max":"10"},{"name":"SQL","max":"10"},{"name":"Python","max":"10"},{"name":"Data Analysis","max":"10"},{"name":"Customer Service","max":"10"},{"name":"Sportsbook Industry","max":"10"},{"name":"<U+00AE>Studio Server","max":"10"},{"name":"Statistics","max":"10"},{"name":"Data Science","max":"10"},{"name":"Shiny Web Application","max":"10"},{"name":"Linux OS","max":"10"},{"name":"Web API","max":"10"},{"name":"Sparklyr","max":"10"},{"name":"Advanced R","max":"10"},{"name":"modeltime / tidyverts / prophet","max":"10"},{"name":"tidyverse / tidymodels","max":"10"},{"name":"Tensorflow / pytorch","max":"10"},{"name":"Web Driver","max":"10"},{"name":"FrontPage / Deploy WebSite","max":"10"},{"name":"Photoshop / Picsart","max":"10"}]}],"series":[{"type":"radar","data":[{"value":[9,9,9,8,3,4,9,9,7,7,6,8,8,7,6,2,6,7,6,2,4,3,5],"name":"Skill"}],"radarIndex":0,"itemStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#EDAE01' },\n       { offset: 1, color: '#FFEB94' }\n     ])"},"areaStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#002C54' },\n       { offset: 1, color: '#4CB5F5' }\n     ])"}}],"legend":{"data":["Skill"]},"tooltip":{"trigger":"item"}},"dispose":true},"evals":["opts.series.0.itemStyle.color","opts.series.0.areaStyle.color"],"jsHooks":[]}</script>
+<div id="htmlwidget-db3335e45e5e41bc4b73" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-db3335e45e5e41bc4b73">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"radar":[{"indicator":[{"name":"<U+03BE>conometrics","max":"10"},{"name":"Quantitative Trading","max":"10"},{"name":"R Programming","max":"10"},{"name":"MS Office","max":"10"},{"name":"SQL","max":"10"},{"name":"Python","max":"10"},{"name":"Data Analysis","max":"10"},{"name":"Customer Service","max":"10"},{"name":"Sportsbook Industry","max":"10"},{"name":"<U+00AE>Studio Server","max":"10"},{"name":"Statistics","max":"10"},{"name":"Data Science","max":"10"},{"name":"Shiny Web Application","max":"10"},{"name":"Linux OS","max":"10"},{"name":"Web API","max":"10"},{"name":"Sparklyr","max":"10"},{"name":"Advanced R","max":"10"},{"name":"modeltime / tidyverts / prophet","max":"10"},{"name":"tidyverse / tidymodels","max":"10"},{"name":"Tensorflow / pytorch","max":"10"},{"name":"Web Driver","max":"10"},{"name":"FrontPage / Deploy WebSite","max":"10"},{"name":"Photoshop / Picsart","max":"10"}]}],"series":[{"type":"radar","data":[{"value":[9,9,9,8,3,4,9,9,7,7,6,8,8,7,6,2,6,7,6,2,4,3,5],"name":"Skill"}],"radarIndex":0,"itemStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#EDAE01' },\n       { offset: 1, color: '#FFEB94' }\n     ])"},"areaStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#002C54' },\n       { offset: 1, color: '#4CB5F5' }\n     ])"}}],"legend":{"data":["Skill"]},"tooltip":{"trigger":"item"}},"dispose":true},"evals":["opts.series.0.itemStyle.color","opts.series.0.areaStyle.color"],"jsHooks":[]}</script>
 <p><br></p>
 </div>
 <div id="other-miscellaneous" class="section level2" number="2.8">
@@ -1215,7 +1217,7 @@ Level
 <p>It’s useful to record some information about how your file was created.</p>
 <ul>
 <li>File creation date: 2015-10-12</li>
-<li>File latest updated date: 2022-02-06</li>
+<li>File latest updated date: 2022-02-07</li>
 <li>R version 4.1.2 (2021-11-01)</li>
 <li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> package version: 2.11</li>
 <li>File version: 0.2.1</li>
@@ -1244,7 +1246,7 @@ Level
 <span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
 <span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
 <span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺️&#39;</span>))))}()</span>
 <span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
 <span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">&#39;&#39;</span>, <span class="at">session_info =</span> <span class="st">&#39;&#39;</span>))</span>
@@ -1254,7 +1256,7 @@ Level
 <span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
 <span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
 <span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Tokyo&#39;</span>)), <span class="st">&#39;JST 🌏&#39;</span>))))}()</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺️&#39;</span>))))}()</span>
 <span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">|&gt;</span> </span>
@@ -1387,7 +1389,7 @@ englianhu
 ctype
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-en_US.UTF-8
+C
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 user
@@ -1401,7 +1403,7 @@ englianhu
 tz
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-Asia/Tokyo
+Asia/Shanghai
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 effective_user
@@ -1415,7 +1417,7 @@ englianhu
 date
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-2022-02-06
+2022-02-07
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 rmarkdown
@@ -1447,7 +1449,7 @@ rsconnect
 Current time
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
-2022-02-06 20:04:30 JST 🌏
+2022-02-07 13:35:02 CST &lt;U+0001F5FA&gt;&lt;U+FE0F&gt;
 </td>
 </tr>
 </tbody>

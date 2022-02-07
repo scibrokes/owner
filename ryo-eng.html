@@ -388,7 +388,20 @@ pre code {
 <div class="sourceCode" id="cb3"><pre class="sourceCode r bg-success"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://support.rstudio.com/hc/en-us/articles/200532197</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="do">## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;en_US.UTF-8&quot;)</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;zh_CN.UTF-8&quot;)</span></span></code></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;zh_CN.UTF-8&quot;)</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_CTYPE&quot;, &quot;Chinese (Simplified)_China.936&quot;)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;Chinese&quot;)</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;Japanese&quot;)</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;English&quot;)</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># rmarkdown::render(&#39;/home/englianhu/Documents/owner/ryo-cn.Rmd&#39;,  encoding = &#39;UTF-8&#39;)</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;UTF-8&quot;)</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;UTF-8&quot;)</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;chs&quot;)</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;UTF-8&quot;)</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;el_GR.UTF-8&quot;)</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;greek&quot;)</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;Chinese&quot;)</span></span></code></pre></div>
 <pre class="scss bg-success"><code>/* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }

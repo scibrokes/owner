@@ -405,6 +405,17 @@ lib('sass')
 ## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
 #Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 #Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")
+#Sys.setlocale(locale = "Chinese")
+#Sys.setlocale(locale = "Japanese")
+#Sys.setlocale(locale = "English")
+
+# rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
+#Sys.setlocale("LC_CTYPE", "UTF-8")
+#Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Chinese")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -991,6 +1002,16 @@ skill |>
                      areaStyle = list(
                        color = linear_gradient2)) |>
   echarts4r::e_tooltip(trigger = 'item')
+```
+
+```{r, eval=FALSE, echo=FALSE}
+Sys.setlocale(category = 'LC_ALL', locale = 'Chinese')
+source('function/skill.R', encoding = 'utf-8')
+```
+
+```{r, eval=FALSE, echo=FALSE}
+Sys.setlocale(category = 'LC_ALL', locale = 'Chinese')
+source('function/skill2B.R', encoding = 'utf-8')
 ```
 
 <br>

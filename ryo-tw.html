@@ -385,6 +385,23 @@ pre code {
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">lib</span>(<span class="st">&#39;sass&#39;</span>)</span></code></pre></div>
 <pre class="bg-primary"><code>## sass 
 ## TRUE</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r bg-success"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://support.rstudio.com/hc/en-us/articles/200532197</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="do">## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;en_US.UTF-8&quot;)</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;zh_CN.UTF-8&quot;)</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_CTYPE&quot;, &quot;Chinese (Simplified)_China.936&quot;)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;Chinese&quot;)</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;Japanese&quot;)</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;English&quot;)</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># rmarkdown::render(&#39;/home/englianhu/Documents/owner/ryo-cn.Rmd&#39;,  encoding = &#39;UTF-8&#39;)</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;UTF-8&quot;)</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(locale = &quot;UTF-8&quot;)</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;chs&quot;)</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;UTF-8&quot;)</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Sys.setlocale(category = &quot;LC_ALL&quot;, locale = &quot;Chinese&quot;)</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="at">category =</span> <span class="st">&quot;LC_ALL&quot;</span>, <span class="at">locale =</span> <span class="st">&quot;zh_TW.UTF-8&quot;</span>)</span></code></pre></div>
+<pre class="bg-primary"><code>## [1] &quot;LC_CTYPE=zh_TW.UTF-8;LC_NUMERIC=C;LC_TIME=zh_TW.UTF-8;LC_COLLATE=zh_TW.UTF-8;LC_MONETARY=zh_TW.UTF-8;LC_MESSAGES=C;LC_PAPER=C;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C;LC_IDENTIFICATION=C&quot;</code></pre>
 <pre class="scss bg-success"><code>/* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -423,25 +440,25 @@ h5 { color: #92AAC7; }
 <style type="text/css">
 h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92AAC7}.hover01{background:linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);transition:all 0.45s}.hover01:hover{background:linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%)}.hover02{color:#FFD64D;background:linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);transition:all 0.45s}.hover02:hover{background:linear-gradient(155deg, #002C54 20%, #4CB5F5 80%)}.hover03{color:#FFD64D;background:linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);transition:all 0.45s}.hover03:hover{background:linear-gradient(155deg, #A10115 20%, #FF3C5C 80%)}
 </style>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/a/36846793/3806250</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">width =</span> <span class="dv">999</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Set the timezone but not change the datetime</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Shanghai&#39;</span>)</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = &#39;html&#39;) will set all kableExtra tables to be &#39;html&#39;, otherwise need to set the parameter on every single table.</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">knitr.table.format =</span> <span class="st">&#39;html&#39;</span>)<span class="co">#, digits.secs = 6)</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">cache =</span> <span class="cn">TRUE</span>, <span class="at">warning =</span> <span class="cn">FALSE</span>, </span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>                      <span class="at">message =</span> <span class="cn">FALSE</span>, <span class="at">cache.lazy =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/a/36846793/3806250</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">width =</span> <span class="dv">999</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">class.source =</span> <span class="st">&#39;hover01&#39;</span>, <span class="at">class.output =</span> <span class="st">&#39;hover02&#39;</span>, <span class="at">class.error =</span> <span class="st">&#39;hover03&#39;</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Set the timezone but not change the datetime</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setenv</span>(<span class="at">TZ =</span> <span class="st">&#39;Asia/Shanghai&#39;</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="do">## options(knitr.table.format = &#39;html&#39;) will set all kableExtra tables to be &#39;html&#39;, otherwise need to set the parameter on every single table.</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">warn =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">knitr.table.format =</span> <span class="st">&#39;html&#39;</span>)<span class="co">#, digits.secs = 6)</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="do">## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">cache =</span> <span class="cn">TRUE</span>, <span class="at">warning =</span> <span class="cn">FALSE</span>, </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>                      <span class="at">message =</span> <span class="cn">FALSE</span>, <span class="at">cache.lazy =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <p><br><br></p>
 </div>
 <div id="設置" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> 設置</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Setup Options, Loading Required Libraries and Preparing Environment</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Loading the packages and setting adjustment</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">&#39;function/libs.R&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Setup Options, Loading Required Libraries and Preparing Environment</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="do">## Loading the packages and setting adjustment</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">&#39;function/libs.R&#39;</span>)</span></code></pre></div>
 <p><br><br></p>
 </div>
 <div id="關於我" class="section level2" number="2.3">
@@ -460,7 +477,7 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </tr>
 <tr class="even">
 <td align="left">年齡</td>
-<td align="right">37y 3m 15d</td>
+<td align="right">37y 3m 16d</td>
 </tr>
 <tr class="odd">
 <td align="left">行動電話號碼</td>
@@ -1134,8 +1151,8 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 </tr>
 </tbody>
 </table>
-<div id="htmlwidget-a9b7ee4dc65ab7b32dde" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a9b7ee4dc65ab7b32dde">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"radar":[{"indicator":[{"name":"<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","max":"10"},{"name":"<U+91CF><U+5316><U+4EA4><U+661C>","max":"10"},{"name":"R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","max":"10"},{"name":"<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","max":"10"},{"name":"SQL<U+8A9E><U+8A00>","max":"10"},{"name":"Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","max":"10"},{"name":"<U+6578><U+64DA><U+5206><U+6790>","max":"10"},{"name":"<U+5BA2><U+670D><U+5DE5><U+4F5C>","max":"10"},{"name":"<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","max":"10"},{"name":"<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","max":"10"},{"name":"<U+7D71><U+8A08><U+5B78>","max":"10"},{"name":"<U+6578><U+64DA><U+79D1><U+5B78>","max":"10"},{"name":"Shiny<U+61C9><U+7528>","max":"10"},{"name":"Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","max":"10"},{"name":"Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","max":"10"},{"name":"Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","max":"10"},{"name":"<U+9AD8><U+7D1A> R","max":"10"},{"name":"modeltime / tidyverts / prophet","max":"10"},{"name":"tidyverse / tidymodels","max":"10"},{"name":"<U+5F35><U+91CF>Tensorflow / pytorch","max":"10"},{"name":"Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","max":"10"},{"name":"FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","max":"10"},{"name":"Photoshop / Picsart","max":"10"}]}],"series":[{"type":"radar","data":[{"value":[9,9,9,8,3,4,9,9,7,7,6,8,8,7,6,2,6,7,6,2,4,3,5],"name":["<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","<U+91CF><U+5316><U+4EA4><U+661C>","R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","SQL<U+8A9E><U+8A00>","Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+6578><U+64DA><U+5206><U+6790>","<U+5BA2><U+670D><U+5DE5><U+4F5C>","<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","<U+7D71><U+8A08><U+5B78>","<U+6578><U+64DA><U+79D1><U+5B78>","Shiny<U+61C9><U+7528>","Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","<U+9AD8><U+7D1A> R","modeltime / tidyverts / prophet","tidyverse / tidymodels","<U+5F35><U+91CF>Tensorflow / pytorch","Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","Photoshop / Picsart"]}],"radarIndex":0,"itemStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#EDAE01' },\n       { offset: 1, color: '#FFEB94' }\n     ])"},"areaStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#002C54' },\n       { offset: 1, color: '#4CB5F5' }\n     ])"}}],"legend":{"data":[["<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","<U+91CF><U+5316><U+4EA4><U+661C>","R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","SQL<U+8A9E><U+8A00>","Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+6578><U+64DA><U+5206><U+6790>","<U+5BA2><U+670D><U+5DE5><U+4F5C>","<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","<U+7D71><U+8A08><U+5B78>","<U+6578><U+64DA><U+79D1><U+5B78>","Shiny<U+61C9><U+7528>","Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","<U+9AD8><U+7D1A> R","modeltime / tidyverts / prophet","tidyverse / tidymodels","<U+5F35><U+91CF>Tensorflow / pytorch","Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","Photoshop / Picsart"]]},"tooltip":{"trigger":"item"}},"dispose":true},"evals":["opts.series.0.itemStyle.color","opts.series.0.areaStyle.color"],"jsHooks":[]}</script>
+<div id="htmlwidget-f4f74bdef9840c3c0be3" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f4f74bdef9840c3c0be3">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"radar":[{"indicator":[{"name":"<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","max":"10"},{"name":"<U+91CF><U+5316><U+4EA4><U+661C>","max":"10"},{"name":"R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","max":"10"},{"name":"<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","max":"10"},{"name":"SQL<U+8A9E><U+8A00>","max":"10"},{"name":"Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","max":"10"},{"name":"<U+6578><U+64DA><U+5206><U+6790>","max":"10"},{"name":"<U+5BA2><U+670D><U+5DE5><U+4F5C>","max":"10"},{"name":"<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","max":"10"},{"name":"<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","max":"10"},{"name":"<U+7D71><U+8A08><U+5B78>","max":"10"},{"name":"<U+6578><U+64DA><U+79D1><U+5B78>","max":"10"},{"name":"Shiny<U+61C9><U+7528>","max":"10"},{"name":"Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","max":"10"},{"name":"Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","max":"10"},{"name":"Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","max":"10"},{"name":"<U+9AD8><U+7D1A> R","max":"10"},{"name":"modeltime / tidyverts / prophet","max":"10"},{"name":"tidyverse / tidymodels","max":"10"},{"name":"<U+5F35><U+91CF>Tensorflow / pytorch","max":"10"},{"name":"Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","max":"10"},{"name":"FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","max":"10"},{"name":"Photoshop / Picsart","max":"10"}]}],"series":[{"type":"radar","data":[{"value":[9,9,9,8,3,4,9,9,7,7,6,8,8,7,6,2,6,7,6,2,4,3,5],"name":["<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","<U+91CF><U+5316><U+4EA4><U+661C>","R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","SQL<U+8A9E><U+8A00>","Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+6578><U+64DA><U+5206><U+6790>","<U+5BA2><U+670D><U+5DE5><U+4F5C>","<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","<U+7D71><U+8A08><U+5B78>","<U+6578><U+64DA><U+79D1><U+5B78>","Shiny<U+61C9><U+7528>","Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","<U+9AD8><U+7D1A> R","modeltime / tidyverts / prophet","tidyverse / tidymodels","<U+5F35><U+91CF>Tensorflow / pytorch","Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","Photoshop / Picsart"]}],"radarIndex":0,"itemStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#EDAE01' },\n       { offset: 1, color: '#FFEB94' }\n     ])"},"areaStyle":{"color":"new echarts.graphic.LinearGradient(\n     0, 0, 0, 1,\n     [\n       { offset: 0, color: '#002C54' },\n       { offset: 1, color: '#4CB5F5' }\n     ])"}}],"legend":{"data":[["<U+8A08><U+91CF><U+7D93><U+6FDF><U+5B78>","<U+91CF><U+5316><U+4EA4><U+661C>","R<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+5FAE><U+8EDF><U+8FA6><U+516C><U+8EDF><U+4EF6>","SQL<U+8A9E><U+8A00>","Python<U+7DE8><U+7A0B><U+8A9E><U+8A00>","<U+6578><U+64DA><U+5206><U+6790>","<U+5BA2><U+670D><U+5DE5><U+4F5C>","<U+9AD4><U+80B2><U+535A><U+5F69><U+884C><U+696D>","<U+5EFA><U+7ACB>RStudio<U+670D><U+52D9><U+5668>","<U+7D71><U+8A08><U+5B78>","<U+6578><U+64DA><U+79D1><U+5B78>","Shiny<U+61C9><U+7528>","Linux<U+64CD><U+4F5C><U+7E6B><U+7D71>","Web API<U+61C9><U+7528><U+7A0B><U+5E8F><U+63A5><U+53E3>","Sparklyr<U+5927><U+6578><U+64DA><U+5206><U+6790>","<U+9AD8><U+7D1A> R","modeltime / tidyverts / prophet","tidyverse / tidymodels","<U+5F35><U+91CF>Tensorflow / pytorch","Web Driver<U+9A45><U+52D5><U+5668><U+700F><U+89BD><U+5668>","FrontPage / <U+90E8><U+7F72><U+7DB2><U+7AD9>","Photoshop / Picsart"]]},"tooltip":{"trigger":"item"}},"dispose":true},"evals":["opts.series.0.itemStyle.color","opts.series.0.areaStyle.color"],"jsHooks":[]}</script>
 <p><br></p>
 </div>
 <div id="其它-雜談" class="section level2" number="2.8">
@@ -1212,66 +1229,66 @@ h1{color:#002C54}h2{color:#2F496E}h3{color:#375E97}h4{color:#556DAC}h5{color:#92
 <p>以下乃此文書的文件信息。</p>
 <ul>
 <li>文集建立日：2015-10-12</li>
-<li>文集最新更新日：2022-02-06</li>
+<li>文集最新更新日：2022-02-07</li>
 <li>R version 4.1.2 (2021-11-01)</li>
 <li><a href="https://github.com/rstudio/rmarkdown"><strong>rmarkdown</strong></a> 程序包版本：2.11</li>
 <li>文集版本：0.2.1</li>
 <li>文集作者：<a href="https://beta.rstudioconnect.com/content/3091/ryo-eng.html">®γσ, ξηg Lιαη Ημ</a></li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;formattable&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;knitr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;kableExtra&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;magittr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;devtools&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>sys1 <span class="ot">&lt;-</span> <span class="fu">session_info</span>()<span class="sc">$</span>platform <span class="sc">|&gt;</span> </span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">unlist</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">row.names =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(.), </span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Category =</span> <span class="fu">names</span>(.), <span class="at">session_info =</span> .)}()</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>sys2 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">Sys.info</span>()) <span class="sc">|&gt;</span> </span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="fu">row.names</span>(.), <span class="at">Sys.info =</span> .[,<span class="dv">1</span>])}()</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co">#remarks, dim(sys1), dim(sys2)</span></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">11</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">&#39;&#39;</span>, <span class="at">session_info =</span> <span class="st">&#39;&#39;</span>))</span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
-<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">|&gt;</span> </span>
-<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kbl</span>(., <span class="at">caption =</span> <span class="st">&#39;Additional session information:&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(., <span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">&#39;striped&#39;</span>, <span class="st">&#39;hover&#39;</span>, <span class="st">&#39;condensed&#39;</span>, <span class="st">&#39;responsive&#39;</span>))}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">0</span>, <span class="at">background =</span> <span class="st">&#39;DimGrey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">1</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;red&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">2</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;black&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">3</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;blue&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">4</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;white&#39;</span>)}() <span class="sc">|&gt;</span> </span>
-<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
-<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">11</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>, <span class="at">background =</span> <span class="st">&#39;#D7261E&#39;</span>)}()</span>
-<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(sys1, sys2)</span>
-<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a>sys</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r hover01"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;formattable&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;knitr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;kableExtra&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;magittr&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">require</span>(<span class="st">&#39;devtools&#39;</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>sys1 <span class="ot">&lt;-</span> <span class="fu">session_info</span>()<span class="sc">$</span>platform <span class="sc">|&gt;</span> </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">unlist</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">row.names =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(.), </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Category =</span> <span class="fu">names</span>(.), <span class="at">session_info =</span> .)}()</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>sys2 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="fu">Sys.info</span>()) <span class="sc">|&gt;</span> </span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="fu">row.names</span>(.), <span class="at">Sys.info =</span> .[,<span class="dv">1</span>])}()</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co">#remarks, dim(sys1), dim(sys2)</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">11</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">nrow</span>(sys1) <span class="sc">==</span> <span class="dv">10</span> <span class="sc">&amp;</span> <span class="fu">nrow</span>(sys2) <span class="sc">==</span> <span class="dv">8</span>) {</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>  sys1 <span class="sc">%&lt;&gt;%</span> <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(<span class="at">Category =</span> <span class="st">&#39;&#39;</span>, <span class="at">session_info =</span> <span class="st">&#39;&#39;</span>))</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>  sys2 <span class="ot">&lt;-</span> sys2 <span class="sc">|&gt;</span> </span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>    {\(.) <span class="fu">rbind</span>(., <span class="fu">data.frame</span>(</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">Category =</span> <span class="fu">c</span>(<span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;rsconnect&#39;</span>, <span class="st">&#39;Current time&#39;</span>), </span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sys.info =</span> <span class="fu">c</span>(<span class="fu">as.character</span>(<span class="fu">getwd</span>()), </span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">as.character</span>(<span class="fu">packageVersion</span>(<span class="st">&#39;rsconnect&#39;</span>)), </span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>                 <span class="fu">paste</span>(<span class="fu">as.character</span>(lubridate<span class="sc">::</span><span class="fu">now</span>(<span class="st">&#39;Asia/Shanghai&#39;</span>)), <span class="st">&#39;CST 🗺&#39;</span>))))}()</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>sys <span class="ot">&lt;-</span> <span class="fu">cbind</span>(sys1, sys2) <span class="sc">|&gt;</span> </span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kbl</span>(., <span class="at">caption =</span> <span class="st">&#39;Additional session information:&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(., <span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">&#39;striped&#39;</span>, <span class="st">&#39;hover&#39;</span>, <span class="st">&#39;condensed&#39;</span>, <span class="st">&#39;responsive&#39;</span>))}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">0</span>, <span class="at">background =</span> <span class="st">&#39;DimGrey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">1</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;red&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">2</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;black&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">3</span>, <span class="at">background =</span> <span class="st">&#39;CornflowerBlue&#39;</span>, <span class="at">color =</span> <span class="st">&#39;blue&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-49"><a href="#cb8-49" aria-hidden="true" tabindex="-1"></a>    <span class="fu">column_spec</span>(., <span class="dv">4</span>, <span class="at">background =</span> <span class="st">&#39;grey&#39;</span>, <span class="at">color =</span> <span class="st">&#39;white&#39;</span>)}() <span class="sc">|&gt;</span> </span>
+<span id="cb8-50"><a href="#cb8-50" aria-hidden="true" tabindex="-1"></a>  {\(.) </span>
+<span id="cb8-51"><a href="#cb8-51" aria-hidden="true" tabindex="-1"></a>    <span class="fu">row_spec</span>(., <span class="dv">11</span>, <span class="at">bold =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">&#39;yellow&#39;</span>, <span class="at">background =</span> <span class="st">&#39;#D7261E&#39;</span>)}()</span>
+<span id="cb8-52"><a href="#cb8-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-53"><a href="#cb8-53" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(sys1, sys2)</span>
+<span id="cb8-54"><a href="#cb8-54" aria-hidden="true" tabindex="-1"></a>sys</span></code></pre></div>
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <caption>
 Additional session information:
@@ -1368,7 +1385,7 @@ x86_64
 collate
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-C
+zh_TW.UTF-8
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 login
@@ -1382,7 +1399,7 @@ englianhu
 ctype
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-en_US.UTF-8
+zh_TW.UTF-8
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 user
@@ -1410,7 +1427,7 @@ englianhu
 date
 </td>
 <td style="text-align:left;color: black !important;background-color: grey !important;">
-2022-02-06
+2022-02-07
 </td>
 <td style="text-align:left;color: blue !important;background-color: CornflowerBlue !important;">
 rmarkdown
@@ -1442,7 +1459,7 @@ rsconnect
 Current time
 </td>
 <td style="text-align:left;color: white !important;background-color: grey !important;font-weight: bold;color: yellow !important;background-color: #D7261E !important;">
-2022-02-06 20:54:07 CST 🗺
+2022-02-07 15:04:54 CST 🗺
 </td>
 </tr>
 </tbody>

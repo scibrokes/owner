@@ -405,6 +405,17 @@ lib('sass')
 ## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
 #Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 #Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")
+#Sys.setlocale(locale = "Chinese")
+#Sys.setlocale(locale = "Japanese")
+#Sys.setlocale(locale = "English")
+
+# rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
+#Sys.setlocale("LC_CTYPE", "UTF-8")
+#Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Japanese")
+Sys.setlocale(category = "LC_ALL", locale = "jp_JP.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -896,34 +907,86 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 技能（ぎのう）
 
-```{r skill, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-skill <- data_frame(c('R編程言語', 'MSオフィス', 'SQL', 'Python', 'データ分析', '顧客支援', 'スポーツ業界', 'RStudioサーバー', '統計', 'データ科學', 'シャイニー．アプリケーション', 'Linux OS', 'Web API', '量化交昜'), c(9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 8))
-names(skill) <- c('技能', 'レベル')
+```{r skill, echo = FALSE, result = 'asis'}
+require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
+require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
+require('formattable', quietly = TRUE, warn.conflicts = FALSE)
+require('knitr', quietly = TRUE, warn.conflicts = FALSE)
+require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
-#'@ skill %>% kable(caption='Table 6.1 : Skill and Expertise')
+skill <- tibble(
+  '技能' = c('計量經濟學', '量化交昜', 'R編程言語', '微軟辦公軟件', 'SQL言語', 'Python編程言語', '數據分析', '客服工作', '體育博彩行業', '建立RStudio服務器', '統計學', '數據科學', 'Shiny應用', 'Linux操作繫統', 'Web API應用程序接口', 'Sparklyr大數據分析', '高級 R', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / pytorch', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 6, 7, 6, 2, 4, 3, 5))
+skill <- tibble('序列' = 1:nrow(skill), skill)
 
-tagList(
-  tags$div(align = "center", 
-           class = "bg-info", 
-           tags$h3(class = "bg-primary", "Skill and Expertise"), 
-           tags$h5(align = "center", class = "text-muted", 
-                   "技能評価 (新入生1から専門10迄)")), 
-  as.htmlwidget(skill %>% formattable(list(
-    Level = color_tile('white', 'darkgoldenrod')
-    ))))
+skill |> 
+    {\(.) dplyr::mutate(
+      ., `技能` = cell_spec(`技能`, italic = TRUE, 
+                           color = spec_color(seq(nrow(skill)), option = 'A', 
+                                              begin = 0.1, end = 0.9), 
+                           tooltip = paste0('程度: ', `程度`), angle = 3))}() |>#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
+  {\(.) mutate_if(., is.numeric, function(x){ 
+    cell_spec(x, 'html', color = 
+                spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
+                           direction = -1), angle = 20, 
+              font_size = spec_font_size(x), bold = TRUE) })}() |> 
+  {\(.) kbl(., caption = '技能評価 (新入生1から専門10迄)', escape = FALSE, align = 'c')}() |> 
+  {\(.) kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) row_spec(., 0, background = 'DimGrey', color = 'yellow')}()# %>% 
+  #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  #column_spec(2, background = 'grey', color = 'black') %>% 
+  #column_spec(2, background = 'grey', color = 'black')
 ```
 
-<br>
+```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+skill[,-1] |> 
+  {\(.) tibble(.) |> 
+      recharts::echartr(., 
+        x = ~`技能`, y = ~`程度`, series = ~`技能`, type = 'radar', 
+        symbolList = 'none', #palette=c('firebrick1','dodgerblue'), 
+        title = '技能評価', subtitle = '(by @englianhu)')}() |> 
+  {\(.) recharts::setSymbols(., 'star4')}() |> 
+  {\(.) recharts::setToolbox(., lang = 'en', pos = 2)}() |> 
+  {\(.) recharts::setTheme(., 'infographic', calculable = TRUE, bgColor = '#FBF2E9', 
+                           animationEasing = 'BounceInOut', animationDuration = 500)}()
 
-```{r skill2, eval = FALSE, echo = FALSE}
-#, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+radarchart::chartJSRadar(
+  skill[,-1], main = '技能評価', width = '100%', height = '100%', 
+  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+```
 
-skill %>% data.frame %>% 
-  recharts::echartR(x= ~技能, y= ~レベル, series= ~技能, type='radarfill', 
-                    symbolList='none', #palette=c('firebrick1','dodgerblue'), 
-                    title='技能評価', subtitle= '(by @englianhu)')
+```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 
-chartJSRadar(skill, main = '技能評価', maxScale = 10, showToolTipLabel=TRUE)
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(`技能`) |> 
+  echarts4r::e_radar(`程度`, max = 10, name = skill$`技能`, 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
 ```
 
 <br>

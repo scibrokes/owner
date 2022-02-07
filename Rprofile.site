@@ -25,9 +25,22 @@
 .libPaths(.pth)
 
 ## https://support.rstudio.com/hc/en-us/articles/200532197
-## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/2
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
 #Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 #Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")
+#Sys.setlocale(locale = "Chinese")
+#Sys.setlocale(locale = "Japanese")
+#Sys.setlocale(locale = "English")
+
+# rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
+#Sys.setlocale("LC_CTYPE", "UTF-8")
+#Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Chinese")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "jp_JP.UTF-8")
 
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
