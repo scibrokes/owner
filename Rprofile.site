@@ -41,6 +41,7 @@
 #Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "jp_JP.UTF-8")
+options(encoding='UTF-8')
 
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/

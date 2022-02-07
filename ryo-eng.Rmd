@@ -18,7 +18,7 @@ output:
       smooth_scroll: yes
     code_folding: hide
     css: CSSBackgrounds.css
-  word_document:
+  pdf_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
@@ -31,7 +31,7 @@ output:
       smooth_scroll: yes
     code_folding: hide
     css: CSSBackgrounds.css
-  pdf_document:
+  word_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
