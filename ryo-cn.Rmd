@@ -413,6 +413,7 @@ lib('sass')
 # rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
 #Sys.setlocale("LC_CTYPE", "UTF-8")
 #Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "chs")
 #Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "Chinese")
 #Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
@@ -754,7 +755,7 @@ op <- options(gvis.plot.tag = 'chart')
 **2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *简介：资信利（Getronics）乃德国公司，为德意志德国人（伟大的德国人Unsere Besten）做工。*
-- *工作明细：位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+- *工作明细：位于吉隆坡中央车站（KL Sentral）商业区，通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
 
 <br>
 
@@ -1005,12 +1006,8 @@ skill |>
 ```
 
 ```{r, eval=FALSE, echo=FALSE}
-Sys.setlocale(category = 'LC_ALL', locale = 'Chinese')
+Sys.setlocale(category = 'LC_ALL', locale = 'zh_CN.UTF-8')
 source('function/skill.R', encoding = 'utf-8')
-```
-
-```{r, eval=FALSE, echo=FALSE}
-Sys.setlocale(category = 'LC_ALL', locale = 'Chinese')
 source('function/skill2B.R', encoding = 'utf-8')
 ```
 

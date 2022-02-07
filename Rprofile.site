@@ -81,6 +81,12 @@ if(!suppressPackageStartupMessages(require('BBmisc'))) {
 }
 suppressPackageStartupMessages(require('BBmisc'))
 
+if(!suppressPackageStartupMessages(require('rmsfuns'))) {
+  install.packages('rmsfuns', dependencies = TRUE, 
+                   INSTALL_opts = '--no-lock')
+}
+suppressPackageStartupMessages(require('rmsfuns'))
+
 if(!suppressAll(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
                    INSTALL_opts = '--no-lock')       

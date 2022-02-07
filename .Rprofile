@@ -75,6 +75,12 @@ local({
 
 suppressPackageStartupMessages(require('utils'))
 
+if(!suppressPackageStartupMessages(require('BBmisc'))) {
+  install.packages('BBmisc', dependencies = TRUE, 
+                   INSTALL_opts = '--no-lock')
+}
+suppressPackageStartupMessages(require('BBmisc'))
+
 if(!suppressPackageStartupMessages(require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, 
                    INSTALL_opts = '--no-lock')

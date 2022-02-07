@@ -415,7 +415,8 @@ lib('sass')
 #Sys.setlocale(locale = "UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "chs")
 #Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
-Sys.setlocale(category = "LC_ALL", locale = "el_GR.UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Chinese")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -754,7 +755,7 @@ op <- options(gvis.plot.tag = 'chart')
 **Sep-2013 to Nov-2013 : Pipeline Engineering, Customer Service**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *Summary : Work for Germans/Deutsche (Unsere Besten).*
-- *Job Task : Base in KL Sentral (Malaysia), handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
+- *Job Task : Base in KL Sentral (Malaysia) business center, handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
 
 <br>
 
@@ -1002,6 +1003,12 @@ skill |>
                      areaStyle = list(
                        color = linear_gradient2)) |>
   echarts4r::e_tooltip(trigger = 'item')
+```
+
+```{r, eval=FALSE, echo=FALSE}
+Sys.setlocale(category = 'LC_ALL', locale = 'zh_CN.UTF-8')
+source('function/skill.R', encoding = 'utf-8')
+source('function/skill2B.R', encoding = 'utf-8')
 ```
 
 <br>
