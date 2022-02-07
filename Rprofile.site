@@ -27,6 +27,7 @@
 ## https://support.rstudio.com/hc/en-us/articles/200532197
 ## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/2
 #Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
+#Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
 
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
