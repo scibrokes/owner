@@ -796,14 +796,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融業，操盤手/交昜員兼代理**；（受聘於[Prestigen盈利有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/prestige.png" width="36" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：網絡金融業，操盤手/交昜員兼代理**；（受聘於[Prestigen盈利有限公司](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
 
 - *簡介：Prestigen盈利有限公司乃一家亞太紐西蘭外匯投資機構。*
 - *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
+- Attachment: ®️ [Prestigen Profits Limited - Authorization to Hexa Commerce Sdn Bhd](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
+- Attachment: [Prestigen Profits Limited - Certificate of Incorporation](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
+- Attachment: [Hexa Commerce Sdn Bhd - Company Certificate](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
 
 <br>
 
-**2003年7月 至 2003年8月：零售業，雜貨店工人**；（受聘於[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="50" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+**2003年7月 至 2003年8月：零售業，雜貨店工人**；（受聘於[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
