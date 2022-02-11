@@ -603,7 +603,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
-- <s>*01 课程：会计管理：成本习性、系统与分析*</s>
+- <s>*01 课程：会计管理：经费的习性、系统与分析*</s>
 - *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
 - <s>*03 课程：财务评价和战略：投资*</s>
 - *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
@@ -666,7 +666,7 @@ op <- options(gvis.plot.tag = 'chart')
     - 2004年3月17日：[*ACCA - 记录财务交易明细*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Recording%20Financial%20Transactions.jpg)
     - 2004年3月18日：[*ACCA - 信息管理*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Accounting%20for%20Costs.jpg)
     - 2004年6月21日：[*ACCA - 维护财务记录*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Maintaining%20Financial%20Records.jpg)
-    - 2004年6月22日：[*ACCA - 成本计算*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.jpg)
+    - 2004年6月22日：[*ACCA - 经费计算*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.jpg)
 
 <br>
 
@@ -676,7 +676,7 @@ op <- options(gvis.plot.tag = 'chart')
 - 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第2级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
 - 2005年12月4日：*在吉隆坡报考*[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
 - 2006年12月3日：*在马尼拉报考*[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style="color:Red"}
-- 2003年开始[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
+- 2003年开始加入[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>
 
 <br>
 
@@ -691,7 +691,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人兼物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+**[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
 - *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
@@ -707,7 +707,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+**2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
 - *工作明细：在柬埔寨西哈努克（西港）工作五个月，作为阿里发客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）工作一个月。*
 
@@ -719,21 +719,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于Global Solution（马）私人有限公司）
+**2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于环球方案工程（马）私人有限公司）
 
 - *简介：受聘于郭建辉，在旧巴生路特易购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：足球彩券跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
-**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于OneMedia（马）私人有限公司）
+**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于万华媒体（马）私人有限公司）
 
 - *简介：公司在吉隆坡南门。*
 - *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
 <br>
 
-**2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[IdealSeed资源有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+**2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
 - *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
 
@@ -746,9 +746,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年11月 至 2014年3月：网络博彩，队长兼操盘手/交易员**；（受聘于[SBSolutionCorp有限公司](http://www.sbet.com)操盘，不过由[GBLinks](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+**2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[SB方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
-- *简介：GBlink在香港九龙红磡，老板们都是香港人。*
+- *简介：光辉通信（GBlink Ltd）在香港九龙红磡，老板们都是香港人。*
 - *工作明细：管理下属、更新比分、赛事结算。*
 
 <br>
@@ -767,7 +767,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2012年11月 至 2013年5月：电子媒体，节目直播审查员**；（受聘于[UDrive Media有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月 至 2013年5月：电子媒体，节目直播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *简介：TM乃马来西亚蓝筹股。*
 - *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
@@ -783,27 +783,27 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月 至 2007年6月：网络博彩，培训师兼操盘手/交易员**；（受聘于[Caspo有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
+**2006年7月 至 2007年6月：网络博彩，培训师 ∩ 操盘手/交易员**；（受聘于[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
 
-- *简介：Caspo乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
+- *简介：客世博乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责SB与SB2网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
-**2005年11月 至 2006年7月：网络博彩，队长兼资深操盘手/交易员**；（受聘于[Telebiz有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+**2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
-- *简介：Telebiz乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
+- *简介：特里必斯乃一家网络博彩公司与一家研发与赁租博彩平台的姐妹公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：网络金融业，操盘手/交易员兼代理**；（受聘于Hexa Commerce（马）私人有限公司 与 Prestigen Profits（纽）私人有限公司商业合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
+**2005年7月 至 2005年10月：网络金融业，操盘手/交易员 ∩ 代理**；（受聘于赫萨贸易（马）私人有限公司 与 尚誉威盈（纽）有限公司商业合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
 
-- *简介：Prestigen Profit（纽）私人有限公司（Prestigen Profits Limited）乃一家亚太纽西兰外汇投资机构。*
+- *简介：尚誉威盈（Prestigen Profits Limited）乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
-- 附件：®️ [Prestigen Profits Limited - Hexa Commerce Sdn Bhd 授权书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
-- 附件：[Prestigen Profits Limited - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
-- 附件：[Hexa Commerce Sdn Bhd - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
+- 附件：®️ [尚誉威盈（纽）有限公司 -赫萨贸易（马）私人有限公司授权书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
+- 附件：[尚誉威盈（纽）有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
+- 附件：[赫萨贸易（马）私人有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
 
 <br>
 
@@ -1055,7 +1055,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
 - **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-2003/2004年离开*Prestigen盈利有限公司*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
+2003/2004年离开*Prestigen Profits（纽）有限公司*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 
 [^3]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 

@@ -746,9 +746,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>)
+**Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>) provides IT and platform support
 
-- *Summary : GBlink being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
+- *Summary : GB-links Ltd being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
 - *Job Task : Handling few members to update scores and bets settlement.*
 
 <br>
