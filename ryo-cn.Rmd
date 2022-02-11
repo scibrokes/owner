@@ -1067,6 +1067,8 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
+[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) and [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) and [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) and [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
+
 欲知更多关于我的详情，请参阅个人部落格。
 
 - [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
