@@ -715,7 +715,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2016年5月から 2016年12月迄：線上売り、顧客支援**；（[マインドパール](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（じんりょく・しげん）（馬）私人（しじん）有限會社（ゆうげんがいしゃ）](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：疎邦再也(マレーシア)MindPearl事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜州（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。*
+- *仕事詳細：疎邦再也（マレーシア）マインドパール事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜州（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。*
 
 <br>
 
@@ -1149,7 +1149,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集版本（はんぽん）：0.2.1
-- 著者（ちょしゃ）の情報：[®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- 著者（ちょしゃ）の情報：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-jp)
 - GitHub：[原始（げんし）コード](https://github.com/scibrokes/owner)
 - 追加のセッション情報
 

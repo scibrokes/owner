@@ -1061,7 +1061,13 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund (不够专业避险基金) : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund (专业避险基金) : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-Because of noted that George Soros's mom know multilingual and there has a lot of advantages, I learnt Korean langauge, German language, <s>French language</s>. I am currently learn to setup own hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+Because of noted that George Soros's mom know multilingual and there has a lot of advantages, I learnt Korean language, German language, <s>French language</s>.
+
+> Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
+
+[James Simons]{style="color:RoyalBlue"}[^5] is the successful investor in quantitative hedge fund whom we need to learn. I am currently learn to setup own quantitative hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+
+[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) and [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) and [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) and [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 Kindly refer to my personal blogs for more information about me.
 
@@ -1170,7 +1176,7 @@ It's useful to record some information about how your file was created.
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
 - File version: 0.2.1
-- Author Profile: [®γσ, ξηg Lιαη     Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- Author Profile: [®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-en)
 - GitHub: [Source Code](https://github.com/scibrokes/owner)
 - Additional session information
 

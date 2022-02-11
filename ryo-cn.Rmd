@@ -693,10 +693,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
-- *简介：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
+- *简介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
 - *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
 
-[^2]: [*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg®（GitHub）*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg®（脸谱）*](https://facebook.com/scibrokes).
+[^2]: [*世博量化®（官方网）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（脸谱）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -713,7 +713,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
+**2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[珍珠贝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
 - *工作明细：在疏邦再也（马来西亚）UOA商业中心的13A/14楼MindPearl办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
 
@@ -1029,11 +1029,11 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2003年 至 2005年**，在吉隆坡怡保路3里路HSBC银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
 - **2003年 至 2005年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宫当前台服务员。
 - **2003年 至 2005年**，在吉隆坡怡保路5里路/甲洞当汽车销售员/维修员。
-- **2003年 至 2005年**，在谷中城对面的[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>内的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>当迷你市场店员。
+- **2003年 至 2005年**，在谷中城对面的[日本国际交流基金会（马）](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>内的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>当迷你市场店员。
 - **2003年 至 2005年**，经[拉曼学院电脑科学系同学兼最佳好友谢德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^3]录用，到他家乡适耕庄的网吧（高峰电脑中心）当柜台小生。
 - **2006年2月**，在Telebiz工作时，业余时间到安邦韩国村修读韩语，同时也在韩国村一带的韩国跆拳道馆学跆拳道。
 - **2006年7月**，在Telebiz工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。
-- **2006年7月 至 2006年12月**，在馬尼拉Caspo Inc工作時，咨询了一些日语中心和一些韩语中心咨询课程，在[Japan Foundation Manila](https://jfmo.org.ph) 报考高级日语JLPT Level I后，同年年底2006年12月在[德拉萨大学 Dela Salle University Manila](https://www.dlsu.edu.ph)考高级日语。
+- **2006年7月 至 2006年12月**，在馬尼拉Caspo Inc工作時，咨询了一些日语中心和一些韩语中心咨询课程，在[日本国际交流基金会（菲）](https://jfmo.org.ph) 报考高级日语JLPT Level I后，同年年底2006年12月在[德拉萨大学 Dela Salle University Manila](https://www.dlsu.edu.ph)考高级日语。
 - **2007年1月 至 2007年4月**，在马尼拉Caspo Inc工作时，到[Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修读[德语业余课程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)。
 - **2006年7月 至 2007年4月**，在马尼拉Caspo Inc工作时，曾威廉时常邀约习武练泰拳（还有日本合气道、韩国合气道），而泰拳馆就在公司PBCom大厦的一楼而已。
 - **2007年8月 至 2008年3月**，大哥在怡观园的皇帽旗下代理餐馆（一家台湾女老板的餐馆 --- 大家乐小食中心）开档口当小贩。
@@ -1043,7 +1043,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
 - **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大厦的[AIA（友邦保险）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
-- **2013年10月1号**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
+- **2013年10月1号**，在[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*世博量化®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
 - **2014年**，找了几份网游之类的工作。
@@ -1053,7 +1053,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
 - **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间2楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
-- **2020年10月10号**，重新注册了间公司[*Sςιβrοκεrs Trαdιηg®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
+- **2020年10月10号**，重新注册了间公司[*世博量化®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
 2003/2004年离开*Prestigen Profits（纽）有限公司*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 
@@ -1061,7 +1061,11 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [^4]: [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不够专业避险基金）：[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（专业避险基金）：[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
-由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。 目前在学习建立自个儿的避险基金[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+由于佐治.索罗斯之母精通多国语言有优势，故此学过韩语、德语、<s>法语</s>。
+
+> Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
+
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
 欲知更多关于我的详情，请参阅个人部落格。
 
@@ -1170,7 +1174,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集版本：0.2.1
-- 文集作者：[®γσ, ξηg Lιαη Ημ](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+- 文集作者：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-cn)
 - GitHub：[源代码](https://github.com/scibrokes/owner)
 - 其它附属信息
 
@@ -1250,4 +1254,4 @@ sys
 
 ------------------------------------------------------------------------
 
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)[**企业知识产权®及版权®所有，盗版必究。**]{style="color:RoyalBlue"}
+[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)[**企业知识产权®及版权®所有，盗版必究。**]{style="color:RoyalBlue"}
