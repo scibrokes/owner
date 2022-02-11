@@ -10,7 +10,6 @@ output:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
-    self_contained: no
     toc: yes
     toc_depth: 6
     toc_float:
@@ -358,6 +357,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息學 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+- music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
 ---
 
 ------
@@ -417,6 +417,7 @@ lib('sass')
 #Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "Japanese")
 #Sys.setlocale(category = "LC_ALL", locale = "jp_JP.UTF-8")
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -755,7 +756,8 @@ op <- options(gvis.plot.tag = 'chart')
 **2013年10月 至 2013年11月：排水工程、顧客支援**；([チートロニックス](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
 
 - *簡介：チートロニックスはドイツ（德意志國）の會社，德意志人（偉大な德意志人Unsere Besten）の為に働いてる。*
-- *仕事詳細：KLセントラル駅周辺、線上でお客様に技術支援や、着信通話します位于吉隆坡中央车站（KL Sentral），通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+- *仕事詳細：KLセントラル駅周辺、線上で国外の大型水道管の建設と修理に関してお客様（ほとんどが美國、欧州、アジア太平洋から来た洋人と少しの華人です）に技術支援や、着信通話します。*
+位于吉隆坡中央车站（KL Sentral），。通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。
 
 <br>
 
@@ -800,13 +802,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融市場，交昜員/代理**；（[Prestigen盈利有限會社](https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/855708/detail) <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>に雇用された）
+**2005年7月 至 2005年10月：網絡金融業，操盤手/交易員兼代理**；（Hexa Commerce（馬）私人有限會社 と Prestigen Profits（紐）私人有限會社商業合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *簡介：Prestigen盈利有限會社乃一家亞太紐西蘭外匯投資機構。*
-- *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交昜、培訓等，以獲得投資回酬。*
-- Attachment: ®️ [Prestigen Profits Limited - Authorization to Hexa Commerce Sdn Bhd](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
-- Attachment: [Prestigen Profits Limited - Certificate of Incorporation](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
-- Attachment: [Hexa Commerce Sdn Bhd - Company Certificate](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
+- *簡介：Prestigen Profit（紐）私人有限公司（Prestigen Profits Limited）乃一家亞太紐西蘭外匯投資機構。*
+- *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交易、培訓等，以獲得投資回酬。*
+- 附件：®️ [Prestigen Profits Limited - Hexa Commerce Sdn Bhd 授權書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
+- 附件：[Prestigen Profits Limited - 公司證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
+- 附件：[Hexa Commerce Sdn Bhd - 公司證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
+
 
 <br>
 
@@ -1175,7 +1178,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
                  paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
   
 } else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
-  sys1 %<>% rbind(., data.frame(Category = '', session_info = ''))
+  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
   
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(

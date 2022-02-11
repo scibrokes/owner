@@ -10,7 +10,6 @@ output:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
-    self_contained: no
     toc: yes
     toc_depth: 6
     toc_float:
@@ -358,6 +357,7 @@ resource_files:
 - documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
+- music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
 ---
 
 ------
@@ -417,6 +417,7 @@ lib('sass')
 #Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "Chinese")
 #Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
 ```{scss class.source = 'bg-success', class.output = 'bg-primary'}
@@ -1198,7 +1199,7 @@ if (nrow(sys1) == 11 & nrow(sys2) == 8) {
                  paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
   
 } else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
-  sys1 %<>% rbind(., data.frame(Category = '', session_info = ''))
+  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
   
   sys2 <- sys2 |> 
     {\(.) rbind(., data.frame(

@@ -1,3 +1,4 @@
+BBmisc
 rmsfuns
 usethis
 devtools
@@ -18,7 +19,6 @@ lubridate
 prettycode
 MASS
 conflicted
-BBmisc
 sass
 plyr
 magrittr
