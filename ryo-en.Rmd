@@ -777,7 +777,7 @@ op <- options(gvis.plot.tag = 'chart')
 **Mar-2008 to Jul-2012 : Business Process Outsourcing (BPO) Company, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
 - *Summary : Work for English.*
-- *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
+- *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal, phone bets' transactions and also train newbies. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
 - Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - Awarded [(Ladbrokes) Appreciation Certificate](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 

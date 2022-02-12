@@ -767,17 +767,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2012年11月 至 2013年5月：电子媒体，节目直播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+**2012年11月 至 2013年5月：电子媒体，节目转播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *简介：马电讯™乃马来西亚蓝筹股。*
-- *工作明细：中文小组，观赏海外直播节目，并且需要审查与过滤节目内容，[马电讯™](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
+- *工作明细：中文小组，观赏海外转播节目，并且需要审查与过滤节目内容，[马电讯™](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
 **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 - *简介：为布列颠英国人做工。*
-- *工作明细：接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
+- *工作明细：培训新人，接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
 - 获奖[客服研讨会](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - 获奖[（立博）嘉许状](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 

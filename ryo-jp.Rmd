@@ -735,7 +735,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple 林檎（りんご）㊑株式會社](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[アイディール・シーッド資源（馬）私人有限會社](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：[ゼロックス（臺灣人が全祿（ぜんろく）と呼ばれる）](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
+- *仕事詳細：[ゼロックス（臺稱（たいしょう）全祿（ぜんろく））](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
 
 <br>
 
@@ -749,14 +749,14 @@ op <- options(gvis.plot.tag = 'chart')
 **2013年11月から 2014年3月迄：線上富くじ、隊長 ∩ 交昜員**；（交昜ために、[エスビー方案企業（きぎょう）（菲）有限會社](http://www.sbet.com)に雇用された、そして[光輝通信（港）有限會社](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援します）
 
 - *簡介：光輝通信（こうき・つうしん）（GB-links Ltd）は香港九龍紅磡で、社長達は香港人です。*
-- *仕事詳細：新しい同僚を訓練し、従業員を管理し、得点（とくてん）と成績を更新し、注文書を決算します。*
+- *仕事詳細：新しい同僚を教育（きょういく）や訓練し、従業員を管理し、試合得点（とくてん）と成績を更新し、注文書を決算します。*
 
 <br>
 
 **2013年10月 至 2013年11月：排水工程、事務支援員**；([資信利㊑株式會社](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
 
 - *簡介：資信利（ししんり）（Getronics）はドイツ（德意志國）の會社，德意志人（偉大な德意志人Unsere Besten）の為に働いてる。*
-- *仕事詳細：ケー‐エル・セントラル駅周辺、線上で国外の大型水道管の建設と修理に関してお客様（ほとんどが米國、歐洲、亜洲と太平洋から来た洋人と少しの華人）に技術支援や、着信通話します。*
+- *仕事詳細：ケー‐エル・セントラル駅周辺、線上で国外の大型水道管の建設と修理に関してお客様（ほとんどが米國、歐洲、亜洲太平洋から来た洋人と少しの華人）に技術支援や、着信通話します。*
 
 <br>
 
@@ -770,49 +770,48 @@ op <- options(gvis.plot.tag = 'chart')
 **2012年11月から 2013年5月迄：電子媒體（でんしばいたい）、番組直播審查員（ちょくはん・しんさいん）**；（[優盤（ゆうばん）媒體（馬）私人有限會社](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
 
 - *簡介：馬電信™はマレーシアの㊑株式會社です。*
-- *仕事詳細：[馬電信™㊑株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>のhappTV部門で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
+- *仕事詳細：[馬電信™㊑株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>のhappTV部門で仕事して、中国組で働いて、海外からの番組は本国放送前に審查します。*
 
 <br>
 
 **2008年3月から 2012年7月迄：外部委託（がいぶいたく）事業、事務支援員**；（[希世康（きよこう）/サイコム(MSC)㊑株式會社](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
 
 - *簡介：英国人（えいこくじん）（大不列顛）の為に働いてる。*
-- *仕事詳細：[立博（英）㊑株式會社（りっばく・じょうじょうかいしゃ）](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の遠東お客様に支援や、着信通話しまて、すべての預金、撤退、また電話で賭ける事を処理します。*
--   [顧客支援研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
--   [(立博) 感謝状（かんしゃじょう）](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
+- *仕事詳細：新しい同僚を教育や訓練し、[立博（英）㊑株式會社（りっばく・じょうじょうかいしゃ）](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の遠東お客様に支援や、着信通話しまて、全ての預金、撤退、また電話で賭ける事を処理します。*
+- [顧客支援研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
+- [(立博) 感謝状（かんしゃじょう）](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
 
 <br>
 
 **2006年7月から 2007年6月迄：線上富くじ、職業訓練指導員（しょくぎょう・くんれん・しどういん）/交昜員**；（[ケスポー（菲）有限會社](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>に雇用された）
 
-- *簡介：ケスポーは臺灣同胞（どうほう）やシンガポア新加坡同胞を持ってる，[著名な映画（えいが）《黑金（こくきん）》](https://www.bilibili.com/video/BV1Gv411y7ED)みたい。*
+- *簡介：ケスポーは臺灣同胞（どうほう）やシンガポア同胞を持ってる，[著名な映画（えいが）《黑金（こくきん）》](https://www.bilibili.com/video/BV1Gv411y7ED)みたい。*
 -  *仕事詳細：新寶（しんぽう）壱や新寶弐線上網站（もうたん）の損益計算書、取引と分析のデータなどを担当する、新しい同僚を訓練することなどもあります。*
 
 <br>
 
 **2005年11月から 2006年7月迄：線上富くじ、隊長/高級交昜員**；（[テレビズ（馬）私人有限會社](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
-- *簡介：テレビズは線上富くじ會社と協力會社エムチエスシ（馬）私人有限會社は交昜平臺と軟件技術支援します。研发与赁租博彩平台的姐妹會社为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
--  *仕事詳細：新しい同僚を訓練し、長期利益博徒の賭け方法に従って注文や、裁定取引（さいてい・とりひき）や、最適な販売価格の差額を儲ける戦略や、出荷し、試合得点を更新し、試合の株価や先物価格など決済し、データ分析し（）、角球（(かくきゅう）など事も操作や管理します。*
-
-- *簡介：テレビズ乃一家网络博彩會社与一家研发与赁租博彩平台的姐妹會社为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
-- *仕事詳細：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
+- *簡介：テレビズは線上富くじ會社で、協力會社エムチエスシ（馬）私人有限會社は交昜平臺と軟件技術支援して、マレーシア同胞が持って、香港同胞や濠洲（ごうしゅう）同胞や協力します。*
+-  *仕事詳細：新しい同僚を教育や訓練し、長期利益博徒の賭け方法に従って注文や、裁定取引（さいてい・とりひき）や、最適な販売価格の差額を儲ける戦略や、出荷し、試合得点を更新し、試合の株価や先物価格など決済し、データ分析し（市場の競争相手を比較し、市場の株価や先物価格などや試合などが含まれている）、角球（(かくきゅう）など事も操作や管理します。*
 
 <br>
 
-**2005年7月 至 2005年10月：線上金融業，株や為替の交易員 ∩ 代理**；（ヘキサ貿易（馬）私人有限會社 と 協力會社は尚譽威盈（紐）有限會社 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>に雇用された）
+**2005年7月 至 2005年10月：線上金融業，株や為替の交易員 ∩ 代理**；（ヘキサ貿易（馬）私人有限會社 と 協力會社は尚譽威盈（新）有限會社 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *簡介：尚譽威盈（しょうよ・いえい）（紐）有限會社（Prestigen Profits Limited）乃一家亞太紐西蘭外匯投資機構。*
-- *工作明細：投資者の為に為替（かわせ）市場の中で提供一條龍式服務，包括營銷、科研、風險管理、交易、培訓等，以獲得投資回酬。*
-- 附件：®️[尚譽威盈（紐）有限會社 - ヘキサ貿易（馬）私人有限會社授權書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
-- 附件：[尚譽威盈（紐）有限會社 - 會社證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
+- *簡介：尚譽威盈（しょうよ・いえい）[（新）](https://www.letsgojp.com/archives/416026)有限會社（Prestigen Profits Limited）は亜洲太平洋からの[ニュージーランド](https://zatugaku-gimonn.com/entry5302.html)為替投資機構で御座います。*
+- *工作明細：投資者の為に為替（かわせ）市場の中でマーケティング、科学研究、リスク管理、取引、新しい同僚を教育や訓練など、投資報酬を得るための一貫したサービスを提供します。*
+
+提供一條龍式服務，包括營銷、科研、風險管理、交易、培訓等，以獲得投資回酬。
+- 附件：®️[尚譽威盈（新）有限會社 - ヘキサ貿易（馬）私人有限會社授權書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
+- 附件：[尚譽威盈（新）有限會社 - 會社證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
 - 附件：[ヘキサ貿易（馬）私人有限會社 - 會社證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
 
 <br>
 
 **2003年7月 至 2003年8月：零售業，雜貨店工人**；（[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
 
-- *簡介：ニッポン人の為に働いて、少しのマレーシア人で、すべて日本人で、社長も日本人です。*
+- *簡介：東洋人（とうようじん）ニッポン人の為に働いて、少しのマレーシア人で、すべて日本人で、社長も日本人です。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
 - **JCKL会员**
 
