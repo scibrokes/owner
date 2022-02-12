@@ -682,10 +682,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大学本科，电脑科学系联合主流A（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
--   *大一*
--   *大二*
--   <s>*大三*</s>
--   <s>*大四*</s>
+- *大一*
+- *大二*
+- <s>*大三*</s>
+- <s>*大四*</s>
 
 <br><br>
 
@@ -715,13 +715,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[珍珠贝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
-- *工作明细：在疏邦再也（马来西亚）UOA商业中心的13A/14楼MindPearl办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。*
+- *工作明细：在疏邦再也（马来西亚）UOA商业中心的十三A/十四楼珍珠贝办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。同事们包括中国大陆同胞、马来西亚同胞、日本同胞、韩国同胞和美国同胞等等。*
 
 <br>
 
 **2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于环球方案工程（马）私人有限公司）
 
-- *简介：受聘于郭建辉，在旧巴生路特易购楼上Soho的13A/14楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
+- *简介：受聘于郭建辉，在旧巴生路特易购楼上家居办公工作室的十三A/十四楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：足球彩券跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
@@ -748,15 +748,15 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[埃斯比方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
-- *简介：光辉通信（GB-links Ltd）在香港九龙红磡，老板们都是香港人。*
+- *简介：光辉通信（GB-links Ltd）在香港九龙红磡，老板们都是香港同胞。*
 - *工作明细：培训新人、管理下属、更新比分、赛事结算。*
 
 <br>
 
 **2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
-- *简介：资信利（Getronics）乃德国公司，为德意志德国人（伟大的德国人Unsere Besten）做工。*
-- *工作明细：位于吉隆坡中央车站（KL Sentral）商业区，通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的洋人和少许华人）。*
+- *简介：资信利（Getronics）乃德国公司，为德意志德国同胞（伟大的德国人Unsere Besten）做工。*
+- *工作明细：位于吉隆坡中央车站（KL Sentral）商业区，通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的老外同胞和少许国内外中华同胞）。*
 
 <br>
 
@@ -776,7 +776,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
-- *简介：为布列颠英国人做工。*
+- *简介：为布列颠英国同胞做工。*
 - *工作明细：培训新人，接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
 - 获奖[客服研讨会](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - 获奖[（立博）嘉许状](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
@@ -792,7 +792,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
-- *简介：特里必斯（Telebiz）乃一家网络博彩公司，与一家研发并赁租博彩平台的姐妹公司恩姆埃斯基（MG-SC）（马）私人有限公司为马来西亚人所有，与香港同胞和澳洲同胞等国家合作。*
+- *简介：特里必斯（Telebiz）乃一家网络博彩公司，与一家研发并赁租博彩平台的姐妹公司恩姆埃斯基（MG-SC）（马）私人有限公司为马来西亚同胞所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
@@ -809,7 +809,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
-- *简介：为日本人工作，除了一些马来西亚人，全是日本人，老板也是日本人。*
+- *简介：为日本同胞工作，除了一些马来西亚同胞，全是日本同胞，老板也是日本同胞。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
 - **JCKL会员**
 

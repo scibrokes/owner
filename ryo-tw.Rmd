@@ -682,10 +682,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大學本科，電腦科學繫聯合主流A（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
--   *大一*
--   *大二*
--   <s>*大三*</s>
--   <s>*大四*</s>
+- *大一*
+- *大二*
+- <s>*大三*</s>
+- <s>*大四*</s>
 
 <br><br>
 
@@ -703,25 +703,25 @@ op <- options(gvis.plot.tag = 'chart')
 **2019年11月 至 2020年7月：網絡博彩，推廣人員**；（受聘於[東方集團旗下：樂發集團的阿裏和壹號彩（阿裏彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
 - *簡介：東方集團乃中國商業集團。*
-- *工作明細：在菲律賓克拉克工作（除了少許外國人，全是中國大陸同胞），作為佛繫推廣人員，推廣與審查單帶會員，分析彩票中獎率與編寫交昜繫統；半年後轉到運維部門分析公司財務、會員、產品盈虧報表與負責風控。*
+- *工作明細：在菲律賓克拉克工作（除了少許外國同胞，全是中國大陸同胞），作為佛繫推廣人員，推廣與審查單帶會員，分析彩票中獎率與編寫交昜繫統；半年後轉到運維部門分析公司財務、會員、產品盈虧報表與負責風控。*
 
 <br>
 
 **2017年11月 至 2018年5月：網絡博彩，客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘於[七駐亞洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
-- *工作明細：在柬埔寨西哈努克（西港）工作工作五个月，作為阿裏發客服人員（除了咱們項目多數是馬來西亞人，其余全是中國大陸同事和少許柬埔寨人）但時而得負責風控監控與審核客戶存取款與舞弊行為，第2份工作則在巴域（柬埔寨與越南邊境）工作一个月。*
+- *工作明細：在柬埔寨西哈努克（西港）工作工作五个月，作為阿裏發客服人員（除了咱們項目多數是馬來西亞同胞，其余全是中國大陸同胞和少許柬埔寨同胞）但時而得負責風控監控與審核客戶存取款與舞弊行為，第2份工作則在巴域（柬埔寨與越南邊境）工作一个月。*
 
 <br>
 
 **2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源（馬）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[珍珠貝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
-- *工作明細：在疏邦再也（馬來西亞）UOA商業中心的13A/14樓珍珠貝辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。*
+- *工作明細：在疏邦再也（馬來西亞）UOA商業中心的拾叁A/拾肆樓珍珠貝辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。同事們包括中國大陸同胞、馬來西亞同胞、日本同胞、韓國同胞和美國同胞等等。*
 
 <br>
 
 **2015年10月 至 2016年1月：網絡博彩，操盤手/交昜員**；（受聘於環球方案工程（馬）私人有限公司）
 
-- *簡介：受聘於郭建輝，在舊巴生路特昜購樓上Soho的13A/14樓上班，老板們是香港人，Eric妻子馬來西亞籍故此常駐馬來西亞、而君豪和君傑時常到澳門。*
+- *簡介：受聘於郭建輝，在舊巴生路特昜購樓上家居辦公工作室的拾叁A/拾肆樓上班，老板們是香港同胞，Eric妻子馬來西亞籍故此常駐馬來西亞、而君豪和君傑時常到澳門。*
 - *工作明細：足球彩券跟單（跟隨長期盈利的職業玩家的註單投註）、打水套利、為中國客戶處理存款。*
 
 <br>
@@ -748,15 +748,15 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[埃斯比方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
 
-- *簡介：光輝通信（GB-links Ltd）在香港九龍紅磡，老板們都是香港人。*
+- *簡介：光輝通信（GB-links Ltd）在香港九龍紅磡，老板們都是香港同胞。*
 - *工作明細：培訓新人、管理下屬、更新比分、賽事結算。*
 
 <br>
 
 **2013年10月 至 2013年11月：排水工程，客服人員**；(受聘於[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
-- *簡介：資信利（Getronics）乃德國公司，為德意誌德國人（偉大的德國人Unsere Besten）做工。*
-- *工作明細：位於吉隆坡中央車站（KL Sentral）商業區，通過電話和網上接待國外大型水管建設與維修的客戶（幾乎都是來自於美國、歐洲、亞太的洋人和少許華人）。*
+- *簡介：資信利（Getronics）乃德國公司，為德意誌德國同胞（偉大的德國人Unsere Besten）做工。*
+- *工作明細：位於吉隆坡中央車站（KL Sentral）商業區，通過電話和網上接待國外大型水管建設與維修的客戶（幾乎都是來自於美國、歐洲、亞太的老外同胞和少許國內外中華同胞）。*
 
 <br>
 
@@ -776,7 +776,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
-- *簡介：為布列顛英國人做工。*
+- *簡介：為布列顛英國同胞做工。*
 - *工作明細：培訓新人，接聽所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯繫、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
 - 獲獎[客服研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - 獲獎[（立博）嘉許狀](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
