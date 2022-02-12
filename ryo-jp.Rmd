@@ -680,7 +680,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月4月11日から 2005年5月迄</s> 2002年4月11日から 2003年10月11日迄：<s>學部、電脳科學繫聯合主流A（統計學専攻）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+**<s>2002月4月11日から 2005年5月迄</s> 2002年4月11日から 2003年10月11日迄：<s>學部、電脳科學繫聯合主流（がっけい・れんごう・しゅりゅう）A（統計學専攻）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 -  *一年生*
 -  *二年生*
@@ -693,10 +693,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 **[2020年10月から 今迄]{style="color:Red"}：線上（せんじょう）金融業、創始者（そうししゃ） ∩ 物主/オーナー**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
-- *簡介（かんかい）：[**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]が世界的な市場では、投資家のための数理統計によって高投資収益率を生産する量化投資管理会社です。*
+- *簡介（かんかい）：[**世博量化®（せいばく・りょうか）**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]が世界的な市場では、投資家のための数理統計によって高投資収益率を生産する量化投資管理会社です。*
 - *仕事詳細：金融市場で科学研究統計モデリング、危機管理や高周波自動演算量化交昜、データ分析など、その後中国大陸に発展する。*
 
-[^2]: [*Sςιβrοκεrs Trαdιηg®（公式サイト）*](https://www.scibrokes.com)<br>[*Sςιβrοκεrs Trαdιηg®（GitHub）*](https://github.com/scibrokes)<br>[*Sςιβrοκεrs Trαdιηg®（睑谱（れんぷ）/隈取（くまどり））*](https://facebook.com/scibrokes).
+[^2]: [*世博量化®（公式サイト）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（睑谱（れんぷ）/隈取（くまどり））*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -713,50 +713,50 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[マインドパール](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（じんりょく・しげん）（馬）私人（しじん）有限會社（ゆうげんがいしゃ）](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
+**2016年5月から 2016年12月迄：線上売り、顧客支援**；（[真珠貝（しんじゅがい）](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>によって、[萬寶盛華人力資源（まんぽう・せいか・じんりょく・しげん）（馬（うま））私人有限會社（しじん・ゆうげんがいしゃ）](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：疎邦再也（マレーシア）マインドパール事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜州（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。*
+- *仕事詳細：疎邦再也（マレーシア）真珠貝事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空会社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜洲（あしゅう）と大洋州の顧客が多く、他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。*
 
 <br>
 
-**2015年10月から 2016年1月迄：線上富くじ、交昜員**；（グローバル・ソリューション（馬）私人有限會社に雇用された）
+**2015年10月から 2016年1月迄：線上富くじ、交昜員**；（受聘於環球方案工程（かんきゅう・ほうあん・こうてい）（馬）私人有限會社に雇用された）
 
 - *簡介：郭建輝に招聘され、旧巴生路テスコ商場上の13A/14階で出勤した。社長達は香港人で、社長エリックの妻はマレーシア籍から、マレーシアに常駐していたが、他の社長君豪と君傑はよくマカオに遊びに行ってた。*
 - *仕事詳細：長期利益博徒の賭け方法に従って注文や、裁定取引（さいていとりひき）や、ヘッジ戦略や、中国顧客のお金を入れる。*
 
 <br>
 
-**2015年5月から 2015年9月迄：線上富くじ、顧客支援**；（ワンメディア（馬）私人有限會社に雇用された）
+**2015年5月から 2015年9月迄：線上富くじ、顧客支援**；（萬華媒體（ばんか・ばいたい）（馬）私人有限會社に雇用された）
 
-- *簡介：會社はクアラルンプールの南門にあります。。*
+- *簡介：會社はクアラルンプールの南門にあります。*
 - *仕事詳細：電話を掛けると電話を受ける、線上諮問（しもん）、計算特恵（とっけい）や返水、睑谱口座（こうざ）を管理して、線上普及し、すべて入出金取引を処理します。*
 
 <br>
 
 **2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple 林檎（りんご）有限會社](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>によって、[アイディール・シーッド資源（馬）私人有限會社](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：[ゼロックス](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
+- *仕事詳細：[ゼロックス（臺灣人が全祿（ぜんろく）と呼ばれる）](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
 
 <br>
 
 **2014年3月から 2014年4月迄：線上売り、顧客支援**；（[富士ゼロックス](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：台湾組で働いて、臺湾顧客に印刷機の修理と維持と修繕関して事や、販売することや、技術支援や、着信通話します。*
+- *仕事詳細：臺灣組で働いて、臺湾顧客に印刷機の修理と維持と修繕関して事や、販売することや、技術支援や、着信通話します。*
 - **JCKL会员**
 
 <br>
 
-**2013年11月から 2014年3月迄：線上遊戯、隊長 ∩ 交昜員**；（トレーダーのために、[SBソリューション・コープ（菲）有限會社](http://www.sbet.com)に雇用された、そして[光輝通信（港）有限會社](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援します）
+**2013年11月から 2014年3月迄：線上遊戯、隊長 ∩ 交昜員**；（交昜ために、[エスビー方案企業（きぎょう）（菲）有限會社](http://www.sbet.com)に雇用された、そして[光輝通信（こうき・つうしん）（港）有限會社](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援します）
 
-- *簡介：GBリンクスは香港九龍紅磡で、社長達は香港人です。*
+- *簡介：光輝通信（GB-links Ltd）は香港九龍紅磡で、社長達は香港人です。*
 - *仕事詳細：従業員を管理し、得点（とくてん）と成績を更新し、注文書を決算します。*
 
 <br>
 
-**2013年10月 至 2013年11月：排水工程、顧客支援**；([チートロニックス](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
+**2013年10月 至 2013年11月：排水工程、顧客支援**；([資信利（ししんり）](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
 
-- *簡介：チートロニックスはドイツ（德意志國）の會社，德意志人（偉大な德意志人Unsere Besten）の為に働いてる。*
-- *仕事詳細：KLセントラル駅周辺、線上で国外の大型水道管の建設と修理に関してお客様（ほとんどが米國、歐洲、亜州と太平洋から来た洋人と少しの華人）に技術支援や、着信通話します。*
+- *簡介：資信利（Getronics）はドイツ（德意志國）の會社，德意志人（偉大な德意志人Unsere Besten）の為に働いてる。*
+- *仕事詳細：ケー‐エル・セントラル駅周辺、線上で国外の大型水道管の建設と修理に関してお客様（ほとんどが米國、歐洲、亜洲と太平洋から来た洋人と少しの華人）に技術支援や、着信通話します。*
 
 <br>
 
@@ -767,14 +767,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2012年11月から 2013年5月迄：テレビ放送チャンネル、ビデオ エディター**；（[UDrive Media（馬）私人有限會社](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
+**2012年11月から 2013年5月迄：電子媒體（でんしばいたい）、番組直播審查員（ちょくはん・しんさいん）**；（[優盤（ゆうばん）媒體（馬）私人有限會社](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
 
-- *簡介：TMがマレーシアの株式會社です。*
+- *簡介：ティーエム™がマレーシアの株式會社です。*
 - *仕事詳細：[テレコム．マレーシア株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>のhappTV部門で仕事してる、中国組で働いて、海外からのビデオ．ストリーミング、本国でプレイする前にフィルタ リングします。*
 
 <br>
 
-**2008年3月から 2012年7月迄：アウトソーシング事業、顧客支援**；（[サイコム(MSC)有限會社](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
+**2008年3月から 2012年7月迄：アウトソーシング事業、顧客支援**；（[希世康（きよこう）/サイコム(MSC)有限會社](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
 
 - *簡介：イギリスの為に働いてる。*
 - *仕事詳細：[立博（たつひろ）上场會社（じょうじょうかいしゃ）](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の遠東お客様に支援や、着信通話しまて、すべての預金、撤退、また電話で賭ける事を処理します。*
@@ -1021,7 +1021,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
 - **2013年**，建立自個兒的RStudio服務器、學習采集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜會社的工作，不過沒多久就不幹了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
-- **2013年10月1號**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間會社[*Sςιβrοκεrs Trαdιηg®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的皮夾[財神挺臺灣夜總會]{style="color:#F6A217"}。
+- **2013年10月1號**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間會社[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的皮夾[財神挺臺灣夜總會]{style="color:#F6A217"}。
 - **2013年11月**，有天麥克張有銘匆匆忙忙打電話聯繫並錄用我並買了張機票，還沒辭職就飛往香港九龍了。在SBet工作時，Howie宋家豪時常論及我穿的休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受祿於富士全祿前，在瓜雪One Plaza購物廣場後的森林茶餐廳（Xing's Restaurant）幫大哥打工一個月。
 - **2014年**，找了幾份網遊之類的工作。
@@ -1031,7 +1031,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，經過一位古早味頭手介紹，到無拉港Aeon Mall商場對面（焦賴南鎮118）的記德撈*海鮮火鍋食*（PTN Steamboat Restaurant） 打零工。
 - **2018年**，到柬埔寨西哈努克港[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>當客服人員，因為非常危險，有天午休時間2樓宿舍大爆炸和許多槍聲後，員工紛紛逃跑到會社，有位小胖經理走來叫我馬上飛回國。
 - **2018年**，Bron Ong通過臉譜聘用到新山當真人荷官（合作商家為柬埔寨西哈努克港）的客服人員，幹了一個月正（非常危險，而且會社作假張還不讓員工辭職），由於母親去世才能回雪州。
-- **2020年10月10號**，重新註冊了間會社[*Sςιβrοκεrs Trαdιηg®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
+- **2020年10月10號**，重新註冊了間會社[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
 2003/2004年離開*Prestigen Profits（紐）有限會社*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
@@ -1045,7 +1045,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過 shiny 應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
 
-[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) and [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) and [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) and [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
+[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) や [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) や [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) や [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 欲知更多關於我的詳情，請參閱個人部落格。
 
@@ -1232,4 +1232,4 @@ sys
 
 ------------------------------------------------------------------------
 
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)[**企業の知的財産権と著作権、海賊版は調査されなければならない。**]{style="color:RoyalBlue"}
+[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)[**企業の知的財産権と著作権、海賊版は調査されなければならない。**]{style="color:RoyalBlue"}

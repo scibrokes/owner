@@ -715,7 +715,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源（馬）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[珍珠貝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
-- *工作明細：在疏邦再也（馬來西亞）UOA商業中心的13A/14樓MindPearl辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。*
+- *工作明細：在疏邦再也（馬來西亞）UOA商業中心的13A/14樓珍珠貝辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。*
 
 <br>
 
@@ -735,7 +735,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2015年2月 至 2015年4月：網絡營銷，交昜審查員**；（受聘於[愛德爾錫德資源（馬）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不過由[蘋果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
-- *工作明細：在[施樂公司（臺稱全祿）](https://www.xerox.com)辦公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。審查交昜是否舞弊，外撥電話。*
+- *工作明細：在[全祿公司（中稱施樂）](https://www.xerox.com)辦公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。審查交昜是否舞弊，外撥電話。*
 
 <br>
 
@@ -746,9 +746,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[SB方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
+**2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[埃斯比方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
 
-- *簡介：光輝通信（GBlink Ltd）在香港九龍紅磡，老板們都是香港人。*
+- *簡介：光輝通信（GB-links Ltd）在香港九龍紅磡，老板們都是香港人。*
 - *工作明細：管理下屬、更新比分、賽事結算。*
 
 <br>
@@ -769,7 +769,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **2012年11月 至 2013年5月：電子媒體，節目直播審查員**；（受聘於[優盤媒體（馬）私人有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
-- *簡介：TM乃馬來西亞藍籌股。*
+- *簡介：馬電訊™乃馬來西亞藍籌股。*
 - *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
 
 <br>
@@ -1067,7 +1067,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過 shiny 應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
 
-[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) and [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) and [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) and [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
+[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) 與 [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) 與 [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) 與 [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 欲知更多關於我的詳情，請參閱個人部落格。
 
