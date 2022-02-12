@@ -749,7 +749,7 @@ op <- options(gvis.plot.tag = 'chart')
 **2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[埃斯比方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
 
 - *簡介：光輝通信（GB-links Ltd）在香港九龍紅磡，老板們都是香港人。*
-- *工作明細：管理下屬、更新比分、賽事結算。*
+- *工作明細：培訓新人、管理下屬、更新比分、賽事結算。*
 
 <br>
 
@@ -770,29 +770,29 @@ op <- options(gvis.plot.tag = 'chart')
 **2012年11月 至 2013年5月：電子媒體，節目直播審查員**；（受聘於[優盤媒體（馬）私人有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *簡介：馬電訊™乃馬來西亞藍籌股。*
-- *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
+- *工作明細：中文小組，觀賞海外直播節目，並且需要審查與過濾節目內容，[馬電訊™](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
 
 <br>
 
 **2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 - *簡介：為布列顛英國人做工。*
-- *工作明細：接聽所有[立博上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯繫、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
+- *工作明細：接聽所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯繫、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
 - 獲獎[客服研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-- 獲獎[（立博）嘉許狀.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+- 獲獎[（立博）嘉許狀](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
 **2006年7月 至 2007年6月：網絡博彩，培訓師 ∩ 操盤手/交昜員**；（受聘於[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
 
 - *簡介：客世博乃臺灣同胞與新加坡同胞持有，如同[著名電影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
-- *工作明細：培訓新人包括操盤與連線賽事現場、負責SB與SB2網站盈虧報表，也得操盤、翻譯與分析數據等等。*
+- *工作明細：培訓新人包括操盤與連線賽事現場、負責新寶壹與新寶贰網站盈虧報表，也得操盤、翻譯與分析數據等等。*
 
 <br>
 
 **2005年11月 至 2006年7月：網絡博彩，隊長 ∩ 資深操盤手/交昜員**；（受聘於[特裏必斯（馬）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
-- *簡介：特裏必斯乃一家網絡博彩公司與一家研發與賃租博彩平臺的姐妹公司為馬來西亞人所有，與香港同胞和澳洲同胞等國家合作。*
+- *簡介：特裏必斯（Telebiz）乃一家網絡博彩公司，與一家研發并賃租博彩平臺的姐妹公司恩姆埃斯基（MG-SC）（馬）私人有限公司為馬來西亞人所有，與香港同胞和澳洲同胞等國家合作。*
 - *工作明細：培訓新人、對沖、出貨、更新比分、賽事結算、翻譯、輯寫培訓手冊等、數據分析（包括比較市場上競爭對手的盤口與賽事等）、負責角球盤口（包括科研盤口與賠率）等等事宜。*
 
 <br>

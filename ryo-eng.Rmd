@@ -749,7 +749,7 @@ op <- options(gvis.plot.tag = 'chart')
 **Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>) provides IT and platform support
 
 - *Summary : GB-links Ltd being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
-- *Job Task : Handling few members to update scores and bets settlement.*
+- *Job Task : Train newbie and manage few members to update scores and bets settlement.*
 
 <br>
 
@@ -779,7 +779,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *Summary : Work for English.*
 - *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal and also phone bets' transactions. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
 - Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-- Awarded [(Ladbrokes) Appreciation Certificate.jpg](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+- Awarded [(Ladbrokes) Appreciation Certificate](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
@@ -792,7 +792,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Nov-2005 to Jul-2006 : Online Gambling, Team Leader ∩ Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
-- *Summary : Telebiz is an online gaming group with MGSC which develop online gaming platform, owned by Malaysian and co-orperate with Hong Kongnese, Australian etc*
+- *Summary : Telebiz is an online gaming group with a sister company MG-SC which develop online gaming platform, owned by Malaysian and co-orperate with Hong Kongnese, Australian etc*
 - *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, update scores for bets financial settlement, writing training manuals. Handle live-matches on corners (includes R&D on the match odds), translate and also analysis job tasks (compare the market matches and odds price etc).*
 
 <br>
