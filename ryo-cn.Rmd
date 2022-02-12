@@ -832,7 +832,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
 
-- *采集日内数据、数据流、`sparklyr`等等。*
+- *使用`sparklyr`等应用采集日内数据、数据流。*
 - *高频算法量化交易等等。*
 - *统计建模、交易策略、风险管理等等。*
 
@@ -840,29 +840,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github仓库**：[**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
 
-- *Analyse the financial report and stock price of Ali lottery.*
-- *Analyse the profit and loss of customers and products, customers' consuming habit.*
+- *分析阿里彩票公司的财务报表、包括产品盈亏、会员盈亏、消费模式、会员日志记录等。*
 
 <br>
 
 **Github仓库**：[**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的财务报表与股价。*
-- *分析新宝1与新宝2的财务报表。*
+- *分析新宝一与新宝二的财务报表。*
 
 <br>
 
 **Github仓库**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
 
 - *回测金融投注建模与投注策略。*
-- *回测Arima、平滑模型与各种Garch模型，并且凯利投注模型等等。*
+- *回测Arima自回归模型、平滑模型、Garch广义自回归条件异方差系列模型，包括凯利投注模型等等。*
 - *弥补缺失值数据与回测高频率交易。*
 
 <br>
 
 **Github仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium和Phantomjs软件采集网络足球彩券与赛事数据。*
+- *使用Selenium（硒网页应用程序测试工具）和Phantomjs（无主题浏览器测试）软件采集网络足球彩券与赛事数据。*
 - *自然语言分析采集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
 - *运用不同的凯利标准杠杆投注。*
 

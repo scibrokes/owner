@@ -742,7 +742,7 @@ op <- options(gvis.plot.tag = 'chart')
 **2014年3月 至 2014年4月：網絡營銷，客服人員**；（受聘於[富士全祿](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 - *工作明細：臺灣小組，接聽臺灣顧客的印刷機/列印機/印表機問題、預訂、安排維修人員與退貨、在線技術支援等等。*
-- **JCKL会员**
+- **JCKL會員**
 
 <br>
 
@@ -811,7 +811,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 - *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
-- **JCKL会员**
+- **JCKL會員**
 
 <br>
 
@@ -832,7 +832,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
 
-- *采集日內數據、數據流、`sparklyr`等等。*
+- *使用`sparklyr`等應用采集日內數據、數據流。*
 - *高頻算法量化交易等等。*
 - *統計建模、交易策略、風險管理等等。*
 
@@ -840,29 +840,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github倉庫**：[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
 
-- *Analyse the financial report and stock price of Ali lottery.*
-- *Analyse the profit and loss of customers and products, customers' consuming habit.*
+- *分析阿裏彩票公司的財務報表、包括產品盈虧、會員盈虧、消費模式、會員日誌記錄等。*
 
 <br>
 
 **Github倉庫**：[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的財務報表與股價。*
-- *分析新寶1與新寶2的財務報表。*
+- *分析新寶壹與新寶贰的財務報表。*
 
 <br>
 
 **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交昜員崗位）**](https://github.com/englianhu/binary.com-interview-question)
 
 - *回測金融投註建模與投註策刂略。*
-- *回測Arima、平滑模型與各種Garch模型，並且凱利投註模型等等。*
+- *回測Arima自回歸模型、平滑模型、Garch廣義自回歸條件異方差系列模型，包括凱利投註模型等等。*
 - *彌補缺失值數據與回測高頻率交昜。*
 
 <br>
 
 **Github倉庫**：[**Betting Strategy and Model Validation（博彩交昜策刂略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium和Phantomjs軟件采集網絡足球彩券與賽事數據。*
+- *使用Selenium（硒網頁應用程序測試工具）和Phantomjs（無主題瀏覽器測試）軟件采集網絡足球彩券與賽事數據。*
 - *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
 - *運用不同的凱利標準杠桿投註。*
 

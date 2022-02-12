@@ -832,7 +832,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github Repo** : [**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
 
-- *Intraday data collection, data streaming, `sparklyr` etc.*
+- *Intraday data collection, data streaming by using `sparklyr` etc.*
 - *High frequency algorithmic quantitative trading etc.*
 - *Statistical modelling, trading strategies, risk management etc.*
 
@@ -840,8 +840,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 **Github Repo** : [**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
 
-- *Analyse the financial report and stock price of Ali lottery.*
-- *Analyse the profit and loss of customers and products, customers' consuming habit.*
+- *Analyse the financial report of Ali lottery, includes the profit and loss of customers and products, customers' consuming habit.*
 
 <br>
 
