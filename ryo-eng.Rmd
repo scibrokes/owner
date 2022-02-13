@@ -540,7 +540,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-**[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+### **[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
 
 - *01 Course title : Introduction to Trading, Machine Learning & GCP*
 - *02 Course title : Using Machine Learning in Trading and Finance*
@@ -550,26 +550,26 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [The Hong Kong University of Science and Technology](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
+### **[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [The Hong Kong University of Science and Technology](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
 
 - *Course title : Python and Statistics for Financial Analysis*
 - **Github Repo** : [Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**Oct-2018 to Nov-2021 : Professional Certificate, Mastering Software Development in R Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+### **Oct-2018 to Nov-2021 : Professional Certificate, Mastering Software Development in ® Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
-- *01 Course title : [The R Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
-- *02 Course title : [Advanced R Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
-- *03 Course title : [Building R Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *01 Course title : [The ® Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 Course title : [Advanced ® Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 Course title : [Building ® Packages](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 Course title : [Building Data Visualization Tools](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 Course title : [Mastering Software Development in R Capstone](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**Mastering Software Development in R Specialization**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- *05 Course title : [Mastering Software Development in ® [Capstone]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**Mastering Software Development in ® Specialization**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github Repo** : [Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**May-2021 to Jul-2021 : <s>Professional Certificate, Machine Learning and Reinforcement Learning in Finance Specialization</s>**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
+### **May-2021 to Jul-2021 : <s>Professional Certificate, Machine Learning and Reinforcement Learning in Finance Specialization</s>**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
 
 - <s>*01 Course title : Guided Tour of Machine Learning in Finance*</s>
 - <s>*02 Course title : Fundamentals of Machine Learning in Finance*</s>
@@ -580,28 +580,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
+### **May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
 
-- *Course title : [Bayesian Statistics Mixture Models (R)](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- *Course title : [Bayesian Statistics Mixture Models (®)](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **Github Repo** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-**Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+### **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
 
 - *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github Repo** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-**<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
+### **<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
 
 - <s>*Course title : Computer Science*</s>
 - **Github Repo** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-**Jun-2016 to Aug-2016 : <s>Professional Certificate, Improving Business Finances and Operations Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+### **Jun-2016 to Aug-2016 : <s>Professional Certificate, Improving Business Finances and Operations Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
 
 - <s>*01 Course title : Managerial Accounting: Cost Behaviors, Systems, and Analysis*</s>
 - *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
@@ -609,13 +609,13 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 Course title : [Financial Evaluation and Strategy: Corporate Finance](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 Course title : [Operations Management](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 Course title : Process Improvement*</s>
-- <s>*07 Course title : Improving Business Finances and Operations Capstone*</s>
+- <s>*07 Course title : Improving Business Finances and Operations [Capstone]{style="color:#15237A"}*</s>
 - <s>**Improving Business Finances and Operations Specialization**</s>
 - **Github Repo** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
-**Apr-2016 to Aug-2016 : <s>Professional Certificate, Data Mining Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+### **Apr-2016 to Aug-2016 : <s>Professional Certificate, Data Mining Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
 
 - *01 Course title : [Data Visualization](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 Course title : [Text Retrieval and Search Engines](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
@@ -628,10 +628,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Apr-2014 to May-2016 : Professional Certificate, Data Science Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+### **Apr-2014 to May-2016 : Professional Certificate, Data Science Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
 
 - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-- *02 Course title : [R Programming](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *02 Course title : [® Programming](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
 - *03 Course title : [Getting and Cleaning Data](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
 - *04 Course title : [Exploratory Data Analysis](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
 - *05 Course title : [Reproducible Research](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
@@ -639,25 +639,25 @@ op <- options(gvis.plot.tag = 'chart')
 - *07 Course title : [Regression Models](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
 - *08 Course title : [Practical Machine Learning](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 Course title : [Developing Data Products](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 Course title : [Data Science Capstone](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- *10 Course title : [Data Science [Capstone]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**Data Science Specialization**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github Repo** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
-**Jun-2015 to Aug-2015 : <s>Professional Certificate, Python for Everybody Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+### **Jun-2015 to Aug-2015 : <s>Professional Certificate, Python for Everybody Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
 
 - *01 Course title : [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 - <s>*02 Course title : Python Data Structures*</s>
 - <s>*03 Course title : Using Python to Access Web Data*</s>
 - <s>*04 Course title : Using Databases with Python*</s>
-- <s>*05 Course title : Retrieving, Processing, and Visualizing Data with Python Capstone*</s>
+- <s>*05 Course title : Retrieving, Processing, and Visualizing Data with Python [Capstone]{style="color:#15237A"}*</s>
 - <s>**Python for Everybody Specialization**</s>
 - **Github Repo** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
-**XXX-2004 to XXX-2004 : <s>Certified Accounting Technician (CAT) Qualification</s>**; ([ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC Business Institute (PAAC)](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>)
+### **XXX-2004 to XXX-2004 : <s>Certified Accounting Technician (CAT) Qualification</s>**; ([ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC Business Institute (PAAC)](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>)
 
 - *01 Course title : FAU Foundations in Audit*
 - *02 Course title : FTX Foundations in Taxation*
@@ -670,7 +670,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
+### **22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
 
 - 7-Dec-2003 : [**JLPT - Level III Certificate**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20III%20-%20Certificate.jpg) *being Kuala Lumpur*
 - 5-Dec-2004 : [**JLPT - Level II**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) *being Kuala Lumpur* [[**Failed**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
@@ -680,7 +680,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>11-Apr-2002 to May-2005</s> 11-Apr-2002 to 11-Oct-2003 : <s>Becholar Degree, Computer Science Combination A Stream (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
+### **<s>11-Apr-2002 to May-2005</s> 11-Apr-2002 to 11-Oct-2003 : <s>Becholar Degree, Computer Science Combination A Stream (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
 
 - *Freshman*
 - *Sophomore*
@@ -691,7 +691,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Experience
 
-**[Oct-2020 to Present]{style="color:Red"} : Online Financial Market, Founder and Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+### **[Oct-2020 to Present]{style="color:Red"} : Online Financial Market, Founder and Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2] is a quantitative investment management company trading in global markets to produce high ROI for its investors by mathematical and statistical methods.*
 - *Job Task : Conducting R&D on statistical modelling, risk management and high frequency algorithmic trading in financial market etc and data analysis, will flight to China Mainland.*
@@ -700,81 +700,81 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>)
+### **Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>)
 
 - *Summary : Oriental Group is a Chinese business group.*
 - *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-**Nov-2017 to May-2018 : Online Gambling, Customer Service**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+### **Nov-2017 to May-2018 : Online Gambling, Customer Service**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
 
 - *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud for 5 months. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians for 1 month.*
 
 <br>
 
-**May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/>)
+### **May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/>)
 
 - *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in UOA Business Park 13A/14 floor Mindpearl office but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment. Colleagues mostly Chinese, Malaysian, Japanese, Korean, American etc.*
 
 <br>
 
-**Oct-2015 to Jan-2016 : Online Gambling, Trader**; (employed by Global Solution Sdn Bhd)
+### **Oct-2015 to Jan-2016 : Online Gambling, Trader**; (employed by Global Solution Sdn Bhd)
 
 - *Summary : employ by Quah Kian Huei and work in 13A/14 floor Soho upstairs Tesco Old Klang Road, mostly collegues and bosses are Hong Kongnese, Eric‘s is Malaysian therefore long stay Malaysia, Kuan-Hao and Kuan-Keat always travelling Macao.*
 - *Job Task : Follow (Back) sportsbook punters' bets, hedging and oppose (Lay) pathological gamblers, doing deposit transactions for China mainland customers.*
 
 <br>
 
-**May-2015 to Sep-2015 : Online Gambling, Customer Service**; (employed by OneMedia Sdn Bhd)
+### **May-2015 to Sep-2015 : Online Gambling, Customer Service**; (employed by OneMedia Sdn Bhd)
 
 - *Summary : Being KL SouthGate.*
 - *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit and withdrawal transactions.*
 
 <br>
 
-**Feb-2015 to Apr-2015 : E-commerce, Fraud Prevention**; (employed by [IdealSeed Resources Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+### **Feb-2015 to Apr-2015 : E-commerce, Fraud Prevention**; (employed by [IdealSeed Resources Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
 
 - *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.jpg" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
-**Mar-2014 to Apr-2014 : E-commerce, Customer Service**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
+### **Mar-2014 to Apr-2014 : E-commerce, Customer Service**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>)
 
 - *Job Task : Handling inbound calls from Taiwanese customers' orders, printers' trading and maintenance.*
 - **JCKL membership**
 
 <br>
 
-**Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>) provides IT and platform support
+### **Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>) provides IT and platform support
 
 - *Summary : GB-links Ltd being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
 - *Job Task : Train newbie and manage few members to update scores and bets settlement.*
 
 <br>
 
-**Sep-2013 to Nov-2013 : Pipeline Engineering, Customer Service**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+### **Sep-2013 to Nov-2013 : Pipeline Engineering, Customer Service**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *Summary : Work for Germans/Deutsche (Unsere Besten).*
 - *Job Task : Base in KL Sentral (Malaysia) business center, handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
 
 <br>
 
-**Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+### **Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
 - *Summary : American Insurance Assurance*
 - *Job Task : An insurance telesales for outbound calls.*
 
 <br>
 
-**Nov-2012 to May-2013 : MASS Media, Broadcast Compliance Editor**; (employed by [UDrive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
+### **Nov-2012 to May-2013 : MASS Media, Broadcast Compliance Editor**; (employed by [UDrive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
 
 - *Summary : TM is a bluechip company in Malaysia.*
 - *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
 
 <br>
 
-**Mar-2008 to Jul-2012 : Business Process Outsourcing (BPO) Company, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
+### **Mar-2008 to Jul-2012 : Business Process Outsourcing (BPO) Company, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
 
 - *Summary : Work for English.*
 - *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal, phone bets' transactions and also train newbies. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
@@ -783,21 +783,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>)
+### **Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>)
 
 - *Summary : Caspo is an online gaming group owned by Singaporean and Taiwanese, similar with [Taiwanese Cinema 《黑金》(The Island of Greed)](https://www.bilibili.com/video/BV1Gv411y7ED).*
 - *Job Task : Provides training to newbies includes sportsbook trading and live scout. In charges to analyse the P&L reports of SB1 and SB2, need to trading as well, translate and also analysis job tasks.*
 
 <br>
 
-**Nov-2005 to Jul-2006 : Online Gambling, Team Leader ∩ Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
+### **Nov-2005 to Jul-2006 : Online Gambling, Team Leader ∩ Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
 
-- *Summary : Telebiz is an online gaming group with a sister company MG-SC which develop online gaming platform, owned by Malaysian and co-orperate with Hong Kongnese, Australian etc*
+- *Summary : Telebiz is an online gaming group with a sister company MG-SC which develop online gaming platform, owned by Malaysian and co-operate with Hong Kongnese, Australian etc*
 - *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, update scores for bets financial settlement, writing training manuals. Handle live-matches on corners (includes R&D on the match odds), translate and also analysis job tasks (compare the market matches and odds price etc).*
 
 <br>
 
-**Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by Hexa Commerce Sdn Bhd cooperate with Prestigen Profits Limited <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>)
+### **Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by Hexa Commerce Sdn Bhd cooperate with Prestigen Profits Limited <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>)
 
 - *Summary : Prestigen Profits Limited (New Zealand) --- Asia Pacific is a Forex market investment company.*
 - *Job Task : One series service on marketing, R&D, risk management, trading, training etc in Forex market to generate ROI for investors.*
@@ -807,7 +807,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2003 to Aug-2003 : Retailer, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
+### **Jul-2003 to Aug-2003 : Retailer, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
 
 - *Summary : Work for Japanese. All Japanese but few Malaysians, Japanese boss.*
 - *Job Task : Not only work as an indoor grocery store staff, coincident during Bon-Odori（盆踊り）festival and build a stall as hawker in Panasonic Stadium Shah Alam to sell Japanese cuisine foods.*
@@ -815,13 +815,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Jul-2003 to Jul-2003 : Food and Beverage, Waiter**; (employed by [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>)
+### **Jul-2003 to Jul-2003 : Food and Beverage, Waiter**; (employed by [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>)
 
 - *Job Task : Front desk server / waiter in Tang Restaurant（唐宫）inside Hotel.*
 
 <br>
 
-**Nov-2001 to Apr-2002 : Food and Beverage, Waiter**; (employed by [Esquire Kitchen](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>)
+### **Nov-2001 to Apr-2002 : Food and Beverage, Waiter**; (employed by [Esquire Kitchen](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>)
 
 - *Summary : A Chinese cuisine chain restaurant with chef's special [Braised Pork Belly（东波肉）]{style="color:#F6A217"} and [Boneless Chicken Breast（宫保鸡丁）]{style="color:#F6A217"} etc.*
 - *Job Task : Front desk server / waiter.*
@@ -830,7 +830,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Technical Experience
 
-**Github Repo** : [**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
+### **Github Repo** : [**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
 
 - *Intraday data collection, data streaming by using `sparklyr` etc.*
 - *High frequency algorithmic quantitative trading etc.*
@@ -838,74 +838,74 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github Repo** : [**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
+### **Github Repo** : [**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
 
 - *Analyse the financial report of Ali lottery, includes the profit and loss of customers and products, customers' consuming habit.*
 
 <br>
 
-**Github Repo** : [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **Github Repo** : [**Analysing Financial Report of Bookmakers**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *Analyse the financial report and stock price of gambling public listed company.*
-- *Analyse the profit and loss of Singbet and Singbet2.*
+- *Analyse the profit and loss of Singbet1 and Singbet2.*
 
 <br>
 
-**Github Repo** : [**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
+### **Github Repo** : [**binary.com : Job Application - Quantitative Analyst**](https://github.com/englianhu/binary.com-interview-question)
 
-- *Backtest on financial betting products modelling and also betting strategy.*
-- *Backtest on application of Arima, Exponential Smoothing model, and various Garch models for prediction and Kelly model for investment.*
+- *Backtest on financial betting products modelling, betting strategy and also the return of investment.*
+- *Backtest on application of ARIMA, Exponential Smoothing model, and couple GARCH series models for prediction and Kelly model for investment.*
 - *Imputation of missing value dataset and backtest on high frequency trading.*
 
 <br>
 
-**Github Repo** : [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
+### **Github Repo** : [**Betting Strategy and Model Validation**](https://github.com/Scibrokes/Betting-Strategy-and-Model-Validation)
 
 - *Using Selenium to gather soccer matches data via webdriver Phantomjs.*
 - *Natural language analysis on the scrapped livescore data to match the team names from firm A for automation soccer team name matching.*
-- *Application of different leverage of Kelly criterion for staking.*
+- *Application of different leverage parameters onto Kelly criterion for staking and backtest onto the [Application of Kelly Criterion model in Sportsbook Investment](#github-repo-application-of-kelly-criterion-model-in-sportsbook-investment).*
 
 <br>
 
-**Github Repo** : [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
+### **Github Repo** : [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
-- *An tutorial for setup RStudio server and shiny server on Linux CentOS 7.*
-
-<br>
-
-**Github Repo** : [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
-
-- *Apply dynamic weighted diagonal inflated bivariate poisson model to the scrapped data from* **WebDriver Dynamic Webpage Scrapping** *to build an prediction model.*
-- *Application of Kelly criterion model to betting on 10 sportsbookmakers in soccer season 2011/12 to 2012/13.*
+- *An tutorial for setup ®Studio server and shiny server on Linux CentOS 7.*
 
 <br>
 
-**Github Repo** : [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
+### **Github Repo** : [**Application of Kelly Criterion model in Sportsbook Investment**](https://github.com/Scibrokes/kelly-criterion)
+
+- *Backtest the [Odds Modelling and Testing Inefficiency of Sports-Bookmakers](#github-repo-odds-modelling-and-testing-inefficiency-of-sports-bookmakers) to the scrapped data from [WebDriver Dynamic Webpage Scrapping](#github-repo-webdriver-dynamic-webpage-scrapping) to build an prediction model.*
+- *Backtest the Kelly criterion model to betting on 10 sportsbookmakers in soccer season 2011/12 to 2012/13.*
+
+<br>
+
+### **Github Repo** : [**Dixon-Coles1996**](https://github.com/Scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996 soccer scores modelling.*
 
 <br>
 
-**Github Repo** : [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github Repo** : [**WebDriver Dynamic Webpage Scrapping**](https://github.com/Scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 - *Application of RSelenium and Python to scrape the odds price of sportbookmakers and also livescore data from* [*7M*](http://odds.7m.hk/en) *and* [*NowGoal*](http://info.nowgoal.com/en) *website as well as filter the odds price data.*
 
 <br>
 
-**Github Repo** : [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
+### **Github Repo** : [**Soccer League Web Scraping**](https://github.com/Scibrokes/Soccer-League-Web-Scraping)
 
 - *Static webpage soccer scores scraping.*
 
 <br>
 
-**Github Repo** : [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **Github Repo** : [**Odds Modelling and Testing Inefficiency of Sports-Bookmakers**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - *Collect the livescore and also 1x2, Asian Handicap, Over Under odds price data of 29 sportsbookmakers manually from* [*500WAN*](http://www.500wan.com), [*BET007*](http://www.bet007.com) *and* [*NowGoal*](http://info.nowgoal.com/en) *website and filter the odds price data from 2006 to 2011.*
-- *Apply dynamical weighted diagonal inflated bivariate Poisson model in R to test the return of the investment.*
+- *Apply dynamical weighted diagonal zero-inflated bivariate Poisson model in R to backtest the odds price modelling, betting strategy and also return of the investment.*
 
 <br>
 
-[体育统计学社区 (http://soccer.oksport.cn)](http://soccer.oksport.cn)
+### [体育统计学社区 (http://soccer.oksport.cn)](http://soccer.oksport.cn)
 
 - **2009 to 2013**, *Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn) via [互动力量](http://oksport.cn) but unfortunately banded by Chinese Online Police in year 2013 when I worked in AIA and open an ICBC bank account.*
 - *As a one-man-band forum, the sportsbook forum major in soccer sports but also get involve other casino, lottery and gaming. Shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding, risk management, trading strategies, latest news of gambling industry, embed livescores, news bulletins, analyse and compare different bookmakers not only platforms' but also operations' and managements' pros and cons (Art of War* --- **Know thyself, ever-victorious**), *looking for like-minded friends. meanwhile, be the agent and affiliate partner of couple European and Asian bookmakers and advertise through some forums, email and QQ marketing etc.*
@@ -918,7 +918,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github Repo** : [**Apply Poisson Regression on Sports Odds Modelling**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **Github Repo** : [**Apply Poisson Regression on Sports Odds Modelling**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 - *Application of Poison model onto soccer sports odds modelling.*
 
@@ -934,8 +934,8 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  Skill = c('ξconometrics', 'Quantitative Trading', 'R Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux OS', 'Web API', 'Sparklyr', 'Advanced R', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', 'Tensorflow / pytorch', 'Web Driver', 'FrontPage / Deploy WebSite', 'Photoshop / Picsart'), 
-  Level = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 6, 7, 6, 2, 4, 3, 5))
+  Skill = c('ξconometrics', 'Quantitative Trading', '® Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux 🐧 OS', 'Web API', 'Sparklyr', 'Quantitative Analysis', 'Advanced ®', 'Modeltime / Tidyverts / Prophet', 'Tidyverse / Tidymodels', 'Tensorflow / Pytorch', 'Web Driver', 'FrontPage / Deploy WebSite', 'Photoshop / Picsart'), 
+  Level = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble(No = 1:nrow(skill), skill)
 
 skill |> 
@@ -1248,8 +1248,8 @@ sys
 - You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
 - There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) R package.
-- [`sass`](https://rstudio.github.io/sass) R package.
+- [`echarts4r`](https://echarts4r.john-coene.com) ® package.
+- [`sass`](https://rstudio.github.io/sass) ® package.
 
 <br><br>
 

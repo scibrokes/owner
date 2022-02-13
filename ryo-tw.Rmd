@@ -540,82 +540,82 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 學歷
 
-**[2021年11月 迄今]{style="color:Red"}：專業文憑，學習金融交昜機械化專項課程**；（[Cousera](http://www.coursera.org) - [紐約金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+### **[2021年11月 迄今]{style="color:Red"}：專業文憑，學習金融交昜機械化專項課程**；（[考試啦](http://www.coursera.org) - [紐約金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
 - *01 課程：初識交昜、學習與谷歌雲端平臺（GCP）*
 - *02 課程：實踐金融交昜機械化*
-- *03 課程：學習強化版交昜策刂略*
+- *03 課程：學習強化版交昜策略*
 - **學習金融交昜機械化專項課程**
 - **Github倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
-**[2021年12月 迄今]{style="color:Red"}：專業文憑，Python統計學之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
+### **[2021年12月 迄今]{style="color:Red"}：專業文憑，派森編程與統計學之金融分析**；（[考試啦](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
-- *課程：Python統計學之金融分析*
+- *課程：派森編程與統計學之金融分析*
 - **Github倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2018年10月 至 2021年11月：專業文憑，掌握R語言軟件開發專項課程**；（[Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+### **2018年10月 至 2021年11月：專業文憑，掌握®編程軟件開發專項課程**；（[考試啦](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
-- *01 課程：[R編程語言環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
-- *02 課程：[高級R編程語言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
-- *03 課程：[R程序包開發](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *01 課程：[®編程環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 課程：[高級®編程](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 課程：[®程序包開發](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 課程：[開發數據視覺化工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 課程：[掌握R語言軟件開發頂點](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**掌握R語言軟件開發專項課程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- *05 課程：[掌握®編程軟件開發[頂點項目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**掌握®編程軟件開發專項課程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2021年5月 至 2021年7月：專業文憑，學習強化版金融機械化專項課程**；（[Cousera](http://www.coursera.org) - [紐約大學（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+### **2021年5月 至 2021年7月：專業文憑，學習強化版金融機械化專項課程**；（[考試啦](http://www.coursera.org) - [紐約大學（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
 
 - <s>*01 課程：金融機械化導覽*</s>
 - <s>*02 課程：金融機械化基礎*</s>
 - <s>*03 課程：強化版金融學*</s>
-- *04 課程：[概述強化版金融機械化（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- *04 課程：[概述強化版金融機械化（派森編程）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
 - **學習強化版金融機械化專項課程**
 - **Github倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
-**2021年5月 至 2021年7月：專業文憑，貝葉斯統計混合模型**；（[Cousera](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
+### **2021年5月 至 2021年7月：專業文憑，貝葉斯統計混合模型**；（[考試啦](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
-- *課程：[貝葉斯統計混合模型（R語言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- *課程：[貝葉斯統計混合模型（®編程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **Github倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-**2021年1月 至 2021年1月：專業文憑，生物信息學: 導論與方法**；（[Cousera](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
+### **2021年1月 至 2021年1月：專業文憑，生物信息學: 導論與方法**；（[考試啦](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *課程：[生物信息學: 導論與方法（隱馬爾科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-**<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*課程：電腦科學*</s>
 - **Github倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-**2016年6月 至 2016年8月：<s>專業文憑，提昇企業財務和運營專項課程</s>**；（[Cousera](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+### **2016年6月 至 2016年8月：<s>專業文憑，提昇企業財務和運營專項課程</s>**；（[考試啦](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - <s>*01 課程：會計管理：経費的習性、系統與分析*</s>
-- *02 課程：[管理會計：促進和指導商業決策刂的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
+- *02 課程：[管理會計：促進和指導商業決策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
 - <s>*03 課程：財務評價和戰略：投資*</s>
 - *04 課程：[財務評價與戰略：公司財務](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 課程：[運營管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 課程：工藝提昇*</s>
-- <s>*07 課程：提昇企業財務和運營頂點*</s>
+- <s>*07 課程：提昇企業財務和運營[頂點項目]{style="color:#15237A"}*</s>
 - <s>**提昇企業財務和運營專項課程**</s>
 - **Github倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
-**2016年4月 至 2016年8月：<s>專業文憑，數據挖掘專項課程</s>**；（[Cousera](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+### **2016年4月 至 2016年8月：<s>專業文憑，數據挖掘專項課程</s>**；（[考試啦](http://www.coursera.org) - [伊利諾伊大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 課程：[數據視覺化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 課程：[文本檢索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
@@ -628,10 +628,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2014年4月 至 2016年5月：專業文憑，數據科學專項課程**；（[Cousera](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+### **2014年4月 至 2016年5月：專業文憑，數據科學專項課程**；（[考試啦](http://www.coursera.org) - [約翰.霍金斯大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
 - *01 課程：[數據科學家必備工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-- *02 課程：[R編程語言](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *02 課程：[®編程](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
 - *03 課程：[獲取和清理數據](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
 - *04 課程：[探索性數據分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
 - *05 課程：[再循環科研](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
@@ -639,25 +639,25 @@ op <- options(gvis.plot.tag = 'chart')
 - *07 課程：[回歸模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
 - *08 課程：[機械實用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 課程：[數據產品開發](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 課程：[數據科學頂點](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- *10 課程：[數據科學[頂點項目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**數據科學專項課程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
-**2015年6月 至 2015年8月：專業文憑，為每個人而設的Python專項課程**；（[Cousera](http://www.coursera.org) - [密歇根大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+### **2015年6月 至 2015年8月：專業文憑，為每個人而設的派森編程專項課程**；（[考試啦](http://www.coursera.org) - [密歇根大學（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
-- *01 課程：[為每個人而設的編程語言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- <s>*02 課程：Python數據結構*</s>
-- <s>*03 課程：使用Python讀取網絡數據*</s>
-- <s>*04 課程：在Python中使用數據庫*</s>
-- <s>*05 課程：使用Python檢索、處理和視覺化數據頂點*</s>
-- <s>**為每個人而設的Python專項課程**</s>
+- *01 課程：[為每個人而設的編程語言（派森編程）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- <s>*02 課程：派森編程的數據結構*</s>
+- <s>*03 課程：使用派森編程讀取網絡數據*</s>
+- <s>*04 課程：在派森編程中使用數據庫*</s>
+- <s>*05 課程：使用派森編程檢索、處理和視覺化數據[頂點項目]{style="color:#15237A"}*</s>
+- <s>**為每個人而設的派森編程專項課程**</s>
 - **Github倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
-**2004年X月 至 2004年X月：<s>國際公認會計技師（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商業學院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+### **2004年X月 至 2004年X月：<s>國際公認會計技師（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商業學院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
 
 - *01 課程：審計基礎*
 - *02 課程：稅務基礎*
@@ -670,7 +670,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2002年3月 至 2003年12月：專業文憑，日文能力測試**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
+### **2002年3月 至 2003年12月：專業文憑，日文能力測試**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
 - 2003年12月7日：*在吉隆坡報考*[日語能力測試 - 第3級證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
 - 2004年12月5日：*在吉隆坡報考*[**日語能力測試 - 第2級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
@@ -680,7 +680,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大學本科，電腦科學繫聯合主流A（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+### **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大學本科，電腦科學繫聯合主流A（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 - *大一*
 - *大二*
@@ -691,7 +691,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 迄今]{style="color:Red"}：網絡金融業，創辦人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+### **[2020年10月 迄今]{style="color:Red"}：網絡金融業，創辦人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *簡介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市場進行交易的量化投資管理公司，通過數理統計為投資者帶來高投資回報率。*
 - *工作明細：在金融市場中科研統計建模、風險管理與高頻自動演算量化交易和數據分析等，之後會到中國大陸發展。*
@@ -700,81 +700,81 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2019年11月 至 2020年7月：網絡博彩，推廣人員**；（受聘於[東方集團旗下：樂發集團的阿裏和壹號彩（阿裏彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
+### **2019年11月 至 2020年7月：網絡博彩，推廣人員**；（受聘於[東方集團旗下：樂發集團的阿裏和壹號彩（阿裏彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
 - *簡介：東方集團乃中國商業集團。*
 - *工作明細：在菲律賓克拉克工作（除了少許外國同胞，全是中國大陸同胞），作為佛繫推廣人員，推廣與審查單帶會員，分析彩票中獎率與編寫交昜繫統；半年後轉到運維部門分析公司財務、會員、產品盈虧報表與負責風控。*
 
 <br>
 
-**2017年11月 至 2018年5月：網絡博彩，客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘於[七駐亞洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+### **2017年11月 至 2018年5月：網絡博彩，客服人員**；（受聘於[貴族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘於[七駐亞洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
 - *工作明細：在柬埔寨西哈努克（西港）工作工作五个月，作為阿裏發客服人員（除了咱們項目多數是馬來西亞同胞，其余全是中國大陸同胞和少許柬埔寨同胞）但時而得負責風控監控與審核客戶存取款與舞弊行為，第2份工作則在巴域（柬埔寨與越南邊境）工作一个月。*
 
 <br>
 
-**2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源（馬）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[珍珠貝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
+### **2016年5月 至 2016年12月：網絡營銷，客服人員**；（受聘於[萬寶盛華人力資源（馬）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不過由[珍珠貝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
 - *工作明細：在疏邦再也（馬來西亞）UOA商業中心的拾叁A/拾肆樓珍珠貝辦公室上班、得接聽電話與回郵件[馬來西亞航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目的乘客/顧客（多為亞太客戶，其它分行接待歐洲客戶），包括一般咨詢、預訂機票和修改機票等等事宜。同事們包括中國大陸同胞、馬來西亞同胞、日本同胞、韓國同胞和美國同胞等等。*
 
 <br>
 
-**2015年10月 至 2016年1月：網絡博彩，操盤手/交昜員**；（受聘於環球方案工程（馬）私人有限公司）
+### **2015年10月 至 2016年1月：網絡博彩，操盤手/交昜員**；（受聘於環球方案工程（馬）私人有限公司）
 
 - *簡介：受聘於郭建輝，在舊巴生路特昜購樓上家居辦公工作室的拾叁A/拾肆樓上班，老板們是香港同胞，Eric妻子馬來西亞籍故此常駐馬來西亞、而君豪和君傑時常到澳門。*
 - *工作明細：足球彩券跟單（跟隨長期盈利的職業玩家的註單投註）、打水套利、為中國客戶處理存款。*
 
 <br>
 
-**2015年5月 至 2015年9月：網絡博彩，客服人員**；（受聘於萬華媒體（馬）私人有限公司）
+### **2015年5月 至 2015年9月：網絡博彩，客服人員**；（受聘於萬華媒體（馬）私人有限公司）
 
 - *簡介：公司在吉隆坡南門。*
 - *工作明細：接聽電話與外撥電話、在線咨詢、計算優惠與返水、掌管臉譜賬號與負責市場營銷、所有存取款事項。*
 
 <br>
 
-**2015年2月 至 2015年4月：網絡營銷，交昜審查員**；（受聘於[愛德爾錫德資源（馬）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不過由[蘋果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+### **2015年2月 至 2015年4月：網絡營銷，交昜審查員**；（受聘於[愛德爾錫德資源（馬）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不過由[蘋果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
 - *工作明細：在[全祿公司（中稱施樂）](https://www.xerox.com)辦公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。審查交昜是否舞弊，外撥電話。*
 
 <br>
 
-**2014年3月 至 2014年4月：網絡營銷，客服人員**；（受聘於[富士全祿](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+### **2014年3月 至 2014年4月：網絡營銷，客服人員**；（受聘於[富士全祿](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 - *工作明細：臺灣小組，接聽臺灣顧客的印刷機/列印機/印表機問題、預訂、安排維修人員與退貨、在線技術支援等等。*
 - **JCKL會員**
 
 <br>
 
-**2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[埃斯比方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
+### **2013年11月 至 2014年3月：網絡博彩，隊長 ∩ 操盤手/交昜員**；（受聘於[埃斯比方案企業（菲）有限公司](http://www.sbet.com)操盤，由[光輝通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平臺與軟件技術支援）
 
 - *簡介：光輝通信（GB-links Ltd）在香港九龍紅磡，老板們都是香港同胞。*
 - *工作明細：培訓新人、管理下屬、更新比分、賽事結算。*
 
 <br>
 
-**2013年10月 至 2013年11月：排水工程，客服人員**；(受聘於[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+### **2013年10月 至 2013年11月：排水工程，客服人員**；(受聘於[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *簡介：資信利（Getronics）乃德國公司，為德意誌德國同胞（偉大的德國人Unsere Besten）做工。*
 - *工作明細：位於吉隆坡中央車站（KL Sentral）商業區，通過電話和網上接待國外大型水管建設與維修的客戶（幾乎都是來自於美國、歐洲、亞太的老外同胞和少許國內外中華同胞）。*
 
 <br>
 
-**2013年7月 至 2013年9月：保險業，電銷員**；(受聘於[美國友邦保險](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+### **2013年7月 至 2013年9月：保險業，電銷員**；(受聘於[美國友邦保險](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
 - *簡介：美國友邦保險（American Insurance Assurance）。*
 - *工作明細：外撥的保險電銷員。*
 
 <br>
 
-**2012年11月 至 2013年5月：電子媒體，節目轉播審查員**；（受聘於[優盤媒體（馬）私人有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+### **2012年11月 至 2013年5月：電子媒體，節目轉播審查員**；（受聘於[優盤媒體（馬）私人有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *簡介：馬電訊™乃馬來西亞藍籌股。*
 - *工作明細：中文小組，觀賞海外轉播節目，並且需要審查與過濾節目內容，[馬電訊™](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>項目中的happTV。*
 
 <br>
 
-**2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+### **2008年3月 至 2012年7月：外包業務，客服人員**；（受聘於[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 - *簡介：為布列顛英國同胞做工。*
 - *工作明細：培訓新人，接聽所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>遠東客戶的外來電話、在線咨詢、電郵聯繫、偶爾外撥、翻譯推廣活動、電話投註與處理存取款等等事宜。*
@@ -783,21 +783,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月 至 2007年6月：網絡博彩，培訓師 ∩ 操盤手/交昜員**；（受聘於[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
+### **2006年7月 至 2007年6月：網絡博彩，培訓師 ∩ 操盤手/交昜員**；（受聘於[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
 
 - *簡介：客世博乃臺灣同胞與新加坡同胞持有，如同[著名電影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明細：培訓新人包括操盤與連線賽事現場、負責新寶壹與新寶贰網站盈虧報表，也得操盤、翻譯與分析數據等等。*
 
 <br>
 
-**2005年11月 至 2006年7月：網絡博彩，隊長 ∩ 資深操盤手/交昜員**；（受聘於[特裏必斯（馬）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+### **2005年11月 至 2006年7月：網絡博彩，隊長 ∩ 資深操盤手/交昜員**；（受聘於[特裏必斯（馬）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 - *簡介：特裏必斯（Telebiz）乃一家網絡博彩公司，與一家研發并賃租博彩平臺的姐妹公司恩姆埃斯基（MG-SC）（馬）私人有限公司為馬來西亞人所有，與香港同胞和澳洲同胞等國家合作。*
 - *工作明細：培訓新人、對沖、出貨、更新比分、賽事結算、翻譯、輯寫培訓手冊等、數據分析（包括比較市場上競爭對手的盤口與賽事等）、負責角球盤口（包括科研盤口與賠率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：網絡金融業，操盤手/交易員 ∩ 代理**；（受聘於赫薩貿易（馬）私人有限公司 與 尚譽威盈（紐）有限公司商業合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
+### **2005年7月 至 2005年10月：網絡金融業，操盤手/交易員 ∩ 代理**；（受聘於赫薩貿易（馬）私人有限公司 與 尚譽威盈（紐）有限公司商業合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
 
 - *簡介：尚譽威盈（Prestigen Profits Limited）乃一家亞太紐西蘭外匯投資機構。*
 - *工作明細：為投資者在外匯市場提供一條龍式服務，包括營銷、科研、風險管理、交易、培訓等，以獲得投資回酬。*
@@ -807,7 +807,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年8月：零售業，雜貨店工人**；（受聘於[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+### **2003年7月 至 2003年8月：零售業，雜貨店工人**；（受聘於[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *簡介：為日本人工作，除了一些馬來西亞人，全是日本人，老板也是日本人。*
 - *工作明細：除了在店內當雜貨店工人，期間剛好遇到盆舞節（盆踴り），也到沙阿南松下體育館擺檔口販賣日本料理。*
@@ -815,13 +815,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年7月：飲食業，前臺服務員**；（受聘於[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
+### **2003年7月 至 2003年7月：飲食業，前臺服務員**；（受聘於[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
 
 - *工作明細：在酒店內的唐宮當前臺服務員。*
 
 <br>
 
-**2001年11月 至 2002年4月：飲食業，前臺服務員**；（受聘於[大人餐廳](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
+### **2001年11月 至 2002年4月：飲食業，前臺服務員**；（受聘於[大人餐廳](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
 
 - *簡介：一家中華料理連鎖餐廳，而招牌菜乃[東波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宮保雞丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
 - *工作明細：前臺服務員。*
@@ -830,7 +830,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 科研項目
 
-**Github倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
+### **Github倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
 
 - *使用`sparklyr`等應用采集日內數據、數據流。*
 - *高頻算法量化交易等等。*
@@ -838,77 +838,77 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github倉庫**：[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
+### **Github倉庫**：[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
 
 - *分析阿裏彩票公司的財務報表、包括產品盈虧、會員盈虧、消費模式、會員日誌記錄等。*
 
 <br>
 
-**Github倉庫**：[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **Github倉庫**：[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的財務報表與股價。*
 - *分析新寶壹與新寶贰的財務報表。*
 
 <br>
 
-**Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交昜員崗位）**](https://github.com/englianhu/binary.com-interview-question)
+### **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交昜員崗位）**](https://github.com/englianhu/binary.com-interview-question)
 
-- *回測金融投註建模與投註策刂略。*
-- *回測Arima自回歸模型、平滑模型、Garch廣義自回歸條件異方差系列模型，包括凱利投註模型等等。*
+- *回測金融投註建模，投註策略和比較投資收益率。*
+- *回測自回歸模型、平滑模型、廣義自回歸條件異方差模型系列，包括凱利投註模型等等。*
 - *彌補缺失值數據與回測高頻率交昜。*
 
 <br>
 
-**Github倉庫**：[**Betting Strategy and Model Validation（博彩交昜策刂略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **Github倉庫**：[**Betting Strategy and Model Validation（博彩交昜策略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium（硒網頁應用程序測試工具）和Phantomjs（無主題瀏覽器測試）軟件采集網絡足球彩券與賽事數據。*
+- *使用Selenium硒網頁應用程序測試工具和PhantomJS無頭銜瀏覽器引擎軟件采集網絡足球彩券與賽事數據。*
 - *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
-- *運用不同的凱利標準杠桿投註。*
+- *運用凱利標準投註並調整不同的杠桿效應參數，回測[Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investment在博彩行業中應用凱利標準模型進行投資)。*
 
 <br>
 
-**Github倉庫**：[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®Studio服務器）**](https://github.com/scibrokes/setup-rstudio-server)
+### **Github倉庫**：[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®Studio服務器）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *如何在centOS7操作繫統建立自己的RStudio與Shiny應用的教程。*
-
-<br>
-
-**Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/scibrokes/kelly-criterion)
-
-- *應用加權對角通膨雙變量泊松模型，而足球賽事的數據采集於* **WebDriver Dynamic Webpage Scrapping** *。*
-- *應用凱利標準模型，投註於10家博彩公司的英國2011/12與2012/13賽季的賽事。*
+- *如何在centOS7操作繫統建立自己的®Studio服務器與Shiny應用的教程。*
 
 <br>
 
-**Github倉庫**：[**Dixon-Coles1996（迪克遜-克爾斯1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
+### **Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/scibrokes/kelly-criterion)
+
+- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers賠率建模與測試體育博彩莊家的低效率)，而足球賽事數據采集於[WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）](#github倉庫webdriver-dynamic-webpage-scrapping網絡驅動程序與采集動態網頁信息)。*
+- *回測凱利標準模型，投註於拾家博彩公司的英國2011/12與2012/13賽季的賽事。*
+
+<br>
+
+### **Github倉庫**：[**Dixon-Coles1996（迪克遜-克爾斯1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996 足球得分建模。*
 
 <br>
 
-**Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
-- *使用RSelenium與Python軟件，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)網站采集博彩公司的賠率數據與賽事比分。*
+- *使用RSelenium與派森編程，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情報網采集博彩公司的賠率數據與賽事比分。*
 
 <br>
 
-**Github倉庫**：[**Soccer League Web Scraping（采集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+### **Github倉庫**：[**Soccer League Web Scraping（采集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 - *采集靜態網頁足球賽事數據。*
 
 <br>
 
-**Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
-- *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)與[NowGoal](http://info.nowgoal.com/en)網站的足球賽事比分與29家博彩公司的1x2、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
-- *應用加權對角通膨雙變量泊松模型，測試投註與回酬。*
+- *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)與[NowGoal](http://info.nowgoal.com/en)情報網的足球賽事比分與贰拾玖家博彩公司的標準盤、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
+- *運用對角零通膨雙變量泊松加權時間序列模型，回測賠率建模、投註策略和比較投資收益率。*
 
 <br>
 
-[體育統計學社區](http://soccer.oksport.cn)
+### [體育統計學社區](http://soccer.oksport.cn)
 
 - **2009年 至 2013年**, *通過[互動力量](http://oksport.cn)建立個專業的體育賠率建模論壇 --- [體育統計學社區](http://soccer.oksport.cn)，奈何2013年在美國友邦保險公司當電銷時，到工商銀行開戶後，論壇就被中國網上公安屏蔽了。*
-- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交昜策刂略、行業動態、嵌入比分網信息、滾動行業動態新聞、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
+- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交昜策略、行業動態、嵌入比分網信息、滾動行業動態新聞、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
 - *基於該論壇已屏蔽（已轉到金融行業，也不打算回博彩行業）。*
 
     - [谷歌捜貼](www/oksportcn_01.png)
@@ -918,9 +918,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中使用柏松線性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **Github倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中運用柏松線性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
-- *應用單變量泊松模型足球賠率建模。*
+- *在足球賠率建模中運用單變量泊松模型。*
 
 <br><br>
 
@@ -934,8 +934,8 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('計量經濟學', '量化交昜', 'R編程語言', '微軟辦公軟件', 'SQL語言', 'Python編程語言', '數據分析', '客服工作', '體育博彩行業', '建立RStudio服務器', '統計學', '數據科學', 'Shiny應用', 'Linux操作繫統', 'Web API應用程序接口', 'Sparklyr大數據分析', '高級 R', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / pytorch', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
-  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 6, 7, 6, 2, 4, 3, 5))
+  '技能' = c('計量經濟學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL語言', '派森編程語言', '數據分析', '客服工作', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', 'Shiny應用', '李呢克斯🐧操作繫統', '網頁應用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', '瀏覽器驅動', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
 skill |> 
@@ -1248,8 +1248,8 @@ sys
 - 您亦可參閱[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)修改網頁外觀。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有許多圖標可供參考與應用。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) R程序包。
-- [`sass`](https://rstudio.github.io/sass) R程序包。
+- [`echarts4r`](https://echarts4r.john-coene.com) ®程序包。
+- [`sass`](https://rstudio.github.io/sass) ®程序包。
 
 <br><br>
 

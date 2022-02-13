@@ -540,7 +540,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 学历
 
-**[2021年11月 迄今]{style="color:Red"}：专业文凭，学习金融交易机械化专项课程**；（[Cousera](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+### **[2021年11月 迄今]{style="color:Red"}：专业文凭，学习金融交易机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
 - *01 课程：初识交易、学习与谷歌云端平台（GCP）*
 - *02 课程：实践金融交易机械化*
@@ -550,58 +550,58 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**[2021年12月 迄今]{style="color:Red"}：专业文凭，Python统计学之金融分析**；（[Cousera](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
+### **[2021年12月 迄今]{style="color:Red"}：专业文凭，派森编程与统计学之金融分析**；（[考试啦](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
-- *课程：Python统计学之金融分析*
+- *课程：派森编程与统计学之金融分析*
 - **Github仓库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2018年10月 至 2021年11月：专业文凭，掌握R语言软件开发专项课程**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+### **2018年10月 至 2021年11月：专业文凭，掌握®编程软件开发专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
-- *01 课程：[R编程语言环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
-- *02 课程：[高级R编程语言](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
-- *03 课程：[R程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
+- *01 课程：[®编程环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *02 课程：[高级®编程](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
+- *03 课程：[®程序包开发](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
 - *04 课程：[开发数据视觉化工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 课程：[掌握R语言软件开发顶点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
-- [**掌握R语言软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
+- *05 课程：[掌握®编程软件开发[顶点项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- [**掌握®编程软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github仓库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-**2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化专项课程**；（[Cousera](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
+### **2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>）
 
 - <s>*01 课程：金融机械化导览*</s>
 - <s>*02 课程：金融机械化基础*</s>
 - <s>*03 课程：强化版金融学*</s>
-- *04 课程：[概述强化版金融机械化（Python）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
+- *04 课程：[概述强化版金融机械化（派森编程）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
 - **学习强化版金融机械化专项课程**
 - **Github仓库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
-**2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[Cousera](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
+### **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[考试啦](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
-- *课程：[贝叶斯统计混合模型（R语言）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- *课程：[贝叶斯统计混合模型（®编程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **Github仓库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-**2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[Cousera](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
+### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github仓库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-**<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*课程：电脑科学*</s>
 - **Github仓库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-**2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+### **2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - <s>*01 课程：会计管理：经费的习性、系统与分析*</s>
 - *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
@@ -609,13 +609,13 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 课程：[财务评价与战略：公司财务](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 课程：[运营管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 课程：工艺提升*</s>
-- <s>*07 课程：提升企业财务和运营顶点*</s>
+- <s>*07 课程：提升企业财务和运营[顶点项目]{style="color:#15237A"}*</s>
 - <s>**提升企业财务和运营专项课程**</s>
 - **Github仓库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
-**2016年4月 至 2016年8月：<s>专业文凭，数据挖掘专项课程</s>**；（[Cousera](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
+### **2016年4月 至 2016年8月：<s>专业文凭，数据挖掘专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 课程：[数据视觉化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 课程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
@@ -628,10 +628,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2014年4月 至 2016年5月：专业文凭，数据科学专项课程**；（[Cousera](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
+### **2014年4月 至 2016年5月：专业文凭，数据科学专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
 - *01 课程：[数据科学家必备工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
-- *02 课程：[R编程语言](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
+- *02 课程：[®编程](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
 - *03 课程：[获取和清理数据](https://www.coursera.org/account/accomplishments/records/Q5HBLbpBekrW43Jd)*
 - *04 课程：[探索性数据分析](https://www.coursera.org/account/accomplishments/records/4Gz8BmPsnuknW93A)*
 - *05 课程：[再循环科研](https://www.coursera.org/account/accomplishments/records/xpNfvxWs8uMMYrjs)*
@@ -639,25 +639,25 @@ op <- options(gvis.plot.tag = 'chart')
 - *07 课程：[回归模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
 - *08 课程：[机械实用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 课程：[数据产品开发](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 课程：[数据科学顶点](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- *10 课程：[数据科学[顶点项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**数据科学专项课程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github仓库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
-**2015年6月 至 2015年8月：专业文凭，为每个人而设的Python专项课程**；（[Cousera](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
+### **2015年6月 至 2015年8月：专业文凭，为每个人而设的派森编程专项课程**；（[考试啦](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>）
 
-- *01 课程：[为每个人而设的编程语言（Python）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
-- <s>*02 课程：Python数据结构*</s>
-- <s>*03 课程：使用Python读取网络数据*</s>
-- <s>*04 课程：在Python中使用数据库*</s>
-- <s>*05 课程：使用Python检索、处理和视觉化数据顶点*</s>
-- <s>**为每个人而设的Python专项课程**</s>
+- *01 课程：[为每个人而设的编程语言（派森编程）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
+- <s>*02 课程：派森编程的数据结构*</s>
+- <s>*03 课程：使用派森编程读取网络数据*</s>
+- <s>*04 课程：在派森编程中使用数据库*</s>
+- <s>*05 课程：使用派森编程检索、处理和视觉化数据[顶点项目]{style="color:#15237A"}*</s>
+- <s>**为每个人而设的派森编程专项课程**</s>
 - **Github仓库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
-**2004年X月 至 2004年X月：<s>国际公认会计技师（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
+### **2004年X月 至 2004年X月：<s>国际公认会计技师（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>）
 
 - *01 课程：审计基础*
 - *02 课程：税务基础*
@@ -670,7 +670,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
+### **2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
 - 2003年12月7日：*在吉隆坡报考*[日语能力测试 - 第3级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
 - 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第2级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
@@ -680,7 +680,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大学本科，电脑科学系联合主流A（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+### **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大学本科，电脑科学系联合主流A（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 - *大一*
 - *大二*
@@ -691,7 +691,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-**[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+### **[2020年10月 迄今]{style="color:Red"}：网络金融业，创办人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
 - *简介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
 - *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
@@ -700,81 +700,81 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和壹号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
+### **2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和壹号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>）
 
 - *简介：东方集团乃中国商业集团。*
 - *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广和审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析公司财务、会员、产品盈亏报表与负责风控。*
 
 <br>
 
-**2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+### **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
 - *工作明细：在柬埔寨西哈努克（西港）工作五个月，作为阿里发客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）工作一个月。*
 
 <br>
 
-**2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[珍珠贝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
+### **2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/>不过由[珍珠贝](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/> 部署）
 
 - *工作明细：在疏邦再也（马来西亚）UOA商业中心的十三A/十四楼珍珠贝办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。同事们包括中国大陆同胞、马来西亚同胞、日本同胞、韩国同胞和美国同胞等等。*
 
 <br>
 
-**2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于环球方案工程（马）私人有限公司）
+### **2015年10月 至 2016年1月：网络博彩，操盘手/交易员**；（受聘于环球方案工程（马）私人有限公司）
 
 - *简介：受聘于郭建辉，在旧巴生路特易购楼上家居办公工作室的十三A/十四楼上班，老板们是香港人，Eric妻子马来西亚籍故此常驻马来西亚、而君豪和君杰时常到澳门。*
 - *工作明细：足球彩券跟单（跟随长期盈利的职业玩家的注单投注）、打水套利、为中国客户处理存款。*
 
 <br>
 
-**2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于万华媒体（马）私人有限公司）
+### **2015年5月 至 2015年9月：网络博彩，客服人员**；（受聘于万华媒体（马）私人有限公司）
 
 - *简介：公司在吉隆坡南门。*
 - *工作明细：接听电话与外拨电话、在线咨询、计算优惠与返水、掌管脸谱账号与负责市场营销、所有存取款事项。*
 
 <br>
 
-**2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
+### **2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
 - *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
 
 <br>
 
-**2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+### **2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
 
 - *工作明细：台湾小组，接听台湾顾客的印刷机/列印机/印表机问题、预订、安排维修人员与退货、在线技术支援等等。*
 - **JCKL会员**
 
 <br>
 
-**2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[埃斯比方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
+### **2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[埃斯比方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>平台与软件技术支援）
 
 - *简介：光辉通信（GB-links Ltd）在香港九龙红磡，老板们都是香港同胞。*
 - *工作明细：培训新人、管理下属、更新比分、赛事结算。*
 
 <br>
 
-**2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+### **2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
 
 - *简介：资信利（Getronics）乃德国公司，为德意志德国同胞（伟大的德国人Unsere Besten）做工。*
 - *工作明细：位于吉隆坡中央车站（KL Sentral）商业区，通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的老外同胞和少许国内外中华同胞）。*
 
 <br>
 
-**2013年7月 至 2013年9月：保险业，电销员**；(受聘于[美国友邦保险](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+### **2013年7月 至 2013年9月：保险业，电销员**；(受聘于[美国友邦保险](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
 
 - *简介：美国友邦保险（American Insurance Assurance）。*
 - *工作明细：外拨的保险电销员。*
 
 <br>
 
-**2012年11月 至 2013年5月：电子媒体，节目转播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
+### **2012年11月 至 2013年5月：电子媒体，节目转播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>）
 
 - *简介：马电讯™乃马来西亚蓝筹股。*
 - *工作明细：中文小组，观赏海外转播节目，并且需要审查与过滤节目内容，[马电讯™](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/>项目中的happTV。*
 
 <br>
 
-**2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
+### **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>）
 
 - *简介：为布列颠英国同胞做工。*
 - *工作明细：培训新人，接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
@@ -783,21 +783,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2006年7月 至 2007年6月：网络博彩，培训师 ∩ 操盘手/交易员**；（受聘于[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
+### **2006年7月 至 2007年6月：网络博彩，培训师 ∩ 操盘手/交易员**；（受聘于[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>）
 
 - *简介：客世博乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责新宝一与新宝二网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
-**2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
+### **2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>）
 
 - *简介：特里必斯（Telebiz）乃一家网络博彩公司，与一家研发并赁租博彩平台的姐妹公司恩姆埃斯基（MG-SC）（马）私人有限公司为马来西亚同胞所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-**2005年7月 至 2005年10月：网络金融业，操盘手/交易员 ∩ 代理**；（受聘于赫萨贸易（马）私人有限公司 与 尚誉威盈（纽）有限公司商业合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
+### **2005年7月 至 2005年10月：网络金融业，操盘手/交易员 ∩ 代理**；（受聘于赫萨贸易（马）私人有限公司 与 尚誉威盈（纽）有限公司商业合作 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>）
 
 - *简介：尚誉威盈（Prestigen Profits Limited）乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
@@ -807,7 +807,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
+### **2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>）
 
 - *简介：为日本同胞工作，除了一些马来西亚同胞，全是日本同胞，老板也是日本同胞。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -815,13 +815,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
+### **2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[王朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>）
 
 - *工作明细：在酒店内的唐宫当前台服务员。*
 
 <br>
 
-**2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[大人餐厅](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
+### **2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[大人餐厅](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>）
 
 - *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
 - *工作明细：前台服务员。*
@@ -830,7 +830,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 科研项目
 
-**Github仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
+### **Github仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
 
 - *使用`sparklyr`等应用采集日内数据、数据流。*
 - *高频算法量化交易等等。*
@@ -838,74 +838,74 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github仓库**：[**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
+### **Github仓库**：[**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
 
 - *分析阿里彩票公司的财务报表、包括产品盈亏、会员盈亏、消费模式、会员日志记录等。*
 
 <br>
 
-**Github仓库**：[**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **Github仓库**：[**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的财务报表与股价。*
 - *分析新宝一与新宝二的财务报表。*
 
 <br>
 
-**Github仓库**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
+### **Github仓库**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
 
-- *回测金融投注建模与投注策略。*
-- *回测Arima自回归模型、平滑模型、Garch广义自回归条件异方差系列模型，包括凯利投注模型等等。*
+- *回测金融投注建模，投注策略和比较投资收益率。*
+- *回测自回归模型、平滑模型、广义自回归条件异方差模型系列，包括凯利投注模型等等。*
 - *弥补缺失值数据与回测高频率交易。*
 
 <br>
 
-**Github仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **Github仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium（硒网页应用程序测试工具）和Phantomjs（无主题浏览器测试）软件采集网络足球彩券与赛事数据。*
+- *使用Selenium硒网页应用程序测试工具和PhantomJS无头衔浏览器引擎软件采集网络足球彩券与赛事数据。*
 - *自然语言分析采集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
-- *运用不同的凯利标准杠杆投注。*
+- *运用凯利标准投注并调整不同的杠杆效应参数，回测[Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）](#github仓库application-of-kelly-criterion-model-in-sportsbook-investment在博彩行业中应用凯利标准模型进行投资)。*
 
 <br>
 
-**Github仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
+### **Github仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *如何在centOS7操作系统建立自己的RStudio与Shiny应用的教程。*
-
-<br>
-
-**Github仓库**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/scibrokes/kelly-criterion)
-
-- *应用加权对角通膨双变量泊松模型，而足球赛事的数据采集于* **WebDriver Dynamic Webpage Scrapping** *。*
-- *应用凯利标准模型，投注于10家博彩公司的英国2011/12与2012/13赛季的赛事。*
+- *如何在centOS7操作系统建立自己的®Studio服务器与Shiny应用的教程。*
 
 <br>
 
-**Github仓库**：[**Dixon-Coles1996（迪克逊-克尔斯1996统计模型）**](https://github.com/scibrokes/Dixon-Coles1996)
+### **Github仓库**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/scibrokes/kelly-criterion)
+
+- *回测[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）](#github仓库odds-modelling-and-testing-inefficiency-of-sports-bookmakers赔率建模与测试体育博彩庄家的低效率)，而足球赛事数据采集于[WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）](#github仓库webdriver-dynamic-webpage-scrapping网络驱动程序与采集动态网页信息) 。*
+- *回测凯利标准模型，投注于十家博彩公司的英国2011/12与2012/13赛季的赛事。*
+
+<br>
+
+### **Github仓库**：[**Dixon-Coles1996（迪克逊-克尔斯1996统计模型）**](https://github.com/scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996 足球得分建模。*
 
 <br>
 
-**Github仓库**：[**WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github仓库**：[**WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
-- *使用RSelenium与Python软件，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)网站采集博彩公司的赔率数据与赛事比分。*
+- *使用RSelenium与派森编程，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情报网采集博彩公司的赔率数据与赛事比分。*
 
 <br>
 
-**Github仓库**：[**Soccer League Web Scraping（采集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+### **Github仓库**：[**Soccer League Web Scraping（采集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 - *采集静态网页足球赛事数据。*
 
 <br>
 
-**Github仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **Github仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
-- *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)网站的足球赛事比分与29家博彩公司的1x2、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
-- *应用加权对角通膨双变量泊松模型，测试投注与回酬。*
+- *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)情报网的足球赛事比分与二十九家博彩公司的标准盘、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
+- *运用对角零通膨双变量泊松加权时间序列模型，回测赔率建模、投注策略和比较投资收益率。*
 
 <br>
 
-[体育统计学社区](http://soccer.oksport.cn)
+### [体育统计学社区](http://soccer.oksport.cn)
 
 - **2009年 至 2013年**, *通过[互动力量](http://oksport.cn)建立个专业的体育赔率建模论坛 --- [体育统计学社区](http://soccer.oksport.cn)，奈何2013年在美国友邦保险公司当电销时，到工商银行开户后，论坛就被中国网上公安屏蔽了。*
 - *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
@@ -918,9 +918,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-**Github仓库**：[**Apply Poisson regression on sports odds modelling（在体育赔率建模中使用柏松线性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **Github仓库**：[**Apply Poisson regression on sports odds modelling（在体育赔率建模中运用柏松线性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
-- *应用单变量泊松模型足球赔率建模。*
+- *在足球赔率建模中运用单变量泊松模型。*
 
 <br><br>
 
@@ -934,8 +934,8 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('计量经济学', '量化交易', 'R编程语言', '微软办公软件', 'SQL语言', 'Python编程语言', '数据分析', '客服工作', '体育博彩行业', '建立RStudio服务器', '统计学', '数据科学', 'Shiny应用', 'Linux操作系统', 'Web API应用程序接口', 'Sparklyr大数据分析', '高级 R', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / pytorch', 'Web Driver驱动器浏览器', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
-  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 6, 7, 6, 2, 4, 3, 5))
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', 'Shiny应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
 skill |> 
@@ -1248,8 +1248,8 @@ sys
 - 您亦可参阅[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)修改网页外观。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有许多图标可供参考与应用。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) R程序包。
-- [`sass`](https://rstudio.github.io/sass) R程序包。
+- [`echarts4r`](https://echarts4r.john-coene.com) ®程序包。
+- [`sass`](https://rstudio.github.io/sass) ®程序包。
 
 <br><br>
 
