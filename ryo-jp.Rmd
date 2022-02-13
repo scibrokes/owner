@@ -905,6 +905,19 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
+### [體育統計學社區](http://soccer.oksport.cn)
+
+- **2009年 至 2013年**, *通過[互動力量](http://oksport.cn)建立個專業的體育賠率建模論壇 --- [體育統計學社區](http://soccer.oksport.cn)，奈何2013年在美國友邦保險公司當電銷時，到工商銀行開戶後，論壇就被中國網上公安屏蔽了。*
+- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交昜策略、行業動態、嵌入比分網信息、滾動行業動態新聞、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
+- *基於該論壇已屏蔽（已轉到金融行業，也不打算回博彩行業）。*
+
+    - [谷歌捜貼](www/oksportcn_01.png)
+    - [統計之都交流](www/oksportcn_02.png)
+    - [佳禮論壇-捜貼](www/oksportcn_03.png)
+    - [數學建模社區-數學中國](www/oksportcn_04.png)
+
+<br>
+
 ### **Github倉庫**：[**Apply Poisson regression on sports odds modelling**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 -  *単変量ポアソン模型に依って、蹴球賭け屋情報網の取引価格（交換比率）に統計建模する。*
