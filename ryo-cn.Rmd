@@ -832,7 +832,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
 
-- *使用`sparklyr`等应用采集日内数据、数据流。*
+- *使用`sparklyr`等应用採集日内数据、数据流。*
 - *高频算法量化交易等等。*
 - *统计建模、交易策略、风险管理等等。*
 
@@ -861,21 +861,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium硒网页应用程序测试工具和PhantomJS无头衔浏览器引擎软件采集网络足球彩券与赛事数据。*
-- *自然语言分析采集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
+- *使用Selenium硒网页应用程序测试工具和PhantomJS无头衔浏览器引擎软件採集网络足球彩券与赛事数据。*
+- *自然语言分析採集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
 - *运用凯利标准投注并调整不同的杠杆效应参数，回测[Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）](#github仓库application-of-kelly-criterion-model-in-sportsbook-investment在博彩行业中应用凯利标准模型进行投资)。*
 
 <br>
 
 ### **Github仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *如何在centOS7操作系统建立自己的®Studio服务器与Shiny应用的教程。*
+- *如何在仙特操作系统七建立自己的®Studio服务器与闪霓应用的教程。*
 
 <br>
 
 ### **Github仓库**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回测[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）](#github仓库odds-modelling-and-testing-inefficiency-of-sports-bookmakers赔率建模与测试体育博彩庄家的低效率)，而足球赛事数据采集于[WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）](#github仓库webdriver-dynamic-webpage-scrapping网络驱动程序与采集动态网页信息) 。*
+- *回测[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）](#github仓库odds-modelling-and-testing-inefficiency-of-sports-bookmakers赔率建模与测试体育博彩庄家的低效率)，而足球赛事数据採集于[WebDriver Dynamic Webpage Scrapping（网络驱动程序与採集动态网页信息）](#github仓库webdriver-dynamic-webpage-scrapping网络驱动程序与採集动态网页信息) 。*
 - *回测凯利标准模型，投注于十家博彩公司的英国2011/12与2012/13赛季的赛事。*
 
 <br>
@@ -886,19 +886,19 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github仓库**：[**WebDriver Dynamic Webpage Scrapping（网络驱动程序与采集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github仓库**：[**WebDriver Dynamic Webpage Scrapping（浏览器驱动与採集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
-- *使用RSelenium与派森编程，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情报网采集博彩公司的赔率数据与赛事比分。*
-
-<br>
-
-### **Github仓库**：[**Soccer League Web Scraping（采集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
-
-- *采集静态网页足球赛事数据。*
+- *使用RSelenium与派森编程，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情报网採集博彩公司的赔率数据与赛事比分。*
 
 <br>
 
-### **Github仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **Github仓库**：[**Soccer League Web Scraping（採集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+
+- *採集静态网页足球赛事数据。*
+
+<br>
+
+### **Github仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试低效率的体育博彩庄家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)情报网的足球赛事比分与二十九家博彩公司的标准盘、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
 - *运用对角零通膨双变量泊松加权时间序列模型，回测赔率建模、投注策略和比较投资收益率。*
@@ -908,7 +908,7 @@ op <- options(gvis.plot.tag = 'chart')
 ### [体育统计学社区](http://soccer.oksport.cn)
 
 - **2009年 至 2013年**, *通过[互动力量](http://oksport.cn)建立个专业的体育赔率建模论坛 --- [体育统计学社区](http://soccer.oksport.cn)，奈何2013年在美国友邦保险公司当电销时，到工商银行开户后，论坛就被中国网上公安屏蔽了。*
-- *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、滚动行业动态新闻、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
+- *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、行业动态、滚动新闻速报、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在AIA工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
 - *基于该论坛已屏蔽（已转到金融行业，也不打算回博彩行业）。*
 
     - [谷歌捜贴](www/oksportcn_01.png)
@@ -934,7 +934,7 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', 'Shiny应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
@@ -1040,7 +1040,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2010年**，在西世康工作时，同事杰克苏和我一块儿到一些中华武馆和健身中心咨询，我在沙登一家中华武馆学习洪拳和长拳。
 - **2009年 至 2010年**，在西世康工作时，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style="color:RoyalBlue"}[^4]。
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
-- **2013年**，建立自个儿的RStudio服务器、学习采集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
+- **2013年**，建立自个儿的RStudio服务器、学习採集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大厦的[AIA（友邦保险）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
 - **2013年10月1号**，在[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*世博量化®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的皮夹[财神挺台湾夜总会]{style="color:#F6A217"}。
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
@@ -1064,7 +1064,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过 shiny 应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通过闪霓应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
 [^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) 与 [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) 与 [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) 与 [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 

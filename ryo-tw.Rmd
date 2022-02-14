@@ -832,7 +832,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
 
-- *使用`sparklyr`等應用采集日內數據、數據流。*
+- *使用`sparklyr`等應用採集日內數據、數據流。*
 - *高頻算法量化交易等等。*
 - *統計建模、交易策略、風險管理等等。*
 
@@ -861,21 +861,21 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github倉庫**：[**Betting Strategy and Model Validation（博彩交昜策略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *使用Selenium硒網頁應用程序測試工具和PhantomJS無頭銜瀏覽器引擎軟件采集網絡足球彩券與賽事數據。*
-- *自然語言分析采集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
-- *運用凱利標準投註並調整不同的杠桿效應參數，回測[Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investment在博彩行業中應用凱利標準模型進行投資)。*
+- *使用Selenium硒網頁應用程序測試工具和PhantomJS無頭銜瀏覽器引擎軟件採集網絡足球彩券與賽事數據。*
+- *自然語言分析採集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
+- *運用凱利標準投註並調整不同的槓桿效應參數，回測[Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investment在博彩行業中應用凱利標準模型進行投資)。*
 
 <br>
 
 ### **Github倉庫**：[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®Studio服務器）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *如何在centOS7操作繫統建立自己的®Studio服務器與Shiny應用的教程。*
+- *如何在仙特操作繫統柒建立自己的®Studio服務器與閃霓應用的教程。*
 
 <br>
 
 ### **Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers賠率建模與測試體育博彩莊家的低效率)，而足球賽事數據采集於[WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）](#github倉庫webdriver-dynamic-webpage-scrapping網絡驅動程序與采集動態網頁信息)。*
+- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers賠率建模與測試體育博彩莊家的低效率)，而足球賽事數據採集於[WebDriver Dynamic Webpage Scrapping（網絡驅動程序與採集動態網頁信息）](#github倉庫webdriver-dynamic-webpage-scrapping網絡驅動程序與採集動態網頁信息)。*
 - *回測凱利標準模型，投註於拾家博彩公司的英國2011/12與2012/13賽季的賽事。*
 
 <br>
@@ -886,19 +886,19 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（網絡驅動程序與采集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動與採集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
-- *使用RSelenium與派森編程，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情報網采集博彩公司的賠率數據與賽事比分。*
-
-<br>
-
-### **Github倉庫**：[**Soccer League Web Scraping（采集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
-
-- *采集靜態網頁足球賽事數據。*
+- *使用RSelenium與派森編程，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情報網採集博彩公司的賠率數據與賽事比分。*
 
 <br>
 
-### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **Github倉庫**：[**Soccer League Web Scraping（採集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+
+- *採集靜態網頁足球賽事數據。*
+
+<br>
+
+### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試低效率的體育博彩莊家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)與[NowGoal](http://info.nowgoal.com/en)情報網的足球賽事比分與贰拾玖家博彩公司的標準盤、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
 - *運用對角零通膨雙變量泊松加權時間序列模型，回測賠率建模、投註策略和比較投資收益率。*
@@ -908,7 +908,7 @@ op <- options(gvis.plot.tag = 'chart')
 ### [體育統計學社區](http://soccer.oksport.cn)
 
 - **2009年 至 2013年**, *通過[互動力量](http://oksport.cn)建立個專業的體育賠率建模論壇 --- [體育統計學社區](http://soccer.oksport.cn)，奈何2013年在美國友邦保險公司當電銷時，到工商銀行開戶後，論壇就被中國網上公安屏蔽了。*
-- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交昜策略、行業動態、嵌入比分網信息、滾動行業動態新聞、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
+- *一個人打理的論壇以足彩為主，其它彩票遊戲包括網遊為副，除了分享個人足彩賠率建模、一些職業玩家的玩彩心得、一些統計建模、一些統計軟件與電腦編程與代碼、風險管理、交昜策略、行業動態、嵌入比分網信息、行業動態、滾動新聞速報、分析與比較歐亞各足彩平臺與內部管理優缺勢（孫子兵法* --- **知己知彼百戰百勝**）、*招賢納士尋找誌同道合的朋友，還當代理與合作夥伴打廣告兼市場行銷（包括郵件營銷、QQ、到許多論壇網站推廣體育統計學），結果2013年在AIA工作時適逢在工商銀行開戶，被大陸網絡公安屏蔽了。*
 - *基於該論壇已屏蔽（已轉到金融行業，也不打算回博彩行業）。*
 
     - [谷歌捜貼](www/oksportcn_01.png)
@@ -934,7 +934,7 @@ require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('計量經濟學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL語言', '派森編程語言', '數據分析', '客服工作', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', 'Shiny應用', '李呢克斯🐧操作繫統', '網頁應用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', '瀏覽器驅動', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '技能' = c('計量經濟學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL語言', '派森編程語言', '數據分析', '客服工作', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', '閃霓應用', '李呢克斯🐧操作繫統', '網頁應用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', '瀏覽器驅動', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
@@ -1040,7 +1040,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2010年**，在西世康工作時，同事傑克蘇和我一塊兒到一些中華武館和健身中心咨詢，我在沙登一家中華武館學習洪拳和長拳。
 - **2009年 至 2010年**，在西世康工作時，經過[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介紹，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下當個業余演員，[跑龍套當演員]{style="color:RoyalBlue"}[^4]。
 - **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
-- **2013年**，建立自個兒的RStudio服務器、學習采集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
+- **2013年**，建立自個兒的RStudio服務器、學習採集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
 - **2013年10月1號**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的皮夾[財神挺臺灣夜總會]{style="color:#F6A217"}。
 - **2013年11月**，有天麥克張有銘匆匆忙忙打電話聯繫並錄用我並買了張機票，還沒辭職就飛往香港九龍了。在SBet工作時，Howie宋家豪時常論及我穿的休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}。
@@ -1064,7 +1064,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過 shiny 應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過閃霓應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
 
 [^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) 與 [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) 與 [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) 與 [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
