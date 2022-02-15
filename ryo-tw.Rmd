@@ -1,7 +1,7 @@
 ---
-title: "[<span style='color:goldenrod'>雷歐/瑞歐，黃聯富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+title: "[<span style='color:goldenrod'>雷歐 ∪ 瑞歐，黃聯富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '個人簡歷'
-author: "[雷歐/瑞歐，黃聯富](https://englianhu.github.io) <img src='www/ENG.jpg'
+author: "[雷歐 ∪ 瑞歐，黃聯富](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 date: "22-Oct-1984"
@@ -366,7 +366,7 @@ resource_files:
 
 <img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
-雷歐/瑞歐，黃聯富
+雷歐 ∪ 瑞歐，黃聯富
 
 <br>
 [[**主題曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
@@ -516,25 +516,31 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 關於我
 
-| **類別**            |                                                                                                                        **明細** |
-|:--------------------|--------------------------------------------------------------------------------------------------------------------------------:|
-| 生日                |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
-| 年齡                | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
-| 行動電話號碼        |                                                                                         🇲🇾 [+6-017-6482776](tel:+60176482776) |
-| 行動電話號碼        |                                                                                         🇲🇾 [+6-014-6082776](tel:+60146082776) |
-| 行動電話號碼        |                                                                              🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
-| 行動電話號碼        |                                                                              🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
-| 行動電話號碼        |                                                                                🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
-| 行動電話號碼        |                                                                                  🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
-| 行動電話號碼        |                                                                                  🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
-| 電子郵箱            |                                                                                                             englianhu@gmail.com |
-| 國籍                |                                                                                                                      馬來西亞人 |
-| 出生地              |                                                                                                    丹戎加弄，雪蘭莪州，馬來西亞 |
-| 宗教                |                                                                                                                            佛教 |
-| 祖籍                |                                                                                 [中國福建省永春人]{style="color:RoyalBlue"}[^1] |
-| 母語                |                                                                                                                 福建閩南 / 漢語 |
+| **類別**                          |                                                                                                                           **明細** |
+|:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
+| [字]{style="color:RoyalBlue"}[^1] |                                                                                                                               阿虎 |
+| [號]{style="color:RoyalBlue"}     |                                                                                                                        雷歐 ∪ 瑞歐 |
+| [虛擬名]{style="color:RoyalBlue"} |                                                                                                                           龍介建次 |
+| [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(粵) |
+| 生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
+| 年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行動電話號碼                      |                                                                                            🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行動電話號碼                      |                                                                                 🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| 行動電話號碼                      |                                                                                 🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| 行動電話號碼                      |                                                                                   🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行動電話號碼                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行動電話號碼                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 電子郵箱                          |                                                                                                                englianhu@gmail.com |
+| 國籍                              |                                                                                                                         馬來西亞人 |
+| 出生地                            |                                                                                                       丹戎加弄，雪蘭莪州，馬來西亞 |
+| 宗教                              |                                                                                                                               佛教 |
+| 祖籍                              |                                                                                    [中國福建省永春人]{style="color:RoyalBlue"}[^2] |
+| 母語                              |                                                                                                                    福建閩南 / 漢語 |
 
-[^1]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，[*「夏帝少康之庶子無余封於會稽（現今浙江省紹興市一帶），為越國之始祖。」*]{style="color:#F6A217"}<br>會稽人王充在《論衡·書虛篇》中引吳君高之語：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}
+[^1]: [《叫阮的名》🎼 - 巫啟賢憶母之作](https://youtu.be/c0mnJ-52WoA)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
+
+[^2]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，[*「夏帝少康之庶子無余封於會稽（現今浙江省紹興市一帶），為越國之始祖。」*]{style="color:#F6A217"}<br>會稽人王充在《論衡·書虛篇》中引吳君高之語：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}
 
 <br><br>
 
@@ -693,10 +699,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **[2020年10月 迄今]{style="color:Red"}：網絡金融業，創辦人 ∩ 物主**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
-- *簡介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]是一家在全球市場進行交易的量化投資管理公司，通過數理統計為投資者帶來高投資回報率。*
+- *簡介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]是一家在全球市場進行交易的量化投資管理公司，通過數理統計為投資者帶來高投資回報率。*
 - *工作明細：在金融市場中科研統計建模、風險管理與高頻自動演算量化交易和數據分析等，之後會到中國大陸發展。*
 
-[^2]: [*世博量化®（官方網）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
+[^3]: [*世博量化®（官方網）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -1029,7 +1035,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2003年 至 2005年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宮當前臺服務員。
 - **2003年 至 2005年**，在吉隆坡怡保路5裏路/甲洞當汽車銷售員/維修員。
 - **2003年 至 2005年**，在谷中城對面的[日本國際交流基金會（馬）](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>內的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>當迷你市場店員。
-- **2003年 至 2005年**，經[拉曼學院電腦科學繫同學兼最佳好友謝德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^3]錄用，到他家鄉適耕莊的網吧（高峰電腦中心）當櫃臺小生。
+- **2003年 至 2005年**，經[拉曼學院電腦科學繫同學兼最佳好友謝德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^4]錄用，到他家鄉適耕莊的網吧（高峰電腦中心）當櫃臺小生。
 - **2006年2月**，在Telebiz工作時，業余時間到安邦韓國村修讀韓語，同時也在韓國村一帶的韓國跆拳道館學跆拳道。
 - **2006年7月**，在Telebiz工作時，遠到新加坡喜來登酒店樓下大廳和歐陽兄弟倆（歐陽金泰和歐陽金喜）面試，沒幾周歐陽金喜就匆匆忙忙撥電給我到焦賴一家旅遊中心找Amy拿機票到菲律賓工作，當時沒辭職就飛到菲律賓去了。
 - **2006年7月 至 2006年12月**，在馬尼拉Caspo Inc工作時，咨詢了一些日語中心和一些韓語中心咨詢課程，在[日本國際交流基金會（菲）](https://jfmo.org.ph) 報考高級日語JLPT Level I後，同年年底2006年12月在[德拉薩大學 Dela Salle University Manila](https://www.dlsu.edu.ph)考高級日語。
@@ -1038,7 +1044,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2007年8月 至 2008年3月**，大哥在怡觀園的皇帽旗下代理餐館（一家臺灣女老板的餐館 --- 大家樂小食中心）開檔口當小販。
 - **2009年 至 2010年**，在西世康工作時，通過僑豐銀行和聯昌銀行（新加坡），開始在香港和美國金融市場進行交易。
 - **2009年 至 2010年**，在西世康工作時，同事傑克蘇和我一塊兒到一些中華武館和健身中心咨詢，我在沙登一家中華武館學習洪拳和長拳。
-- **2009年 至 2010年**，在西世康工作時，經過[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介紹，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下當個業余演員，[跑龍套當演員]{style="color:RoyalBlue"}[^4]。
+- **2009年 至 2010年**，在西世康工作時，經過[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介紹，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下當個業余演員，[跑龍套當演員]{style="color:RoyalBlue"}[^5]。
 - **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
 - **2013年**，建立自個兒的RStudio服務器、學習採集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
@@ -1056,17 +1062,17 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 2003/2004年離開*Prestigen Profits（紐）有限公司*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
-[^3]: [遲了一年，更新履歷表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 電子書](documents/b4TDbiz-.pdf))中記載著以前尚未加入博彩行業的一段[創業與金融行業]{style="color:RoyalBlue"}小歷史。
+[^4]: [遲了一年，更新履歷表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 電子書](documents/b4TDbiz-.pdf))中記載著以前尚未加入博彩行業的一段[創業與金融行業]{style="color:RoyalBlue"}小歷史。
 
-[^4]: [哢，精神點，臨時演員也是演員！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*「你知不知道因為不想死，浪費了多少秒、多少錢、多少片底、多少工作人員的時間和心血！換個專業的！」*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不夠專業避險基金）:[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影視剪輯］精神點！臨時演員也是演員！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*「聽到沒有？！這就是我經常對大家說的專業！」*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（專業避險基金）:[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
+[^5]: [哢，精神點，臨時演員也是演員！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)<br>[*「你知不知道因為不想死，浪費了多少秒、多少錢、多少片底、多少工作人員的時間和心血！換個專業的！」*]{style="color:#F6A217"}<br>Unprofessional Hedge Fund（不夠專業避險基金）:[The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>[［影視剪輯］精神點！臨時演員也是演員！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)<br>[*「聽到沒有？！這就是我經常對大家說的專業！」*]{style="color:#F6A217"}<br>Expert / Professional Hedge Fund（專業避險基金）:[The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
 由於佐治.索羅斯之母精通多國語言有優勢，故此學過韓語、德語、<s>法語</s>。
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^5]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^2]，通過閃霓應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^6]是大夥兒得學習的量化圈的成功人士。目前在學習建立自個兒的量化避險基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}，通過閃霓應用部署個高頻量化自動交易系統。有興趣建立自己的®Studio服務器者，可以參閱[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而對於量化交易的熱忱者，可通過[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}聯系本人。
 
-[^5]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) 與 [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) 與 [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) 與 [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
+[^6]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) 與 [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) 與 [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) 與 [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 欲知更多關於我的詳情，請參閱個人部落格。
 
