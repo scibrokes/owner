@@ -1,7 +1,7 @@
 ---
-title: "[<span style='color:goldenrod'>リョウ，黃聯富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+title: "[<span style='color:goldenrod'>リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby></span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '個人簡歷'
-author: "[リョウ，黃聯富](https://englianhu.github.io) <img src='www/ENG.jpg'
+author: "[リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby>](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 tags: [計量經濟學, 量化圈, 娛樂圈, ®, Python, ®Studio]
@@ -363,14 +363,14 @@ resource_files:
 
 ------
 
-# 履歴書（りれきしょ）
+# <ruby>履<rp>（</rp><rt>り</rt><rp>）</rp>歴<rp>（</rp><rt>れき</rt><rp>）</rp>書<rp>（</rp><rt>しょ</rt><rp>）</rp></ruby>
 
 <img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
-リョウ，黃聯富（こう・れん・ふ/とみ）
+リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby>
 
 <br>
-[[**主題曲（しゅだいきょく）**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
+[[**<ruby>主<rp>（</rp><rt>しゅ</rt><rp>）</rp>題<rp>（</rp><rt>だい</rt><rp>）</rp>曲<rp>（</rp><rt>きょく</rt><rp>）</rp></ruby>**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
@@ -379,9 +379,9 @@ resource_files:
 
 ------
 
-# 設定（せってい）
+# <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>定<rp>（</rp><rt>てい</rt><rp>）</rp></ruby>
 
-## SCSS 設置（せっち）
+## SCSS <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>置<rp>（</rp><rt>ち</rt><rp>）</rp></ruby>
 
 <style>
 pre {
@@ -476,7 +476,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## 設置
+## <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>置<rp>（</rp><rt>ち</rt><rp>）</rp></ruby>
 
 ```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
@@ -515,14 +515,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br><br>
 
-## 私について
+<ruby>明<rt>めい</rt>細<rt>さい</rt></ruby>
 
-| **類別（るいべつ）**              |                                                                                                               **明細（めいさい）** |
+## <ruby>私<rp>（</rp><rt>わたし</rt><rp>）</rp></ruby>について
+
+| **<ruby>類<rp>（</rp><rt>るい</rt><rp>）</rp>別<rp>（</rp><rt>べつ</rt><rp>）</rp></ruby>**              |                                                                                                               **<ruby>明<rp>（</rp><rt>めい</rt><rp>）</rp>細<rp>（</rp><rt>さい</rt><rp>）</rp></ruby>** |
 |:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
 | [字]{style="color:RoyalBlue"}[^1] |                                                                                                                               阿虎 |
 | [號]{style="color:RoyalBlue"}     |                                                                                                                             リョウ |
 | [虛擬名]{style="color:RoyalBlue"} |                                                                                                                           竜介建次 |
-| [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(粵) |
+| [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(<ruby>粵<rp><rt>えつ</rt></rp><ruby>) |
 | 生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
 | 年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
 | 行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
@@ -533,11 +535,11 @@ op <- options(gvis.plot.tag = 'chart')
 | 行動電話號碼                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
 | 行動電話號碼                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
 | 電子郵箱                          |                                                                                                                englianhu@gmail.com |
-| 國籍                              |                                                                                                                       マレーシア人 |
-| 出生地                            |                                                                  丹绒加弄（たんじょんかろう）, 雪蘭莪 （せっらんが）州, マレーシア |
-| 宗教                              |                                                                                                                     仏家（ぶっけ） |
-| 祖籍                              |                                      [中國福建省永春人（ちゅうごく・ふっけんしょう・えいしゅんじん）]{style="color:RoyalBlue"}[^2] |
-| 母語                              |                                                                                     福建閩南（ふっけん.びんなん） / 漢語（かんご） |
+| 國籍                              |                                                                                                                       <ruby>馬<rp>（</rp><rt>マ</rt><rp>）</rp>來<rp>（</rp><rt>レー</rt><rp>）</rp>西<rp>（</rp><rt>シ</rt><rp>）</rp>亞<rp>（</rp><rt>ア</rt><rp>）</rp>人<rp>（</rp><rt>じん</rt><rp>）</rp></ruby> |
+| 出生地                            |                                                                  <ruby>丹<rp>（</rp><rt>たん</rt><rp>）</rp>绒<rp>（</rp><rt>じょん</rt><rp>）</rp>加<rp>（</rp><rt>か</rt><rp>）</rp>弄<rp>（</rp><rt>ろう</rt><rp>）</rp></ruby>, <ruby>雪<rp>（</rp><rt>せっ</rt><rp>）</rp>蘭<rp>（</rp><rt>らん</rt><rp>）</rp>莪<rp>（</rp><rt>が</rt><rp>）</rp>州<rp>（</rp><rt>しゅう</rt><rp>）</rp></ruby>, <ruby>馬<rp>（</rp><rt>マ</rt><rp>）</rp>來<rp>（</rp><rt>レー</rt><rp>）</rp>西<rp>（</rp><rt>シ</rt><rp>）</rp>亞<rp>（</rp><rt>ア</rt><rp>）</rp></ruby> |
+| 宗教                              |                                                                                                                     <ruby>仏<rp>（</rp><rt>ぶっ</rt><rp>）</rp>家<rp>（</rp><rt>け</rt><rp>）</rp></ruby> |
+| 祖籍                              |                                      [<ruby>中<rp>（</rp><rt>ちゅう</rt><rp>）</rp>國<rp>（</rp><rt>ごく</rt><rp>）</rp>福<rp>（</rp><rt>ふっ</rt><rp>）</rp>建<rp>（</rp><rt>けん</rt><rp>）</rp>省<rp>（</rp><rt>しょう</rt><rp>）</rp>永<rp>（</rp><rt>えい</rt><rp>）</rp>春<rp>（</rp><rt>しゅん</rt><rp>）</rp>人<rp>（</rp><rt>じん</rt><rp>）</rp></ruby>]{style="color:RoyalBlue"}[^2] |
+| 母語                              |                                                                                     <ruby>福<rp>（</rp><rt>ふっ</rt><rp>）</rp>建<rp>（</rp><rt>けん</rt><rp>）</rp>閩<rp>（</rp><rt>びん</rt><rp>）</rp>南<rp>（</rp><rt>なん</rt><rp>）</rp></ruby> / <ruby>漢<rp>（</rp><rt>かん</rt><rp>）</rp>語<rp>（</rp><rt>ご</rt><rp>）</rp></ruby> |
 
 [^1]: [《叫阮的名》🎼 - 巫啟賢憶母之作](https://youtu.be/c0mnJ-52WoA)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
 
@@ -545,7 +547,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br><br>
 
-## 學歴（がくれき）
+## <ruby>學<rp>（</rp><rt>がく</rt><rp>）</rp>歴<rp>（</rp><rt>れき</rt><rp>）</rp></ruby>
 
 ### **[2021年11月から 今迄]{style="color:Red"}：専業証明書、學習金融交昜機械化専門[講座（こうざ）](https://www.sigure.tw/learn-japanese/mix/difference/kougi-kouza-jugyou.php)**；（[コーセラ](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
@@ -915,7 +917,7 @@ op <- options(gvis.plot.tag = 'chart')
 ### [體育統計學社區](http://soccer.oksport.cn)
 
 - **2009年から 2013年迄**，*[互動力量](http://oksport.cn)を通じて専門的な體育取引価格（交換比率）統計建模論壇を設立する --- [體育統計學社區](http://soccer.oksport.cn)では、2013年に米國友邦保険會社で保險電話従業員にしていたとき、工商銀行に口座を開設した後、論壇は中國の線上公安に遮断されました。*
-- *一人きりで運営する論壇は蹴球を主とし、その他の富くじ遊戲（ゆうげ）は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と編碼（へんめ）、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
+- *<ruby>一人<rp>（</rp><rt>ひとり</rt><rp>）</rp></ruby>きりで運営する論壇は蹴球を主とし、その他の富くじ遊戲（ゆうげ）は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と編碼（へんめ）、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
 - *この論壇に基づいて屏蔽（びょうぶ）されています(金融業界に移行し、賭博業界に戻る積もりはありません)。*
 
     -[谷歌捜貼](www/oksportcn_01.png)
