@@ -1,7 +1,7 @@
 ---
-title: "[<span style='color:goldenrod'>リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby></span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
-subtitle: '個人簡歷'
-author: "[リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby>](https://englianhu.github.io) <img src='www/ENG.jpg'
+title: "[<span style='color:goldenrod'>リョウ，<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby></span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+subtitle: '<ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>簡<rp>(</rp><rt>かん</rt><rp>)</rp>歷<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>'
+author: "[リョウ，<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 tags: [計量經濟學, 量化圈, 娛樂圈, ®, Python, ®Studio]
@@ -363,14 +363,14 @@ resource_files:
 
 ------
 
-# <ruby>履<rp>（</rp><rt>り</rt><rp>）</rp>歴<rp>（</rp><rt>れき</rt><rp>）</rp>書<rp>（</rp><rt>しょ</rt><rp>）</rp></ruby>
+# <ruby>履<rp>(</rp><rt>り</rt><rp>)</rp>歴<rp>(</rp><rt>れき</rt><rp>)</rp>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>
 
 <img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
 
-リョウ，<ruby>黃<rp>（</rp><rt>こう</rt><rp>）</rp>聯<rp>（</rp><rt>れん</rt><rp>）</rp>富<rp>（</rp><rt>ふ/とみ</rt><rp>）</rp></ruby>
+リョウ，<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>
 
 <br>
-[[**<ruby>主<rp>（</rp><rt>しゅ</rt><rp>）</rp>題<rp>（</rp><rt>だい</rt><rp>）</rp>曲<rp>（</rp><rt>きょく</rt><rp>）</rp></ruby>**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
+[[**<ruby>主<rp>(</rp><rt>しゅ</rt><rp>)</rp>題<rp>(</rp><rt>だい</rt><rp>)</rp>曲<rp>(</rp><rt>きょく</rt><rp>)</rp></ruby>**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
@@ -379,9 +379,9 @@ resource_files:
 
 ------
 
-# <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>定<rp>（</rp><rt>てい</rt><rp>）</rp></ruby>
+# <ruby>設<rp>(</rp><rt>せっ</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>
 
-## SCSS <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>置<rp>（</rp><rt>ち</rt><rp>）</rp></ruby>
+## SCSS <ruby>設<rp>(</rp><rt>せっ</rt><rp>)</rp>置<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>
 
 <style>
 pre {
@@ -476,7 +476,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 <br><br>
 
-## <ruby>設<rp>（</rp><rt>せっ</rt><rp>）</rp>置<rp>（</rp><rt>ち</rt><rp>）</rp></ruby>
+## <ruby>設<rp>(</rp><rt>せっ</rt><rp>)</rp>置<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>
 
 ```{r, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
@@ -515,41 +515,41 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br><br>
 
-<ruby>明<rt>めい</rt>細<rt>さい</rt></ruby>
+## <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>について
 
-## <ruby>私<rp>（</rp><rt>わたし</rt><rp>）</rp></ruby>について
-
-| **<ruby>類<rp>（</rp><rt>るい</rt><rp>）</rp>別<rp>（</rp><rt>べつ</rt><rp>）</rp></ruby>**              |                                                                                                               **<ruby>明<rp>（</rp><rt>めい</rt><rp>）</rp>細<rp>（</rp><rt>さい</rt><rp>）</rp></ruby>** |
-|:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
-| [字]{style="color:RoyalBlue"}[^1] |                                                                                                                               阿虎 |
-| [號]{style="color:RoyalBlue"}     |                                                                                                                             リョウ |
-| [虛擬名]{style="color:RoyalBlue"} |                                                                                                                           竜介建次 |
-| [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(<ruby>粵<rp><rt>えつ</rt></rp><ruby>) |
-| 生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
-| 年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
-| 行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| **<ruby>類<rp>(</rp><rt>るい</rt><rp>)</rp>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>** |                                    **<ruby>明<rp>(</rp><rt>めい</rt><rp>)</rp>細<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>** |
+|:----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------:|
+| [<ruby>姓<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}[^1]         |                                                                         <ruby>黃<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby> |
+| [<ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}             |                                     <ruby>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby> |
+| [<ruby>字<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}               |                                            <ruby>阿<rp>(</rp><rt>あ</rt><rp>)</rp>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> |
+| [<ruby>號<rp>(</rp><rt>ごう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}             |                                                                                                                     リョウ |
+| [<ruby>仮<rp>(</rp><rt>か</rt><rp>)</rp>設<rp>(</rp><rt>せつ</rt><rp>)</rp>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"} |  <ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp>介<rp>(</rp><rt>すけ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby> |
+| [<ruby>別<rp>(</rp><rt>せい</rt><rp>)</rp>名<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}   |                      Mr. 滬 / 滸湖 / 阿滬 / 富仔(<ruby>粵<rp>(</rp><rt>えつ</rt><rp>)</rp><ruby>) |
+| <ruby>生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
+| <ruby>年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| <ruby>行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
 | 行動電話號碼                      |                                                                                            🇲🇾 [+6-014-6082776](tel:+60146082776) |
 | 行動電話號碼                      |                                                                                 🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
 | 行動電話號碼                      |                                                                                 🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
 | 行動電話號碼                      |                                                                                   🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
 | 行動電話號碼                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
 | 行動電話號碼                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
-| 電子郵箱                          |                                                                                                                englianhu@gmail.com |
-| 國籍                              |                                                                                                                       <ruby>馬<rp>（</rp><rt>マ</rt><rp>）</rp>來<rp>（</rp><rt>レー</rt><rp>）</rp>西<rp>（</rp><rt>シ</rt><rp>）</rp>亞<rp>（</rp><rt>ア</rt><rp>）</rp>人<rp>（</rp><rt>じん</rt><rp>）</rp></ruby> |
-| 出生地                            |                                                                  <ruby>丹<rp>（</rp><rt>たん</rt><rp>）</rp>绒<rp>（</rp><rt>じょん</rt><rp>）</rp>加<rp>（</rp><rt>か</rt><rp>）</rp>弄<rp>（</rp><rt>ろう</rt><rp>）</rp></ruby>, <ruby>雪<rp>（</rp><rt>せっ</rt><rp>）</rp>蘭<rp>（</rp><rt>らん</rt><rp>）</rp>莪<rp>（</rp><rt>が</rt><rp>）</rp>州<rp>（</rp><rt>しゅう</rt><rp>）</rp></ruby>, <ruby>馬<rp>（</rp><rt>マ</rt><rp>）</rp>來<rp>（</rp><rt>レー</rt><rp>）</rp>西<rp>（</rp><rt>シ</rt><rp>）</rp>亞<rp>（</rp><rt>ア</rt><rp>）</rp></ruby> |
-| 宗教                              |                                                                                                                     <ruby>仏<rp>（</rp><rt>ぶっ</rt><rp>）</rp>家<rp>（</rp><rt>け</rt><rp>）</rp></ruby> |
-| 祖籍                              |                                      [<ruby>中<rp>（</rp><rt>ちゅう</rt><rp>）</rp>國<rp>（</rp><rt>ごく</rt><rp>）</rp>福<rp>（</rp><rt>ふっ</rt><rp>）</rp>建<rp>（</rp><rt>けん</rt><rp>）</rp>省<rp>（</rp><rt>しょう</rt><rp>）</rp>永<rp>（</rp><rt>えい</rt><rp>）</rp>春<rp>（</rp><rt>しゅん</rt><rp>）</rp>人<rp>（</rp><rt>じん</rt><rp>）</rp></ruby>]{style="color:RoyalBlue"}[^2] |
-| 母語                              |                                                                                     <ruby>福<rp>（</rp><rt>ふっ</rt><rp>）</rp>建<rp>（</rp><rt>けん</rt><rp>）</rp>閩<rp>（</rp><rt>びん</rt><rp>）</rp>南<rp>（</rp><rt>なん</rt><rp>）</rp></ruby> / <ruby>漢<rp>（</rp><rt>かん</rt><rp>）</rp>語<rp>（</rp><rt>ご</rt><rp>）</rp></ruby> |
+| <ruby>電子郵箱                          |                                                                                                                englianhu@gmail.com |
+| <ruby>國籍                              |                                                                                                                       <ruby>馬<rp>(</rp><rt>マ</rt><rp>)</rp>來<rp>(</rp><rt>レー</rt><rp>)</rp>西<rp>(</rp><rt>シ</rt><rp>)</rp>亞<rp>(</rp><rt>ア</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp></ruby> |
+| 出生地                            |                                                                  <ruby>丹<rp>(</rp><rt>たん</rt><rp>)</rp>绒<rp>(</rp><rt>じょん</rt><rp>)</rp>加<rp>(</rp><rt>か</rt><rp>)</rp>弄<rp>(</rp><rt>ろう</rt><rp>)</rp></ruby>, <ruby>雪<rp>(</rp><rt>せっ</rt><rp>)</rp>蘭<rp>(</rp><rt>らん</rt><rp>)</rp>莪<rp>(</rp><rt>が</rt><rp>)</rp>州<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>, <ruby>馬<rp>(</rp><rt>マ</rt><rp>)</rp>來<rp>(</rp><rt>レー</rt><rp>)</rp>西<rp>(</rp><rt>シ</rt><rp>)</rp>亞<rp>(</rp><rt>ア</rt><rp>)</rp></ruby> |
+| <ruby>宗教                              |                                                                                                                     <ruby>仏<rp>(</rp><rt>ぶっ</rt><rp>)</rp>家<rp>(</rp><rt>け</rt><rp>)</rp></ruby> |
+| <ruby>祖籍                              |                                      [<ruby>中<rp>(</rp><rt>ちゅう</rt><rp>)</rp>國<rp>(</rp><rt>ごく</rt><rp>)</rp>福<rp>(</rp><rt>ふっ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>省<rp>(</rp><rt>しょう</rt><rp>)</rp>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}[^2] |
+| <ruby>母語                              |                                                                                     <ruby>福<rp>(</rp><rt>ふっ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>閩<rp>(</rp><rt>びん</rt><rp>)</rp>南<rp>(</rp><rt>なん</rt><rp>)</rp></ruby> / <ruby>漢<rp>(</rp><rt>かん</rt><rp>)</rp>語<rp>(</rp><rt>ご</rt><rp>)</rp></ruby> |
 
 [^1]: [《叫阮的名》🎼 - 巫啟賢憶母之作](https://youtu.be/c0mnJ-52WoA)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
 
-[^2]: すぐ理解する：*古稱（こしょう）[會稽郡（かいけい-ぐん）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱（げんしょう）[永春県（えいしゅん-けん）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記・勾践世家（しき・こうせん・せいか）》**載（さい），[*「夏帝少康（かてい・しょうこう）の庶子（しょし）無余（むよ）は會稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。」*]{style="color:#F6A217"}<br>*會稽人王充（おうじゅう）は《論衡・書虛篇》中で引用（いんよう）吳君高の言葉：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
+[^2]: すぐ理解する：*<ruby>古<rp>(</rp><rt>こ</rt><rp>)</rp>座<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>會<rp>(</rp><rt>かい</rt><rp>)</rp>稽<rp>(</rp><rt>けい</rt><rp>)</rp>郡<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，<ruby>現<rp>(</rp><rt>げん</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>県<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《<ruby>史<rp>(</rp><rt>し</rt><rp>)</rp>記<rp>(</rp><rt>き</rt><rp>)</rp></ruby>・<ruby>勾<rp>(</rp><rt>こう</rt><rp>)</rp>践<rp>(</rp><rt>せん</rt><rp>)</rp>世<rp>(</rp><rt>せい</rt><rp>)</rp>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby>》**載（さい），[*「夏帝少康（かてい・しょうこう）の庶子（しょし）無余（むよ）は會稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。」*]{style="color:#F6A217"}<br>*會稽人王充（おうじゅう）は《論衡・書虛篇》中で引用（いんよう）吳君高の言葉：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
 
 <br><br>
 
-## <ruby>學<rp>（</rp><rt>がく</rt><rp>）</rp>歴<rp>（</rp><rt>れき</rt><rp>）</rp></ruby>
+## <ruby>學<rp>(</rp><rt>がく</rt><rp>)</rp>稱<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>
 
-### **[2021年11月から 今迄]{style="color:Red"}：専業証明書、學習金融交昜機械化専門[講座（こうざ）](https://www.sigure.tw/learn-japanese/mix/difference/kougi-kouza-jugyou.php)**；（[コーセラ](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
+### **[2021年11月から 今迄]{style="color:Red"}：専業証明書、學習金融交昜機械化専門[<ruby>講<rp>(</rp><rt>こう</rt><rp>)</rp>座<rp>(</rp><rt>ざ</rt><rp>)</rp></ruby>](https://www.sigure.tw/learn-japanese/mix/difference/kougi-kouza-jugyou.php)**；（[コーセラ](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
 - *01 課程：初識交昜、學習と谷歌雲端平臺（ひらだい）（GCP）*
 - *02 課程：金融交昜の機械化を實踐する*
@@ -917,7 +917,7 @@ op <- options(gvis.plot.tag = 'chart')
 ### [體育統計學社區](http://soccer.oksport.cn)
 
 - **2009年から 2013年迄**，*[互動力量](http://oksport.cn)を通じて専門的な體育取引価格（交換比率）統計建模論壇を設立する --- [體育統計學社區](http://soccer.oksport.cn)では、2013年に米國友邦保険會社で保險電話従業員にしていたとき、工商銀行に口座を開設した後、論壇は中國の線上公安に遮断されました。*
-- *<ruby>一人<rp>（</rp><rt>ひとり</rt><rp>）</rp></ruby>きりで運営する論壇は蹴球を主とし、その他の富くじ遊戲（ゆうげ）は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と編碼（へんめ）、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
+- *<ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>きりで運営する論壇は蹴球を主とし、その他の富くじ遊戲（ゆうげ）は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と編碼（へんめ）、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
 - *この論壇に基づいて屏蔽（びょうぶ）されています(金融業界に移行し、賭博業界に戻る積もりはありません)。*
 
     -[谷歌捜貼](www/oksportcn_01.png)

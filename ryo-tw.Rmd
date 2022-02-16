@@ -519,7 +519,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **類別**                          |                                                                                                                           **明細** |
 |:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
-| [字]{style="color:RoyalBlue"}[^1] |                                                                                                                               阿虎 |
+| [姓]{style="color:RoyalBlue"}[^1] |                                                                                                                                 黃 |
+| [名]{style="color:RoyalBlue"}     |                                                                                                                               聯富 |
+| [字]{style="color:RoyalBlue"}     |                                                                                                                               阿虎 |
 | [號]{style="color:RoyalBlue"}     |                                                                                                                        雷歐 ∪ 瑞歐 |
 | [虛擬名]{style="color:RoyalBlue"} |                                                                                                                           龍介建次 |
 | [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(粵) |

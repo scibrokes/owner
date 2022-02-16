@@ -519,7 +519,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**                                    |                                                                                                                        **Details** |
 |:---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
-| [Courtesy Name]{style="color:RoyalBlue"}[^1] |                                                                                                                 阿虎 (AHU / Tiger) |
+| [Family Name]{style="color:RoyalBlue"}[^1]   |                                                                                                                                ξηg |
+| [Given Name]{style="color:RoyalBlue"}        |                                                                                                                            Lιαη Ημ |
+| [Courtesy Name]{style="color:RoyalBlue"}     |                                                                                                                 阿虎 (AHU / Tiger) |
 | [Pseudonym]{style="color:RoyalBlue"}         |                                                                                                                              $®γσ$ |
 | [Alais Name]{style="color:RoyalBlue"}        |                                                                                                                      Ryusuke Kenji |
 | [Nickname]{style="color:RoyalBlue"}          |                                                               Mr. Hu (Mr. 沪) / HuHu (浒湖) / AHU (阿沪) / FuZai (Cantonese: 富仔) |

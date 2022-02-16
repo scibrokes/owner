@@ -519,7 +519,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **类别**                          |                                                                                                                           **明细** |
 |:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
-| [字]{style="color:RoyalBlue"}[^1] |                                                                                                                               阿虎 |
+| [姓]{style="color:RoyalBlue"}[^1] |                                                                                                                                 黄 |
+| [名]{style="color:RoyalBlue"}     |                                                                                                                               联富 |
+| [字]{style="color:RoyalBlue"}     |                                                                                                                               阿虎 |
 | [号]{style="color:RoyalBlue"}     |                                                                                                                        雷欧 ∪ 瑞欧 |
 | [虚拟名]{style="color:RoyalBlue"} |                                                                                                                           龙介建次 |
 | [别名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 沪 / 浒湖 / 阿沪 / 富仔(粤) |
