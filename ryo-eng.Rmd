@@ -4,6 +4,7 @@ subtitle: 'Personal Profile'
 author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.jpg'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
+tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
 date: "22-Oct-1984"
 output:
   html_document:
