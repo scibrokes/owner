@@ -524,16 +524,16 @@ op <- options(gvis.plot.tag = 'chart')
 | [<ruby>字<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}               |                                            <ruby>阿<rp>(</rp><rt>あ</rt><rp>)</rp>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> |
 | [<ruby>號<rp>(</rp><rt>ごう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}             |                                                                                                                     リョウ |
 | [<ruby>仮<rp>(</rp><rt>か</rt><rp>)</rp>設<rp>(</rp><rt>せつ</rt><rp>)</rp>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"} |  <ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp>介<rp>(</rp><rt>すけ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby> |
-| [<ruby>別<rp>(</rp><rt>せい</rt><rp>)</rp>名<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}   |                      Mr. 滬 / 滸湖 / 阿滬 / 富仔(<ruby>粵<rp>(</rp><rt>えつ</rt><rp>)</rp><ruby>) |
-| <ruby>生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
-| <ruby>年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
-| <ruby>行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
-| 行動電話號碼                      |                                                                                            🇲🇾 [+6-014-6082776](tel:+60146082776) |
-| 行動電話號碼                      |                                                                                 🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| [<ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp>名<rp>(</rp><rt>みょう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}                  |                      Mr. <ruby>滬<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> / <ruby>滸<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby> / <ruby>阿<rp>(</rp><rt>あ</rt><rp>)</rp>滬<rp>(</rp><rt>hù</rt><rp>)</rp></ruby> / <ruby>富<rp>(</rp><rt>ふ</rt><rp>)</rp>仔<rp>(</rp><rt>ザイ</rt><rp>)</rp></ruby>(<ruby>粵<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>) |
+| <ruby>誕<rp>(</rp><rt>たん</rt><rp>)</rp>生<rp>(</rp><rt>じょう</rt><rp>)</rp>日<rp>(</rp><rt>び</rt><rp>)</rp></ruby>            |  <ruby>壱<rp>(</rp><rt>せん</rt><rp>)</rp>玖<rp>(</rp><rt>きゅうひゃく</rt><rp>)</rp>捌<rp>(</rp><rt>はちじゅう</rt><rp>)</rp>肆<rp>(</rp><rt>よ</rt><rp>)</rp>年<rp>(</rp><rt>ねん</rt><rp>)</rp>拾<rp>(</rp><rt>じゅう</rt><rp>)</rp>月<rp>(</rp><rt>がつ</rt><rp>)</rp>弐<rp>(</rp><rt>に</rt><rp>)</rp>拾<rp>(</rp><rt>じゅう</rt><rp>)</rp>弐<rp>(</rp><rt>に</rt><rp>)</rp>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> |
+| <ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp>齡<rp>(</rp><rt>れい</rt><rp>)</rp></ruby>     | `r interval(dmy('22-10-1984', tz = 'Asia/Shanghai'), now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| <ruby>行動電話番號                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行動電話番號                      |                                                                                            🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行動電話番號                      |                                                                                 🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
 | 行動電話號碼                      |                                                                                 🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
-| 行動電話號碼                      |                                                                                   🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
-| 行動電話號碼                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
-| 行動電話號碼                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 行動電話番號                      |                                                                                   🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行動電話番號                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行動電話番號                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
 | <ruby>電子郵箱                          |                                                                                                                englianhu@gmail.com |
 | <ruby>國籍                              |                                                                                                                       <ruby>馬<rp>(</rp><rt>マ</rt><rp>)</rp>來<rp>(</rp><rt>レー</rt><rp>)</rp>西<rp>(</rp><rt>シ</rt><rp>)</rp>亞<rp>(</rp><rt>ア</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp></ruby> |
 | 出生地                            |                                                                  <ruby>丹<rp>(</rp><rt>たん</rt><rp>)</rp>绒<rp>(</rp><rt>じょん</rt><rp>)</rp>加<rp>(</rp><rt>か</rt><rp>)</rp>弄<rp>(</rp><rt>ろう</rt><rp>)</rp></ruby>, <ruby>雪<rp>(</rp><rt>せっ</rt><rp>)</rp>蘭<rp>(</rp><rt>らん</rt><rp>)</rp>莪<rp>(</rp><rt>が</rt><rp>)</rp>州<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>, <ruby>馬<rp>(</rp><rt>マ</rt><rp>)</rp>來<rp>(</rp><rt>レー</rt><rp>)</rp>西<rp>(</rp><rt>シ</rt><rp>)</rp>亞<rp>(</rp><rt>ア</rt><rp>)</rp></ruby> |
@@ -547,7 +547,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br><br>
 
-## <ruby>學<rp>(</rp><rt>がく</rt><rp>)</rp>稱<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>
+## <ruby>學<rp>(</rp><rt>がく</rt><rp>)</rp>歴<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>
 
 ### **[2021年11月から 今迄]{style="color:Red"}：専業証明書、學習金融交昜機械化専門[<ruby>講<rp>(</rp><rt>こう</rt><rp>)</rp>座<rp>(</rp><rt>ざ</rt><rp>)</rp></ruby>](https://www.sigure.tw/learn-japanese/mix/difference/kougi-kouza-jugyou.php)**；（[コーセラ](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
