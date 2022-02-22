@@ -541,7 +541,7 @@ op <- options(gvis.plot.tag = 'chart')
 | 祖籍                              |                                                                                    [中國福建省永春人]{style="color:RoyalBlue"}[^2] |
 | 母語                              |                                                                                                                    福建閩南 / 漢語 |
 
-[^1]: [《叫阮的名》🎼 - 巫啟賢憶母之作](https://youtu.be/c0mnJ-52WoA)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
+[^1]: [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
 
 [^2]: 秒懂：*古稱[會稽郡](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，現稱[永春縣](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《史記·勾踐世家》**載，[*「夏帝少康之庶子無余封於會稽（現今浙江省紹興市一帶），為越國之始祖。」*]{style="color:#F6A217"}<br>會稽人王充在《論衡·書虛篇》中引吳君高之語：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}
 
