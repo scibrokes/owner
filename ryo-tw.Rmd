@@ -517,29 +517,29 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 關於我
 
-| **類別**                          |                                                                                                                           **明細** |
+| **類別**                           |                                                                                                                           **明細** |
 |:----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------:|
-| [姓]{style="color:RoyalBlue"}[^1] |                                                                                                                                 黃 |
-| [名]{style="color:RoyalBlue"}     |                                                                                                                               聯富 |
-| [字]{style="color:RoyalBlue"}     |                                                                                                                               阿虎 |
-| [號]{style="color:RoyalBlue"}     |                                                                                                                        雷歐 ∪ 瑞歐 |
-| [虛擬名]{style="color:RoyalBlue"} |                                                                                                                           龍介建次 |
-| [別名]{style="color:RoyalBlue"}   |                                                                                                    Mr. 滬 / 滸湖 / 阿滬 / 富仔(粵) |
-| 生日                              |                                                                                 `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
-| 年齡                              | `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
-| 行動電話號碼                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
-| 行動電話號碼                      |                                                                                            🇲🇾 [+6-014-6082776](tel:+60146082776) |
-| 行動電話號碼                      |                                                                                 🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
-| 行動電話號碼                      |                                                                                 🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
-| 行動電話號碼                      |                                                                                   🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
-| 行動電話號碼                      |                                                                                     🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
-| 行動電話號碼                      |                                                                                     🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
-| 電子郵箱                          |                                                                                                                englianhu@gmail.com |
-| 國籍                              |                                                                                                                         馬來西亞人 |
-| 出生地                            |                                                                                                       丹戎加弄，雪蘭莪州，馬來西亞 |
-| 宗教                              |                                                                                                                               佛教 |
-| 祖籍                              |                                                                                    [中國福建省永春人]{style="color:RoyalBlue"}[^2] |
-| 母語                              |                                                                                                                    福建閩南 / 漢語 |
+| [姓]{style="color:RoyalBlue"}[^1] |                                                                                                                                  黃 |
+| [名]{style="color:RoyalBlue"}     |                                                                                                                                聯富 |
+| [字]{style="color:RoyalBlue"}     |                                                                                                                                阿虎 |
+| [號]{style="color:RoyalBlue"}     |                                                                                                                          雷歐 ∪ 瑞歐 |
+| [虛擬名]{style="color:RoyalBlue"}  |                                                                                                                            龍介建次 |
+| [別名]{style="color:RoyalBlue"}   |                                                                                                       Mr. 滬 / 滸湖 / 阿滬 / 富仔(粵) |
+| 生日                              |                                                                                  `r (x <- dmy('22-10-1984', tz = 'Asia/Shanghai'))` |
+| 年齡                              |  `r interval(x, now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
+| 行動電話號碼                       |                                                                                               🇲🇾 [+6-017-6482776](tel:+60176482776) |
+| 行動電話號碼                       |                                                                                               🇲🇾 [+6-014-6082776](tel:+60146082776) |
+| 行動電話號碼                       |                                                                                    🇹🇼 <s>[+886-098-9104576](tel:+8860989104576)</s> |
+| 行動電話號碼                       |                                                                                    🇨🇳 <s>[+86-148-00318130](tel:+8614800318130)</s> |
+| 行動電話號碼                       |                                                                                      🇵🇭 <s>[+63-956-1935095](tel:+639561935095)</s> |
+| 行動電話號碼                       |                                                                                        🇬🇧 <u>[+44-xxxxxxxxxx](tel:+44xxxxxxxxx)</u> |
+| 行動電話號碼                       |                                                                                        🇭🇰 <u>[+852-57-004008](tel:+85257004008)</u> |
+| 電子郵箱                          |                                                                                                                 englianhu@gmail.com |
+| 國籍                              |                                                                                                                           馬來西亞人 |
+| 出生地                            |                                                                                                             丹戎加弄，雪蘭莪州，馬來西亞 |
+| 宗教                              |                                                                                                                                佛教 |
+| 祖籍                              |                                                                                       [中國福建省永春人]{style="color:RoyalBlue"}[^2] |
+| 母語                              |                                                                                                                       福建閩南 / 漢語 |
 
 [^1]: [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
 

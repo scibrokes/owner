@@ -878,7 +878,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github Repo** : [**Introducing ®Studio Server for Data Scientists**](https://github.com/Scibrokes/setup-rstudio-server)
 
-- *An tutorial for setup ®Studio server and shiny server on Linux CentOS 7.*
+- *An tutorial for setup ®Studio server and shiny server on <ruby>L<rp>(</rp><rt>L</rt><rp>)</rp>i<rp>(</rp><rt>eye</rt><rp>)</rp>nux<rp>(</rp><rt>nix</rt><rp>)</rp></ruby> CentOS 7.*
 
 <br>
 

@@ -543,7 +543,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 [^1]: [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號，有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」「人稱」「謚號」「別號」](https://zhidao.baidu.com/question/539061381.html)
 
-[^2]: すぐ理解する：*<ruby>古<rp>(</rp><rt>こ</rt><rp>)</rp>座<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>會<rp>(</rp><rt>かい</rt><rp>)</rp>稽<rp>(</rp><rt>けい</rt><rp>)</rp>郡<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，<ruby>現<rp>(</rp><rt>げん</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>県<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《<ruby>史<rp>(</rp><rt>し</rt><rp>)</rp>記<rp>(</rp><rt>き</rt><rp>)</rp></ruby>・<ruby>勾<rp>(</rp><rt>こう</rt><rp>)</rp>践<rp>(</rp><rt>せん</rt><rp>)</rp>世<rp>(</rp><rt>せい</rt><rp>)</rp>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby>》**載（さい），[*「夏帝少康（かてい・しょうこう）の庶子（しょし）無余（むよ）は會稽（今の浙江省紹興市（しょうこうし）一帶）に封（ほう）ぜられた，越（えつ）の始祖（しそ）で御座います。」*]{style="color:#F6A217"}<br>*會稽人王充（おうじゅう）は《論衡・書虛篇》中で引用（いんよう）吳君高の言葉：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
+[^2]: すぐ理解する：*<ruby>古<rp>(</rp><rt>こ</rt><rp>)</rp>座<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>會<rp>(</rp><rt>かい</rt><rp>)</rp>稽<rp>(</rp><rt>けい</rt><rp>)</rp>郡<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)，<ruby>現<rp>(</rp><rt>げん</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>県<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《<ruby>史<rp>(</rp><rt>し</rt><rp>)</rp>記<rp>(</rp><rt>き</rt><rp>)</rp></ruby>・<ruby>勾<rp>(</rp><rt>こう</rt><rp>)</rp>践<rp>(</rp><rt>せん</rt><rp>)</rp>世<rp>(</rp><rt>せい</rt><rp>)</rp>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby>》**<ruby>載<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>，[*「<ruby>夏<rp>(</rp><rt>か</rt><rp>)</rp>帝<rp>(</rp><rt>てい</rt><rp>)</rp>少<rp>(</rp><rt>しょう</rt><rp>)</rp>康<rp>(</rp><rt>こう</rt><rp>)</rp></ruby>の<ruby>庶<rp>(</rp><rt>しょ</rt><rp>)</rp>子<rp>(</rp><rt>し</rt><rp>)</rp></ruby><ruby>無<rp>(</rp><rt>む</rt><rp>)</rp>余<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>は會稽（今の浙江省<ruby>紹<rp>(</rp><rt>しょう</rt><rp>)</rp>興<rp>(</rp><rt>こう</rt><rp>)</rp>市<rp>(</rp><rt>し</rt><rp>)</rp></ruby>一帶）に<ruby>封<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>ぜられた，<ruby>越<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>の<ruby>始<rp>(</rp><rt>し</rt><rp>)</rp>祖<rp>(</rp><rt>そ</rt><rp>)</rp></ruby>で御座います。」*]{style="color:#F6A217"}<br>*會稽人<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp>充<rp>(</rp><rt>じゅう</rt><rp>)</rp></ruby>は《論衡・書虛篇》中で<ruby>引<rp>(</rp><rt>いん</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>吳君高の言葉：[*「會稽本山名。夏禹巡狩，會計於此山，因以郡名，故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
 
 <br><br>
 
@@ -551,7 +551,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **[2021年11月から 今迄]{style="color:Red"}：専業証明書、學習金融交昜機械化専門[<ruby>講<rp>(</rp><rt>こう</rt><rp>)</rp>座<rp>(</rp><rt>ざ</rt><rp>)</rp></ruby>](https://www.sigure.tw/learn-japanese/mix/difference/kougi-kouza-jugyou.php)**；（[コーセラ](http://www.coursera.org) - [ニューヨーク金融學院（NYIF）](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>）
 
-- *01 課程：初識交昜、學習と谷歌雲端平臺（ひらだい）（GCP）*
+- *01 課程：初識交昜、學習と谷歌雲端<ruby>平<rp>(</rp><rt>へい</rt><rp>)</rp>臺<rp>(</rp><rt>だい</rt><rp>)</rp></ruby>（GCP）*
 - *02 課程：金融交昜の機械化を實踐する*
 - *03 課程：學習強化版交昜の戦略*
 - **學習金融交昜機械化専門講座**
@@ -559,20 +559,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **[2021年12月から 今迄]{style="color:Red"}：専業証明書、パイソン編程と统计學の金融分析**；（[コーセラ](http://www.coursera.org) - [香港科技（かぎ）大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
+### **[2021年12月から 今迄]{style="color:Red"}：専業証明書、パイソン編程と统计學の金融分析**；（[コーセラ](http://www.coursera.org) - [香港<ruby>科<rp>(</rp><rt>か</rt><rp>)</rp>技<rp>(</rp><rt>ぎ</rt><rp>)</rp></ruby>大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
-- *課程：パイソン編程と统计學の金融分析*
+- *課程：パイソン<ruby>編<rp>(</rp><rt>へん</rt><rp>)</rp>程<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>と统计學の金融分析*
 - **Github倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
 ### **2018年10月から 2021年11月迄：専業証明書、習得®編程軟件開発専門講座**；（[コーセラ](http://www.coursera.org) - [ジョンズ・ホプキンズ大學（JHU）](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>）
 
-- *01 課程：[®編程（へんてい）環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
+- *01 課程：[®編程環境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
 - *02 課程：[上級®編程](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
 - *03 課程：[®パッケージ開発](https://www.coursera.org/account/accomplishments/records/KKAPGXYJTL9Y)*
-- *04 課程：[數據（すきょ）開発視覚化（しかくか）工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
-- *05 課程：[習得®編程軟件（なんけん）開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
+- *04 課程：[<ruby>數<rp>(</rp><rt>す</rt><rp>)</rp>據<rp>(</rp><rt>きょ</rt><rp>)</rp></ruby>開発<ruby>視<rp>(</rp><rt>し</rt><rp>)</rp>覚<rp>(</rp><rt>かく</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp></ruby>工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
+- *05 課程：[習得®編程<ruby>軟<rp>(</rp><rt>なん</rt><rp>)</rp>件<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**習得®編程軟件開発専門講座**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
 - **Github倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
@@ -591,7 +591,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2021年5月から 2021年7月迄：専業証明書、ベイズ統計混合模型**；（[コーセラ](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
-- *課程：[ベイズ統計混合模型（こんごう・もけい）（®編程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
+- *課程：[ベイズ統計<ruby>混<rp>(</rp><rt>こん</rt><rp>)</rp>合<rp>(</rp><rt>ごう</rt><rp>)</rp>模<rp>(</rp><rt>も</rt><rp>)</rp>型<rp>(</rp><rt>けい</rt><rp>)</rp></ruby>（®編程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **Github倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
@@ -605,20 +605,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **<s>2016月4月から 2019年7月</s> 2016年4月から 2016年6月迄：<s>學部、電脳科學繫</s>**；（[人民（じんみん）大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
-- <s>*課程：電脳（でんのう）科學*</s>
+- <s>*課程：<ruby>電<rp>(</rp><rt>でん</rt><rp>)</rp>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>科學*</s>
 - **Github倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
 ### **2016年6月から 2016年8月迄：<s>専業証明書、提昇企業の財務と運営専門講座</s>**；（[コーセラ](http://www.coursera.org) - [イリノイ大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
-- <s>*01 課程：会計管理：経費の習性、繫統（けいとう）と分析*</s>
+- <s>*01 課程：会計管理：経費の習性、<ruby>繫<rp>(</rp><rt>けい</rt><rp>)</rp>統<rp>(</rp><rt>とう</rt><rp>)</rp></ruby>と分析*</s>
 - *02 課程：[管理會計：商業決定の促進と指導ために工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
 - <s>*03 課程：財務評価と戦略：投資*</s>
 - *04 課程：[財務評価と戦略：企業財務](https://www.coursera.org/account/accomplishments/records/MARFWFY69DVK)*
 - *05 課程：[運用管理](https://www.coursera.org/account/accomplishments/records/PV65FLMTB7WB)*
 - <s>*06 課程：工藝向上*</s>
-- <s>*07 課程：提昇企業の財務と運営[頂點項目（ちょうてん・こうもく）]{style="color:#15237A"}*</s>
+- <s>*07 課程：提昇企業の財務と運営[<ruby>頂<rp>(</rp><rt>ちょう</rt><rp>)</rp>點<rp>(</rp><rt>てん</rt><rp>)</rp>項<rp>(</rp><rt>こう</rt><rp>)</rp>目<rp>(</rp><rt>もく</rt><rp>)</rp></ruby>]{style="color:#15237A"}*</s>
 - <s>**提昇企業の財務と運営専門講座**</s>
 - **Github倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
@@ -627,11 +627,11 @@ op <- options(gvis.plot.tag = 'chart')
 ### **2016年4月から 2016年8月迄：<s>専業証明書、數據掘出専門講座</s>**；（[コーセラ](http://www.coursera.org) - [イリノイ大學（UI）](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>）
 
 - *01 課程：[數據視覚化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
-- *02 課程：[文本検索と検索引擎（ぶんぼん・けんさく・えんじん）](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
+- *02 課程：[<ruby>文<rp>(</rp><rt>ぶん</rt><rp>)</rp>本<rp>(</rp><rt>ぼん</rt><rp>)</rp>検<rp>(</rp><rt>けん</rt><rp>)</rp>索<rp>(</rp><rt>さく</rt><rp>)</rp></ruby>と検索<ruby>検<rp>(</rp><rt>けん</rt><rp>)</rp>索<rp>(</rp><rt>さく</rt><rp>)</rp>引<rp>(</rp><rt>えん</rt><rp>)</rp>擎<rp>(</rp><rt>じん</rt><rp>)</rp></ruby>](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
 - *03 課程：[文本掘出と解析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
-- <s>*04 課程：探索數據掘出模式（もしき）*</s>
-- <s>*05 課程：數據掘出中の群れ（むれ）分析*</s>
-- <s>*06 課程：數據掘出（ほりだす）[頂點項目]{style="color:#15237A"}*</s>
+- <s>*04 課程：探索數據掘出<ruby>模<rp>(</rp><rt>も</rt><rp>)</rp>式<rp>(</rp><rt>しき</rt><rp>)</rp></ruby>*</s>
+- <s>*05 課程：數據掘出中の<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れ分析*</s>
+- <s>*06 課程：數據<ruby>掘<rp>(</rp><rt>ほり</rt><rp>)</rp>出<rp>(</rp><rt>だす</rt><rp>)</rp></ruby>[頂點項目]{style="color:#15237A"}*</s>
 - <s>**數據掘出専門講座**</s>
 - **Github倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
@@ -679,7 +679,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；家庭補習（ほしゅう）（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
+### **2002年3月から 2003年12月迄：専業証明書、日本語能力試験**；家庭<ruby>補<rp>(</rp><rt>ほ</rt><rp>)</rp>習<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
 - 2003年12月7日：*クアラルンプールで試験を受ける*[日本語能力試験 - 第3級證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
 - 2004年12月5日：*クアラルンプールで試験を受ける*[**日本語能力試験 - 第2級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
@@ -689,7 +689,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **<s>2002月4月11日から 2005年5月迄</s> 2002年4月11日から 2003年10月11日迄：<s>學部、電脳科學繫聯合主流（がっけい・れんごう・しゅりゅう）A（統計學専攻）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
+### **<s>2002月4月11日から 2005年5月迄</s> 2002年4月11日から 2003年10月11日迄：<s>學部、電脳科<ruby>學<rp>(</rp><rt>がっ</rt><rp>)</rp>繫<rp>(</rp><rt>けい</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>合<rp>(</rp><rt>ごう</rt><rp>)</rp>主<rp>(</rp><rt>しゅ</rt><rp>)</rp>流<rp>(</rp><rt>りゅう</rt><rp>)</rp></ruby>A（統計學専攻）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
 - *一年生*
 - *二年生*
@@ -700,51 +700,51 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 職務経験
 
-### **[2020年10月から 今迄]{style="color:Red"}：線上（せんじょう）金融業、創始者（そうししゃ） ∩ 物主/オーナー**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+### **[2020年10月から 今迄]{style="color:Red"}：<ruby>線<rp>(</rp><rt>せん</rt><rp>)</rp>上<rp>(</rp><rt>じょう</rt><rp>)</rp></ruby>金融業、<ruby>創<rp>(</rp><rt>そう</rt><rp>)</rp>始<rp>(</rp><rt>し</rt><rp>)</rp>者<rp>(</rp><rt>しゃ</rt><rp>)</rp></ruby> ∩ 物主/オーナー**；<img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
 
-- *簡介（かんかい）：[**世博量化®（せいばく・りょうか）**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]が世界的な市場では、投資家のための数理統計に依って（よって）高投資収益率を生産する量化投資管理會社です。*
+- *<ruby>簡<rp>(</rp><rt>かん</rt><rp>)</rp>介<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>：[**<ruby>世<rp>(</rp><rt>せい</rt><rp>)</rp>博<rp>(</rp><rt>ばく</rt><rp>)</rp>量<rp>(</rp><rt>りょう</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp></ruby>®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]が世界的な市場では、投資家のための数理統計に<ruby>依<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>って高投資収益率を生産する量化投資管理會社です。*
 - *仕事詳細：金融市場で科學研究や統計建模、風険管理や高周波自動演算量化交昜、數據分析など、その後中國大陸に発展する。*
 
-[^3]: [*世博量化®（公式サイト）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（睑谱（れんぷ）/隈取（くまどり））*](https://facebook.com/scibrokes).
+[^3]: [*世博量化®（公式サイト）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（<ruby>睑<rp>(</rp><rt>れん</rt><rp>)</rp>谱<rp>(</rp><rt>ぷ</rt><rp>)</rp></ruby>/<ruby>隈<rp>(</rp><rt>くま</rt><rp>)</rp>取<rp>(</rp><rt>どり</rt><rp>)</rp></ruby>）*](https://facebook.com/scibrokes).
 
 <br>
 
-### **2019年11月から 2020年7月迄：線上富くじ、業務員**；（[東方集団旗下（きか）：樂發集団の阿裏と壱號彩（阿裏富くじ）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>に雇用（こよう）された）
+### **2019年11月から 2020年7月迄：線上富くじ、業務員**；（[東方集団<ruby>旗<rp>(</rp><rt>き</rt><rp>)</rp>下<rp>(</rp><rt>か</rt><rp>)</rp></ruby>：樂發集団の阿裏と壱號彩（阿裏富くじ）](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>に<ruby>雇<rp>(</rp><rt>こ</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>された）
 
 - *簡介：東方集団は中國商業集団で御座います*
-- *仕事詳細：クラーク（フィリピン）で働いて(少しの外國同胞（どうほう）を除いて、全って中國大陸同胞です)、仏系業務員（ぎょうむいん）として、線上普及や審査会員の反詐欺して、富くじの当選一率を分析して交昜平臺を編纂する。半年後に運維部門に移って會社の財務、会員や製品損益報告書を分析して、反詐欺と風制御も担当する。*
+- *仕事詳細：クラーク（フィリピン）で働いて(少しの外國<ruby>同<rp>(</rp><rt>どう</rt><rp>)</rp>胞<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>を除いて、全って中國大陸同胞です)、仏系<ruby>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp>務<rp>(</rp><rt>む</rt><rp>)</rp>員<rp>(</rp><rt>いん</rt><rp>)</rp></ruby>として、線上普及や審査会員の反詐欺して、富くじの当選一率を分析して交昜平臺を編纂する。半年後に運維部門に移って會社の財務、会員や製品損益報告書を分析して、反詐欺と風制御も担当する。*
 
 <br>
 
-### **2017年11月から 2018年5月迄：線上富くじ、事務支援員**；（[貴族酒店（しゅてん）](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>に雇用された）（カンボジアで、二番目の仕事は[七ライブ亜洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>に雇用された）
+### **2017年11月から 2018年5月迄：線上富くじ、事務支援員**；（[貴族<ruby>酒<rp>(</rp><rt>しゅ</rt><rp>)</rp>店<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>に雇用された）（カンボジアで、二番目の仕事は[七ライブ亜洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：カンボジアのシハヌク(西港)で働いていて五ヶ月、阿裏發の事務支援員（じむ・しえんいん）員(私たちのプロジェクトはほとんどマレーシア同胞ですが、全って中國大陸同胞と少しのカンボジア人)として働いていますが、時には顧客の預金と不正行為を監視し、審査し無ければ成りません。二番目の仕事は巴域(カンボジアとベトナムの國境)で一ヶ月働います。*
-
-<br>
-
-### **2016年5月から 2016年12月迄：線上売り、事務支援員**；（[真珠貝㊑株式會社](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>に依って、[萬寶盛華人力資源（まんぽう・せいか・じんりょく・しげん）（馬）私人有限會社](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
-
-- *仕事詳細：疎邦再也（マレーシア）UOA商業中心の拾参A/拾肆真珠貝（しんじゅがい）事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空會社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(亜洲（あしゅう）大洋州の顧客が多く、然して他の支店は歐洲（おうしゅう）の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。同僚達は中國大陸同胞やマレーシア同胞や日本同胞や韓國同胞や米國同胞など。*
+- *仕事詳細：カンボジアのシハヌク(西港)で働いていて五ヶ月、阿裏發の<ruby>事<rp>(</rp><rt>じ</rt><rp>)</rp>務<rp>(</rp><rt>む</rt><rp>)</rp>支<rp>(</rp><rt>し</rt><rp>)</rp>援<rp>(</rp><rt>えん</rt><rp>)</rp>員<rp>(</rp><rt>いん</rt><rp>)</rp></ruby>(私たちのプロジェクトはほとんどマレーシア同胞ですが、全って中國大陸同胞と少しのカンボジア人)として働いていますが、時には顧客の預金と不正行為を監視し、審査し無ければ成りません。二番目の仕事は巴域(カンボジアとベトナムの國境)で一ヶ月働います。*
 
 <br>
 
-### **2015年10月から 2016年1月迄：線上富くじ、交昜員**；（受聘於環球方案工程（かんきゅう・ほうあん・こうてい）（馬）私人有限會社（しじん・ゆうげんがいしゃ）に雇用された）
+### **2016年5月から 2016年12月迄：線上売り、事務支援員**；（[真珠貝㊑株式會社](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="24" align="center" valign="middle"/>に依って、[<ruby>萬<rp>(</rp><rt>まん</rt><rp>)</rp>寶<rp>(</rp><rt>ぽう</rt><rp>)</rp>盛<rp>(</rp><rt>せい</rt><rp>)</rp>華<rp>(</rp><rt>か</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>力<rp>(</rp><rt>りょく</rt><rp>)</rp>資<rp>(</rp><rt>し</rt><rp>)</rp>源<rp>(</rp><rt>げん</rt><rp>)</rp></ruby>（馬）私人有限會社](http://www.manpower.com.my) <img src="www/manpower.jpg" width="22" align="center" valign="middle"/>に雇用された）
+
+- *仕事詳細：疎邦再也（マレーシア）UOA商業中心の拾参A/拾肆<ruby>真<rp>(</rp><rt>しん</rt><rp>)</rp>珠<rp>(</rp><rt>じゅ</rt><rp>)</rp>貝<rp>(</rp><rt>がい</rt><rp>)</rp></ruby>事務室で働いており、電話に出てメールを返さなければならない[マレーシア航空會社](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/>項目の乗客/顧客(<ruby>亜<rp>(</rp><rt>あ</rt><rp>)</rp>洲<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>大洋州の顧客が多く、然して他の支店は<ruby>歐<rp>(</rp><rt>おう</rt><rp>)</rp>洲<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>の顧客を接待している)には、一般相談、航空券の予約、航空券の変更など関してごとも含まれている。同僚達は中國大陸同胞やマレーシア同胞や日本同胞や韓國同胞や米國同胞など。*
+
+<br>
+
+### **2015年10月から 2016年1月迄：線上富くじ、交昜員**；（受聘於<ruby>環<rp>(</rp><rt>かん</rt><rp>)</rp>球<rp>(</rp><rt>きゅう</rt><rp>)</rp>方<rp>(</rp><rt>ほう</rt><rp>)</rp>案<rp>(</rp><rt>あん</rt><rp>)</rp>工<rp>(</rp><rt>こう</rt><rp>)</rp>程<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>（馬）<ruby>私<rp>(</rp><rt>し</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>有<rp>(</rp><rt>ゆう</rt><rp>)</rp>限<rp>(</rp><rt>げん</rt><rp>)</rp>會<rp>(</rp><rt>がい</rt><rp>)</rp>社<rp>(</rp><rt>しゃ</rt><rp>)</rp></ruby>に雇用された）
 
 - *簡介：郭建輝に招聘され、旧巴生路テスコ商場上の拾参A/拾肆階で出勤した。社長達は香港同胞で、社長エリックの妻はマレーシア籍から、マレーシアに常駐していたが、他の社長君豪と君傑はよくマカオに遊びに行ってた。*
-- *仕事詳細：長期利益博徒の賭け方法に従って注文や、裁定取引（さいていとりひき）や、最適な販売価格の差額を儲ける戦略や、中國顧客のお金を入れる。*
+- *仕事詳細：長期利益博徒の賭け方法に従って注文や、<ruby>裁<rp>(</rp><rt>さい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp>取<rp>(</rp><rt>とり</rt><rp>)</rp>引<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>や、最適な販売価格の差額を儲ける戦略や、中國顧客のお金を入れる。*
 
 <br>
 
-### **2015年5月から 2015年9月迄：線上富くじ、事務支援員**；（萬華媒體（ばんか・ばいたい）（馬）私人有限會社に雇用された）
+### **2015年5月から 2015年9月迄：線上富くじ、事務支援員**；（<ruby>萬<rp>(</rp><rt>ばん</rt><rp>)</rp>華<rp>(</rp><rt>か</rt><rp>)</rp>媒<rp>(</rp><rt>ばい</rt><rp>)</rp>體<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>（馬）私人有限會社に雇用された）
 
 - *簡介：會社はクアラルンプールの南門にあります。*
-- *仕事詳細：電話を掛けると電話を受ける、線上諮問（しもん）、計算特恵（とっけい）や返水、睑谱口座（こうざ）を管理して、線上普及し、全って入出金取引を処理する。*
+- *仕事詳細：電話を掛けると電話を受ける、線上<ruby>諮<rp>(</rp><rt>し</rt><rp>)</rp>問<rp>(</rp><rt>もん</rt><rp>)</rp></ruby>、計算<ruby>特<rp>(</rp><rt>とっ</rt><rp>)</rp>恵<rp>(</rp><rt>けい</rt><rp>)</rp></ruby>や返水、睑谱<ruby>口<rp>(</rp><rt>こう</rt><rp>)</rp>座<rp>(</rp><rt>ざ</rt><rp>)</rp></ruby>を管理して、線上普及し、全って入出金取引を処理する。*
 
 <br>
 
-### **2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple 林檎（りんご）㊑株式會社](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>に依って、[アイディール・シーッド資源（馬）私人有限會社](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
+### **2015年2月から 2015年4月迄：線上売り、交昜審查員**；（[Apple <ruby>林<rp>(</rp><rt>りん</rt><rp>)</rp>檎<rp>(</rp><rt>ご</rt><rp>)</rp></ruby>㊑株式會社](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>に依って、[アイディール・シーッド資源（馬）私人有限會社](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *仕事詳細：[ゼロックス（臺稱（たいしょう）全祿（ぜんろく））](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
+- *仕事詳細：[ゼロックス（<ruby>臺<rp>(</rp><rt>たい</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp>全<rp>(</rp><rt>ぜん</rt><rp>)</rp>祿<rp>(</rp><rt>ろく</rt><rp>)</rp></ruby>）](https://www.xerox.com)事務所で仕事してる <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>、審査会員の反詐欺して、電話を掛ける。*
 
 <br>
 
@@ -755,16 +755,16 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2013年11月から 2014年3月迄：線上富くじ、隊長 ∩ 交昜員**；（交昜ために、[エスビー方案企業（きぎょう）（菲）有限會社](http://www.sbet.com)に雇用された、そして[光輝通信（港）有限會社](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援する）
+### **2013年11月から 2014年3月迄：線上富くじ、隊長 ∩ 交昜員**；（交昜ために、[エスビー方案<ruby>企<rp>(</rp><rt>き</rt><rp>)</rp>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp></ruby>（菲）有限會社](http://www.sbet.com)に雇用された、そして[光輝通信（港）有限會社](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>は交昜平臺と軟件技術支援する）
 
-- *簡介：光輝通信（こうき・つうしん）（GB-links Ltd）は香港九龍紅磡で、沢山の同僚や社長達も香港同胞で御座います。*
-- *仕事詳細：新しい同僚を教育（きょういく）や訓練し、従業員を管理し、試合得点（とくてん）と成績を更新し、注文書を決算する。*
+- *簡介：<ruby>光<rp>(</rp><rt>こう</rt><rp>)</rp>輝<rp>(</rp><rt>き</rt><rp>)</rp>通<rp>(</rp><rt>つう</rt><rp>)</rp>信<rp>(</rp><rt>しん</rt><rp>)</rp></ruby>（GB-links Ltd）は香港九龍紅磡で、沢山の同僚や社長達も香港同胞で御座います。*
+- *仕事詳細：新しい同僚を<ruby>教<rp>(</rp><rt>きょう</rt><rp>)</rp>育<rp>(</rp><rt>いく</rt><rp>)</rp></ruby>や訓練し、従業員を管理し、試合<ruby>得<rp>(</rp><rt>とく</rt><rp>)</rp>点<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>と成績を更新し、注文書を決算する。*
 
 <br>
 
 ### **2013年10月から 2013年11月迄：排水工程、事務支援員**；([資信利㊑株式會社](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>に雇用された)
 
-- *簡介：資信利（ししんり）（Getronics）はドイツ（德意志國）の會社，德意志同胞（偉大な德意志人Unsere Besten）の為に働いてる。*
+- *簡介：<ruby>資<rp>(</rp><rt>し</rt><rp>)</rp>信<rp>(</rp><rt>しん</rt><rp>)</rp>利<rp>(</rp><rt>り</rt><rp>)</rp></ruby>（Getronics）はドイツ（德意志國）の會社，德意志同胞（偉大な德意志人Unsere Besten）の為に働いてる。*
 - *仕事詳細：ケー‐エル・セントラル駅周辺、線上で國外の大型水道管の建設と修理に関してお客様（ほとんどが米國、歐洲、亜洲太平洋から来た洋人と少しの華人）に技術支援や、着信通話する。*
 
 <br>
@@ -776,55 +776,55 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2012年11月から 2013年5月迄：電子媒體（でんしばいたい）、番組直播審查員（ちょくはん・しんさいん）**；（[優盤（ゆうばん）媒體（馬）私人有限會社](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
+### **2012年11月から 2013年5月迄：<ruby>電<rp>(</rp><rt>でん</rt><rp>)</rp>子<rp>(</rp><rt>し</rt><rp>)</rp>媒<rp>(</rp><rt>ばい</rt><rp>)</rp>體<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>、番組<ruby>直<rp>(</rp><rt>ちょく</rt><rp>)</rp>播<rp>(</rp><rt>はん</rt><rp>)</rp>審<rp>(</rp><rt>しん</rt><rp>)</rp>查<rp>(</rp><rt>さ</rt><rp>)</rp>員<rp>(</rp><rt>いん</rt><rp>)</rp></ruby>**；（[<ruby>優<rp>(</rp><rt>ゆう</rt><rp>)</rp>盤<rp>(</rp><rt>ばん</rt><rp>)</rp></ruby>媒體（馬）私人有限會社](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>に雇用された）
 
 - *簡介：馬電信™はマレーシアの㊑株式會社です。*
 - *仕事詳細：[馬電信™㊑株式會社](https://tm.com.my/#/explore)<img src="www/tm.jpg" width="24" align="center" valign="middle"/>のhappTV部門で仕事して、中國組で働いて、海外からの番組は本國放送前に審查する。*
 
 <br>
 
-### **2008年3月から 2012年7月迄：外部委託（がいぶいたく）事業、事務支援員**；（[希世康（きよこう）/サイコム(MSC)㊑株式會社](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
+### **2008年3月から 2012年7月迄：<ruby>外<rp>(</rp><rt>がい</rt><rp>)</rp>部<rp>(</rp><rt>ぶ</rt><rp>)</rp>委<rp>(</rp><rt>い</rt><rp>)</rp>託<rp>(</rp><rt>たく</rt><rp>)</rp></ruby>事業、事務支援員**；（[<ruby>希<rp>(</rp><rt>き</rt><rp>)</rp>世<rp>(</rp><rt>よ</rt><rp>)</rp>康<rp>(</rp><rt>こう</rt><rp>)</rp></ruby>/サイコム(MSC)㊑株式會社](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>に雇用された）
 
-- *簡介：英國（えいこく）同胞（大不列顛）の為に働いてる。*
-- *仕事詳細：新しい同僚を教育や訓練し、[立博（英）㊑株式會社（りっばく・じょうじょうかいしゃ）](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の遠東お客様に支援や、着信通話しまて、全ての預金、撤退、また電話で賭ける事を処理する。*
+- *簡介：<ruby>英<rp>(</rp><rt>えい</rt><rp>)</rp>國<rp>(</rp><rt>こく</rt><rp>)</rp></ruby>同胞（大不列顛）の為に働いてる。*
+- *仕事詳細：新しい同僚を教育や訓練し、[<ruby>立<rp>(</rp><rt>りっ</rt><rp>)</rp>博<rp>(</rp><rt>ばく</rt><rp>)</rp></ruby>（英）㊑株式會社](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/>の遠東お客様に支援や、着信通話しまて、全ての預金、撤退、また電話で賭ける事を処理する。*
 - [顧客支援研討會](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)を受賞する。
-- [(立博) 感謝状（かんしゃじょう）](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
+- [(立博) <ruby>感<rp>(</rp><rt>かん</rt><rp>)</rp>謝<rp>(</rp><rt>しゃ</rt><rp>)</rp>状<rp>(</rp><rt>じょう</rt><rp>)</rp></ruby>](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)を受賞する。
 
 <br>
 
-### **2006年7月から 2007年6月迄：線上富くじ、職業訓練指導員（しょくぎょう・くんれん・しどういん）/交昜員**；（[ケスポー（菲）有限會社](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>に雇用された）
+### **2006年7月から 2007年6月迄：線上富くじ、<ruby>職<rp>(</rp><rt>しょく</rt><rp>)</rp>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp>訓<rp>(</rp><rt>くん</rt><rp>)</rp>練<rp>(</rp><rt>れん</rt><rp>)</rp>指<rp>(</rp><rt>し</rt><rp>)</rp>導<rp>(</rp><rt>どう</rt><rp>)</rp>員<rp>(</rp><rt>いん</rt><rp>)</rp></ruby>/交昜員**；（[ケスポー（菲）有限會社](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>に雇用された）
 
-- *簡介：ケスポーは臺灣同胞やシンガポア同胞を持ってる，[著名な映画（えいが）《黑金（こくきん）》](https://www.bilibili.com/video/BV1Gv411y7ED)みたい。*
--  *仕事詳細：新寶（しんぽう）壱や新寶弐線上網站（もうたん）の損益計算書、取引と分析數據などを担当する、新しい同僚を訓練することなどもあります。*
+- *簡介：ケスポーは臺灣同胞やシンガポア同胞を持ってる，[著名な<ruby>映<rp>(</rp><rt>えい</rt><rp>)</rp>画<rp>(</rp><rt>が</rt><rp>)</rp></ruby>《<ruby>黑<rp>(</rp><rt>こく</rt><rp>)</rp>金<rp>(</rp><rt>きん</rt><rp>)</rp></ruby>》](https://www.bilibili.com/video/BV1Gv411y7ED)みたい。*
+-  *仕事詳細：<ruby>新<rp>(</rp><rt>しん</rt><rp>)</rp>寶<rp>(</rp><rt>ぽう</rt><rp>)</rp></ruby>壱や新寶弐線上<ruby>網<rp>(</rp><rt>もう</rt><rp>)</rp>站<rp>(</rp><rt>たん</rt><rp>)</rp></ruby>の損益計算書、取引と分析數據などを担当する、新しい同僚を訓練することなどもあります。*
 
 <br>
 
 ### **2005年11月から 2006年7月迄：線上富くじ、隊長/高級交昜員**；（[テレビズ（馬）私人有限會社](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>に雇用された）
 
-- *簡介：テレビズは線上富くじ會社で、協力會社エムチエスシ（馬）私人有限會社は交昜平臺と軟件技術支援して、マレーシア同胞が持って、香港同胞や濠洲（ごうしゅう）同胞や協力する。*
--  *仕事詳細：新しい同僚を教育や訓練し、長期利益博徒の賭け方法に従って注文や、裁定取引（さいてい・とりひき）や、最適な販売価格の差額を儲ける戦略や、出荷し、試合得点を更新し、試合の株価や先物価格など決済し、數據分析し（市場の競争相手を比較し、市場の株価や先物価格などや試合などが含まれている）、角球（(かくきゅう）など事も操作や管理する。*
+- *簡介：テレビズは線上富くじ會社で、協力會社エムチエスシ（馬）私人有限會社は交昜平臺と軟件技術支援して、マレーシア同胞が持って、香港同胞や<ruby>濠<rp>(</rp><rt>ごう</rt><rp>)</rp>洲<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>同胞や協力する。*
+-  *仕事詳細：新しい同僚を教育や訓練し、長期利益博徒の賭け方法に従って注文や、<ruby>裁<rp>(</rp><rt>さい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp>取<rp>(</rp><rt>とり</rt><rp>)</rp>引<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>や、最適な販売価格の差額を儲ける戦略や、出荷し、試合得点を更新し、試合の株価や先物価格など決済し、數據分析し（市場の競争相手を比較し、市場の株価や先物価格などや試合などが含まれている）、<ruby>角<rp>(</rp><rt>かく</rt><rp>)</rp>球<rp>(</rp><rt>きゅう</rt><rp>)</rp></ruby>など事も操作や管理する。*
 
 <br>
 
 ### **2005年7月から 2005年10月迄：線上金融業，株や為替の交易員 ∩ 代理**；（ヘキサ貿易（馬）私人有限會社 と 協力會社は尚譽威盈（新）有限會社 <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>に雇用された）
 
-- *簡介：尚譽威盈（しょうよ・いえい）[（新）](https://www.letsgojp.com/archives/416026)有限會社（Prestigen Profits Limited）は亜洲太平洋からの[ニュージーランド](https://zatugaku-gimonn.com/entry5302.html)為替投資機構で御座います。*
-- *工作明細：投資者の為に為替（かわせ）市場の業務、科學研究、風険管理、取引、新しい同僚を教育や訓練など、投資報酬を得るための一貫した服務（ふくむ）を提供する。*
-- 附件：®️[尚譽威盈（新）有限會社 - ヘキサ貿易（馬）私人有限會社授權書（じゅけんしょ）](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
+- *簡介：<ruby>尚<rp>(</rp><rt>しょう</rt><rp>)</rp>譽<rp>(</rp><rt>よ</rt><rp>)</rp>威<rp>(</rp><rt>いえ</rt><rp>)</rp>盈<rp>(</rp><rt>い</rt><rp>)</rp></ruby>[（新）](https://www.letsgojp.com/archives/416026)有限會社（Prestigen Profits Limited）は亜洲太平洋からの[ニュージーランド](https://zatugaku-gimonn.com/entry5302.html)為替投資機構で御座います。*
+- *工作明細：投資者の為に為替（かわせ）市場の業務、科學研究、風険管理、取引、新しい同僚を教育や訓練など、投資報酬を得るための一貫した<ruby>服<rp>(</rp><rt>ふく</rt><rp>)</rp>務<rp>(</rp><rt>む</rt><rp>)</rp></ruby>を提供する。*
+- 附件：®️[尚譽威盈（新）有限會社 - ヘキサ貿易（馬）私人有限會社<ruby>授<rp>(</rp><rt>じゅ</rt><rp>)</rp>權<rp>(</rp><rt>けん</rt><rp>)</rp>書<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
 - 附件：[尚譽威盈（新）有限會社 - 會社證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
 - 附件：[ヘキサ貿易（馬）私人有限會社 - 會社證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
 
 <br>
 
-### **2003年7月から 2003年8月迄：小売業（こうりぎょう），雑貨屋店員**；（[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
+### **2003年7月から 2003年8月迄：<ruby>小<rp>(</rp><rt>こう</rt><rp>)</rp>売<rp>(</rp><rt>り</rt><rp>)</rp>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp></ruby>，雑貨屋店員**；（[築地商場（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [JCKL 吉隆坡日本人會](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>に雇用された）
 
-- *簡介：東洋同胞（とうようじん）ニッポン同胞の為に働いて、少しのマレーシア同胞で、ほとんど日本同胞で、社長も日本同胞です。*
+- *簡介：<ruby>東<rp>(</rp><rt>とう</rt><rp>)</rp>洋<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>同胞/ニッポン同胞の為に働いて、少しのマレーシア同胞で、ほとんど日本同胞で、社長も日本同胞です。*
 - *工作明細：店内で雑貨屋の仕事をしているほか、盆舞祭に出会ったばかりで、沙阿南松下體育館で日本料理を販売していた。*
 - **JCKL會員**
 
 <br>
 
-### **2003年7月から 2003年7月迄：飲食業（いんしょくぎょう），前臺店員**；（[王朝大酒店（おうちょう・だいしゅてん）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>に雇用された）
+### **2003年7月から 2003年7月迄：<ruby>飲<rp>(</rp><rt>いん</rt><rp>)</rp>食<rp>(</rp><rt>しょく</rt><rp>)</rp>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp></ruby>，前臺店員**；（[<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp>朝<rp>(</rp><rt>ちょう</rt><rp>)</rp>大<rp>(</rp><rt>だい</rt><rp>)</rp>酒<rp>(</rp><rt>しゅ</rt><rp>)</rp>店<rp>(</rp><rt>てん</rt><rp>)</rp></ruby>](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>に雇用された）
 
 - *工作明細：酒店中の唐宮で前臺服務員に擔っています。*
 
@@ -832,24 +832,24 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2001年11月から 2002年4月迄：飲食業，前臺店員**；（[大人餐廳](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>に雇用された）
 
-- *簡介：大人餐廳（たいじん・さんちょう）は中華料理連鎖（れんさ）餐廳で，お薦め料理が[東波肉（とうばにく）]{style="color:#F6A217"}和[宮保鶏丁宮保鶏丁（きゅうほう・けいちょう）]{style="color:#F6A217"}等。*
+- *簡介：<ruby>大<rp>(</rp><rt>たい</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>餐<rp>(</rp><rt>さん</rt><rp>)</rp>廳<rp>(</rp><rt>ちょう</rt><rp>)</rp></ruby>は中華料理<ruby>連<rp>(</rp><rt>れん</rt><rp>)</rp>鎖<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>餐廳で，お薦め料理が[<ruby>東<rp>(</rp><rt>とう</rt><rp>)</rp>波<rp>(</rp><rt>ば</rt><rp>)</rp>肉<rp>(</rp><rt>にく</rt><rp>)</rp></ruby>]{style="color:#F6A217"}和[<ruby>宮<rp>(</rp><rt>きゅう</rt><rp>)</rp>保<rp>(</rp><rt>ほう</rt><rp>)</rp>鶏<rp>(</rp><rt>けい</rt><rp>)</rp>丁<rp>(</rp><rt>ちょう</rt><rp>)</rp></ruby>]{style="color:#F6A217"}等。*
 - *工作明細：料理店の前臺服務員。*
 
 <br><br>
 
 ## 研究と技術的な経験
 
-### **Github倉庫**：[**Real Time FXCM（FXCM即時（そくじ）數據伝達や為替交昜/為替取引）**](https://github.com/scibrokes/real-time-fxcm)
+### **Github倉庫**：[**Real Time FXCM（FXCM<ruby>即<rp>(</rp><rt>そく</rt><rp>)</rp>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>數據伝達や為替交昜/為替取引）**](https://github.com/scibrokes/real-time-fxcm)
 
-- *`sparklyr`などの応用（おうよう）に依って、日内取引価格（交換比率）數據や即時取引価格（交換比率）數據を採集（さいしゅう）する。*
-- *高周波算法（さんぽう）の量化取引関して事研究する。*
-- *統計模型解析（とうけい・もけい・かいせき）や統計建模、取引戦略、為替変動風険管理関して事研究する。*
+- *`sparklyr`などの<ruby>応<rp>(</rp><rt>おう</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>に依って、日内取引価格（交換比率）數據や即時取引価格（交換比率）數據を<ruby>採<rp>(</rp><rt>さい</rt><rp>)</rp>集<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>する。*
+- *<ruby>高<rp>(</rp><rt>こう</rt><rp>)</rp>周<rp>(</rp><rt>しゅう</rt><rp>)</rp>波<rp>(</rp><rt>は</rt><rp>)</rp>算<rp>(</rp><rt>さん</rt><rp>)</rp>法<rp>(</rp><rt>ぽう</rt><rp>)</rp></ruby>の量化取引関して事研究する。*
+- *<ruby>統<rp>(</rp><rt>とう</rt><rp>)</rp>計<rp>(</rp><rt>けい</rt><rp>)</rp>模<rp>(</rp><rt>も</rt><rp>)</rp>型<rp>(</rp><rt>けい</rt><rp>)</rp>解<rp>(</rp><rt>かい</rt><rp>)</rp>析<rp>(</rp><rt>せき</rt><rp>)</rp></ruby>や統計建模、取引戦略、為替変動風険管理関して事研究する。*
 
 <br>
 
 ### **Github倉庫**：[**Analysing Financial Report of ALI（阿裏財務報表を分析する）**](https://github.com/englianhu/report)
 
-- *阿裏富くじ會社の財務報表、製品損益、會員損益、消費模式、會員日誌（にっし）記錄等などを分析する。*
+- *阿裏富くじ會社の財務報表、製品損益、會員損益、消費模式、會員<ruby>日<rp>(</rp><rt>にっ</rt><rp>)</rp>誌<rp>(</rp><rt>し</rt><rp>)</rp></ruby>記錄等などを分析する。*
 
 <br>
 
@@ -860,32 +860,32 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：定量化解析師（ていりょうか かいせきし）を求職(きゅうしょく)する）**](https://github.com/englianhu/binary.com-interview-question)
+### **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：<ruby>定<rp>(</rp><rt>てい</rt><rp>)</rp>量<rp>(</rp><rt>りょう</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp>解<rp>(</rp><rt>かい</rt><rp>)</rp>析<rp>(</rp><rt>せき</rt><rp>)</rp>師<rp>(</rp><rt>し</rt><rp>)</rp></ruby>を<ruby>求<rp>(</rp><rt>きゅう</rt><rp>)</rp>職<rp>(</rp><rt>しょく</rt><rp>)</rp></ruby>する）**](https://github.com/englianhu/binary.com-interview-question)
 
-- *金融賭け製品の取引価格（交換比率）を統計建模して、また賭け戦略/注文戦略や投資収益率（とうし・しゅうえきりつ）を回測（かいそく）する。*
-- *自回歸模型、平滑（へいかつ）模型、廣義自回歸條件異方差系列（けいれつ）模型、ケリー標準統計模型などを回測する。*
-- *欠失（けっしつ）取引価格（交換比率）數據集を補完し、高頻度取引の回測もあります。*
+- *金融賭け製品の取引価格（交換比率）を統計建模して、また賭け戦略/注文戦略や<ruby>投<rp>(</rp><rt>とう</rt><rp>)</rp>資<rp>(</rp><rt>し</rt><rp>)</rp>収<rp>(</rp><rt>しゅう</rt><rp>)</rp>益<rp>(</rp><rt>えき</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp></ruby>を<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp>測<rp>(</rp><rt>そく</rt><rp>)</rp></ruby>する。*
+- *自回歸模型、<ruby>平<rp>(</rp><rt>へい</rt><rp>)</rp>滑<rp>(</rp><rt>かつ</rt><rp>)</rp></ruby>模型、廣義自回歸條件異方差<ruby>系<rp>(</rp><rt>けい</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型、ケリー標準統計模型などを回測する。*
+- *<ruby>欠<rp>(</rp><rt>けっ</rt><rp>)</rp>失<rp>(</rp><rt>しつ</rt><rp>)</rp></ruby>取引価格（交換比率）數據集を補完し、高頻度取引の回測もあります。*
 
 <br>
 
-### **Github倉庫**：[**Betting Strategy and Model Validation（富くじ取引戦略と統計模型を検証（けんしょう）する）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **Github倉庫**：[**Betting Strategy and Model Validation（富くじ取引戦略と統計模型を<ruby>検<rp>(</rp><rt>けん</rt><rp>)</rp>証<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>する）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
-- *セレニウムとファントムズ軟件に依って、線上蹴球（しゅうきゅう）數據を採集する。*
+- *セレニウムとファントムズ軟件に依って、線上<ruby>蹴<rp>(</rp><rt>しゅう</rt><rp>)</rp>球<rp>(</rp><rt>きゅう</rt><rp>)</rp></ruby>數據を採集する。*
 - *自然言語解析して、蹴球試合の數據を採集し、線上賭け行事の球隊隊名と隊名を自動検証に一致させます。*
-- *ケリー標準統計模型の槓桿（こうかん）效應參數を調整（ちょうせい）して、回測[Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investmentケリー標準統計模型に依って富くじ行業中に投資する)。*
+- *ケリー標準統計模型の<ruby>槓<rp>(</rp><rt>こう</rt><rp>)</rp>桿<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>效應參數を<ruby>調<rp>(</rp><rt>ちょう</rt><rp>)</rp>整<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>して、回測[Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investmentケリー標準統計模型に依って富くじ行業中に投資する)。*
 
 <br>
 
 ### **Github倉庫**：[**Introducing ®Studio Server for Data Scientists（數據科學家の為に®Studio服務器を介紹する）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *セント操作繫統七で自分の®Studio服務器と閃霓（せんにじ）応用を建設する方法の講義。*
+- *セント操作繫統七で自分の®Studio服務器と<ruby>閃<rp>(</rp><rt>せん</rt><rp>)</rp>霓<rp>(</rp><rt>にじ</rt><rp>)</rp></ruby>応用を建設する方法の講義。*
 
 <br>
 
 ### **Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試非効率的（ひこうりつてき）な體育賭け屋）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers指値の統計建模と測試非効率的ひこうりつてきな體育賭け屋)，そして蹴球試合の數據は[WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と動態（どうたい）線上數據を採集する）](#github倉庫webdriver-dynamic-webpage-scrapping瀏覽器驅動と動態どうたい線上數據を採集する)から採集する。*
-- *ケリー標準統計模型に依って、2011/12から2012/13迄の英國蹴球賽季で、拾軒(けん)賭け屋に賭けます。*
+- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers指値の統計建模と測試非効率的ひこうりつてきな體育賭け屋)，そして蹴球試合の數據は[WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）](#github倉庫webdriver-dynamic-webpage-scrapping瀏覽器驅動と動態どうたい線上數據を採集する)から採集する。*
+- *ケリー標準統計模型に依って、2011/12から2012/13迄の英國蹴球賽季で、拾<ruby>軒<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>賭け屋に賭けます。*
 
 <br>
 
@@ -895,7 +895,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と動態（どうたい）線上數據を採集する）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 - *RSeneniumとパイソン編程に依って，[7M](http://odds.7m.hk/en)と[NowGoal](http://info.nowgoal.com/en)情報網から賭け屋の取引価格（交換比率）數據や蹴球試合得点を合わせるも採集する。*
 
@@ -903,27 +903,27 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github倉庫**：[**Soccer League Web Scraping（線上蹴球試合數據を採集する）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
-- *静態（せいたい）蹴球情報網の蹴球試合得点數據を採集する。*
+- *<ruby>静<rp>(</rp><rt>せい</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>蹴球情報網の蹴球試合得点數據を採集する。*
 
 <br>
 
 ### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試非効率的（ひこうりつてき）な體育賭け屋）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en)情報網からのサッカーの試合スコアは、賭け屋網站の標準盤、亜洲盤、大小の賭けで弐拾玖の賭けをしたもので、全っての數據には2006年から2011年迄の數據を手動で採集する*
-- *対角零通膨（つうぼう）雙變量ポアソン加權時間序列（じょれつ）模型に依って、指値(さしね)の統計建模や注文戦略や投資収益率を回測する。*
+- *対角零<ruby>通<rp>(</rp><rt>つう</rt><rp>)</rp>膨<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>雙變量ポアソン加權時間<ruby>序<rp>(</rp><rt>じょ</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型に依って、<ruby>指<rp>(</rp><rt>さし</rt><rp>)</rp>値<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>の統計建模や注文戦略や投資収益率を回測する。*
 
 <br>
 
 ### [體育統計學社區](http://soccer.oksport.cn)
 
 - **2009年から 2013年迄**，*[互動力量](http://oksport.cn)を通じて専門的な體育取引価格（交換比率）統計建模論壇を設立する --- [體育統計學社區](http://soccer.oksport.cn)では、2013年に米國友邦保険會社で保險電話従業員にしていたとき、工商銀行に口座を開設した後、論壇は中國の線上公安に遮断されました。*
-- *<ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>きりで運営する論壇は蹴球を主とし、その他の富くじ遊戲（ゆうげ）は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と編碼（へんめ）、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
-- *この論壇に基づいて屏蔽（びょうぶ）されています(金融業界に移行し、賭博業界に戻る積もりはありません)。*
+- *<ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>きりで運営する論壇は蹴球を主とし、その他の富くじ<ruby>遊<rp>(</rp><rt>ゆう</rt><rp>)</rp>戲<rp>(</rp><rt>げ</rt><rp>)</rp></ruby>は線上遊戲を副とし、個人の蹴球取引価格（交換比率）の統計建模、一部の專業玩家の経験と遊び心得、一部の統計建模、一部の統計軟件と電脳編程と<ruby>編<rp>(</rp><rt>へん</rt><rp>)</rp>碼<rp>(</rp><rt>め</rt><rp>)</rp></ruby>、風険管理、取引戦略、業界動態、蹴球試合得点情報の埋め込み、業界動向、新聞速報、分析と比較歐洲と亜洲太平洋の各足彩平臺と内部管理の優劣(孫子兵法* --- **知己知彼百戦百勝（自分自身を知り、敵も知り、全っての戦争は必ず勝つだ）** *)、賢納士を募集して志を同じくする友達を探して、また代理商と協力會社が広告をして市場の販売(電郵営業販売、QQ、多くの論壇のウェブサイトに體育統計學を普及することを含む)を兼ねて、結果は2013年に米國友邦保険會社で働いている間に工商銀行で口座を開くことになりました。大陸線上公安に遮られた。*
+- *この論壇に基づいて<ruby>屏<rp>(</rp><rt>びょう</rt><rp>)</rp>蔽<rp>(</rp><rt>ぶ</rt><rp>)</rp></ruby>されています(金融業界に移行し、賭博業界に戻る積もりはありません)。*
 
     -[谷歌捜貼](www/oksportcn_01.png)
     -[統計の都交流](www/oksportcn_02.png)
     -[佳礼論壇-搜貼](www/oksportcn_03.png)
-    -[数學統計建模社區（しゃく） - 数學中國](www/oksportcn_04.png)
+    -[数學統計建模<ruby>社<rp>(</rp><rt>しゃ</rt><rp>)</rp>區<rp>(</rp><rt>く</rt><rp>)</rp></ruby> - 数學中國](www/oksportcn_04.png)
 
 <br>
 
