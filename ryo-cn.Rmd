@@ -681,10 +681,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
-- 2003年12月7日：*在吉隆坡报考*[日语能力测试 - 第3级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
-- 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第2级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
-- 2005年12月4日：*在吉隆坡报考*[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
-- 2006年12月3日：*在马尼拉报考*[**日语能力测试 - 第1级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style="color:Red"}
+- 2003年12月7日：*在吉隆坡报考*[日语能力测试 - 第三级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
+- 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第二级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
+- 2005年12月4日：*在吉隆坡报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
+- 2006年12月3日：*在马尼拉报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style="color:Red"}
 - 2003年开始加入[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>
 
 <br>
@@ -1061,14 +1061,14 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪One Plaza购物广场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
 - **2014年**，找了几份网游之类的工作。
 - **2014年12月**，在斯里肯邦安大学岭的Aqua Health Service水机过滤器公司当电销。
-- **2016年**，在怡观园（Equine Park）的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
-- **2018年**，在无拉港Aeon Mall广场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港Aeon商场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
-- **2018年**，经过一位古早味头手介绍，到无拉港Aeon Mall商场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
-- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间2楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
+- **2016年**，在怡观园的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
+- **2018年**，在无拉港Aeon购物广场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港Aeon购物广场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
+- **2018年**，经过一位古早味头手介绍，到无拉港Aeon购物广场对面（焦赖南镇118）的记德捞*海鲜火锅食*（PTN Steamboat Restaurant） 打零工。
+- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黄金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>当客服人员，因为非常危险，有天午休时间二楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
 - **2020年10月10号**，重新注册了间公司[*世博量化®（官方网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-2003/2004年离开*Prestigen Profits（纽）有限公司*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
+2003/2004年离开*尚誉威盈（纽）有限公司*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”（“Where do you fall, where do you get up”），今天才会学习计量经济学]{style="color:#F6A217"}。
 
 [^4]: [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 电子书](documents/b4TDbiz-.pdf))中记载着以前尚未加入博彩行业的一段[创业与金融行业]{style="color:RoyalBlue"}小历史。
 

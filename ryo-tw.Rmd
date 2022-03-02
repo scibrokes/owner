@@ -681,20 +681,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2002年3月 至 2003年12月：專業文憑，日文能力測試**；家庭補習（[JLPT](http://www.jlpt.jp/index.html) - [日本國際交流基金會（JF）](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [日本國際教育支援協會（JEES）](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [馬來西亞日語協會（JLSM）](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>）
 
-- 2003年12月7日：*在吉隆坡報考*[日語能力測試 - 第3級證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
-- 2004年12月5日：*在吉隆坡報考*[**日語能力測試 - 第2級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
-- 2005年12月4日：*在吉隆坡報考*[**日語能力測試 - 第1級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
-- 2006年12月3日：*在馬尼拉報考*[**日語能力測試 - 第1級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style="color:Red"}
+- 2003年12月7日：*在吉隆坡報考*[日語能力測試 - 第叁級證書](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
+- 2004年12月5日：*在吉隆坡報考*[**日語能力測試 - 第贰級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
+- 2005年12月4日：*在吉隆坡報考*[**日語能力測試 - 第壹級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
+- 2006年12月3日：*在馬尼拉報考*[**日語能力測試 - 第壹級**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style="color:Red"}
 - 2003年開始加入[吉隆坡日本國際交流基金會（JFKL）](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/>
 
 <br>
 
 ### **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大學本科，電腦科學繫聯合主流A（專攻統計學）</s>**；（[拉曼學院（TARC）](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>）
 
-- *大一*
-- *大二*
-- <s>*大三*</s>
-- <s>*大四*</s>
+- *大壹*
+- *大贰*
+- <s>*大叁*</s>
+- <s>*大肆*</s>
 
 <br><br>
 
@@ -1061,14 +1061,14 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2014年3月**，在2014年3月31日受祿於富士全祿前，在瓜雪One Plaza購物廣場後的森林茶餐廳（Xing's Restaurant）幫大哥打工一個月。
 - **2014年**，找了幾份網遊之類的工作。
 - **2014年12月**，在斯裏肯邦安大學嶺的Aqua Health Service水機過濾器公司當電銷。
-- **2016年**，在怡觀園（Equine Park）的Mybooks出版社當個戶外銷售員；原本在雪州，後來移到吉打州。
-- **2018年**，在無拉港Aeon Mall廣場後面的大德古早味肉古茶行當（包括前臺後臺）店員，間中都有到另外兩家分行工作（無拉港Aeon商場後面、疏邦再也精英大學對面、國內最大夜市焦賴康樂花園）。
-- **2018年**，經過一位古早味頭手介紹，到無拉港Aeon Mall商場對面（焦賴南鎮118）的記德撈*海鮮火鍋食*（PTN Steamboat Restaurant） 打零工。
-- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>當客服人員，因為非常危險，有天午休時間2樓宿舍大爆炸和許多槍聲後，員工紛紛逃跑到公司，有位小胖經理走來叫我馬上飛回國。
+- **2016年**，在怡觀園的Mybooks出版社當個戶外銷售員；原本在雪州，後來移到吉打州。
+- **2018年**，在無拉港Aeon購物廣場後面的大德古早味肉古茶行當（包括前臺後臺）店員，間中都有到另外兩家分行工作（無拉港Aeon購物廣場後面、疏邦再也精英大學對面、國內最大夜市焦賴康樂花園）。
+- **2018年**，經過一位古早味頭手介紹，到無拉港Aeon購物廣場對面（焦賴南鎮118）的記德撈*海鮮火鍋食*（PTN Steamboat Restaurant） 打零工。
+- **2018年**，到柬埔寨西哈努克港[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>當客服人員，因為非常危險，有天午休時間贰樓宿舍大爆炸和許多槍聲後，員工紛紛逃跑到公司，有位小胖經理走來叫我馬上飛回國。
 - **2018年**，Bron Ong通過臉譜聘用到新山當真人荷官（合作商家為柬埔寨西哈努克港）的客服人員，幹了一個月正（非常危險，而且公司作假張還不讓員工辭職），由於母親去世才能回雪州。
 - **2020年10月10號**，重新註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
-2003/2004年離開*Prestigen Profits（紐）有限公司*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
+2003/2004年離開*尚譽威盈（紐）有限公司*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
 [^4]: [遲了一年，更新履歷表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf 電子書](documents/b4TDbiz-.pdf))中記載著以前尚未加入博彩行業的一段[創業與金融行業]{style="color:RoyalBlue"}小歷史。
 
