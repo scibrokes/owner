@@ -631,7 +631,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *03 課程：[文本挖掘與分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
 - <s>*04 課程：探索數據挖掘模式*</s>
 - <s>*05 課程：數據挖掘中的聚類分析*</s>
-- <s>*06 課程：數據挖掘項目*</s>
+- <s>*06 課程：數據挖掘[頂點項目]{style="color:#15237A"}*</s>
 - <s>**數據挖掘專項課程**</s>
 - **Github倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 

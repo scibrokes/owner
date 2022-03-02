@@ -631,7 +631,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *03 课程：[文本挖掘与分析](https://www.coursera.org/account/accomplishments/records/8D8V4VJJUVYK)*
 - <s>*04 课程：探索数据挖掘模式*</s>
 - <s>*05 课程：数据挖掘中的聚类分析*</s>
-- <s>*06 课程：数据挖掘项目*</s>
+- <s>*06 课程：数据挖掘[更新项目]{style="color:#15237A"}*</s>
 - <s>**数据挖掘专项课程**</s>
 - **Github仓库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
@@ -648,7 +648,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *07 课程：[回归模型](https://www.coursera.org/account/accomplishments/records/Su7PgrMXVGYrU4cM)*
 - *08 课程：[机械实用化](https://www.coursera.org/account/accomplishments/records/j6DpQhLYeRj54dvS)*
 - *09 课程：[数据产品开发](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
-- *10 课程：[数据科学[顶点项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
+- *10 课程：[数据科学[更新项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**数据科学专项课程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
 - **Github仓库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
