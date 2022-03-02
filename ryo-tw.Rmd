@@ -967,6 +967,11 @@ skill |>
   #column_spec(2, background = 'grey', color = 'black')
 ```
 
+- Origin of `Python` programming: [其實，Python 跟「蟒蛇」一點關係都沒有...](https://vocus.cc/article/5db3a8e1fd897800019d7300) and [`python`語言為什麼會叫大蟒蛇？](https://bearask.com/zh-my/baby/350223.html).
+- Origin of `R` programming: [What is `R`?](https://www.r-project.org/about.html)
+- Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- Origin of `Linux` OS: [`Linux`維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/Linux)
+
 ```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   {\(.) tibble(.) |> 
@@ -1028,30 +1033,30 @@ source('function/skill2B.R', encoding = 'utf-8')
 ## 其它 / 雜談
 
 - **2001/2002年**，當初首份工作經中學同學張慧燕介紹到[巴生百利廣場](https://www.klang.parade.com.my)內的[大人餐廳](https://esquirekitchen.com)當前臺服務生。
-- **2003年**，在拉曼學院修讀電腦科學同時，也在業余時間報讀家庭日語班，同年年底2003年12月報考JLPT日語考試。
+- **2003年**，在拉曼學院修讀電腦科學同時，也在業余時間報讀家庭日語班，同年年底2003年12月報考JLPT日語能力測試。
 - **2003年**，加入[英國文化協會](https://www.britishcouncil.my/zh-Hans)成為會員。
 - **2003年**, 到[法國文化協會 Alliance Francaise Kuala Lumpur (AFKL)](https://www.alliancefrancaise.org.my/alliance-francaise-de-kuala-lumpur)咨詢法語課程，也到[歌德學院 Goethe Institute Malaysia](https://www.goethe.de/ins/my/en/index.html)咨詢德語課程。
 - **2003年 至 2005年**，開始通過[僑豐銀行 OSK Security Firm](https://www.oskgroup.com)進行股票交易。
 - **2003年 至 2005年**，與兩個哥哥和鄰居，四人創辦[**Starline Platation Ltd**]{style="color:RoyalBlue"}農業公司。
-- **2003年12月**，在谷中城（Mid-Valley）的一家新加坡公司Euroluce燈飾專賣店當一个月室內銷售員。
-- **2003年 至 2005年**，在吉隆坡怡保路3裏路HSBC銀行後面當中文家庭教師，授教一些華小的印度同胞小學生中文。
+- **2003年12月**，在谷中城的一家新加坡公司可信店燈飾專賣店當一个月室內銷售員。
+- **2003年 至 2005年**，在吉隆坡怡保路叁裏路香港上海銀行後面當中文家庭教師，授教一些華小的印度同胞小學生中文。
 - **2003年 至 2005年**，在[王朝酒店（Dynasty Hotel Kuala Lumpur）](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>的唐宮當前臺服務員。
-- **2003年 至 2005年**，在吉隆坡怡保路5裏路/甲洞當汽車銷售員/維修員。
-- **2003年 至 2005年**，在谷中城對面的[日本國際交流基金會（馬）](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>內的[Tsukiji-Mart（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>當迷你市場店員。
+- **2003年 至 2005年**，在吉隆坡怡保路伍裏路/甲洞當汽車銷售員/維修員。
+- **2003年 至 2005年**，在谷中城對面的[日本國際交流基金會（馬）](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>內的[築地商場（築地マート）](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>當迷你市場店員。
 - **2003年 至 2005年**，經[拉曼學院電腦科學繫同學兼最佳好友謝德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^4]錄用，到他家鄉適耕莊的網吧（高峰電腦中心）當櫃臺小生。
-- **2006年2月**，在Telebiz工作時，業余時間到安邦韓國村修讀韓語，同時也在韓國村一帶的韓國跆拳道館學跆拳道。
-- **2006年7月**，在Telebiz工作時，遠到新加坡喜來登酒店樓下大廳和歐陽兄弟倆（歐陽金泰和歐陽金喜）面試，沒幾周歐陽金喜就匆匆忙忙撥電給我到焦賴一家旅遊中心找Amy拿機票到菲律賓工作，當時沒辭職就飛到菲律賓去了。
-- **2006年7月 至 2006年12月**，在馬尼拉Caspo Inc工作時，咨詢了一些日語中心和一些韓語中心咨詢課程，在[日本國際交流基金會（菲）](https://jfmo.org.ph) 報考高級日語JLPT Level I後，同年年底2006年12月在[德拉薩大學 Dela Salle University Manila](https://www.dlsu.edu.ph)考高級日語。
-- **2007年1月 至 2007年4月**，在馬尼拉Caspo Inc工作時，到[Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修讀[德語業余課程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)。
-- **2006年7月 至 2007年4月**，在馬尼拉Caspo Inc工作時，曾威廉時常邀約習武練泰拳（還有日本合氣道、韓國合氣道），而泰拳館就在公司PBCom大廈的一樓而已。
-- **2007年8月 至 2008年3月**，大哥在怡觀園的皇帽旗下代理餐館（一家臺灣女老板的餐館 --- 大家樂小食中心）開檔口當小販。
+- **2006年2月**，在特裏必斯工作時，業余時間到安邦韓國村修讀韓語，同時也在韓國村一帶的韓國跆拳道館學跆拳道。
+- **2006年7月**，在特裏必斯工作時，遠到新加坡喜來登酒店樓下大廳和歐陽兄弟倆（歐陽金泰和歐陽金喜）面試，沒幾周歐陽金喜就匆匆忙忙撥電給我到焦賴一家旅遊中心找Amy拿機票到菲律賓工作，當時沒辭職就飛到菲律賓去了。
+- **2006年7月 至 2006年12月**，在馬尼拉客世博工作時，咨詢了一些日語中心和一些韓語中心咨詢課程，在[日本國際交流基金會（菲）](https://jfmo.org.ph) 報考高級日語JLPT Level I後，同年年底2006年12月在[德拉薩大學（馬尼拉）](https://www.dlsu.edu.ph)考高級日語。
+- **2007年1月 至 2007年4月**，在馬尼拉客世博工作時，到[歌德學院（菲）](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修讀[德語業余課程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)。
+- **2006年7月 至 2007年4月**，在馬尼拉客世博工作時，曾威廉時常邀約習武練泰拳（還有日本合氣道、韓國合氣道），而泰拳館就在公司PBCom大廈的一樓而已。
+- **2007年8月 至 2008年3月**，大哥在怡觀園的皇帽旗下代理餐館（臺灣女老板明珠 --- 大家樂小食中心）開檔口當小販。
 - **2009年 至 2010年**，在西世康工作時，通過僑豐銀行和聯昌銀行（新加坡），開始在香港和美國金融市場進行交易。
 - **2009年 至 2010年**，在西世康工作時，同事傑克蘇和我一塊兒到一些中華武館和健身中心咨詢，我在沙登一家中華武館學習洪拳和長拳。
 - **2009年 至 2010年**，在西世康工作時，經過[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介紹，在[MediaCorp](https://www.mediacorp.sg/en)和[HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下當個業余演員，[跑龍套當演員]{style="color:RoyalBlue"}[^5]。
 - **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
-- **2013年**，建立自個兒的RStudio服務器、學習採集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
+- **2013年**，建立自個兒的®Studio服務器、學習採集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
-- **2013年10月1號**，在[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的皮夾[財神挺臺灣夜總會]{style="color:#F6A217"}。
+- **2013年10月1號**，在[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的外衣[財神挺臺灣夜總會]{style="color:#F6A217"}。
 - **2013年11月**，有天麥克張有銘匆匆忙忙打電話聯繫並錄用我並買了張機票，還沒辭職就飛往香港九龍了。在SBet工作時，Howie宋家豪時常論及我穿的休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受祿於富士全祿前，在瓜雪One Plaza購物廣場後的森林茶餐廳（Xing's Restaurant）幫大哥打工一個月。
 - **2014年**，找了幾份網遊之類的工作。

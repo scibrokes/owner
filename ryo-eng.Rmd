@@ -967,6 +967,11 @@ skill |>
   #column_spec(2, background = 'grey', color = 'black')
 ```
 
+- Origin of `Python` programming: [其實，Python 跟「蟒蛇」一點關係都沒有...](https://vocus.cc/article/5db3a8e1fd897800019d7300) and [`python`語言為什麼會叫大蟒蛇？](https://bearask.com/zh-my/baby/350223.html).
+- Origin of `R` programming: [What is `R`?](https://www.r-project.org/about.html)
+- Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
+- Origin of `Linux` OS: [`Linux`维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Linux)
+
 ```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 skill[,-1] |> 
   tibble() |> 
@@ -1044,12 +1049,12 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **Jul-2006 to Dec-2006**, When I working in Caspo Inc, inquiry some Japanese language center and also Korean language center,and then register the advanced level --- JLPT Level I at [Japan Foundation Manila](https://jfmo.org.ph), and take the exam at [Dela Salle University Manila](https://www.dlsu.edu.ph) in Dec-2006.
 - **Jan-2007 to Apr 2007**, Studying [German language part time class](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg) at [Goethe Institut Philippinen](https://www.goethe.de/ins/ph/en/spr/kur/all.html) when I working in Caspo Inc, Manila.
 - **Jul-2006 to Apr-2007**, When I working in Caspo Inc, William Chen always invite me to learn Muay Thai (and also Japanese Aikido, Korean Hapkido) while the Thai Martial Art center being ground floor of office (PBCom Tower).
-- **Aug-2007 to Mar-2008**, Eldest brother setup a stall as hawker, work with brothers in a Carlsberg restaurant（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady.
+- **Aug-2007 to Mar-2008**, Eldest brother setup a stall as hawker, work with brothers in a Carlsberg Restaurant MingChu（大家乐小食中心）Equine Park, the owner of the restaurant is a Taiwanese lady Mingchu.
 - **2009 to 2010**, When I working in Scicom, start trading in United States and Hong Kong financial market with OSK security firm and also CIMB Singapore.
 - **2009 to 2010**, When I working in Scicom, Jack Soh and me go to few Martial Art center and fitness center, I learn Chinese Martial Art (洪拳、长拳) at a Chinese Martial Art center being Serdang.
 - **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^5]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0).
 - **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
-- **2013**, Setup owned RStudio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
+- **2013**, Setup owned ®Studio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
 - **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
 - **Nov-2013**, One day, Mike Chong Yu Ming rush to contact and employ me, bought a air ticket for me, I flight to Hong Kong Kow Long within few days without resignation. Colleague Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"} when I work in SBet.
