@@ -11,6 +11,7 @@ output:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
+    self_contained: no
     toc: yes
     toc_depth: 6
     toc_float:
