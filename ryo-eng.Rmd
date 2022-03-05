@@ -1138,7 +1138,7 @@ Kindly refer to my personal blogs for more information about me.
 <a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
 <a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
 <a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
-<a href='https://www.youtube.com/channel/UCy4c9DyOgSWldcRytqDa9jA'><img src="www/YouTube.jpeg" width="48"/></a>
+<a href='https://www.youtube.com/c/黄联富'><img src="www/YouTube.jpeg" width="48"/></a>
 <a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" width="48"/></a>
 <a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" width="48"/></a>
 <a href='https://www.iq.com'><img src="www/iq.png" width="48"/></a>

@@ -1,5 +1,5 @@
 ## update packages via terminal
-sudo su - -c "R -e \"pkgs <- c('tidyr', 'broom'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"pkgs <- c('BBmisc', 'rmsfuns', 'tidyr', 'broom', 'sass', 'tidyverse', 'devtools', 'data.table', 'DT', 'rsconnect', 'shiny', 'kableExtra', 'reticulate', 'RSelenium'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
 ## https://www.reddit.com/r/rstats/comments/hiu17b/can_i_delete_outdated_r_version/
 sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')), dependencies = TRUE, INSTALL_opts = '--no-lock')\""
