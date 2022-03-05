@@ -21,7 +21,7 @@
 ## ============================= PATH ======================================
 #system('sudo chmod +rwx /usr/lib/R')
 
-.pth <- .libPaths(c('/cloud/lib/R/library')) #, '/cloud/lib/R/site-library'))
+.pth <- .libPaths(c('/usr/lib/R/library')) #, '/cloud/lib/R/library', '/cloud/lib/R/site-library'))
 .libPaths(.pth)
 
 ## https://support.rstudio.com/hc/en-us/articles/200532197
