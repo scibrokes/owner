@@ -1,5 +1,9 @@
 ## update packages via terminal
 sudo su - -c "R -e \"pkgs <- c('tidyr', 'broom'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library')\""
+
+## https://www.reddit.com/r/rstats/comments/hiu17b/can_i_delete_outdated_r_version/
+sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')))\""
+
 sudo su - -c "R -e \"devtools::update_packages()\""
 sudo su - -c "R -e \"update.packages(ask=FALSE)\""
 
