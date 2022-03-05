@@ -5,11 +5,11 @@ options(warn = -1)
 
 ## Loading the package 'BBmisc'
 #if(suppressMessages(!require('BBmisc'))){
-#  install.packages('BBmisc')
+#  install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
 #  suppressMessages(library('BBmisc'))
 #}
 if (suppressMessages(!require('rmsfuns'))) {
-  install.packages('rmsfuns')
+  install.packages('rmsfuns', dependencies = TRUE, INSTALL_opts = '--no-lock')
   suppressMessages(library('rmsfuns'))
 }
 
