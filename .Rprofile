@@ -66,9 +66,18 @@ Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3',
 
 ## We set the cloud mirror, which is 'network-close' to everybody, as default
 local({
-  r <- getOption('repos')
-  r['CRAN'] <- 'https://cloud.r-project.org'
-  options(repos = r)
+  #r <- getOption('repos')
+  #r['CRAN'] <- 'https://cloud.r-project.org'
+  #options(repos = r)
+  
+  ## https://radiant-rstats.github.io/docs/install.html
+  options(repos = c(CRAN = 'https://cloud.r-project.org', 
+                    RSM = 'https://radiant-rstats.github.io/minicran', 
+                    Omega = 'http://www.omegahat.net/R', 
+                    RForge = 'https://www.rforge.net'))
+  #install.packages("remotes")
+  #remotes::install_github("radiant-rstats/radiant.update", upgrade = "never")
+  #radiant.update::radiant.update()
 })
 
 ## ==================== Load Packages ===============================
