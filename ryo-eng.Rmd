@@ -1189,7 +1189,7 @@ It's useful to record some information about how your file was created.
 - `r R.version.string`
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) package version: `r packageVersion('rmarkdown')`
 - File version: 0.2.1
-- Author Profile: [®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-en)
+- Author Profile: [®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-eng)
 - GitHub: [Source Code](https://github.com/scibrokes/owner)
 - Additional session information
 

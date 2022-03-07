@@ -705,7 +705,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *簡介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]是一家在全球市場進行交易的量化投資管理公司，通過數理統計為投資者帶來高投資回報率。*
 - *工作明細：在金融市場中科研統計建模、風險管理與高頻自動演算量化交易和數據分析等，之後會到中國大陸發展。*
 
-[^3]: [*世博量化®（官方網）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
+[^3]: [*世博量化®（官網）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -1056,7 +1056,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2013年**，建立了個專業足彩賠率建模論壇[體育統計學社區](http://soccer.oksport.cn)。
 - **2013年**，建立自個兒的®Studio服務器、學習採集網頁信息、飛往臺灣待了幾個月，期間找到一份外匯交昜公司的工作，不過沒多久就不幹了。
 - **2013年7月 至 2013年9月**，在安邦的AIA大廈的[AIA（友邦保險）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">當電銷員。
-- **2013年10月1號**，在[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的外衣[財神挺臺灣夜總會]{style="color:#F6A217"}。
+- **2013年10月1號**，在[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期間，註冊了間公司[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事葉林峰和劉偉謙時常會聊到我穿的外衣[財神挺臺灣夜總會]{style="color:#F6A217"}。
 - **2013年11月**，有天麥克張有銘匆匆忙忙打電話聯繫並錄用我並買了張機票，還沒辭職就飛往香港九龍了。在SBet工作時，Howie宋家豪時常論及我穿的休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受祿於富士全祿前，在瓜雪One Plaza購物廣場後的森林茶餐廳（Xing's Restaurant）幫大哥打工一個月。
 - **2014年**，找了幾份網遊之類的工作。
@@ -1066,7 +1066,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2018年**，經過一位古早味頭手介紹，到無拉港Aeon購物廣場對面（焦賴南鎮118）的記德撈*海鮮火鍋食*（PTN Steamboat Restaurant） 打零工。
 - **2018年**，到柬埔寨西哈努克港[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>當客服人員，因為非常危險，有天午休時間贰樓宿舍大爆炸和許多槍聲後，員工紛紛逃跑到公司，有位小胖經理走來叫我馬上飛回國。
 - **2018年**，Bron Ong通過臉譜聘用到新山當真人荷官（合作商家為柬埔寨西哈努克港）的客服人員，幹了一個月正（非常危險，而且公司作假張還不讓員工辭職），由於母親去世才能回雪州。
-- **2020年10月10號**，重新註冊了間公司[*世博量化®（官方網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
+- **2020年10月10號**，重新註冊了間公司[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">。
 
 2003/2004年離開*尚譽威盈（紐）有限公司*網上外匯交昜商那天，老板托馬斯只說：[「哪裏跌倒，哪裏爬起來」（「Where do you fall, where do you get up」），今天才會學習計量經濟學]{style="color:#F6A217"}。
 
@@ -1191,7 +1191,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - 文集版本：0.2.1
 - 文集作者：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-tw)
 - GitHub：[源代碼](https://github.com/scibrokes/owner)
-- 其它附屬信息
+- 追加附屬信息
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}
 suppressMessages(require('formattable', quietly = TRUE))
