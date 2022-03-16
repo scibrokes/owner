@@ -603,7 +603,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **<s>2016月4月から 2019年7月</s> 2016年4月から 2016年6月迄：<s>學部、電脳科學繫</s>**；（[人民（じんみん）大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
+### **<s>2016月4月から 2019年7月</s> 2016年4月から 2016年6月迄：<s>學部、電脳科學繫</s>**；（[<ruby>人<rp>(</rp><rt>じん</rt><rp>)</rp>民<rp>(</rp><rt>みん</rt><rp>)</rp></ruby>大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*課程：<ruby>電<rp>(</rp><rt>でん</rt><rp>)</rp>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>科學*</s>
 - **Github倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
@@ -730,7 +730,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2015年10月から 2016年1月迄：線上富くじ、交昜員**；（受聘於<ruby>環<rp>(</rp><rt>かん</rt><rp>)</rp>球<rp>(</rp><rt>きゅう</rt><rp>)</rp>方<rp>(</rp><rt>ほう</rt><rp>)</rp>案<rp>(</rp><rt>あん</rt><rp>)</rp>工<rp>(</rp><rt>こう</rt><rp>)</rp>程<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>（馬）<ruby>私<rp>(</rp><rt>し</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>有<rp>(</rp><rt>ゆう</rt><rp>)</rp>限<rp>(</rp><rt>げん</rt><rp>)</rp>會<rp>(</rp><rt>がい</rt><rp>)</rp>社<rp>(</rp><rt>しゃ</rt><rp>)</rp></ruby>に雇用された）
 
-- *簡介：郭建輝に招聘され、旧巴生路テスコ商場上の拾参A/拾肆階で出勤した。社長達は香港同胞で、社長エリックの妻は馬來西亞籍から、馬來西亞に常駐していたが、他の社長君豪と君傑はよくマカオに遊びに行ってた。*
+- *簡介：郭建輝に招聘され、旧巴生路テスコ商場上の拾参A/拾肆階で出勤した。社長達は香港同胞で、社長エリックの妻は馬來西亞籍から、馬來西亞に常駐していたが、他の社長君豪と君傑は良くマカオに遊びに行ってた。*
 - *仕事詳細：長期利益博徒の賭け方法に従って注文や、<ruby>裁<rp>(</rp><rt>さい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp>取<rp>(</rp><rt>とり</rt><rp>)</rp>引<rp>(</rp><rt>ひき</rt><rp>)</rp></ruby>や、最適な販売価格の差額を儲ける戦略や、中國顧客のお金を入れる。*
 
 <br>
@@ -849,7 +849,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github倉庫**：[**Analysing Financial Report of ALI（阿裏財務報表を分析する）**](https://github.com/englianhu/report)
 
-- *阿裏富くじ會社の財務報表、製品損益、會員損益、消費模式、會員<ruby>日<rp>(</rp><rt>にっ</rt><rp>)</rp>誌<rp>(</rp><rt>し</rt><rp>)</rp></ruby>記錄等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>を分析する。*
+- *阿裏富くじ會社の財務報表、製品損益、會員損益、消費模式、會員<ruby>日<rp>(</rp><rt>にっ</rt><rp>)</rp>誌<rp>(</rp><rt>し</rt><rp>)</rp></ruby>記錄等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>を分析して、<ruby>最<rp>(</rp><rt>さい</rt><rp>)</rp>尤<rp>(</rp><rt>ゆう</rt><rp>)</rp>推<rp>(</rp><rt>すい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>する。*
 
 <br>
 
@@ -864,7 +864,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 - *金融賭け製品の取引価格（交換比率）を統計建模して、また賭け戦略/注文戦略や<ruby>投<rp>(</rp><rt>とう</rt><rp>)</rp>資<rp>(</rp><rt>し</rt><rp>)</rp>収<rp>(</rp><rt>しゅう</rt><rp>)</rp>益<rp>(</rp><rt>えき</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp></ruby>を<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp>測<rp>(</rp><rt>そく</rt><rp>)</rp></ruby>する。*
 - *自回歸模型、<ruby>平<rp>(</rp><rt>へい</rt><rp>)</rp>滑<rp>(</rp><rt>かつ</rt><rp>)</rp></ruby>模型、廣義自回歸條件異方差<ruby>系<rp>(</rp><rt>けい</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型、ケリー標準統計模型等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>を回測する。*
-- *<ruby>欠<rp>(</rp><rt>けっ</rt><rp>)</rp>失<rp>(</rp><rt>しつ</rt><rp>)</rp></ruby>取引価格（交換比率）數據集を補完し、高頻度取引の回測もあります。*
+- *<ruby>欠<rp>(</rp><rt>けっ</rt><rp>)</rp>失<rp>(</rp><rt>しつ</rt><rp>)</rp></ruby>取引価格（交換比率）數據集を補完し、高頻度取引に<ruby>最<rp>(</rp><rt>さい</rt><rp>)</rp>尤<rp>(</rp><rt>ゆう</rt><rp>)</rp>推<rp>(</rp><rt>すい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>の回測もあります。*
 
 <br>
 
@@ -910,7 +910,7 @@ op <- options(gvis.plot.tag = 'chart')
 ### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en)情報網から蹴球試合得点、賭け屋網站の標準盤、亜洲盤、大小の賭けで弐拾玖の賭けをしたもので、全っての數據には2006年から2011年迄の數據を手動で採集する*
-- *対角零<ruby>通<rp>(</rp><rt>つう</rt><rp>)</rp>膨<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>雙變量ポアソン加權時間<ruby>序<rp>(</rp><rt>じょ</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型に依って、<ruby>指<rp>(</rp><rt>さし</rt><rp>)</rp>値<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>の統計建模や注文戦略や投資収益率を回測する。*
+- *対角零<ruby>通<rp>(</rp><rt>つう</rt><rp>)</rp>膨<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>雙變量ポアソン加權時間<ruby>序<rp>(</rp><rt>じょ</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型に依って、<ruby>指<rp>(</rp><rt>さし</rt><rp>)</rp>値<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>の統計建模や注文戦略や投資収益率に<ruby>最<rp>(</rp><rt>さい</rt><rp>)</rp>尤<rp>(</rp><rt>ゆう</rt><rp>)</rp>推<rp>(</rp><rt>すい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>を回測する。*
 
 <br>
 
@@ -1048,7 +1048,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2006年7月**、特裏必斯で仕事時、態々新加坡喜來登酒店樓下大廳で歐陽兄弟二人（歐陽金泰と歐陽金喜）に面試して、弐叄週間後歐陽金喜は急いで焦頼のある観光中心に電話して亜美に會って航空券に持って来れ後、菲律賓に仕事を行って、其時元會社を辞めずに菲律賓に飛んで行きました。
 - **2006年7月から 2006年12月迄**、馬尼拉で客世博に仕事時、<ruby>幾<rp>(</rp><rt>いく</rt><rp>)</rp></ruby>つかの日本語中心と韓國語中心に講義にお問い合わせして、[日本國際交流基金會（菲）](https://jfmo.org.ph) 一級の日本語能力試験に出願して、同年末2006年12月[德拉薩大學（馬尼拉）](https://www.dlsu.edu.ph)に高級日本語能力試験を受験した。
 - **2007年1月から 2007年4月迄**、馬尼拉で客世博に仕事時、[歌德學院（菲）](https://www.goethe.de/ins/ph/en/spr/kur/all.html)に[德語業余課程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)を勉強した。
-- **2006年7月から 2007年4月迄**、馬尼拉で客世博に仕事時、曾威廉はよく練習武を誘って泰拳(日本合気道、韓國合気道もある)を練習したが、泰拳館は會社と同じビルPBComの一階にあるだけだ。
+- **2006年7月から 2007年4月迄**、馬尼拉で客世博に仕事時、曾威廉は良く練習武を誘って泰拳(日本合気道、韓國合気道もある)を練習したが、泰拳館は會社と同じビルPBComの一階にあるだけだ。
 - **2007年8月から 2008年3月迄**、お兄さんは怡觀園の皇帽旗下代理餐館（臺灣女店長経営者明珠 --- 大家樂小食中心）は屋台を開いて行商人になった。
 - **2009年から 2010年**、西世康で仕事時、僑豊銀行と聯昌銀行(新加坡)を通じて、香港と米國の金融市場で取引を開始した。
 - **2009年から 2010年迄**、西世康で仕事時、同僚傑克蘇は私と一緒に中華武館と健身中心に相談して、私は沙登の中華武館で洪拳と長拳を勉強しました。
@@ -1056,8 +1056,8 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年から 2013年迄**、專業蹴球取引価格建模論壇[體育統計學社區](http://soccer.oksport.cn)を設立した。
 - **2013年**、自分の®Studio服務器を設立して、情報網數據を採集する事を学び、臺灣に数ヶ月滞在して、外國為替會社の仕事を見つけましたが、間もなく辞めました。
 - **2013年7月から 2013年9月迄**、安邦でAIA大廈内の[米國友邦保険（AIA）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">で保険電話従業員に擔っています。
-- **2013年10月1號**、[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙はよく私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}について話します。
-- **2013年11月**、ある日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪はよく私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}について話していました。
+- **2013年10月1號**、[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙は良く私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}について話します。
+- **2013年11月**、ある日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}について話していました。
 - **2014年3月**、2014年3月31日に富士全禄前、瓜雪One Plaza購物広場後の森茶餐廳（Xing's Restaurant）でお兄さんに一ヶ月手伝った。
 - **2014年**、網遊関して仕事を幾つか探しました。
 - **2014年12月**、斯裏肯邦安大學嶺のAqua Health Service水機過濾器會社で電話従業員に擔っています。

@@ -849,7 +849,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **Github Repo** : [**Analysing Financial Report of ALI**](https://github.com/englianhu/report)
 
-- *Analyse the financial report of Ali lottery, includes the profit and loss of customers and products, customers' consuming habit.*
+- *Analyse the financial report of Ali lottery, includes the profit and loss of customers and products, customers' consuming habit and optimization the statistical prediction.*
 
 <br>
 
