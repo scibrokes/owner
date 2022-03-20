@@ -515,7 +515,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br><br>
 
-## <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>について
+## <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>に就いて
 
 | **<ruby>類<rp>(</rp><rt>るい</rt><rp>)</rp>別<rp>(</rp><rt>べつ</rt><rp>)</rp></ruby>** |                                    **<ruby>明<rp>(</rp><rt>めい</rt><rp>)</rp>細<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>** |
 |:----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------:|
@@ -543,7 +543,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 [^1]: [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>[【國學】古人的名、字、號……居然有這麽多講究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>[古人的名、字、號的區別](https://zhidao.baidu.com/question/607401941.html)<br>[古人的名、字、號、有什麽區別？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>[古代人的「姓、名、字、號」用英文怎麽翻譯。還有「原名」、「人稱」、「謚號」、「別號」](https://zhidao.baidu.com/question/539061381.html)
 
-[^2]: すぐ理解する：*<ruby>古<rp>(</rp><rt>こ</rt><rp>)</rp>座<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>會<rp>(</rp><rt>かい</rt><rp>)</rp>稽<rp>(</rp><rt>けい</rt><rp>)</rp>郡<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)、<ruby>現<rp>(</rp><rt>げん</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>県<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《<ruby>史<rp>(</rp><rt>し</rt><rp>)</rp>記<rp>(</rp><rt>き</rt><rp>)</rp></ruby>・<ruby>勾<rp>(</rp><rt>こう</rt><rp>)</rp>践<rp>(</rp><rt>せん</rt><rp>)</rp>世<rp>(</rp><rt>せい</rt><rp>)</rp>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby>》**<ruby>載<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>、[*「<ruby>夏<rp>(</rp><rt>か</rt><rp>)</rp>帝<rp>(</rp><rt>てい</rt><rp>)</rp>少<rp>(</rp><rt>しょう</rt><rp>)</rp>康<rp>(</rp><rt>こう</rt><rp>)</rp></ruby>の<ruby>庶<rp>(</rp><rt>しょ</rt><rp>)</rp>子<rp>(</rp><rt>し</rt><rp>)</rp></ruby><ruby>無<rp>(</rp><rt>む</rt><rp>)</rp>余<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>は會稽（今の浙江省<ruby>紹<rp>(</rp><rt>しょう</rt><rp>)</rp>興<rp>(</rp><rt>こう</rt><rp>)</rp>市<rp>(</rp><rt>し</rt><rp>)</rp></ruby>一帶）に<ruby>封<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>ぜられた、<ruby>越<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>の<ruby>始<rp>(</rp><rt>し</rt><rp>)</rp>祖<rp>(</rp><rt>そ</rt><rp>)</rp></ruby>で御座います。」*]{style="color:#F6A217"}<br>*會稽人<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp>充<rp>(</rp><rt>じゅう</rt><rp>)</rp></ruby>は《論衡・書虛篇》中で<ruby>引<rp>(</rp><rt>いん</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>吳君高の言葉：[*「會稽本山名。夏禹巡狩、會計於此山、因以郡名、故曰會稽。」*]{style="color:#F6A217"}。詳細については、[王充『論衡』に引用される古典ついての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念について―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
+[^2]: すぐ理解する：*<ruby>古<rp>(</rp><rt>こ</rt><rp>)</rp>座<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>會<rp>(</rp><rt>かい</rt><rp>)</rp>稽<rp>(</rp><rt>けい</rt><rp>)</rp>郡<rp>(</rp><rt>ぐん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217)、<ruby>現<rp>(</rp><rt>げん</rt><rp>)</rp>稱<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>[<ruby>永<rp>(</rp><rt>えい</rt><rp>)</rp>春<rp>(</rp><rt>しゅん</rt><rp>)</rp>県<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF)。*<br>***《<ruby>史<rp>(</rp><rt>し</rt><rp>)</rp>記<rp>(</rp><rt>き</rt><rp>)</rp></ruby>・<ruby>勾<rp>(</rp><rt>こう</rt><rp>)</rp>践<rp>(</rp><rt>せん</rt><rp>)</rp>世<rp>(</rp><rt>せい</rt><rp>)</rp>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby>》**<ruby>載<rp>(</rp><rt>さい</rt><rp>)</rp></ruby>、[*「<ruby>夏<rp>(</rp><rt>か</rt><rp>)</rp>帝<rp>(</rp><rt>てい</rt><rp>)</rp>少<rp>(</rp><rt>しょう</rt><rp>)</rp>康<rp>(</rp><rt>こう</rt><rp>)</rp></ruby>の<ruby>庶<rp>(</rp><rt>しょ</rt><rp>)</rp>子<rp>(</rp><rt>し</rt><rp>)</rp></ruby><ruby>無<rp>(</rp><rt>む</rt><rp>)</rp>余<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>は會稽（今の浙江省<ruby>紹<rp>(</rp><rt>しょう</rt><rp>)</rp>興<rp>(</rp><rt>こう</rt><rp>)</rp>市<rp>(</rp><rt>し</rt><rp>)</rp></ruby>一帶）に<ruby>封<rp>(</rp><rt>ほう</rt><rp>)</rp></ruby>ぜられた、<ruby>越<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>の<ruby>始<rp>(</rp><rt>し</rt><rp>)</rp>祖<rp>(</rp><rt>そ</rt><rp>)</rp></ruby>で御座います。」*]{style="color:#F6A217"}<br>*會稽人<ruby>王<rp>(</rp><rt>おう</rt><rp>)</rp>充<rp>(</rp><rt>じゅう</rt><rp>)</rp></ruby>は《論衡・書虛篇》中で<ruby>引<rp>(</rp><rt>いん</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>吳君高の言葉：[*「會稽本山名。夏禹巡狩、會計於此山、因以郡名、故曰會稽。」*]{style="color:#F6A217"}。詳細に就いては、[王充『論衡』に引用される古典就いての総合研究](documents/SDK00083FH-符方霞博士論文.pdf)や[王充の「聖王」観念に就いて―『論衡』における十二聖王像から見る―](documents/SDK00103YH-甲第103号胡亦名.pdf)を参照してください。*
 
 <br><br>
 
@@ -555,14 +555,14 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 課程：金融交昜の機械化を實踐する*
 - *03 課程：學習強化版交昜の戦略*
 - **學習金融交昜機械化専門講座**
-- **Github倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- **<ruby>貓<rp>(</rp><rt>ねこ</rt><rp>)</rp>舍<rp>(</rp><rt>しゃ</rt><rp>)</rp></ruby>倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 ### **[2021年12月から 今迄]{style="color:Red"}：専業証明書、パイソン編程と统计學の金融分析**；（[コーセラ](http://www.coursera.org) - [香港<ruby>科<rp>(</rp><rt>か</rt><rp>)</rp>技<rp>(</rp><rt>ぎ</rt><rp>)</rp></ruby>大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *課程：パイソン<ruby>編<rp>(</rp><rt>へん</rt><rp>)</rp>程<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>と统计學の金融分析*
-- **Github倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **貓舍倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -574,7 +574,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 課程：[<ruby>數<rp>(</rp><rt>す</rt><rp>)</rp>據<rp>(</rp><rt>きょ</rt><rp>)</rp></ruby>開発<ruby>視<rp>(</rp><rt>し</rt><rp>)</rp>覚<rp>(</rp><rt>かく</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp></ruby>工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 課程：[習得®編程<ruby>軟<rp>(</rp><rt>なん</rt><rp>)</rp>件<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>開発頂点](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**習得®編程軟件開発専門講座**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **Github倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **貓舍倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -585,28 +585,28 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*03 課程：強化版金融學*</s>
 - *04 課程：[強化版金融機械化の概要（パイソン編程）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
 - **學習強化版金融機械化専門講座**
-- **Github倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+- **貓舍倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 ### **2021年5月から 2021年7月迄：専業証明書、ベイズ統計混合模型**；（[コーセラ](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
 - *課程：[ベイズ統計<ruby>混<rp>(</rp><rt>こん</rt><rp>)</rp>合<rp>(</rp><rt>ごう</rt><rp>)</rp>模<rp>(</rp><rt>も</rt><rp>)</rp>型<rp>(</rp><rt>けい</rt><rp>)</rp></ruby>（®編程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **Github倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- **貓舍倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 ### **2021年1月から 2021年1月迄：専業証明書、生物情報學: 導論と方法**；（[コーセラ](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *課程：[生物情報學: 導論と方法（隠れマルコフ模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **Github倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+- **貓舍倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 ### **<s>2016月4月から 2019年7月</s> 2016年4月から 2016年6月迄：<s>學部、電脳科學繫</s>**；（[<ruby>人<rp>(</rp><rt>じん</rt><rp>)</rp>民<rp>(</rp><rt>みん</rt><rp>)</rp></ruby>大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*課程：<ruby>電<rp>(</rp><rt>でん</rt><rp>)</rp>脳<rp>(</rp><rt>のう</rt><rp>)</rp></ruby>科學*</s>
-- **Github倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- **貓舍倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
@@ -620,7 +620,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*06 課程：工藝向上*</s>
 - <s>*07 課程：提昇企業の財務と運営[<ruby>頂<rp>(</rp><rt>ちょう</rt><rp>)</rp>點<rp>(</rp><rt>てん</rt><rp>)</rp>項<rp>(</rp><rt>こう</rt><rp>)</rp>目<rp>(</rp><rt>もく</rt><rp>)</rp></ruby>]{style="color:#15237A"}*</s>
 - <s>**提昇企業の財務と運営専門講座**</s>
-- **Github倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- **貓舍倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
@@ -633,7 +633,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*05 課程：數據掘出中の<ruby>群<rp>(</rp><rt>む</rt><rp>)</rp></ruby>れ分析*</s>
 - <s>*06 課程：數據<ruby>掘<rp>(</rp><rt>ほり</rt><rp>)</rp>出<rp>(</rp><rt>だす</rt><rp>)</rp></ruby>[頂點項目]{style="color:#15237A"}*</s>
 - <s>**數據掘出専門講座**</s>
-- **Github倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- **貓舍倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -650,7 +650,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *09 課程：[數據製品開発](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 課程：[數據科學[頂點項目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**數據科學専門講座**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **Github倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **貓舍倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
@@ -662,7 +662,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*04 課程：パイソン編程で使用數據庫*</s>
 - <s>*05 課程：パイソン編程で數據を取得、処理と視覚化[頂點項目]{style="color:#15237A"}*</s>
 - <s>**皆の為にパイソン編程専門講座**</s>
-- **Github倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- **貓舍倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
@@ -705,7 +705,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *<ruby>簡<rp>(</rp><rt>かん</rt><rp>)</rp>介<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>：[**<ruby>世<rp>(</rp><rt>せい</rt><rp>)</rp>博<rp>(</rp><rt>ばく</rt><rp>)</rp>量<rp>(</rp><rt>りょう</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp></ruby>®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]が世界的な市場では、投資家の為の数理統計に<ruby>依<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>って高投資収益率を生産する量化投資管理會社です。*
 - *仕事詳細：金融市場で科學研究や統計建模、風険管理や高周波自動演算量化交昜、數據分析<ruby>等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>、<ruby>其rp>(</rp><rt>その</rt><rp>)</rp>後<rp>(</rp><rt>あと</rt><rp>)</rp></ruby>中國大陸に発展する。*
 
-[^3]: [*世博量化®（官網）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（<ruby>睑<rp>(</rp><rt>れん</rt><rp>)</rp>谱<rp>(</rp><rt>ぷ</rt><rp>)</rp></ruby>/<ruby>隈<rp>(</rp><rt>くま</rt><rp>)</rp>取<rp>(</rp><rt>どり</rt><rp>)</rp></ruby>）*](https://facebook.com/scibrokes).
+[^3]: [*世博量化®（官網）*](https://www.scibrokes.com)<br>[*世博量化®（貓舍倉庫）*](https://github.com/scibrokes)<br>[*世博量化®（<ruby>睑<rp>(</rp><rt>れん</rt><rp>)</rp>谱<rp>(</rp><rt>ぷ</rt><rp>)</rp></ruby>/<ruby>隈<rp>(</rp><rt>くま</rt><rp>)</rp>取<rp>(</rp><rt>どり</rt><rp>)</rp></ruby>）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -839,7 +839,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 研究と技術的な経験
 
-### **Github倉庫**：[**Real Time FXCM（FXCM<ruby>即<rp>(</rp><rt>そく</rt><rp>)</rp>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>數據伝達や為替交昜/為替取引）**](https://github.com/scibrokes/real-time-fxcm)
+### **貓舍倉庫**：[**Real Time FXCM（FXCM<ruby>即<rp>(</rp><rt>そく</rt><rp>)</rp>時<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>數據伝達や為替交昜/為替取引）**](https://github.com/scibrokes/real-time-fxcm)
 
 - *`sparklyr`等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>の<ruby>応<rp>(</rp><rt>おう</rt><rp>)</rp>用<rp>(</rp><rt>よう</rt><rp>)</rp></ruby>に依って、日内取引価格（交換比率）數據や即時取引価格（交換比率）數據を<ruby>採<rp>(</rp><rt>さい</rt><rp>)</rp>集<rp>(</rp><rt>しゅう</rt><rp>)</rp></ruby>する。*
 - *<ruby>高<rp>(</rp><rt>こう</rt><rp>)</rp>周<rp>(</rp><rt>しゅう</rt><rp>)</rp>波<rp>(</rp><rt>は</rt><rp>)</rp>算<rp>(</rp><rt>さん</rt><rp>)</rp>法<rp>(</rp><rt>ぽう</rt><rp>)</rp></ruby>の量化取引関して事研究する。*
@@ -847,20 +847,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**Analysing Financial Report of ALI（阿裏財務報表を分析する）**](https://github.com/englianhu/report)
+### **貓舍倉庫**：[**Analysing Financial Report of ALI（阿裏財務報表を分析する）**](https://github.com/englianhu/report)
 
 - *阿裏富くじ會社の財務報表、製品損益、會員損益、消費模式、會員<ruby>日<rp>(</rp><rt>にっ</rt><rp>)</rp>誌<rp>(</rp><rt>し</rt><rp>)</rp></ruby>記錄等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>を分析して、<ruby>最<rp>(</rp><rt>さい</rt><rp>)</rp>尤<rp>(</rp><rt>ゆう</rt><rp>)</rp>推<rp>(</rp><rt>すい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>する。*
 
 <br>
 
-### **Github倉庫**：[**Analysing Financial Report of Bookmakers（賭け屋の財務諸表や株価を分析する）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **貓舍倉庫**：[**Analysing Financial Report of Bookmakers（賭け屋の財務諸表や株価を分析する）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *㊑株式會社/企業の財務諸表や株価を分析する。*
 - *新寶壱や新寶弐の財務報表、製品損益を分析する。*
 
 <br>
 
-### **Github倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：<ruby>定<rp>(</rp><rt>てい</rt><rp>)</rp>量<rp>(</rp><rt>りょう</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp>解<rp>(</rp><rt>かい</rt><rp>)</rp>析<rp>(</rp><rt>せき</rt><rp>)</rp>師<rp>(</rp><rt>し</rt><rp>)</rp></ruby>を<ruby>求<rp>(</rp><rt>きゅう</rt><rp>)</rp>職<rp>(</rp><rt>しょく</rt><rp>)</rp></ruby>する）**](https://github.com/englianhu/binary.com-interview-question)
+### **貓舍倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：<ruby>定<rp>(</rp><rt>てい</rt><rp>)</rp>量<rp>(</rp><rt>りょう</rt><rp>)</rp>化<rp>(</rp><rt>か</rt><rp>)</rp>解<rp>(</rp><rt>かい</rt><rp>)</rp>析<rp>(</rp><rt>せき</rt><rp>)</rp>師<rp>(</rp><rt>し</rt><rp>)</rp></ruby>を<ruby>求<rp>(</rp><rt>きゅう</rt><rp>)</rp>職<rp>(</rp><rt>しょく</rt><rp>)</rp></ruby>する）**](https://github.com/englianhu/binary.com-interview-question)
 
 - *金融賭け製品の取引価格（交換比率）を統計建模して、また賭け戦略/注文戦略や<ruby>投<rp>(</rp><rt>とう</rt><rp>)</rp>資<rp>(</rp><rt>し</rt><rp>)</rp>収<rp>(</rp><rt>しゅう</rt><rp>)</rp>益<rp>(</rp><rt>えき</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp></ruby>を<ruby>回<rp>(</rp><rt>かい</rt><rp>)</rp>測<rp>(</rp><rt>そく</rt><rp>)</rp></ruby>する。*
 - *自回歸模型、<ruby>平<rp>(</rp><rt>へい</rt><rp>)</rp>滑<rp>(</rp><rt>かつ</rt><rp>)</rp></ruby>模型、廣義自回歸條件異方差<ruby>系<rp>(</rp><rt>けい</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型、ケリー標準統計模型等<rp>(</rp><rt>など</rt><rp>)</rp></ruby>を回測する。*
@@ -868,46 +868,46 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**Betting Strategy and Model Validation（富くじ取引戦略と統計模型を<ruby>検<rp>(</rp><rt>けん</rt><rp>)</rp>証<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>する）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **貓舍倉庫**：[**Betting Strategy and Model Validation（富くじ取引戦略と統計模型を<ruby>検<rp>(</rp><rt>けん</rt><rp>)</rp>証<rp>(</rp><rt>しょう</rt><rp>)</rp></ruby>する）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
 - *セレニウムとファントムズ軟件に依って、線上<ruby>蹴<rp>(</rp><rt>しゅう</rt><rp>)</rp>球<rp>(</rp><rt>きゅう</rt><rp>)</rp></ruby>數據を採集する。*
 - *自然言語解析して、蹴球試合の數據を採集し、線上賭け行事の球隊隊名と隊名を自動検証に一致させます。*
-- *ケリー標準統計模型の<ruby>槓<rp>(</rp><rt>こう</rt><rp>)</rp>桿<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>效應參數を<ruby>調<rp>(</rp><rt>ちょう</rt><rp>)</rp>整<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>して、回測[Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）](#github倉庫application-of-kelly-criterion-model-in-sportsbook-investmentケリー標準統計模型に依って富くじ行業中に投資する)。*
+- *ケリー標準統計模型の<ruby>槓<rp>(</rp><rt>こう</rt><rp>)</rp>桿<rp>(</rp><rt>かん</rt><rp>)</rp></ruby>效應參數を<ruby>調<rp>(</rp><rt>ちょう</rt><rp>)</rp>整<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>して、回測[Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）](#貓舍倉庫application-of-kelly-criterion-model-in-sportsbook-investmentケリー標準統計模型に依って富くじ行業中に投資する)。*
 
 <br>
 
-### **Github倉庫**：[**Introducing ®Studio Server for Data Scientists（數據科學家の為に®Studio服務器を介紹する）**](https://github.com/scibrokes/setup-rstudio-server)
+### **貓舍倉庫**：[**Introducing ®Studio Server for Data Scientists（數據科學家の為に®Studio服務器を介紹する）**](https://github.com/scibrokes/setup-rstudio-server)
 
 - *セント操作繫統七で自分の®Studio服務器と<ruby>閃<rp>(</rp><rt>せん</rt><rp>)</rp>霓<rp>(</rp><rt>にじ</rt><rp>)</rp></ruby>応用を建設する方法の講義。*
 
 <br>
 
-### **Github倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）**](https://github.com/scibrokes/kelly-criterion)
+### **貓舍倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（ケリー標準統計模型に依って富くじ行業中に投資する）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）](#github倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers指値の統計建模と測試非効率的ひこうりつてきな體育賭け屋)、そして蹴球試合の數據は[WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）](#github倉庫webdriver-dynamic-webpage-scrapping瀏覽器驅動と動態どうたい線上數據を採集する)から採集する。*
+- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）](#貓舍倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers指値の統計建模と測試非効率的ひこうりつてきな體育賭け屋)、そして蹴球試合の數據は[WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）](#貓舍倉庫webdriver-dynamic-webpage-scrapping瀏覽器驅動と動態どうたい線上數據を採集する)から採集する。*
 - *ケリー標準統計模型に依って、2011/12から2012/13迄の英國蹴球賽季で、拾<ruby>軒<rp>(</rp><rt>けん</rt><rp>)</rp></ruby>賭け屋に賭けます。*
 
 <br>
 
-### **Github倉庫**：[**Dixon-Coles1996（ディクソン-ウルズ1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
+### **貓舍倉庫**：[**Dixon-Coles1996（ディクソン-ウルズ1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996蹴球試合得点統計建模。*
 
 <br>
 
-### **Github倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **貓舍倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動と<ruby>動<rp>(</rp><rt>どう</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>線上數據を採集する）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 - *RSeneniumとパイソン編程に依って、[7M](http://odds.7m.hk/en)と[NowGoal](http://info.nowgoal.com/en)情報網から賭け屋の取引価格（交換比率）數據や蹴球試合得点を合わせるも採集する。*
 
 <br>
 
-### **Github倉庫**：[**Soccer League Web Scraping（線上蹴球試合數據を採集する）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+### **貓舍倉庫**：[**Soccer League Web Scraping（線上蹴球試合數據を採集する）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 - *<ruby>静<rp>(</rp><rt>せい</rt><rp>)</rp>態<rp>(</rp><rt>たい</rt><rp>)</rp></ruby>蹴球情報網の蹴球試合得点數據を採集する。*
 
 <br>
 
-### **Github倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **貓舍倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（指値の統計建模と測試<ruby>非<rp>(</rp><rt>ひ</rt><rp>)</rp>効<rp>(</rp><rt>こう</rt><rp>)</rp>率<rp>(</rp><rt>りつ</rt><rp>)</rp>的<rp>(</rp><rt>てき</rt><rp>)</rp></ruby>な體育賭け屋）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - [*500WAN*](http://www.500wan.com)*、[BET007](http://www.bet007.com)と[NowGoal](http://info.nowgoal.com/en)情報網から蹴球試合得点、賭け屋網站の標準盤、亜洲盤、大小の賭けで弐拾玖の賭けをしたもので、全っての數據には2006年から2011年迄の數據を手動で採集する*
 - *対角零<ruby>通<rp>(</rp><rt>つう</rt><rp>)</rp>膨<rp>(</rp><rt>ぼう</rt><rp>)</rp></ruby>雙變量ポアソン加權時間<ruby>序<rp>(</rp><rt>じょ</rt><rp>)</rp>列<rp>(</rp><rt>れつ</rt><rp>)</rp></ruby>模型に依って、<ruby>指<rp>(</rp><rt>さし</rt><rp>)</rp>値<rp>(</rp><rt>ね</rt><rp>)</rp></ruby>の統計建模や注文戦略や投資収益率に<ruby>最<rp>(</rp><rt>さい</rt><rp>)</rp>尤<rp>(</rp><rt>ゆう</rt><rp>)</rp>推<rp>(</rp><rt>すい</rt><rp>)</rp>定<rp>(</rp><rt>てい</rt><rp>)</rp></ruby>を回測する。*
@@ -927,7 +927,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github倉庫**：[**Apply Poisson regression on sports odds modelling（ポアソン模型に依って、體育賠率統計建模する）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **貓舍倉庫**：[**Apply Poisson regression on sports odds modelling（ポアソン模型に依って、體育賠率統計建模する）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 -  *単変量ポアソン模型に依って、蹴球賭け屋情報網の取引価格（交換比率）に統計建模する。*
 
@@ -1056,8 +1056,8 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年から 2013年迄**、專業蹴球取引価格建模論壇[體育統計學社區](http://soccer.oksport.cn)を設立した。
 - **2013年**、自分の®Studio服務器を設立して、情報網數據を採集する事を学び、臺灣に数ヶ月滞在して、外國為替會社の仕事を見つけましたが、間もなく辞めました。
 - **2013年7月から 2013年9月迄**、安邦でAIA大廈内の[米國友邦保険（AIA）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">で保険電話従業員に擔っています。
-- **2013年10月1號**、[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙は良く私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}について話します。
-- **2013年11月**、ある日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}について話していました。
+- **2013年10月1號**、[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙は良く私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}に就いて話します。
+- **2013年11月**、ある日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}に就いて話していました。
 - **2014年3月**、2014年3月31日に富士全禄前、瓜雪One Plaza購物広場後の森茶餐廳（Xing's Restaurant）でお兄さんに一ヶ月手伝った。
 - **2014年**、網遊関して仕事を幾つか探しました。
 - **2014年12月**、斯裏肯邦安大學嶺のAqua Health Service水機過濾器會社で電話従業員に擔っています。
@@ -1082,22 +1082,14 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 [^6]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) や [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) や [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) や [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
-私の詳細については、個人部落格を参照して下さい。
+私の詳細に就いては、個人部落格を参照して下さい。
 
-- [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
-- [GitHub 部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo 源代碼](https://github.com/englianhu/englianhu.github.io))
+- [博客平臺](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [貓舍部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([貓舍倉庫源代碼](https://github.com/englianhu/englianhu.github.io))
 - [簡書](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
 - [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`r lib('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
 <br><br>
 
@@ -1190,7 +1182,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集<ruby>版<rp>(</rp><rt>はん</rt><rp>)</rp>本<rp>(</rp><rt>ぽん</rt><rp>)</rp></ruby>：0.2.1
 - <ruby>著<rp>(</rp><rt>ちょ</rt><rp>)</rp>者<rp>(</rp><rt>しゃ</rt><rp>)</rp></ruby>情報：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-jp)
-- GitHub：[<ruby>原<rp>(</rp><rt>げん</rt><rp>)</rp>始<rp>(</rp><rt>し</rt><rp>)</rp>編<rp>(</rp><rt>へん</rt><rp>)</rp>碼<rp>(</rp><rt>め</rt><rp>)</rp></ruby>](https://github.com/scibrokes/owner)
+- 貓舍：[<ruby>原<rp>(</rp><rt>げん</rt><rp>)</rp>始<rp>(</rp><rt>し</rt><rp>)</rp>編<rp>(</rp><rt>へん</rt><rp>)</rp>碼<rp>(</rp><rt>め</rt><rp>)</rp></ruby>](https://github.com/scibrokes/owner)
 - 追加<ruby>附<rp>(</rp><rt>ふ‐</rt><rp>)</rp>屬<rp>(</rp><rt>ぞく</rt><rp>)</rp>信<rp>(</rp><rt>しん</rt><rp>)</rp>息<rp>(</rp><rt>そく</rt><rp>)</rp></ruby>
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}

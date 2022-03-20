@@ -555,14 +555,14 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 课程：实践金融交易机械化*
 - *03 课程：学习强化版交易策略*
 - **学习金融交易机械化专项课程**
-- **Github仓库**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- **猫舍仓库**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 ### **[2021年12月 迄今]{style="color:Red"}：专业文凭，派森编程与统计学之金融分析**；（[考试啦](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *课程：派森编程与统计学之金融分析*
-- **Github仓库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **猫舍仓库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -574,7 +574,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 课程：[开发数据视觉化工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 课程：[掌握®编程软件开发[顶点项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**掌握®编程软件开发专项课程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **Github仓库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **猫舍仓库**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -585,28 +585,28 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*03 课程：强化版金融学*</s>
 - *04 课程：[概述强化版金融机械化（派森编程）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
 - **学习强化版金融机械化专项课程**
-- **Github仓库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+- **猫舍仓库** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 ### **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[考试啦](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
 - *课程：[贝叶斯统计混合模型（®编程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **Github仓库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- **猫舍仓库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 ### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **Github仓库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+- **猫舍仓库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 ### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*课程：电脑科学*</s>
-- **Github仓库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- **猫舍仓库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
@@ -620,7 +620,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*06 课程：工艺提升*</s>
 - <s>*07 课程：提升企业财务和运营[顶点项目]{style="color:#15237A"}*</s>
 - <s>**提升企业财务和运营专项课程**</s>
-- **Github仓库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- **猫舍仓库** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
@@ -633,7 +633,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*05 课程：数据挖掘中的聚类分析*</s>
 - <s>*06 课程：数据挖掘[更新项目]{style="color:#15237A"}*</s>
 - <s>**数据挖掘专项课程**</s>
-- **Github仓库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- **猫舍仓库** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -650,7 +650,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *09 课程：[数据产品开发](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 课程：[数据科学[更新项目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**数据科学专项课程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **Github仓库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **猫舍仓库** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
@@ -662,7 +662,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*04 课程：在派森编程中使用数据库*</s>
 - <s>*05 课程：使用派森编程检索、处理和视觉化数据[顶点项目]{style="color:#15237A"}*</s>
 - <s>**为每个人而设的派森编程专项课程**</s>
-- **Github仓库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- **猫舍仓库** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
@@ -705,7 +705,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *简介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^3]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
 - *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
 
-[^3]: [*世博量化®（官网）*](https://www.scibrokes.com)<br>[*世博量化®（GitHub）*](https://github.com/scibrokes)<br>[*世博量化®（脸谱）*](https://facebook.com/scibrokes).
+[^3]: [*世博量化®（官网）*](https://www.scibrokes.com)<br>[*世博量化®（猫舍仓库）*](https://github.com/scibrokes)<br>[*世博量化®（脸谱）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -839,7 +839,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 科研项目
 
-### **Github仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
+### **猫舍仓库**：[**Real Time FXCM（FXCM实时数据与交易）**](https://github.com/scibrokes/real-time-fxcm)
 
 - *使用`sparklyr`等应用採集日内数据、数据流。*
 - *高频算法量化交易等等。*
@@ -847,20 +847,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github仓库**：[**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
+### **猫舍仓库**：[**Analysing Financial Report of ALI（分析阿里财务报表）**](https://github.com/englianhu/report)
 
 - *分析阿里彩票公司的财务报表、包括产品盈亏、会员盈亏、消费模式、会员日志记录等。*
 
 <br>
 
-### **Github仓库**：[**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **猫舍仓库**：[**Analysing Financial Report of Bookmakers（分析博彩公司财务报告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的财务报表与股价。*
 - *分析新宝一与新宝二的财务报表。*
 
 <br>
 
-### **Github仓库**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
+### **猫舍仓库**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申请量化交易员岗位）**](https://github.com/englianhu/binary.com-interview-question)
 
 - *回测金融投注建模，投注策略和比较投资收益率。*
 - *回测自回归模型、平滑模型、广义自回归条件异方差模型系列，包括凯利投注模型等等。*
@@ -868,46 +868,46 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **猫舍仓库**：[**Betting Strategy and Model Validation（博彩交易策略与模型验证）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
 - *使用Selenium硒网页应用程序测试工具和PhantomJS无头衔浏览器引擎软件採集网络足球彩券与赛事数据。*
 - *自然语言分析採集来的足球赛事数据，自动匹配球队队名与对冲基金的注单赛事队名。*
-- *运用凯利标准投注并调整不同的杠杆效应参数，回测[Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）](#github仓库application-of-kelly-criterion-model-in-sportsbook-investment在博彩行业中应用凯利标准模型进行投资)。*
+- *运用凯利标准投注并调整不同的杠杆效应参数，回测[Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）](#猫舍仓库application-of-kelly-criterion-model-in-sportsbook-investment在博彩行业中应用凯利标准模型进行投资)。*
 
 <br>
 
-### **Github仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
+### **猫舍仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
 
 - *如何在仙特操作系统七建立自己的®Studio服务器与闪霓应用的教程。*
 
 <br>
 
-### **Github仓库**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/scibrokes/kelly-criterion)
+### **猫舍仓库**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行业中应用凯利标准模型进行投资）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回测[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）](#github仓库odds-modelling-and-testing-inefficiency-of-sports-bookmakers赔率建模与测试体育博彩庄家的低效率)，而足球赛事数据採集于[WebDriver Dynamic Webpage Scrapping（网络驱动程序与採集动态网页信息）](#github仓库webdriver-dynamic-webpage-scrapping网络驱动程序与採集动态网页信息) 。*
+- *回测[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试体育博彩庄家的低效率）](#猫舍仓库odds-modelling-and-testing-inefficiency-of-sports-bookmakers赔率建模与测试体育博彩庄家的低效率)，而足球赛事数据採集于[WebDriver Dynamic Webpage Scrapping（网络驱动程序与採集动态网页信息）](#猫舍仓库webdriver-dynamic-webpage-scrapping网络驱动程序与採集动态网页信息) 。*
 - *回测凯利标准模型，投注于十家博彩公司的英国2011/12与2012/13赛季的赛事。*
 
 <br>
 
-### **Github仓库**：[**Dixon-Coles1996（迪克逊-克尔斯1996统计模型）**](https://github.com/scibrokes/Dixon-Coles1996)
+### **猫舍仓库**：[**Dixon-Coles1996（迪克逊-克尔斯1996统计模型）**](https://github.com/scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996 足球得分建模。*
 
 <br>
 
-### **Github仓库**：[**WebDriver Dynamic Webpage Scrapping（浏览器驱动与採集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **猫舍仓库**：[**WebDriver Dynamic Webpage Scrapping（浏览器驱动与採集动态网页信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 - *使用RSelenium与派森编程，从[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情报网採集博彩公司的赔率数据与赛事比分。*
 
 <br>
 
-### **Github仓库**：[**Soccer League Web Scraping（採集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+### **猫舍仓库**：[**Soccer League Web Scraping（採集网上足球联赛信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 - *採集静态网页足球赛事数据。*
 
 <br>
 
-### **Github仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试低效率的体育博彩庄家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **猫舍仓库**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（赔率建模与测试低效率的体育博彩庄家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - *手动收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)与[NowGoal](http://info.nowgoal.com/en)情报网的足球赛事比分与二十九家博彩公司的标准盘、亚洲盘、大小盘的赔率，所有数据包括从2006至2011的数据。*
 - *运用对角零通膨双变量泊松加权时间序列模型，回测赔率建模、投注策略和比较投资收益率。*
@@ -927,7 +927,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Github仓库**：[**Apply Poisson regression on sports odds modelling（在体育赔率建模中运用柏松线性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **猫舍仓库**：[**Apply Poisson regression on sports odds modelling（在体育赔率建模中运用柏松线性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 - *在足球赔率建模中运用单变量泊松模型。*
 
@@ -1084,20 +1084,12 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 欲知更多关于我的详情，请参阅个人部落格。
 
-- [WordPress 部落格](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
-- [GitHub 部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([GitHub Repo 源代码](https://github.com/englianhu/englianhu.github.io))
+- [博客平台](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
+- [猫舍部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([猫舍仓库源代码](https://github.com/englianhu/englianhu.github.io))
 - [简书](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
 - [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/XkriLEIOyqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/dtq88JrzYfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3pnXMEusQCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/E9_eAm2tTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/budv9DSiuko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`r lib('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
 <br><br>
 
@@ -1190,7 +1182,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集版本：0.2.1
 - 文集作者：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-cn)
-- GitHub：[源代码](https://github.com/scibrokes/owner)
+- 猫舍：[源代码](https://github.com/scibrokes/owner)
 - 追加附属信息
 
 ```{r info, warning=FALSE, error=TRUE, results='asis'}
