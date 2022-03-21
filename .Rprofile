@@ -1,3 +1,4 @@
+source("renv/activate.R")
 ##						Emacs please make this -*- R -*-
 ## empty Rprofile.site for R on Debian
 ##

@@ -21,10 +21,10 @@ server <- shinyServer(function(input, output, session) {
   #output$cv_page <- renderUI({
   #  
   #  page = switch(input$rb, 
-  #                en = 'ryo-en.html',
-  #                cn = 'ryo-cn.html',
-  #                tw = 'ryo-tw.html',
-  #                jp = 'ryo-jp.html')
+  #                en = 'www/ryo-en.html',
+  #                cn = 'www/ryo-cn.html',
+  #                tw = 'www/ryo-tw.html',
+  #                jp = 'www/ryo-jp.html')
   #  
     #HTML(markdown::markdownToHTML('ryo-en.md'))
     #HTML(rmarkdown::render(knit('ryo-en.Rmd')))
