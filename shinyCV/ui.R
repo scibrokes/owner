@@ -57,10 +57,11 @@ ui <- shinyUI(
           icon = icon('registered'))
         )), 
       tabItem(tabName = 'en', h2('🇬🇧 ENGLISH'), 
-              #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-en', 
-              #            height = 800, width = '100%', frameborder = 0)#, 
+              tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
+                          height = 800, width = '100%', frameborder = 0)#, 
               #HTML(readLines('www/ryo-en.html')), 
-              fluidPage(includeHTML('www/ryo-en.html'))), 
+              #fluidPage(includeHTML('www/ryo-en.html'))
+              ), 
       tabItem(tabName = 'cn', h2('🇨🇳 简体中文'), 
               #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
               #            height = 800, width = '100%', frameborder = 0), 
