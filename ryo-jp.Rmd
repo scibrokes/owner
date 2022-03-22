@@ -375,7 +375,7 @@ resource_files:
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
-[^0]: [此菜只應天上有、人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0)<br>As fantastic/heavenly as this dish, it's one in the million of a chance to have it made so exquisite and one in the million for you to have.（<ruby>此<rp>(</rp><rt>この</rt><rp>)</rp></ruby>野菜/料理が天堂にあるべきで,人間ではめったに何度も食べられない。）
+[^0]: \- [此菜🥬只應天上有、人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0) は「<ruby>此<rp>(</rp><rt>この</rt><rp>)</rp></ruby>野菜🥬 / 料理が天堂に有るべきで,人間では<ruby>滅<rp>(</rp><rt>めっ</rt><rp>)</rp>多<rp>(</rp><rt>た</rt><rp>)</rp></ruby>に何度も食べられない。」という意味で御座います。
 
 ------
 
@@ -521,10 +521,10 @@ op <- options(gvis.plot.tag = 'chart')
 |:----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------:|
 | [<ruby>姓<rp>(</rp><rt>せい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}[^1]         |                                                                         <ruby>黃<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby> |
 | [<ruby>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}             |                                     <ruby>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby> |
-| [<ruby>字<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}               |                                            <ruby>阿<rp>(</rp><rt>あ</rt><rp>)</rp>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> |
+| [<ruby>字<rp>(</rp><rt>じ</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}               |  [阿<ruby>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby>🐯 ]{style="color:RoyalBlue"}[^2](<ruby>虎<rp>(</rp><rt>とら</rt><rp>)</rp></ruby>ちゃん) |
 | [<ruby>號<rp>(</rp><rt>ごう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}             |                                                                                                                     リョウ |
-| [<ruby>仮<rp>(</rp><rt>か</rt><rp>)</rp>設<rp>(</rp><rt>せつ</rt><rp>)</rp>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"} |  <ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp>介<rp>(</rp><rt>すけ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby> |
-| [<ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp>名<rp>(</rp><rt>みょう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}                  |                      Mr. <ruby>滬<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> / <ruby>滸<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby> / <ruby>阿<rp>(</rp><rt>あ</rt><rp>)</rp>滬<rp>(</rp><rt>hù</rt><rp>)</rp></ruby> / <ruby>富<rp>(</rp><rt>ふ</rt><rp>)</rp>仔<rp>(</rp><rt>ザイ</rt><rp>)</rp></ruby>(<ruby>粵<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>) |
+| [<ruby>仮<rp>(</rp><rt>か</rt><rp>)</rp>設<rp>(</rp><rt>せつ</rt><rp>)</rp>名<rp>(</rp><rt>めい</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"} |  🎎<ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp>介<rp>(</rp><rt>すけ</rt><rp>)</rp>建<rp>(</rp><rt>けん</rt><rp>)</rp>次<rp>(</rp><rt>じ</rt><rp>)</rp></ruby> |
+| [<ruby>別<rp>(</rp><rt>べつ</rt><rp>)</rp>名<rp>(</rp><rt>みょう</rt><rp>)</rp></ruby>]{style="color:RoyalBlue"}                  |                      Mr. <ruby>滬<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby> / <ruby>滸<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby> / 阿滬 / <ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>(🇭🇰<ruby>粵<rp>(</rp><rt>えつ</rt><rp>)</rp></ruby>) |
 | <ruby>誕<rp>(</rp><rt>たん</rt><rp>)</rp>生<rp>(</rp><rt>じょう</rt><rp>)</rp>日<rp>(</rp><rt>び</rt><rp>)</rp></ruby>            |  <ruby>壱<rp>(</rp><rt>せん</rt><rp>)</rp>玖<rp>(</rp><rt>きゅうひゃく</rt><rp>)</rp>捌<rp>(</rp><rt>はちじゅう</rt><rp>)</rp>肆<rp>(</rp><rt>よ</rt><rp>)</rp>年<rp>(</rp><rt>ねん</rt><rp>)</rp>拾<rp>(</rp><rt>じゅう</rt><rp>)</rp>月<rp>(</rp><rt>がつ</rt><rp>)</rp>弐<rp>(</rp><rt>に</rt><rp>)</rp>拾<rp>(</rp><rt>じゅう</rt><rp>)</rp>弐<rp>(</rp><rt>に</rt><rp>)</rp>日<rp>(</rp><rt>にち</rt><rp>)</rp></ruby> |
 | <ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp>齡<rp>(</rp><rt>れい</rt><rp>)</rp></ruby>     | `r interval(dmy('22-10-1984', tz = 'Asia/Shanghai'), now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
 | <ruby>行動電話番號                      |                                                                                            🇲🇾 [+6-017-6482776](tel:+60176482776) |
@@ -1045,10 +1045,10 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2003年から 2005年迄**、谷中城前の[JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/>內の[築地マート](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/>で雑貨屋店員に擔っています。
 - **2003年から 2005年迄**、[拉曼學院電腦科學繫の同級生兼親友謝德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style="color:RoyalBlue"}[^4]の御<ruby>蔭<rp>(</rp><rt>かけ</rt><rp>)</rp></ruby>に、彼の故郷適耕荘の高峰電腦中心に採用して行く、櫃臺店員に擔っています。
 - **2006年2月**、特裏必斯で仕事時、余暇に安邦韓國村に韓國語を勉強して、韓國村辺に韓國跆拳道館で跆拳道も學びます。
-- **2006年7月**、特裏必斯で仕事時、態々新加坡喜來登酒店樓下大廳で歐陽兄弟二人（歐陽金泰と歐陽金喜）に面試して、弐叄週間後歐陽金喜は急いで焦頼のある観光中心に電話して亜美に會って航空券に持って来れ後、菲律賓に仕事を行って、其時元會社を辞めずに菲律賓に飛んで行きました。
+- **2006年7月**、特裏必斯で仕事時、態々新加坡喜來登酒店樓下大廳で歐陽兄弟二人（歐陽金泰と歐陽金喜）に面試して、弐叄週間後歐陽金喜は急いで焦頼の有る観光中心に電話して亜美に會って航空券に持って来れ後、菲律賓に仕事を行って、其時元會社を辞めずに菲律賓に飛んで行きました。
 - **2006年7月から 2006年12月迄**、馬尼拉で客世博に仕事時、<ruby>幾<rp>(</rp><rt>いく</rt><rp>)</rp></ruby>つかの日本語中心と韓國語中心に講義にお問い合わせして、[日本國際交流基金會（菲）](https://jfmo.org.ph) 一級の日本語能力試験に出願して、同年末2006年12月[德拉薩大學（馬尼拉）](https://www.dlsu.edu.ph)に高級日本語能力試験を受験した。
 - **2007年1月から 2007年4月迄**、馬尼拉で客世博に仕事時、[歌德學院（菲）](https://www.goethe.de/ins/ph/en/spr/kur/all.html)に[德語業余課程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)を勉強した。
-- **2006年7月から 2007年4月迄**、馬尼拉で客世博に仕事時、曾威廉は良く練習武を誘って泰拳(日本合気道、韓國合気道もある)を練習したが、泰拳館は會社と同じビルPBComの一階にあるだけだ。
+- **2006年7月から 2007年4月迄**、馬尼拉で客世博に仕事時、曾威廉は良く練習武を誘って泰拳(日本合気道、韓國合気道も有る)を練習したが、泰拳館は會社と同じビルPBComの一階に有るだけだ。
 - **2007年8月から 2008年3月迄**、お兄さんは怡觀園の皇帽旗下代理餐館（臺灣女店長経営者明珠 --- 大家樂小食中心）は屋台を開いて行商人になった。
 - **2009年から 2010年**、西世康で仕事時、僑豊銀行と聯昌銀行(新加坡)を通じて、香港と米國の金融市場で取引を開始した。
 - **2009年から 2010年迄**、西世康で仕事時、同僚傑克蘇は私と一緒に中華武館と健身中心に相談して、私は沙登の中華武館で洪拳と長拳を勉強しました。
@@ -1057,14 +1057,14 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2013年**、自分の®Studio服務器を設立して、情報網數據を採集する事を学び、臺灣に数ヶ月滞在して、外國為替會社の仕事を見つけましたが、間もなく辞めました。
 - **2013年7月から 2013年9月迄**、安邦でAIA大廈内の[米國友邦保険（AIA）](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">で保険電話従業員に擔っています。
 - **2013年10月1號**、[Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙は良く私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}に就いて話します。
-- **2013年11月**、ある日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}に就いて話していました。
+- **2013年11月**、有る日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}に就いて話していました。
 - **2014年3月**、2014年3月31日に富士全禄前、瓜雪One Plaza購物広場後の森茶餐廳（Xing's Restaurant）でお兄さんに一ヶ月手伝った。
 - **2014年**、網遊関して仕事を幾つか探しました。
 - **2014年12月**、斯裏肯邦安大學嶺のAqua Health Service水機過濾器會社で電話従業員に擔っています。
 - **2016年**、怡観園のMybooks出版社で業務員に擔って、元々は雪州でだったが、後に吉打州に移った。
-- **2018年**、無拉港Aeon購物広場の後ろにある大徳古早味肉古茶行（前臺後臺も含む）で店員に擔って、間には他の二つ支店が働いている（無拉港Aeon購物広場の後ろ、疎邦再也精英大學の向こう、國内最大の夜市焦頼康楽花園）。
-- **2018年**、ある古早味頭手の紹介を経て、無拉港Aeon購物広場の向こう（焦頼南町118）の記徳撈*海鮮鍋料理*（PTN Steamboat Restaurant）で短期仕事をした。
-- **2018年**、柬埔寨西哈努克港の[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>で事務支援員にした時、危険過ぎる。ある日昼休みの弐階寮大爆発と多くの銃声の後、沢山同僚は次々と會社に逃げて、ある太い經理が歩いてきて私に直ぐに帰國するように言った。
+- **2018年**、無拉港Aeon購物広場の後ろに有る大徳古早味肉古茶行（前臺後臺も含む）で店員に擔って、間には他の二つ支店が働いている（無拉港Aeon購物広場の後ろ、疎邦再也精英大學の向こう、國内最大の夜市焦頼康楽花園）。
+- **2018年**、有る古早味頭手の紹介を経て、無拉港Aeon購物広場の向こう（焦頼南町118）の記徳撈*海鮮鍋料理*（PTN Steamboat Restaurant）で短期仕事をした。
+- **2018年**、柬埔寨西哈努克港の[Golden-Royal（黃金城）](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/>で事務支援員にした時、危険過ぎる。有る日昼休みの弐階寮大爆発と多くの銃声の後、沢山同僚は次々と會社に逃げて、有る太い經理が歩いてきて私に直ぐに帰國するように言った。
 - **2018年**、ブロン王（Bron Ong）は臉譜通じて新山真人荷官（協力業者は柬埔寨西哈努克港）の事務支援員を採用し、一ヶ月間働いていた（非常に危険で、會社が偽って従業員を辞めさせない）、母が亡くなった後雪州に帰った。
 - **2020年10月10號**、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を再登録した。
 
@@ -1078,7 +1078,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^6]が量化圈の成功人士だから、皆さんは勉強はずだ。此頃自分の量化避険基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}設立を學んで、閃霓応用に依って高周波算法量化自動交易系統を配置してる。自分の®Studio服務器建設興趣がある人々は此処に[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>参照して、量化交易の熱意者達は[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}に依って本人に聯系する。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^6]が量化圈の成功人士だから、皆さんは勉強はずだ。此頃自分の量化避険基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}設立を學んで、閃霓応用に依って高周波算法量化自動交易系統を配置してる。自分の®Studio服務器建設興趣が有る人々は此処に[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>参照して、量化交易の熱意者達は[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}に依って本人に聯系する。
 
 [^6]: [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco) や [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml) や [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c) や [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
@@ -1246,11 +1246,11 @@ sys
 
 ## 參考文獻
 
-- 自身の履歴書を作成する事に興味があるなら、[Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)を参照してください。
+- 自身の履歴書を作成する事に興味が有るなら、[Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)を参照してください。
 - [prettydoc](http://yixuan.cos.name/prettydoc)。
 - [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)。
 - [timeline](http://stackoverflow.com/questions/20695311/chronological-timeline-with-points-in-time-and-format-date)と[timeline](http://jason.bryer.org/timeline)に参考して、プロットする事ができます。
-- [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)パッケージで使えなら、アニメーショングラフをプロットする。興味があるなら[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)に元々例が参考する。
+- [googleVis](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)パッケージで使えなら、アニメーショングラフをプロットする。興味が有るなら[vignettes](https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis.pdf)に元々例が参考する。
 - また、参照[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)に依って網站外觀を変更する事もできます。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)は多様化したシンボルがたくさんあります。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
