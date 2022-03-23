@@ -82,7 +82,26 @@ ui <- shinyUI(
               #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
               #            height = 800, width = '100%', frameborder = 0), 
               #HTML(readLines('www/ryo-jp.html')), 
-              fluidPage(includeHTML('www/ryo-jp.html')))), 
+              #fluidPage(includeHTML('www/ryo-jp.html'))
+              ),
+      tabItem(tabName = 'kr', h2('🇰🇷 한국어'), 
+              #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
+              #            height = 800, width = '100%', frameborder = 0), 
+              #HTML(readLines('www/ryo-cn.html')), 
+              #fluidPage(includeHTML('www/ryo-cn.html'))
+              ), 
+      tabItem(tabName = 'de', h2('🇩🇪 Deutsch'), 
+              #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
+              #            height = 800, width = '100%', frameborder = 0), 
+              #HTML(readLines('www/ryo-tw.html')), 
+              #fluidPage(includeHTML('www/ryo-tw.html'))
+              ), 
+      tabItem(tabName = 'fr', h2('🇫🇷 français'), 
+              #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
+              #            height = 800, width = '100%', frameborder = 0), 
+              #HTML(readLines('www/ryo-jp.html')), 
+              #fluidPage(includeHTML('www/ryo-jp.html'))
+              )), 
     br(), 
     p('Powered by - Copyright® Intellectual Property Rights of ', 
       tags$a(href='https://www.scibrokes.com', target = '_blank', 
