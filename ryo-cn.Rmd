@@ -500,8 +500,10 @@ if (suppressMessages(!require('rmsfuns'))) {
   suppressMessages(library('rmsfuns'))
 }
 
+if(!require('REmap')) devtools::install_github('lchiffon/REmap')
+
 ## Loading multiple packages at once
-pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets')
+pkgs <- c('plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets'， 'REmap')
 
 #suppressAll(lib(pkgs)); rm(pkgs)
 load_pkg(pkgs); rm(pkgs)
@@ -1110,6 +1112,40 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 `r lib('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
+```{r REmap-setting, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
+## Reinitialized the REmap setting
+remap.init()
+```
+
+```{r read-data, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
+## Setup a data frame format cities
+data = data.frame(country = mapNames('world'), value = 5 * sample(178) + 200)
+
+vec = c('Tokyo', 'Shanghai', 'New York', 'Sydney', 'London', 'Bangkok', 'Taipei', 
+        'Moscow', 'Beijing', 'Washington', 'Lyon', 'Milan', 'Rome', 'Macao', #'Guangzhou', 
+        'Singapore', 'Hong Kong', 'Kuala Lumpur', 'Madrid', 'Geneva', 'Paris', 
+        'Melbourne', 'Boston', 'Washington', 'Liverpool', 'Brighton', 'Bali', 
+        'San Francisco', 'Jakarta', 'Ho Chi Minh', 'Brasilia', 'Barcelona', 
+        'Rio de Janeiro', 'Buenos Aires', 'Bern', 'Basel', 'Zurich', 'Manila', 
+        'Toronto', 'Vancouver', 'Budapest', 'New Delhi', 'Thimphu', 'Mumbai', 
+        'Cairo', 'Greater Johannesburg', 'Durban', 'Alexandria', 'Zaria', 'Dubai', 
+        'Istanbul', 'Mexico City', 'Sapporo', 'Osaka', 'Ulaanbaatar', 'Vienna')
+
+## Get world city geocode by ggmap
+geodata = suppressAll(as.data.frame(cbind(geocode(vec), vec)))
+
+## Design a line data.frame
+markLinedata = data.frame(origin = rep('Beijing', 54), destination = vec[-2])
+```
+
+```{r plot-map, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
+## Plot the REmap shining 
+p <- remapC(data, maptype = 'world', color = c('black', 'black'),
+       theme = get_theme(backgroundColor = 'black'),
+       markPointData = vec, markLineData = markLinedata, geoData = geodata)
+knitrREmap(p, local = FALSE)
+```
+
 <br><br>
 
 ## 社交媒体
@@ -1275,6 +1311,7 @@ sys
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
 - [`echarts4r`](https://echarts4r.john-coene.com) ®程序包。
 - [`sass`](https://rstudio.github.io/sass) ®程序包。
+- [GitHub : r-world](https://github.com/scibrokes/r-world)
 
 <br><br>
 
