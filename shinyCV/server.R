@@ -1,11 +1,14 @@
-require('shiny')
-require('shinythemes')
-require('shinydashboard')
-require('dashboardthemes')
-require('shinyWidgets')
-require('shinyjs')
+require('BBmisc')
+lib('shiny')
+lib('shinythemes')
+lib('shinydashboard')
+lib('shinydashboardPlus')
+lib('dashboardthemes')
+lib('shinyWidgets')
+lib('shinyjs')
+lib('memoise')
 if(!require('XML')) devtools::install_github('omegahat/XML')
-require('XML')
+lib('XML')
 
 server <- shinyServer(function(input, output, session) {
   
@@ -42,21 +45,21 @@ server <- shinyServer(function(input, output, session) {
   #  updateTabItems(session, "tabs", newtab)
   #})
   
-  observeEvent(input$rb == 'en', {
-    updateTabItems(session, "tabs", selected = "en")
-  })
+  #observeEvent(input$rb == 'en', {
+  #  updateTabItems(session, "tabs", selected = "en")
+  #})
   
-  observeEvent(input$rb == 'cn', {
-    updateTabItems(session, "tabs", selected = "cn")
-  })
+  #observeEvent(input$rb == 'cn', {
+  #  updateTabItems(session, "tabs", selected = "cn")
+  #})
   
-  observeEvent(input$rb == 'tw', {
-    updateTabItems(session, "tabs", selected = "tw")
-  })
+  #observeEvent(input$rb == 'tw', {
+  #  updateTabItems(session, "tabs", selected = "tw")
+  #})
   
-  observeEvent(input$rb == 'jp', {
-    updateTabItems(session, "tabs", selected = "jp")
-  })
+  #observeEvent(input$rb == 'jp', {
+  #  updateTabItems(session, "tabs", selected = "jp")
+  #})
   
   #output$ryo_en <- renderUI({
   #  #HTML(markdown::markdownToHTML('ryo-en.md'))
@@ -81,6 +84,37 @@ server <- shinyServer(function(input, output, session) {
   #  #HTML(rmarkdown::render(knit('ryo-en.Rmd')))
   #  includeHTML("ryo-jp.html")
   #})
+  
+  #observeEvent(input$rb, {
+  #  updateTabItems(session, input$rb,
+  #                    selected = input$rb)
+  #})
+  
+  #observeEvent(input$rb, {
+    #tbs <- c('en', 'cn', 'tw', 'jp', 'kr', 'de', 'fr', 'it')
+  #  newtab <- switch(input$tabs, 
+  #                   'en' = 'en', 
+  #                   'cn' = 'cn', 
+  #                   'tw' = 'tw', 
+  #                   'jp' = 'jp', 
+  #                   'kr' = 'kr', 
+  #                     'de' = 'de', 
+  #                   'fr' = 'fr', 
+  #                   'it' = 'it')
+  #  updateTabItems(session, 'tabs', newtab)#, selected = input$rb)
+  #})
+  
+  observeEvent(input$rb, {
+    updatePrettyRadioButtons(
+      session = session,
+      inputId = 'rb',
+      choices = c('en', 'cn', 'tw', 'jp', 'kr', 'de', 'fr', 'it'),
+      prettyOptions = list(animation = 'pulse', status = 'info', 
+                           shape = 'curve', status = 'primary', 
+                           thick = TRUE, width = '100%', 
+                           bigger = TRUE, icon = icon('registered')))
+  }, ignoreInit = TRUE)
+  
 })
 
 #shinyApp(server = server, ui = ui)
