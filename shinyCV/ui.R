@@ -26,7 +26,7 @@ alignCenter <- memoise(function(el) {
 })
 
 ui <- shinyUI(
-  shinydashboardPlus::dashboardPage(
+  shinydashboardPlus::dashboardPage(#skin = 'midnight', 
     header = shinydashboardPlus::dashboardHeader(title = logo),
     
     sidebar = shinydashboardPlus::dashboardSidebar(
@@ -55,7 +55,7 @@ ui <- shinyUI(
       tabItems(
         tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), alignCenter(
           prettyRadioButtons(
-            inputId = 'rb', label = '', 
+            inputId = 'rb', label = NULL, 
             choices = c('🇬🇧 ENGLISH' = 'en',
                         '🇨🇳 简体中文' = 'cn', 
                         '🇹🇼 繁体中文' = 'tw', 

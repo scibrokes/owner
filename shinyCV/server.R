@@ -45,21 +45,21 @@ server <- shinyServer(function(input, output, session) {
   #  updateTabItems(session, "tabs", newtab)
   #})
   
-  #observeEvent(input$rb == 'en', {
-  #  updateTabItems(session, "tabs", selected = "en")
-  #})
+  observeEvent(input$rb == 'en', {
+    updateTabItems(session, "tabs", selected = "en")
+  })
   
-  #observeEvent(input$rb == 'cn', {
-  #  updateTabItems(session, "tabs", selected = "cn")
-  #})
+  observeEvent(input$rb == 'cn', {
+    updateTabItems(session, "tabs", selected = "cn")
+  })
   
-  #observeEvent(input$rb == 'tw', {
-  #  updateTabItems(session, "tabs", selected = "tw")
-  #})
+  observeEvent(input$rb == 'tw', {
+    updateTabItems(session, "tabs", selected = "tw")
+  })
   
-  #observeEvent(input$rb == 'jp', {
-  #  updateTabItems(session, "tabs", selected = "jp")
-  #})
+  observeEvent(input$rb == 'jp', {
+    updateTabItems(session, "tabs", selected = "jp")
+  })
   
   #output$ryo_en <- renderUI({
   #  #HTML(markdown::markdownToHTML('ryo-en.md'))
@@ -104,16 +104,16 @@ server <- shinyServer(function(input, output, session) {
   #  updateTabItems(session, 'tabs', newtab)#, selected = input$rb)
   #})
   
-  observeEvent(input$rb, {
-    updatePrettyRadioButtons(
-      session = session,
-      inputId = 'rb',
-      choices = c('en', 'cn', 'tw', 'jp', 'kr', 'de', 'fr', 'it'),
-      prettyOptions = list(animation = 'pulse', status = 'info', 
-                           shape = 'curve', status = 'primary', 
-                           thick = TRUE, width = '100%', 
-                           bigger = TRUE, icon = icon('registered')))
-  }, ignoreInit = TRUE)
+  #observeEvent(input$rb, {
+  #  updatePrettyRadioButtons(
+  #    session = session,
+  #    inputId = 'rb',
+  #    choices = c('en', 'cn', 'tw', 'jp', 'kr', 'de', 'fr', 'it'),
+  #    prettyOptions = list(animation = 'pulse', status = 'info', 
+  #                         shape = 'curve', status = 'primary', 
+  #                         thick = TRUE, width = '100%', 
+  #                         bigger = TRUE, icon = icon('registered')))
+  #}, ignoreInit = TRUE)
   
 })
 
