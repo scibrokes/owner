@@ -1129,7 +1129,7 @@ countries <- geodata$country |>
   unique()
 
 ## randomly set country codes
-data = data.frame(country = countries, value = 5 * sample(length(countries)) + 200)
+data = tibble(country = countries, value = 5 * sample(length(countries)) + 200)
 
 ## cities
 vec <- geodata$city
@@ -1139,8 +1139,8 @@ geodata <- geodata |>
   dplyr::select(lon, lat, city) |> 
     dplyr::rename(vec = city)
 
-## Design a line data.frame
-markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+## Design a line data frame
+markLinedata = tibble(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
 ```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
@@ -1254,26 +1254,26 @@ suppressMessages(require('devtools', quietly = TRUE))
 
 sys1 <- session_info()$platform |> 
     unlist() |> 
-    {\(.) data.frame(row.names = seq_along(.), 
+    {\(.) tibble(row.names = seq_along(.), 
                      Category = names(.), session_info = .)}()
 
-sys2 <- data.frame(Sys.info()) |> 
-    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
+sys2 <- tibble(Sys.info()) |> 
+    {\(.) tibble(Category = row.names(.), Sys.info = .[,1])}()
 
 #remarks, dim(sys1), dim(sys2)
 if (nrow(sys1) == 11 & nrow(sys2) == 8) {
   sys2 <- sys2 |> 
-    {\(.) rbind(., data.frame(
+    {\(.) rbind(., tibble(
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺️'))))}()
   
 } else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
-  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
+  sys1 <- rbind(sys1, tibble(Category = '', session_info = ''))
   
   sys2 <- sys2 |> 
-    {\(.) rbind(., data.frame(
+    {\(.) rbind(., tibble(
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
