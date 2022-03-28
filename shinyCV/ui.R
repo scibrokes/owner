@@ -26,6 +26,17 @@ alignCenter <- memoise(function(el) {
 })
 
 ui <- shinyUI(
+  
+  #fluidPage(
+    ## https://dreamrs.github.io/shinyWidgets/reference/setBackgroundColor.html
+    # use a gradient in background
+  #  setBackgroundColor(
+  #    color = c('#2171B5', '#F7FBFF'),
+  #    gradient = 'radial',
+  #    direction = c('top', 'left')
+  #    ),
+  #...)
+  #
   shinydashboardPlus::dashboardPage(#skin = 'midnight', 
     header = shinydashboardPlus::dashboardHeader(title = logo),
     
@@ -52,6 +63,75 @@ ui <- shinyUI(
     
     body = dashboardBody(
       shinyDashboardThemes(theme = 'blue_gradient'), 
+      
+      ## https://stackoverflow.com/questions/52198452/how-to-change-the-background-color-of-the-shiny-dashboard-body
+      tags$head(tags$style(HTML('
+                                /* logo */
+                                /* .skin-blue .main-header .logo { */
+                                /* background-color: #f4b943; */
+                                /* } */
+                                
+                                /* logo when hovered */
+                                .skin-blue .main-header .logo:hover {
+                                /* background-color: #146275; */
+                                color: #FFD64D;
+                                background: linear-gradient(155deg, #17687C 0%, #146275 100%);
+                                transition: all 0.45s;
+                                &:hover{
+                                  background: linear-gradient(155deg, #17687C 20%, #3098B3 80%);
+                                  }
+                                }
+                                
+                                /* navbar (rest of the header) */
+                                .skin-blue .main-header .navbar {
+                                /* background-color: #f4b943; */
+                                color: #FFD64D;
+                                background: linear-gradient(155deg, #17687C 0%, #146275 100%);
+                                transition: all 0.45s;
+                                &:hover{
+                                  background: linear-gradient(155deg, #17687C 20%, #146275 80%);
+                                  }
+                                }
+                                
+                                /* main sidebar */
+                                /* .skin-blue .main-sidebar { */
+                                /* background-color: #f4b943; */
+                                /* } */
+                                
+                                /* active selected tab in the sidebarmenu */
+                                .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                                background-color: #ff0000;
+                                }
+                                
+                                /* other links in the sidebarmenu */
+                                /* .skin-blue .main-sidebar .sidebar .sidebar-menu a{ */
+                                /* background-color: #00ff00; */
+                                /* color: #000000; */
+                                /* } */
+                                
+                                /* other links in the sidebarmenu when hovered */
+                                .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                                /* background-color: #FFD64D; */
+                                /* color: #FFD64D; */
+                                }
+                                
+                                /* toggle button when hovered  */
+                                .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                                /* background-color: #FFD64D; */
+                                color: #FFD64D;
+                                background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+                                transition: all 0.45s;
+                                &:hover{
+                                  background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+                                  }
+                                }
+
+                                /* body */
+                                .content-wrapper, .right-side {
+                                background-color: #7da2d1;
+                                }
+                                '))), 
+      
       tabItems(
         tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), alignCenter(
           prettyRadioButtons(
