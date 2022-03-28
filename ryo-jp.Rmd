@@ -460,7 +460,7 @@ h5 { color: #92AAC7; }
   }
 ```
 
-```{r global_options, class.source='hover01', class.output='hover02'}
+```{r global_options, class.source = 'hover01', class.output = 'hover02'}
 ## https://stackoverflow.com/a/36846793/3806250
 options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
@@ -479,7 +479,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 ## <ruby>設<rp>(</rp><rt>せっ</rt><rp>)</rp>置<rp>(</rp><rt>ち</rt><rp>)</rp></ruby>
 
-```{r, eval=FALSE}
+```{r, eval = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
@@ -1113,38 +1113,42 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 `r lib('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
-```{r REmap-setting, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
+```{r REmap-setting, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Reinitialized the REmap setting
 remap.init()
 ```
 
-```{r read-data, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
-## Setup a data frame format cities
-data = data.frame(country = mapNames('world'), value = 5 * sample(178) + 200)
+```{r read-geodata, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
+## Get world city geocode by simplemaps.com
+geodata <- readr::read_csv('data/worldcities.csv') |> 
+  dplyr::filter(capital == 'primary') |> 
+  dplyr::select(lng, lat, country, city) |> 
+  dplyr::rename(lon = lng)
 
-vec = c('Tokyo', 'Shanghai', 'New York', 'Sydney', 'London', 'Bangkok', 'Taipei', 
-        'Moscow', 'Beijing', 'Washington', 'Lyon', 'Milan', 'Rome', 'Macao', #'Guangzhou', 
-        'Singapore', 'Hong Kong', 'Kuala Lumpur', 'Madrid', 'Geneva', 'Paris', 
-        'Melbourne', 'Boston', 'Washington', 'Liverpool', 'Brighton', 'Bali', 
-        'San Francisco', 'Jakarta', 'Ho Chi Minh', 'Brasilia', 'Barcelona', 
-        'Rio de Janeiro', 'Buenos Aires', 'Bern', 'Basel', 'Zurich', 'Manila', 
-        'Toronto', 'Vancouver', 'Budapest', 'New Delhi', 'Thimphu', 'Mumbai', 
-        'Cairo', 'Greater Johannesburg', 'Durban', 'Alexandria', 'Zaria', 'Dubai', 
-        'Istanbul', 'Mexico City', 'Sapporo', 'Osaka', 'Ulaanbaatar', 'Vienna')
+countries <- geodata$country |> 
+  unique()
 
-## Get world city geocode by ggmap
-geodata = suppressAll(as.data.frame(cbind(geocode(vec), vec)))
+## randomly set country codes
+data = data.frame(country = countries, value = 5 * sample(length(countries)) + 200)
+
+## cities
+vec <- geodata$city
+
+## lon & lat of cities
+geodata <- geodata |> 
+  dplyr::select(lon, lat, city) |> 
+    dplyr::rename(vec = city)
 
 ## Design a line data.frame
-markLinedata = data.frame(origin = rep('Beijing', 54), destination = vec[-2])
+markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
-```{r plot-map, echo=FALSE, warning=FALSE, error=TRUE, results='asis'}
+```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Plot the REmap shining 
-p <- remapC(data, maptype = 'world', color = c('black', 'black'),
+wmap <- remapC(data, maptype = 'world', color = c('black', 'black'),
        theme = get_theme(backgroundColor = 'black'),
        markPointData = vec, markLineData = markLinedata, geoData = geodata)
-knitrREmap(p, local = FALSE)
+knitrREmap(wmap, local = FALSE)
 ```
 
 <br><br>
@@ -1241,7 +1245,7 @@ knitrREmap(p, local = FALSE)
 - 貓舍：[<ruby>原<rp>(</rp><rt>げん</rt><rp>)</rp>始<rp>(</rp><rt>し</rt><rp>)</rp>編<rp>(</rp><rt>へん</rt><rp>)</rp>碼<rp>(</rp><rt>め</rt><rp>)</rp></ruby>](https://github.com/scibrokes/owner)
 - 追加<ruby>附<rp>(</rp><rt>ふ‐</rt><rp>)</rp>屬<rp>(</rp><rt>ぞく</rt><rp>)</rp>信<rp>(</rp><rt>しん</rt><rp>)</rp>息<rp>(</rp><rt>そく</rt><rp>)</rp></ruby>
 
-```{r info, warning=FALSE, error=TRUE, results='asis'}
+```{r info, warning = FALSE, error = TRUE, results = 'asis'}
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))

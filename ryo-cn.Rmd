@@ -460,7 +460,7 @@ h5 { color: #92AAC7; }
   }
 ```
 
-```{r global_options, class.source='hover01', class.output='hover02'}
+```{r global_options, class.source = 'hover01', class.output = 'hover02'}
 ## https://stackoverflow.com/a/36846793/3806250
 options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
@@ -479,7 +479,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 
 ## 设置
 
-```{r, eval=FALSE}
+```{r, eval = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
@@ -1044,7 +1044,7 @@ skill |>
   echarts4r::e_tooltip(trigger = 'item')
 ```
 
-```{r, eval=FALSE, echo=FALSE}
+```{r, eval = FALSE, echo = FALSE}
 Sys.setlocale(category = 'LC_ALL', locale = 'zh_CN.UTF-8')
 source('function/skill.R', encoding = 'utf-8')
 source('function/skill2B.R', encoding = 'utf-8')
@@ -1118,37 +1118,17 @@ source('function/skill2B.R', encoding = 'utf-8')
 remap.init()
 ```
 
-```{r read-data, eval = FALSE, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
-## Setup a data frame format cities
-data = data.frame(country = mapNames('world'), value = 5 * sample(178) + 200)
-
-vec = c('Tokyo', 'Shanghai', 'New York', 'Sydney', 'London', 'Bangkok', 'Taipei', 
-        'Moscow', 'Beijing', 'Washington', 'Lyon', 'Milan', 'Rome', 'Macao', #'Guangzhou', 
-        'Singapore', 'Hong Kong', 'Kuala Lumpur', 'Madrid', 'Geneva', 'Paris', 
-        'Melbourne', 'Boston', 'Washington', 'Liverpool', 'Brighton', 'Bali', 
-        'San Francisco', 'Jakarta', 'Ho Chi Minh', 'Brasilia', 'Barcelona', 
-        'Rio de Janeiro', 'Buenos Aires', 'Bern', 'Basel', 'Zurich', 'Manila', 
-        'Toronto', 'Vancouver', 'Budapest', 'New Delhi', 'Thimphu', 'Mumbai', 
-        'Cairo', 'Greater Johannesburg', 'Durban', 'Alexandria', 'Zaria', 'Dubai', 
-        'Istanbul', 'Mexico City', 'Sapporo', 'Osaka', 'Ulaanbaatar', 'Vienna')
-
-## Get world city geocode by ggmap
-geodata = suppressAll(as.data.frame(cbind(geocode(vec), vec)))
-
-## Design a line data.frame
-markLinedata = data.frame(origin = rep('Beijing', 54), destination = vec[-2])
-```
-
 ```{r read-geodata, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Get world city geocode by simplemaps.com
 geodata <- readr::read_csv('data/worldcities.csv') |> 
-    dplyr::select(lng, lat, country, city) |> 
-    dplyr::rename(lon = lng)
+  dplyr::filter(capital == 'primary') |> 
+  dplyr::select(lng, lat, country, city) |> 
+  dplyr::rename(lon = lng)
 
 countries <- geodata$country |> 
   unique()
 
-## randomly set different map's color layers
+## randomly set country codes
 data = data.frame(country = countries, value = 5 * sample(length(countries)) + 200)
 
 ## cities
@@ -1265,7 +1245,7 @@ knitrREmap(wmap, local = FALSE)
 - 猫舍：[源代码](https://github.com/scibrokes/owner)
 - 追加附属信息
 
-```{r info, warning=FALSE, error=TRUE, results='asis'}
+```{r info, warning = FALSE, error = TRUE, results = 'asis'}
 suppressMessages(require('formattable', quietly = TRUE))
 suppressMessages(require('knitr', quietly = TRUE))
 suppressMessages(require('kableExtra', quietly = TRUE))
