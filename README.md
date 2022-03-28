@@ -2,6 +2,10 @@
 
 [![Jekyll site CI](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml/badge.svg)](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml)
 
+<style>
+	div { background-image: url('https://raw.githubusercontent.com/scibrokes/owner/master/www/math-3d-hd-wallpaper.jpg'); }
+</style>
+
 ## 公司简介
 
 世博量化® Sςιβrοκεrs Trαdιηg®是一家以数理统计投资于金融行业，挣取高回酬。
@@ -73,6 +77,12 @@
 | 出生地                 |                                       马国，雪州，丹戎加弄 |
 | 民族                   |                                          🇹🇼🇨🇳 中华民族 |
 | 宗教                   |                                                    卍 佛教 |
+
+## 参考文献
+
+- [®ωο*rld*](https://github.com/scibrokes/r-world)
+- [✨✨🐉®γσ ξηg✨✨](https://github.com/englianhu/englianhu)
+- [✨✨Sςιβrοκεrs Trαdιηg®✨✨](https://github.com/scibrokes/scibrokes)
 
 ---
 
