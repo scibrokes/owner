@@ -20,6 +20,7 @@ prettycode
 MASS
 conflicted
 sass
+REmap
 plyr
 magrittr
 zoo
@@ -34,6 +35,5 @@ formattable
 echarts4r
 radarchart
 htmlwidgets
-REmap
 ggmap
 vembedr

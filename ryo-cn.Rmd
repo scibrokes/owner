@@ -397,7 +397,7 @@ pre code {
 }
 </style>
 
-```{r class.source = 'bg-success', class.output = 'bg-primary', message = FALSE, warning = FALSE}
+```{r class.source = 'bg-success', class.output = 'bg-primary', error = TRUE, message = FALSE, warning = FALSE}
 # install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
@@ -422,7 +422,7 @@ lib('sass')
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
-```{scss class.source = 'bg-success', class.output = 'bg-primary'}
+```{scss class.source = 'bg-success', class.output = 'bg-primary', error = TRUE, message = FALSE, warning = FALSE}
 /* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -460,7 +460,7 @@ h5 { color: #92AAC7; }
   }
 ```
 
-```{r global_options, class.source = 'hover01', class.output = 'hover02'}
+```{r global_options, class.source = 'hover01', class.output = 'hover02', error = TRUE, message = FALSE, warning = FALSE}
 ## https://stackoverflow.com/a/36846793/3806250
 options(width = 999)
 knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
@@ -485,7 +485,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 source('function/libs.R')
 ```
 
-```{r libs, message = FALSE, warning = FALSE, include = FALSE}
+```{r libs, error = TRUE, message = FALSE, warning = FALSE, include = FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Setting to omit all warnings
@@ -957,7 +957,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 技能
 
-```{r skill, echo = FALSE, result = 'asis'}
+```{r skill, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
 require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
 require('formattable', quietly = TRUE, warn.conflicts = FALSE)
@@ -1011,7 +1011,7 @@ radarchart::chartJSRadar(
   maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 ```
 
-```{r skill2B, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2B, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
 #radarchart::chartJSRadar(
 #  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
 #  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
@@ -1113,7 +1113,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 `r lib('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
-```{r REmap-setting, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
+```{r REmap-setting, error = TRUE, echo = FALSE, warning = FALSE, results = 'asis'}
 ## Reinitialized the REmap setting
 remap.init()
 ```
@@ -1129,7 +1129,7 @@ countries <- geodata$country |>
   unique()
 
 ## randomly set country codes
-data = tibble(country = countries, value = 5 * sample(length(countries)) + 200)
+data = data.frame(country = countries, value = 5 * sample(length(countries)) + 200)
 
 ## cities
 vec <- geodata$city
@@ -1140,7 +1140,7 @@ geodata <- geodata |>
     dplyr::rename(vec = city)
 
 ## Design a line data frame
-markLinedata = tibble(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
 ```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
@@ -1254,26 +1254,26 @@ suppressMessages(require('devtools', quietly = TRUE))
 
 sys1 <- session_info()$platform |> 
     unlist() |> 
-    {\(.) tibble(row.names = 1:length(.), 
+    {\(.) data.frame(row.names = 1:length(.), 
                      Category = names(.), session_info = .)}()
 
-sys2 <- tibble(Sys.info()) |> 
-    {\(.) tibble(Category = row.names(.), Sys.info = .[,1])}()
+sys2 <- data.frame(Sys.info()) |> 
+    {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
 
 #remarks, dim(sys1), dim(sys2)
-if (nrow(sys1) == 11 & nrow(sys2) == 8) {
+if (nrow(sys1) == 11 && nrow(sys2) == 8) {
   sys2 <- sys2 |> 
-    {\(.) rbind(., tibble(
+    {\(.) rbind(., data.frame(
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
                  paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
   
-} else if (nrow(sys1) == 10 & nrow(sys2) == 8) {
-  sys1 <- rbind(sys1, tibble(Category = '', session_info = ''))
+} else if (nrow(sys1) == 10 && nrow(sys2) == 8) {
+  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
   
   sys2 <- sys2 |> 
-    {\(.) rbind(., tibble(
+    {\(.) rbind(., data.frame(
     Category = c('rmarkdown', 'rsconnect', 'Current time'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
