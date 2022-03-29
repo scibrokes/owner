@@ -10,6 +10,11 @@ lib('memoise')
 if(!require('XML')) devtools::install_github('omegahat/XML')
 lib('XML')
 
+conflict_prefer('dashboardPage', 'shinydashboardPlus')
+conflict_prefer('dashboardHeader', 'shinydashboardPlus')
+conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
+conflict_prefer('dashboardFooter', 'shinydashboardPlus')
+
 ### creating custom logo object
 logo <- shinyDashboardLogoDIY(
   boldText = 'ξηg', 
@@ -37,10 +42,10 @@ ui <- shinyUI(
   #    ),
   #...)
   #
-  shinydashboardPlus::dashboardPage(#skin = 'midnight', 
-    header = shinydashboardPlus::dashboardHeader(title = logo),
+  dashboardPage(#skin = 'midnight', 
+    header = dashboardHeader(title = logo),
     
-    sidebar = shinydashboardPlus::dashboardSidebar(
+    sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
       sidebarMenu(
         id = 'tabs', 
@@ -195,7 +200,7 @@ ui <- shinyUI(
                 #fluidPage(includeHTML('www/ryo-fr.html'))
                 ))), 
   
-  footer = shinydashboardPlus::dashboardFooter(
+  footer = dashboardFooter(
     p('Powered by - Copyright® Intellectual Property Rights of ', 
       tags$a(href='https://www.scibrokes.com', target = '_blank', 
              tags$img(height = '20px', alt = 'scibrokes', #align='right', 
