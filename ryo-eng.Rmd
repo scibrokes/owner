@@ -1120,7 +1120,7 @@ remap.init()
 ```
 
 ```{r read-geodata, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
-## Get world city geocode by simplemaps.com
+## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- readr::read_csv('data/worldcities.csv') |> 
   dplyr::filter(capital == 'primary') |> 
