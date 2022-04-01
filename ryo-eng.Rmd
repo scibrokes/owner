@@ -1137,18 +1137,21 @@ vec <- geodata$city
 
 ## lon & lat of cities
 geodata <- geodata |> 
+  data.frame() |> 
   dplyr::select(lon, lat, city) |> 
-    dplyr::rename(vec = city)
+  dplyr::rename(vec = city)
 
 ## Design a line data frame
 markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
-```{r plot-map, echo=FALSE, error=TRUE, warning=FALSE, results=}
+```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Plot the REmap shining 
-wmap <- remapC(data, maptype = 'world', color = c('black', 'black'),
-       theme = get_theme(backgroundColor = 'black'),
-       markPointData = vec, markLineData = markLinedata, geoData = geodata)
+wmap <- remapC(data, maptype = 'world', 
+               color = c('black', 'black'),
+               theme = get_theme(backgroundColor = 'black'),
+               markPointData = vec, markLineData = markLinedata, 
+               geoData = geodata)
 knitrREmap(wmap, local = FALSE)
 ```
 
