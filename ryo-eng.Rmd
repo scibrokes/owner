@@ -7,7 +7,7 @@ author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www
 tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
 date: "22-Oct-1984"
 output:
-  html_document:
+  html_document: 
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
     highlight: haddock
@@ -18,6 +18,7 @@ output:
       smooth_scroll: yes
     code_folding: hide
     css: CSSBackgrounds.css
+    fig_caption: yes
   pdf_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
@@ -1143,7 +1144,7 @@ geodata <- geodata |>
 markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
-```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
+```{r plot-map, echo=FALSE, error=TRUE, warning=FALSE, results=}
 ## Plot the REmap shining 
 wmap <- remapC(data, maptype = 'world', color = c('black', 'black'),
        theme = get_theme(backgroundColor = 'black'),
