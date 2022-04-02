@@ -28,7 +28,7 @@ logo <- shinyDashboardLogoDIY(
   badgeBorderRadius = 3)
 
 alignCenter <- memoise(function(el) {
-  htmltools::tagAppendAttributes(el, style="width:500vw;height:100vh;background-color:#fff;display:flex;align-items:center;justify-content:center;")
+  htmltools::tagAppendAttributes(el, style = "width:500vw;height:100vh;background-color:#fff;display:flex;align-items:center;justify-content:center;")
 })
 
 ui <- shinyUI(
@@ -54,14 +54,15 @@ ui <- shinyUI(
                  ## https://getbootstrap.com/docs/3.4/components/#glyphicons
                  ## https://fontawesome.com/icons 
                  icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
-                 menuSubItem('🏠 Home', tabName = 'home'),
+                 menuSubItem('🏠 Home', tabName = 'home'), 
                  menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
                  menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
-                 menuSubItem('🇹🇼 繁体中文', tabName = 'tw'),
-                 menuSubItem('🇯🇵 日本語', tabName = 'jp'),
-                 menuSubItem('🇰🇷 한국어', tabName = 'kr'),
-                 menuSubItem('🇩🇪 Deutsch', tabName = 'de'),
-                 menuSubItem('🇫🇷 français', tabName = 'fr'),
+                 menuSubItem('🇹🇼 繁体中文', tabName = 'tw'), 
+                 menuSubItem('🇯🇵 日本語', tabName = 'jp'), 
+                 menuSubItem('🇰🇷 한국어', tabName = 'kr'), 
+                 menuSubItem('🇬🇷 Ελληνικά', tabName = 'gr'), 
+                 menuSubItem('🇩🇪 Deutsch', tabName = 'de'), 
+                 menuSubItem('🇫🇷 français', tabName = 'fr'), 
                  menuSubItem('🇮🇹 Italiano', tabName = 'it'))#, 
         #menuItem('Appendices', icon = icon('th'), tabName = 'append', 
         #         menuSubItem('Author', tabName = 'author'))
@@ -153,6 +154,7 @@ ui <- shinyUI(
                                 '🇹🇼 繁体中文' = 'tw', 
                                 '🇯🇵 日本語' = 'jp', 
                                 '🇰🇷 한국어' = 'kr', 
+                                '🇬🇷 Ελληνικά' = 'gr', 
                                 '🇩🇪 Deutsch' = 'de', 
                                 '🇫🇷 Français' = 'fr', 
                                 '🇮🇹 Italiano' = 'it'), 

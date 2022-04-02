@@ -1131,7 +1131,9 @@ countries <- geodata$country |>
   unique()
 
 ## randomly set country codes
-data = data.frame(country = countries, value = 5 * sample(length(countries)) + 200)
+data <- data.frame(
+  country = countries, 
+  value = 5 * sample(length(countries)) + 200)
 
 ## cities
 vec <- geodata$city
@@ -1143,14 +1145,17 @@ geodata <- geodata |>
   dplyr::rename(vec = city)
 
 ## Design a line data frame
-markLinedata = data.frame(origin = rep('Beijing', (length(vec) - 1)), destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+markLinedata <- data.frame(
+  origin = rep('Beijing', (length(vec) - 1)), 
+  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
 ```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Plot the REmap shining 
 wmap <- remapC(data, maptype = 'world', 
                color = c('black', 'black'),
-               theme = get_theme(backgroundColor = 'black'),
+               theme = get_theme(backgroundColor = 'black'), 
+               title = '', subtitle = '', 
                markPointData = vec, markLineData = markLinedata, 
                geoData = geodata)
 knitrREmap(wmap, local = FALSE)
