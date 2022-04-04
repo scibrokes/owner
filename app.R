@@ -16,6 +16,26 @@ conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
 conflict_prefer('dashboardFooter', 'shinydashboardPlus')
 conflict_prefer('box', 'shinydashboardPlus')
 
+menus <- data.frame(
+  choices = c('🇬🇧 ENGLISH',# = 'en', 
+              '🇨🇳 简体中文',# = 'cn', 
+              '🇹🇼 繁体中文',# = 'tw', 
+              '🇯🇵 日本語',# = 'jp', 
+              '🇰🇷 한국어',# = 'kr', 
+              '🇬🇷 Ελληνικά',# = 'gr', 
+              '🇩🇪 Deutsch',# = 'de', 
+              '🇫🇷 Français',# = 'fr', 
+              '🇮🇹 Italiano'),# = 'it'), 
+  lnk = c('ryo-en', 
+          'ryo-cn', 
+          'ryo-tw', 
+          'ryo-jp', 
+          'ryo-kr', 
+          'ryo-gr', 
+          'ryo-de', 
+          'ryo-fr', 
+          'ryo-it'))
+
 ### creating custom logo object
 logo <- shinyDashboardLogoDIY(
   boldText = 'ξηg', 
@@ -149,15 +169,7 @@ ui <- shinyUI(
                 alignCenter(
                   prettyRadioButtons(
                     inputId = 'rb', label = NULL, 
-                    choices = c('🇬🇧 ENGLISH' = 'en', 
-                                '🇨🇳 简体中文' = 'cn', 
-                                '🇹🇼 繁体中文' = 'tw', 
-                                '🇯🇵 日本語' = 'jp', 
-                                '🇰🇷 한국어' = 'kr', 
-                                '🇬🇷 Ελληνικά' = 'gr', 
-                                '🇩🇪 Deutsch' = 'de', 
-                                '🇫🇷 Français' = 'fr', 
-                                '🇮🇹 Italiano' = 'it'), 
+                    choices = menus$choices, 
                     shape = 'curve', animation = 'pulse', 
                     selected = character(0), status = 'primary', 
                     thick = TRUE, width = '100%', bigger = TRUE, 
@@ -169,56 +181,72 @@ ui <- shinyUI(
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-en.html'))#, 
                 #includeHTML('www/ryo-en.html')#,
-                htmlOutput('ryo_en')
+                #htmlOutput('ryo_en')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'cn', h2('🇨🇳 简体中文', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-cn.html'))#, 
                 #includeHTML('www/ryo-cn.html')#,
-                htmlOutput('ryo_cn')
+                #htmlOutput('ryo_cn')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'tw', h2('🇹🇼 繁体中文', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-tw.html'))#, 
                 #includeHTML('www/ryo-tw.html')#,
-                htmlOutput('ryo_tw')
+                #htmlOutput('ryo_tw')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'jp', h2('🇯🇵 日本語', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-jp.html'))#, 
                 #includeHTML('www/ryo-jp.html')#,
-                htmlOutput('ryo_jp')
+                #htmlOutput('ryo_jp')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'kr', h2('🇰🇷 한국어', align = 'center'), 
+                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
+                #            height = 800, width = '100%', frameborder = 0)#, 
+                #HTML(readLines('www/ryo-gr.html'))#, 
+                #includeHTML('www/ryo-gr.html')#,
+                #htmlOutput('ryo_gr')
+                htmlOutput('frame')
+        ), 
+        tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-kr', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-kr.html'))#, 
                 #includeHTML('www/ryo-kr.html')#,
-                htmlOutput('ryo_kr')
+                #htmlOutput('ryo_kr')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-de', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-de.html'))#, 
                 #includeHTML('www/ryo-de.html')#,
-                htmlOutput('ryo_de')
+                #htmlOutput('ryo_de')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'fr', h2('🇫🇷 Français', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-fr', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-fr.html'))#, 
                 #includeHTML('www/ryo-fr.html')#,
-                htmlOutput('ryo_fr')
+                #htmlOutput('ryo_fr')
+                htmlOutput('frame')
         ), 
         tabItem(tabName = 'it', h2('🇮🇹 Italiano', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-it', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-it.html'))#, 
                 #includeHTML('www/ryo-it.html')#,
-                htmlOutput('ryo_it')
+                #htmlOutput('ryo_it')
+                htmlOutput('frame')
         )
       )
     ), 
@@ -232,20 +260,37 @@ ui <- shinyUI(
     title = 'DashboardPage'))
 
 
+## =============================================================================
 
 server <- shinyServer(function(input, output, session) {
-  ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
-  output$ryo_en <- renderUI(includeHTML('www/ryo-en.html'))
-  output$ryo_cn <- renderUI(includeHTML('www/ryo-cn.html'))
-  output$ryo_tw <- renderUI(includeHTML('www/ryo-tw.html'))
-  output$ryo_jp <- renderUI(includeHTML('www/ryo-jp.html'))
+  
+  observe({
+    ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
+    ## https://stackoverflow.com/questions/33020558/embed-iframe-inside-shiny-app
+    query <- menus[which(menus$choices == input$rb), 2]
+    lnk <<- paste0('https://rpubs.com/englianhu/', query)
+    })
+    
+  output$frame <- renderUI({
+    input$rb
+    ui_lnk <- tags$iframe(src = lnk, height = 800, width = '100%', frameborder = 0)
+    print(ui_lnk)
+    ui_lnk
+  })
+  
+  #output$ryo_en <- renderUI(input$rb, includeHTML('www/ryo-en.html'))
+  #output$ryo_cn <- renderUI(includeHTML('www/ryo-cn.html'))
+  #output$ryo_tw <- renderUI(includeHTML('www/ryo-tw.html'))
+  #output$ryo_jp <- renderUI(includeHTML('www/ryo-jp.html'))
   #output$ryo_kr <- renderUI(includeHTML('www/ryo-kr.html'))
   #output$ryo_de <- renderUI(includeHTML('www/ryo-de.html'))
   #output$ryo_fr <- renderUI(includeHTML('www/ryo-fr.html'))
   #output$ryo_it <- renderUI(includeHTML('www/ryo-it.html'))
+  #})
 })
 
 
 
 shinyApp(ui, server)
+#runApp(app.R, display.mode = 'showcase')
 
