@@ -255,7 +255,7 @@ ui <- shinyUI(
       p('Powered by - Copyright® Intellectual Property Rights of ', 
         tags$a(href='https://www.scibrokes.com', target = '_blank', 
                tags$img(height = '20px', alt = 'scibrokes', #align='right', 
-                        src='www/Scibrokes.png')), 
+                        src='www/Scibrokes1.png')), 
         HTML("<a href='https://www.scibrokes.com'>Sςιβrοκεrs Trαdιηg®</a>"))), 
     title = 'DashboardPage'))
 
@@ -268,7 +268,7 @@ server <- shinyServer(function(input, output, session) {
     ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
     ## https://stackoverflow.com/questions/33020558/embed-iframe-inside-shiny-app
     query <- menus[which(menus$choices == input$rb), 2]
-    lnk <<- paste0('https://rpubs.com/englianhu/', query)
+    lnk <<- paste0('http://rpubs.com/englianhu/', query)
     })
     
   output$frame <- renderUI({
