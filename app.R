@@ -101,85 +101,123 @@ ui <- shinyUI(
       tags$head(tags$style(HTML('
             /* logo */
             /* .skin-blue .main-header .logo { */
-            /* background-color: #f4b943; */
+            /* background-color: #F4B943; */
             /* } */
             
             /* logo when hovered */
             .skin-blue .main-header .logo:hover {
             /* background-color: #33A8C4; */
               color: #FFD64D;
-              background: linear-gradient(155deg, #146275 0%, #33A8C4 100%);
+              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
               transition: all 0.45s;
             /*   &:hover{ */
-            /*     background: linear-gradient(155deg, #146275 20%, #33A8C4 80%); */
+            /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
             }
             
             /* navbar (rest of the header) */
             .skin-blue .main-header .navbar {
-            /* background-color: #f4b943; */
+            /* background-color: #F4B943; */
             /* color: #FFD64D; */
-            background: linear-gradient(155deg, #146275 0%, #33A8C4 100%);
+            background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
             /* transition: all 0.45s; */
             /*   &:hover{ */
-            /*     background: linear-gradient(155deg, #146275 20%, #33A8C4 80%); */
+            /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
             }
             
             /* main sidebar */
             /* .skin-blue .main-sidebar { */
-            /* background-color: #f4b943; */
+            /* background-color: #F4B943; */
             /* } */
             
             /* active selected tab in the sidebarmenu */
-            /* .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{ */
+            /* .skin-blue .main-sidebar .sidebar .sidebar-menu .active a { */
             /* background-color: #ff0000; */
-            /* background: linear-gradient(155deg, #146275 0%, #33A8C4 100%); */
+            /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
             /*   transition: all 0.45s; */
             /*   &:hover{ */
-            /*     background: linear-gradient(155deg, #146275 20%, #33A8C4 80%); */
+            /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
             /* } */
             
             /* other links in the sidebarmenu */
-            /* .skin-blue .main-sidebar .sidebar .sidebar-menu a{ */
+            /* .skin-blue .main-sidebar .sidebar .sidebar-menu a { */
             /* background-color: #00ff00; */
             /* color: #000000; */
             /* } */
             
             /* other links in the sidebarmenu when hovered */
-            /* .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{ */
+            /* .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover { */
             /* background-color: #FFD64D; */
             /* color: #FFD64D; */
             /* } */
             
-            /* toggle button when hovered  */
-            .skin-blue .main-header .navbar .sidebar-toggle:hover{
+            /* toggle button */
+            .skin-blue .main-header .navbar .sidebar-toggle {
+            /* background-color: #33A8C4; */
+              color: #FFD64D;
+              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%);
+              }
+            }
+            
+            /* toggle button when hovered */
+            .skin-blue .main-header .navbar .sidebar-toggle:hover {
             /* background-color: #FFD64D; */
               color: #FFD64D;
-              background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+              background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
               transition: all 0.45s;
-            /*   &:hover{ */
-            /*     background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%); */
-            /*     } */
+              &:hover{
+                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
+              }
             }
             
             /* body */
             .content-wrapper, .right-side {
-              background-color: #7DA2D1;
+            /* background-color: #7DA2D1; */
+              color: #FFD64D;
+              background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
+              }
+            }
+            
+            /* body when hovered */
+            .content-wrapper, .right-side, .content-wrapper:hover, .right-side:hover {
+            /* background-color: #7DA2D1; */
+              color: #FFD64D;
+              background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
+              }
             }
             
             /* footer */
             .skin-blue .main-footer {
-            /* background-color: #f4b943; */
-            color: #FFD64D;
-            background: linear-gradient(155deg, #146275 0%, #33A8C4 100%);
-            /* transition: all 0.45s; */
-            /*   &:hover{ */
-            /*     background: linear-gradient(155deg, #146275 20%, #33A8C4 80%); */
-            /*   } */
+            /* background-color: #33A8C4; */
+              color: #FFD64D;
+              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%);
+              }
             }
             
+            /* footer when hovered */
+            .skin-blue .main-footer .main-footer:hover {
+            /* background-color: #F4B943; */
+              color: #FFD64D;
+              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%);
+              }
+            }
             '))), 
       
       tabItems(
@@ -281,12 +319,12 @@ ui <- shinyUI(
         '企业知识产权®及版权®所有，盗版必究。', 
         ), 
       right = p(br(), 
-                'by 🐉 ®γσ',  
-                tags$a(href = 'https://www.scibrokes.com', target = '_blank', 
-               tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
-                        #src = 'www/Peking University 02.png')), 
-                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
-                '2022')
+                tags$a(href = 'https://www.pku.edu.cn', target = '_blank', 
+                tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
+                         #src = 'www/Peking University 02.png')), 
+                         src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
+                HTML("<a href='https://www.pku.edu.cn'>北京大学</a>"), 
+                '🐉 ®γσ 2022 著')
       ), 
     title = 'DashboardPage'))
 
