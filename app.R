@@ -1,3 +1,5 @@
+# -------------- Load Packages -----------------------------
+
 require('BBmisc')
 lib('shiny')
 lib('shinythemes')
@@ -11,6 +13,8 @@ lib('memoise')
 if(!require('XML')) devtools::install_github('omegahat/XML')
 lib('XML')
 
+# -------------- Prefer Conflict -----------------------------
+
 conflict_prefer('dashboardPage', 'shinydashboardPlus')
 conflict_prefer('dashboardHeader', 'shinydashboardPlus')
 conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
@@ -23,6 +27,9 @@ conflict_prefer('tabItem', 'shinydashboard')
 conflict_prefer('dashboardFooter', 'shinydashboardPlus')
 conflict_prefer('box', 'shinydashboardPlus')
 conflict_prefer('updateTabItems', 'shinydashboard')
+
+
+# -------------- Set Parameters -----------------------------
 
 #menus <- data.frame(
 #  choices = c('🇬🇧 ENGLISH',# = 'en', 
@@ -75,6 +82,9 @@ logo <- shinyDashboardLogoDIY(
 alignCenter <- memoise(function(el) {
   htmltools::tagAppendAttributes(el, style = "width:500vw;height:100vh;background-color:#fff;display:flex;align-items:center;justify-content:center;")
 })
+
+
+# -------------- ui -----------------------------
 
 ui <- shinyUI(
   
@@ -199,21 +209,21 @@ ui <- shinyUI(
               color: #FFD64D;
               background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
               transition: all 0.45s;
-              &:hover{
-                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
-              }
+            /*   &:hover{ */
+            /*     background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%); */
+            /*   } */
             }
             
             /* body when hovered */
-            .content-wrapper, .right-side, .content-wrapper:hover, .right-side:hover {
-            /* background-color: #7DA2D1; */
-              color: #FFD64D;
-              background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
-              transition: all 0.45s;
-              &:hover{
-                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
-              }
-            }
+            /* .content-wrapper, .right-side, .content-wrapper:hover, .right-side:hover { */
+            /*   background-color: #7DA2D1; */
+            /*   color: #FFD64D; */
+            /*   background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%); */
+            /*   transition: all 0.45s; */
+            /*   &:hover{ */
+            /*     background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%); */
+            /*   } */
+            /* } */
             
             /* footer */
             .skin-blue .main-footer {
@@ -221,21 +231,21 @@ ui <- shinyUI(
               color: #FFD64D;
               background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
               transition: all 0.45s;
-              &:hover{
-                background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%);
-              }
+            /*   &:hover{ */
+            /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
+            /*   } */
             }
             
             /* footer when hovered */
-            .skin-blue .main-footer .main-footer:hover {
-            /* background-color: #F4B943; */
-              color: #FFD64D;
-              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-              transition: all 0.45s;
-              &:hover{
-                background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%);
-              }
-            }
+            /* .skin-blue .main-footer .main-footer:hover { */
+            /*   background-color: #F4B943; */
+            /*   color: #FFD64D; */
+            /*   background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
+            /*   transition: all 0.45s; */
+            /*   &:hover{ */
+            /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
+            /*   } */
+            /* } */
             '))), 
       
       tabItems(
@@ -347,7 +357,7 @@ ui <- shinyUI(
     title = 'DashboardPage'))
 
 
-## =============================================================================
+# -------------- server -----------------------------
 
 server <- shinyServer(function(input, output, session) {
   
@@ -386,6 +396,7 @@ server <- shinyServer(function(input, output, session) {
 })
 
 
+# -------------- shinyApp() -----------------------------
 
 shinyApp(ui, server)
 #runApp(app.R, display.mode = 'showcase')
