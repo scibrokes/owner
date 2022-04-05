@@ -3,6 +3,7 @@ lib('shiny')
 lib('shinythemes')
 lib('shinydashboard')
 lib('shinydashboardPlus')
+lib('bs4Dash')
 lib('dashboardthemes')
 lib('shinyWidgets')
 lib('shinyjs')
@@ -13,6 +14,12 @@ lib('XML')
 conflict_prefer('dashboardPage', 'shinydashboardPlus')
 conflict_prefer('dashboardHeader', 'shinydashboardPlus')
 conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
+conflict_prefer('sidebarMenu', 'shinydashboard')
+conflict_prefer('menuItem', 'shinydashboard')
+conflict_prefer('menuSubItem', 'shinydashboard')
+conflict_prefer('dashboardBody', 'shinydashboard')
+conflict_prefer('tabItems', 'shinydashboard')
+conflict_prefer('tabItem', 'shinydashboard')
 conflict_prefer('dashboardFooter', 'shinydashboardPlus')
 conflict_prefer('box', 'shinydashboardPlus')
 
@@ -64,8 +71,7 @@ ui <- shinyUI(
   #...)
   #
   dashboardPage(#skin = 'midnight', 
-    header = dashboardHeader(title = logo),
-    
+    header = dashboardHeader(title = logo), 
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
       sidebarMenu(
@@ -162,6 +168,18 @@ ui <- shinyUI(
             .content-wrapper, .right-side {
               background-color: #7DA2D1;
             }
+            
+            /* footer */
+            .skin-blue .main-footer {
+            /* background-color: #f4b943; */
+            color: #FFD64D;
+            background: linear-gradient(155deg, #146275 0%, #33A8C4 100%);
+            /* transition: all 0.45s; */
+            /*   &:hover{ */
+            /*     background: linear-gradient(155deg, #146275 20%, #33A8C4 80%); */
+            /*   } */
+            }
+            
             '))), 
       
       tabItems(
@@ -252,12 +270,24 @@ ui <- shinyUI(
     ), 
     
     footer = dashboardFooter(
-      p('Powered by - Copyright® Intellectual Property Rights of ', 
-        tags$a(href='https://www.scibrokes.com', target = '_blank', 
-               tags$img(height = '13px', alt = 'scibrokes', #align='right', 
-                        #src='www/Scibrokes.png')), 
-                        src='https://raw.githubusercontent.com/scibrokes/owner/master/www/Scibrokes.png')), 
-        HTML("<a href='https://www.scibrokes.com'>Sςιβrοκεrs Trαdιηg®</a>"))), 
+      left = p(
+        HTML("<a href='https://www.scibrokes.com'>Sςιβrοκεrs Trαdιηg®</a>"), 
+        br(), 
+        tags$a(href = 'https://www.scibrokes.com', target = '_blank', 
+               tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
+                        #src = 'www/Scibrokes.png')), 
+                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Scibrokes.png')), 
+        HTML("<a href='https://www.scibrokes.com'>世博量化®</a>"), 
+        '企业知识产权®及版权®所有，盗版必究。', 
+        ), 
+      right = p(br(), 
+                'by 🐉 ®γσ',  
+                tags$a(href = 'https://www.scibrokes.com', target = '_blank', 
+               tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
+                        #src = 'www/Peking University 02.png')), 
+                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
+                '2022')
+      ), 
     title = 'DashboardPage'))
 
 
