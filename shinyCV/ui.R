@@ -14,6 +14,27 @@ conflict_prefer('dashboardPage', 'shinydashboardPlus')
 conflict_prefer('dashboardHeader', 'shinydashboardPlus')
 conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
 conflict_prefer('dashboardFooter', 'shinydashboardPlus')
+conflict_prefer('box', 'shinydashboardPlus')
+
+menus <- data.frame(
+  choices = c('🇬🇧 ENGLISH',# = 'en', 
+              '🇨🇳 简体中文',# = 'cn', 
+              '🇹🇼 繁体中文',# = 'tw', 
+              '🇯🇵 日本語',# = 'jp', 
+              '🇰🇷 한국어',# = 'kr', 
+              '🇬🇷 Ελληνικά',# = 'gr', 
+              '🇩🇪 Deutsch',# = 'de', 
+              '🇫🇷 Français',# = 'fr', 
+              '🇮🇹 Italiano'),# = 'it'), 
+  lnk = c('ryo-en', 
+          'ryo-cn', 
+          'ryo-tw', 
+          'ryo-jp', 
+          'ryo-kr', 
+          'ryo-gr', 
+          'ryo-de', 
+          'ryo-fr', 
+          'ryo-it'))
 
 ### creating custom logo object
 logo <- shinyDashboardLogoDIY(
@@ -50,17 +71,18 @@ ui <- shinyUI(
       sidebarMenu(
         id = 'tabs', 
         menuItem('®️Studio ☁️', tabName = 'menu', 
-                 ## https://getbootstrap.com/docs/3.4/components/#glyphicons
+                ## https://getbootstrap.com/docs/3.4/components/#glyphicons
                 ## https://fontawesome.com/icons 
                 icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
                 menuSubItem('🏠 Home', tabName = 'home'),
                 menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
                 menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
-                menuSubItem('🇹🇼 繁体中文', tabName = 'tw'),
-                menuSubItem('🇯🇵 日本語', tabName = 'jp'),
-                menuSubItem('🇰🇷 한국어', tabName = 'kr'),
-                menuSubItem('🇩🇪 Deutsch', tabName = 'de'),
-                menuSubItem('🇫🇷 français', tabName = 'fr'),
+                menuSubItem('🇹🇼 繁体中文', tabName = 'tw'), 
+                menuSubItem('🇯🇵 日本語', tabName = 'jp'), 
+                menuSubItem('🇰🇷 한국어', tabName = 'kr'), 
+                menuSubItem('🇬🇷 Ελληνικά', tabName = 'gr'), 
+                menuSubItem('🇩🇪 Deutsch', tabName = 'de'), 
+                menuSubItem('🇫🇷 français', tabName = 'fr'), 
                 menuSubItem('🇮🇹 Italiano', tabName = 'it'))#, 
         #menuItem('Appendices', icon = icon('th'), tabName = 'append', 
         #         menuSubItem('Author', tabName = 'author'))
@@ -71,84 +93,77 @@ ui <- shinyUI(
       
       ## https://stackoverflow.com/questions/52198452/how-to-change-the-background-color-of-the-shiny-dashboard-body
       tags$head(tags$style(HTML('
-                                /* logo */
-                                /* .skin-blue .main-header .logo { */
-                                /* background-color: #f4b943; */
-                                /* } */
-                                
-                                /* logo when hovered */
-                                .skin-blue .main-header .logo:hover {
-                                /* background-color: #146275; */
-                                color: #FFD64D;
-                                background: linear-gradient(155deg, #17687C 0%, #146275 100%);
-                                transition: all 0.45s;
-                                &:hover{
-                                  background: linear-gradient(155deg, #17687C 20%, #3098B3 80%);
-                                  }
-                                }
-                                
-                                /* navbar (rest of the header) */
-                                .skin-blue .main-header .navbar {
-                                /* background-color: #f4b943; */
-                                color: #FFD64D;
-                                background: linear-gradient(155deg, #17687C 0%, #146275 100%);
-                                transition: all 0.45s;
-                                &:hover{
-                                  background: linear-gradient(155deg, #17687C 20%, #146275 80%);
-                                  }
-                                }
-                                
-                                /* main sidebar */
-                                /* .skin-blue .main-sidebar { */
-                                /* background-color: #f4b943; */
-                                /* } */
-                                
-                                /* active selected tab in the sidebarmenu */
-                                .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
-                                background-color: #ff0000;
-                                }
-                                
-                                /* other links in the sidebarmenu */
-                                /* .skin-blue .main-sidebar .sidebar .sidebar-menu a{ */
-                                /* background-color: #00ff00; */
-                                /* color: #000000; */
-                                /* } */
-                                
-                                /* other links in the sidebarmenu when hovered */
-                                .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
-                                /* background-color: #FFD64D; */
-                                /* color: #FFD64D; */
-                                }
-                                
-                                /* toggle button when hovered  */
-                                .skin-blue .main-header .navbar .sidebar-toggle:hover{
-                                /* background-color: #FFD64D; */
-                                color: #FFD64D;
-                                background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
-                                transition: all 0.45s;
-                                &:hover{
-                                  background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
-                                  }
-                                }
-
-                                /* body */
-                                .content-wrapper, .right-side {
-                                background-color: #7da2d1;
-                                }
-                                '))), 
+      /* logo */
+      /* .skin-blue .main-header .logo { */
+      /* background-color: #f4b943; */
+      /* } */
+      
+      /* logo when hovered */
+      .skin-blue .main-header .logo:hover {
+      /* background-color: #146275; */
+         color: #FFD64D;
+         background: linear-gradient(155deg, #17687C 0%, #146275 100%);
+         transition: all 0.45s;
+      /* &:hover{ */
+      /*   background: linear-gradient(155deg, #17687C 20%, #3098B3 80%); */
+      /*   } */
+      }
+      
+      /* navbar (rest of the header) */
+      .skin-blue .main-header .navbar {
+      /* background-color: #f4b943; */
+         color: #FFD64D;
+         background: linear-gradient(155deg, #17687C 0%, #146275 100%);
+         transition: all 0.45s;
+         &:hover{
+            background: linear-gradient(155deg, #17687C 20%, #146275 80%);
+        }
+      }
+      
+      /* main sidebar */
+      /* .skin-blue .main-sidebar { */
+      /* background-color: #f4b943; */
+      /* } */
+      
+      /* active selected tab in the sidebarmenu */
+      .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+         background-color: #ff0000;
+      }
+      
+      /* other links in the sidebarmenu */
+      /* .skin-blue .main-sidebar .sidebar .sidebar-menu a{ */
+      /* background-color: #00ff00; */
+      /* color: #000000; */
+      /* } */
+      
+      /* other links in the sidebarmenu when hovered */
+      .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+      /* background-color: #FFD64D; */
+      /* color: #FFD64D; */
+      }
+      
+      /* toggle button when hovered  */
+      .skin-blue .main-header .navbar .sidebar-toggle:hover{
+      /* background-color: #FFD64D; */
+         color: #FFD64D;
+         background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+         transition: all 0.45s;
+         &:hover{
+            background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+         }
+      }
+      
+      /* body */
+      .content-wrapper, .right-side {
+         background-color: #7da2d1;
+      }
+      '))), 
       
       tabItems(
         tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), alignCenter(
           prettyRadioButtons(
             inputId = 'rb', label = NULL, 
-            choices = c('🇬🇧 ENGLISH' = 'en',
-                        '🇨🇳 简体中文' = 'cn', 
-                        '🇹🇼 繁体中文' = 'tw', 
-                        '🇯🇵 日本語' = 'jp', 
-                        '🇰🇷 한국어' = 'kr', 
-                        '🇩🇪 Deutsch' = 'de', 
-                        '🇫🇷 Français' = 'fr', 
-                        '🇮🇹 Italiano' = 'it'), 
+            choices = menus$choices, 
             shape = 'curve', animation = 'pulse', 
             selected = character(0), status = 'primary', 
             thick = TRUE, width = '100%', bigger = TRUE, 
@@ -158,29 +173,44 @@ ui <- shinyUI(
                 #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
                 #            height = 800, width = '100%', frameborder = 0), 
                 #HTML(readLines('www/ryo-en.html')), 
-                fluidPage(includeHTML('www/ryo-en.html'))
+                #fluidPage(includeHTML('www/ryo-en.html'))
+                htmlOutput('frame')
                 ), 
         tabItem(tabName = 'cn', h2('🇨🇳 简体中文', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
                 #            height = 800, width = '100%', frameborder = 0), 
                 #HTML(readLines('www/ryo-cn.html')), 
-                fluidPage(includeHTML('www/ryo-cn.html'))), 
+                #fluidPage(includeHTML('www/ryo-cn.html'))
+                htmlOutput('frame')
+                ), 
         tabItem(tabName = 'tw', h2('🇹🇼 繁体中文', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
                 #            height = 800, width = '100%', frameborder = 0), 
                 #HTML(readLines('www/ryo-tw.html')), 
-                fluidPage(includeHTML('www/ryo-tw.html'))), 
+                #fluidPage(includeHTML('www/ryo-tw.html'))
+                htmlOutput('frame')
+                ), 
         tabItem(tabName = 'jp', h2('🇯🇵 日本語', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
                 #            height = 800, width = '100%', frameborder = 0), 
                 #HTML(readLines('www/ryo-jp.html')), 
-                fluidPage(includeHTML('www/ryo-jp.html'))),
+                #fluidPage(includeHTML('www/ryo-jp.html'))
+                htmlOutput('frame')
+                ),
         tabItem(tabName = 'kr', h2('🇰🇷 한국어', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-kr', 
                 #            height = 800, width = '100%', frameborder = 0), 
                 #HTML(readLines('www/ryo-kr.html')), 
-                #fluidPage(includeHTML('www/ryo-kr.html'))
+                #includeHTML('www/ryo-kr.html')#, 
+                #htmlOutput('frame')
                 ), 
+        tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
+                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-kr', 
+                #            height = 800, width = '100%', frameborder = 0)#, 
+                #HTML(readLines('www/ryo-kr.html'))#, 
+                #includeHTML('www/ryo-kr.html')#,
+                #htmlOutput('frame')
+        ), 
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
                 #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-de', 
                 #            height = 800, width = '100%', frameborder = 0), 
@@ -204,7 +234,8 @@ ui <- shinyUI(
     p('Powered by - Copyright® Intellectual Property Rights of ', 
       tags$a(href='https://www.scibrokes.com', target = '_blank', 
              tags$img(height = '20px', alt = 'scibrokes', #align='right', 
-                      src='www/Scibrokes.png')), 
+                      #src='www/Scibrokes.png')), 
+                      src='https://raw.githubusercontent.com/scibrokes/owner/master/www/Scibrokes.png')), 
       HTML("<a href='https://www.scibrokes.com'>Sςιβrοκεrs Trαdιηg®</a>"))), 
   title = 'DashboardPage'))
 

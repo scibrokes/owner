@@ -45,20 +45,34 @@ server <- shinyServer(function(input, output, session) {
   #  updateTabItems(session, "tabs", newtab)
   #})
   
-  observeEvent(input$rb == 'en', {
-    updateTabItems(session, "tabs", selected = "en")
-  })
+  #observeEvent(input$rb == 'en', {
+  #  updateTabItems(session, "tabs", selected = "en")
+  #})
+  #
+  #observeEvent(input$rb == 'cn', {
+  #  updateTabItems(session, "tabs", selected = "cn")
+  #})
+  #
+  #observeEvent(input$rb == 'tw', {
+  #  updateTabItems(session, "tabs", selected = "tw")
+  #})
+  #
+  #observeEvent(input$rb == 'jp', {
+  #  updateTabItems(session, "tabs", selected = "jp")
+  #})
   
-  observeEvent(input$rb == 'cn', {
-    updateTabItems(session, "tabs", selected = "cn")
-  })
-  
-  observeEvent(input$rb == 'tw', {
-    updateTabItems(session, "tabs", selected = "tw")
-  })
-  
-  observeEvent(input$rb == 'jp', {
-    updateTabItems(session, "tabs", selected = "jp")
+  observe({
+    ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
+    ## https://stackoverflow.com/questions/33020558/embed-iframe-inside-shiny-app
+    query <- menus[which(menus$choices == input$rb), 2]
+    lnk <<- paste0('https://rpubs.com/englianhu/', query)
+    })
+    
+  output$frame <- renderUI({
+    input$rb
+    ui_lnk <- tags$iframe(src = lnk, height = 800, width = '100%', frameborder = 0)
+    print(ui_lnk)
+    ui_lnk
   })
   
   #output$ryo_en <- renderUI({
