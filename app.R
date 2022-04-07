@@ -113,11 +113,13 @@ ui <- shinyUI(
   #    ),
   #...)
   #
+  ## https://rinterface.github.io/shinydashboardPlus/articles/more-skins.html
   dashboardPage(#skin = 'midnight', 
     header = dashboardHeader(title = logo), 
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
       ## https://stackoverflow.com/questions/52382832/r-shiny-dashboard-body-dependant-from-shiny-subitem-selection
+      ## https://ducthanhnguyen.github.io/MaterialAdminLTE/index3.html
       
       sidebarMenu(
         id = 'tabs', 
@@ -134,9 +136,11 @@ ui <- shinyUI(
                  menuSubItem('🇬🇷 Ελληνικά', tabName = 'gr'), 
                  menuSubItem('🇩🇪 Deutsch', tabName = 'de'), 
                  menuSubItem('🇫🇷 français', tabName = 'fr'), 
-                 menuSubItem('🇮🇹 Italiano', tabName = 'it'))#, 
-        #menuItem('Appendices', icon = icon('th'), tabName = 'append', 
-        #         menuSubItem('Author', tabName = 'author'))
+                 menuSubItem('🇮🇹 Italiano', tabName = 'it')), 
+        menuItem('Appendices', tabName = 'append', 
+                 icon = icon('th'), startExpanded = TRUE, 
+                 menuSubItem('Author', tabName = 'auth'), 
+                 menuSubItem('Reference', tabName = 'ref'))
       )), 
     
     body = dashboardBody(
@@ -406,7 +410,18 @@ ui <- shinyUI(
                 HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         )
-      )
+      ), 
+      tabItems(
+        tabItem(tabName = 'auth', h2('Author', align = 'center'), 
+                #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
+                #            height = 800, width = '100%', frameborder = 0)#, 
+                #HTML(readLines('www/ryo-eng.html'))#, 
+                includeHTML('www/ryo-eng.html')#,
+                #htmlOutput('ryo_eng')
+        ), 
+        tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
+                p())
+        )
     ), 
     
     footer = dashboardFooter(
