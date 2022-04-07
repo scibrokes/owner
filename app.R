@@ -80,17 +80,19 @@ logo <- shinyDashboardLogoDIY(
   badgeBackColor = "#40E0D0", 
   badgeBorderRadius = 3)
 
+## https://stackoverflow.com/a/50979068/3806250
 alignCenter <- memoise(function(el) {
   htmltools::tagAppendAttributes(
     el, style = "
       width:500vw;
       height:100vh;
-      /* background-color: rgba(255, 255, 255, 0.35); */  /* 35% opaque white */
-      /* padding: 0.25em; */
+      background-color: rgba(255, 255, 255, 0.35); /* 35% opaque white */
+      padding: 0.25em;
       color: #FFD64D;
       background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
       transition: all 0.45s;
       display:flex;
+      flex-wrap: wrap;
       align-items:center;
       justify-content:center;
     ")
@@ -162,8 +164,8 @@ ui <- shinyUI(
             .skin-blue .main-header .navbar {
             /* background-color: #F4B943; */
             /* color: #FFD64D; */
-            background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-            /* transition: all 0.45s; */
+               background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+               transition: all 0.45s;
             /*   &:hover{ */
             /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
@@ -218,15 +220,36 @@ ui <- shinyUI(
               }
             }
             
+            /* navbar */
+            .navbar-custom-menu {
+              /* color: #FFD64D; */
+              background-color: transparent;
+            }
+            
+            /* sidebarColumn */
+            .sidebarCollapsed {
+            /*  position: absolute; */
+            /*  top: -25px; */
+            /*  padding-top: -50px; */
+            }
+            .main-sidebar.shiny-bound-input {
+            /*  position: absolute; */
+            /*  top: 25px; */
+            /*  right 25px; */
+            /*  padding-top: 30px; */
+            /*  padding-right: 30px; */
+            }
+            
             /* body */
-            .content-wrapper, .right-side {
+            /* .content-wrapper, .right-side { */
+            .content-wrapper {
             /* background-color: #7DA2D1; */
               color: #FFD64D;
               background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
               transition: all 0.45s;
-              &:hover{
-                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
-              }
+            /*  &:hover{ */
+            /*    background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%); */
+            /*  } */
             }
             
             /* body when hovered */
@@ -249,6 +272,12 @@ ui <- shinyUI(
             /*   &:hover{ */
             /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
+            }
+            
+            /* footer */
+            .pull-right.hidden-xs {
+              /* color: #FFD64D; */
+              background-color: transparent;
             }
             
             /* footer when hovered */
@@ -276,13 +305,6 @@ ui <- shinyUI(
               &:hover{
                 background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
               }
-            }
-            
-            /* ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp */
-            .insta-publisher-uploader-box {
-              display:block;
-              align-items:center;
-              justify-content:center;
             }
             
             '))), 
@@ -337,8 +359,8 @@ ui <- shinyUI(
                 #HTML(readLines('www/ryo-gr.html'))#, 
                 #includeHTML('www/ryo-gr.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_kr'), 
-                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
+                htmlOutput('ryo_kr'), br(), br(), br(), 
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
@@ -347,8 +369,8 @@ ui <- shinyUI(
                 #HTML(readLines('www/ryo-gr.html'))#, 
                 #includeHTML('www/ryo-gr.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_gr'), 
-                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
+                htmlOutput('ryo_gr'), br(), br(), br(), 
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
@@ -357,8 +379,8 @@ ui <- shinyUI(
                 #HTML(readLines('www/ryo-de.html'))#, 
                 #includeHTML('www/ryo-de.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_de'), 
-                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
+                htmlOutput('ryo_de'), br(), br(), br(), 
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'fr', h2('🇫🇷 Français', align = 'center'), 
@@ -367,8 +389,8 @@ ui <- shinyUI(
                 #HTML(readLines('www/ryo-fr.html'))#, 
                 #includeHTML('www/ryo-fr.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_fr'), 
-                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"), 
+                htmlOutput('ryo_fr'), br(), br(), br(), 
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>"), 
                 tags$script(HTML("
                         var p = document.getElementById('ryo_fr')
                         $(p).attr('align', 'center');"))
@@ -380,8 +402,8 @@ ui <- shinyUI(
                 #HTML(readLines('www/ryo-it.html'))#, 
                 #includeHTML('www/ryo-it.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_it'), 
-                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
+                htmlOutput('ryo_it'), br(), br(), br(), 
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         )
       )
@@ -439,7 +461,7 @@ server <- shinyServer(function(input, output, session) {
   output$ryo_kr <- renderUI({
     validate(
       need(is.error(file.exists('www/ryo-kr.html')), 
-           '<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'),
+           HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !')),
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-kr.html')
