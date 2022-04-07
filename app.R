@@ -9,6 +9,7 @@ lib('bs4Dash')
 lib('dashboardthemes')
 lib('shinyWidgets')
 lib('shinyjs')
+lib('shinyvalidate')
 lib('memoise')
 if(!require('XML')) devtools::install_github('omegahat/XML')
 lib('XML')
@@ -80,7 +81,19 @@ logo <- shinyDashboardLogoDIY(
   badgeBorderRadius = 3)
 
 alignCenter <- memoise(function(el) {
-  htmltools::tagAppendAttributes(el, style = "width:500vw;height:100vh;background-color:#fff;display:flex;align-items:center;justify-content:center;")
+  htmltools::tagAppendAttributes(
+    el, style = "
+      width:500vw;
+      height:100vh;
+      /* background-color: rgba(255, 255, 255, 0.35); */  /* 35% opaque white */
+      /* padding: 0.25em; */
+      color: #FFD64D;
+      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      transition: all 0.45s;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    ")
 })
 
 
@@ -102,6 +115,8 @@ ui <- shinyUI(
     header = dashboardHeader(title = logo), 
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
+      ## https://stackoverflow.com/questions/52382832/r-shiny-dashboard-body-dependant-from-shiny-subitem-selection
+      
       sidebarMenu(
         id = 'tabs', 
         menuItem('®️Studio ☁️', tabName = 'menu', 
@@ -161,7 +176,7 @@ ui <- shinyUI(
             
             /* active selected tab in the sidebarmenu */
             /* .skin-blue .main-sidebar .sidebar .sidebar-menu .active a { */
-            /* background-color: #ff0000; */
+            /* background-color: #FF0000; */
             /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
             /*   transition: all 0.45s; */
             /*   &:hover{ */
@@ -171,7 +186,7 @@ ui <- shinyUI(
             
             /* other links in the sidebarmenu */
             /* .skin-blue .main-sidebar .sidebar .sidebar-menu a { */
-            /* background-color: #00ff00; */
+            /* background-color: #00FF00; */
             /* color: #000000; */
             /* } */
             
@@ -209,9 +224,9 @@ ui <- shinyUI(
               color: #FFD64D;
               background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
               transition: all 0.45s;
-            /*   &:hover{ */
-            /*     background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%); */
-            /*   } */
+              &:hover{
+                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
+              }
             }
             
             /* body when hovered */
@@ -246,6 +261,30 @@ ui <- shinyUI(
             /*     background: linear-gradient(155DEG, #146275 20%, #33A8C4 80%); */
             /*   } */
             /* } */
+            
+            /* ## https://stackoverflow.com/questions/59760316/change-the-color-of-text-in-validate-in-a-shiny-app */
+            .shiny-output-error-validation {
+            /* background-color: #FFD64D; */
+              color: #FF0000;
+              font-size: 36px;
+              font-weight: bold;
+              display:flex;
+              align-items:center;
+              justify-content:center;
+              background: linear-gradient(155DEG, #002C54 0%, #4CB5F5 100%);
+              transition: all 0.45s;
+              &:hover{
+                background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
+              }
+            }
+            
+            /* ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp */
+            .insta-publisher-uploader-box {
+              display:block;
+              align-items:center;
+              justify-content:center;
+            }
+            
             '))), 
       
       tabItems(
@@ -297,15 +336,19 @@ ui <- shinyUI(
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-gr.html'))#, 
                 #includeHTML('www/ryo-gr.html')#,
-                htmlOutput('ryo_gr')
+                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+                htmlOutput('ryo_kr'), 
+                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-kr', 
+                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-kr.html'))#, 
-                #includeHTML('www/ryo-kr.html')#,
-                htmlOutput('ryo_kr')
+                #HTML(readLines('www/ryo-gr.html'))#, 
+                #includeHTML('www/ryo-gr.html')#,
+                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+                htmlOutput('ryo_gr'), 
+                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
@@ -313,7 +356,9 @@ ui <- shinyUI(
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-de.html'))#, 
                 #includeHTML('www/ryo-de.html')#,
-                htmlOutput('ryo_de')
+                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+                htmlOutput('ryo_de'), 
+                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'fr', h2('🇫🇷 Français', align = 'center'), 
@@ -321,7 +366,12 @@ ui <- shinyUI(
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-fr.html'))#, 
                 #includeHTML('www/ryo-fr.html')#,
-                htmlOutput('ryo_fr')
+                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+                htmlOutput('ryo_fr'), 
+                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"), 
+                tags$script(HTML("
+                        var p = document.getElementById('ryo_fr')
+                        $(p).attr('align', 'center');"))
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'it', h2('🇮🇹 Italiano', align = 'center'), 
@@ -329,7 +379,9 @@ ui <- shinyUI(
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-it.html'))#, 
                 #includeHTML('www/ryo-it.html')#,
-                htmlOutput('ryo_it')
+                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+                htmlOutput('ryo_it'), 
+                HTML("<iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
                 #htmlOutput('frame')
         )
       )
@@ -346,13 +398,14 @@ ui <- shinyUI(
         HTML("<a href='https://www.scibrokes.com'>世博量化®</a>"), 
         '企业知识产权®及版权®所有，盗版必究。', 
         ), 
-      right = p(br(), 
-                tags$a(href = 'https://www.pku.edu.cn', target = '_blank', 
-                tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
-                         #src = 'www/Peking University 02.png')), 
-                         src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
-                HTML("<a href='https://www.pku.edu.cn'>北京大学</a>"), 
-                '🐉 ®γσ 2022 原著')
+      right = p(
+        br(), 
+        tags$a(href = 'https://www.pku.edu.cn', target = '_blank', 
+               tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
+                        #src = 'www/Peking University 02.png')), 
+                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
+        HTML(paste0("<a href='https://www.pku.edu.cn'>", span('北京大学', style = 'color:blue'), "</a>")), 
+        '🐉 ®γσ ξηg 2022 原著')
       ), 
     title = 'DashboardPage'))
 
@@ -378,16 +431,51 @@ server <- shinyServer(function(input, output, session) {
   observeEvent(input$rb, {
     updateTabItems(session, 'tabs', selected = input$rb)
   })
-
+  
   output$ryo_en <- renderUI(includeHTML('www/ryo-en.html'))
   output$ryo_cn <- renderUI(includeHTML('www/ryo-cn.html'))
   output$ryo_tw <- renderUI(includeHTML('www/ryo-tw.html'))
   output$ryo_jp <- renderUI(includeHTML('www/ryo-jp.html'))
-  output$ryo_kr <- renderUI(includeHTML('www/ryo-kr.html'))
-  output$ryo_gr <- renderUI(includeHTML('www/ryo-gr.html'))
-  output$ryo_de <- renderUI(includeHTML('www/ryo-de.html'))
-  output$ryo_fr <- renderUI(includeHTML('www/ryo-fr.html'))
-  output$ryo_it <- renderUI(includeHTML('www/ryo-it.html'))
+  output$ryo_kr <- renderUI({
+    validate(
+      need(is.error(file.exists('www/ryo-kr.html')), 
+           '<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'),
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-kr.html')
+    })
+  
+  output$ryo_gr <- renderUI({
+    validate(
+      need(is.error(file.exists('www/ryo-gr.html')), 'Υπό κατασκευή !'), 
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-gr.html')
+    })
+  
+  output$ryo_de <- renderUI({
+    validate(
+      need(is.error(file.exists('www/ryo-de.html')), 'En construction !'), 
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-de.html')
+    })
+  
+  output$ryo_fr <- renderUI({
+    validate(
+      need(is.error(file.exists('www/ryo-fr.html')), 'Im Bau !'), 
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-fr.html')
+    })
+  
+  output$ryo_it <- renderUI({
+    validate(
+      need(is.error(file.exists('www/ryo-it.html')), 'In costruzione !'), 
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-it.html')
+    })
   
   observeEvent(input$tabs, {
     updatePrettyRadioButtons(session, 'rb', selected = input$tabs)

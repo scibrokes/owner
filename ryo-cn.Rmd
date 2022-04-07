@@ -1034,13 +1034,19 @@ linear_gradient2 <- htmlwidgets::JS(
        { offset: 1, color: '#4CB5F5' }
      ])")
 
+## custom function
+#rscale <- function(x) scales::rescale(x, to = c(2, 50))
+
 skill |> 
   echarts4r::e_charts(`技能`) |> 
   echarts4r::e_radar(`程度`, max = 10, name = skill$`技能`, 
                      itemStyle = list(
                        color = linear_gradient1), 
                      areaStyle = list(
-                       color = linear_gradient2)) |>
+                       color = linear_gradient2)
+                     #scale = rscale
+                     ) |>
+  #echarts4r::e_animation(duration = 10000) |> 
   echarts4r::e_tooltip(trigger = 'item')
 ```
 
@@ -1154,7 +1160,7 @@ markLinedata <- data.frame(
 wmap <- remapC(data, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
-               title = '', subtitle = '', 
+               title = '量化圈', subtitle = '金融计量经济学', 
                markPointData = vec, markLineData = markLinedata, 
                geoData = geodata)
 knitrREmap(wmap, local = FALSE)

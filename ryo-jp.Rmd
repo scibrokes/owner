@@ -1154,7 +1154,7 @@ markLinedata <- data.frame(
 wmap <- remapC(data, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
-               title = '', subtitle = '', 
+               title = '量化界', subtitle = '金融計量経済學', 
                markPointData = vec, markLineData = markLinedata, 
                geoData = geodata)
 knitrREmap(wmap, local = FALSE)

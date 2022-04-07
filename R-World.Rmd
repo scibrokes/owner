@@ -1,0 +1,200 @@
+---
+title: "Untitled"
+author: "[🐉 ®γσ ξηg](http://englianhu.wordpress.com)"
+date: '2022-04-07'
+output:
+  html_document:
+    fig_height: 3
+    fig_width: 5
+    highlight: zenburn
+    theme: cerulean
+    toc: yes
+---
+
+```{r setting, echo=FALSE}
+# Don't delete this chunk if you are using the mosaic package
+# This loads the mosaic and dplyr packages
+
+## Setting to omit all warnings
+options(warn=-1)
+```
+
+```{r load-packages, echo=FALSE}
+## Loading the packages
+if(!'devtools' %in% installed.packages()){
+  install.packages('devtools')}
+if(!'BBmisc' %in% installed.packages()){
+  install.packages('BBmisc')}
+if(!'REmap' %in% installed.packages()){
+  install_github('lchiffon/REmap')}
+
+suppressPackageStartupMessages(library('BBmisc'))
+pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap')
+suppressAll(lib(pkgs)); rm(pkgs)
+```
+
+```{r skill, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
+require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
+require('formattable', quietly = TRUE, warn.conflicts = FALSE)
+require('knitr', quietly = TRUE, warn.conflicts = FALSE)
+require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
+
+skill <- tibble(
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
+skill <- tibble('序列' = 1:nrow(skill), skill)
+
+skill |> 
+    {\(.) dplyr::mutate(
+      ., `技能` = cell_spec(`技能`, italic = TRUE, 
+                           color = spec_color(seq(nrow(skill)), option = 'A', 
+                                              begin = 0.1, end = 0.9), 
+                           tooltip = paste0('程度: ', `程度`), angle = 3))}() |>#, 
+    #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
+  {\(.) mutate_if(., is.numeric, function(x){ 
+    cell_spec(x, 'html', color = 
+                spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
+                           direction = -1), angle = 20, 
+              font_size = spec_font_size(x), bold = TRUE) })}() |> 
+  {\(.) kbl(., caption = '技能评估（从新兵1至专业10）', escape = FALSE, align = 'c')}() |> 
+  {\(.) kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+  {\(.) row_spec(., 0, background = 'DimGrey', color = 'yellow')}()# %>% 
+  #column_spec(1, background = 'CornflowerBlue', color = 'red') %>% 
+  #column_spec(2, background = 'grey', color = 'black') %>% 
+  #column_spec(2, background = 'grey', color = 'black')
+```
+
+```{r skill2B, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+#radarchart::chartJSRadar(
+#  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
+#  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
+
+### ---------------------------
+
+linear_gradient1 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#EDAE01' },
+       { offset: 1, color: '#FFEB94' }
+     ])")
+
+linear_gradient2 <- htmlwidgets::JS(
+     "new echarts.graphic.LinearGradient(
+     0, 0, 0, 1,
+     [
+       { offset: 0, color: '#002C54' },
+       { offset: 1, color: '#4CB5F5' }
+     ])")
+
+skill |> 
+  echarts4r::e_charts(`技能`) |> 
+  echarts4r::e_radar(`程度`, max = 10, name = skill$`技能`, 
+                     itemStyle = list(
+                       color = linear_gradient1), 
+                     areaStyle = list(
+                       color = linear_gradient2)) |>
+  echarts4r::e_tooltip(trigger = 'item')
+```
+
+```{r REmap-setting, echo=FALSE}
+## Reinitialized the REmap setting
+remap.init()
+```
+
+```{r read-data, echo=FALSE}
+## Set a data frame format cities and randomly set country code
+data = data.frame(country=mapNames('world'), value=5*sample(178)+200)
+
+vec = c('Beijing','Tokyo','Shanghai','New York','Sydney','London','Bangkok',
+        'Taipei','Moscow','Washington','Lyon','Milan','Rome','Macao',
+        'Singapore','Hong Kong','Kuala Lumpur','Madrid','Geneva','Paris',
+        'Melbourne','Boston','Washington','Liverpool','Brighton','Bali',
+        'San Francisco','Jakarta','Ho Chi Minh','Brasilia','Barcelona',
+        'Rio de Janeiro','Buenos Aires','Bern','Basel','Zurich','Manila',
+        'Toronto','Vancouver','Budapest','New Delhi','Thimphu','Mumbai',
+        'Cairo','Greater Johannesburg','Durban','Alexandria','Zaria','Dubai',
+        'Istanbul','Mexico City','Sapporo','Osaka','Ulaanbaatar','Vienna')
+
+## Get world city geocode by ggmap
+#geodata = suppressAll(as.data.frame(cbind(ggmap::geocode(vec),vec)))
+## Get world city geocode from simplemaps.com
+## https://simplemaps.com/data/world-cities
+geodata <- readr::read_csv('data/worldcities.csv') |> 
+  dplyr::filter(capital == 'primary') |> 
+  dplyr::select(lng, lat, country, city) |> 
+  dplyr::rename(lon = lng)
+
+countries <- geodata$country |> 
+  unique()
+
+## randomly set country codes
+data <- data.frame(
+  country = countries, 
+  value = 5 * sample(length(countries)) + 200)
+
+## cities
+#vec <- geodata$city
+
+## lon & lat of cities
+geodata <- geodata |> 
+  data.frame() |> 
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
+
+## Design a line data frame
+#markLinedata <- data.frame(
+#  origin = rep('Beijing', (length(vec) - 1)), 
+#  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+
+## Design a line data.frame
+markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[-1])
+```
+
+```{r plot-map, echo=FALSE}
+## Plot the REmap shining 
+p <- remapC(data, maptype='world',color=c('black','black'),
+       theme=get_theme(backgroundColor='black'),
+       markPointData=vec, markLineData=markLinedata, geoData=geodata)
+knitrREmap(p,local=F)
+```
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221986532&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+
+
+## Appendices
+  
+  
+  
+### Documenting File Creation 
+
+It's useful to record some information about how your file was created.
+  
+  * File creation date: 2015-11-04
+  * `r R.version.string`
+  * R version (short form): `r getRversion()`
+  * `rmarkdown` package version: `r packageVersion('rmarkdown')`
+  * File version: 1.0.1
+  * File latest updated date: `r Sys.Date()`
+  * Author Profile: [Ryo®, Eng Lian Hu](http://rpubs.com/englianhu/ryoeng)
+  * GitHub: [Source Code](https://github.com/Scibrokes/r-world)
+  * Additional session information
+  
+```{r echo=FALSE, results='asis'}
+lubridate::now()
+devtools::session_info()$platform
+Sys.info()
+```
+
+
+
+### References
+  
+  * You are feel free to create  your own webpage by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
+  * `rticles` package version: `r packageVersion("rticles")`
+  * You can plot the shining map by using [REmap](http://lchiffon.github.io/REmap) package.
+  * [在knitr里面使用REmap](http://chiffon.gitcafe.io/2015/10/27/knitrREmap.html)
+  * You can also modify the layout of website by refering [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
+  
