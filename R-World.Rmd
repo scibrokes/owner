@@ -9,6 +9,7 @@ output:
     highlight: zenburn
     theme: cerulean
     toc: yes
+runtime: shiny
 ---
 
 ```{r setting, echo=FALSE}
@@ -31,6 +32,65 @@ if(!'REmap' %in% installed.packages()){
 suppressPackageStartupMessages(library('BBmisc'))
 pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap')
 suppressAll(lib(pkgs)); rm(pkgs)
+```
+
+```{r, error = TRUE, results='asis'}
+#remotes::install_git("https://gitee.com/JohnCoene/echarts4r")
+lib('echarts4r')
+
+mtcars |> 
+  e_charts(disp) |> 
+  e_scatter(mpg, qsec) |> 
+  e_loess(mpg ~ disp)
+
+iris |> 
+  group_by(Species) |> 
+  e_charts(Sepal.Length) |> 
+  e_line(Sepal.Width) |> 
+  e_lm(Sepal.Width ~ Sepal.Length) |> 
+  e_x_axis(min = 4)
+
+df <- data.frame(
+  x = seq(50),
+  y = rnorm(50, 10, 3),
+  z = rnorm(50, 11, 2),
+  w = rnorm(50, 9, 2)
+)
+
+df |> 
+  e_charts(x) |> 
+  e_line(z) |> 
+  e_area(w) |> 
+  e_title("Line and area charts")
+
+df |> 
+  e_charts(x) |> 
+  e_polar() |> 
+  e_angle_axis(x) |> # angle = x
+  e_radius_axis() |> 
+  e_bar(y, coord_system = "polar") |> 
+  e_scatter(z, coord_system = "polar")
+
+df |> 
+  head(10) |> 
+  e_charts(x) |> 
+  e_polar() |> 
+  e_angle_axis() |> 
+  e_radius_axis(x) |> 
+  e_bar(y, coord_system = "polar") |> 
+  e_scatter(z, coord_system = "polar")
+
+df <- data.frame(
+  x = LETTERS[1:5],
+  y = runif(5, 1, 5),
+  z = runif(5, 3, 7)
+)
+
+df |> 
+  e_charts(x) |> 
+  e_radar(y, max = 7, name = "radar") |>
+  e_radar(z, max = 7, name = "chart") |>
+  e_tooltip(trigger = "item")
 ```
 
 ```{r skill, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
@@ -162,39 +222,452 @@ knitrREmap(p,local=F)
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221986532&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
+```{r, error = TRUE, results='asis'}
+# Library
+library(fmsb)
+ 
+# Create data: note in High school for Jonathan:
+data <- as.data.frame(matrix( sample( 2:20 , 10 , replace=T) , ncol=10))
+colnames(data) <- c("math" , "english" , "biology" , "music" , "R-coding", "data-viz" , "french" , "physic", "statistic", "sport" )
+ 
+# To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot!
+data <- rbind(rep(20,10) , rep(0,10) , data)
+ 
+# Check your data, it has to look like this!
+# head(data)
+
+# The default radar chart 
+radarchart(data)
 
 
-## Appendices
-  
-  
-  
-### Documenting File Creation 
+# Library
+library(fmsb)
+ 
+# Create data: note in High school for Jonathan:
+data <- as.data.frame(matrix( sample( 2:20 , 10 , replace=T) , ncol=10))
+colnames(data) <- c("math" , "english" , "biology" , "music" , "R-coding", "data-viz" , "french" , "physic", "statistic", "sport" )
+ 
+# To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot!
+data <- rbind(rep(20,10) , rep(0,10) , data)
+ 
+# Check your data, it has to look like this!
+# head(data)
 
-It's useful to record some information about how your file was created.
-  
-  * File creation date: 2015-11-04
-  * `r R.version.string`
-  * R version (short form): `r getRversion()`
-  * `rmarkdown` package version: `r packageVersion('rmarkdown')`
-  * File version: 1.0.1
-  * File latest updated date: `r Sys.Date()`
-  * Author Profile: [Ryo®, Eng Lian Hu](http://rpubs.com/englianhu/ryoeng)
-  * GitHub: [Source Code](https://github.com/Scibrokes/r-world)
-  * Additional session information
-  
-```{r echo=FALSE, results='asis'}
-lubridate::now()
-devtools::session_info()$platform
-Sys.info()
+# Custom the radarChart !
+radarchart( data  , axistype=1 , 
+ 
+    #custom polygon
+    pcol=rgb(0.2,0.5,0.5,0.9) , pfcol=rgb(0.2,0.5,0.5,0.5) , plwd=4 , 
+ 
+    #custom the grid
+    cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,20,5), cglwd=0.8,
+ 
+    #custom labels
+    vlcex=0.8 
+    )
+```
+
+```{r, error = TRUE, results='asis'}
+library(radarchart)
+
+labs <- c("Communicator", "Data Wangler", "Programmer",
+          "Technologist",  "Modeller", "Visualizer")
+
+scores <- list(
+  "Rich" = c(9, 7, 4, 5, 3, 7),
+  "Andy" = c(7, 6, 6, 2, 6, 9),
+  "Aimee" = c(6, 5, 8, 4, 7, 6)
+)
+
+chartJSRadar(scores = scores, labs = labs, maxScale = 10)
+
+scores <- data.frame("Label"=c("Communicator", "Data Wangler", "Programmer",
+                     "Technologist",  "Modeller", "Visualizer"),
+                     "Rich" = c(9, 7, 4, 5, 3, 7),
+                     "Andy" = c(7, 6, 6, 2, 6, 9),
+                     "Aimee" = c(6, 5, 8, 4, 7, 6))
+
+chartJSRadar(scores, maxScale = 10, showToolTipLabel=TRUE)
+
+chartJSRadar(skills, main = "Data Science Radar")
+chartJSRadarOutput("ID", width = "450", height = "300")
+runExampleApp("basic")
+```
+
+```{r, error = TRUE, results='asis'}
+lib('fmsb')
+
+df_maxmin <- data.frame(
+    drat = c(1, 0),
+    wt = c(1, 0),
+    qsec = c(1, 0),
+    vs = c(1, 0),
+    am = c(1, 0))
+
+#load data
+mtcars_radar <- mtcars %>% 
+  as_tibble(rownames = "group") %>% 
+  mutate_at(vars(-group), rescale) %>% 
+  tail(2) %>% 
+  dplyr::select(1,6:10)
+
+#check data type with std() function
+str(mtcars_radar)
+
+mtcars_radar <- mtcars_radar[,c('drat','wt','qsec','vs','am')]
+mtcars_radar <- rbind(df_maxmin, mtcars_radar)
+fmsb::radarchart(mtcars_radar)
+```
+
+```{r, error = TRUE, results='asis'}
+#devtools::install_github('ricardo-bion/ggradar', dependencies = TRUE, force = T)
+devtools::install_github("poissonconsulting/rescale")
+lib('ggradar')
+lib('rescale')
+lib('lattice')
+lib('rgl')
+lib('akima')
+
+x=runif(1000)
+y=runif(1000)
+z=rnorm(1000)
+s=interp(x,y,z,duplicate="strip")
+surface3d(s$x,s$y,s$z,color="blue")
+points3d(s)
+
+
+x <- seq(-10, 10, length.out = 50)  
+y <- x  
+rotsinc <- function(x,y) {
+    sinc <- function(x) { y <- sin(x)/x ; y[is.na(y)] <- 1; y }  
+    10 * sinc( sqrt(x^2+y^2) )  
+}
+
+z <- outer(x, y, rotsinc)  
+persp(x, y, z)
+surface3d(x, y, z)
+
+
+# begin generating my 3D shape
+b <- seq(from=0, to=20,by=0.5)
+s <- seq(from=0, to=20,by=0.5)
+payoff <- expand.grid(b=b,s=s)
+payoff$payoff <- payoff$b - payoff$s
+payoff$payoff[payoff$payoff < -1] <- -1
+# end generating my 3D shape
+
+
+wireframe(payoff ~ s * b, payoff, shade = TRUE, aspect = c(1, 1),
+    light.source = c(10,10,10), main = "Study 1",
+    scales = list(z.ticks=5,arrows=FALSE, col="black", font=10, tck=0.5),
+    screen = list(z = 40, x = -75, y = 0))
+```
+
+```{r, error=TRUE, results='asis'}
+plot_rgl_model_a <- function(fdata, plot_contour = T, plot_points = T, 
+                             verbose = F, colour = "rainbow", smoother = F){
+  ## takes a model in long form, in the format
+  ## 1st column x
+  ## 2nd is y,
+  ## 3rd is z (height)
+  ## and draws an rgl model
+
+  ## includes a contour plot below and plots the points in blue
+  ## if these are set to TRUE
+
+  # note that x has to be ascending, followed by y
+  if (verbose) print(head(fdata))
+
+  fdata <- fdata[order(fdata[, 1], fdata[, 2]), ]
+  if (verbose) print(head(fdata))
+  ##
+  require(reshape2)
+  require(rgl)
+  orig_names <- colnames(fdata)
+  colnames(fdata) <- c("x", "y", "z")
+  fdata <- as.data.frame(fdata)
+
+  ## work out the min and max of x,y,z
+  xlimits <- c(min(fdata$x, na.rm = T), max(fdata$x, na.rm = T))
+  ylimits <- c(min(fdata$y, na.rm = T), max(fdata$y, na.rm = T))
+  zlimits <- c(min(fdata$z, na.rm = T), max(fdata$z, na.rm = T))
+  l <- list (x = xlimits, y = ylimits, z = zlimits)
+  xyz <- do.call(expand.grid, l)
+  if (verbose) print(xyz)
+  x_boundaries <- xyz$x
+  if (verbose) print(class(xyz$x))
+  y_boundaries <- xyz$y
+  if (verbose) print(class(xyz$y))
+  z_boundaries <- xyz$z
+  if (verbose) print(class(xyz$z))
+  if (verbose) print(paste(x_boundaries, y_boundaries, z_boundaries, sep = ";"))
+
+  # now turn fdata into a wide format for use with the rgl.surface
+  fdata[, 2] <- as.character(fdata[, 2])
+  fdata[, 3] <- as.character(fdata[, 3])
+  #if (verbose) print(class(fdata[, 2]))
+  wide_form <- dcast(fdata, y ~ x, value_var = "z")
+  if (verbose) print(head(wide_form))
+  wide_form_values <- as.matrix(wide_form[, 2:ncol(wide_form)])  
+  if (verbose) print(wide_form_values)
+  x_values <- as.numeric(colnames(wide_form[2:ncol(wide_form)]))
+  y_values <- as.numeric(wide_form[, 1])
+  if (verbose) print(x_values)
+  if (verbose) print(y_values)
+  wide_form_values <- wide_form_values[order(y_values), order(x_values)]
+  wide_form_values <- as.numeric(wide_form_values)
+  x_values <- x_values[order(x_values)]
+  y_values <- y_values[order(y_values)]
+  if (verbose) print(x_values)
+  if (verbose) print(y_values)
+
+  if (verbose) print(dim(wide_form_values))
+  if (verbose) print(length(x_values))
+  if (verbose) print(length(y_values))
+
+  zlim <- range(wide_form_values)
+  if (verbose) print(zlim)
+  zlen <- zlim[2] - zlim[1] + 1
+  if (verbose) print(zlen)
+
+  if (colour == "rainbow"){
+    colourut <- rainbow(zlen, alpha = 0)
+    if (verbose) print(colourut)
+    col <- colourut[ wide_form_values - zlim[1] + 1]
+    # if (verbose) print(col)
+  } else {
+    col <- "grey"
+    if (verbose) print(table(col2))
+  }
+
+
+  open3d()
+  plot3d(x_boundaries, y_boundaries, z_boundaries, 
+         box = T, col = "black",  xlab = orig_names[1], 
+         ylab = orig_names[2], zlab = orig_names[3])
+
+  rgl.surface(z = x_values,  ## these are all different because
+              x = y_values,  ## of the confusing way that 
+              y = wide_form_values,  ## rgl.surface works! - y is the height!
+              coords = c(2,3,1),
+              color = col,
+              alpha = 1.0,
+              lit = F,
+              smooth = smoother)
+
+  if (plot_points){
+    # plot points in red just to be on the safe side!
+    points3d(fdata, col = "blue")
+  }
+
+  if (plot_contour){
+    # plot the plane underneath
+    flat_matrix <- wide_form_values
+    if (verbose) print(flat_matrix)
+    y_intercept <- (zlim[2] - zlim[1]) * (-2/3) # put the flat matrix 1/2 the distance below the lower height 
+    flat_matrix[which(flat_matrix != y_intercept)] <- y_intercept
+    if (verbose) print(flat_matrix)
+
+    rgl.surface(z = x_values,  ## these are all different because
+                x = y_values,  ## of the confusing way that 
+                y = flat_matrix,  ## rgl.surface works! - y is the height!
+                coords = c(2,3,1),
+                color = col,
+                alpha = 1.0,
+                smooth = smoother)
+  }
+}
+
+
+
+add_rgl_model <- function(fdata){
+
+  ## takes a model in long form, in the format
+  ## 1st column x
+  ## 2nd is y,
+  ## 3rd is z (height)
+  ## and draws an rgl model
+
+  ##
+  # note that x has to be ascending, followed by y
+  print(head(fdata))
+
+  fdata <- fdata[order(fdata[, 1], fdata[, 2]), ]
+
+  print(head(fdata))
+  ##
+  require(reshape2)
+  require(rgl)
+  orig_names <- colnames(fdata)
+
+  #print(head(fdata))
+  colnames(fdata) <- c("x", "y", "z")
+  fdata <- as.data.frame(fdata)
+
+  ## work out the min and max of x,y,z
+  xlimits <- c(min(fdata$x, na.rm = T), max(fdata$x, na.rm = T))
+  ylimits <- c(min(fdata$y, na.rm = T), max(fdata$y, na.rm = T))
+  zlimits <- c(min(fdata$z, na.rm = T), max(fdata$z, na.rm = T))
+  l <- list (x = xlimits, y = ylimits, z = zlimits)
+  xyz <- do.call(expand.grid, l)
+  #print(xyz)
+  x_boundaries <- xyz$x
+  #print(class(xyz$x))
+  y_boundaries <- xyz$y
+  #print(class(xyz$y))
+  z_boundaries <- xyz$z
+  #print(class(xyz$z))
+
+  # now turn fdata into a wide format for use with the rgl.surface
+  fdata[, 2] <- as.character(fdata[, 2])
+  fdata[, 3] <- as.character(fdata[, 3])
+  #print(class(fdata[, 2]))
+  wide_form <- dcast(fdata, y ~ x, value_var = "z")
+  print(head(wide_form))
+  wide_form_values <- as.matrix(wide_form[, 2:ncol(wide_form)])  
+  x_values <- as.numeric(colnames(wide_form[2:ncol(wide_form)]))
+  y_values <- as.numeric(wide_form[, 1])
+  print(x_values)
+  print(y_values)
+  wide_form_values <- wide_form_values[order(y_values), order(x_values)]
+  x_values <- x_values[order(x_values)]
+  y_values <- y_values[order(y_values)]
+  print(x_values)
+  print(y_values)
+
+  print(dim(wide_form_values))
+  print(length(x_values))
+  print(length(y_values))
+
+  rgl.surface(z = x_values,  ## these are all different because
+              x = y_values,  ## of the confusing way that 
+              y = wide_form_values,  ## rgl.surface works!
+              coords = c(2,3,1),
+              alpha = .8)
+  # plot points in red just to be on the safe side!
+  points3d(fdata, col = "red")
+}
+```
+
+```{r, error=TRUE, results='asis'}
+x=runif(1000)
+y=runif(1000)
+z=rnorm(1000)
+s=interp(x,y,z,duplicate="strip")
+surface3d(s$x,s$y,s$z,color="blue")
+points3d(s)
+```
+
+```{r, error=TRUE, results='asis'}
+lib('ggplot2')
+lib('rayshader')
+conflict_prefer("select", "dplyr")
+
+df <- data.frame(
+  YearMonth = c(202101L,202101L,202101L,
+                202102L,202102L,202102L,202103L,202103L,202103L),
+  Product = c("bike","car","skateboard",
+              "bike","car","skateboard","bike","car","skateboard"),
+  Sales = c(100L, 40L, 60L, 70L, 30L, 50L, 50L, 20L, 30L)
+)
+df <- rbind(df, subset(df, subset = Product == "bike"))
+df$height <- match(df$YearMonth, sort(unique(df$YearMonth)))
+df
+
+# Define a new coordinate system from coord_polar
+coord_radar <- function(theta = "x", start = 0, direction = 1, clip = "on") {
+  theta <- match.arg(theta, c("x", "y"))
+  r <- if (theta == "x")
+    "y"
+  else "x"
+  ggproto(NULL, CoordPolar, theta = theta, r = r, start = start,
+          direction = sign(direction), clip = clip,
+          # This is the change to make the lines straight
+          is_linear = function() TRUE
+          )
+}
+
+plot2d <- ggplot(df, aes(x = Product, y = Sales, color = height)) + 
+  geom_path(aes(group = YearMonth)) + 
+  scale_color_continuous() +
+  guides(color = "none") + 
+  coord_radar()
+
+plot_gg(plot2d, raytrace = FALSE)
+```
+
+```{r, error=TRUE, results='asis'}
+library(tidyverse)
+library(shiny)
+library(plotly)
+
+pokemons <- 
+read_table('
+  name      hp  defense attack sp_attack sp_defense speed
+  Bulbasaur 45      49     49        65         65    45
+    Ivysaur 60      63     62        80         80    60
+   Venusaur 80     123    100       122        120    80
+ Charmander 39      43     52        60         50    65
+ Charmeleon 58      58     64        80         65    80
+  Charizard 78      78    104       159        115   100')
+
+
+
+ui <- navbarPage(title = "Pokemon Research",
+
+                 tabPanel(title = "Pokemon Statistics",
+                          sidebarPanel(
+                              selectInput(inputId = "indv",
+                                          label = "Pokemon",
+                                          choices = pokemons$name, 
+                                          selected = 'Bulbasaur')
+                              ),
+                          mainPanel(
+                              plotlyOutput('radar') #the radar plot
+                          )
+                          ))
+
+server <- function(input, output, session) {
+
+    output$radar <- renderPlotly({
+        pkmn <- filter(pokemons, name == input$indv)
+        
+        r <- map_dbl(pkmn[, 2:6], ~.x)
+        nms <- names(r)
+        
+        #code to plot the radar
+        fig <- plot_ly(
+            type = 'scatterpolar',
+            r = r,
+            theta = nms,
+            fill = 'toself',
+            mode = 'markers'
+        ) 
+        fig <- fig %>%
+            layout(
+                polar = list(
+                    radialaxis = list(
+                        visible = T,
+                        range = c(0,max(r))
+                    )
+                ),
+                showlegend = F
+            )
+    })
+}
+
+shinyApp(ui, server)
+```
+
+```{r, error=TRUE, results='asis'}
+
+```
+
+```{r, error=TRUE, results='asis'}
+## https://codepen.io/duggi/pen/gPjrKM#_=_
+
 ```
 
 
 
-### References
-  
-  * You are feel free to create  your own webpage by R Markdown V2 by refer to [Document Templates](http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.484&mode=server)
-  * `rticles` package version: `r packageVersion("rticles")`
-  * You can plot the shining map by using [REmap](http://lchiffon.github.io/REmap) package.
-  * [在knitr里面使用REmap](http://chiffon.gitcafe.io/2015/10/27/knitrREmap.html)
-  * You can also modify the layout of website by refering [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/).
-  
+
