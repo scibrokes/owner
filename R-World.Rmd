@@ -30,7 +30,8 @@ if(!'REmap' %in% installed.packages()){
   install_github('lchiffon/REmap')}
 
 suppressPackageStartupMessages(library('BBmisc'))
-pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap')
+pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap', 'shiny', 'shinydashboard', 'shinydashboardPlus')
+
 suppressAll(lib(pkgs)); rm(pkgs)
 ```
 
@@ -99,6 +100,8 @@ require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
 require('formattable', quietly = TRUE, warn.conflicts = FALSE)
 require('knitr', quietly = TRUE, warn.conflicts = FALSE)
 require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
+conflict_prefer("filter", "dplyr")
+conflict_prefer("layout", "plotly")
 
 skill <- tibble(
   '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
@@ -291,11 +294,12 @@ chartJSRadar(scores, maxScale = 10, showToolTipLabel=TRUE)
 
 chartJSRadar(skills, main = "Data Science Radar")
 chartJSRadarOutput("ID", width = "450", height = "300")
-runExampleApp("basic")
+#runExampleApp("basic")
 ```
 
 ```{r, error = TRUE, results='asis'}
-lib('fmsb')
+lib('fmsb', 'scales')
+lib(c('ggradar', 'rescale', 'lattice', 'rgl', 'akima', 'metan'))
 
 df_maxmin <- data.frame(
     drat = c(1, 0),
@@ -321,12 +325,8 @@ fmsb::radarchart(mtcars_radar)
 
 ```{r, error = TRUE, results='asis'}
 #devtools::install_github('ricardo-bion/ggradar', dependencies = TRUE, force = T)
-devtools::install_github("poissonconsulting/rescale")
-lib('ggradar')
-lib('rescale')
-lib('lattice')
-lib('rgl')
-lib('akima')
+#devtools::install_github("poissonconsulting/rescale")
+lib(c('ggradar', 'rescale', 'lattice', 'rgl', 'akima', 'metan'))
 
 x=runif(1000)
 y=runif(1000)
@@ -660,13 +660,125 @@ shinyApp(ui, server)
 ```
 
 ```{r, error=TRUE, results='asis'}
+## https://codepen.io/duggi/pen/gPjrKM#_=_
+## https://xiangyun.rbind.io/2021/11/interactive-web-graphics
+lib('apexcharter')
+
+mtcars$model <- rownames(mtcars)
+apex(data = head(mtcars), type = "radar", mapping = aes(x = model, y = qsec))
+
+# extremely complicated reshaping
+new_mtcars <- reshape(
+  data = head(mtcars), 
+  idvar = "model", 
+  varying = list(c("drat", "wt")),
+  times = c("drat", "wt"),
+  direction = "long",
+  v.names = "value",
+  drop = c("mpg", "cyl", "hp", "dist", "qsec", "vs", "am", "gear", "carb")
+)
+
+apex(data = new_mtcars, type = "radar", mapping = aes(x = model, y = value, group = time))
+```
+
+```{r, eval=FALSE, error=TRUE, results='asis'}
+lib('JuliaCall')
+julia_install_package_if_needed("Optim")
+julia_installed_package("Optim")
+#> [1] "0.22.0"
+julia_library("Optim")
+
+```
+
+我正在使用 `echarts4r` 创建一个圆环图.现在我正在尝试添加自定义工具提示，并且可以复制此处给出的示例 [`Echarts4r` : Create stacked area chart with percentage from total in tooltip](https://stackoverflow.com/questions/52413944/echarts4r-create-stacked-area-chart-with-percentage-from-total-in-tooltip) 和这里 [Displaying extra variables in tooltips `echarts4r`](https://stackoverflow.com/questions/50554304/displaying-extra-variables-in-tooltips-echarts4r#) .但是，我不太明白这是如何扩展到饼图的。我想要一个带有工具提示的饼图，显示总数和相对百分比
+
+```{r, error=TRUE, results='asis'}
+library(tidyverse)
+library(echarts4r)
+
+My_df <- data.frame(n = c(1, 4, 10), 
+                    x = c("A", "B", " C")) %>%
+  mutate(percent = round(n/sum(n), 2) )
+
+My_df %>%
+  e_charts(x)  %>% 
+  e_pie(n, radius = c("50%", "70%")) %>%
+  e_tooltip()
+```
+
+这是我迄今为止最好的一次拍摄
+
+```{r, error=TRUE, results='asis'}
+My_df %>%
+  e_charts(x)  %>% 
+  e_pie(n, radius = c("50%", "70%")) %>%
+  e_tooltip(formatter = htmlwidgets::JS("
+                                        function(params){
+                                        return('<strong>' + params.name + 
+                                        '</strong><br />total: ' + params.value + 
+                                        '<br />percent: ' +  params.value[1])   }  "))
+```
+
+在散点图示例中，使用 bind = 附加了额外的值。但这不适用于饼图。
+最佳答案
+
+你不能用`params.percent ?`
+
+```{r, error=TRUE, results='asis'}
+My_df %>%
+  e_charts(x)  %>% 
+  e_pie(n, radius = c("50%", "70%")) %>%
+  e_tooltip(formatter = htmlwidgets::JS("
+                                        function(params){
+                                        return('<strong>' + params.name + 
+                                        '</strong><br />total: ' + params.value + 
+                                        '<br />percent: ' +  params.percent)  +'%' }  "))
+```
+
+您也可以使用 [Javascript template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) 整理一下。
+
+```{r, error=TRUE, results='asis'}
+My_df %>%
+  e_charts(x)  %>% 
+  e_pie(n, radius = c("50%", "70%")) %>%
+  e_tooltip(formatter = htmlwidgets::JS("
+                                        function(params)
+                                        {
+                                            return `<strong>${params.name}</strong>
+                                                    <br/>Total: ${params.value}
+                                                    <br/>Percent: ${params.percent}%`
+                                        }  "))
+```
+
+```{r, error=TRUE, results='asis'}
+My_df %>%
+  e_charts(x)  %>% 
+  e_radar(n, radius = c("50%", "70%")) %>%
+  e_tooltip(formatter = htmlwidgets::JS("
+                                        function(params)
+                                        {
+                                            return `<strong>${params.name}</strong>
+                                                    <br/>Total: ${params.value}
+                                                    <br/>Percent: ${params.percent}%`
+                                        }  "))
+```
+
+```{r, error=TRUE, results='asis'}
 
 ```
 
 ```{r, error=TRUE, results='asis'}
-## https://codepen.io/duggi/pen/gPjrKM#_=_
 
 ```
+
+```{r, error=TRUE, results='asis'}
+
+```
+
+```{r, error=TRUE, results='asis'}
+
+```
+
 
 
 

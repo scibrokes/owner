@@ -1057,6 +1057,12 @@ skill |>
   echarts4r::e_tooltip(trigger = 'item')
 ```
 
+```{r, eval = FALSE, echo = FALSE}
+## https://codepen.io/duggi/pen/gPjrKM#_=_
+## https://xiangyun.rbind.io/2021/11/interactive-web-graphics
+lib(c('apexcharter', 'ggiraph', 'packer', 'ggvis', 'ggh4x'))
+```
+
 ```{r, eval=FALSE, echo=FALSE}
 Sys.setlocale(category = 'LC_ALL', locale = 'zh_CN.UTF-8')
 source('function/skill.R', encoding = 'utf-8')
