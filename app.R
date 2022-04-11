@@ -394,10 +394,10 @@ ui <- shinyUI(
                 #includeHTML('www/ryo-fr.html')#,
                 ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
                 htmlOutput('ryo_fr'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>"), 
-                tags$script(HTML("
-                        var p = document.getElementById('ryo_fr')
-                        $(p).attr('align', 'center');"))
+                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")#, 
+                #tags$script(HTML("
+                #        var p = document.getElementById('ryo_fr')
+                #        $(p).attr('align', 'center');"))
                 #htmlOutput('frame')
         ), 
         tabItem(tabName = 'it', h2('🇮🇹 Italiano', align = 'center'), 
@@ -420,7 +420,7 @@ ui <- shinyUI(
                 #htmlOutput('ryo_eng')
         ), 
         tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
-                p())
+                p('...'))
         )
     ), 
     

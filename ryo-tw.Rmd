@@ -362,6 +362,7 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 - music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
+runtime: shiny
 ---
 
 ------
@@ -373,12 +374,12 @@ resource_files:
 雷歐 ∪ 瑞歐，黃聯富
 
 <br>
-[[**主題曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
+[[**主題曲**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
-[^0]: [此菜🥬只應天上有，人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0)
+[^0]: [此菜🥬只應天上有，人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html)
 
 ------
 

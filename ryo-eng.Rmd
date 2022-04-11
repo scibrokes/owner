@@ -373,12 +373,12 @@ resource_files:
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
 <br>
-[[**Theme Song**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
+[[**Theme Song**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
-[^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html?seed=0) means :"As fantastic / heavenly as this dish🥬, it's one in the million of a chance to have it made so exquisite and one in the million for you to have."
+[^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html) means :"As fantastic / heavenly as this dish🥬, it's one in the million of a chance to have it made so exquisite and one in the million for you to have."
 
 ------
 

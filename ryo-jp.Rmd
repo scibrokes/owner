@@ -362,6 +362,7 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息學 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 - music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
+runtime: shiny
 ---
 
 ------
@@ -373,12 +374,12 @@ resource_files:
 リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>
 
 <br>
-[[**<ruby>主<rp>(</rp><rt>しゅ</rt><rp>)</rp>題<rp>(</rp><rt>だい</rt><rp>)</rp>曲<rp>(</rp><rt>きょく</rt><rp>)</rp></ruby>**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html?seed=0)[^0]
+[[**<ruby>主<rp>(</rp><rt>しゅ</rt><rp>)</rp>題<rp>(</rp><rt>だい</rt><rp>)</rp>曲<rp>(</rp><rt>きょく</rt><rp>)</rp></ruby>**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html)[^0]
 <br>
 <audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
 <br>
 
-[^0]: \- [此菜🥬只應天上有、人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html?seed=0) は「<ruby>此<rp>(</rp><rt>この</rt><rp>)</rp></ruby>野菜🥬 / 料理が天堂に有るべきで,人間では<ruby>滅<rp>(</rp><rt>めっ</rt><rp>)</rp>多<rp>(</rp><rt>た</rt><rp>)</rp></ruby>に何度も食べられない。」という意味で御座います。
+[^0]: \- [此菜🥬只應天上有、人間難得幾回嘗](https://zhidao.baidu.com/question/397416930.html) は「<ruby>此<rp>(</rp><rt>この</rt><rp>)</rp></ruby>野菜🥬 / 料理が天堂に有るべきで,人間では<ruby>滅<rp>(</rp><rt>めっ</rt><rp>)</rp>多<rp>(</rp><rt>た</rt><rp>)</rp></ruby>に何度も食べられない。」という意味で御座います。
 
 ------
 

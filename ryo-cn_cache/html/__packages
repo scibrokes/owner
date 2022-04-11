@@ -37,3 +37,6 @@ radarchart
 htmlwidgets
 ggmap
 vembedr
+shiny
+bs4Dash
+data.table
