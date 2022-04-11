@@ -1,0 +1,104 @@
+---
+title: "Untitled"
+author: "\U0001F409 ®γσ ξηg"
+date: '2022-04-11'
+output: html_document
+---
+
+
+## 第2章：日本の学
+
+### A. 日本の興国論
+
+明治維新は、まずは西欧から「学ぶ」ことに特化したのである。
+
+```{r, echo=FALSE}
+# Don't delete this chunk if you are using the mosaic package
+# This loads the mosaic and dplyr packages
+
+## to omit all warnings
+options(warn=-1)
+
+## Loading the packages
+if(!'devtools' %in% installed.packages()){
+  install.packages('devtools')}
+if(!'BBmisc' %in% installed.packages()){
+  install.packages('BBmisc')}
+if(!'REmap' %in% installed.packages()){
+  install_github('lchiffon/REmap')}
+
+suppressPackageStartupMessages(library('BBmisc'))
+pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap', 'shiny', 'shinydashboard', 'shinydashboardPlus')
+
+suppressAll(lib(pkgs)); rm(pkgs)
+```
+
+```{r, echo=FALSE}
+## Reinitialized the REmap
+remap.init()
+
+## Set a data frame format cities and randomly set country code
+data = data.frame(country=mapNames('world'), value=5*sample(178)+200)
+
+vec = c('Tokyo','Shanghai','New York','Sydney','London','Bangkok',
+        'Taipei','Moscow','Washington','Lyon','Milan','Rome','Macao',
+        'Singapore','Hong Kong','Kuala Lumpur','Madrid','Geneva','Paris',
+        'Melbourne','Boston','Washington','Liverpool','Brighton','Bali',
+        'San Francisco','Jakarta','Ho Chi Minh','Brasilia','Barcelona',
+        'Rio de Janeiro','Buenos Aires','Bern','Basel','Zurich','Manila',
+        'Toronto','Vancouver','Budapest','New Delhi','Thimphu','Mumbai',
+        'Cairo','Greater Johannesburg','Durban','Alexandria','Zaria','Dubai',
+        'Istanbul','Mexico City','Sapporo','Osaka','Ulaanbaatar','Vienna','Beijing')
+
+## Get world city geocode by ggmap
+#geodata = suppressAll(as.data.frame(cbind(ggmap::geocode(vec),vec)))
+## Get world city geocode from simplemaps.com
+## https://simplemaps.com/data/world-cities
+geodata <- readr::read_csv('/home/englianhu/Documents/GitHub/owner/data/worldcities.csv', 
+  show_col_types = FALSE) |> 
+  dplyr::filter(capital %in% c('primary', 'admin')) |> 
+  dplyr::select(lng, lat, country, city) |> 
+  dplyr::rename(lon = lng) |> 
+  dplyr::mutate(lon = round(lon, 3))
+
+countries <- geodata$country |> 
+  unique()
+
+## randomly set country codes
+data <- data.frame(
+  country = countries, 
+  value = 5 * sample(length(countries)) + 200)
+
+## cities
+#vec <- geodata$city
+
+## lon & lat of cities
+geodata <- geodata |> 
+  data.frame() |> 
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
+
+## Design a line data frame
+#markLinedata <- data.frame(
+#  origin = rep('Beijing', (length(vec) - 1)), 
+#  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+
+## Design a line data.frame
+markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[!vec %in% 'Beijing'])
+```
+
+```{r, echo=FALSE}
+## Plot a shining World map
+remapC(data, maptype='world',color=c('black','black'),
+  #get_theme(theme = "Dark", lineColor = "Random",
+  #backgroundColor = "#1b1b1b", titleColor = "#fff",
+  #borderColor = "rgba(100,149,237,1)", regionColor = "#1b1b1b"),
+  #theme=get_theme(backgroundColor='black'),
+  markPointData=vec, markLineData=markLinedata, geoData=geodata)
+
+## Plot the REmap shining
+p <- remapC(data, maptype='world',color=c('black','black'),
+  theme=get_theme(backgroundColor='black'),
+  markPointData=vec, markLineData=markLinedata, geoData=geodata)
+knitrREmap(p,local=F)
+```

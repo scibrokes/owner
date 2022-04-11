@@ -365,6 +365,8 @@ resource_files:
 runtime: shiny
 ---
 
+明治維新は、まずは西欧から「学ぶ」ことに特化したのである。
+
 ```{r setting, echo=FALSE}
 # Don't delete this chunk if you are using the mosaic package
 # This loads the mosaic and dplyr packages
@@ -538,10 +540,11 @@ vec = c('Beijing','Tokyo','Shanghai','New York','Sydney','London','Bangkok',
 #geodata = suppressAll(as.data.frame(cbind(ggmap::geocode(vec),vec)))
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- readr::read_csv('data/worldcities.csv') |> 
-  dplyr::filter(capital == 'primary') |> 
+geodata <- readr::read_csv('data/worldcities.csv', show_col_types = FALSE) |> 
+  dplyr::filter(capital %in% c('primary', 'admin')) |> 
   dplyr::select(lng, lat, country, city) |> 
-  dplyr::rename(lon = lng)
+  dplyr::rename(lon = lng) |> 
+  dplyr::mutate(lon = round(lon, 3))
 
 countries <- geodata$country |> 
   unique()

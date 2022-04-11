@@ -1140,10 +1140,11 @@ remap.init()
 ```{r read-geodata, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- readr::read_csv('data/worldcities.csv') |> 
-  dplyr::filter(capital == 'primary') |> 
+geodata <- readr::read_csv('data/worldcities.csv', show_col_types = FALSE) |> 
+  dplyr::filter(capital %in% c('primary', 'admin')) |> 
   dplyr::select(lng, lat, country, city) |> 
-  dplyr::rename(lon = lng)
+  dplyr::rename(lon = lng) |> 
+  dplyr::mutate(lon = round(lon, 3))
 
 countries <- geodata$country |> 
   unique()
