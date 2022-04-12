@@ -362,7 +362,6 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 - music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
-runtime: shiny
 ---
 
 ------
@@ -400,7 +399,7 @@ pre code {
 }
 </style>
 
-```{r class.source = 'bg-success', class.output = 'bg-primary', error = TRUE, message = FALSE, warning = FALSE}
+```{r load-sass, class.source='bg-success', class.output='bg-primary'}
 # install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
@@ -425,7 +424,7 @@ lib('sass')
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
-```{scss class.source = 'bg-success', class.output = 'bg-primary', error = TRUE, message = FALSE, warning = FALSE}
+```{scss scss-setup, class.source='bg-success', class.output='bg-primary'}
 /* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -463,42 +462,44 @@ h5 { color: #92AAC7; }
   }
 ```
 
-```{r global_options, class.source = 'hover01', class.output = 'hover02', error = TRUE, message = FALSE, warning = FALSE}
-## https://stackoverflow.com/a/36846793/3806250
-options(width = 999)
-knitr::opts_chunk$set(class.source = 'hover01', class.output = 'hover02', class.error = 'hover03')
-
+```{r gb-opts, class.source='hover01', class.output='hover02'}
 ## Set the timezone but not change the datetime
 Sys.setenv(TZ = 'Asia/Shanghai')
+
+## Setting to omit all warnings
+## https://stackoverflow.com/a/36846793/3806250
+## Set width
 ## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
-options(warn = -1, knitr.table.format = 'html')#, digits.secs = 6)
+options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
 
 ## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
-knitr::opts_chunk$set(cache = TRUE, warning = FALSE, 
-                      message = FALSE, cache.lazy = FALSE)
+## https://yihui.org/knitr/options
+knitr::opts_chunk$set(
+  class.source = 'hover01', class.output = 'hover02', class.error = 'hover03', 
+  message = FALSE, warning = FALSE, error = TRUE, 
+  autodep = TRUE, aniopts = 'loop', 
+  progress = TRUE, verbose = TRUE, 
+  cache = FALSE, cache.lazy = FALSE, result = 'asis')
 ```
 
 <br><br>
 
 ## Setup
 
-```{r, eval = FALSE}
+```{r libs, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
-```{r libs, error = TRUE, message = FALSE, warning = FALSE, include = FALSE}
+```{r setup, include=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
-## Setting to omit all warnings
-options(warn = -1)
-
 ## Loading the package 'BBmisc'
-#if(suppressMessages(!require('BBmisc'))){
-#  install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
-#  suppressMessages(library('BBmisc'))
-#}
+if(suppressMessages(!require('BBmisc'))){
+  install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
+  suppressMessages(library('BBmisc'))
+}
 if (suppressMessages(!require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, INSTALL_opts = '--no-lock')
   suppressMessages(library('rmsfuns'))
@@ -509,8 +510,9 @@ if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 ## Loading multiple packages at once
 pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr')
 
-#suppressAll(lib(pkgs)); rm(pkgs)
-load_pkg(pkgs); rm(pkgs)
+suppressAll(lib(pkgs))
+load_pkg(pkgs)
+rm(pkgs)
 
 ## Set the googleVis options first to change the behaviour of plot.gvis, so that 
 ##  only the chart component of the HTML file is written into the output file.
@@ -960,12 +962,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Skill
 
-```{r skill, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
-require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
-require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
-require('formattable', quietly = TRUE, warn.conflicts = FALSE)
-require('knitr', quietly = TRUE, warn.conflicts = FALSE)
-require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
+```{r skill, echo=FALSE}
+#require('dplyr', quietly = TRUE, warn.conflicts = FALSE)
+#require('magrittr', quietly = TRUE, warn.conflicts = FALSE)
+#require('formattable', quietly = TRUE, warn.conflicts = FALSE)
+#require('knitr', quietly = TRUE, warn.conflicts = FALSE)
+#require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
   Skill = c('ξconometrics', 'Quantitative Trading', '® Programming', 'MS Office', 'SQL', 'Python', 'Data Analysis', 'Customer Service', 'Sportsbook Industry', '®Studio Server', 'Statistics', 'Data Science', 'Shiny Web Application', 'Linux 🐧 OS', 'Web API', 'Sparklyr', 'Quantitative Analysis', 'Advanced ®', 'Modeltime / Tidyverts / Prophet', 'Tidyverse / Tidymodels', 'Tensorflow / Pytorch', 'Web Driver', 'FrontPage / Deploy WebSite', 'Photoshop / Picsart'), 
@@ -997,7 +999,7 @@ skill |>
 - Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 - Origin of `Linux` OS: [`Linux`维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Linux)
 
-```{r skill2A, eval = FALSE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2A, eval=FALSE, echo=FALSE}
 skill[,-1] |> 
   tibble() |> 
   {\(.) recharts::echartr(., 
@@ -1014,15 +1016,17 @@ radarchart::chartJSRadar(
   maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 ```
 
-```{r skill2B, error = TRUE, message = FALSE, warning = FALSE, echo = FALSE, result = 'asis'}
+```{r skill2B, echo=FALSE}
 #radarchart::chartJSRadar(
 #  skill[,-1], main = 'Skill Rating', width = '100%', height = '100%', 
 #  maxScale = 10, labelSize = 'auto', showToolTipLabel = TRUE)
 
 ### ---------------------------
 
-## https://codepen.io/duggi/pen/gPjrKM
 ## 3d radar chart / surface plot
+## https://codepen.io/duggi/pen/gPjrKM#_=_
+## https://xiangyun.rbind.io/2021/11/interactive-web-graphics
+#lib(c('apexcharter', 'ggiraph', 'packer', 'ggvis', 'ggh4x'))
 
 ### ---------------------------
 
@@ -1052,16 +1056,10 @@ skill |>
                        color = linear_gradient1), 
                      areaStyle = list(
                        color = linear_gradient2)
-                     #scale = rscale
-                     ) |>
+                         #scale = rscale
+    ) |>
   #echarts4r::e_animation(duration = 10000) |> 
   echarts4r::e_tooltip(trigger = 'item')
-```
-
-```{r, eval = FALSE, echo = FALSE}
-## https://codepen.io/duggi/pen/gPjrKM#_=_
-## https://xiangyun.rbind.io/2021/11/interactive-web-graphics
-lib(c('apexcharter', 'ggiraph', 'packer', 'ggvis', 'ggh4x'))
 ```
 
 ```{r, eval=FALSE, echo=FALSE}
@@ -1133,12 +1131,12 @@ Kindly refer to my personal blogs for more information about me.
 
 `r require('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
-```{r REmap-setting, error = TRUE, echo = FALSE, warning = FALSE, results = 'asis'}
+```{r set-REmap, echo=FALSE}
 ## Reinitialized the REmap setting
 remap.init()
 ```
 
-```{r read-geodata, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
+```{r read-geodata, echo=FALSE}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- readr::read_csv('data/worldcities.csv') |> 
@@ -1170,7 +1168,7 @@ markLinedata <- data.frame(
   destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 ```
 
-```{r plot-map, echo = FALSE, warning = FALSE, error = TRUE, results = 'asis'}
+```{r plot-REmap, echo=FALSE}
 ## Plot the REmap shining 
 wmap <- remapC(data, maptype = 'world', 
                color = c('black', 'black'),
@@ -1275,12 +1273,12 @@ It's useful to record some information about how your file was created.
 - GitHub: [Source Code](https://github.com/scibrokes/owner)
 - Additional session information
 
-```{r info, warning = FALSE, error = TRUE, results = 'asis'}
-suppressMessages(require('formattable', quietly = TRUE))
-suppressMessages(require('knitr', quietly = TRUE))
-suppressMessages(require('kableExtra', quietly = TRUE))
-suppressMessages(require('magittr', quietly = TRUE))
-suppressMessages(require('devtools', quietly = TRUE))
+```{r info}
+#suppressMessages(require('formattable', quietly = TRUE))
+#suppressMessages(require('knitr', quietly = TRUE))
+#suppressMessages(require('kableExtra', quietly = TRUE))
+#suppressMessages(require('magittr', quietly = TRUE))
+#suppressMessages(require('devtools', quietly = TRUE))
 
 sys1 <- session_info()$platform |> 
     unlist() |> 
