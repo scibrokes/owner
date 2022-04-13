@@ -1,18 +1,13 @@
 # -------------- Load Packages -----------------------------
 
 require('BBmisc')
-lib('shiny')
-lib('shinythemes')
-lib('shinydashboard')
-lib('shinydashboardPlus')
-lib('bs4Dash')
-lib('dashboardthemes')
-lib('shinyWidgets')
-lib('shinyjs')
-lib('shinyvalidate')
-lib('memoise')
 if(!require('XML')) devtools::install_github('omegahat/XML')
-lib('XML')
+if(!require('runr')) devtools::install_github('yihui/runr')
+
+pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
+  'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
+  'memoise', 'XML')
+lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
 
@@ -410,18 +405,18 @@ ui <- shinyUI(
                 HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
                 #htmlOutput('frame')
         )
-      ), 
-      tabItems(
-        tabItem(tabName = 'auth', h2('Author', align = 'center'), 
+      )#, 
+      #tabItems(
+      #  tabItem(tabName = 'auth', h2('Author', align = 'center'), 
                 #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
                 #            height = 800, width = '100%', frameborder = 0)#, 
                 #HTML(readLines('www/ryo-eng.html'))#, 
-                includeHTML('www/ryo-eng.html')#,
+      #          includeHTML('www/ryo-eng.html')#,
                 #htmlOutput('ryo_eng')
-        ), 
-        tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
-                p('...'))
-        )
+      #  ), 
+      #  tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
+      #          p('...'))
+      #  )
     ), 
     
     footer = dashboardFooter(
@@ -476,7 +471,8 @@ server <- shinyServer(function(input, output, session) {
   output$ryo_kr <- renderUI({
     validate(
       need(is.error(file.exists('www/ryo-kr.html')), 
-           HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !')),
+           #shiny::tags$html(
+        HTML('<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>')),
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-kr.html')

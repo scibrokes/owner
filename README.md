@@ -1,7 +1,8 @@
-# 世博量化® <img src="www/Scibrokes.png" width="32"/><br> Sςιβrοκεrs Trαdιηg®️ <img src="www/Scibrokes.png" width="32"/>
+# 世博量化®️ <img src="www/Scibrokes.png" width="32"/><br> Sςιβrοκεrs Trαdιηg®️ <img src="www/Scibrokes.png" width="32"/>
 
 [![Greetings](https://github.com/scibrokes/owner/actions/workflows/greetings.yml/badge.svg)](https://github.com/scibrokes/owner/actions/workflows/greetings.yml) [![Jekyll site CI](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml/badge.svg)](https://github.com/scibrokes/owner/actions/workflows/jekyll.yml) [![Labeler](https://github.com/scibrokes/owner/actions/workflows/label.yml/badge.svg)](https://github.com/scibrokes/owner/actions/workflows/label.yml)<br> [![](https://camo.githubusercontent.com/31793dc629bedb9bba09ba68f2c14494fbd8891d2dafc23701797876e1277ef8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6d6d756e6974792d7368696e792d626c75653f7374796c653d736f6369616c266c6f676f3d7273747564696f266c6f676f436f6c6f723d373541414442)](https://community.rstudio.com/new-topic?category=shiny&tags=shiny)
 [![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://www.shinyapps.io)
+[<img src='www/rstudiocloud-badge.png'' width='20'>](https://rstudio.cloud)
 
 ## 公司简介
 

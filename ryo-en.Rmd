@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.jpg'
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.png'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
@@ -99,7 +99,7 @@ resource_files:
 - www/dwang_36x36.png
 - www/dwang2.png
 - www/Dynasty_Hotel_Tang.png
-- www/ENG.jpg
+- www/ENG.png
 - www/Esquire_Kitchen.png
 - www/facebook.jpg
 - www/facebook_36x36.jpg
@@ -113,8 +113,8 @@ resource_files:
 - www/getronics.png
 - www/github.jpg
 - www/github_36x36.jpg
-- www/github2.jpg
-- www/github2_36x36.jpg
+- www/github2.png
+- www/github2_36x36.png
 - www/github3.jpg
 - www/github3_36x36.jpg
 - www/Github_Pages.png
@@ -144,8 +144,8 @@ resource_files:
 - www/jckl.png
 - www/JEES.gif
 - www/JFKL.jpg
-- www/jg.jpg
-- www/jg_36x36.jpg
+- www/jg.png
+- www/jg_36x36.png
 - www/JG1.png
 - www/JG2.png
 - www/jhu.jpg
@@ -198,15 +198,15 @@ resource_files:
 - www/PAAC.jpg
 - www/Peking University 02.png
 - www/phabricator.png
-- www/pixnet.jpeg
+- www/pixnet.png
 - www/plotly.jpg
 - www/plotly_36x36.jpg
 - www/PLounge.jpg
 - www/PLounge_36x36.jpg
 - www/prestige.png
 - www/qi-pioneer-logo.png
-- www/QQ wb.jpg
-- www/QQ wb_36x36.jpg
+- www/QQ wb.png
+- www/QQ wb_36x36.png
 - www/QQ.jpg
 - www/QQ_36x36.jpg
 - www/qi-pioneer-logo.png
@@ -215,9 +215,9 @@ resource_files:
 - www/quantitative trader 1.jpg
 - www/quantitative trader 2.jpg
 - www/quantitative_trader.jpg
-- www/Quora.jpg
-- www/Qzone.jpg
-- www/Qzone_36x36.jpg
+- www/Quora.png
+- www/Qzone.png
+- www/Qzone_36x36.png
 - www/RB.png
 - www/rcrown.jpg
 - www/Reddit.png
@@ -257,9 +257,9 @@ resource_files:
 - www/SOF.jpg
 - www/starlizard.jpg
 - www/stats.jpg
-- www/Steam.jpeg
-- www/talkstats.jpg
-- www/talkstats_36x36.jpg
+- www/Steam.png
+- www/talkstats.png
+- www/talkstats_36x36.png
 - www/TARC.jpg
 - www/telebiz.jpg
 - www/Thumbs.db
@@ -1193,19 +1193,19 @@ knitrREmap(wmap, local = FALSE)
 <a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
 <a href='https://weibo.com/englianhu'><img src="www/weibo.png" width="48"/></a>
 <a href='https://www.wechat.com/englianhu'><img src="www/Wechat.png" width="48"/></a>
-<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.jpg" width="48"/></a>
-<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
+<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.png" width="48"/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.png" width="48"/></a>
 <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
 <a href='https://disqus.com/by/englianhu'><img src="www/disqus.png" width="48"/></a>
 <a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src="www/DouYin.png" width="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
-<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.png" width="48"/></a>
 <a href='http://englianhu.360doc.com'><img src="www/Wechat.png" width="48"/></a>
 <a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
 <a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
 <a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
 <a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" width="48"/></a>
-<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.jpg" width="48"/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.png" width="48"/></a>
 <a href='https://discord.com'><img src="www/discord2.jpg" width="48"/></a>
 <a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" width="48"/></a>
 <a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" width="48"/></a>
@@ -1229,7 +1229,7 @@ knitrREmap(wmap, local = FALSE)
 <a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.png" width="48"/></a>
 <a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
 <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
-<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.jpg" width="48"/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.png" width="48"/></a>
 <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
 <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
 <a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.png" width="48"/></a>
@@ -1246,7 +1246,7 @@ knitrREmap(wmap, local = FALSE)
 <a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" width="48"/></a>
 <a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" width="48"/></a>
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
-<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" width="48"/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.png" width="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
 <a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.png" width="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>

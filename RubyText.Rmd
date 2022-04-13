@@ -33,16 +33,18 @@ pkgs <- c('knitr', 'runr')
 lib(pkgs)
 
 names(knitr::knit_engines$get())
-rb = proc_ruby()
-rb$start()
-knit_engines$set(ruby = function(options) {
-    knitr:::sew(rb$exec(options$code), options)
-})
+#rb = proc_ruby()
+#rb$start()
+#knit_engines$set(ruby = function(options) {
+#    knitr:::sew(rb$exec(options$code), options)
+#})
 
-#opts_chunk$set(#engine='ruby'
-#  engine.path = list(
-    #python = '~/anaconda/bin/python',
-#    ruby = '/usr/local/bin/ruby'))
+opts_chunk$set(
+  engine='ruby', warning=FALSE, message=FALSE, error=TRUE
+    # engine.path = list(
+    # python = '~/anaconda/bin/python',
+    # ruby = '/usr/local/bin/ruby')
+  )
 ```
 
 ```{ruby}
@@ -100,6 +102,8 @@ shiny::runGitHub("multilingualShinyApp","chrislad")
 - [GitHub@matt-dray/badgr-shiny.R](https://gist.github.com/matt-dray/cda4a3facb6b1ca848a8ddbcc885a669) 🔥
 - [](https://community.rstudio.com/t/how-to-start-a-new-project-using-a-badge-in-githubs-readme-md/87370) 🔥
 - [Run Ruby from R](https://rpubs.com/y4ashida/ruby-knitr) 🔥
+- [Add 'Calculation In Process' Indicator for Shiny Application](https://www.r-bloggers.com/2014/01/add-calculation-in-process-indicator-for-shiny-application) 🔥
+- [Shiny ruby polygonal font. Crystal style A and B letters](https://www.123rf.com/photo_28905643_shiny-ruby-polygonal-font-crystal-style-a-and-b-letters.html) 🔥
 - [Calling Ruby, Perl or Python from R](https://www.r-bloggers.com/2010/06/calling-ruby-perl-or-python-from-r)
 - [2.7 Other language engines](https://bookdown.org/yihui/rmarkdown/language-engines.html) 🔥
 - [Chunk options and package options](https://yihui.org/knitr/options) 🔥
