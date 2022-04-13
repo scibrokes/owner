@@ -420,7 +420,9 @@ ui <- shinyUI(
                 #htmlOutput('ryo_eng')
       #  ), 
       #  tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
-      #          p('...'))
+      #          p(
+      #  HTML("<a href = 'https://www.r-bloggers.com/2014/11/another-take-on-building-a-multi-lingual-shiny-app'>Another take on building a multi-lingual shiny app</a>")
+      # ))
       #  )
     ), 
     

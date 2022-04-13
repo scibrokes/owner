@@ -49,54 +49,54 @@ always_allow_html: yes
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
-- www/360doc.jpeg
+- www/Wechat.png
 - www/7live.jpg
 - www/7live_36x36.jpg
 - www/aaa1.jpg
 - www/aaa2.jpg
 - www/aaaa.jpg
-- www/aboutme.jpg
-- www/aboutme_36x36.jpg
+- www/aboutme.png
+- www/aboutme_36x36.png
 - www/academia.jpg
 - www/AIA.png
 - www/ali.jpg
 - www/ali_36x36.jpg
 - www/alibaba1.jpg
 - www/alibaba2.jpg
-- www/anr.jpg
-- www/anr_36x36.jpg
+- www/anr.png
+- www/anr_36x36.png
 - www/apple.jpg
 - www/Arduino.png
 - www/AskUbuntu.png
-- www/bettingforum.jpg
-- www/bettingforum_36x36.jpg
-- www/betworks.jpg
+- www/bettingforum.png
+- www/bettingforum_36x36.png
+- www/betworks.png
 - www/BiliBili.png
-- www/biostatistic.jpg
-- www/biostatistic_36x36.jpg
-- www/bitbucket.jpg
-- www/bitbucket_36x36.jpg
+- www/biostatistic.png
+- www/biostatistic_36x36.png
+- www/bitbucket.png
+- www/bitbucket_36x36.png
 - www/cari.png
 - www/caspo.jpg
-- www/centOS.jpg
-- www/centOS_36x36.jpg
+- www/centOS.png
+- www/centOS_36x36.png
 - www/Chris_Evans_Captain_America.jpg
 - www/cos.jpg
 - www/cos_36x36.jpg
-- www/coursera.jpg
-- www/coursera_36x36.jpg
-- www/csdn.jpg
-- www/csdn_36x36.jpg
+- www/coursera.png
+- www/coursera_36x36.png
+- www/csdn.png
+- www/csdn_36x36.png
 - www/csdn2.png
 - www/dashencaicai2.jpg
-- www/discord1.jpg
+- www/discord1.png
 - www/discord2.jpg
 - www/Discuss.png
-- www/disqus.jpg
-- www/disqus_36x36.jpg
+- www/disqus.png
+- www/disqus_36x36.png
 - www/DouYin.png
-- www/dwang.jpg
-- www/dwang_36x36.jpg
+- www/dwang.png
+- www/dwang_36x36.png
 - www/dwang2.png
 - www/Dynasty_Hotel_Tang.png
 - www/ENG.jpg
@@ -108,7 +108,7 @@ resource_files:
 - www/FB.jpeg
 - www/FossCom1.png
 - www/FossCom2.png
-- www/fuji-xerox.jpg
+- www/fuji-xerox.png
 - www/gblinks.JPG
 - www/getronics.png
 - www/github.jpg
@@ -119,8 +119,8 @@ resource_files:
 - www/github3_36x36.jpg
 - www/Github_Pages.png
 - www/Golden-Royal.png
-- www/gplus.jpg
-- www/gplus_36x36.jpg
+- www/gplus.png
+- www/gplus_36x36.png
 - www/guokr.jpeg
 - www/HKUST.png
 - www/hong.jpg
@@ -132,13 +132,13 @@ resource_files:
 - www/IG4.png
 - www/IG5.png
 - www/Illinois.jpg
-- www/instagram.jpg
-- www/instagram_36x36.jpg
+- www/instagram.png
+- www/instagram_36x36.png
 - www/instagram2.jpg
 - www/instagram2_36x36.jpg
 - www/instagram3.jpg
 - www/instagram3_36x36.jpg
-- www/InventKDE1.jpeg
+- www/InventKDE1.png
 - www/InventKDE2.png
 - www/iq.png
 - www/jckl.png
@@ -156,8 +156,8 @@ resource_files:
 - www/library.jpg
 - www/library2.jpg
 - www/library3.jpg
-- www/linkedin.jpg
-- www/linkedin_36x36.jpg
+- www/linkedin.png
+- www/linkedin_36x36.png
 - www/linkedIn.jpeg
 - www/LinuxConfig1.jpg
 - www/LinuxConfig2.png
@@ -194,7 +194,7 @@ resource_files:
 - www/oksportcn_02.png
 - www/oksportcn_03.png
 - www/oksportcn_04.png
-- www/Orchard.jpg
+- www/Orchard.png
 - www/PAAC.jpg
 - www/Peking University 02.png
 - www/phabricator.png
@@ -235,14 +235,14 @@ resource_files:
 - www/RXforum_36x36.jpg
 - www/RYO-Photo.jpg
 - www/RYO.jpg
-- www/RYU.jpg
+- www/RYU.png
 - www/SBR.jpg
 - www/SBR_36x36.jpg
 - www/Scibrokes.png
 - www/scb_logo.jpg
 - www/scb_logo2.jpg
-- www/scb-logo3.jpg
-- www/scb-logo3rs.jpg
+- www/scb-logo3.png
+- www/scb-logo3rs.png
 - www/Scibrokes®-TonyStark®.jpg
 - www/Scibrokes-TonyStark.png
 - www/scicom.jpg
@@ -270,8 +270,8 @@ resource_files:
 - www/Tumblr1.png
 - www/Tumblr2.jpeg
 - www/Tumblr3.jpg
-- www/twitter.jpg
-- www/twitter_36x36.jpg
+- www/twitter.png
+- www/twitter_36x36.png
 - www/u-drive-media.jpg
 - www/u-of-i-urbana-2.png
 - www/UCSC.jpeg
@@ -282,16 +282,16 @@ resource_files:
 - www/uwants.png
 - www/vimeo.jpg
 - www/vk.png
-- www/Wechat.jpeg
+- www/Wechat.png
 - www/Wechat1.png
 - www/Wechat2.png
-- www/weibo.jpg
-- www/weibo_36x36.jpg
+- www/weibo.png
+- www/weibo_36x36.png
 - www/wordpress.jpg
 - www/wordpress_36x36.jpg
 - www/Wechat1.png
 - www/Wechat2.png
-- www/xerox.jpg
+- www/xerox.png
 - www/xueba.jpg
 - www/xueba1.jpg
 - www/xueba2.jpg
@@ -743,7 +743,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.jpg" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
+### **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src="www/anr.png" width="20" align="center" valign="middle"/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src="www/7live.jpg" width="18" align="center" valign="middle"/>）
 
 - *工作明细：在柬埔寨西哈努克（西港）工作五个月，作为阿里发客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）工作一个月。*
 
@@ -771,11 +771,11 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/>不过由[苹果公司](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>部署）
 
-- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.jpg" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
+- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src="www/xerox.png" width="36" align="center" valign="middle"/>。审查交易是否舞弊，外拨电话。*
 
 <br>
 
-### **2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.jpg" width="50" align="center" valign="middle"/>）
+### **2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src="www/fuji-xerox.png" width="50" align="center" valign="middle"/>）
 
 - *工作明细：台湾小组，接听台湾顾客的印刷机/列印机/印表机问题、预订、安排维修人员与退货、在线技术支援等等。*
 - **JCKL会员**
@@ -1133,7 +1133,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 ```{r set-REmap, echo=FALSE}
 ## Reinitialized the REmap setting
-remap.init()
+suppressAll(remap.init())
 ```
 
 ```{r read-geodata, echo=FALSE}
@@ -1183,25 +1183,25 @@ knitrREmap(wmap, local = FALSE)
 
 ## 社交媒体
 
-<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.jpg" width="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.png" width="48"/></a>
 <a href='https://www.facebook.com/englianhu'><img src="www/facebook2.jpg" width="48"/></a>
 <a href='https://instagram.com/englianhu'><img src="www/IG4.png" width="48"/></a>
-<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.jpg" width="48"/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.png" width="48"/></a>
 <a href='skype:englianhu?call'><img src="www/skype.jpg" width="48"/></a>
-<a href='https://plus.google.com/+黄联富'><img src="www/gplus.jpg" width="48"/></a>
-<a href='https://twitter.com/englianhu'><img src="www/twitter.jpg" width="48"/></a>
-<a href='https://about.me/englianhu'><img src="www/aboutme.jpg" width="48"/></a>
+<a href='https://plus.google.com/+黄联富'><img src="www/gplus.png" width="48"/></a>
+<a href='https://twitter.com/englianhu'><img src="www/twitter.png" width="48"/></a>
+<a href='https://about.me/englianhu'><img src="www/aboutme.png" width="48"/></a>
 <a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
-<a href='https://weibo.com/englianhu'><img src="www/weibo.jpg" width="48"/></a>
-<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.jpeg" width="48"/></a>
+<a href='https://weibo.com/englianhu'><img src="www/weibo.png" width="48"/></a>
+<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.png" width="48"/></a>
 <a href='http://t.qq.com/englianhu'><img src="www/QQ wb.jpg" width="48"/></a>
 <a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.jpg" width="48"/></a>
 <a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
-<a href='https://disqus.com/by/englianhu'><img src="www/disqus.jpg" width="48"/></a>
+<a href='https://disqus.com/by/englianhu'><img src="www/disqus.png" width="48"/></a>
 <a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src="www/DouYin.png" width="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
 <a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.jpeg" width="48"/></a>
-<a href='http://englianhu.360doc.com'><img src="www/360doc.jpeg" width="48"/></a>
+<a href='http://englianhu.360doc.com'><img src="www/Wechat.png" width="48"/></a>
 <a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
 <a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
 <a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
@@ -1227,18 +1227,18 @@ knitrREmap(wmap, local = FALSE)
 <a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" width="48"/></a>
 <a href='https://mlog.club/user/6960'><img src="www/MClub.png" width="48"/></a>
 <a href='https://github.com/englianhu'><img src="www/github.jpg" width="48"/></a>
-<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.jpg" width="48"/></a>
+<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.png" width="48"/></a>
 <a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
 <a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
 <a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.jpg" width="48"/></a>
 <a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
 <a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
-<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.jpg" width="48"/></a>
+<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.png" width="48"/></a>
 <a href='http://cos.name/cn/profile/englianhu'><img src="www/cos.jpg" width="48"/></a>
 <a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" width="48"/></a>
 <a href='http://www.madio.net/archiver'><img src="www/madio.png" width="48"/></a>
 <a href='http://www.mathchina.com/bbs'><img src="www/mathchina.jpg" width="48"/></a>
-<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.jpg?raw=true" width="48"/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.png?raw=true" width="48"/></a>
 <a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" width="48"/></a>
 <a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" width="48"/></a>
 <a href='https://medium.com/@englianhu'><img src="www/Reddit.png" width="48"/></a>
@@ -1249,7 +1249,7 @@ knitrREmap(wmap, local = FALSE)
 <a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
 <a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.jpeg" width="48"/></a>
 <a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
-<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.jpg" width="48"/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.png" width="48"/></a>
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
 <a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
 <a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>

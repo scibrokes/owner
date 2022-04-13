@@ -1,0 +1,119 @@
+---
+title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
+subtitle: '个人简历'
+author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.jpg'
+  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
+  width='17' align='center' valign='middle'>®"
+tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
+date: "13-Apr-2022"
+output:
+  html_document:
+    mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    number_sections: yes
+    highlight: haddock
+    toc: yes
+    toc_depth: 6
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+    code_folding: hide
+    css: CSSBackgrounds.css
+    fig_caption: yes
+---
+
+
+```{r setup}
+require('BBmisc')
+## 网上有好几个 runr R语言程序包，需要安装 yihui 的程序包
+## https://github.com/chiefbiiko/runr
+## https://github.com/christian-million/runr
+## https://github.com/yihui/runr 🇨🇳
+if(!require('runr')) devtools::install_github('yihui/runr')
+pkgs <- c('knitr', 'runr')
+lib(pkgs)
+
+names(knitr::knit_engines$get())
+rb = proc_ruby()
+rb$start()
+knit_engines$set(ruby = function(options) {
+    knitr:::sew(rb$exec(options$code), options)
+})
+
+#opts_chunk$set(#engine='ruby'
+#  engine.path = list(
+    #python = '~/anaconda/bin/python',
+#    ruby = '/usr/local/bin/ruby'))
+```
+
+```{ruby}
+hello = 'Hello!'
+print hello
+```
+
+```{ruby heading}
+## https://towardsdatascience.com/how-to-do-reproducible-research-in-ruby-with-gknit-c26d2684d64e
+outputs "### #{@c}"
+```
+
+```{ruby}
+# Install API
+gem install google-finance-ruby-client
+
+# Pull Microsoft stock price
+
+prices = GoogleFinance::History.get('MSFT', start_date: Date.parse('2016-01-03'), end_date: Date.parse('2016-01-10'))
+print prices
+```
+
+```{ruby}
+def mean(arr)
+  arr.inject(:+).to_f / arr.length
+end
+print mean((1..5).to_a)
+```
+
+```{ruby}
+#rb$stop()
+```
+
+```{r}
+x=system('ruby -e "puts 1+1"', intern=TRUE)
+x
+
+x=system('perl -e "print 2 + 4"', intern=TRUE)
+x
+```
+
+```{bash}
+ruby -e "puts '<ruby>秦<rp>(</rp>qin<rp><)></rp></ruby><>'"
+```
+
+```{r}
+shiny::runGitHub("multilingualShinyApp","chrislad")
+```
+
+
+# 参考文献
+
+- [GitHub@yihui/runr](https://github.com/yihui/runr) 🔥
+- [GitHub@ash1day/rbplotly](https://github.com/ash1day/rbplotly)
+- [GitHub@matt-dray/badgr-shiny.R](https://gist.github.com/matt-dray/cda4a3facb6b1ca848a8ddbcc885a669) 🔥
+- [](https://community.rstudio.com/t/how-to-start-a-new-project-using-a-badge-in-githubs-readme-md/87370) 🔥
+- [Run Ruby from R](https://rpubs.com/y4ashida/ruby-knitr) 🔥
+- [Calling Ruby, Perl or Python from R](https://www.r-bloggers.com/2010/06/calling-ruby-perl-or-python-from-r)
+- [2.7 Other language engines](https://bookdown.org/yihui/rmarkdown/language-engines.html) 🔥
+- [Chunk options and package options](https://yihui.org/knitr/options) 🔥
+- [比adminlte数据可视化页面更好的选择](https://www.fanruan.com/bw/absj) 🔥
+- [Ruby on Rails For Dummies](https://books.google.com.my/books?id=CHx7Cb9a32cC&pg=PT86&lpg=PT86&dq=apply+ruby+text+on+r+shiny&source=bl&ots=U7jZJn67ka&sig=ACfU3U3s_ZN6GwjKjwdmg2V-5oq5buVtWg&hl=zh-CN&sa=X&ved=2ahUKEwi-842v4I73AhX_3zgGHcthDHgQ6AF6BAghEAM#v=onepage&q=apply%20ruby%20text%20on%20r%20shiny&f=false)
+- [Benchmark Ruby Code with R, rsruby and better-benchmark](https://smartlogic.io/blog/2008-10-08-benchmark-ruby-code-with-r-rsruby-and-better-benchmark)
+- [How to do reproducible research in Ruby with gKnit](https://towardsdatascience.com/how-to-do-reproducible-research-in-ruby-with-gknit-c26d2684d64e)
+- [How to run Ruby code from terminal?](https://stackoverflow.com/questions/12378818/how-to-run-ruby-code-from-terminal)
+- [How to execute a Ruby script in Terminal?](https://stackoverflow.com/questions/8721369/how-to-execute-a-ruby-script-in-terminal)
+- [Run shell script in shiny](https://stackoverflow.com/questions/48298462/run-shell-script-in-shiny)
+- [Can you run a Ruby script in a Rmarkdown file](https://community.rstudio.com/t/can-you-run-a-ruby-script-in-a-rmarkdown-file/93165)
+- [How to install and load Ruby packages in R](https://community.rstudio.com/t/how-to-install-and-load-ruby-packages-in-r/93287)
+- [rubydown](https://github.com/genya0407/rbmark)
+
+------------------------------------------------------------------------
+
+[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)[**企业知识产权®及版权®所有，盗版必究。**]{style="color:RoyalBlue"}
