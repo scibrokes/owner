@@ -31,9 +31,27 @@ suppressPackageStartupMessages(library('BBmisc'))
 pkgs <- c('devtools','htmltools','REmap','ggmap','lubridate', 'REmap', 'shiny', 'shinydashboard', 'shinydashboardPlus')
 
 suppressAll(lib(pkgs)); rm(pkgs)
+
+## Set the timezone but not change the datetime
+Sys.setenv(TZ = 'Asia/Shanghai')
+
+## Setting to omit all warnings
+## https://stackoverflow.com/a/36846793/3806250
+## Set width
+## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
+
+## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
+## https://yihui.org/knitr/options
+knitr::opts_chunk$set(
+  class.source = 'hover01', class.output = 'hover02', class.error = 'hover03', 
+  message = FALSE, warning = FALSE, error = TRUE, 
+  autodep = TRUE, aniopts = 'loop', 
+  progress = TRUE, verbose = TRUE, 
+  cache = FALSE, cache.lazy = FALSE, result = 'asis')
 ```
 
-```{r, echo=FALSE}
+```{r, eval=FALSE, echo=FALSE}
 ## Reinitialized the REmap
 remap.init()
 
@@ -87,7 +105,7 @@ geodata <- geodata |>
 markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[!vec %in% 'Beijing'])
 ```
 
-```{r, echo=FALSE}
+```{r, eval=FALSE, echo=FALSE}
 ## Plot a shining World map
 remapC(data, maptype='world',color=c('black','black'),
   #get_theme(theme = "Dark", lineColor = "Random",
@@ -102,3 +120,5 @@ p <- remapC(data, maptype='world',color=c('black','black'),
   markPointData=vec, markLineData=markLinedata, geoData=geodata)
 knitrREmap(p,local=F)
 ```
+
+<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>

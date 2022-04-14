@@ -40,11 +40,21 @@ names(knitr::knit_engines$get())
 #})
 
 opts_chunk$set(
-  engine='ruby', warning=FALSE, message=FALSE, error=TRUE
+  engine='ruby', warning=FALSE, message=FALSE, error=TRUE, result = 'asis'
     # engine.path = list(
     # python = '~/anaconda/bin/python',
     # ruby = '/usr/local/bin/ruby')
   )
+
+## Set the timezone but not change the datetime
+Sys.setenv(TZ = 'Asia/Shanghai')
+
+## Setting to omit all warnings
+## https://stackoverflow.com/a/36846793/3806250
+## Set width
+## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
+
 ```
 
 ```{ruby}
@@ -87,7 +97,7 @@ x
 ```
 
 ```{bash}
-ruby -e "puts '<ruby>秦<rp>(</rp>qin<rp><)></rp></ruby><>'"
+ruby -e "puts '<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>'"
 ```
 
 ```{r}

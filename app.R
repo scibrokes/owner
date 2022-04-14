@@ -6,7 +6,7 @@ if(!require('runr')) devtools::install_github('yihui/runr')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
-  'memoise', 'XML')
+  'memoise', 'XML', 'htmltools')
 lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
@@ -461,18 +461,36 @@ server <- shinyServer(function(input, output, session) {
   #})
   
   observeEvent(input$rb, {
+    #withProgress(message = 'Loading...',
+    #             detail = 'This may take a while...', value = 0, {
+    #  for (i in 1:15) {
+    #    incProgress(1/15)
+    #    Sys.sleep(0.25)
+    #  }
+    #})
     updateTabItems(session, 'tabs', selected = input$rb)
   })
   
-  output$ryo_en <- renderUI(includeHTML('www/ryo-en.html'))
-  output$ryo_cn <- renderUI(includeHTML('www/ryo-cn.html'))
-  output$ryo_tw <- renderUI(includeHTML('www/ryo-tw.html'))
-  output$ryo_jp <- renderUI(includeHTML('www/ryo-jp.html'))
+  output$ryo_en <- renderUI({
+    includeHTML('www/ryo-en.html')
+    })
+  
+  output$ryo_cn <- renderUI({
+    includeHTML('www/ryo-cn.html')
+    })
+  
+  output$ryo_tw <- renderUI({
+    includeHTML('www/ryo-tw.html')
+    })
+  
+  output$ryo_jp <- renderUI({
+    includeHTML('www/ryo-jp.html')
+    })
+  
   output$ryo_kr <- renderUI({
     validate(
       need(is.error(file.exists('www/ryo-kr.html')), 
-           #shiny::tags$html(
-        HTML('<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>')),
+           tags$html(tags$ruby('건설', tags$rt('geonseol')), tags$ruby('중'), tags$rt('jung'))),
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-kr.html')
