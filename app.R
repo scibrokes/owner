@@ -6,7 +6,7 @@ if(!require('runr')) devtools::install_github('yihui/runr')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
-  'memoise', 'XML', 'htmltools')
+  'memoise', 'XML', 'htmltools', 'shiny.i18n')
 lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
@@ -490,7 +490,13 @@ server <- shinyServer(function(input, output, session) {
   output$ryo_kr <- renderUI({
     validate(
       need(is.error(file.exists('www/ryo-kr.html')), 
-           tags$html(tags$ruby('건설', tags$rt('geonseol')), tags$ruby('중'), tags$rt('jung'))),
+             tags$ruby(
+               '건설', tags$rp('(', .noWS = 'after'), 
+               tags$rt('geonseol', .noWS = 'after'), 
+               tags$rp(')', .noWS = 'after'), 
+               '중', tags$rp('(', .noWS = 'after'), 
+               tags$rt('jung', .noWS = 'after'), 
+               tags$rp(')', .noWS = 'after'))),
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-kr.html')
