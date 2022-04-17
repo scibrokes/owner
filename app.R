@@ -6,7 +6,7 @@ if(!require('runr')) devtools::install_github('yihui/runr')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
-  'memoise', 'XML', 'htmltools', 'shiny.i18n', 'shinyvalidate')
+  'memoise', 'XML', 'htmltools', 'shiny.i18n', 'shinyFeedback')
 lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
@@ -446,6 +446,12 @@ ui <- shinyUI(
 
 server <- shinyServer(function(input, output, session) {
   
+  #kr <- file.exists('www/ryo-kr.html')
+  #gr <- file.exists('www/ryo-gr.html')
+  #de <- file.exists('www/ryo-de.html')
+  #fr <- file.exists('www/ryo-fr.html')
+  #it <- file.exists('www/ryo-it.html')
+  
   #observe({
     ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
     ## https://stackoverflow.com/questions/33020558/embed-iframe-inside-shiny-app
@@ -489,26 +495,39 @@ server <- shinyServer(function(input, output, session) {
   
   output$ryo_kr <- renderUI({
     
-    er <- file.exists('www/ryo-kr.html')
+    kr <- file.exists('www/ryo-kr.html')
     
-    # Validation rules are set in the server, start by
-    # making a new instance of an `InputValidator()`
-    joey <- InputValidator$new()
+    if (kr == FALSE) {
+      div(id = 'ryo_kr',
+        HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'), 
+        class = 'shiny-html-output shiny-bound-output shiny-output-error shiny-output-error-shiny.silent.error shiny-output-error-Missing-Data-Class shiny-output-error-validation', align = 'center')
+        } else {
+          includeHTML('www/ryo-kr.html')
+        }
+    ## Validation rules are set in the server, start by
+    ## making a new instance of an `InputValidator()`
+    #joey <- InputValidator$new()
     
-    # Basic usage: `sv_regex()` requires both a regex
-    # pattern and message to display if the validation
-    # of `input$lookup_id` fails
-    joey$add_rule(
-      er,
-      sv_regex('FALSE', HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
-      )
+    ## Basic usage: `sv_regex()` requires both a regex
+    ## pattern and message to display if the validation
+    ## of `input$lookup_id` fails
+    #joey$add_rule(
+    #  kr,
+    #  sv_regex('FALSE', HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
+    #  )
     
-    # Finally, `enable()` the validation rules
-    joey$enable()
-    includeHTML('www/ryo-kr.html')
+    ## Finally, `enable()` the validation rules
+    #joey$enable()
+    
+    #shinyFeedback::feedbackWarning(kr, FALSE, HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
+    #includeHTML('www/ryo-kr.html')
     })
   
   output$ryo_gr <- renderUI({
+    #gr <- file.exists('www/ryo-gr.html')
+    #de <- file.exists('www/ryo-de.html')
+    #fr <- file.exists('www/ryo-fr.html')
+    #it <- file.exists('www/ryo-it.html')
     validate(
       need(is.error(file.exists('www/ryo-gr.html')), 'Υπό κατασκευή !'), 
       errorClass = 'Missing-Data-Class'
