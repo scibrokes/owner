@@ -96,6 +96,9 @@ alignCenter <- memoise(function(el) {
 
 # -------------- ui -----------------------------
 
+## Dynamic UI in Shiny (incl. demo app)
+## https://towardsdatascience.com/dynamic-ui-in-shiny-incl-demo-app-a6fb791be4c6
+
 ui <- shinyUI(
   
   #fluidPage(
@@ -305,7 +308,6 @@ ui <- shinyUI(
                 background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
               }
             }
-            
             '))), 
       
       tabItems(
@@ -498,12 +500,17 @@ server <- shinyServer(function(input, output, session) {
     kr <- file.exists('www/ryo-kr.html')
     
     if (kr == FALSE) {
+      ## https://shiny.rstudio.com/articles/html-tags.html
       div(id = 'ryo_kr',
         HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'), 
-        class = 'shiny-html-output shiny-bound-output shiny-output-error shiny-output-error-shiny.silent.error shiny-output-error-Missing-Data-Class shiny-output-error-validation', align = 'center')
+        class = 'shiny-html-output shiny-bound-output shiny-output-error shiny-output-error-shiny.silent.error shiny-output-error-Missing-Data-Class shiny-output-error-validation', 
+        align = 'center'
+        )
         } else {
           includeHTML('www/ryo-kr.html')
         }
+    
+    ## https://rstudio.github.io/shinyvalidate/reference/compose_rules.html
     ## Validation rules are set in the server, start by
     ## making a new instance of an `InputValidator()`
     #joey <- InputValidator$new()
@@ -519,15 +526,12 @@ server <- shinyServer(function(input, output, session) {
     ## Finally, `enable()` the validation rules
     #joey$enable()
     
+    ## https://mastering-shiny.org/action-feedback.html
     #shinyFeedback::feedbackWarning(kr, FALSE, HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
     #includeHTML('www/ryo-kr.html')
     })
   
   output$ryo_gr <- renderUI({
-    #gr <- file.exists('www/ryo-gr.html')
-    #de <- file.exists('www/ryo-de.html')
-    #fr <- file.exists('www/ryo-fr.html')
-    #it <- file.exists('www/ryo-it.html')
     validate(
       need(is.error(file.exists('www/ryo-gr.html')), 'Υπό κατασκευή !'), 
       errorClass = 'Missing-Data-Class'
