@@ -1,7 +1,11 @@
+## https://rpruim.github.io/D3/notes/d3.html
+## https://community.rstudio.com/t/download-button-option-for-dynamically-generated-htmlwidgets-widget/112641/2
+
 library('BBmisc')
 lib('shiny')
 lib('htmlwidgets')
 lib('DT')
+lib('D3TableFilter')
 
 # ui.R
 # --------------------------------------------------------
@@ -22,27 +26,9 @@ server <- shinyServer(function(input, output, session) {
   gt <- renderD3Table({table_1})
   
   output$test <- gt
-      
-  output$downloadData <- downloadHandler(
-    filename = "chart.png",
-    content = function(file) {
-      saveWidget(table_1, "temp.html", selfcontained = TRUE)
-      webshot::webshot(url = "temp.html", file = file)    
-      }
-  )  
-})
-
-server <- shinyServer(function(input, output, session) {
-  tbl <- readr::read_tsv("data.tsv")
-
-  table_1 <-  D3Table(data = tbl);
   
-  gt <- renderD3Table({table_1})
-  
-  output$test <- gt
-  
-  install.packages("remotes")
-  remotes::install_github("rstudio/webshot2")
+  #install.packages("remotes")
+  #remotes::install_github("rstudio/webshot2")
   library(webshot2)
   output$downloadData <- downloadHandler(
     filename = "chart.png",

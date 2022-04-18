@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
-author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.jpg'
+author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
@@ -99,7 +99,7 @@ resource_files:
 - www/dwang_36x36.jpg
 - www/dwang2.png
 - www/Dynasty_Hotel_Tang.png
-- www/ENG.jpg
+- www/ENG.png
 - www/Esquire_Kitchen.png
 - www/facebook.jpg
 - www/facebook_36x36.jpg

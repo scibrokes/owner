@@ -3,6 +3,8 @@
 require('BBmisc')
 if(!require('XML')) devtools::install_github('omegahat/XML')
 if(!require('runr')) devtools::install_github('yihui/runr')
+## https://shi18ny.datasketch.dev
+if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
@@ -122,23 +124,24 @@ ui <- shinyUI(
       sidebarMenu(
         id = 'tabs', 
         menuItem('®️Studio ☁️', tabName = 'menu', 
-                 ## https://getbootstrap.com/docs/3.4/components/#glyphicons
-                 ## https://fontawesome.com/icons 
-                 icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
-                 menuSubItem('🏠 Home', tabName = 'home'), 
-                 menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
-                 menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
-                 menuSubItem('🇹🇼 繁体中文', tabName = 'tw'), 
-                 menuSubItem('🇯🇵 日本語', tabName = 'jp'), 
-                 menuSubItem('🇰🇷 한국어', tabName = 'kr'), 
-                 menuSubItem('🇬🇷 Ελληνικά', tabName = 'gr'), 
-                 menuSubItem('🇩🇪 Deutsch', tabName = 'de'), 
-                 menuSubItem('🇫🇷 français', tabName = 'fr'), 
-                 menuSubItem('🇮🇹 Italiano', tabName = 'it')), 
-        menuItem('Appendices', tabName = 'append', 
-                 icon = icon('th'), startExpanded = TRUE, 
-                 menuSubItem('Author', tabName = 'auth'), 
-                 menuSubItem('Reference', tabName = 'ref'))
+          ## https://getbootstrap.com/docs/3.4/components/#glyphicons
+          ## https://fontawesome.com/icons 
+          icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
+          menuSubItem('🏠 主页', tabName = 'home'), 
+          menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
+          menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
+          menuSubItem('🇹🇼 繁体中文', tabName = 'tw'), 
+          menuSubItem('🇯🇵 日本語', tabName = 'jp'), 
+          menuSubItem('🇰🇷 한국어', tabName = 'kr'), 
+          menuSubItem('🇬🇷 Ελληνικά', tabName = 'gr'), 
+          menuSubItem('🇩🇪 Deutsch', tabName = 'de'), 
+          menuSubItem('🇫🇷 français', tabName = 'fr'), 
+          menuSubItem('🇮🇹 Italiano', tabName = 'it')), 
+        menuItem('附录', tabName = 'append', 
+          icon = icon('th'), startExpanded = TRUE, 
+          menuSubItem('世博量化®', tabName = 'scbr'), 
+          menuSubItem('作者', tabName = 'auth'), 
+          menuSubItem('参考文献', tabName = 'refr'))
       )), 
     
     body = dashboardBody(
@@ -311,114 +314,156 @@ ui <- shinyUI(
             '))), 
       
       tabItems(
-        tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'),
-                alignCenter(
-                  prettyRadioButtons(
-                    inputId = 'rb', label = NULL, 
-                    choices = rb_choices, #menus$choices, 
-                    shape = 'curve', animation = 'pulse', 
-                    selected = character(0), status = 'primary', 
-                    thick = TRUE, width = '100%', bigger = TRUE, 
-                    icon = icon('registered'))
-                )
-        ), 
+        tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), 
+          alignCenter(
+            prettyRadioButtons(
+              inputId = 'rb', label = NULL, 
+              choices = rb_choices, #menus$choices, 
+              shape = 'curve', animation = 'pulse', 
+              selected = character(0), status = 'primary', 
+              thick = TRUE, width = '100%', bigger = TRUE, 
+              icon = icon('registered'))
+            )
+          ), 
         tabItem(tabName = 'en', h2('🇬🇧 ENGLISH', align = 'center'), 
-                #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-en.html'))#, 
-                #includeHTML('www/ryo-en.html')#,
-                htmlOutput('ryo_en')
-                #htmlOutput('frame')
-        ), 
+          ## https://stackoverflow.com/a/9158079/3806250
+          #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-en.html'))#, 
+          #includeHTML('www/ryo-en.html')#, 
+          htmlOutput('ryo_en')
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'cn', h2('🇨🇳 简体中文', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-cn.html'))#, 
-                #includeHTML('www/ryo-cn.html')#,
-                htmlOutput('ryo_cn')
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-cn.html'))#, 
+          #includeHTML('www/ryo-cn.html')#, 
+          htmlOutput('ryo_cn')
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'tw', h2('🇹🇼 繁体中文', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-tw.html'))#, 
-                #includeHTML('www/ryo-tw.html')#,
-                htmlOutput('ryo_tw')
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-tw.html'))#, 
+          #includeHTML('www/ryo-tw.html')#, 
+          htmlOutput('ryo_tw')
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'jp', h2('🇯🇵 日本語', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-jp.html'))#, 
-                #includeHTML('www/ryo-jp.html')#,
-                htmlOutput('ryo_jp')
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-jp.html'))#, 
+          #includeHTML('www/ryo-jp.html')#, 
+          htmlOutput('ryo_jp')
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'kr', h2('🇰🇷 한국어', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-gr.html'))#, 
-                #includeHTML('www/ryo-gr.html')#,
-                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_kr'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-gr.html'))#, 
+          #includeHTML('www/ryo-gr.html')#, 
+          ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+          htmlOutput('ryo_kr'), br(), br(), br(), 
+          HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-gr.html'))#, 
-                #includeHTML('www/ryo-gr.html')#,
-                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_gr'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-gr.html'))#, 
+          #includeHTML('www/ryo-gr.html')#, 
+          ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+          htmlOutput('ryo_gr'), br(), br(), br(), 
+          HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-de', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-de.html'))#, 
-                #includeHTML('www/ryo-de.html')#,
-                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_de'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-de', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-de.html'))#, 
+          #includeHTML('www/ryo-de.html')#,
+          ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+          htmlOutput('ryo_de'), br(), br(), br(), 
+          HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'fr', h2('🇫🇷 Français', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-fr', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-fr.html'))#, 
-                #includeHTML('www/ryo-fr.html')#,
-                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_fr'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")#, 
-                #tags$script(HTML("
-                #        var p = document.getElementById('ryo_fr')
-                #        $(p).attr('align', 'center');"))
-                #htmlOutput('frame')
-        ), 
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-fr', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-fr.html'))#, 
+          #includeHTML('www/ryo-fr.html')#,
+          ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+          htmlOutput('ryo_fr'), br(), br(), br(), 
+          HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")#, 
+          #tags$script(HTML("
+          #        var p = document.getElementById('ryo_fr')
+          #        $(p).attr('align', 'center');"))
+          #htmlOutput('frame')
+          ), 
         tabItem(tabName = 'it', h2('🇮🇹 Italiano', align = 'center'), 
-                #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-it', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-it.html'))#, 
-                #includeHTML('www/ryo-it.html')#,
-                ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
-                htmlOutput('ryo_it'), br(), br(), br(), 
-                HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
-                #htmlOutput('frame')
+          #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-it', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-it.html'))#, 
+          #includeHTML('www/ryo-it.html')#,
+          ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
+          htmlOutput('ryo_it'), br(), br(), br(), 
+          HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
+          #htmlOutput('frame')
+          ), 
+        tabItem(tabName = 'scbr', h2('世博量化®', align = 'center'), 
+          htmlOutput('scibrokes')
+          ), 
+        tabItem(tabName = 'auth', h2('作者', align = 'center'), 
+          #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
+          #            height = 800, width = '100%', frameborder = 0)#, 
+          #HTML(readLines('www/ryo-eng.html'))#, 
+          includeHTML('www/ryo-eng.html')#,
+          #htmlOutput('ryo_eng')
+          ), 
+        tabItem(tabName = 'refr', h2('参考文献', align = 'center'), 
+          br(), 
+          p('此履历表使用闪霓应用编程：', 
+            HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
+            'is the best fit model. You are feel free to browse over ', 
+            tags$ul(
+              tags$li(HTML("<a href='https://github.com/scibrokes/owner/issues/2'>Error: embed sidebar & css background inside html file doesn't work (shiny) #2</a>")), 
+              tags$li(HTML("<a href='http://rpubs.com/englianhu/316133'>binary.com Interview Question I (Extention)</a>")), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/3073/'>Q1App</a>")), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/2367/'>ShinyApp</a>"), '(App for 3 Questions : Blooper)'), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/3775/'>testRealTimeTransc</a>"))), 
+            'for the research study which compare the accuracy and the return of investment of various statistical models. '), 
+          br(), 
+          p('此履历表使用闪霓应用编程：', 
+            HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
+            'is the best fit model. You are feel free to browse over ', 
+            tags$ul(
+              tags$li(HTML("<a href='https://github.com/scibrokes/owner/issues/2'>Error: embed sidebar & css background inside html file doesn't work (shiny) #2</a>")), 
+              tags$li(HTML("<a href='http://rpubs.com/englianhu/316133'>binary.com Interview Question I (Extention)</a>")), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/3073/'>Q1App</a>")), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/2367/'>ShinyApp</a>"), '(App for 3 Questions : Blooper)'), 
+              tags$li(HTML("<a href='https://beta.rstudioconnect.com/content/3775/'>testRealTimeTransc</a>"))), 
+            'for the research study which compare the accuracy and the return of investment of various statistical models. '), 
+          p('You are feel free to surf over', 
+            HTML("<a href='https://github.com/englianhu/binary.com-interview-question'>binary.com Interview Question (GitHub Source Codes)</a>"), 
+            ' to get the source codes as well as some research papers on the quantitative trading.'), 
+          ##https://www.zybuluo.com/knight/note/96093
+          p('Below is the equation for the model.', 
+            withMathJax(
+              helpText('$$\\delta_{t}^{2} = \\omega + (\\alpha + \\gamma I_{t-1}) \\varepsilon_{t-1}^{2} + \\beta \\sigma_{t-1}^{2}$$')), 'where'), 
+          p(withMathJax(
+          helpText('$$I_{t-1}=
+                    \\begin{cases}
+                    0& \\text{if } r_{t-1} \\leq \\mu\\\\
+                    1& \\text{if } r_{t-1} > \\mu
+                    \\end{cases}$$'))), 
+          p('The daily data for calculation is getting from ', 
+            HTML("<a href='https://finance.yahoo.com/'>Yahoo! finance</a>"), 
+            ' while the real-time price to staking and settlement is getting from ', 
+            HTML("<a href='https://www.truefx.com/'>TrueFX.com.</a>"), 
+            'Therefore there has no any guarantee of profit and also accuracy of price dataset.')
+          )
         )
-      )#, 
-      #tabItems(
-      #  tabItem(tabName = 'auth', h2('Author', align = 'center'), 
-                #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
-                #            height = 800, width = '100%', frameborder = 0)#, 
-                #HTML(readLines('www/ryo-eng.html'))#, 
-      #          includeHTML('www/ryo-eng.html')#,
-                #htmlOutput('ryo_eng')
-      #  ), 
-      #  tabItem(tabName = 'ref', h2('参考文献', align = 'center'), 
-      #          p('...'))
-      #  )
     ), 
     
     footer = dashboardFooter(
@@ -497,18 +542,18 @@ server <- shinyServer(function(input, output, session) {
   
   output$ryo_kr <- renderUI({
     
-    kr <- file.exists('www/ryo-kr.html')
-    
-    if (kr == FALSE) {
+    #kr <- file.exists('www/ryo-kr.html')
+    #
+    #if (kr == FALSE) {
       ## https://shiny.rstudio.com/articles/html-tags.html
-      div(id = 'ryo_kr',
-        HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'), 
-        class = 'shiny-html-output shiny-bound-output shiny-output-error shiny-output-error-shiny.silent.error shiny-output-error-Missing-Data-Class shiny-output-error-validation', 
-        align = 'center'
-        )
-        } else {
-          includeHTML('www/ryo-kr.html')
-        }
+    #  div(id = 'ryo_kr',
+    #    HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'), 
+    #    class = 'shiny-html-output shiny-bound-output shiny-output-error shiny-output-error-shiny.silent.error shiny-output-error-Missing-Data-Class shiny-output-error-validation', 
+    #    align = 'center'
+    #    )
+    #    } else {
+    #      includeHTML('www/ryo-kr.html')
+    #    }
     
     ## https://rstudio.github.io/shinyvalidate/reference/compose_rules.html
     ## Validation rules are set in the server, start by
@@ -528,7 +573,12 @@ server <- shinyServer(function(input, output, session) {
     
     ## https://mastering-shiny.org/action-feedback.html
     #shinyFeedback::feedbackWarning(kr, FALSE, HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
-    #includeHTML('www/ryo-kr.html')
+    
+    validate(
+      need(is.error(file.exists('www/ryo-kr.html')), '건설중 !'), 
+      errorClass = 'Missing-Data-Class'
+    )
+    includeHTML('www/ryo-kr.html')
     })
   
   output$ryo_gr <- renderUI({
@@ -566,7 +616,11 @@ server <- shinyServer(function(input, output, session) {
   observeEvent(input$tabs, {
     updatePrettyRadioButtons(session, 'rb', selected = input$tabs)
   })
-
+  
+  output$scibrokes <- renderUI({
+    tags$iframe(src = 'https://www.scibrokes.com', height = 800, width = '100%', frameborder = 0)
+  })
+  
 })
 
 
