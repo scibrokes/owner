@@ -6,9 +6,9 @@ if(!require('runr')) devtools::install_github('yihui/runr')
 ## https://shi18ny.datasketch.dev
 if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
-pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 
-  'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyvalidate', 
-  'memoise', 'XML', 'htmltools', 'shiny.i18n', 'shinyFeedback')
+pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
+  'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
+  'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'sass')
 lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
@@ -25,7 +25,7 @@ conflict_prefer('tabItem', 'shinydashboard')
 conflict_prefer('dashboardFooter', 'shinydashboardPlus')
 conflict_prefer('box', 'shinydashboardPlus')
 conflict_prefer('updateTabItems', 'shinydashboard')
-
+conflict_prefer('runExample', 'shiny')
 
 # -------------- Set Parameters -----------------------------
 
@@ -116,16 +116,18 @@ ui <- shinyUI(
   ## https://rinterface.github.io/shinydashboardPlus/articles/more-skins.html
   dashboardPage(#skin = 'midnight', 
     header = dashboardHeader(title = logo), 
+    ## https://stackoverflow.com/a/70093686/3806250
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
       ## https://stackoverflow.com/questions/52382832/r-shiny-dashboard-body-dependant-from-shiny-subitem-selection
       ## https://ducthanhnguyen.github.io/MaterialAdminLTE/index3.html
       
       sidebarMenu(
-        id = 'tabs', 
+        id = 'sidebarID', 
         menuItem('®️Studio ☁️', tabName = 'menu', 
           ## https://getbootstrap.com/docs/3.4/components/#glyphicons
           ## https://fontawesome.com/icons 
+          #badgeLabel = '🚧', badgeColor = 'green', 
           icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
           menuSubItem('🏠 主页', tabName = 'home'), 
           menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
@@ -138,6 +140,7 @@ ui <- shinyUI(
           menuSubItem('🇫🇷 français', tabName = 'fr'), 
           menuSubItem('🇮🇹 Italiano', tabName = 'it')), 
         menuItem('附录', tabName = 'append', 
+          #badgeLabel = '🚧', badgeColor = 'blue', 
           icon = icon('th'), startExpanded = TRUE, 
           menuSubItem('世博量化®', tabName = 'scbr'), 
           menuSubItem('作者', tabName = 'auth'), 
@@ -316,6 +319,9 @@ ui <- shinyUI(
       tabItems(
         tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), 
           alignCenter(
+            ## https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons
+            ## https://www.justinmind.com/blog/radio-button-design-examples
+            ## https://www.sliderrevolution.com/resources/styling-radio-buttons
             prettyRadioButtons(
               inputId = 'rb', label = NULL, 
               choices = rb_choices, #menus$choices, 
@@ -418,8 +424,8 @@ ui <- shinyUI(
           #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-eng.html'))#, 
-          includeHTML('www/ryo-eng.html')#,
-          #htmlOutput('ryo_eng')
+          #includeHTML('www/ryo-eng.html')#,
+          htmlOutput('ryo_eng')
           ), 
         tabItem(tabName = 'refr', h2('参考文献', align = 'center'), 
           br(), 
@@ -513,6 +519,35 @@ server <- shinyServer(function(input, output, session) {
   #  ui_lnk
   #})
   
+  ## https://stackoverflow.com/a/70093686/3806250
+  # 
+  # bookmarkingWhitelist <- c('sidebarID')
+  #
+  # observe({
+  #   setBookmarkExclude(setdiff(names(input), bookmarkingWhitelist))
+  # })
+  #
+  # observeEvent(input$sidebarID, {
+  ## http://127.0.0.1:6172/?_inputs_&sidebarID=%22dashboard%22
+  ## http://127.0.0.1:6172/?_inputs_&sidebarID=%22widgets%22
+  #  
+  #  newURL <- paste0(
+  #      session$clientData$url_protocol,
+  #      "//",
+  #      session$clientData$url_hostname,
+  #      ":",
+  #      session$clientData$url_port,
+  #      session$clientData$url_pathname,
+  #      "?_inputs_&sidebarID=%22",
+  #      input$sidebarID,
+  #      "%22"
+  #    )
+  #  
+  #  updateQueryString(newURL,
+  #                    mode = "replace",
+  #                    session)
+  #})
+  
   observeEvent(input$rb, {
     #withProgress(message = 'Loading...',
     #             detail = 'This may take a while...', value = 0, {
@@ -521,8 +556,8 @@ server <- shinyServer(function(input, output, session) {
     #    Sys.sleep(0.25)
     #  }
     #})
-    updateTabItems(session, 'tabs', selected = input$rb)
-  })
+    updateTabItems(session, 'sidebarID', selected = input$rb)
+    })
   
   output$ryo_en <- renderUI({
     includeHTML('www/ryo-en.html')
@@ -613,9 +648,13 @@ server <- shinyServer(function(input, output, session) {
     includeHTML('www/ryo-it.html')
     })
   
-  observeEvent(input$tabs, {
-    updatePrettyRadioButtons(session, 'rb', selected = input$tabs)
+  observeEvent(input$sidebarID, {
+    updatePrettyRadioButtons(session, 'rb', selected = input$sidebarID)
   })
+  
+  output$ryo_eng <- renderUI({
+    includeHTML('www/ryo-eng.html')
+    })
   
   output$scibrokes <- renderUI({
     tags$iframe(src = 'https://www.scibrokes.com', height = 800, width = '100%', frameborder = 0)
