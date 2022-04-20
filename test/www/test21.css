@@ -1,82 +1,4 @@
-## https://github.com/scibrokes/owner/issues/2#issuecomment-1102259852
-## https://stackoverflow.com/questions/53517929/css-radio-button-style-change-when-not-selected
-
-require('BBmisc')
-if(!require('XML')) devtools::install_github('omegahat/XML')
-if(!require('runr')) devtools::install_github('yihui/runr')
-## https://shi18ny.datasketch.dev
-#if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
-
-pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
-  'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
-  'htmltools', 'shinyvalidate', 'shinyFeedback', 'sass')
-lib(pkgs)
-
-# -------------- Prefer Conflict -----------------------------
-
-conflict_prefer('dashboardPage', 'shinydashboardPlus')
-conflict_prefer('dashboardHeader', 'shinydashboardPlus')
-conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
-conflict_prefer('sidebarMenu', 'shinydashboard')
-conflict_prefer('menuItem', 'shinydashboard')
-conflict_prefer('menuSubItem', 'shinydashboard')
-conflict_prefer('dashboardBody', 'shinydashboard')
-conflict_prefer('tabItems', 'shinydashboard')
-conflict_prefer('tabItem', 'shinydashboard')
-conflict_prefer('dashboardFooter', 'shinydashboardPlus')
-conflict_prefer('box', 'shinydashboardPlus')
-conflict_prefer('updateTabItems', 'shinydashboard')
-conflict_prefer('runExample', 'shiny')
-
-### creating custom logo object
-logo <- shinyDashboardLogoDIY(
-  boldText = 'ξηg', 
-  mainText = 'Lιαη Ημ', 
-  textSize = 16, 
-  badgeText = '🐉 ®γσ', 
-  badgeTextColor = 'white', 
-  badgeTextSize = 2, 
-  badgeBackColor = "#40E0D0", 
-  badgeBorderRadius = 3)
-
-#// Just check/uncheck to see the effects transitions.
-#
-#
-#
-#
-#
-#//          Inspiration
-#
-#//design.google.com/articles/evolving-the-google-identity/
-
-## https://stackoverflow.com/a/50979068/3806250
-alignCenter <- memoise(function(el) {
-  htmltools::tagAppendAttributes(
-    el, style = "
-      width:500vw;
-      height:100vh;
-      background-color: rgba(255, 255, 255, 0.35); /* 35% opaque white */
-      padding: 0.25em;
-      color: #FFD64D;
-      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-      transition: all 0.45s;
-      display:flex;
-      flex-wrap: wrap;
-      align-items:center;
-      justify-content:center;
-    ")
-})
-
-ui <- shinyUI(
-  dashboardPage(
-    header = dashboardHeader(title = logo), 
-    sidebar = dashboardSidebar(),
-    body = dashboardBody(
-      shinyDashboardThemes(theme = 'blue_gradient'), 
-      
-      ## https://stackoverflow.com/questions/52198452/how-to-change-the-background-color-of-the-shiny-dashboard-body
-      tags$head(tags$style(HTML('
-         @keyframes fade {
+@keyframes fade {
       0%, 50% {
         opacity: 0;
         transform: scale(0);
@@ -156,7 +78,9 @@ ui <- shinyUI(
     html, body { 
       /* width:500vw; */
       /* height:100vh; */
-      background-color: rgba(255, 255, 255, 0.35); /* 35% opaque white */
+      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg'); */
+      /* background-color: rgba(255, 255, 255, 0.35); */ /* 35% opaque white */
+      background-color: rgba(0,0,255,0.3)
       padding: 0.25em;
       /* color: #FFD64D; */
       /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
@@ -167,8 +91,7 @@ ui <- shinyUI(
       /* justify-content:center; */
     }
     main, .container, label, label:before, label:after {
-      background-color: rgba(255, 255, 255, 0.35); /* 35% opaque white */
-      padding: 0.25em;
+      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/%CE%B2%CE%B5st%20J%CE%BF%CE%B5%CE%B3%20%E8%83%B8%E6%9C%89%E5%A4%A7%E7%97%A3.png'); */
       display:flex;
       flex-wrap: wrap;
       align-items:center;
@@ -180,6 +103,10 @@ ui <- shinyUI(
       right: 0;
     }
     main {
+      color: #FFD64D;
+      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      transition: all 0.45s;
+      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/%CE%B2%CE%B5st%20J%CE%BF%CE%B5%CE%B3%20%E8%83%B8%E6%9C%89%E5%A4%A7%E7%97%A3.png'); */
       width: 95vw;
       height: 50vw;
       margin: auto;
@@ -188,6 +115,8 @@ ui <- shinyUI(
       padding: 10px;
     }
     .container {
+      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/βεst Jοεγ 胸有大痣.png'); */
+      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/%CE%B2%CE%B5st%20J%CE%BF%CE%B5%CE%B3%20%E8%83%B8%E6%9C%89%E5%A4%A7%E7%97%A3.png'); */
       /* margin: auto; */
       /* width: 60%; */
       /* border: 3px solid #73AD21; */
@@ -211,14 +140,16 @@ ui <- shinyUI(
       animation-play-state: paused;
     }
     label:before {
-      content: "";
+      content: "🇬🇧 English";
+      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      transition: all 0.45s;
       position: absolute;
       width: 5vw;
       height: 5vw;
-      background: white;
+      /* background: white; */
       border-radius: 50%;
       box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
-      transition: all .2s;
+      /* transition: all .2s; */
     }
     label:hover:before {
       box-shadow: rgba(0, 0, 0, 0.0784314) 0 0 1vw 0, rgba(0, 0, 0, 0.239216) 0 1vw 1vw 0;
@@ -229,6 +160,8 @@ ui <- shinyUI(
       width: 10vw;
       height: 10vw;
       background: rgba(255, 255, 255, .5);
+      /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
+      /* transition: all 0.45s; */
       border-radius: 50%;
       transform: scale(0);
     }
@@ -240,7 +173,9 @@ ui <- shinyUI(
     /**** BLUE Radio button code ****/
     #radio-1 + label {
       left: -60vw;
-      background: #4285F4;
+      /* background: #4285F4; */
+      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      transition: all 0.45s;
       animation-delay: 0s;
     }
     #radio-1 + label:before {
@@ -253,8 +188,11 @@ ui <- shinyUI(
     /**** RED radio button code ****/
     #radio-2 + label {
       left: -20vw;
-      background: #EA4335;
+      /* background: #EA4335; */
+      background: linear-gradient(155DEG, #F56271 0%, #570A11 100%);
+      transition: all 0.45s;
       border-color: #EA4335!important;
+      /* opacity: 0.5; */
       animation-delay: .2s;
     }
     #radio-2:checked + label {
@@ -266,8 +204,10 @@ ui <- shinyUI(
     #radio-2:checked + label:before {
       width: 5vw;
       height: 5vw;
-      background: #EA4335;
-      transition: all .4s;
+      /* background: #EA4335; */
+      /* transition: all .4s; */
+      background: linear-gradient(155DEG, #F56271 0%, #570A11 100%);
+      transition: all 0.45s;
     }
     /* for IE */
     #radio-2:not(:checked) + label:before {
@@ -314,27 +254,3 @@ ui <- shinyUI(
     [type="radio"] {
       display: none;
     }
-        '))),
-      fluidPage(
-        div(align = 'center', class = 'container', style='display: inline-block;', 
-          HTML('<div class="container" align="center">
-           <input type="radio" class="radio" id="radio-1" name="group" value="one"/>
-           <label for="radio-1"></label>
-           <input type="radio" class="radio" id="radio-2" name="group" value="two"/>
-           <label for="radio-2"></label>
-           <input type="radio" class="radio" id="radio-3" name="group" value="three"/>
-           <label for="radio-3"></label>
-           <input type="radio" class="radio" id="radio-4" name="group" value="four"/>
-           <label for="radio-4"></label></div>')
-           )
-        )
-      )
-    )
-  )
-
-server = shinyServer(function(input, output, session) { 
-
-})
-
-shinyApp(ui = ui, server = server)
-

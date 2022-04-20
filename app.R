@@ -8,7 +8,8 @@ if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
-  'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'sass')
+  'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'shinyMobile', 
+  'sass')
 lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
@@ -447,7 +448,7 @@ ui <- shinyUI(
               tags$li(HTML("<a href='https://codepen.io/jkantner/pen/oNXjjZM'>Radio Buttons With Marble and Wood</a>")), 
               tags$li(HTML("<a href='https://codepen.io/victorfreire/pen/XXzqEr'>Google Dots Radio Buttons</a>")), 
               tags$li(HTML("<a href='https://shiny.rstudio.com/articles/css.html'>Using custom CSS in your app</a>")), 
-              tags$li(HTML("<a href='https://mastering-shiny.org'>Mastering Shiny</a>")), 
+              tags$li(HTML("<a href='https://shiny.rstudio.com/articles/packaging-javascript.html'>Packaging JavaScript code for Shiny</a>")), 
               tags$li(HTML("<a href='https://mastering-shiny.org'>Mastering Shiny</a>"))), 
             'for the research study which compare the accuracy and the return of investment of various statistical models. '), 
           br(), 
