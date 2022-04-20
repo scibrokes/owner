@@ -1,4 +1,5 @@
 ## https://github.com/scibrokes/owner/issues/2#issuecomment-1102259852
+## https://stackoverflow.com/questions/53517929/css-radio-button-style-change-when-not-selected
 
 require('BBmisc')
 if(!require('XML')) devtools::install_github('omegahat/XML')
@@ -313,19 +314,108 @@ ui <- shinyUI(
     [type="radio"] {
       display: none;
     }
-    '))),
+    
+    
+    /* Radio Buttons section 2*/
+    input[type="radio"] {
+      left: 0;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      z-index: 5;
+      /* IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      -moz-opacity: 0;
+      opacity: 0;
+    }
+    
+    .faux-radio {
+      width: 12px;
+      height: 12px;
+      background: #f2f2f2;
+      border: 1px solid #a6a6a6;
+      border-radius: 12px;
+      display: inline-block;
+      margin-right: 2px;
+      position: relative;
+    }
+    
+    .faux-radio.selected:after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: #666;
+      border-radius: 6px;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+    }
+    
+    
+    /* Radio Buttons section 3*/
+    input[type="radio"] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid gray;
+}
+
+input[type="radio"]:before {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked:before {
+    background: green;
+
+}
+
+input[type="radio"]:checked {
+  border-color: orange;
+}
+      '))),
       fluidPage(
-        div(align = 'center', class = 'container', 
+        div(align = 'center', class = 'container', style='display: inline-block;', 
           HTML('<div class="container" align="center">
-           <input type="radio" class="radio" id="radio-1" name="group"/>
+           <input type="radio" class="radio" id="radio-1" name="group" value="one"/>
            <label for="radio-1"></label>
-           <input type="radio" class="radio" id="radio-2" name="group"/>
+           <input type="radio" class="radio" id="radio-2" name="group" value="two"/>
            <label for="radio-2"></label>
-           <input type="radio" class="radio" id="radio-3" name="group"/>
+           <input type="radio" class="radio" id="radio-3" name="group" value="three"/>
            <label for="radio-3"></label>
-           <input type="radio" class="radio" id="radio-4" name="group"/>
+           <input type="radio" class="radio" id="radio-4" name="group" value="four"/>
            <label for="radio-4"></label></div>')
-           )
+           ), 
+        HTML('
+          <div class="faux-radio" data-group="radio-test">
+          <input type="radio" id="radio-1" name="radio-test" onclick="document.body.style.backgroundColor = "green">
+          </div>
+          '),
+        HTML('
+          <div>
+          <div class="radio">
+            <input type="radio" name="person" id="radio-1" value="James">
+            <label for="radio-1">James</label>
+          </div>
+
+          <div class="radio">
+            <input type="radio" name="person" id="radio-2" value="Michael">
+            <label for="radio-2">Michael</label>
+          </div>
+
+          <div class="radio">
+            <input type="radio" name="person" id="radio-3" value="Andy">
+            <label for="radio-3">Andy</label>
+          </div>
+          </div>
+          ')
         )
       )
     )
