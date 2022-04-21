@@ -605,7 +605,7 @@ label:after {
   transform: scale(0);
 }
 #radio-1:checked + label:before {
-  content: "🇬🇧 \n ENG";
+  content: "🇬🇧 \\A ENG";
   white-space: pre; /* or pre-wrap */
   color: #FF0000;
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -632,7 +632,7 @@ label:after {
 #radio-2:checked + label:before {
   width: 5vw;
   height: 5vw;
-  content: "🇨🇳 \n 简";
+  content: "🇨🇳 \\A 简";
   white-space: pre; /* or pre-wrap */
   color: #FFBE00;
   /* background: #EA4335; */
@@ -645,7 +645,7 @@ label:after {
   width: 8vw;
   height: 8vw;
   /* https://stackoverflow.com/a/17047836/3806250 */
-  content: "🇨🇳 \n 简体中文";
+  content: "🇨🇳 \\A 简体中文";
   white-space: pre; /* or pre-wrap */
   color: #FFBE00;
   /* background: #EA4335; */
@@ -665,7 +665,7 @@ label:after {
 }
 #radio-3 + label:before {
   /* background: #E91E63; */
-  content: "🇹🇼 \n 繁";
+  content: "🇹🇼 \\A 繁";
   white-space: pre; /* or pre-wrap */
   color: #E0DFED;
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -700,7 +700,7 @@ label:after {
 #radio-4:checked + label:before {
   width: 5vw;
   height: 5vw;
-  content: "🇯🇵 \n 日";
+  content: "🇯🇵 \\A 日";
   white-space: pre; /* or pre-wrap */
   color: #E0DFED;
   /* background: #EA4335; */
@@ -713,7 +713,7 @@ label:after {
   width: 8vw;
   height: 8vw;
   /* https://stackoverflow.com/a/17047836/3806250 */
-  content: "🇯🇵 \n 日本語";
+  content: "🇯🇵 \\A 日本語";
   white-space: pre; /* or pre-wrap */
   color: #E0DFED;
   /* background: #EA4335; */
@@ -725,7 +725,7 @@ label:after {
 #radio-5 + label {
   left: 0vw;
   bottom: 0vw;
-  content: "🇰🇷 \n 한국어 \n 🇰🇷";
+  content: "🇰🇷 \\A 한국어 \\A 🇰🇷";
   white-space: pre; /* or pre-wrap */
   /* bottom: -6vw; */
   /* background: #4285F4; */
@@ -738,7 +738,7 @@ label:after {
 }
 #radio-5:checked + label:before {
   color: #200769;
-  content: "🇰🇷 \n 한";
+  content: "🇰🇷 \\A 한";
   white-space: pre; /* or pre-wrap */
   background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
   transform: scale(1);
@@ -757,7 +757,7 @@ label:after {
 #radio-6 + label:before {
   /* background: #E91E63; */
   color: #E0DFED;
-  content: "🇬🇷 \n Ελλη";
+  content: "🇬🇷 \\A Ελλη";
   white-space: pre; /* or pre-wrap */
   background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
   transition: all 0.45s;
@@ -776,7 +776,7 @@ label:after {
 #radio-7 + label {
   left: 40vw;
   bottom: -40vw;
-  content: "🇩🇪 \n Deutsch \n 🇩🇪";
+  content: "🇩🇪 \\A Deutsch \\A 🇩🇪";
   white-space: pre; /* or pre-wrap */
   /* background: #000000; */
   color: #FBBC05;
@@ -787,7 +787,7 @@ label:after {
 #radio-7 + label:before {
   /* background: #E0DFED; */
   color: #FBBC05;
-  content: "🇩🇪 \n DE";
+  content: "🇩🇪 \\A DE";
   white-space: pre; /* or pre-wrap */
   background: linear-gradient(155DEG, #000000 0%, #E4E3E8 100%);
   transition: all 0.45s;
@@ -816,7 +816,7 @@ label:after {
 }
 #radio-8:checked + label:before {
   color: #E0DFED;
-  content: "🇫🇷 \n FR";
+  content: "🇫🇷 \\A FR";
   white-space: pre; /* or pre-wrap */
   transform: scale(1);
   transition: all .4s;
@@ -840,7 +840,7 @@ label:after {
 }
 #radio-9:checked + label:before {
   color: #E0DFED;
-  content: "🇮🇹 \n IT";
+  content: "🇮🇹 \\A IT";
   white-space: pre; /* or pre-wrap */
   animation-name: checked-radio-9;
   animation-duration: .6s;
