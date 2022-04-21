@@ -1,0 +1,91 @@
+$lightBg: "file:///home/englianhu/Documents/GitHub/owner/test/www/light-wood.jpg"
+$darkBg: "file:///home/englianhu/Documents/GitHub/owner/test/www/dark-wood.jpg"
+$dur: 0.5s
+
+*
+	border: 0
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+\:root
+	font-size: calc(32px + (40 - 32)*(100vw - 320px)/ (1024 - 320))
+body
+	background:
+		image: url($lightBg)
+		position: 50% 50%
+	color: #381803
+	display: flex
+	font: 1em Nunito, sans-serif
+	height: 100vh
+	line-height: 1.5
+form
+	margin: auto
+	max-width: 10em
+	padding: 1.5em 0
+	position: relative
+	label:before, span:before
+		border-radius: 50%
+		content: ""
+	label
+		cursor: pointer
+		display: flex
+		letter-spacing: 0.1em
+		text-transform: uppercase
+		&:before
+			background: radial-gradient(100% 100% at 33% 33%,rgba(0,0,0,0.25) 25%,rgba(0,0,0,0) 50%), radial-gradient(100% 100% at 67% 67%,rgba(255,255,255,0.15),rgba(255,255,255,0) 50%)
+			box-shadow: 0 0 0.75em #000 inset
+			display: inline-block
+			margin-right: 0.375em
+			width: 1.5em
+			height: 1.5em
+		&:not(:last-of-type)
+			margin-bottom: 1.5em
+	span
+		position: absolute
+		top: 1.75em
+		left: 0.25em
+		width: 1em
+		height: 1em
+		transition: transform $dur/2 linear
+		z-index: 1
+		&, &:before
+			display: block
+		&:before
+			background:
+				color: #2762f3
+				image: radial-gradient(10% 10% at 50% 50%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0)), radial-gradient(12% 12% at 60% 25%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0)), radial-gradient(100% 100% at 60% 50%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.25) 50%)
+			border-radius: 50%
+			box-shadow: 0 0.1em 0.1em 0 rgba(0,0,0,0.5), 0 0 0.1em 0.1em rgba(0,0,0,0.25) inset
+			width: 100%
+			height: 100%
+
+input
+	position: fixed
+	top: -1.5em
+	left: -1.5em
+
+@for $s from 1 through 4
+	$yPos: 3em * ($s - 1)
+	input:nth-of-type(#{$s}):checked ~ span
+		transform: translateY($yPos)
+		&:before
+			animation: wobble#{$s} $dur linear forwards
+	@keyframes wobble#{$s}
+		from, to
+			transform: translateY(0) scale(1)
+		25%
+			transform: translateY(0) scale(1.33)
+		50%
+			transform: translateY(0.25em) scale(1)
+		67%
+			transform: translateY(-0.15em) scale(1)
+		83%
+			transform: translateY(0.07em) scale(1)
+
+/* Dark mode */
+@media screen and (prefers-color-scheme: dark)
+	body
+		background:
+			image: url($darkBg)
+		color: #c58b50
+		

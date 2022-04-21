@@ -78,10 +78,10 @@
     html, body { 
       /* width:500vw; */
       /* height:100vh; */
-      /* background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg'); */
+      background-image: url('file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg');
       /* background-color: rgba(255, 255, 255, 0.35); */ /* 35% opaque white */
-      background-color: rgba(0,0,255,0.3)
-      padding: 0.25em;
+      /* background-color: rgba(0,0,255,0.3); */
+      /* padding: 0.25em; */
       /* color: #FFD64D; */
       /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
       /* transition: all 0.45s; */
@@ -141,7 +141,7 @@
     }
     label:before {
       content: "🇬🇧 English";
-      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      background: radial-gradient(155DEG, #146275 0%, #33A8C4 100%);
       transition: all 0.45s;
       position: absolute;
       width: 5vw;
@@ -160,7 +160,7 @@
       width: 10vw;
       height: 10vw;
       background: rgba(255, 255, 255, .5);
-      /* background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%); */
+      /* background: radial-gradient(155DEG, #146275 0%, #33A8C4 100%); */
       /* transition: all 0.45s; */
       border-radius: 50%;
       transform: scale(0);
@@ -174,7 +174,7 @@
     #radio-1 + label {
       left: -60vw;
       /* background: #4285F4; */
-      background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+      background: radial-gradient(155DEG, #200769 0%, #69B4F5 100%);
       transition: all 0.45s;
       animation-delay: 0s;
     }
@@ -189,7 +189,7 @@
     #radio-2 + label {
       left: -20vw;
       /* background: #EA4335; */
-      background: linear-gradient(155DEG, #F56271 0%, #570A11 100%);
+      background: radial-gradient(155DEG, #F56271 0%, #570A11 100%);
       transition: all 0.45s;
       border-color: #EA4335!important;
       /* opacity: 0.5; */
@@ -206,7 +206,7 @@
       height: 5vw;
       /* background: #EA4335; */
       /* transition: all .4s; */
-      background: linear-gradient(155DEG, #F56271 0%, #570A11 100%);
+      background: radial-gradient(155DEG, #F56271 0%, #570A11 100%);
       transition: all 0.45s;
     }
     /* for IE */
@@ -219,7 +219,9 @@
     /**** YELLOW radio button code ****/
     #radio-3 + label {
       left: 20vw;
-      background: #FBBC05;
+      /* background: #FBBC05; */
+      background: radial-gradient(155DEG, #D6A609 0%, #FAD048 100%);
+      transition: all 0.45s;
       animation-delay: .4s;
     }
     #radio-3 + label:before {
