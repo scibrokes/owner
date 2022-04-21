@@ -11,7 +11,7 @@ if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
   'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'shinyMobile', 
-  'shinymanager', 'miniUI', 'sass')
+  'shiny.router', 'miniUI', 'sass')
 lib(pkgs)
 #lib(pkgs[1:4])
 
@@ -124,13 +124,13 @@ ui <- shinyUI(
   ## https://rinterface.github.io/shinydashboardPlus/articles/more-skins.html
   dashboardPage(#skin = 'midnight', 
     header = dashboardHeader(title = logo), 
-    ## https://stackoverflow.com/a/70093686/3806250
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
       ## https://stackoverflow.com/questions/52382832/r-shiny-dashboard-body-dependant-from-shiny-subitem-selection
       ## https://ducthanhnguyen.github.io/MaterialAdminLTE/index3.html
       
       sidebarMenu(
+        ## https://stackoverflow.com/a/70093686/3806250
         id = 'sidebarID', 
         menuItem('®️Studio ☁️', tabName = 'menu', 
           ## https://getbootstrap.com/docs/3.4/components/#glyphicons
@@ -322,534 +322,6 @@ ui <- shinyUI(
                 background: linear-gradient(155DEG, #002C54 20%, #4CB5F5 80%);
               }
             }
-            
-            
-            @keyframes fade {
-  0%, 50% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-@keyframes dot-anim {
-  0% {
-    top: -4vw;
-  }
-  50% {
-    top: 4vw;
-  }
-  100% {
-    top: -4vw;
-  }
-}
-@keyframes checked-radio-3 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-3 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-4 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes checked-radio-5 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-5 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-6 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-6 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-7 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-7 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-8 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-8 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-9 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-9 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-
-*, *:before, *:after {
-  margin: auto;
-  padding: 0;
-  outline: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-html, body {
-  /* background: white; */
-  background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-  transition: all 0.25s;
-  /* background-image: url("file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg"); */
-}
-main, .container, label, label:before, label:after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-main {
-  width: 95vw;
-  height: 50vw;
-}
-.container {
-  width: 100%;
-  height: 100%;
-  animation: fade 1s;
-}
-label {
-  display: inline-block;
-  width: 10vw;
-  height: 10vw;
-  border-radius: 50%;
-  transition: all .2s ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1.6s;
-  animation-name: dot-anim;
-}
-.radio:checked + label {
-  animation-play-state: paused;
-}
-label:before {
-  content: "";
-  position: absolute;
-  width: 5vw;
-  height: 5vw;
-  background: white;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
-  transition: all .2s;
-}
-label:hover:before {
-  box-shadow: rgba(0, 0, 0, 0.0784314) 0 0 1vw 0, rgba(0, 0, 0, 0.239216) 0 1vw 1vw 0;
-}
-label:after {
-  content: "";
-  position: absolute;
-  width: 10vw;
-  height: 10vw;
-  background: rgba(255, 255, 255, .5);
-  border-radius: 50%;
-  transform: scale(0);
-}
-.radio:checked + label:after {
-  background: transparent;
-  transition: all .5s;
-  transform: scale(1);
-}
-/**** BLUE RED Radio button code ****/
-#radio-1 + label {
-  left: -80vw;
-  bottom: 80vw;
-  /* background: #4285F4; */
-  color: #FF0000;
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  animation-delay: 0s;
-}
-#radio-1 + label:before {
-  /* background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%); */
-  /* transition: all 0.45s; */
-  transform: scale(0);
-}
-#radio-1:checked + label:before {
-  content: "🇬🇧 \n ENG";
-  white-space: pre; /* or pre-wrap */
-  color: #FF0000;
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  transform: scale(1);
-  transition: all .4s;
-}
-/**** RED YELLOW radio button code ****/
-#radio-2 + label {
-  left: -60vw;
-  bottom: 60vw;
-  /* background: #EA4335; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-  border-color: #EA4335!important;
-  animation-delay: .2s;
-}
-#radio-2:checked + label {
-  background: white;
-  border: 1vw solid;
-  box-shadow: inset rgba(0, 0, 0, 0.117647) 0 0 .6vw 0, inset rgba(0, 0, 0, 0.239216) 0 .6vw .8vw 0;
-  transition: all .2s;
-}
-#radio-2:checked + label:before {
-  width: 5vw;
-  height: 5vw;
-  content: "🇨🇳 \n 简";
-  white-space: pre; /* or pre-wrap */
-  color: #FFBE00;
-  /* background: #EA4335; */
-  /* transition: all .4s; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-}
-/* for IE */
-#radio-2:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
-  /* https://stackoverflow.com/a/17047836/3806250 */
-  content: "🇨🇳 \n 简体中文";
-  white-space: pre; /* or pre-wrap */
-  color: #FFBE00;
-  /* background: #EA4335; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-  box-shadow: none;
-}
-/**** RED BLUE radio button code ****/
-#radio-3 + label {
-  left: -40vw;
-  bottom: 40vw;
-  color: #E0DFED;
-  /* background: #FBBC05; */
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  animation-delay: .4s;
-}
-#radio-3 + label:before {
-  /* background: #E91E63; */
-  content: "🇹🇼 \n 繁";
-  white-space: pre; /* or pre-wrap */
-  color: #E0DFED;
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  transform: scale(0);
-  animation-name: unchecked-radio-3;
-  animation-duration: .2s;
-  animation-timing-function: ease-in-out;
-}
-#radio-3:checked + label:before {
-  animation-name: checked-radio-3;
-  animation-duration: .4s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-}
-/**** RED WHITE radio button code ****/
-#radio-4 + label {
-  left: -20vw;
-  bottom: 20vw;
-  /* background: #EA4335; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-  border-color: #EA4335!important;
-  animation-delay: .2s;
-}
-#radio-4:checked + label {
-  background: white;
-  border: 1vw solid;
-  box-shadow: inset rgba(0, 0, 0, 0.117647) 0 0 .6vw 0, inset rgba(0, 0, 0, 0.239216) 0 .6vw .8vw 0;
-  transition: all .2s;
-}
-#radio-4:checked + label:before {
-  width: 5vw;
-  height: 5vw;
-  content: "🇯🇵 \n 日";
-  white-space: pre; /* or pre-wrap */
-  color: #E0DFED;
-  /* background: #EA4335; */
-  /* transition: all .4s; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-}
-/* for IE */
-#radio-4:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
-  /* https://stackoverflow.com/a/17047836/3806250 */
-  content: "🇯🇵 \n 日本語";
-  white-space: pre; /* or pre-wrap */
-  color: #E0DFED;
-  /* background: #EA4335; */
-  background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
-  transition: all 0.45s;
-  box-shadow: none;
-}
-/**** LIGHT BLUE BLACK Radio button code ****/
-#radio-5 + label {
-  left: 0vw;
-  bottom: 0vw;
-  content: "🇰🇷 \n 한국어 \n 🇰🇷";
-  white-space: pre; /* or pre-wrap */
-  /* bottom: -6vw; */
-  /* background: #4285F4; */
-  background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
-  transform: scale(1);
-  animation-delay: 0s;
-}
-#radio-5 + label:before {
-  transform: scale(0);
-}
-#radio-5:checked + label:before {
-  color: #200769;
-  content: "🇰🇷 \n 한";
-  white-space: pre; /* or pre-wrap */
-  background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
-  transform: scale(1);
-  transition: all .4s;
-}
-/**** LIGHT BLUE WHITE radio button code ****/
-#radio-6 + label {
-  left: 20vw;
-  bottom: -20vw;
-  /* background: #FBBC05; */
-  color: #E0DFED;
-  background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
-  transition: all 0.45s;
-  animation-delay: .4s;
-}
-#radio-6 + label:before {
-  /* background: #E91E63; */
-  color: #E0DFED;
-  content: "🇬🇷 \n Ελλη";
-  white-space: pre; /* or pre-wrap */
-  background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
-  transition: all 0.45s;
-  transform: scale(0);
-  animation-name: unchecked-radio-6;
-  animation-duration: .2s;
-  animation-timing-function: ease-in-out;
-}
-#radio-6:checked + label:before {
-  animation-name: checked-radio-6;
-  animation-duration: .4s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: both;
-}
-/**** BLACK YELLOW radio button code ****/
-#radio-7 + label {
-  left: 40vw;
-  bottom: -40vw;
-  content: "🇩🇪 \n Deutsch \n 🇩🇪";
-  white-space: pre; /* or pre-wrap */
-  /* background: #000000; */
-  color: #FBBC05;
-    background: linear-gradient(155DEG, #000000 0%, #E4E3E8 100%);
-    transition: all 0.45s;
-    animation-delay: .6s;
-}
-#radio-7 + label:before {
-  /* background: #E0DFED; */
-  color: #FBBC05;
-  content: "🇩🇪 \n DE";
-  white-space: pre; /* or pre-wrap */
-  background: linear-gradient(155DEG, #000000 0%, #E4E3E8 100%);
-  transition: all 0.45s;
-  animation: unchecked-radio-7 .5s both;
-}
-#radio-7:checked + label:before {
-  animation-name: checked-radio-7;
-  animation-duration: .6s;
-  animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-  animation-fill-mode: both;
-}
-/**** BLUE WHITE Radio button code ****/
-#radio-8 + label {
-  left: 60vw;
-  bottom: -60vw;
-  color: #E0DFED;
-  /* background: #4285F4; */
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  animation-delay: 0s;
-}
-#radio-8 + label:before {
-  background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
-  transition: all 0.45s;
-  transform: scale(0);
-}
-#radio-8:checked + label:before {
-  color: #E0DFED;
-  content: "🇫🇷 \n FR";
-  white-space: pre; /* or pre-wrap */
-  transform: scale(1);
-  transition: all .4s;
-}
-/**** GREEN WHITE radio button code ****/
-#radio-9 + label {
-  left: 80vw;
-  bottom: -80vw;
-  color: #E0DFED;
-  /* background: #34A853; */
-  background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-  transition: all 0.45s;
-  animation-delay: .6s;
-}
-#radio-9 + label:before {
-  /* background: #8BC34A; */
-  /* color: #E0DFED; */
-  background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-  transition: all 0.45s;
-  animation: unchecked-radio-9 .5s both;
-}
-#radio-9:checked + label:before {
-  color: #E0DFED;
-  content: "🇮🇹 \n IT";
-  white-space: pre; /* or pre-wrap */
-  animation-name: checked-radio-9;
-  animation-duration: .6s;
-  animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
-  animation-fill-mode: both;
-}
-[type="radio"] {
-    display: none;
-}
             '))), 
       
       tabItems(
@@ -866,64 +338,44 @@ label:after {
             #   thick = TRUE, width = '100%', bigger = TRUE, 
             #   icon = icon('registered'))
             #)
-            #includeHTML('www/DynRadioB.html'), 
-            #includeCSS('www/DynRadioB.css')
-            #htmlOutput('radio_home')
-          f7Page(
-          HTML('
-            <div class="container" align="center">
-              <input type="radio" class="radio" id="radio-1" name="group"/>
-                <label for="radio-1"><br>🇬🇧<br>English</label>
-              <input type="radio" class="radio" id="radio-2" name="group"/>
-                <label for="radio-2"></label>
-              <input type="radio" class="radio" id="radio-3" name="group"/>
-                <label for="radio-3"><br>🇹🇼<br>繁体中文</label>
-              <input type="radio" class="radio" id="radio-4" name="group"/>
-                <label for="radio-4"></label>
-              <input type="radio" class="radio" id="radio-5" name="group"/>
-                <label for="radio-5"><br>🇰🇷<br>한국어</label>
-              <input type="radio" class="radio" id="radio-6" name="group"/>
-                <label for="radio-6"><br>🇬🇷<br>Ελληνικά</label>
-              <input type="radio" class="radio" id="radio-7" name="group"/>
-                <label for="radio-7"><br>🇩🇪<br>Deutsch</label>
-              <input type="radio" class="radio" id="radio-8" name="group"/>
-                <label for="radio-8"><br>🇫🇷<br>Français</label>
-              <input type="radio" class="radio" id="radio-9" name="group"/>
-                <label for="radio-9"><br>🇮🇹<br>Italiano</label>
-            </div>
-            '))
+            includeHTML('www/DynRadioB.html'), 
+            includeCSS('www/DynRadioB.css')
           ), 
         tabItem(tabName = 'en', h2('🇬🇧 ENGLISH', align = 'center'), 
           ## https://stackoverflow.com/a/9158079/3806250
           #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-en.html'))#, 
-          #includeHTML('www/ryo-en.html')#, 
-          htmlOutput('ryo_en')
+          includeHTML('www/ryo-en.html'), 
+          includeCSS('www/CSSBackgrounds.css')
+          #htmlOutput('ryo_en')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'cn', h2('🇨🇳 简体中文', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-cn.html'))#, 
-          #includeHTML('www/ryo-cn.html')#, 
-          htmlOutput('ryo_cn')
+          includeHTML('www/ryo-cn.html'), 
+          includeCSS('www/CSSBackgrounds.css')
+          #htmlOutput('ryo_cn')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'tw', h2('🇹🇼 繁体中文', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-tw.html'))#, 
-          #includeHTML('www/ryo-tw.html')#, 
-          htmlOutput('ryo_tw')
+          includeHTML('www/ryo-tw.html'), 
+          includeCSS('www/CSSBackgrounds.css')
+          #htmlOutput('ryo_tw')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'jp', h2('🇯🇵 日本語', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-jp.html'))#, 
-          #includeHTML('www/ryo-jp.html')#, 
-          htmlOutput('ryo_jp')
+          includeHTML('www/ryo-jp.html'), 
+          includeCSS('www/CSSBackgrounds.css')
+          #htmlOutput('ryo_jp')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'kr', h2('🇰🇷 한국어', align = 'center'), 
@@ -986,9 +438,9 @@ label:after {
           #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
           #            height = 800, width = '100%', frameborder = 0)#, 
           #HTML(readLines('www/ryo-eng.html'))#, 
-          #includeHTML('www/ryo-eng.html'), 
-          #includeCSS('www/CSSBackgrounds.css')
-          htmlOutput('ryo_eng')
+          includeHTML('www/ryo-eng.html'), 
+          includeCSS('www/CSSBackgrounds.css')
+          #htmlOutput('ryo_eng')
           ), 
         tabItem(tabName = 'refr', h2('参考文献', align = 'center'), 
           br(), 
@@ -1090,35 +542,32 @@ server <- shinyServer(function(input, output, session) {
   #})
   
   ## https://stackoverflow.com/a/70093686/3806250
-  # 
-  # bookmarkingWhitelist <- c('sidebarID')
-  #
-  # observe({
-  #   setBookmarkExclude(setdiff(names(input), bookmarkingWhitelist))
-  # })
-  #
-  # observeEvent(input$sidebarID, {
-  ## http://127.0.0.1:6172/?_inputs_&sidebarID=%22dashboard%22
-  ## http://127.0.0.1:6172/?_inputs_&sidebarID=%22widgets%22
-  #  
-  #  newURL <- paste0(
-  #      session$clientData$url_protocol,
-  #      "//",
-  #      session$clientData$url_hostname,
-  #      ":",
-  #      session$clientData$url_port,
-  #      session$clientData$url_pathname,
-  #      "?_inputs_&sidebarID=%22",
-  #      input$sidebarID,
-  #      "%22"
-  #    )
-  #  
-  #  updateQueryString(newURL,
-  #                    mode = "replace",
-  #                    session)
-  #})
+  ## https://stackoverflow.com/questions/70080803/uri-routing-for-shinydashboard-using-shiny-router/70093686#70093686
+  observeEvent(input$sidebarID, {
+    # http://127.0.0.1:6172/?tab=dashboard
+    # http://127.0.0.1:6172/?tab=widgets
+    
+    newURL <- paste0(
+        session$clientData$url_protocol,
+        '//',
+        session$clientData$url_hostname,
+        ':',
+        session$clientData$url_port,
+        session$clientData$url_pathname,
+        '?tab=',
+        input$sidebarID
+      )
+    updateQueryString(newURL, mode = 'replace', session)
+  })
   
-  observeEvent(input$rb, {
+  observe({
+    currentTab <- getQueryString(session)$tab # alternative: parseQueryString(session$clientData$url_search)$tab
+    if(!is.null(currentTab)){
+      updateTabItems(session, 'sidebarID', selected = currentTab)
+    }
+  })
+  
+  #observeEvent(input$rb, {
     #withProgress(message = 'Loading...',
     #             detail = 'This may take a while...', value = 0, {
     #  for (i in 1:15) {
@@ -1126,33 +575,24 @@ server <- shinyServer(function(input, output, session) {
     #    Sys.sleep(0.25)
     #  }
     #})
-    updateTabItems(session, 'sidebarID', selected = input$rb)
-  })
+  #  updateTabItems(session, 'sidebarID', selected = input$rb)
+  #  })
   
-  output$radio_home <- renderUI({
-    #includeCSS('www/DynRadioB.css')
-    includeHTML('www/DynRadioB.html')
-  })
-  
-  output$ryo_en <- renderUI({
-    #includeCSS('www/CSSBackgrounds.css')
-    includeHTML('www/ryo-en.html')
-  })
-  
-  output$ryo_cn <- renderUI({
-    #includeCSS('www/CSSBackgrounds.css')
-    includeHTML('www/ryo-cn.html')
-  })
-  
-  output$ryo_tw <- renderUI({
-    #includeCSS('www/CSSBackgrounds.css')
-    includeHTML('www/ryo-tw.html')
-  })
-  
-  output$ryo_jp <- renderUI({
-    #includeCSS('www/CSSBackgrounds.css')
-    includeHTML('www/ryo-jp.html')
-  })
+  #output$ryo_en <- renderUI({
+  #  includeHTML('www/ryo-en.html')
+  #  })
+  #
+  #output$ryo_cn <- renderUI({
+  #  includeHTML('www/ryo-cn.html')
+  #  })
+  #
+  #output$ryo_tw <- renderUI({
+  #  includeHTML('www/ryo-tw.html')
+  #  })
+  #
+  #output$ryo_jp <- renderUI({
+  #  includeHTML('www/ryo-jp.html')
+  #  })
   
   output$ryo_kr <- renderUI({
     
@@ -1193,7 +633,7 @@ server <- shinyServer(function(input, output, session) {
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-kr.html')
-  })
+    })
   
   output$ryo_gr <- renderUI({
     validate(
@@ -1201,7 +641,7 @@ server <- shinyServer(function(input, output, session) {
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-gr.html')
-  })
+    })
   
   output$ryo_de <- renderUI({
     validate(
@@ -1209,7 +649,7 @@ server <- shinyServer(function(input, output, session) {
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-de.html')
-  })
+    })
   
   output$ryo_fr <- renderUI({
     validate(
@@ -1217,7 +657,7 @@ server <- shinyServer(function(input, output, session) {
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-fr.html')
-  })
+    })
   
   output$ryo_it <- renderUI({
     validate(
@@ -1225,16 +665,15 @@ server <- shinyServer(function(input, output, session) {
       errorClass = 'Missing-Data-Class'
     )
     includeHTML('www/ryo-it.html')
-  })
+    })
   
   observeEvent(input$sidebarID, {
     updatePrettyRadioButtons(session, 'rb', selected = input$sidebarID)
   })
   
-  output$ryo_eng <- renderUI({
-    includeCSS('www/CSSBackgrounds.css')
-    includeHTML('www/ryo-eng.html')
-  })
+  #output$ryo_eng <- renderUI({
+  #  includeHTML('www/ryo-eng.html')
+  #  })
   
   output$scibrokes <- renderUI({
     tags$iframe(src = 'https://www.scibrokes.com', height = 800, width = '100%', frameborder = 0)
