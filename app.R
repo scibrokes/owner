@@ -8,10 +8,11 @@ lib('shiny')
 conflict_prefer('runExample', 'shiny')
 if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
+## https://yang-tang.github.io/shinyjqui/articles/introduction.html
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
   'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'shinyMobile', 
-  'shinymanager', 'miniUI', 'sass')
+  'shinymanager', 'shinyjqui', 'miniUI', 'sass')
 lib(pkgs)
 #lib(pkgs[1:4])
 
@@ -870,7 +871,9 @@ label:after {
             #includeCSS('www/DynRadioB.css')
             #htmlOutput('radio_home')
           f7Page(
-          HTML('
+            #jqui_sortable(
+            #jqui_resizable(
+            HTML('
             <div class="container" align="center">
               <input type="radio" class="radio" id="radio-1" name="group"/>
                 <label for="radio-1"><br>🇬🇧<br>English</label>
@@ -891,7 +894,8 @@ label:after {
               <input type="radio" class="radio" id="radio-9" name="group"/>
                 <label for="radio-9"><br>🇮🇹<br>Italiano</label>
             </div>
-            '))
+            ')#))
+          )
           ), 
         tabItem(tabName = 'en', h2('🇬🇧 ENGLISH', align = 'center'), 
           ## https://stackoverflow.com/a/9158079/3806250
@@ -994,13 +998,17 @@ label:after {
           br(), 
           p('此履历表使用闪霓应用编程，参考了以下文献：', 
             HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
-            'is the best fit model. You are feel free to browse over ', 
+            'is the best fit model. You are feel free to browse over '), 
+            jqui_sortable(
             tags$ul(
               tags$li(HTML("<a href='https://github.com/scibrokes/owner/issues/2'>Error: embed sidebar & css background inside html file doesn't work (shiny) #2</a>")), 
               tags$li(HTML("<a href='https://unleash-shiny.rinterface.com/beautify-sass.html'>Outstanding User Interfaces with Shiny</a>")), 
               tags$li(HTML("<a href='https://community.rstudio.com/t/how-to-use-sass-css-scss-in-r-shiny/97471'>How to use Sass CSS (SCSS) in R-Shiny</a>")), 
               tags$li(HTML("<a href='https://github.com/moldach/scss-shiny'>GitHub: scss-shiny</a>")), 
+              tags$li(HTML("<a href='https://shiny.rstudio.com/articles/css.html'>Using custom CSS in your app</a>")), 
               tags$li(HTML("<a href='https://mastering-shiny.org'>Mastering Shiny</a>")), 
+              tags$li(HTML("<a href='https://github.com/grabear/awesome-rshiny'>GitHub: awesome-rshiny</a>")), 
+              tags$li(HTML("<a href='https://ducthanhnguyen.github.io/MaterialAdminLTE/index3.html'>MaterialAdminLTE (Shiny Application)</a>")), 
               tags$li(HTML("<a href='https://www.justinmind.com/blog/radio-button-design-examples'>Radio button design: easy selection and decision-making</a>")), 
               tags$li(HTML("<a href='https://codepen.io/visualcookie/details/xeBqBm'>Recreation: Card theme switcher</a>")), 
               tags$li(HTML("<a href='https://codepen.io/duggi/pen/gPjrKM'>3D Radar Chart</a>")), 
@@ -1011,8 +1019,9 @@ label:after {
               tags$li(HTML("<a href='https://codepen.io/victorfreire/pen/XXzqEr'>Google Dots Radio Buttons</a>")), 
               tags$li(HTML("<a href='https://shiny.rstudio.com/articles/css.html'>Using custom CSS in your app</a>")), 
               tags$li(HTML("<a href='https://shiny.rstudio.com/articles/packaging-javascript.html'>Packaging JavaScript code for Shiny</a>")), 
-              tags$li(HTML("<a href='https://blog.hubspot.com/website/css-animation-examples'>24 Creative and Unique CSS Animation Examples to Inspire Your Own</a>"))), 
-            'for the research study which compare the accuracy and the return of investment of various statistical models. '), 
+              tags$li(HTML("<a href='https://blog.hubspot.com/website/css-animation-examples'>24 Creative and Unique CSS Animation Examples to Inspire Your Own</a>"))
+              )), 
+            p('for the research study which compare the accuracy and the return of investment of various statistical models. '), 
           br(), 
           p('以下着手科研高频量化交易：', 
             HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
@@ -1040,7 +1049,7 @@ label:after {
             'Therefore there has no any guarantee of profit and also accuracy of price dataset.')
           )
         )
-    ), 
+      ), 
     
     footer = dashboardFooter(
       left = p(
