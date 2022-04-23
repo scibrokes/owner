@@ -1012,6 +1012,7 @@ label:after {
               tags$li(HTML("<a href='https://www.justinmind.com/blog/radio-button-design-examples'>Radio button design: easy selection and decision-making</a>")), 
               tags$li(HTML("<a href='https://codepen.io/visualcookie/details/xeBqBm'>Recreation: Card theme switcher</a>")), 
               tags$li(HTML("<a href='https://codepen.io/duggi/pen/gPjrKM'>3D Radar Chart</a>")), 
+              tags$li(HTML("<a href='https://zhuanlan.zhihu.com/p/367993897'>shiny扩展配件</a>")),
               tags$li(HTML("<a href='https://cran.r-project.org/web/packages/shinyMobile/vignettes/Tabs-Layout.html'>Mini UI - Tabs-Layout</a>")), 
               tags$li(HTML("<a href='https://www.sliderrevolution.com/resources/styling-radio-buttons'>Styling Radio Buttons with CSS (59 Custom Examples)</a>")), 
               tags$li(HTML("<a href='https://codepen.io/sodapop/pen/GpgEeE'>Custom CSS3 Radio Button - Radiosplosion</a>")), 
