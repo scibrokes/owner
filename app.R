@@ -10,7 +10,7 @@ if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
 ## https://yang-tang.github.io/shinyjqui/articles/introduction.html
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
-  'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
+  'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 'bs4Dash', 
   'htmltools', 'shiny.i18n', 'shi18ny', 'shinyvalidate', 'shinyFeedback', 'shinyMobile', 
   'shinymanager', 'shinyjqui', 'miniUI', 'sass')
 lib(pkgs)
@@ -326,248 +326,259 @@ ui <- shinyUI(
             
             
             @keyframes fade {
-  0%, 50% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-@keyframes dot-anim {
-  0% {
-    top: -4vw;
-  }
-  50% {
-    top: 4vw;
-  }
-  100% {
-    top: -4vw;
-  }
-}
-@keyframes checked-radio-3 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-3 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-4 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes checked-radio-5 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-5 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-6 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-6 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-7 {
-  0% {
-    top: -10vw;
-    transform: scale(0);
-  }
-  100% {
-    top: 0;
-    transform: scale(1);
-  }
-}
-@keyframes unchecked-radio-7 {
-  0% {
-    bottom: 0;
-    transform: scale(1);
-  }
-  100% {
-    bottom: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-8 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-8 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-@keyframes checked-radio-9 {
-  0% {
-    transform: rotate(0) translateY(-4.8vw) scale(.2);
-  }
-  83% {
-    transform: rotate(360deg) translateY(-2.5vw) scale(1);
-    transform-origin: 2vw;
-  }
-  88% {
-    transform: translateY(.6vw) scale(1);
-  }
-  93% {
-    transform: translateY(-.9vw) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-}
-@keyframes unchecked-radio-9 {
-  25% {
-    top: -6.5vw;
-  }
-  50% {
-    top: 9vw;
-  }
-  75% {
-    top: -10vw;
-  }
-  100% {
-    top: -10vw;
-    transform: scale(0);
-  }
-}
-
-*, *:before, *:after {
-  margin: auto;
-  padding: 0;
-  outline: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-html, body {
-  /* background: white; */
-  background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
-  transition: all 0.25s;
-  /* background-image: url("file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg"); */
-}
-main, .container, label, label:before, label:after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-main {
-  width: 95vw;
-  height: 50vw;
-}
-.container {
-  width: 100%;
-  height: 100%;
-  animation: fade 1s;
-}
-label {
-  display: inline-block;
-  width: 10vw;
-  height: 10vw;
-  border-radius: 50%;
-  transition: all .2s ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 1.6s;
-  animation-name: dot-anim;
-}
+              0%, 50% {
+                opacity: 0;
+                transform: scale(0);
+              }
+            }
+            @keyframes dot-anim {
+              0% {
+                top: -4vw;
+              }
+              50% {
+                top: 4vw;
+              }
+              100% {
+                top: -4vw;
+              }
+            }
+            @keyframes checked-radio-3 {
+              0% {
+                top: -10vw;
+                transform: scale(0);
+              }
+              100% {
+                top: 0;
+                transform: scale(1);
+              }
+            }
+            @keyframes unchecked-radio-3 {
+              0% {
+                bottom: 0;
+                transform: scale(1);
+              }
+              100% {
+                bottom: -10vw;
+                transform: scale(0);
+              }
+            }
+            @keyframes checked-radio-4 {
+              0% {
+                transform: rotate(0) translateY(-4.8vw) scale(.2);
+              }
+              83% {
+                transform: rotate(360deg) translateY(-2.5vw) scale(1);
+                transform-origin: 2vw;
+              }
+              88% {
+                transform: translateY(.6vw) scale(1);
+              }
+              93% {
+                transform: translateY(-.9vw) scale(1);
+              }
+              100% {
+                transform: translateY(0) scale(1);
+              }
+            }
+            @keyframes checked-radio-5 {
+              0% {
+                top: -10vw;
+                transform: scale(0);
+              }
+              100% {
+                top: 0;
+                transform: scale(1);
+              }
+            }
+            @keyframes unchecked-radio-5 {
+              0% {
+                bottom: 0;
+                transform: scale(1);
+              }
+              100% {
+                bottom: -10vw;
+                transform: scale(0);
+              }
+            }
+            @keyframes checked-radio-6 {
+              0% {
+                transform: rotate(0) translateY(-4.8vw) scale(.2);
+              }
+              83% {
+                transform: rotate(360deg) translateY(-2.5vw) scale(1);
+                transform-origin: 2vw;
+              }
+              88% {
+                transform: translateY(.6vw) scale(1);
+              }
+              93% {
+                transform: translateY(-.9vw) scale(1);
+              }
+              100% {
+                transform: translateY(0) scale(1);
+              }
+            }
+            @keyframes unchecked-radio-6 {
+              25% {
+                top: -6.5vw;
+              }
+              50% {
+                top: 9vw;
+              }
+              75% {
+                top: -10vw;
+              }
+              100% {
+                top: -10vw;
+                transform: scale(0);
+              }
+            }
+            @keyframes checked-radio-7 {
+              0% {
+                top: -10vw;
+                transform: scale(0);
+              }
+              100% {
+                top: 0;
+                transform: scale(1);
+              }
+            }
+            @keyframes unchecked-radio-7 {
+              0% {
+                bottom: 0;
+                transform: scale(1);
+              }
+              100% {
+                bottom: -10vw;
+                transform: scale(0);
+              }
+            }
+            @keyframes checked-radio-8 {
+              0% {
+                transform: rotate(0) translateY(-4.8vw) scale(.2);
+              }
+              83% {
+                transform: rotate(360deg) translateY(-2.5vw) scale(1);
+                transform-origin: 2vw;
+              }
+              88% {
+                transform: translateY(.6vw) scale(1);
+              }
+              93% {
+                transform: translateY(-.9vw) scale(1);
+              }
+              100% {
+                transform: translateY(0) scale(1);
+              }
+            }
+            @keyframes unchecked-radio-8 {
+              25% {
+                top: -6.5vw;
+              }
+              50% {
+                top: 9vw;
+              }
+              75% {
+                top: -10vw;
+              }
+              100% {
+                top: -10vw;
+                transform: scale(0);
+              }
+            }
+            @keyframes checked-radio-9 {
+              0% {
+                transform: rotate(0) translateY(-4.8vw) scale(.2);
+              }
+              83% {
+                transform: rotate(360deg) translateY(-2.5vw) scale(1);
+                transform-origin: 2vw;
+              }
+              88% {
+                transform: translateY(.6vw) scale(1);
+              }
+              93% {
+                transform: translateY(-.9vw) scale(1);
+              }
+              100% {
+                transform: translateY(0) scale(1);
+              }
+            }
+            @keyframes unchecked-radio-9 {
+              25% {
+                top: -6.5vw;
+              }
+              50% {
+                top: 9vw;
+              }
+              75% {
+                top: -10vw;
+              }
+              100% {
+                top: -10vw;
+                transform: scale(0);
+              }
+            }
+            
+            *, *:before, *:after {
+              margin: auto;
+              padding: 0;
+              outline: 0;
+              overflow: hidden;
+              box-sizing: border-box;
+            }
+            html, body {
+              /* background: white; */
+              background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
+              transition: all 0.25s;
+              /* background-image: url("file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg"); */
+            }
+            /* main, .container, label, label:before, label:after { */
+            .container, label, label:before, label:after {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              /* max-width: 100px; */
+              /* max-height: 100px; */
+              margin: auto;
+            }
+            /* main {
+              max-width: 50vw; /* 95vw; */
+              max-height: 50vh; /* 50vw; */
+            } */
+            .container {
+              max-width: 100%;
+              max-height: 100%;
+              margin: auto;
+              animation: fade 1s;
+            }
+            label {
+              display: inline-block;
+              max-width: 10vw;
+              max-height: 10vh; /* 10vw; */
+              /* width: 10vw; */
+              /* height: 10vw; */
+              margin: auto;
+              border-radius: 50%;
+              transition: all .2s ease-in-out;
+              animation-timing-function: ease-in-out;
+              animation-iteration-count: infinite;
+              animation-duration: 1.6s;
+              animation-name: dot-anim;
+            }
 .radio:checked + label {
   animation-play-state: paused;
 }
 label:before {
   content: "";
   position: absolute;
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw; */
+  /* width: 5vw; */
+  /* height: 5vw; */
+  margin: auto;
   background: white;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
@@ -579,8 +590,11 @@ label:hover:before {
 label:after {
   content: "";
   position: absolute;
-  width: 10vw;
-  height: 10vw;
+  max-width: 10vw;
+  max-height: 10vh; /* 10vw; */
+  /* width: 10vw; */
+  /* height: 10vw; */
+  margin: auto;
   background: rgba(255, 255, 255, .5);
   border-radius: 50%;
   transform: scale(0);
@@ -592,8 +606,11 @@ label:after {
 }
 /**** BLUE RED Radio button code ****/
 #radio-1 + label {
+  top: 0;
+  bottom: 80vh; /* 80vw */
   left: -80vw;
-  bottom: 80vw;
+  right: 0;
+  /* margin: auto; */
   /* background: #4285F4; */
   color: #FF0000;
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -616,8 +633,11 @@ label:after {
 }
 /**** RED YELLOW radio button code ****/
 #radio-2 + label {
+  top: 0;
+  bottom: 60vh; /* 60vw */
   left: -60vw;
-  bottom: 60vw;
+  right: 0;
+  /* margin: auto; */
   /* background: #EA4335; */
   background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
   transition: all 0.45s;
@@ -631,8 +651,9 @@ label:after {
   transition: all .2s;
 }
 #radio-2:checked + label:before {
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw; */
+  margin: auto;
   content: "🇨🇳 \\A 简";
   white-space: pre; /* or pre-wrap */
   color: #FFBE00;
@@ -643,8 +664,9 @@ label:after {
 }
 /* for IE */
 #radio-2:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
+  max-width: 8vw;
+  max-height: 8vh; /* 8vw */
+  margin: auto;
   /* https://stackoverflow.com/a/17047836/3806250 */
   content: "🇨🇳 \\A 简体中文";
   white-space: pre; /* or pre-wrap */
@@ -656,8 +678,11 @@ label:after {
 }
 /**** RED BLUE radio button code ****/
 #radio-3 + label {
+  top: 0;
+  bottom: 40vh; /* 40vw */
   left: -40vw;
-  bottom: 40vw;
+  right: 0;
+  /* margin: auto; */
   color: #E0DFED;
   /* background: #FBBC05; */
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -684,8 +709,11 @@ label:after {
 }
 /**** RED WHITE radio button code ****/
 #radio-4 + label {
+  top: 0;
+  bottom: 20vh; /* 20vw */
   left: -20vw;
-  bottom: 20vw;
+  right: 0;
+  /* margin: auto; */
   /* background: #EA4335; */
   background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
   transition: all 0.45s;
@@ -699,8 +727,9 @@ label:after {
   transition: all .2s;
 }
 #radio-4:checked + label:before {
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw */
+  margin: auto;
   content: "🇯🇵 \\A 日";
   white-space: pre; /* or pre-wrap */
   color: #E0DFED;
@@ -711,8 +740,9 @@ label:after {
 }
 /* for IE */
 #radio-4:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
+  max-width: 8vw;
+  max-height: 8vh; /* 8vw; */
+  margin: auto;
   /* https://stackoverflow.com/a/17047836/3806250 */
   content: "🇯🇵 \\A 日本語";
   white-space: pre; /* or pre-wrap */
@@ -724,8 +754,11 @@ label:after {
 }
 /**** LIGHT BLUE BLACK Radio button code ****/
 #radio-5 + label {
-  left: 0vw;
-  bottom: 0vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* margin: auto; */
   content: "🇰🇷 \\A 한국어 \\A 🇰🇷";
   white-space: pre; /* or pre-wrap */
   /* bottom: -6vw; */
@@ -747,8 +780,11 @@ label:after {
 }
 /**** LIGHT BLUE WHITE radio button code ****/
 #radio-6 + label {
+  top: 0;
+  bottom: -20vh; /* -20vw */
   left: 20vw;
-  bottom: -20vw;
+  right: 0;
+  /* margin: auto; */
   /* background: #FBBC05; */
   color: #E0DFED;
   background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
@@ -775,8 +811,11 @@ label:after {
 }
 /**** BLACK YELLOW radio button code ****/
 #radio-7 + label {
+  top: 0;
+  bottom: -40vh; /* -40vw */
   left: 40vw;
-  bottom: -40vw;
+  right: 0;
+  /* margin: auto; */
   content: "🇩🇪 \\A Deutsch \\A 🇩🇪";
   white-space: pre; /* or pre-wrap */
   /* background: #000000; */
@@ -802,8 +841,11 @@ label:after {
 }
 /**** BLUE WHITE Radio button code ****/
 #radio-8 + label {
+  top: 0;
+  bottom: -60vh; /* -60vw */
   left: 60vw;
-  bottom: -60vw;
+  right: 0;
+  /* margin: auto; */
   color: #E0DFED;
   /* background: #4285F4; */
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -824,8 +866,11 @@ label:after {
 }
 /**** GREEN WHITE radio button code ****/
 #radio-9 + label {
+  top: 0;
+  bottom: -80vh; /* -80vw */
   left: 80vw;
-  bottom: -80vw;
+  right: 0;
+  /* margin: auto; */
   color: #E0DFED;
   /* background: #34A853; */
   background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
@@ -848,9 +893,9 @@ label:after {
   animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
   animation-fill-mode: both;
 }
-[type="radio"] {
-    display: none;
-}
+            [type="radio"] {
+              display: none;
+            }
             '))), 
       
       tabItems(
@@ -870,11 +915,13 @@ label:after {
             #includeHTML('www/DynRadioB.html'), 
             #includeCSS('www/DynRadioB.css')
             #htmlOutput('radio_home')
-          f7Page(
+          #f7Page(
             #jqui_sortable(
             #jqui_resizable(
+          div(class='container', align='center', 
+            #HTML('
+            #<div class="container" align="center">
             HTML('
-            <div class="container" align="center">
               <input type="radio" class="radio" id="radio-1" name="group"/>
                 <label for="radio-1"><br>🇬🇧<br>English</label>
               <input type="radio" class="radio" id="radio-2" name="group"/>
@@ -996,9 +1043,7 @@ label:after {
           ), 
         tabItem(tabName = 'refr', h2('参考文献', align = 'center'), 
           br(), 
-          p('此履历表使用闪霓应用编程，参考了以下文献：', 
-            HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
-            'is the best fit model. You are feel free to browse over '), 
+          p('此履历表使用闪霓应用编程，可参考以下文献：', 
             jqui_sortable(
             tags$ul(
               tags$li(HTML("<a href='https://github.com/scibrokes/owner/issues/2'>Error: embed sidebar & css background inside html file doesn't work (shiny) #2</a>")), 
@@ -1012,7 +1057,7 @@ label:after {
               tags$li(HTML("<a href='https://www.justinmind.com/blog/radio-button-design-examples'>Radio button design: easy selection and decision-making</a>")), 
               tags$li(HTML("<a href='https://codepen.io/visualcookie/details/xeBqBm'>Recreation: Card theme switcher</a>")), 
               tags$li(HTML("<a href='https://codepen.io/duggi/pen/gPjrKM'>3D Radar Chart</a>")), 
-              tags$li(HTML("<a href='https://zhuanlan.zhihu.com/p/367993897'>shiny扩展配件</a>")),
+              tags$li(HTML("<a href='https://zhuanlan.zhihu.com/p/367993897'>shiny扩展包</a>")),
               tags$li(HTML("<a href='https://cran.r-project.org/web/packages/shinyMobile/vignettes/Tabs-Layout.html'>Mini UI - Tabs-Layout</a>")), 
               tags$li(HTML("<a href='https://www.sliderrevolution.com/resources/styling-radio-buttons'>Styling Radio Buttons with CSS (59 Custom Examples)</a>")), 
               tags$li(HTML("<a href='https://codepen.io/sodapop/pen/GpgEeE'>Custom CSS3 Radio Button - Radiosplosion</a>")), 
@@ -1021,8 +1066,7 @@ label:after {
               tags$li(HTML("<a href='https://shiny.rstudio.com/articles/css.html'>Using custom CSS in your app</a>")), 
               tags$li(HTML("<a href='https://shiny.rstudio.com/articles/packaging-javascript.html'>Packaging JavaScript code for Shiny</a>")), 
               tags$li(HTML("<a href='https://blog.hubspot.com/website/css-animation-examples'>24 Creative and Unique CSS Animation Examples to Inspire Your Own</a>"))
-              )), 
-            p('for the research study which compare the accuracy and the return of investment of various statistical models. '), 
+              ))), 
           br(), 
           p('以下着手科研高频量化交易：', 
             HTML("<a href='https://vlab.stern.nyu.edu/doc/3?topic=mdls'>GJR-GARCH Model</a>"), 
@@ -1198,6 +1242,11 @@ server <- shinyServer(function(input, output, session) {
     ## https://mastering-shiny.org/action-feedback.html
     #shinyFeedback::feedbackWarning(kr, FALSE, HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
     
+    #if (!file.exists('www/ryo-kr.html')) {
+    #  return(tags$div(class = 'Missing-Data-Class',
+    #    HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
+    #  )
+    #}
     validate(
       need(is.error(file.exists('www/ryo-kr.html')), '건설중 !'), 
       errorClass = 'Missing-Data-Class'
@@ -1237,12 +1286,12 @@ server <- shinyServer(function(input, output, session) {
     includeHTML('www/ryo-it.html')
   })
   
-  observeEvent(input$sidebarID, {
-    updatePrettyRadioButtons(session, 'rb', selected = input$sidebarID)
-  })
+  #observeEvent(input$sidebarID, {
+  #  updatePrettyRadioButtons(session, 'rb', selected = input$sidebarID)
+  #})
   
   output$ryo_eng <- renderUI({
-    includeCSS('www/CSSBackgrounds.css')
+    #includeCSS('www/CSSBackgrounds.css')
     includeHTML('www/ryo-eng.html')
   })
   

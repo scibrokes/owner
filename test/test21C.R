@@ -1,32 +1,34 @@
 ## https://github.com/moldach/scss-shiny
 ## https://shiny.rstudio.com/articles/packaging-javascript.html
 ## https://codepen.io/victorfreire/pen/XXzqEr
+## https://stackoverflow.com/questions/66128302/can-you-define-a-maximum-width-height-to-css-transform-scale
 
 require('BBmisc')
 lib('shiny')
 lib('shinyMobile')
 lib('shinyWidgets')
+lib('shinyjqui')
 lib('sass')
 
 ui <- shinyMobile::f7Page(
   tags$head(tags$style(HTML('
     @keyframes fade {
-  0%, 50% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-@keyframes dot-anim {
-  0% {
-    top: -4vw;
-  }
-  50% {
-    top: 4vw;
-  }
-  100% {
-    top: -4vw;
-  }
-}
+      0%, 50% {
+        opacity: 0;
+        transform: scale(0);
+      }
+    }
+    @keyframes dot-anim {
+      0% {
+        top: -4vw;
+      }
+      50% {
+        top: 4vw;
+      }
+      100% {
+        top: -4vw;
+      }
+    }
 @keyframes checked-radio-3 {
   0% {
     top: -10vw;
@@ -218,26 +220,34 @@ html, body {
   transition: all 0.25s;
   /* background-image: url("file:///home/englianhu/Documents/GitHub/owner/test/www/maths.jpg"); */
 }
-main, .container, label, label:before, label:after {
+/* main, .container, label, label:before, label:after { */
+.container, label, label:before, label:after {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  /* max-width: 100px; */
+  /* max-height: 100px; */
+  margin: auto;
 }
-main {
-  width: 95vw;
-  height: 50vw;
-}
+/* main {
+  width: 50vw; /* 95vw; */
+  height: 50vh; /* 50vw; */
+} */
 .container {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
   animation: fade 1s;
 }
 label {
   display: inline-block;
-  width: 10vw;
-  height: 10vw;
+  max-width: 10vw;
+  max-height: 10vh; /* 10vw; */
+  /* width: 10vw; */
+  /* height: 10vw; */
+  margin: auto;
   border-radius: 50%;
   transition: all .2s ease-in-out;
   animation-timing-function: ease-in-out;
@@ -251,8 +261,11 @@ label {
 label:before {
   content: "";
   position: absolute;
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw; */
+  /* width: 5vw; */
+  /* height: 5vw; */
+  margin: auto;
   background: white;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.117647) 0 0 .8vw 0, rgba(0, 0, 0, 0.239216) 0 .8vw .8vw 0;
@@ -264,8 +277,11 @@ label:hover:before {
 label:after {
   content: "";
   position: absolute;
-  width: 10vw;
-  height: 10vw;
+  max-width: 10vw;
+  max-height: 10vh; /* 10vw; */
+  /* width: 10vw; */
+  /* height: 10vw; */
+  margin: auto;
   background: rgba(255, 255, 255, .5);
   border-radius: 50%;
   transform: scale(0);
@@ -277,8 +293,11 @@ label:after {
 }
 /**** BLUE RED Radio button code ****/
 #radio-1 + label {
+  top: 0;
+  bottom: 80vh; /* 80vw */
   left: -80vw;
-  bottom: 80vw;
+  right: 0;
+  margin: auto;
   /* background: #4285F4; */
   color: #FF0000;
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -301,8 +320,11 @@ label:after {
 }
 /**** RED YELLOW radio button code ****/
 #radio-2 + label {
+  top: 0;
+  bottom: 60vh; /* 60vw */
   left: -60vw;
-  bottom: 60vw;
+  right: 0;
+  margin: auto;
   /* background: #EA4335; */
   background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
   transition: all 0.45s;
@@ -316,8 +338,9 @@ label:after {
   transition: all .2s;
 }
 #radio-2:checked + label:before {
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw */
+  margin: auto;
   content: "🇨🇳 \\A 简";
   white-space: pre; /* or pre-wrap */
   color: #FFBE00;
@@ -328,8 +351,9 @@ label:after {
 }
 /* for IE */
 #radio-2:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
+  max-width: 8vw;
+  max-height: 8vh; /* 8vw */
+  margin: auto;
   /* https://stackoverflow.com/a/17047836/3806250 */
   content: "🇨🇳 \\A 简体中文";
   white-space: pre; /* or pre-wrap */
@@ -341,8 +365,11 @@ label:after {
 }
 /**** RED BLUE radio button code ****/
 #radio-3 + label {
+  top: 0;
+  bottom: 40vh; /* 40vw */
   left: -40vw;
-  bottom: 40vw;
+  right: 0;
+  margin: auto;
   color: #E0DFED;
   /* background: #FBBC05; */
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -369,8 +396,11 @@ label:after {
 }
 /**** RED WHITE radio button code ****/
 #radio-4 + label {
+  top: 0;
+  bottom: 20vh; /* 20vw */
   left: -20vw;
-  bottom: 20vw;
+  right: 0;
+  margin: auto;
   /* background: #EA4335; */
   background: linear-gradient(155DEG, #FF0000 0%, #FF8787 100%);
   transition: all 0.45s;
@@ -384,8 +414,8 @@ label:after {
   transition: all .2s;
 }
 #radio-4:checked + label:before {
-  width: 5vw;
-  height: 5vw;
+  max-width: 5vw;
+  max-height: 5vh; /* 5vw */
   content: "🇯🇵 \\A 日";
   white-space: pre; /* or pre-wrap */
   color: #E0DFED;
@@ -396,8 +426,8 @@ label:after {
 }
 /* for IE */
 #radio-4:not(:checked) + label:before {
-  width: 8vw;
-  height: 8vw;
+  max-width: 8vw;
+  max-height: 8vh; /* 8vw */
   /* https://stackoverflow.com/a/17047836/3806250 */
   content: "🇯🇵 \\A 日本語";
   white-space: pre; /* or pre-wrap */
@@ -409,8 +439,11 @@ label:after {
 }
 /**** LIGHT BLUE BLACK Radio button code ****/
 #radio-5 + label {
-  left: 0vw;
-  bottom: 0vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   content: "🇰🇷 \\A 한국어 \\A 🇰🇷";
   white-space: pre; /* or pre-wrap */
   /* bottom: -6vw; */
@@ -432,8 +465,11 @@ label:after {
 }
 /**** LIGHT BLUE WHITE radio button code ****/
 #radio-6 + label {
+  top: 0;
+  bottom: -20vh; /* -20vw */
   left: 20vw;
-  bottom: -20vw;
+  right: 0;
+  margin: auto;
   /* background: #FBBC05; */
   color: #E0DFED;
   background: linear-gradient(155DEG, #4285F4 0%, #E4E3E8 100%);
@@ -460,8 +496,11 @@ label:after {
 }
 /**** BLACK YELLOW radio button code ****/
 #radio-7 + label {
+  top: 0;
+  bottom: -40vh; /* -40vw */
   left: 40vw;
-  bottom: -40vw;
+  right: 0;
+  margin: auto;
   content: "🇩🇪 \\A Deutsch \\A 🇩🇪";
   white-space: pre; /* or pre-wrap */
   /* background: #000000; */
@@ -487,8 +526,11 @@ label:after {
 }
 /**** BLUE WHITE Radio button code ****/
 #radio-8 + label {
+  top: 0;
+  bottom: -60vh; /* -60vw */
   left: 60vw;
-  bottom: -60vw;
+  right: 0;
+  margin: auto;
   color: #E0DFED;
   /* background: #4285F4; */
   background: linear-gradient(155DEG, #200769 0%, #69B4F5 100%);
@@ -509,8 +551,11 @@ label:after {
 }
 /**** GREEN WHITE radio button code ****/
 #radio-9 + label {
+  top: 0;
+  bottom: -80vh; /* -80vw */
   left: 80vw;
-  bottom: -80vw;
+  right: 0;
+  margin: auto;
   color: #E0DFED;
   /* background: #34A853; */
   background: linear-gradient(155DEG, #146275 0%, #33A8C4 100%);
@@ -537,28 +582,30 @@ label:after {
     display: none;
 }
   '))), 
-  HTML('
-    <div class="container" align="center">
-  <input type="radio" class="radio" id="radio-1" name="group"/>
-    <label for="radio-1"><br>🇬🇧<br>English</label>
-  <input type="radio" class="radio" id="radio-2" name="group"/>
-    <label for="radio-2"></label>
-  <input type="radio" class="radio" id="radio-3" name="group"/>
-    <label for="radio-3"><br>🇹🇼<br>繁体中文</label>
-  <input type="radio" class="radio" id="radio-4" name="group"/>
-    <label for="radio-4"></label>
-  <input type="radio" class="radio" id="radio-5" name="group"/>
-    <label for="radio-5"><br>🇰🇷<br>한국어</label>
-  <input type="radio" class="radio" id="radio-6" name="group"/>
-    <label for="radio-6"><br>🇬🇷<br>Ελληνικά</label>
-  <input type="radio" class="radio" id="radio-7" name="group"/>
-    <label for="radio-7"><br>🇩🇪<br>Deutsch</label>
-  <input type="radio" class="radio" id="radio-8" name="group"/>
-    <label for="radio-8"><br>🇫🇷<br>Français</label>
-  <input type="radio" class="radio" id="radio-9" name="group"/>
-    <label for="radio-9"><br>🇮🇹<br>Italiano</label>
-</div>
-    ')
+    div(class='container', align='center', 
+      #jqui_resizable(
+      HTML('
+          <input type="radio" class="radio" id="radio-1" name="group"/>
+             <label for="radio-1"><br>🇬🇧<br>English</label>
+          <input type="radio" class="radio" id="radio-2" name="group"/>
+             <label for="radio-2"></label>
+          <input type="radio" class="radio" id="radio-3" name="group"/>
+             <label for="radio-3"><br>🇹🇼<br>繁体中文</label>
+          <input type="radio" class="radio" id="radio-4" name="group"/>
+             <label for="radio-4"></label>
+          <input type="radio" class="radio" id="radio-5" name="group"/>
+             <label for="radio-5"><br>🇰🇷<br>한국어</label>
+          <input type="radio" class="radio" id="radio-6" name="group"/>
+             <label for="radio-6"><br>🇬🇷<br>Ελληνικά</label>
+          <input type="radio" class="radio" id="radio-7" name="group"/>
+             <label for="radio-7"><br>🇩🇪<br>Deutsch</label>
+          <input type="radio" class="radio" id="radio-8" name="group"/>
+             <label for="radio-8"><br>🇫🇷<br>Français</label>
+          <input type="radio" class="radio" id="radio-9" name="group"/>
+             <label for="radio-9"><br>🇮🇹<br>Italiano</label>
+        ')
+    #)
+    )
   #includeHTML("www/test21B.html")#, 
   #includeCSS("www/test21B.css")#, 
   #includeScript('www/test21B.scss')
@@ -571,6 +618,8 @@ label:after {
   )
 
 server <- function(input, output) {
+  
 }
 
+#runApp('test/test21C.R', display.mode = 'showcase')
 shinyApp(ui = ui, server = server)
