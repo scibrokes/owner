@@ -5,10 +5,10 @@ account: englianhu
 server: beta.rstudioconnect.com
 hostUrl: https://beta.rstudioconnect.com/__api__
 appId: 19049
-bundleId: 91093
+bundleId: 91273
 url: https://beta.rstudioconnect.com/content/29051511-2bdf-43a3-b3c3-ec75d0460578/
-when: 1650566850.72175
-lastSyncTime: 1650566850.72177
+when: 1650805143.55027
+lastSyncTime: 1650805143.55028
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: gauge.html|list_all_packages_and_update_packages_via_terminal.R|sudo_install_r_packages.R|test01.R|test02.R|test03.R|test04.R|test05.R|test06.R|test07.R|test08.R|test09.R|test10.R|test11.R|test12.R|test13.R|test14.R|test15.R|test16.R|test17.R|test18.R|test19.R|test20.R|test21A.R|test21B.R|test22.R|test23.R
