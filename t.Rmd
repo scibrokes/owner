@@ -131,7 +131,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'ggplot2', 'leaflet', 'maptools')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -259,6 +259,49 @@ p <- remapC(data, maptype='world',color=c('black','black'),
   markPointData=vec, markLineData=markLinedata, geoData=geodata)
 knitrREmap(p,local=F)
 ```
+
+## REmap
+
+- [ shinydashboard中如何展示REmap？DT::dataTableOutput一起用显示空白？ #29 ](https://github.com/Lchiffon/REmap/issues/29#issuecomment-1094248363)
+- [三、R语言可视化--ggplot2和REmap包绘制地图](https://blog.csdn.net/u011596455/article/details/79573898)
+- [Plotting with `{maps}` package](https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_map.html)
+
+```{r}
+require('BBmisc')
+pkgs <- c('REmap', 'maps', 'mapdata', 'mapproj', 'ggmap')
+lib(pkgs)
+mapdata = map_data('world')
+
+
+data('world.cities')
+world <- world.cities |> 
+    dplyr::filter(name %in% c('Kuala Selangor', 'Tanjong Karang', 'Klang') | pop >= 200000) |> 
+    dplyr::select(long, lat, name, pop)
+
+data <- world |>  
+  dplyr::select(name, pop)
+
+geodata <- world |> 
+    dplyr::select(long, lat, name)
+
+vec <- geodata$name
+
+
+## Design a line data.frame
+markLinedata = data.frame(origin = rep('Zhengzhou', (length(vec)-1)), destination = vec[!vec == 'Zhengzhou'])
+
+```
+
+```{r plot-map, echo=FALSE}
+## Plot the REmap shining 
+plt <- remapC(data, maptype = 'world', color = c('black', 'black'),
+       theme = get_theme(backgroundColor = 'black'),
+       markPointData = vec, markLineData = markLinedata, geoData = geodata)
+knitrREmap(plt, local = FALSE)
+```
+
+
+# 雷达图
 
 ```{js}
 
