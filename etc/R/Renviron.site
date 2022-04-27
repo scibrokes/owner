@@ -25,11 +25,11 @@
 ## # Also note that you set this per-user via '%p' and '%v' for platform and version
 #R_LIBS_USER=${R_LIBS_USER-'~/R/@R_PLATFORM@-library/@MAJ_MIN_VERSION@'}
 
-##
 ## edd May 2019
+##
 ## Debian (and its derivatives) impose a set of compiler flags to prevent some known
 ## security issues with compiled code.  These flags then become defaults for R as well
-## (see eg /etc:/R/Makeconf) but nevertheless confuse R as warnings get triggers.  Users,
+## (see eg /etc/R/Makeconf) but nevertheless confuse R as warnings get triggers.  Users,
 ## on the other hand, are often stumped about these.  So with this variable we declare
 ## these options as known for the local checks on the machine this file is on.
 ##
