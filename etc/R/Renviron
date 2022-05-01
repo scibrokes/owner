@@ -52,7 +52,7 @@ R_STRIP_STATIC_LIB=${R_STRIP_STATIC_LIB-'strip --strip-debug'}
 #R_LIBS_USER=${R_LIBS_USER-'~/Library/R//4.1/library'}
 #R_LIBS_USER=/root/R/x86_64-pc-linux-gnu-library/4.1
 R_LIBS_USER=${R_LIBS_USER-'/usr/lib/R/library'}
-LANGUAGE=en
+LANGUAGE=cn
 LC_ALL=C
 
 # edd Apr 2003  Allow local install in /usr/local, also add a directory for
@@ -72,8 +72,8 @@ R_LIBS_SITE=${R_LIBS_SITE-'/usr/lib/R/library'}
 # https_proxy = http://127.0.0.1:12333
 
 ## https://askubuntu.com/a/1160369/424049
-Zotero_Web_API = NyW5XeQXorSax85gtkuG5mBe
+#Zotero_Web_API = NyW5XeQXorSax85gtkuG5mBe
 
 ## https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
-GITHUB_PAT = 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
+#GITHUB_PAT = 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
 
