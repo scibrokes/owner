@@ -75,5 +75,5 @@ R_LIBS_SITE=${R_LIBS_SITE-'/usr/lib/R/library'}
 #Zotero_Web_API = rkTIABgjQ4Ms2yXxRS3sqEmD
 
 ## https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
-#GITHUB_PAT = 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
+#GITHUB_PAT = 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
 
