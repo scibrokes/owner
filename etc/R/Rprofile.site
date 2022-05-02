@@ -58,7 +58,8 @@ local({
   options(repos = c(CRAN = 'https://cloud.r-project.org', 
                     RSM = 'https://radiant-rstats.github.io/minicran', 
                     Omega = 'http://www.omegahat.net/R', 
-                    RForge = 'https://www.rforge.net'))
+                    RForge = 'https://www.rforge.net', 
+                    RSpatial = 'https://rspatial.r-universe.dev'))
   #install.packages("remotes")
   #remotes::install_github("radiant-rstats/radiant.update", upgrade = "never")
   #radiant.update::radiant.update()

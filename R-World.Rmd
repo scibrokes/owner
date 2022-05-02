@@ -362,6 +362,7 @@ resource_files:
 - documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - documents/Coursera California - Bayesian Statistics Mixture Models.pdf
 - music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
+runtime: shiny
 ---
 
 明治維新は、まずは西欧から「学ぶ」ことに特化したのである。
@@ -497,6 +498,12 @@ pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
+
+conflict_prefer('mutate', 'dplyr')
+conflict_prefer('rename', 'dplyr')
+conflict_prefer('filter', 'dplyr')
+conflict_prefer('select', 'dplyr')
+conflict_prefer('layout', 'plotly')
 
 ## Set the googleVis options first to change the behaviour of plot.gvis, so that 
 ##  only the chart component of the HTML file is written into the output file.
