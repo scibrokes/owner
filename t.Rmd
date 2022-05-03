@@ -115,7 +115,7 @@ knitr::opts_chunk$set(
 source('function/libs.R')
 ```
 
-```{r setup, include=FALSE}
+```{r set, include=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
 ## Loading the package 'BBmisc'
@@ -131,7 +131,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'ggplot2', 'leaflet', 'maptools')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'ggplot2', 'leaflet', 'maptools', 'data.table')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -211,8 +211,7 @@ vec = c('Tokyo','Shanghai','New York','Sydney','London','Bangkok',
 #geodata = suppressAll(as.data.frame(cbind(ggmap::geocode(vec),vec)))
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- readr::read_csv('/home/englianhu/Documents/GitHub/owner/data/worldcities.csv', 
-  show_col_types = FALSE) |> 
+geodata <- data.table::fread('data/worldcities.csv') |> 
   dplyr::filter(capital %in% c('primary', 'admin')) |> 
   dplyr::select(lng, lat, country, city) |> 
   dplyr::rename(lon = lng) |> 

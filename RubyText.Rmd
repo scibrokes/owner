@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
-author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.jpg'
+author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
@@ -19,6 +19,7 @@ output:
     code_folding: hide
     css: CSSBackgrounds.css
     fig_caption: yes
+runtime: shiny
 ---
 
 
@@ -67,7 +68,7 @@ print hello
 outputs "### #{@c}"
 ```
 
-```{ruby}
+```{ruby error=TRUE}
 # Install API
 gem install google-finance-ruby-client
 
@@ -77,18 +78,18 @@ prices = GoogleFinance::History.get('MSFT', start_date: Date.parse('2016-01-03')
 print prices
 ```
 
-```{ruby}
+```{ruby error=TRUE}
 def mean(arr)
   arr.inject(:+).to_f / arr.length
 end
 print mean((1..5).to_a)
 ```
 
-```{ruby}
+```{ruby error=TRUE}
 #rb$stop()
 ```
 
-```{r}
+```{r error=TRUE}
 x=system('ruby -e "puts 1+1"', intern=TRUE)
 x
 
@@ -96,14 +97,17 @@ x=system('perl -e "print 2 + 4"', intern=TRUE)
 x
 ```
 
-```{bash}
+```{bash error=TRUE}
 ruby -e "puts '<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>'"
 ```
 
-```{r}
-shiny::runGitHub("multilingualShinyApp","chrislad")
+```{r error=TRUE}
+shiny::runGitHub('multilingualShinyApp', 'chrislad')
 ```
 
+```{r error=TRUE}
+runUrl('https://github.com/chrislad/multilingualShinyApp')
+```
 
 # 参考文献
 
