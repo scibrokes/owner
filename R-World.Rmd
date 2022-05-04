@@ -491,7 +491,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'maptools')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -637,7 +637,7 @@ skill |>
   echarts4r::e_tooltip(trigger = 'item')
 ```
 
-```{r REmap-setting, echo=FALSE}
+```{r REmap-set1, echo=FALSE}
 ## Reinitialized the REmap setting
 remap.init()
 ```
@@ -701,6 +701,51 @@ knitrREmap(p,local=F)
 ```
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221986532&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+```{r REmap-set2, echo=FALSE}
+## Reinitialized the REmap setting
+remap.init()
+
+geodata <- maps::world.cities |> 
+  dplyr::filter(capital %in% c('primary', 'admin')) |> 
+  dplyr::select(lng, lat, country, city) |> 
+  dplyr::rename(lon = lng) |> 
+  dplyr::mutate(lon = round(lon, 3))
+
+countries <- geodata$country |> 
+  unique()
+
+## randomly set country codes
+data <- data.frame(
+  country = countries, 
+  value = 5 * sample(length(countries)) + 200)
+
+## cities
+#vec <- geodata$city
+
+## lon & lat of cities
+geodata <- geodata |> 
+  data.frame() |> 
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
+
+## Design a line data frame
+#markLinedata <- data.frame(
+#  origin = rep('Beijing', (length(vec) - 1)), 
+#  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+
+## Design a line data.frame
+markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[-1])
+
+## Plot the REmap shining 
+p <- remapC(data, maptype='world',color=c('black','black'),
+       theme=get_theme(backgroundColor='black'),
+       markPointData=vec, markLineData=markLinedata, geoData=geodata)
+knitrREmap(p,local=F)
+```
+
+
+
 
 ```{r, error = TRUE, results='asis'}
 # Library
