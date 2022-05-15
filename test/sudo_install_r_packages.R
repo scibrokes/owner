@@ -19,6 +19,12 @@ sudo su - -c "R -e \"pkgs <- c('mosaic','devtools','lubridate','knitr','markdown
 
 c('rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM')
 
+sudo su - -c "R -e \"install.packages(c('mosaic','devtools','lubridate','knitr','markdown','rmarkdown','REmap','ggmap'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+
+sudo su - -c "R -e \"install.packages(c('rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+
 ----------------------------------
 
 Title: ®γσ, ξηg Lιαη Ημ (tw)
