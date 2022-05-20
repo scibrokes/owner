@@ -491,6 +491,7 @@ knitr::opts_chunk$set(
 ## Loading the packages and setting adjustment
 source('function/libs.R')
 ```
+
 ```{r setup, include=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 
@@ -507,7 +508,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -1138,11 +1139,12 @@ suppressAll(remap.init())
 ```{r read-geodata, echo=FALSE}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- readr::read_csv('data/worldcities.csv') |> 
-  dplyr::filter(capital == 'primary') |> 
-  dplyr::select(lng, lat, country, city) |> 
-  dplyr::rename(lon = lng) |> 
-  dplyr::mutate(lon = round(lon, 3))
+geodata <- maps::world.cities |> 
+  dplyr::rename(city = name, country = country.etc, lon = long) |> 
+  dplyr::select(country, city, capital, lon, lat, pop) |> 
+  dplyr::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
+                            'Tanjong Karang', 'Klang', 'Seri Kembangan', 
+                            'Serdang', 'Equine Park') | capital != 0)
 
 countries <- geodata$country |> 
   unique()
@@ -1163,8 +1165,8 @@ geodata <- geodata |>
 
 ## Design a line data frame
 markLinedata <- data.frame(
-  origin = rep('Beijing', (length(vec) - 1)), 
-  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+  origin = rep('Zhengzhou', (length(vec) - 1)), 
+  destination = geodata$vec[!geodata$vec %in% 'Zhengzhou'])
 ```
 
 ```{r plot-REmap, echo=FALSE}

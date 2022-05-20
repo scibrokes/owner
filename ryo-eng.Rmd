@@ -399,7 +399,7 @@ pre code {
 }
 </style>
 
-```{r load-sass, class.source = 'bg-success', class.output = 'bg-primary'}
+```{r load-sass, class.source='bg-success', class.output='bg-primary'}
 # install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
@@ -424,7 +424,7 @@ lib('sass')
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
-```{scss scss-setup, class.source = 'bg-success', class.output = 'bg-primary'}
+```{scss scss-setup, class.source='bg-success', class.output='bg-primary'}
 /* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -508,7 +508,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -1056,8 +1056,8 @@ skill |>
                        color = linear_gradient1), 
                      areaStyle = list(
                        color = linear_gradient2)
-                     #scale = rscale
-                     ) |>
+                         #scale = rscale
+    ) |>
   #echarts4r::e_animation(duration = 10000) |> 
   echarts4r::e_tooltip(trigger = 'item')
 ```
@@ -1139,11 +1139,12 @@ suppressAll(remap.init())
 ```{r read-geodata, echo=FALSE}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- readr::read_csv('data/worldcities.csv', show_col_types = FALSE) |> 
-  dplyr::filter(capital %in% c('primary', 'admin')) |> 
-  dplyr::select(lng, lat, country, city) |> 
-  dplyr::rename(lon = lng) |> 
-  dplyr::mutate(lon = round(lon, 3))
+geodata <- maps::world.cities |> 
+  dplyr::rename(city = name, country = country.etc, lon = long) |> 
+  dplyr::select(country, city, capital, lon, lat, pop) |> 
+  dplyr::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
+                            'Tanjong Karang', 'Klang', 'Seri Kembangan', 
+                            'Serdang', 'Equine Park') | capital != 0)
 
 countries <- geodata$country |> 
   unique()
@@ -1164,8 +1165,8 @@ geodata <- geodata |>
 
 ## Design a line data frame
 markLinedata <- data.frame(
-  origin = rep('Beijing', (length(vec) - 1)), 
-  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
+  origin = rep('Zhengzhou', (length(vec) - 1)), 
+  destination = geodata$vec[!geodata$vec %in% 'Zhengzhou'])
 ```
 
 ```{r plot-REmap, echo=FALSE}

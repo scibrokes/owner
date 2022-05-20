@@ -2,27 +2,19 @@ sudo su - -c "R -e \"remotes::install_github('HenrikBengtsson/startup', ref = 'd
 sudo su - -c "R -e \"devtools::install_github('wrathematics/Rdym')\""
 sudo su - -c "R -e \"remotes::install_github('gaborcsardi/prompt')\""
 sudo su - -c "R -e \"remotes::install_github('jalvesaq/colorout')\""
-sudo su - -c "R -e \"devtools::install_github('wrathematics/Rdym')\""
 sudo su - -c "R -e \"remotes::install_github('csgillespie/rprofile')\""
-sudo su - -c "R -e \"remotes::install_github('jalvesaq/colorout')\""
 
 with_config(use_proxy('52.55.211.119', 8080), install_github('jalvesaq/colorout'))
 54.221.78.73
 52.55.211.119
 20.205.243.168
 
-sudo su - -c "R -e \"install.packages(c('ghit', 'mosaic'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('data.table'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
-sudo su - -c "R -e \"pkgs <- c('mosaic','devtools','lubridate','knitr','markdown','rmarkdown','REmap','ggmap'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock'))\""
-
-----------------------------------
-
-c('rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM')
-
-sudo su - -c "R -e \"install.packages(c('mosaic','devtools','lubridate','knitr','markdown','rmarkdown','REmap','ggmap'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"pkgs <- c('ghit', 'rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM', 'mosaic', 'devtools', 'lubridate', 'knitr', 'markdown', 'rmarkdown', 'REmap', 'ggmap', 'RgoogleMaps'); BBmisc::lib(pkgs)\""
 
 
-sudo su - -c "R -e \"install.packages(c('rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('ghit', 'rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM', 'mosaic', 'devtools', 'lubridate', 'knitr', 'markdown', 'rmarkdown', 'REmap', 'ggmap', 'RgoogleMaps'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
 
 ----------------------------------

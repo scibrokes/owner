@@ -689,15 +689,15 @@ geodata <- geodata |>
 #  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 
 ## Design a line data.frame
-markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[-1])
+markLinedata = data.frame(origin = rep('Beijing', 54), destination = vec[-1])
 ```
 
 ```{r plot-map, echo=FALSE}
 ## Plot the REmap shining 
-p <- remapC(data, maptype='world',color=c('black','black'),
-       theme=get_theme(backgroundColor='black'),
-       markPointData=vec, markLineData=markLinedata, geoData=geodata)
-knitrREmap(p,local=F)
+p <- remapC(data, maptype = 'world', color = c('black', 'black'),
+       theme = get_theme(backgroundColor = 'black'),
+       markPointData = vec, markLineData = markLinedata, geoData = geodata)
+knitrREmap(p, local = FALSE)
 ```
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221986532&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
@@ -707,10 +707,9 @@ knitrREmap(p,local=F)
 remap.init()
 
 geodata <- maps::world.cities |> 
-  dplyr::filter(capital %in% c('primary', 'admin')) |> 
-  dplyr::select(lng, lat, country, city) |> 
-  dplyr::rename(lon = lng) |> 
-  dplyr::mutate(lon = round(lon, 3))
+  dplyr::rename(city = name, country = country.etc, lon = long) |> 
+  dplyr::select(country, city, capital, lon, lat, pop) |> 
+  dplyr::filter(capital == 1)
 
 countries <- geodata$country |> 
   unique()
@@ -735,13 +734,13 @@ geodata <- geodata |>
 #  destination = geodata$vec[!geodata$vec %in% 'Beijing'])
 
 ## Design a line data.frame
-markLinedata = data.frame(origin=rep('Beijing', 54),destination = vec[-1])
+markLinedata = data.frame(origin = rep('Beijing', 54), destination = vec[-1])
 
 ## Plot the REmap shining 
-p <- remapC(data, maptype='world',color=c('black','black'),
-       theme=get_theme(backgroundColor='black'),
-       markPointData=vec, markLineData=markLinedata, geoData=geodata)
-knitrREmap(p,local=F)
+p <- remapC(data, maptype = 'world', color = c('black', 'black'),
+       theme = get_theme(backgroundColor = 'black'),
+       markPointData = vec, markLineData = markLinedata, geoData = geodata)
+knitrREmap(p, local = FALSE)
 ```
 
 
@@ -749,14 +748,14 @@ knitrREmap(p,local=F)
 
 ```{r, error = TRUE, results='asis'}
 # Library
-library(fmsb)
+lib('fmsb')
  
 # Create data: note in High school for Jonathan:
-data <- as.data.frame(matrix( sample( 2:20 , 10 , replace=T) , ncol=10))
-colnames(data) <- c("math" , "english" , "biology" , "music" , "R-coding", "data-viz" , "french" , "physic", "statistic", "sport" )
+data <- as.data.frame(matrix(sample(2:20, 10, replace = TRUE), ncol = 10))
+colnames(data) <- c('math', 'english', 'biology', 'music', 'R-coding', 'data-viz', 'french', 'physic', 'statistic', 'sport')
  
 # To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot!
-data <- rbind(rep(20,10) , rep(0,10) , data)
+data <- rbind(rep(20, 10), rep(0,10), data)
  
 # Check your data, it has to look like this!
 # head(data)
@@ -764,59 +763,53 @@ data <- rbind(rep(20,10) , rep(0,10) , data)
 # The default radar chart 
 radarchart(data)
 
-
-# Library
-library(fmsb)
- 
 # Create data: note in High school for Jonathan:
-data <- as.data.frame(matrix( sample( 2:20 , 10 , replace=T) , ncol=10))
-colnames(data) <- c("math" , "english" , "biology" , "music" , "R-coding", "data-viz" , "french" , "physic", "statistic", "sport" )
+data <- as.data.frame(matrix(sample(2:20, 10, replace = TRUE), ncol = 10))
+colnames(data) <- c('math', 'english', 'biology', 'music', 'R-coding', 'data-viz', 'french', 'physic', 'statistic', 'sport')
  
 # To use the fmsb package, I have to add 2 lines to the dataframe: the max and min of each topic to show on the plot!
-data <- rbind(rep(20,10) , rep(0,10) , data)
+data <- rbind(rep(20, 10), rep(0, 10), data)
  
 # Check your data, it has to look like this!
 # head(data)
 
 # Custom the radarChart !
-radarchart( data  , axistype=1 , 
+radarchart(data, axistype = 1, 
  
     #custom polygon
-    pcol=rgb(0.2,0.5,0.5,0.9) , pfcol=rgb(0.2,0.5,0.5,0.5) , plwd=4 , 
+    pcol = rgb(0.2, 0.5, 0.5, 0.9), pfcol = rgb(0.2, 0.5, 0.5, 0.5), plwd = 4,
  
     #custom the grid
-    cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,20,5), cglwd=0.8,
+    cglcol = 'grey', cglty = 1, axislabcol = 'grey', caxislabels = seq(0, 20, 5), cglwd = 0.8,
  
     #custom labels
-    vlcex=0.8 
+    vlcex = 0.8
     )
 ```
 
 ```{r, error = TRUE, results='asis'}
-library(radarchart)
+lib('radarchart')
 
-labs <- c("Communicator", "Data Wangler", "Programmer",
-          "Technologist",  "Modeller", "Visualizer")
+labs <- c('Communicator', 'Data Wangler', 'Programmer', 'Technologist', 'Modeller', 'Visualizer')
 
 scores <- list(
-  "Rich" = c(9, 7, 4, 5, 3, 7),
-  "Andy" = c(7, 6, 6, 2, 6, 9),
-  "Aimee" = c(6, 5, 8, 4, 7, 6)
-)
+  'Rich' = c(9, 7, 4, 5, 3, 7),
+  'Andy' = c(7, 6, 6, 2, 6, 9),
+  'Aimee' = c(6, 5, 8, 4, 7, 6))
 
 chartJSRadar(scores = scores, labs = labs, maxScale = 10)
 
-scores <- data.frame("Label"=c("Communicator", "Data Wangler", "Programmer",
-                     "Technologist",  "Modeller", "Visualizer"),
-                     "Rich" = c(9, 7, 4, 5, 3, 7),
-                     "Andy" = c(7, 6, 6, 2, 6, 9),
-                     "Aimee" = c(6, 5, 8, 4, 7, 6))
+scores <- data.frame(
+  'Label' = c('Communicator', 'Data Wangler', 'Programmer', 'Technologist', 'Modeller', 'Visualizer'),
+  'Rich' = c(9, 7, 4, 5, 3, 7), 
+  'Andy' = c(7, 6, 6, 2, 6, 9), 
+  'Aimee' = c(6, 5, 8, 4, 7, 6))
 
-chartJSRadar(scores, maxScale = 10, showToolTipLabel=TRUE)
+chartJSRadar(scores, maxScale = 10, showToolTipLabel = TRUE)
 
-chartJSRadar(skills, main = "Data Science Radar")
-chartJSRadarOutput("ID", width = "450", height = "300")
-#runExampleApp("basic")
+chartJSRadar(skills, main = 'Data Science Radar')
+chartJSRadarOutput('ID', width = '450', height = '300')
+#runExampleApp('basic')
 ```
 
 ```{r, error = TRUE, results='asis'}
@@ -1072,18 +1065,18 @@ add_rgl_model <- function(fdata){
 ```
 
 ```{r, error=TRUE, results='asis'}
-x=runif(1000)
-y=runif(1000)
-z=rnorm(1000)
-s=interp(x,y,z,duplicate="strip")
-surface3d(s$x,s$y,s$z,color="blue")
+x = runif(1000)
+y = runif(1000)
+z = rnorm(1000)
+s = interp(x, y, z, duplicate = 'strip')
+surface3d(s$x, s$y, s$z, color = 'blue')
 points3d(s)
 ```
 
 ```{r, error=TRUE, results='asis'}
 lib('ggplot2')
 lib('rayshader')
-conflict_prefer("select", "dplyr")
+conflict_prefer('select', 'dplyr')
 
 df <- data.frame(
   YearMonth = c(202101L,202101L,202101L,

@@ -1,6 +1,8 @@
 ## update packages via terminal
 sudo su - -c "R -e \"pkgs <- c('devtools', 'tidyverse', 'miniUI', 'crayon'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
+sudo su - -c "R -e \"pkgs <- c('ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl'，'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
 ## https://www.reddit.com/r/rstats/comments/hiu17b/can_i_delete_outdated_r_version/
 sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')), dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
