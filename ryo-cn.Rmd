@@ -1343,9 +1343,11 @@ sys
 - 您亦可参阅[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)修改网页外观。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)有许多图标可供参考与应用。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) ®程序包。
-- [`sass`](https://rstudio.github.io/sass) ®程序包。
-- [GitHub : r-world](https://github.com/scibrokes/r-world)
+- [`echarts4r`](https://echarts4r.john-coene.com)是个数据视觉化的®程序包。
+- [`sass`](https://rstudio.github.io/sass)是个高级CSS的®程序包。
+- [GitHub : r-world](https://github.com/scibrokes/r-world)使用`REmap`点缀世界地图。
+- [GitHub : `REmap`](https://github.com/Lchiffon/REmap)地图数据可视化的R程序包。
+- [Translate strings using the `googleLanguageR` package](https://rpubs.com/Yach/google-translation-R)介绍语言翻译的R程序包。
 
 <br><br>
 

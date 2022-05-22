@@ -1,6 +1,6 @@
 ---
-title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
-subtitle: '个人简历'
+title: "<span style='color:goldenrod'>RMarkdown导入/引用外来编程语</span>"
+subtitle: '外来编程语'
 author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
   width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
   width='17' align='center' valign='middle'>®"
@@ -19,11 +19,156 @@ output:
     code_folding: hide
     css: CSSBackgrounds.css
     fig_caption: yes
-runtime: shiny
 ---
 
+runtime: shiny
 
-```{r setup}
+# 设定
+
+## SCSS 设置
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+.table-hover > tbody > tr:hover { 
+  background-color: #8D918D;
+}
+</style>
+
+```{r load-sass, class.source='bg-success', class.output='bg-primary'}
+# install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
+library('BBmisc', 'rmsfuns')
+#remotes::install_github("rstudio/sass")
+lib('sass')
+
+## https://support.rstudio.com/hc/en-us/articles/200532197
+## https://community.rstudio.com/t/r-does-not-display-korean-chinese/30889/3?u=englianhu
+#Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
+#Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+#Sys.setlocale(category = "LC_CTYPE", "Chinese (Simplified)_China.936")
+#Sys.setlocale(locale = "Chinese")
+#Sys.setlocale(locale = "Japanese")
+#Sys.setlocale(locale = "English")
+
+# rmarkdown::render('/home/englianhu/Documents/owner/ryo-cn.Rmd',  encoding = 'UTF-8')
+#Sys.setlocale("LC_CTYPE", "UTF-8")
+#Sys.setlocale(locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "chs")
+#Sys.setlocale(category = "LC_ALL", locale = "UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale = "Chinese")
+#Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
+```
+
+```{scss set-scss, class.source='bg-success', class.output='bg-primary'}
+/* https://stackoverflow.com/a/66029010/3806250 */
+h1 { color: #002C54; }
+h2 { color: #2F496E; }
+h3 { color: #375E97; }
+h4 { color: #556DAC; }
+h5 { color: #92AAC7; }
+
+/* ----------------------------------------------------------------- */
+/* https://gist.github.com/himynameisdave/c7a7ed14500d29e58149#file-broken-gradient-animation-less */
+.hover01 {
+  /* color: #FFD64D; */
+  background: linear-gradient(155deg, #EDAE01 0%, #FFEB94 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #EDAE01 20%, #FFEB94 80%);
+    }
+  }
+
+.hover02 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #002C54 0%, #4CB5F5 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #002C54 20%, #4CB5F5 80%);
+    }
+  }
+
+.hover03 {
+  color: #FFD64D;
+  background: linear-gradient(155deg, #A10115 0%, #FF3C5C 100%);
+  transition: all 0.45s;
+  &:hover{
+    background: linear-gradient(155deg, #A10115 20%, #FF3C5C 80%);
+    }
+  }
+```
+
+```{r gb-opts, class.source='hover01', class.output='hover02'}
+## Set the timezone but not change the datetime
+Sys.setenv(TZ = 'Asia/Shanghai')
+
+## Setting to omit all warnings
+## https://stackoverflow.com/a/36846793/3806250
+## Set width
+## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
+
+## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
+## https://yihui.org/knitr/options
+knitr::opts_chunk$set(
+  class.source = 'hover01', class.output = 'hover02', class.error = 'hover03', 
+  message = FALSE, warning = FALSE, error = TRUE, 
+  autodep = TRUE, aniopts = 'loop', 
+  progress = TRUE, verbose = TRUE, 
+  cache = FALSE, cache.lazy = FALSE, result = 'asis')
+```
+
+<br><br>
+
+## 设置
+
+```{r libs, eval=FALSE}
+## Setup Options, Loading Required Libraries and Preparing Environment
+## Loading the packages and setting adjustment
+source('function/libs.R')
+```
+
+```{r setup, include=FALSE}
+## Setup Options, Loading Required Libraries and Preparing Environment
+
+## Loading the package 'BBmisc'
+if(suppressMessages(!require('BBmisc'))){
+  install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
+  suppressMessages(library('BBmisc'))
+}
+if (suppressMessages(!require('rmsfuns'))) {
+  install.packages('rmsfuns', dependencies = TRUE, INSTALL_opts = '--no-lock')
+  suppressMessages(library('rmsfuns'))
+}
+
+if(!require('REmap')) devtools::install_github('lchiffon/REmap')
+
+## Loading multiple packages at once
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'remotes', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+
+suppressAll(lib(pkgs))
+load_pkg(pkgs)
+rm(pkgs)
+
+## Set the googleVis options first to change the behaviour of plot.gvis, so that 
+##  only the chart component of the HTML file is written into the output file.
+op <- options(gvis.plot.tag = 'chart')
+
+## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
+```
+
+<br><br>
+
+# 外来编程语
+
+## Ruby 鲁比
+
+```{r setup-ruby}
 require('BBmisc')
 ## 网上有好几个 runr R语言程序包，需要安装 yihui 的程序包
 ## https://github.com/chiefbiiko/runr
@@ -101,6 +246,8 @@ x
 ruby -e "puts '<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>'"
 ```
 
+<ruby>건설<rt>geonseol</rt>중<rt>jung</rt></ruby>
+
 ```{r error=TRUE}
 shiny::runGitHub('multilingualShinyApp', 'chrislad')
 ```
@@ -108,6 +255,53 @@ shiny::runGitHub('multilingualShinyApp', 'chrislad')
 ```{r error=TRUE}
 runUrl('https://github.com/chrislad/multilingualShinyApp')
 ```
+
+## C\#
+
+```{r error=TRUE}
+# install.packages("remotes")
+if(!require('dotnet')) remotes::install_github('bearloga/dotnet')
+lib('dotnet')
+dotnet::register_engine()
+```
+
+```{dotnet error=TRUE}
+using System;
+```
+
+```{dotnet error=TRUE}
+using System;
+
+class Program {
+  static void Main(string[] args) {
+    Console.WriteLine("Hello from R Markdown!");
+  }
+}
+```
+
+```{dotnet error=TRUE}
+public static async Task<string> PostWebAsync(string url, string idata) {
+  var request = (HttpWebRequest)WebRequest.Create(url);
+  var data = Encoding.ASCII.GetBytes(idata);
+  
+  request.Method = "POST";
+  request.ContentType = "application/x-www-form-urlencoded";
+  request.ContentLength = data.Length;
+  
+  using (var stream = await request.GetRequestStreamAsync()) {
+    await stream.WriteAsync(data, 0, data.Length);
+  }
+  
+  var response = (HttpWebResponse)await request.GetResponseAsync();
+  var r = new StreamReader(response.GetResponseStream());
+  //    System.Windows.MessageBox.Show(await r.ReadToEndAsync());
+  return await r.ReadToEndAsync();
+}
+
+// string data = PostWebAsync("http://fanyi.baidu.com/v2transapi","from=auto&to={Translated Language}&query={Contents of Translation}&transtype=realtime&simple_means_flag=3");
+```
+
+<br><br>
 
 # 参考文献
 
@@ -131,7 +325,14 @@ runUrl('https://github.com/chrislad/multilingualShinyApp')
 - [Can you run a Ruby script in a Rmarkdown file](https://community.rstudio.com/t/can-you-run-a-ruby-script-in-a-rmarkdown-file/93165)
 - [How to install and load Ruby packages in R](https://community.rstudio.com/t/how-to-install-and-load-ruby-packages-in-r/93287)
 - [rubydown](https://github.com/genya0407/rbmark)
+- [RMarkdown : Code Languages](https://rmarkdown.rstudio.com/lesson-5.html)
+- [Introducing `dotnet` knitr engine for C# & F# chunks in R Markdown](https://mpopov.com/blog/2020/06/10/introducing-dotnet-knitr-engine)
+- [rmarcksharpdown](https://jasonpunyon.com/blog/2019/01/04/rmarcksharpdown)
+- [Programmer Group : Baidu Translation of Daily API](https://programmer.group/baidu-translation-of-daily-api.html)
 
-------------------------------------------------------------------------
+<br><br>
 
-[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)[**企业知识产权®及版权®所有，盗版必究。**]{style="color:RoyalBlue"}
+---
+
+[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>

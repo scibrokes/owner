@@ -1343,9 +1343,11 @@ sys
 - You can also modify the layout of website by referring [Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#).
 - There are a lot of diversified symbols I get from [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) ® package.
-- [`sass`](https://rstudio.github.io/sass) ® package.
-- [GitHub : r-world](https://github.com/scibrokes/r-world)
+- [`echarts4r`](https://echarts4r.john-coene.com) is a data visualisable ® package.
+- [`sass`](https://rstudio.github.io/sass) is a super css ® package.
+- [GitHub : r-world](https://github.com/scibrokes/r-world) apply `REmap` to visualise the world map.
+- [GitHub : `REmap`](https://github.com/Lchiffon/REmap) is a map data visualization ® package.
+- [Translate strings using the `googleLanguageR` package](https://rpubs.com/Yach/google-translation-R) is a translator ® package.
 
 <br><br>
 

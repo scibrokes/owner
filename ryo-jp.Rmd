@@ -1343,9 +1343,11 @@ sys
 - また、参照[Top Five CSS Customizations for R Presentations](http://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#)に依って網站外觀を変更する事もできます。
 - [Greek Alphabet Symbols](http://www.rapidtables.com/math/symbols/greek_alphabet.htm)は多様化したシンボルがたくさんあります。
 - [Gradient color in `radarchart` using `echarts` in R](https://stackoverflow.com/a/67562291/3806250)
-- [`echarts4r`](https://echarts4r.john-coene.com) ®程序包。
-- [`sass`](https://rstudio.github.io/sass) ®程序包。
-- [GitHub : r-world](https://github.com/scibrokes/r-world)
+- [`echarts4r`](https://echarts4r.john-coene.com)は數據視覺化の®程序包です。
+- [`sass`](https://rstudio.github.io/sass)は高級CSSの®程序包です。
+- [GitHub : r-world](https://github.com/scibrokes/r-world)は`REmap`によって世界地圖に彩る。
+- [GitHub : `REmap`](https://github.com/Lchiffon/REmap)は地圖數據可視化の®程序包です。
+- [Translate strings using the `googleLanguageR` package](https://rpubs.com/Yach/google-translation-R)は言語翻譯のR程序包です。
 
 <br><br>
 
