@@ -280,6 +280,39 @@ class Program {
 ```
 
 ```{dotnet error=TRUE}
+cs_engine = function(options) {
+  done_signal = uuid::UUIDgenerate()
+  #print(paste("done", done_signal))
+  if (length(options$code) == 1) {
+    process_write(handle, paste0(options$code, '\nConsole.WriteLine("', done_signal, '");\n'))
+  } else {
+    process_write(handle, paste0(paste(options$code, collapse = "\n"), '\nConsole.WriteLine("', done_signal, '");\n'))
+  }
+  
+  out = ""
+  while(TRUE) {
+    on_the_way_in = process_read(handle, timeout = 1000)$stdout
+    out = paste0(out, on_the_way_in)
+    if (any(grepl(done_signal, out))) {
+      #print("FOUND IT!")
+      #print(out)
+      break
+    }
+    #print("No Done Signal Yet.")
+    #print(out)
+  }
+  
+  knitr::engine_output(options, options$code, str_replace_all(out, done_signal, ""))
+}
+
+knitr::knit_engines$set(cs = cs_engine)
+```
+
+```{dotnet error=TRUE}
+Console.WriteLine("Hello World!");
+```
+‵
+```{dotnet error=TRUE}
 public static async Task<string> PostWebAsync(string url, string idata) {
   var request = (HttpWebRequest)WebRequest.Create(url);
   var data = Encoding.ASCII.GetBytes(idata);
