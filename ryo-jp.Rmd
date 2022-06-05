@@ -2,8 +2,8 @@
 title: "[<span style='color:goldenrod'>リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby></span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '<ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>簡<rp>(</rp><rt>かん</rt><rp>)</rp>歷<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>'
 author: "[リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>](https://englianhu.github.io) <img src='www/ENG.png'
-  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  width='17' align='center' valign='middle'>®"
+  height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
+  height='16' align='center' valign='middle'>®"
 tags: [計量経済學, 量化圈, 娛樂圈, ®, Python, ®Studio]
 date: "22-Oct-1984"
 output:
@@ -508,7 +508,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -1353,5 +1353,5 @@ sys
 
 ---
 
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)企業の知的財産権と著作権、海賊版は調査され無ければ成ら無い。**</span>
+[<img src="www/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企業の知的財産権と著作権、海賊版は調査され無ければ成ら無い。**</span>

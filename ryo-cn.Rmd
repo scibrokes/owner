@@ -2,8 +2,8 @@
 title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
 author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
-  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  width='17' align='center' valign='middle'>®"
+  height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
+  height='16' align='center' valign='middle'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
 date: "22-Oct-1984"
 output:
@@ -508,7 +508,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -1136,7 +1136,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 suppressAll(remap.init())
 ```
 
-```{r read-geodata, echo=FALSE}
+```{r read-geodata, eval=FALSE, echo=FALSE}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- maps::world.cities |> 
@@ -1167,6 +1167,40 @@ geodata <- geodata |>
 markLinedata <- data.frame(
   origin = rep('Zhengzhou', (length(vec) - 1)), 
   destination = geodata$vec[!geodata$vec %in% 'Zhengzhou'])
+```
+
+```{r read-geodata2, echo=FALSE}
+## 读取从maps::world.cities程序包翻译并储存中文地名文件
+source('data/geoname.R')
+geodata <- read_csv('data/geoname.csv', show_col_types = FALSE)
+
+countries <- geodata$country |> 
+  unique()
+
+## 翻译简体
+countries <- data.frame(Country, countryname) |> 
+  mutate(binary = Country == Country.1) |> 
+  dplyr::filter(binary == TRUE) %>% 
+  .$`国家`
+
+## 随即设置区域号
+data <- data.frame(
+  country = countries, 
+  value = 5 * sample(length(countries)) + 200)
+
+## 城镇名
+vec <- geodata$city
+
+## 城镇经纬度
+geodata <- geodata |> 
+  data.frame() |> 
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
+
+## 描画彩色闪霓导航线
+markLinedata <- data.frame(
+  origin = rep('郑州', (length(vec) - 1)), 
+  destination = geodata$vec[!geodata$vec %in% '郑州'])
 ```
 
 ```{r plot-REmap, echo=FALSE}
@@ -1353,5 +1387,5 @@ sys
 
 ---
 
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
+[<img src="www/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>

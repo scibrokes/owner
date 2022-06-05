@@ -2,8 +2,8 @@
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
 author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.png'
-  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  width='17' align='center' valign='middle'>®"
+  height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
+  height='16' align='center' valign='middle'>®"
 tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
 date: "22-Oct-1984"
 output:
@@ -508,7 +508,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
@@ -1353,5 +1353,5 @@ sys
 
 ---
 
-[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)<br>
-[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)**]{style="color:RoyalBlue"}
+[<img src="www/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)<br>
+[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)**]{style="color:RoyalBlue"}
