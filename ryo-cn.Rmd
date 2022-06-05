@@ -1171,47 +1171,39 @@ markLinedata <- data.frame(
 
 ```{r read-geodata2, echo=FALSE}
 ## 读取从maps::world.cities程序包翻译并储存中文地名文件
-source('data/geoname.R')
-geodata <- read_csv('data/geoname.csv', show_col_types = FALSE)
+#source('data/geoname.R')
+经纬度 <- read_csv('data/地图数据.csv', show_col_types = FALSE)
 
-countries <- geodata$country |> 
+诸国 <- 经纬度$国家 |> 
   unique()
 
-## 翻译简体
-countries <- data.frame(Country, countryname) |> 
-  mutate(binary = Country == Country.1) |> 
-  dplyr::filter(binary == TRUE) %>% 
-  .$`国家`
-
 ## 随即设置区域号
-data <- data.frame(
-  country = countries, 
-  value = 5 * sample(length(countries)) + 200)
+随机国号 <- data.frame(
+  国家 = 诸国, 
+  国号 = 5 * sample(length(诸国)) + 200)
 
-## 城镇名
-vec <- geodata$city
+## 城镇矢量
+诸城镇 <- 经纬度$城镇
 
 ## 城镇经纬度
-geodata <- geodata |> 
-  data.frame() |> 
-  dplyr::select(lon, lat, city) |> 
-  dplyr::rename(vec = city)
+经纬度 <- 经纬度 |> 
+  dplyr::select(经度, 纬度, 城镇)
 
-## 描画彩色闪霓导航线
-markLinedata <- data.frame(
-  origin = rep('郑州', (length(vec) - 1)), 
-  destination = geodata$vec[!geodata$vec %in% '郑州'])
+## 描画彩色霓虹导航线
+导航线 <- data.frame(
+  出发点 = rep('郑州市', (nrow(经纬度) - 1)), 
+  抵达点 = 经纬度$城镇[!经纬度$城镇 %in% '郑州市'])
 ```
 
 ```{r plot-REmap, echo=FALSE}
 ## Plot the REmap shining 
-wmap <- remapC(data, maptype = 'world', 
+导航图 <- remapC(随机国号, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
                title = '量化圈', subtitle = '金融计量经济学', 
-               markPointData = vec, markLineData = markLinedata, 
-               geoData = geodata)
-knitrREmap(wmap, local = FALSE)
+               markPointData = 诸城镇, markLineData = 导航线, 
+               geoData = 经纬度)
+knitrREmap(导航图, local = FALSE)
 ```
 
 <br><br>
