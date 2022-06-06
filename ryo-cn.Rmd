@@ -463,12 +463,12 @@ h5 { color: #92AAC7; }
 ```
 
 ```{r gb-opts, class.source='hover01', class.output='hover02'}
-## Set the timezone but not change the datetime
+## 设置时区但不更换时间 Set the timezone but not change the datetime
 Sys.setenv(TZ = 'Asia/Shanghai')
 
-## Setting to omit all warnings
+## 设置忽略所有警讯 Setting to omit all warnings
 ## https://stackoverflow.com/a/36846793/3806250
-## Set width
+## 设置宽度 Set width
 ## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
 options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
 
@@ -487,8 +487,8 @@ knitr::opts_chunk$set(
 ## 设置
 
 ```{r libs, eval=FALSE}
-## Setup Options, Loading Required Libraries and Preparing Environment
-## Loading the packages and setting adjustment
+## 设定，读取所需R程序包和环境设置 Setup Options, Loading Required Libraries and Preparing Environment
+## 读取R程序包与调整设置 Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
@@ -1187,7 +1187,7 @@ markLinedata <- data.frame(
 
 ## 城镇经纬度
 经纬度 <- 经纬度 |> 
-  dplyr::select(经度, 纬度, 城镇)
+  dplyr::select(经度, 纬度, 城镇) #因为呈现出来的夜光导航图只显示地名和随机国号，故此文件名、纬经度并无翻译为繁体
 
 ## 描画彩色霓虹导航线
 夜光导航线 <- data.frame(
@@ -1196,7 +1196,7 @@ markLinedata <- data.frame(
 ```
 
 ```{r plot-REmap, echo=FALSE}
-## Plot the REmap shining 
+## 绘制 REmap 夜光导航图 
 夜光导航图 <- remapC(随机国号, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 

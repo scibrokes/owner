@@ -76,6 +76,7 @@ local({
   options(repos = c(CRAN = 'https://cloud.r-project.org', 
                     RSM = 'https://radiant-rstats.github.io/minicran', 
                     Omega = 'http://www.omegahat.net/R', 
+                    CINC = 'https://cinc.rud.is', 
                     RForge = 'https://www.rforge.net', 
                     RSpatial = 'https://rspatial.r-universe.dev'))
   #install.packages("remotes")

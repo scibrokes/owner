@@ -463,12 +463,12 @@ h5 { color: #92AAC7; }
 ```
 
 ```{r gb-opts, class.source='hover01', class.output='hover02'}
-## Set the timezone but not change the datetime
+## 设置时区但不更换时间 Set the timezone but not change the datetime
 Sys.setenv(TZ = 'Asia/Shanghai')
 
-## Setting to omit all warnings
+## 设置忽略所有警讯 Setting to omit all warnings
 ## https://stackoverflow.com/a/36846793/3806250
-## Set width
+## 设置宽度 Set width
 ## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
 options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
 
@@ -487,8 +487,8 @@ knitr::opts_chunk$set(
 ## 設置
 
 ```{r libs, eval=FALSE}
-## Setup Options, Loading Required Libraries and Preparing Environment
-## Loading the packages and setting adjustment
+## 设定，读取所需R程序包和环境设置 Setup Options, Loading Required Libraries and Preparing Environment
+## 读取R程序包与调整设置 Loading the packages and setting adjustment
 source('function/libs.R')
 ```
 
@@ -1136,7 +1136,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 suppressAll(remap.init())
 ```
 
-```{r read-geodata, echo=FALSE}
+```{r read-geodata, eval=FALSE, echo=FALSE}
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- maps::world.cities |> 
@@ -1169,15 +1169,41 @@ markLinedata <- data.frame(
   destination = geodata$vec[!geodata$vec %in% 'Zhengzhou'])
 ```
 
+```{r read-geodata2, echo=FALSE}
+## 讀取從maps::world.cities程序包翻譯並儲存中文地名文件
+#source('data/geoname.R')
+經緯度 <- read_csv('data/地图数据.csv', show_col_types = FALSE)
+
+諸國 <- 經緯度$國家 |> 
+  unique()
+
+## 隨即設置區域號
+隨機國號 <- data.frame(
+  國家 = 諸國, 
+  國號 = 5 * sample(length(諸國)) + 200)
+
+## 城鎮矢量
+諸城鎮 <- 經緯度$城鎮
+
+## 城鎮經緯度
+經緯度 <- 經緯度 |> 
+  dplyr::select(经度, 纬度, 城鎮) #因为呈现出来的夜光导航图只显示地名和随机国号，故此文件名、纬经度并无翻译为繁体
+
+## 描畫彩色霓虹導航線
+夜光導航線 <- data.frame(
+  出發點 = rep('鄭州市', (nrow(經緯度) - 1)), 
+  抵達點 = 經緯度$城鎮[!經緯度$城鎮 %in% '鄭州市'])
+```
+
 ```{r plot-REmap, echo=FALSE}
-## Plot the REmap shining 
-wmap <- remapC(data, maptype = 'world', 
+## 繪製 REmap 夜光導航圖 
+夜光導航圖 <- remapC(隨機國號, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
                title = '量化圈', subtitle = '金融計量経済學', 
-               markPointData = vec, markLineData = markLinedata, 
-               geoData = geodata)
-knitrREmap(wmap, local = FALSE)
+               markPointData = 諸城鎮, markLineData = 夜光導航線, 
+               geoData = 經緯度)
+knitrREmap(夜光導航圖, local = FALSE)
 ```
 
 <br><br>

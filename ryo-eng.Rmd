@@ -1169,6 +1169,32 @@ markLinedata <- data.frame(
   destination = geodata$vec[!geodata$vec %in% 'Zhengzhou'])
 ```
 
+```{r read-geodata2, eval = FALSE, echo=FALSE}
+## 读取从maps::world.cities程序包翻译并储存中文地名文件
+#source('data/geoname.R')
+经纬度 <- read_csv('data/地图数据.csv', show_col_types = FALSE)
+
+诸国 <- 经纬度$国家 |> 
+  unique()
+
+## 随即设置区域号
+随机国号 <- data.frame(
+  国家 = 诸国, 
+  国号 = 5 * sample(length(诸国)) + 200)
+
+## 城镇矢量
+诸城镇 <- 经纬度$城镇
+
+## 城镇经纬度
+经纬度 <- 经纬度 |> 
+  dplyr::select(经度, 纬度, 城镇)
+
+## 描画彩色霓虹导航线
+夜光导航线 <- data.frame(
+  出发点 = rep('郑州市', (nrow(经纬度) - 1)), 
+  抵达点 = 经纬度$城镇[!经纬度$城镇 %in% '郑州市'])
+```
+
 ```{r plot-REmap, echo=FALSE}
 ## Plot the REmap shining 
 wmap <- remapC(data, maptype = 'world', 
