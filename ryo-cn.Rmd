@@ -970,7 +970,7 @@ op <- options(gvis.plot.tag = 'chart')
 #require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李呢克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李尼克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
@@ -1190,20 +1190,20 @@ markLinedata <- data.frame(
   dplyr::select(经度, 纬度, 城镇)
 
 ## 描画彩色霓虹导航线
-导航线 <- data.frame(
+夜光导航线 <- data.frame(
   出发点 = rep('郑州市', (nrow(经纬度) - 1)), 
   抵达点 = 经纬度$城镇[!经纬度$城镇 %in% '郑州市'])
 ```
 
 ```{r plot-REmap, echo=FALSE}
 ## Plot the REmap shining 
-导航图 <- remapC(随机国号, maptype = 'world', 
+夜光导航图 <- remapC(随机国号, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
                title = '量化圈', subtitle = '金融计量经济学', 
-               markPointData = 诸城镇, markLineData = 导航线, 
+               markPointData = 诸城镇, markLineData = 夜光导航线, 
                geoData = 经纬度)
-knitrREmap(导航图, local = FALSE)
+knitrREmap(夜光导航图, local = FALSE)
 ```
 
 <br><br>
