@@ -1280,6 +1280,7 @@ knitrREmap(wmap, local = FALSE)
 <a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
 <a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
 <a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
+<a href='https://home.cnblogs.com/u/englianhu'><img src="www/CNBlogs 1.png" width="48"/></a>
 
 <br><br>
 
