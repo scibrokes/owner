@@ -2,32 +2,35 @@ remapC <- function (data, maptype = "china", markLineData = NULL, markPointData 
           color = c("#1e90ff", "#f0ffff"), theme = get_theme("Bright"), 
           title = "", subtitle = "", markLineTheme = markLineControl(), 
           markPointTheme = markPointControl(), geoData = NA, mindata = NA, 
-          maxdata = NA) 
-{
+          maxdata = NA) {
   if (.Platform$OS.type == "windows") {
     locate = Sys.getlocale("LC_CTYPE")
     Sys.setlocale("LC_CTYPE", "eng")
   }
+  
   if (!is.data.frame(data)) {
     stop("Map data should be a data frame.")
   }
+  
   data = na.omit(data)
   if (ncol(data) < 2 | nrow(data) == 0) {
     stop("Data should have at least 2 columns and 1 row")
   }
+  
   if (!is.character(data[1, 1])) {
     data[, 1] = as.character(data[, 1])
   }
+  
   if (!is.numeric(data[1, 2])) {
     stop("Column 2 should be numeric!")
   }
+  
   maptype = checkMapName(maptype)
   mapnames = mapNames(mapType = maptype)
   if (is.null(data$tooltip)) {
     mapCVec = apply(data, 1, function(x) paste0("{name:'", 
                                                 x[1], "',value:", x[2], "}"))
-  }
-  else {
+  } else {
     mapCVec = apply(data, 1, function(x) paste0("{name:'", 
                                                 x[1], "',value:", x[2], ",tooltipValue:", x[3], "}"))
   }
@@ -38,48 +41,39 @@ remapC <- function (data, maptype = "china", markLineData = NULL, markPointData 
   if (length(color) == 1) {
     color = c(color, "white")
   }
-  ColorData = paste0("['", paste(color, collapse = "', '"), 
-                     "']")
+  ColorData = paste0("['", paste(color, collapse = "', '"), "']")
   if (is.na(maxdata)) {
-    maxData = round(max(data[, 2]) + (max(data[, 2]) - min(data[, 
-                                                                2]))/15)
-  }
-  else {
+    maxData = round(max(data[, 2]) + (max(data[, 2]) - min(data[, 2]))/15)
+  } else {
     maxData = maxdata
   }
   if (is.na(mindata)) {
-    minData = round(min(data[, 2]) - (max(data[, 2]) - min(data[, 
-                                                                2]))/15)
-  }
-  else {
+    minData = round(min(data[, 2]) - (max(data[, 2]) - min(data[, 2]))/15)
+  } else {
     minData = mindata
   }
   markLineLogi = (length(dim(markLineData)) == 2)
   markPointLogi = class(markPointData) != "logical"
   geoDataLogi = class(geoData) != "logical"
-  if (markLineLogi & markPointLogi & !geoDataLogi) {
-    cityNames = c(as.character(markLineData[, 1]), as.character(markLineData[, 
-                                                                             2]))
+  
+  ## ------------------------------------------------------
+  if (all(markLineLogi & markPointLogi & !geoDataLogi)) {
+    cityNames = c(as.character(markLineData[, 1]), as.character(markLineData[, 2]))
     if (is.data.frame(markPointData)) {
-      cityNames = c(cityNames, as.character(markPointData[, 
-                                                          1]))
-    }
-    else {
+      cityNames = c(cityNames, as.character(markPointData[, 1]))
+    } else {
       cityNames = c(cityNames, as.character(markPointData))
     }
     geoData = get_geo_position(unique(cityNames))
   }
   if (is.null(markLineData)) {
     markLineData = ""
-  }
-  else {
-    markLineData = markLineStr(markLineData, markLineTheme, 
-                               geoData)
+  } else {
+    markLineData = markLineStr(markLineData, markLineTheme, geoData)
   }
   if (is.null(markPointData)) {
     markPointData = ""
-  }
-  else {
+  } else {
     markPointData = markPointStr(markPointData, markPointTheme, 
                                  geoData)
   }
@@ -169,6 +163,50 @@ markPointTheme = markPointControl(); geoData = 经纬度; mindata = NA; maxdata 
                     markPointData = 诸城镇, markLineData = 夜光导航线, 
                     geoData = 经纬度)
 knitrREmap(夜光导航图, local = FALSE)
+
+
+### =====================================================
+
+mapdata; title = ""; subtitle = ""; theme = get_theme("Dark")
+
+
+
+
+
+expect_length <- function(object, n) {
+  # 1. Capture object and label
+  act <- quasi_label(rlang::enquo(object), arg = "object")
+  
+  # 2. Call expect()
+  act$n <- length(act$val)
+  expect(
+    act$n == n,
+    sprintf("%s has length %i, not length %i.", act$lab, act$n, n)
+  )
+  
+  # 3. Invisibly return the value
+  invisible(act$val)
+}
+
+lib('testthat', 'usethis', 'withr')
+expect_length <- function(object, n) {
+  act <- quasi_label(rlang::enquo(object), arg = "object")
+  
+  act$n <- length(act$val)
+  if (act$n == n) {
+    succeed()
+    return(invisible(act$val))
+  }
+  
+  message <- sprintf("%s has length %i, not length %i.", act$lab, act$n, n)
+  fail(message)
+}
+
+mtcars %>%
+  expect_type("list") %>%
+  expect_s3_class("data.frame") %>% 
+  expect_length(11)
+
 
 
 
