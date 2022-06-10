@@ -9,51 +9,17 @@ with_config(use_proxy('52.55.211.119', 8080), install_github('jalvesaq/colorout'
 52.55.211.119
 20.205.243.168
 
-sudo su - -c "R -e \"install.packages(c('data.table'), repos='https://cran.rstudio.org', getOption('repos'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages('devtools', repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
-sudo su - -c "R -e \"pkgs <- c('ghit', 'geojson', 'geojsonio', 'sf', 'rmapshaper', 'crawl', 'momentuHMM'); BBmisc::lib(pkgs)\""
-
+sudo su - -c "R -e \"pkgs <- c('ghit', 'rstanarm', 'beyesplot'); BBmisc::lib(pkgs)\""
 
 # we recommend running this is a fresh R session or restarting your current session
-install.packages(c('cmdstanr', 'rstan', 'rstanarm', 'beyesplot', 'shinystan', 'loo', 'projpred', 'rstantools', 'posterior'), repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+sudo su - -c "R -e \"install.packages(c('ghit', 'rstanarm', 'beyesplot'), repos = c('https://mc-stan.org/r-packages/'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
-remotes::install_github("stan-dev/cmdstanr")
+sudo su - -c "R -e \"remotes::install_github('stan-dev/cmdstanr')\""
+sudo su - -c "R -e \"install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages', getOption('repos')))\""
 
-----------------------------------
-
-Title: ®γσ, ξηg Lιαη Ημ (tw)
-
-®γσ, ξηg Lιαη Ημ 
-Curriculum Vitae (tw)
-
-http://rpubs.com/englianhu/ryo-tw
-
-----------------------------------
-
-Title: ®γσ, ξηg Lιαη Ημ (jp)
-
-®γσ, ξηg Lιαη Ημ
-Curriculum Vitae (jp)
-
-http://rpubs.com/englianhu/ryo-jp
-
-----------------------------------
-
-Title: ®γσ, ξηg Lιαη Ημ (en)
-
-®γσ, ξηg Lιαη Ημ
-Curriculum Vitae (en)
-
-http://rpubs.com/englianhu/ryo-en
-
-----------------------------------
-
-Title: ®γσ, ξηg Lιαη Ημ (cn)
-
-®γσ, ξηg Lιαη Ημ 
-Curriculum Vitae (cn)
-
-http://rpubs.com/englianhu/ryo-cn
+STr@d343v@
 
 ----------------------------------
 

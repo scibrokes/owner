@@ -79,9 +79,10 @@ local({
                     RForge = 'https://www.rforge.net', 
                     RSpatial = 'https://rspatial.r-universe.dev'), 
                     Stan = 'https://mc-stan.org/r-packages')
-  #install.packages("remotes")
-  #remotes::install_github("radiant-rstats/radiant.update", upgrade = "never")
+  #install.packages('remotes')
+  #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
+  #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
 })
 
 ## ==================== Load Packages ===============================
