@@ -970,8 +970,8 @@ op <- options(gvis.plot.tag = 'chart')
 #require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李尼克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
-  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李尼克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', 'RStan系列', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 7, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
 skill |> 
@@ -1376,6 +1376,8 @@ sys
 - [GitHub : r-world](https://github.com/scibrokes/r-world)使用`REmap`点缀世界地图。
 - [GitHub : `REmap`](https://github.com/Lchiffon/REmap)地图数据可视化的R程序包。
 - [Translate strings using the `googleLanguageR` package](https://rpubs.com/Yach/google-translation-R)介绍语言翻译的R程序包。
+- [GitHub : Repository for distributing (some) stan-dev R packages](https://github.com/englianhu/r-packages)
+- [书栈网](https://www.bookstack.cn/user/englianhu)
 
 <br><br>
 

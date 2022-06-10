@@ -970,8 +970,8 @@ op <- options(gvis.plot.tag = 'chart')
 #require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('計量經濟學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL語言', '派森編程語言', '數據分析', '客服工作', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', '閃霓應用', '李尼克斯🐧操作繫統', '網頁應用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', '瀏覽器驅動', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
-  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 2, 4, 3, 5))
+  '技能' = c('計量經濟學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL語言', '派森編程語言', '數據分析', '客服工作', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', '閃霓應用', '李尼克斯🐧操作繫統', '網頁應用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', 'RStan系列', '瀏覽器驅動', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 7, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
 skill |> 
@@ -1376,6 +1376,8 @@ sys
 - [GitHub : r-world](https://github.com/scibrokes/r-world)使用`REmap`點綴世界地圖。
 - [GitHub : `REmap`](https://github.com/Lchiffon/REmap)地圖數據可視化的®程序包。
 - [Translate strings using the `googleLanguageR` package](https://rpubs.com/Yach/google-translation-R)介紹語言翻譯的R程序包。
+- [GitHub : Repository for distributing (some) stan-dev R packages](https://github.com/englianhu/r-packages)
+- [书栈网](https://www.bookstack.cn/user/englianhu)
 
 <br><br>
 
