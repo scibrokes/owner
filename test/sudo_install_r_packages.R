@@ -11,7 +11,13 @@ with_config(use_proxy('52.55.211.119', 8080), install_github('jalvesaq/colorout'
 
 sudo su - -c "R -e \"install.packages(c('data.table'), repos='https://cran.rstudio.org', getOption('repos'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
-sudo su - -c "R -e \"pkgs <- c('ghit', 'rgeos', 'geojson', 'geojsonio', 'geojsonlint', 'geojsonio', 'geojsonlint', 'sf', 'rmapshaper', 'raster', 'gdistance', 'crawl', 'momentuHMM', 'mosaic', 'devtools', 'lubridate', 'knitr', 'markdown', 'rmarkdown', 'REmap', 'ggmap', 'RgoogleMaps'); BBmisc::lib(pkgs)\""
+sudo su - -c "R -e \"pkgs <- c('ghit', 'geojson', 'geojsonio', 'sf', 'rmapshaper', 'crawl', 'momentuHMM'); BBmisc::lib(pkgs)\""
+
+
+# we recommend running this is a fresh R session or restarting your current session
+install.packages(c('cmdstanr', 'rstan', 'rstanarm', 'beyesplot', 'shinystan', 'loo', 'projpred', 'rstantools', 'posterior'), repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+
+remotes::install_github("stan-dev/cmdstanr")
 
 ----------------------------------
 
