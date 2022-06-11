@@ -3,6 +3,16 @@ sudo su - -c "R -e \"pkgs <- c('devtools', 'tidyverse', 'miniUI', 'crayon'); sap
 
 sudo su - -c "R -e \"pkgs <- c('ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl'，'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', getOption('repos'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
+sudo su - -c "R -e \"install.packages(c('splashr', ''), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-multiarch', force = TRUE)\""
+
+sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-lock', force = TRUE)\""
+
+install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages/', getOption('repos')))
+
 ## https://www.reddit.com/r/rstats/comments/hiu17b/can_i_delete_outdated_r_version/
 sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')), getOption('repos'), dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 

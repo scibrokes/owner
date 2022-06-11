@@ -19,7 +19,15 @@ sudo su - -c "R -e \"install.packages(c('ghit', 'rstanarm', 'beyesplot'), repos 
 sudo su - -c "R -e \"remotes::install_github('stan-dev/cmdstanr')\""
 sudo su - -c "R -e \"install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages', getOption('repos')))\""
 
-STr@d343v@
+sudo su - -c "R -e \"install.packages(c('splashr', ''), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+
+sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-multiarch', force = TRUE)\""
+
+sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-lock', force = TRUE)\""
+
+install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages/', getOption('repos')))
 
 ----------------------------------
 
