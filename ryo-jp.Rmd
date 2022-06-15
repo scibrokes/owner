@@ -4,7 +4,7 @@ subtitle: '<ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt>
 author: "[リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>](https://englianhu.github.io) <img src='www/ENG.png'
   height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
   height='16' align='center' valign='middle'>®"
-tags: [計量経済學, 量化圈, 娛樂圈, ®, Python, ®Studio]
+tags: [計量経済學, 量化圈, 娛樂圈, ®, 派森, ®文藝坊]
 date: "22-Oct-1984"
 output:
   html_document:
@@ -903,9 +903,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **貓舍倉庫**：[**Introducing ®Studio Server for Data Scientists（數據科學家の為に®Studio服務器を介紹する）**](https://github.com/scibrokes/setup-rstudio-server)
+### **貓舍倉庫**：[**Introducing ®Studio Server for Data Scientists（數據科學家の為に®文藝坊服務器を介紹する）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *セント操作繫統七で自分の®Studio服務器と<ruby>閃<rp>(</rp><rt>せん</rt><rp>)</rp>霓<rp>(</rp><rt>にじ</rt><rp>)</rp></ruby>応用を建設する方法の講義。*
+- *仙臺操作繫統七で自分の®文藝坊服務器と<ruby>閃<rp>(</rp><rt>せん</rt><rp>)</rp>霓<rp>(</rp><rt>にじ</rt><rp>)</rp></ruby>応用を建設する方法の講義。*
 
 <br>
 
@@ -970,7 +970,7 @@ op <- options(gvis.plot.tag = 'chart')
 #require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('計量経済學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL言語', 'パイソン編程言語', '數據分析', '事務支援', '體育博彩行業', '建立®Studio服務器', '統計學', '數據科學', '閃霓応用', 'リニックス🐧操作繫統', '網頁応用程序接口', 'Sparklyr大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量Tensorflow / Pytorch', 'RStan系列', 'Web Driver驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
+  '技能' = c('計量経済學', '量化交昜', '®編程', '微軟辦公軟件', 'SQL言語', 'パイソン編程言語', '數據分析', '事務支援', '體育博彩行業', '建立®文藝坊服務器', '統計學', '數據科學', '閃霓応用', 'リニッス🐧操作繫統', '網頁応用程序接口', '閃爍大數據分析', '量化分析', '高級®編程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '張量 / Pytorch', 'RStan系列', '驅動器瀏覽器', 'FrontPage / 部署網站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 7, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
@@ -998,6 +998,11 @@ skill |>
 - Origin of `R` programming: [What is `R`?](https://www.r-project.org/about.html)
 - Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 - Origin of `Linux` OS: [`Linux`維基百科、自由的百科全書](https://zh.wikipedia.org/wiki/Linux)
+- [[Linus Torvalds] Linux的起源 The Origins of Linux](https://www.bilibili.com/s/video/BV1d54y147rM)
+- [Linux创始人Linus Torvalds带你看看他的办公室~](https://www.bilibili.com/video/BV1UW41187LS?share_source=copy_web)
+- [Linus Torvalds：我写的第一行代码](https://www.bilibili.com/video/BV1vu411y7Zi?share_source=copy_web)
+- [How to pronounce Linux](https://www.bilibili.com/video/BV1Sx411V7z2?share_source=copy_web)
+- [Git是什么? Github 和 GitLab是什么?](https://www.jianshu.com/p/4b6f1f37ba78)
 
 ```{r skill2A, eval=FALSE, echo=FALSE}
 skill[,-1] |> 
@@ -1094,7 +1099,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年から 2010年迄**、西世康で仕事時、同僚傑克蘇は私と一緒に中華武館と健身中心に相談して、私は沙登の中華武館で洪拳と長拳を勉強しました。
 - **2009年から 2010年迄**、西世康で仕事時、[佳禮論壇的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)に介紹して、[新傳媒（新）](https://www.mediacorp.sg/en)と[HVD娛樂會社](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下に<ruby>業<rp>(</rp><rt>ぎょう</rt><rp>)</rp>余<rp>(</rp><rt>よ</rt><rp>)</rp></ruby>演員俳優に成る、[跑龍套當演員]{style="color:RoyalBlue"}[^15]。
 - **2009年から 2013年迄**、專業蹴球取引価格建模論壇[體育統計學社區](http://soccer.oksport.cn)を設立した。
-- **2013年**、自分の®Studio服務器を設立して、情報網數據を採集する事を学び、臺灣に数ヶ月滞在して、外國為替會社の仕事を見つけましたが、間もなく辞めました。
+- **2013年**、自分の®文藝坊服務器を設立して、情報網數據を採集する事を学び、臺灣に数ヶ月滞在して、外國為替會社の仕事を見つけましたが、間もなく辞めました。
 - **2013年7月から 2013年9月迄**、安邦で友邦大廈内の[米國友邦保険](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">で保険電話従業員に擔っています。
 - **2013年10月1號**、[資信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>で仕事時、[*世博量化®（官網）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">會社を登録し、同僚の葉林峰と劉偉謙は良く私が着ている外衣[財神挺臺灣夜總會]{style="color:#F6A217"}に就いて話します。
 - **2013年11月**、有る日、マイク張有銘は急いで電話をかけて私を採用して航空券を買って、まだ辞めていないで香港九龍に飛んだ。SBETで働いていた時、Howie宋家豪は良く私が着ている休閑襯衫[當好人好累 --- 老天有眼]{style="color:#F6A217"}に就いて話していました。
@@ -1118,7 +1123,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^16]が量化圈の成功人士だから、皆さんは勉強はずだ。此頃自分の量化避険基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}設立を學んで、閃霓応用に依って高周波算法量化自動交易系統を配置してる。自分の®Studio服務器建設興趣が有る人々は此処に[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>参照して、量化交易の熱意者達は[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}に依って本人に聯系する。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^16]が量化圈の成功人士だから、皆さんは勉強はずだ。此頃自分の量化避険基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}設立を學んで、閃霓応用に依って高周波算法量化自動交易系統を配置してる。自分の®文藝坊服務器建設興趣が有る人々は此処に[安裝 ®StudioとShiny服務器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>参照して、量化交易の熱意者達は[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}に依って本人に聯系する。
 
 [^16]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 

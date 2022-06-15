@@ -4,7 +4,7 @@ subtitle: '个人简历'
 author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
   height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
   height='16' align='center' valign='middle'>®"
-tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
+tags: [计量经济学, 量化圈, 娱乐圈, ®, 派森, ®文艺坊]
 date: "22-Oct-1984"
 output:
   html_document:
@@ -903,9 +903,9 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **猫舍仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®Studio服务器）**](https://github.com/scibrokes/setup-rstudio-server)
+### **猫舍仓库**：[**Introducing ®Studio Server for Data Scientists（为数据科学们介绍®文艺坊服务器）**](https://github.com/scibrokes/setup-rstudio-server)
 
-- *如何在仙特操作系统七建立自己的®Studio服务器与闪霓应用的教程。*
+- *如何在仙台操作系统七建立自己的®文艺坊服务器与闪霓应用的教程。*
 
 <br>
 
@@ -970,7 +970,7 @@ op <- options(gvis.plot.tag = 'chart')
 #require('kableExtra', quietly = TRUE, warn.conflicts = FALSE)
 
 skill <- tibble(
-  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®Studio服务器', '统计学', '数据科学', '闪霓应用', '李尼克斯🐧操作系统', '网页应用程序接口', 'Sparklyr大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量Tensorflow / Pytorch', 'RStan系列', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
+  '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®文艺坊服务器', '统计学', '数据科学', '闪霓应用', '礼逆袭🐧操作系统', '网页应用程序接口', '闪烁大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量 / Pytorch', 'RStan系列', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 7, 2, 4, 3, 5))
 skill <- tibble('序列' = 1:nrow(skill), skill)
 
@@ -998,6 +998,12 @@ skill |>
 - Origin of `R` programming: [What is `R`?](https://www.r-project.org/about.html)
 - Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 - Origin of `Linux` OS: [`Linux`维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Linux)
+- [[Linus Torvalds] Linux的起源 The Origins of Linux](https://www.bilibili.com/s/video/BV1d54y147rM)
+- [Linux创始人Linus Torvalds带你看看他的办公室~](https://www.bilibili.com/video/BV1UW41187LS?share_source=copy_web)
+- [Linus Torvalds：我写的第一行代码](https://www.bilibili.com/video/BV1vu411y7Zi?share_source=copy_web)
+- [How to pronounce Linux](https://www.bilibili.com/video/BV1Sx411V7z2?share_source=copy_web)
+- [Hadoop，Spark，Kafka这些名字的故事！](https://zhuanlan.zhihu.com/p/62303845)
+- [Git是什么? Github 和 GitLab是什么?](https://www.jianshu.com/p/4b6f1f37ba78)
 
 ```{r skill2A, eval=FALSE, echo=FALSE}
 skill[,-1] |> 
@@ -1094,7 +1100,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2010年**，在西世康工作时，同事杰克苏和我一块儿到一些中华武馆和健身中心咨询，我在沙登一家中华武馆学习洪拳和长拳。
 - **2009年 至 2010年**，在西世康工作时，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[新传媒（新）](https://www.mediacorp.sg/en)和[HVD娱乐公司](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style="color:RoyalBlue"}[^15]。
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
-- **2013年**，建立自个儿的®Studio服务器、学习採集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
+- **2013年**，建立自个儿的®文艺坊服务器、学习採集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
 - **2013年7月 至 2013年9月**，在安邦的友邦大厦的[友邦保险](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">当电销员。
 - **2013年10月1号**，在[资信利](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>工作期间，注册了间公司[*世博量化®（官网）*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center">，同事叶林峰和刘伟谦时常会聊到我穿的外衣[财神挺台湾夜总会]{style="color:#F6A217"}。
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
@@ -1118,7 +1124,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^16]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}，通过闪霓应用部署个高频量化自动交易系统。有兴趣建立自己的®Studio服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+[詹姆斯·西蒙斯]{style="color:RoyalBlue"}[^16]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}，通过闪霓应用部署个高频量化自动交易系统。有兴趣建立自己的®文艺坊服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
 [^16]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 

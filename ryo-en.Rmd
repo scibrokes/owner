@@ -998,6 +998,11 @@ skill |>
 - Origin of `R` programming: [What is `R`?](https://www.r-project.org/about.html)
 - Origin of `C` programming: [`C` (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 - Origin of `Linux` OS: [`Linux`维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Linux)
+- [[Linus Torvalds] Linux的起源 The Origins of Linux](https://www.bilibili.com/s/video/BV1d54y147rM)
+- [Linux创始人Linus Torvalds带你看看他的办公室~](https://www.bilibili.com/video/BV1UW41187LS?share_source=copy_web)
+- [Linus Torvalds：我写的第一行代码](https://www.bilibili.com/video/BV1vu411y7Zi?share_source=copy_web)
+- [How to pronounce Linux](https://www.bilibili.com/video/BV1Sx411V7z2?share_source=copy_web)
+- [Git是什么? Github 和 GitLab是什么?](https://www.jianshu.com/p/4b6f1f37ba78)
 
 ```{r skill2A, eval=FALSE, echo=FALSE}
 skill[,-1] |> 
