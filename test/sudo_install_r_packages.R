@@ -29,6 +29,9 @@ sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts 
 
 install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages/', getOption('repos')))
 
+sudo su - -c "R -e \"devtools::update_packages()\""
+sudo su - -c "R -e \"update.packages(ask=FALSE)\""
+
 ----------------------------------
 
 
