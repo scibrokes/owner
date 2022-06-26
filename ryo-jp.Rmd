@@ -1129,10 +1129,11 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 私の詳細に就いては、個人部落格を参照して下さい。
 
-- [博客平臺](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/></a>
-- [貓舍部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/></a> ([貓舍倉庫源代碼](https://github.com/englianhu/englianhu.github.io))
-- [簡書](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/></a>
-- [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/></a>
+- [博客平臺](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/>
+- [博文](https://englianhu.blogspot.com) <img src="www/blogspot.png" width="16"/>
+- [貓舍部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/> ([貓舍倉庫源代碼](https://github.com/englianhu/englianhu.github.io))
+- [簡書](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/>
+- [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/>
 
 `r require('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
@@ -1287,6 +1288,7 @@ knitrREmap(夜光導航圖, local = FALSE)
 <a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
 <a href='https://home.cnblogs.com/u/englianhu'><img src="www/CNBlogs 1.png" width="48"/></a>
 <a href='https://www.bookstack.cn/user/englianhu'><img src="www/bookstack.png" width="48"/></a>
+<a href='https://englianhu.blogspot.com'><img src="www/blogspot.png" width="48"/></a>
 
 <br><br>
 

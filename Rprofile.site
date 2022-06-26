@@ -1,3 +1,4 @@
+#source("renv/activate.R")
 ##						Emacs please make this -*- R -*-
 ## empty Rprofile.site for R on Debian
 ##
@@ -83,6 +84,7 @@ local({
   #install.packages("remotes")
   #remotes::install_github("radiant-rstats/radiant.update", upgrade = "never")
   #radiant.update::radiant.update()
+  #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
 })
 
 ## ======================== Load Packages ==================================
@@ -137,6 +139,10 @@ if(!suppressAll(require('tidyverse'))) {
 
 if(!suppressAll(require('lubridate'))) {
   devtools::install_github('tidyverse/lubridate')
+}
+
+if(!suppressAll(require('prettycode'))) {
+  devtools::install_github('https://github.com/r-lib/prettycode')
 }
 
 #library(prettycode, exclude = c('!', 'print'))

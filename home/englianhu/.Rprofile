@@ -13,11 +13,12 @@ source("renv/activate.R")
 #         function(...) grDevices::ps.options(horizontal=FALSE))
 # set.seed(1234)
 # .First <- function() cat("\n   Welcome to R!\n\n")
+# .Last <- function()  cat("\n   Goodbye!\n\n")
 
 ## ======================== Micro Editor ===================================
 
 ## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
-## Micro ??? A Modern Terminal Based Text Editor with Syntax Highlighting
+## Micro - A Modern Terminal Based Text Editor with Syntax Highlighting
 
 ## ============================= PATH ======================================
 #system('sudo chmod +rwx /usr/lib/R')
@@ -42,6 +43,7 @@ source("renv/activate.R")
 #Sys.setlocale(category = "LC_ALL", locale = "zh_CN.UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
 #Sys.setlocale(category = "LC_ALL", locale = "jp_JP.UTF-8")
+options(encoding='UTF-8')
 
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
@@ -63,7 +65,7 @@ source("renv/activate.R")
 Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3', 
            '_R_USE_PIPEBIND_' = 'true')
 #Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/envs/py38/bin/python')
-## ------------------------------------------------------------------
+## -------------------------------------------------------------------------
 
 ## We set the cloud mirror, which is 'network-close' to everybody, as default
 local({
