@@ -1,7 +1,7 @@
 ##						Emacs please make this -*- R -*-
 ## empty Renviron.site for R on Debian
 ##
-## Copyright (C) 2008 - 2019  Dirk Eddelbuettel and GPL'ed
+## Copyright (C) 2008 - 2022  Dirk Eddelbuettel and GPL'ed
 ##
 ## see help(Startup) for documentation on ~/.Renviron and Renviron.site
 
@@ -35,3 +35,9 @@
 ##
 ## See Section 8 of the R Internals manual for many more options to customize tests.
 _R_CHECK_COMPILATION_FLAGS_KNOWN_='-Wformat -Werror=format-security -Wdate-time'
+
+## edd Apr 2003  Allow local install in /usr/local, also add a directory for
+##               Debian packaged CRAN packages, and finally the default dir
+## edd Jul 2007  Now use R_LIBS_SITE, not R_LIBS
+## edd Mar 2022  Now in Renviron.site reflecting R_LIBS_SITE
+R_LIBS_SITE="/usr/local/lib/R/site-library/:${R_LIBS_SITE}:/usr/lib/R/library"
