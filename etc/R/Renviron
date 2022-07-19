@@ -87,7 +87,7 @@ R_LIBS_SITE=${R_LIBS_SITE:-'%S'}
 # https_proxy = http://127.0.0.1:12333
 
 ## https://askubuntu.com/a/1160369/424049
-#Zotero_Web_API = rkTIABgjQ4Ms2yXxRS3sqEmD
+#Zotero_Web_API = RtS6gKyd3kEG6g8vdfLEqxZY
 
 ## https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
 #GITHUB_PAT = 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
