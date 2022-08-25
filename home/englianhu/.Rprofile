@@ -93,19 +93,19 @@ suppressPackageStartupMessages(require('utils'))
 
 if(!suppressPackageStartupMessages(require('BBmisc'))) {
   install.packages('BBmisc', dependencies = TRUE, 
-                   INSTALL_opts = '--no-lock')
+                   lib = .pth[1], INSTALL_opts = '--no-lock')
 }
 suppressPackageStartupMessages(require('BBmisc'))
 
 if(!suppressPackageStartupMessages(require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, 
-                   INSTALL_opts = '--no-lock')
+                   lib = .pth[1], INSTALL_opts = '--no-lock')
 }
 suppressPackageStartupMessages(require('rmsfuns'))
 
 if(!suppressPackageStartupMessages(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
-                   INSTALL_opts = '--no-lock')
+                   lib = .pth[1], INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
 }
 
@@ -145,13 +145,18 @@ if(!suppressPackageStartupMessages(require('prettycode'))) {
   devtools::install_github('https://github.com/r-lib/prettycode')
 }
 
+## https://github.com/r-lib/crayon
+## https://github.com/r-lib/progress
+## https://github.com/r-hub/rhub
 #library(prettycode, exclude = c('!', 'print'))
-pkgs <- c('MASS', 'devtools', 'lubridate', 'tidyverse', 'rprofile', 'prompt', 
-          'colorout', 'Rdym', 'startup', 'conflicted', 'prettycode')
+pkgs <- c('MASS', 'devtools', 'lubridate', 'tidyverse', 'rprofile', 'prompt', 'colorout', 'Rdym', 'startup', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'dplyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'openxlsx2', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'lubridate', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis')
 suppressPackageStartupMessages(load_pkg(pkgs))
 rm(pkgs)
 
-conflicted::conflict_prefer('print', 'base', quiet=TRUE)
+conflicted::conflict_prefer('print', 'base', quiet = TRUE)
+conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
+conflicted::conflict_prefer('filter', 'dplyr', quiet = TRUE)
+conflicted::conflict_prefer('select', 'dplyr', quiet = TRUE)
 
 ## -------------------------------------------------------------------
 
