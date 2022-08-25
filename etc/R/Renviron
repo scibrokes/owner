@@ -65,7 +65,7 @@ R_STRIP_STATIC_LIB=${R_STRIP_STATIC_LIB-'strip --strip-debug'}
 #R_LIBS_USER=${R_LIBS_USER-'~/Library/R//4.1/library'}
 #R_LIBS_USER=/root/R/x86_64-pc-linux-gnu-library/4.1
 R_LIBS_USER=${R_LIBS_USER-'/usr/lib/R/library'}
-LANGUAGE=cn
+LANGUAGE=
 LC_ALL=
 
 # edd Apr 2003  Allow local install in /usr/local, also add a directory for
