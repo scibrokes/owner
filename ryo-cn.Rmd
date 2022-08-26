@@ -49,7 +49,7 @@ always_allow_html: yes
 resource_files:
 - www/188bet.jpg
 - www/20160910_121813.gif
-- www/Wechat.png
+- www/360doc.png
 - www/7live.jpg
 - www/7live_36x36.jpg
 - www/aaa1.jpg
@@ -1235,7 +1235,7 @@ knitrREmap(夜光导航图, local = FALSE)
 <a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src="www/DouYin.png" width="48"/></a>
 <a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
 <a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.png" width="48"/></a>
-<a href='http://englianhu.360doc.com'><img src="www/Wechat.png" width="48"/></a>
+<a href='http://englianhu.360doc.com'><img src="www/360doc.png" width="48"/></a>
 <a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
 <a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
 <a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
@@ -1290,6 +1290,7 @@ knitrREmap(夜光导航图, local = FALSE)
 <a href='https://home.cnblogs.com/u/englianhu'><img src="www/CNBlogs 1.png" width="48"/></a>
 <a href='https://www.bookstack.cn/user/englianhu'><img src="www/bookstack.png" width="48"/></a>
 <a href='https://englianhu.blogspot.com'><img src="www/blogspot.png" width="48"/></a>
+<a href='https://my.zol.com.cn/index.php?c=me&a=default&userid=baidu_15n64991g'><img src="www/ZOL.png" width="48"/></a>
 
 <br><br>
 
