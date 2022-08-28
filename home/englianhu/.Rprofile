@@ -170,7 +170,7 @@ conflicted::conflict_prefer('print', 'base', quiet = TRUE)
 conflicted::conflict_prefer('filter', 'dplyr', quiet = TRUE)
 conflicted::conflict_prefer('select', 'dplyr', quiet = TRUE)
 
-pkgs <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis')
+pkgs <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis', 'tidytuesdayR')
 suppressPackageStartupMessages(load_pkg(pkgs))
 rm(pkgs)
 
