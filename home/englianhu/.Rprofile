@@ -80,7 +80,7 @@ local({
                     CINC = 'https://cinc.rud.is', 
                     RForge = 'https://www.rforge.net', 
                     RSpatial = 'https://rspatial.r-universe.dev'), 
-                    Stan = 'https://mc-stan.org/r-packages')
+          Stan = 'https://mc-stan.org/r-packages')
   #install.packages('remotes')
   #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
@@ -94,69 +94,85 @@ suppressPackageStartupMessages(require('utils'))
 if(!suppressPackageStartupMessages(require('BBmisc'))) {
   install.packages('BBmisc', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
+  suppressPackageStartupMessages(require('BBmisc'))
 }
-suppressPackageStartupMessages(require('BBmisc'))
 
 if(!suppressPackageStartupMessages(require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
+  suppressPackageStartupMessages(require('rmsfuns'))
 }
-suppressPackageStartupMessages(require('rmsfuns'))
 
 if(!suppressPackageStartupMessages(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
+  suppressPackageStartupMessages(require('devtools'))
 }
+conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
 
 if(!suppressPackageStartupMessages(require('startup'))) {
   ## https://github.com/HenrikBengtsson/startup
   remotes::install_github('HenrikBengtsson/startup', ref = 'develop')
+  suppressPackageStartupMessages(require('startup'))
 }
 
 if(!suppressPackageStartupMessages(require('Rdym'))) {
   devtools::install_github('wrathematics/Rdym')
+  suppressPackageStartupMessages(require('Rdym'))
 }
 
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
 if(!suppressPackageStartupMessages(require('rprofile'))) {
   remotes::install_github('csgillespie/rprofile')
+  suppressPackageStartupMessages(require('rprofile'))
 }
 
 if(!suppressPackageStartupMessages(require('prompt'))) {
   # Used for nice prompts
   remotes::install_github('gaborcsardi/prompt')
+  suppressPackageStartupMessages(require('prompt'))
 }
 
 if(!suppressPackageStartupMessages(require('colorout'))) {
   # Used for nice colours in the terminal; not for Windows
   remotes::install_github('jalvesaq/colorout')
+  suppressPackageStartupMessages(require('colorout'))
 }
 
 if(!suppressPackageStartupMessages(require('tidyverse'))) {
   devtools::install_github('tidyverse/tidyverse')
+  suppressPackageStartupMessages(require('tidyverse'))
 }
 
 if(!suppressPackageStartupMessages(require('lubridate'))) {
   devtools::install_github('tidyverse/lubridate')
+  suppressPackageStartupMessages(require('lubridate'))
 }
 
 if(!suppressPackageStartupMessages(require('prettycode'))) {
   devtools::install_github('https://github.com/r-lib/prettycode')
+  suppressPackageStartupMessages(require('prettycode'))
+}
+
+if(!suppressPackageStartupMessages(require('openxlsx2'))) {
+  remotes::install_github('JanMarvin/openxlsx2')
+  suppressPackageStartupMessages(require('openxlsx2'))
 }
 
 ## https://github.com/r-lib/crayon
 ## https://github.com/r-lib/progress
 ## https://github.com/r-hub/rhub
 #library(prettycode, exclude = c('!', 'print'))
-pkgs <- c('MASS', 'devtools', 'lubridate', 'tidyverse', 'rprofile', 'prompt', 'colorout', 'Rdym', 'startup', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'dplyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'openxlsx2', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'lubridate', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis')
-suppressPackageStartupMessages(load_pkg(pkgs))
-rm(pkgs)
 
+suppressPackageStartupMessages(require('dplyr'))
 conflicted::conflict_prefer('print', 'base', quiet = TRUE)
-conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
 conflicted::conflict_prefer('filter', 'dplyr', quiet = TRUE)
 conflicted::conflict_prefer('select', 'dplyr', quiet = TRUE)
+
+pkgs <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'plyr', 'purrr', 'readr', 'tidyr', 'pryr', 'broom', 'formattable', 'git2r', 'knitr', 'kableExtra', 'data.table', 'tibble', 'tibbletime', 'magrittr', 'forecast', 'fable', 'fabletools', 'usethis')
+suppressPackageStartupMessages(load_pkg(pkgs))
+rm(pkgs)
 
 ## -------------------------------------------------------------------
 
@@ -208,6 +224,8 @@ setHook('rstudio.sessionInit', function(newSession) {
 }, action = 'append')
 
 #rmsfuns::suppressPackageStartupMessages(.First())
-tryCatch(suppressWarnings(startup::startup(all = TRUE)), error=function(ex) 
-  base::message('.Rprofile error: ', base::conditionMessage(ex)))
+tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
+         error = function(ex) 
+           base::message('.Rprofile error: ', 
+                         base::conditionMessage(ex)))
 
