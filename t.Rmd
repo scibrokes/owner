@@ -131,7 +131,7 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'ggplot2', 'leaflet', 'maptools', 'data.table')
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'REmap', 'ggmap', 'vembedr', 'maps', 'ggplot2', 'leaflet', 'maptools', 'data.table', 'encode')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)

@@ -89,6 +89,17 @@ local({
 
 ## ==================== Load Packages ===============================
 
+## https://github.com/JanMarvin/nlsur
+## https://zhuanlan.zhihu.com/p/25868387
+## https://www.cnblogs.com/simplelovecs/p/5145305.html
+## https://blog.csdn.net/sinat_26917383/article/details/52737901
+## https://blog.csdn.net/Allen_jinjie/article/details/71603309
+## https://github.com/hyenaproject/drat
+## drat::addRepo("hyenaproject")
+## install.packages("XXX") ## replace XXX by the name of the package!
+# drat::addRepo("JanMarvin")
+# install.packages("nlsur")
+
 suppressPackageStartupMessages(require('utils'))
 
 if(!suppressPackageStartupMessages(require('BBmisc'))) {
@@ -101,6 +112,12 @@ if(!suppressPackageStartupMessages(require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
   suppressPackageStartupMessages(require('rmsfuns'))
+}
+
+if(!suppressPackageStartupMessages(require('drat'))) {
+  install.packages('drat', dependencies = TRUE, 
+                   lib = .pth[1], INSTALL_opts = '--no-lock')
+  suppressPackageStartupMessages(require('drat'))
 }
 
 if(!suppressPackageStartupMessages(require('devtools'))) {
