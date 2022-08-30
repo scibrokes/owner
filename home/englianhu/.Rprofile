@@ -81,7 +81,8 @@ local({
                     RForge = 'https://www.rforge.net', 
                     RSpatial = 'https://rspatial.r-universe.dev', 
                     Stan = 'https://mc-stan.org/r-packages', 
-                    MSFT = 'http://cran.microsoft.com'))
+                    MSFT = 'http://cran.microsoft.com', 
+                    ROpenSci = 'https://ropensci.r-universe.dev'))
   #install.packages('remotes')
   #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
