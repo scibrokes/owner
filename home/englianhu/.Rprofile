@@ -79,8 +79,9 @@ local({
                     Omega = 'http://www.omegahat.net/R', 
                     CINC = 'https://cinc.rud.is', 
                     RForge = 'https://www.rforge.net', 
-                    RSpatial = 'https://rspatial.r-universe.dev'), 
-          Stan = 'https://mc-stan.org/r-packages')
+                    RSpatial = 'https://rspatial.r-universe.dev', 
+                    Stan = 'https://mc-stan.org/r-packages', 
+                    MSFT = 'http://cran.microsoft.com'))
   #install.packages('remotes')
   #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
@@ -127,6 +128,18 @@ if(!suppressPackageStartupMessages(require('devtools'))) {
   suppressPackageStartupMessages(require('devtools'))
 }
 conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
+
+if(!suppressPackageStartupMessages(require('miniCRAN'))) {
+  ## https://andrie.github.io/miniCRAN/articles/miniCRAN-introduction.html
+  devtools::install_github('andrie/miniCRAN')
+  suppressPackageStartupMessages(require('miniCRAN'))
+}
+
+if(!suppressPackageStartupMessages(require('rhub'))) {
+  ## https://github.com/r-hub/rhub
+  remotes::install_github('r-hub/rhub')
+  suppressPackageStartupMessages(require('rhub'))
+}
 
 if(!suppressPackageStartupMessages(require('startup'))) {
   ## https://github.com/HenrikBengtsson/startup
