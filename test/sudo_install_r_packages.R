@@ -9,19 +9,19 @@ with_config(use_proxy('52.55.211.119', 8080), install_github('jalvesaq/colorout'
 52.55.211.119
 20.205.243.168
 
-sudo su - -c "R -e \"install.packages('devtools', repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages('devtools', repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
 sudo su - -c "R -e \"pkgs <- c('ghit', 'rstanarm', 'beyesplot'); BBmisc::lib(pkgs)\""
 
 # we recommend running this is a fresh R session or restarting your current session
-sudo su - -c "R -e \"install.packages(c('ghit', 'rstanarm', 'beyesplot'), repos = c('https://mc-stan.org/r-packages/'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('ghit', 'rstanarm', 'beyesplot'), repos = c('https://mc-stan.org/r-packages/'), lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
 sudo su - -c "R -e \"remotes::install_github('stan-dev/cmdstanr')\""
 sudo su - -c "R -e \"install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages', getOption('repos')))\""
 
-sudo su - -c "R -e \"install.packages(c('splashr', ''), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('splashr', ''), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
-sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
 sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-multiarch', force = TRUE)\""
 
