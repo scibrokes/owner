@@ -102,6 +102,10 @@ local({
 # drat::addRepo("JanMarvin")
 # install.packages("nlsur")
 
+## R包安装失败解决
+## https://www.jianshu.com/p/381340383c12
+options(repos='http://cran.rstudio.com/')
+
 suppressPackageStartupMessages(require('utils'))
 
 if(!suppressPackageStartupMessages(require('BBmisc'))) {
