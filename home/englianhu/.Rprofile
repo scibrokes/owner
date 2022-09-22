@@ -104,7 +104,8 @@ local({
 
 ## R包安装失败解决
 ## https://www.jianshu.com/p/381340383c12
-options(repos='http://cran.rstudio.com/')
+## options(repos='http://cran.rstudio.com/')
+options(repos='https://cran.rstudio.com/')
 
 suppressPackageStartupMessages(require('utils'))
 
