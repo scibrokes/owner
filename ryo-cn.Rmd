@@ -1248,7 +1248,7 @@ knitrREmap(夜光导航图, local = FALSE)
 <a href='https://xiaohongshu.com'><img src="www/hong.jpg" width="48"/></a>
 <a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" width="48"/></a>
 <a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" width="48"/></a>
-<a href='https://jhsph.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
+<a href='http://pku.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
 <a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
 <a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
 <a href='https://www.youtube.com/c/黄联富'><img src="www/YouTube.jpeg" width="48"/></a>
