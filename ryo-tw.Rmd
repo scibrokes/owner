@@ -582,14 +582,14 @@ op <- options(gvis.plot.tag = 'chart')
 - *02 課程：實踐金融交昜機械化*
 - *03 課程：學習強化版交昜策略*
 - **學習金融交昜機械化專項課程**
-- **貓舍倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
+- **貓城倉庫**：[Coursera - Machine Learning for Trading](https://github.com/englianhu/Coursera-Machine-Learning-for-Trading)
 
 <br>
 
 ### **[2021年12月 迄今]{style="color:Red"}：專業文憑，派森編程與統計學之金融分析**；（[考試啦](http://www.coursera.org) - [香港科技大學（HKUST）](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>）
 
 - *課程：派森編程與統計學之金融分析*
-- **貓舍倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **貓城倉庫**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -601,7 +601,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *04 課程：[開發數據視覺化工具](https://www.coursera.org/account/accomplishments/records/K6EC87PF4AKD)*
 - *05 課程：[掌握®編程軟件開發[頂點項目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/W6XDFFQ62NDX)*
 - [**掌握®編程軟件開發專項課程**](https://www.coursera.org/account/accomplishments/specialization/KTF8BDLMBLQC)
-- **貓舍倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
+- **貓城倉庫**：[Coursera - Mastering Software Development in R](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
@@ -612,28 +612,28 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*03 課程：強化版金融學*</s>
 - *04 課程：[概述強化版金融機械化（派森編程）](https://www.coursera.org/account/accomplishments/records/QA3NPYCL67RW)*
 - **學習強化版金融機械化專項課程**
-- **貓舍倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
+- **貓城倉庫** : [Coursera - Overview of Advanced Methods of Reinforcement Learning in Finance](https://github.com/englianhu/Coursera-Overview-of-Advanced-Methods-of-Reinforcement-Learning-in-Finance)
 
 <br>
 
 ### **2021年5月 至 2021年7月：專業文憑，貝葉斯統計混合模型**；（[考試啦](http://www.coursera.org) - [加州大學（UC）](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>）
 
 - *課程：[貝葉斯統計混合模型（®編程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
-- **貓舍倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
+- **貓城倉庫** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
 ### **2021年1月 至 2021年1月：專業文憑，生物信息學: 導論與方法**；（[考試啦](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>）
 
 - *課程：[生物信息學: 導論與方法（隱馬爾科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
-- **貓舍倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
+- **貓城倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
 ### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大學本科，電腦科學</s>**；（[人民大學 (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>）
 
 - <s>*課程：電腦科學*</s>
-- **貓舍倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
+- **貓城倉庫** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
@@ -647,7 +647,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*06 課程：工藝提昇*</s>
 - <s>*07 課程：提昇企業財務和運營[頂點項目]{style="color:#15237A"}*</s>
 - <s>**提昇企業財務和運營專項課程**</s>
-- **貓舍倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
+- **貓城倉庫** : [Coursera - Improving Business Finances and Operations](https://github.com/englianhu/Coursera-Improving-Business-Finances-and-Operations)
 
 <br>
 
@@ -660,7 +660,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*05 課程：數據挖掘中的聚類分析*</s>
 - <s>*06 課程：數據挖掘[頂點項目]{style="color:#15237A"}*</s>
 - <s>**數據挖掘專項課程**</s>
-- **貓舍倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
+- **貓城倉庫** : [Coursera - Data Mining](https://github.com/englianhu/Coursera-Data-Mining)
 
 <br>
 
@@ -677,7 +677,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *09 課程：[數據產品開發](https://www.coursera.org/account/accomplishments/records/ERvuyAZm6CG45EUS)*
 - *10 課程：[數據科學[頂點項目]{style="color:#15237A"}](https://www.coursera.org/account/accomplishments/records/TEBWXB4ZC5MB)*
 - [**數據科學專項課程**](https://www.coursera.org/account/accomplishments/specialization/RRYWVWNAP5EB)
-- **貓舍倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
+- **貓城倉庫** : [Coursera - Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone)
 
 <br>
 
@@ -689,7 +689,7 @@ op <- options(gvis.plot.tag = 'chart')
 - <s>*04 課程：在派森編程中使用數據庫*</s>
 - <s>*05 課程：使用派森編程檢索、處理和視覺化數據[頂點項目]{style="color:#15237A"}*</s>
 - <s>**為每個人而設的派森編程專項課程**</s>
-- **貓舍倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
+- **貓城倉庫** : [Programming for Everybody](https://raw.githubusercontent.com/scibrokes/owner/fea7f2a20e5d045325549a7b996c87d81308f997/documents/Coursera%20Michigan%20-%20Programming%20for%20Everybody%20(Python).pdf)
 
 <br>
 
@@ -732,7 +732,7 @@ op <- options(gvis.plot.tag = 'chart')
 - *簡介：[**世博量化®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^13]是一家在全球市場進行交易的量化投資管理公司，通過數理統計為投資者帶來高投資回報率。*
 - *工作明細：在金融市場中科研統計建模、風險管理與高頻自動演算量化交易和數據分析等，之後會到中國大陸發展。*
 
-[^13]: [*世博量化®（官網）*](https://www.scibrokes.com)<br>[*世博量化®（貓舍倉庫）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
+[^13]: [*世博量化®（官網）*](https://www.scibrokes.com)<br>[*世博量化®（貓城倉庫）*](https://github.com/scibrokes)<br>[*世博量化®（臉譜）*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -866,7 +866,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 科研項目
 
-### **貓舍倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
+### **貓城倉庫**：[**Real Time FXCM（FXCM實時數據與交昜）**](https://github.com/scibrokes/real-time-fxcm)
 
 - *使用`sparklyr`等應用採集日內數據、數據流。*
 - *高頻算法量化交易等等。*
@@ -874,20 +874,20 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **貓舍倉庫**：[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
+### **貓城倉庫**：[**Analysing Financial Report of ALI（分析阿裏財務報表）**](https://github.com/englianhu/report)
 
 - *分析阿裏彩票公司的財務報表、包括產品盈虧、會員盈虧、消費模式、會員日誌記錄等。*
 
 <br>
 
-### **貓舍倉庫**：[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
+### **貓城倉庫**：[**Analysing Financial Report of Bookmakers（分析博彩公司財務報告）**](https://github.com/scibrokes/analyse-the-finance-and-stocks-price-of-bookmakers)
 
 - *分析上市公司的財務報表與股價。*
 - *分析新寶壹與新寶贰的財務報表。*
 
 <br>
 
-### **貓舍倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交昜員崗位）**](https://github.com/englianhu/binary.com-interview-question)
+### **貓城倉庫**：[**binary.com : Job Application - Quantitative Analyst（binary.com：申請量化交昜員崗位）**](https://github.com/englianhu/binary.com-interview-question)
 
 - *回測金融投註建模，投註策略和比較投資收益率。*
 - *回測自回歸模型、平滑模型、廣義自回歸條件異方差模型系列，包括凱利投註模型等等。*
@@ -895,46 +895,46 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **貓舍倉庫**：[**Betting Strategy and Model Validation（博彩交昜策略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
+### **貓城倉庫**：[**Betting Strategy and Model Validation（博彩交昜策略與模型驗證）**](https://github.com/scibrokes/Betting-Strategy-and-Model-Validation)
 
 - *使用Selenium硒網頁應用程序測試工具和PhantomJS無頭銜瀏覽器引擎軟件採集網絡足球彩券與賽事數據。*
 - *自然語言分析採集來的足球賽事數據，自動匹配球隊隊名與對沖基金的註單賽事隊名。*
-- *運用凱利標準投註並調整不同的槓桿效應參數，回測[Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）](#貓舍倉庫application-of-kelly-criterion-model-in-sportsbook-investment在博彩行業中應用凱利標準模型進行投資)。*
+- *運用凱利標準投註並調整不同的槓桿效應參數，回測[Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）](#貓城倉庫application-of-kelly-criterion-model-in-sportsbook-investment在博彩行業中應用凱利標準模型進行投資)。*
 
 <br>
 
-### **貓舍倉庫**：[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®文藝坊服務器）**](https://github.com/scibrokes/setup-rstudio-server)
+### **貓城倉庫**：[**Introducing ®Studio Server for Data Scientists（為數據科學們介紹®文藝坊服務器）**](https://github.com/scibrokes/setup-rstudio-server)
 
 - *如何在仙臺操作繫統柒建立自己的®文藝坊服務器與閃霓應用的教程。*
 
 <br>
 
-### **貓舍倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/scibrokes/kelly-criterion)
+### **貓城倉庫**：[**Application of Kelly Criterion model in Sportsbook Investment（在博彩行業中應用凱利標準模型進行投資）**](https://github.com/scibrokes/kelly-criterion)
 
-- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）](#貓舍倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers賠率建模與測試體育博彩莊家的低效率)，而足球賽事數據採集於[WebDriver Dynamic Webpage Scrapping（網絡驅動程序與採集動態網頁信息）](#貓舍倉庫webdriver-dynamic-webpage-scrapping網絡驅動程序與採集動態網頁信息)。*
+- *回測[Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試體育博彩莊家的低效率）](#貓城倉庫odds-modelling-and-testing-inefficiency-of-sports-bookmakers賠率建模與測試體育博彩莊家的低效率)，而足球賽事數據採集於[WebDriver Dynamic Webpage Scrapping（網絡驅動程序與採集動態網頁信息）](#貓城倉庫webdriver-dynamic-webpage-scrapping網絡驅動程序與採集動態網頁信息)。*
 - *回測凱利標準模型，投註於拾家博彩公司的英國2011/12與2012/13賽季的賽事。*
 
 <br>
 
-### **貓舍倉庫**：[**Dixon-Coles1996（迪克遜-克爾斯1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
+### **貓城倉庫**：[**Dixon-Coles1996（迪克遜-克爾斯1996統計模型）**](https://github.com/scibrokes/Dixon-Coles1996)
 
 - *Dixon & Coles 1996 足球得分建模。*
 
 <br>
 
-### **貓舍倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動與採集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
+### **貓城倉庫**：[**WebDriver Dynamic Webpage Scrapping（瀏覽器驅動與採集動態網頁信息）**](https://github.com/scibrokes/WebDriver-DynamicWebpage-Scrapping)
 
 - *使用RSelenium與派森編程，從[7M](http://odds.7m.hk/en)和[NowGoal](http://info.nowgoal.com/en)情報網採集博彩公司的賠率數據與賽事比分。*
 
 <br>
 
-### **貓舍倉庫**：[**Soccer League Web Scraping（採集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
+### **貓城倉庫**：[**Soccer League Web Scraping（採集網上足球聯賽信息）**](https://github.com/scibrokes/Soccer-League-Web-Scraping)
 
 - *採集靜態網頁足球賽事數據。*
 
 <br>
 
-### **貓舍倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試低效率的體育博彩莊家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
+### **貓城倉庫**：[**Odds Modelling and Testing Inefficiency of Sports-Bookmakers（賠率建模與測試低效率的體育博彩莊家）**](https://github.com/scibrokes/odds-modelling-and-testing-inefficiency-of-sports-bookmakers)
 
 - *手動收集[500WAN](http://www.500wan.com)、[BET007](http://www.bet007.com)與[NowGoal](http://info.nowgoal.com/en)情報網的足球賽事比分與贰拾玖家博彩公司的標準盤、亞洲盤、大小盤的賠率，所有數據包括從2006至2011的數據。*
 - *運用對角零通膨雙變量泊松加權時間序列模型，回測賠率建模、投註策略和比較投資收益率。*
@@ -954,7 +954,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **貓舍倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中運用柏松線性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
+### **貓城倉庫**：[**Apply Poisson regression on sports odds modelling（在體育賠率建模中運用柏松線性模型）**](https://github.com/englianhu/Apply-Poisson-Regression-on-Sports-Odds-Modelling)
 
 - *在足球賠率建模中運用單變量泊松模型。*
 
@@ -1131,7 +1131,7 @@ source('function/skill2B.R', encoding = 'utf-8')
 
 - [博客平臺](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/>
 - [博文](https://englianhu.blogspot.com) <img src="www/blogspot.png" width="16"/>
-- [貓舍部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/> ([貓舍倉庫源代碼](https://github.com/englianhu/englianhu.github.io))
+- [貓城部落格](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/> ([貓城倉庫源代碼](https://github.com/englianhu/englianhu.github.io))
 - [簡書](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/>
 - [知呼](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/>
 
@@ -1307,7 +1307,7 @@ knitrREmap(夜光導航圖, local = FALSE)
 - [**rmarkdown**](https://github.com/rstudio/rmarkdown) 程序包版本：`r packageVersion('rmarkdown')`
 - 文集版本：0.2.1
 - 文集作者：[®γσ, ξηg Lιαη Ημ](https://rpubs.com/englianhu/ryo-tw)
-- 貓舍：[源代碼](https://github.com/scibrokes/owner)
+- 貓城：[源代碼](https://github.com/scibrokes/owner)
 - 追加附屬信息
 
 ```{r info}

@@ -19,7 +19,7 @@
 
 **最新版本**
 
-多语言闪霓履历表shinyCV [®γσ, ξηg Lιαη Ημ]() ------ *更新于xxxxxxxxx*
+多语言简历（闪霓互动式应用）shinyCV [®γσ, ξηg Lιαη Ημ]() ------ *更新于xxxxxxxxx*
 
 -   [®γσ, Eng Lian Hu (ξηg)](https://rpubs.com/englianhu/ryo-eng) ------ *更新于xxxxxx*
 -   [®γσ, Eng Lian Hu (🇬🇧🇺🇸 en)](https://rpubs.com/englianhu/ryo-en) ------ *更新于xxxxxx*
@@ -31,7 +31,7 @@
 
 <img src="www/20181028_225629.gif" width="240"/>
 
-- 多语言闪霓履历表shinyCV [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/4352)
+- 多语言简历（闪霓互动式应用）shinyCV [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/4352)
 
   -   [®γσ, Eng Lian Hu (Eηg)](https://beta.rstudioconnect.com/content/4354/ryo-eng.html) ------ *更新于 2018-10-28 21:54:56 JST*
   -   [®γσ, Eng Lian Hu (en)](https://beta.rstudioconnect.com/content/4356/ryo-en.html) ------ *更新于 2018-10-28 22:09:59 JST*
