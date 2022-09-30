@@ -1,9 +1,9 @@
 ---
 title: "<span style='color:goldenrod'>RMarkdown导入/引用外来编程语</span>"
 subtitle: '外来编程语'
-author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='www/ENG.png'
-  width='24' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  width='17' align='center' valign='middle'>®"
+author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='文艺坊图库/ENG.png'
+  height='16' align='center' valign='middle'> <img src='文艺坊图库/me light mode.jpg'
+  height='16' align='center' valign='middle'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, Python, ®Studio]
 date: "13-Apr-2022"
 output:
@@ -130,7 +130,7 @@ knitr::opts_chunk$set(
 ```{r libs, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-source('function/libs.R')
+source('函数/libs.R')
 ```
 
 ```{r setup, include=FALSE}
@@ -159,7 +159,7 @@ rm(pkgs)
 ##  only the chart component of the HTML file is written into the output file.
 op <- options(gvis.plot.tag = 'chart')
 
-## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
+## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
 <br><br>
@@ -367,5 +367,5 @@ public static async Task<string> PostWebAsync(string url, string idata) {
 
 ---
 
-[<img src="www/Scibrokes.png" width="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" width="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
+[<img src='文艺坊图库/Scibrokes.png' height='16'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='文艺坊图库/Scibrokes.png' height='16'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>

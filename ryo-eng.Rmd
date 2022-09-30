@@ -1,11 +1,9 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='www/ENG.png'
-  height='16' align='center' valign='middle'> <img src='www/me light mode.jpg'
-  height='16' align='center' valign='middle'>®"
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='文艺坊图库/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/ENG.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/me light mode.jpg' height='16' align='center' valign='middle'>®"
 tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
-date: "22-Oct-1984"
+date: '22-Oct-1984'
 output:
   html_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -47,338 +45,376 @@ output:
     css: CSSBackgrounds.css
 always_allow_html: yes
 resource_files:
-- www/188bet.jpg
-- www/20160910_121813.gif
-- www/360doc.png
-- www/7live.jpg
-- www/7live_36x36.jpg
-- www/aaa1.jpg
-- www/aaa2.jpg
-- www/aaaa.jpg
-- www/aboutme.png
-- www/aboutme_36x36.png
-- www/academia.jpg
-- www/AIA.png
-- www/ali.jpg
-- www/ali_36x36.jpg
-- www/alibaba1.jpg
-- www/alibaba2.jpg
-- www/anr.png
-- www/anr_36x36.png
-- www/apple.jpg
-- www/Arduino.png
-- www/AskUbuntu.png
-- www/bettingforum.png
-- www/bettingforum_36x36.png
-- www/betworks.png
-- www/BiliBili.png
-- www/biostatistic.png
-- www/biostatistic_36x36.png
-- www/bitbucket.png
-- www/bitbucket_36x36.png
-- www/cari.png
-- www/caspo.jpg
-- www/centOS.png
-- www/centOS_36x36.png
-- www/Chris_Evans_Captain_America.jpg
-- www/cos.jpg
-- www/cos_36x36.jpg
-- www/coursera.png
-- www/coursera_36x36.png
-- www/csdn.png
-- www/csdn_36x36.png
-- www/csdn2.png
-- www/dashencaicai2.jpg
-- www/discord1.png
-- www/discord2.jpg
-- www/Discuss.png
-- www/disqus.png
-- www/disqus_36x36.png
-- www/DouYin.png
-- www/dwang.png
-- www/dwang_36x36.png
-- www/dwang2.png
-- www/Dynasty_Hotel_Tang.png
-- www/ENG.png
-- www/Esquire_Kitchen.png
-- www/facebook.jpg
-- www/facebook_36x36.jpg
-- www/facebook2.jpg
-- www/facebook2_36x36.jpg
-- www/FB.jpeg
-- www/FossCom1.png
-- www/FossCom2.png
-- www/fuji-xerox.png
-- www/gblinks.JPG
-- www/getronics.png
-- www/github.jpg
-- www/github_36x36.jpg
-- www/github2.png
-- www/github2_36x36.png
-- www/github3.jpg
-- www/github3_36x36.jpg
-- www/Github_Pages.png
-- www/Golden-Royal.png
-- www/gplus.png
-- www/gplus_36x36.png
-- www/guokr.jpeg
-- www/HKUST.png
-- www/hong.jpg
-- www/hot.jpg
-- www/idealseed.jpg
-- www/IG1.png
-- www/IG2.png
-- www/IG3.png
-- www/IG4.png
-- www/IG5.png
-- www/Illinois.jpg
-- www/instagram.png
-- www/instagram_36x36.png
-- www/instagram2.jpg
-- www/instagram2_36x36.jpg
-- www/instagram3.jpg
-- www/instagram3_36x36.jpg
-- www/InventKDE1.png
-- www/InventKDE2.png
-- www/iq.png
-- www/jckl.png
-- www/JEES.gif
-- www/JFKL.jpg
-- www/jg.png
-- www/jg_36x36.png
-- www/JG1.png
-- www/JG2.png
-- www/jhu.jpg
-- www/JianShu.png
-- www/joey_jeans.jpg
-- www/KuaiShou.png
-- www/ladbrokes.jpg
-- www/library.jpg
-- www/library2.jpg
-- www/library3.jpg
-- www/linkedin.png
-- www/linkedin_36x36.png
-- www/linkedIn.jpeg
-- www/LinuxConfig1.jpg
-- www/LinuxConfig2.png
-- www/LQ.jpg
-- www/LQ_36x36.jpg
-- www/LQ2.jpg
-- www/LQ2_36x36.jpg
-- www/ltree.png
-- www/madio.png
-- www/manpower.jpg
-- www/mas.jpg
-- www/math & stats.jpg
-- www/math-3d-hd-wallpaper.jpg
-- www/math-theme-03.jpg
-- www/mathchina.jpg
-- www/mathchina_36x36.jpg
-- www/maths.jpg
-- www/MClub.png
-- www/Me byteDance.jpg
-- www/me light mode.jpg
-- www/me.JPG
-- www/me light mode.jpg
-- www/medium.png
-- www/mindpearl01.jpg
-- www/mindpearl02.jpg
-- www/my-passport-size-photo.jpg
-- www/no-sex-at-the-moment.png
-- www/NYIF.jpeg
-- www/NYU.png
-- www/nyu.png
-- www/oda-army.jpg
-- www/OKru.png
-- www/oksportcn_01.png
-- www/oksportcn_02.png
-- www/oksportcn_03.png
-- www/oksportcn_04.png
-- www/Orchard.png
-- www/PAAC.jpg
-- www/Peking University 02.png
-- www/phabricator.png
-- www/pixnet.png
-- www/plotly.jpg
-- www/plotly_36x36.jpg
-- www/PLounge.jpg
-- www/PLounge_36x36.jpg
-- www/prestige.png
-- www/qi-pioneer-logo.png
-- www/QQ wb.png
-- www/QQ wb_36x36.png
-- www/QQ.jpg
-- www/QQ_36x36.jpg
-- www/qi-pioneer-logo.png
-- www/quant_trader_adj.jpg
-- www/quantitative trader.jpg
-- www/quantitative trader 1.jpg
-- www/quantitative trader 2.jpg
-- www/quantitative_trader.jpg
-- www/Quora.png
-- www/Qzone.png
-- www/Qzone_36x36.png
-- www/RB.png
-- www/rcrown.jpg
-- www/Reddit.png
-- www/retailsshop.jpg
-- www/RG.png
-- www/rnable.jpg
-- www/rnable_36x36.jpg
-- www/rstudio.jpg
-- www/RStudioCom1.png
-- www/RStudioCom2.png
-- www/RT1.jpg
-- www/RT2.jpg
-- www/RT3.jpg
-- www/RXforum.jpg
-- www/RXforum_36x36.jpg
-- www/RYO-Photo.jpg
-- www/RYO.jpg
-- www/RYU.png
-- www/SBR.jpg
-- www/SBR_36x36.jpg
-- www/Scibrokes.png
-- www/scb_logo.jpg
-- www/scb_logo2.jpg
-- www/scb-logo3.png
-- www/scb-logo3rs.png
-- www/Scibrokes®-TonyStark®.jpg
-- www/Scibrokes-TonyStark.png
-- www/scicom.jpg
-- www/SE.png
-- www/ShirotoNorimichi.jpg
-- www/ShirotoNorimichi2.jpg
-- www/skype.jpg
-- www/skype_36x36.jpg
-- www/social.jpg
-- www/social_36x34.jpg
-- www/SocialMedia.jpg
-- www/SOF.jpg
-- www/starlizard.jpg
-- www/stats.jpg
-- www/Steam.png
-- www/talkstats.png
-- www/talkstats_36x36.png
-- www/TARC.jpg
-- www/telebiz.jpg
-- www/Thumbs.db
-- www/tm.jpg
-- www/TonyStark.png
-- www/tsujiki-mart.png
-- www/Tumblr.png
-- www/Tumblr1.png
-- www/Tumblr2.jpeg
-- www/Tumblr3.jpg
-- www/twitter.png
-- www/twitter_36x36.png
-- www/u-drive-media.jpg
-- www/u-of-i-urbana-2.png
-- www/UCSC.jpeg
-- www/ucsc.jpg
-- www/um.jpg
-- www/UoP-logo.jpg
-- www/UST.jpg
-- www/uwants.png
-- www/vimeo.jpg
-- www/vk.png
-- www/Wechat.png
-- www/Wechat1.png
-- www/Wechat2.png
-- www/weibo.png
-- www/weibo_36x36.png
-- www/wordpress.png
-- www/wordpress_36x36.png
-- www/Wechat1.png
-- www/Wechat2.png
-- www/xerox.png
-- www/xueba.jpg
-- www/xueba1.jpg
-- www/xueba2.jpg
-- www/xueba2.png
-- www/xueba3.jpg
-- www/Yandex.png
-- www/YouTube.jpeg
-- www/zeef.jpg
-- www/zeef_36x36.jpg
-- www/ZhiHu.png
-- www/zoom.jpeg
-- www/βεst Jοεγ 7.jpg
-- www/βεst Jοεγ 8.jpg
-- www/βεst Jοεγ 胸有大痣.png
-- www/βεst Jοεγ.jpg
-- www/中国区划.gif
-- www/美国省区旗.png
-- www/βεst Jοεγ 胸有大痣.png
-- data/dfm.csv
-- data/kellym.txt
-- data/shinyData.rds
-- data/worldcities.csv
-- function/buildFund.R
-- function/libs.R
-- function/plotChart.R
-- music/bigmoney.mp3
-- www/b4TDbiz-.pdf
-- www/韩国情信.mp4
-- documents/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
-- documents/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
-- documents/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
-- documents/Coursera Illinous - Improving Business Finances and Operations - 02 Managerial
+- 文艺坊图库/188bet.jpg
+- 文艺坊图库/20160910_121813.gif
+- 文艺坊图库/360doc.png
+- 文艺坊图库/7live.jpg
+- 文艺坊图库/7live_36x36.jpg
+- 文艺坊图库/aaa1.jpg
+- 文艺坊图库/aaa2.jpg
+- 文艺坊图库/aaaa.jpg
+- 文艺坊图库/aboutme.png
+- 文艺坊图库/aboutme_36x36.png
+- 文艺坊图库/academia.jpg
+- 文艺坊图库/AIA.png
+- 文艺坊图库/ali.jpg
+- 文艺坊图库/ali_36x36.jpg
+- 文艺坊图库/alibaba1.jpg
+- 文艺坊图库/alibaba2.jpg
+- 文艺坊图库/anr.png
+- 文艺坊图库/anr_36x36.png
+- 文艺坊图库/apple.jpg
+- 文艺坊图库/Arduino.png
+- 文艺坊图库/AskUbuntu.png
+- 文艺坊图库/bettingforum.png
+- 文艺坊图库/bettingforum_36x36.png
+- 文艺坊图库/betworks.png
+- 文艺坊图库/BiliBili.png
+- 文艺坊图库/biostatistic.png
+- 文艺坊图库/biostatistic_36x36.png
+- 文艺坊图库/bitbucket.png
+- 文艺坊图库/bitbucket_36x36.png
+- 文艺坊图库/cari.png
+- 文艺坊图库/caspo.jpg
+- 文艺坊图库/centOS.png
+- 文艺坊图库/centOS_36x36.png
+- 文艺坊图库/Chris_Evans_Captain_America.jpg
+- 文艺坊图库/cos.jpg
+- 文艺坊图库/cos_36x36.jpg
+- 文艺坊图库/coursera.png
+- 文艺坊图库/coursera_36x36.png
+- 文艺坊图库/csdn.png
+- 文艺坊图库/csdn_36x36.png
+- 文艺坊图库/csdn2.png
+- 文艺坊图库/dashencaicai2.jpg
+- 文艺坊图库/discord1.png
+- 文艺坊图库/discord2.jpg
+- 文艺坊图库/Discuss.png
+- 文艺坊图库/disqus.png
+- 文艺坊图库/disqus_36x36.png
+- 文艺坊图库/DouYin.png
+- 文艺坊图库/dwang.png
+- 文艺坊图库/dwang_36x36.png
+- 文艺坊图库/dwang2.png
+- 文艺坊图库/Dynasty_Hotel_Tang.png
+- 文艺坊图库/ENG.png
+- 文艺坊图库/Esquire_Kitchen.png
+- 文艺坊图库/facebook.jpg
+- 文艺坊图库/facebook_36x36.jpg
+- 文艺坊图库/facebook2.jpg
+- 文艺坊图库/facebook2_36x36.jpg
+- 文艺坊图库/FB.jpeg
+- 文艺坊图库/FossCom1.png
+- 文艺坊图库/FossCom2.png
+- 文艺坊图库/fuji-xerox.png
+- 文艺坊图库/gblinks.JPG
+- 文艺坊图库/getronics.png
+- 文艺坊图库/github.jpg
+- 文艺坊图库/github_36x36.jpg
+- 文艺坊图库/github2.png
+- 文艺坊图库/github2_36x36.png
+- 文艺坊图库/github3.jpg
+- 文艺坊图库/github3_36x36.jpg
+- 文艺坊图库/Github_Pages.png
+- 文艺坊图库/Golden-Royal.png
+- 文艺坊图库/gplus.png
+- 文艺坊图库/gplus_36x36.png
+- 文艺坊图库/guokr.jpeg
+- 文艺坊图库/HKUST.png
+- 文艺坊图库/hong.jpg
+- 文艺坊图库/hot.jpg
+- 文艺坊图库/idealseed.jpg
+- 文艺坊图库/IG1.png
+- 文艺坊图库/IG2.png
+- 文艺坊图库/IG3.png
+- 文艺坊图库/IG4.png
+- 文艺坊图库/IG5.png
+- 文艺坊图库/Illinois.jpg
+- 文艺坊图库/instagram.png
+- 文艺坊图库/instagram_36x36.png
+- 文艺坊图库/instagram2.jpg
+- 文艺坊图库/instagram2_36x36.jpg
+- 文艺坊图库/instagram3.jpg
+- 文艺坊图库/instagram3_36x36.jpg
+- 文艺坊图库/InventKDE1.png
+- 文艺坊图库/InventKDE2.png
+- 文艺坊图库/iq.png
+- 文艺坊图库/jckl.png
+- 文艺坊图库/JEES.gif
+- 文艺坊图库/JFKL.jpg
+- 文艺坊图库/jg.png
+- 文艺坊图库/jg_36x36.png
+- 文艺坊图库/JG1.png
+- 文艺坊图库/JG2.png
+- 文艺坊图库/jhu.jpg
+- 文艺坊图库/JianShu.png
+- 文艺坊图库/joey_jeans.jpg
+- 文艺坊图库/KuaiShou.png
+- 文艺坊图库/ladbrokes.jpg
+- 文艺坊图库/library.jpg
+- 文艺坊图库/library2.jpg
+- 文艺坊图库/library3.jpg
+- 文艺坊图库/linkedin.png
+- 文艺坊图库/linkedin_36x36.png
+- 文艺坊图库/linkedIn.jpeg
+- 文艺坊图库/LinuxConfig1.jpg
+- 文艺坊图库/LinuxConfig2.png
+- 文艺坊图库/LQ.jpg
+- 文艺坊图库/LQ_36x36.jpg
+- 文艺坊图库/LQ2.jpg
+- 文艺坊图库/LQ2_36x36.jpg
+- 文艺坊图库/ltree.png
+- 文艺坊图库/madio.png
+- 文艺坊图库/manpower.jpg
+- 文艺坊图库/mas.jpg
+- 文艺坊图库/math & stats.jpg
+- 文艺坊图库/math-3d-hd-wallpaper.jpg
+- 文艺坊图库/math-theme-03.jpg
+- 文艺坊图库/mathchina.jpg
+- 文艺坊图库/mathchina_36x36.jpg
+- 文艺坊图库/maths.jpg
+- 文艺坊图库/MClub.png
+- 文艺坊图库/Me byteDance.jpg
+- 文艺坊图库/me light mode.jpg
+- 文艺坊图库/me.JPG
+- 文艺坊图库/me light mode.jpg
+- 文艺坊图库/medium.png
+- 文艺坊图库/mindpearl01.jpg
+- 文艺坊图库/mindpearl02.jpg
+- 文艺坊图库/my-passport-size-photo.jpg
+- 文艺坊图库/no-sex-at-the-moment.png
+- 文艺坊图库/NYIF.jpeg
+- 文艺坊图库/NYU.png
+- 文艺坊图库/nyu.png
+- 文艺坊图库/oda-army.jpg
+- 文艺坊图库/OKru.png
+- 文艺坊图库/oksportcn_01.png
+- 文艺坊图库/oksportcn_02.png
+- 文艺坊图库/oksportcn_03.png
+- 文艺坊图库/oksportcn_04.png
+- 文艺坊图库/Orchard.png
+- 文艺坊图库/PAAC.jpg
+- 文艺坊图库/Peking University 02.png
+- 文艺坊图库/phabricator.png
+- 文艺坊图库/pixnet.png
+- 文艺坊图库/plotly.jpg
+- 文艺坊图库/plotly_36x36.jpg
+- 文艺坊图库/PLounge.jpg
+- 文艺坊图库/PLounge_36x36.jpg
+- 文艺坊图库/prestige.png
+- 文艺坊图库/qi-pioneer-logo.png
+- 文艺坊图库/QQ wb.png
+- 文艺坊图库/QQ wb_36x36.png
+- 文艺坊图库/QQ.jpg
+- 文艺坊图库/QQ_36x36.jpg
+- 文艺坊图库/qi-pioneer-logo.png
+- 文艺坊图库/quant_trader_adj.jpg
+- 文艺坊图库/quantitative trader.jpg
+- 文艺坊图库/quantitative trader 1.jpg
+- 文艺坊图库/quantitative trader 2.jpg
+- 文艺坊图库/quantitative_trader.jpg
+- 文艺坊图库/Quora.png
+- 文艺坊图库/Qzone.png
+- 文艺坊图库/Qzone_36x36.png
+- 文艺坊图库/RB.png
+- 文艺坊图库/rcrown.jpg
+- 文艺坊图库/Reddit.png
+- 文艺坊图库/retailsshop.jpg
+- 文艺坊图库/RG.png
+- 文艺坊图库/rnable.jpg
+- 文艺坊图库/rnable_36x36.jpg
+- 文艺坊图库/rstudio.jpg
+- 文艺坊图库/RStudioCom1.png
+- 文艺坊图库/RStudioCom2.png
+- 文艺坊图库/RT1.jpg
+- 文艺坊图库/RT2.jpg
+- 文艺坊图库/RT3.jpg
+- 文艺坊图库/RXforum.jpg
+- 文艺坊图库/RXforum_36x36.jpg
+- 文艺坊图库/RYO-Photo.jpg
+- 文艺坊图库/RYO.jpg
+- 文艺坊图库/RYU.png
+- 文艺坊图库/SBR.jpg
+- 文艺坊图库/SBR_36x36.jpg
+- 文艺坊图库/Scibrokes.png
+- 文艺坊图库/scb_logo.jpg
+- 文艺坊图库/scb_logo2.jpg
+- 文艺坊图库/scb-logo3.png
+- 文艺坊图库/scb-logo3rs.png
+- 文艺坊图库/Scibrokes®-TonyStark®.jpg
+- 文艺坊图库/Scibrokes-TonyStark.png
+- 文艺坊图库/scicom.jpg
+- 文艺坊图库/SE.png
+- 文艺坊图库/ShirotoNorimichi.jpg
+- 文艺坊图库/ShirotoNorimichi2.jpg
+- 文艺坊图库/skype.jpg
+- 文艺坊图库/skype_36x36.jpg
+- 文艺坊图库/social.jpg
+- 文艺坊图库/social_36x34.jpg
+- 文艺坊图库/SocialMedia.jpg
+- 文艺坊图库/SOF.jpg
+- 文艺坊图库/starlizard.jpg
+- 文艺坊图库/stats.jpg
+- 文艺坊图库/Steam.png
+- 文艺坊图库/talkstats.png
+- 文艺坊图库/talkstats_36x36.png
+- 文艺坊图库/TARC.jpg
+- 文艺坊图库/telebiz.jpg
+- 文艺坊图库/Thumbs.db
+- 文艺坊图库/tm.jpg
+- 文艺坊图库/TonyStark.png
+- 文艺坊图库/tsujiki-mart.png
+- 文艺坊图库/Tumblr.png
+- 文艺坊图库/Tumblr1.png
+- 文艺坊图库/Tumblr2.jpeg
+- 文艺坊图库/Tumblr3.jpg
+- 文艺坊图库/twitter.png
+- 文艺坊图库/twitter_36x36.png
+- 文艺坊图库/u-drive-media.jpg
+- 文艺坊图库/u-of-i-urbana-2.png
+- 文艺坊图库/UCSC.jpeg
+- 文艺坊图库/ucsc.jpg
+- 文艺坊图库/um.jpg
+- 文艺坊图库/UoP-logo.jpg
+- 文艺坊图库/UST.jpg
+- 文艺坊图库/uwants.png
+- 文艺坊图库/vimeo.jpg
+- 文艺坊图库/vk.png
+- 文艺坊图库/Wechat.png
+- 文艺坊图库/Wechat1.png
+- 文艺坊图库/Wechat2.png
+- 文艺坊图库/weibo.png
+- 文艺坊图库/weibo_36x36.png
+- 文艺坊图库/wordpress.png
+- 文艺坊图库/wordpress_36x36.png
+- 文艺坊图库/Wechat1.png
+- 文艺坊图库/Wechat2.png
+- 文艺坊图库/xerox.png
+- 文艺坊图库/xueba.jpg
+- 文艺坊图库/xueba1.jpg
+- 文艺坊图库/xueba2.jpg
+- 文艺坊图库/xueba2.png
+- 文艺坊图库/xueba3.jpg
+- 文艺坊图库/Yandex.png
+- 文艺坊图库/YouTube.jpeg
+- 文艺坊图库/zeef.jpg
+- 文艺坊图库/zeef_36x36.jpg
+- 文艺坊图库/ZhiHu.png
+- 文艺坊图库/zoom.jpeg
+- 文艺坊图库/βεst Jοεγ 7.jpg
+- 文艺坊图库/βεst Jοεγ 8.jpg
+- 文艺坊图库/βεst Jοεγ 胸有大痣.png
+- 文艺坊图库/βεst Jοεγ.jpg
+- 文艺坊图库/中国区划.gif
+- 文艺坊图库/美国省区旗.png
+- 文艺坊图库/βεst Jοεγ 胸有大痣.png
+- 文艺数据库/dfm.csv
+- 文艺数据库/kellym.txt
+- 文艺数据库/shinyData.rds
+- 文艺数据库/worldcities.csv
+- 函数/buildFund.R
+- 函数/libs.R
+- 函数/plotChart.R
+- 文艺坊曲库/bigmoney.mp3
+- 文艺坊图库/b4TDbiz-.pdf
+- 文艺坊图库/韩国情信.mp4
+- 博物院/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
+- 博物院/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
+- 博物院/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
+- 博物院/Coursera Illinous - Improving Business Finances and Operations - 02 Managerial
   Accounting - Tools for Facilitating and Guiding Business Decisions.pdf
-- documents/Coursera Illinous - Improving Business Finances and Operations - 04 Financial
+- 博物院/Coursera Illinous - Improving Business Finances and Operations - 04 Financial
   Evaluation and Strategy - Corporate Finance.pdf
-- documents/Coursera Illinous - Improving Business Finances and Operations - 05 Operations
+- 博物院/Coursera Illinous - Improving Business Finances and Operations - 05 Operations
   Management.pdf
-- documents/Coursera Johns Hopkins - 01 Data Science Toolbox 2014.pdf
-- documents/Coursera Johns Hopkins - 02 R Programming.pdf
-- documents/Coursera Johns Hopkins - 03 Getting and Cleaning Data 2014.pdf
-- documents/Coursera Johns Hopkins - 04 Exploratory Data Analysis.pdf
-- documents/Coursera Johns Hopkins - 05 Reproducible Research.pdf
-- documents/Coursera Johns Hopkins - 06 Statistical Inference.pdf
-- documents/Coursera Johns Hopkins - 07 Regression Models.pdf
-- documents/Coursera Johns Hopkins - 08 Pratical Machine Learning.pdf
-- documents/Coursera Johns Hopkins - 09 Develeoping Data Products.pdf
-- documents/Coursera Johns Hopkins - 10 Data Science Capstone.pdf
-- documents/Coursera Johns Hopkins - 11 Completed 10 Courses in Data Science.pdf
-- documents/Coursera Michigan - Programming for Everybody (Python).pdf
-- documents/DataCamp - Data Analysis and Statistical Inference.pdf
-- documents/DataCamp - Intro to Computational Finance with R.pdf
-- documents/DataCamp - Introduction to R.pdf
-- documents/DataCamp - Kaggle R Tutorial on Machine Learning.pdf
-- documents/Google Analytics.pdf
-- documents/JLPT Certificate.jpg
-- documents/Scicom Appreciation Certificate.jpg
-- documents/Scicom CS Workshop.jpg
-- documents/SPM Certificate.jpg
-- documents/Ryo Eng_Introduction to Machine Learning for Trading_certificate.pdf
-- documents/Ryo Eng_Quantitative Trading Strategies and Models_certificate.pdf
-- documents/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
-- documents/Coursera JHU 01 - The R Programming Environment.pdf
-- documents/Coursera JHU 02 - Advanced R Programming.pdf
-- documents/Coursera JHU 03 - Building R Packages.pdf
-- documents/Coursera JHU 04 - Building Data Visualization Tools.pdf
-- documents/Coursera JHU 05 - Mastering Software Development in R Capstone.pdf
-- documents/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
-- documents/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
-- documents/Coursera California - Bayesian Statistics Mixture Models.pdf
-- music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
+- 博物院/Coursera Johns Hopkins - 01 Data Science Toolbox 2014.pdf
+- 博物院/Coursera Johns Hopkins - 02 R Programming.pdf
+- 博物院/Coursera Johns Hopkins - 03 Getting and Cleaning Data 2014.pdf
+- 博物院/Coursera Johns Hopkins - 04 Exploratory Data Analysis.pdf
+- 博物院/Coursera Johns Hopkins - 05 Reproducible Research.pdf
+- 博物院/Coursera Johns Hopkins - 06 Statistical Inference.pdf
+- 博物院/Coursera Johns Hopkins - 07 Regression Models.pdf
+- 博物院/Coursera Johns Hopkins - 08 Pratical Machine Learning.pdf
+- 博物院/Coursera Johns Hopkins - 09 Develeoping Data Products.pdf
+- 博物院/Coursera Johns Hopkins - 10 Data Science Capstone.pdf
+- 博物院/Coursera Johns Hopkins - 11 Completed 10 Courses in Data Science.pdf
+- 博物院/Coursera Michigan - Programming for Everybody (Python).pdf
+- 博物院/DataCamp - Data Analysis and Statistical Inference.pdf
+- 博物院/DataCamp - Intro to Computational Finance with R.pdf
+- 博物院/DataCamp - Introduction to R.pdf
+- 博物院/DataCamp - Kaggle R Tutorial on Machine Learning.pdf
+- 博物院/Google Analytics.pdf
+- 博物院/JLPT Certificate.jpg
+- 博物院/Scicom Appreciation Certificate.jpg
+- 博物院/Scicom CS Workshop.jpg
+- 博物院/SPM Certificate.jpg
+- 博物院/Ryo Eng_Introduction to Machine Learning for Trading_certificate.pdf
+- 博物院/Ryo Eng_Quantitative Trading Strategies and Models_certificate.pdf
+- 博物院/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
+- 博物院/Coursera JHU 01 - The R Programming Environment.pdf
+- 博物院/Coursera JHU 02 - Advanced R Programming.pdf
+- 博物院/Coursera JHU 03 - Building R Packages.pdf
+- 博物院/Coursera JHU 04 - Building Data Visualization Tools.pdf
+- 博物院/Coursera JHU 05 - Mastering Software Development in R Capstone.pdf
+- 博物院/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
+- 博物院/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
+- 博物院/Coursera California - Bayesian Statistics Mixture Models.pdf
+- 文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
 ---
 
 ------
 
 # Curriculum Vitae
 
-<img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
+<img src='文艺坊图库/quantitative trader 1.jpg' width='120' align='center' valign='middle'/>
 
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
 <br>
-[[**Theme Song**]{style="color:green"}](https://zhidao.baidu.com/question/397416930.html)[^0]
+[[**Theme Song**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]
 <br>
-<audio controls loop autoplay src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" controls></audio>
+<audio controls loop autoplay src='文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3' controls></audio>
 <br>
 
 [^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html) means :"As fantastic / heavenly as this dish🥬, it's one in the million of a chance to have it made so exquisite and one in the million for you to have."
+
+> <img src='文艺坊图库/大秦赋 - 北京大学.png' width='100'>
+> 
+> **大秦赋 - 北京大学**
+> 
+> **🚩🇨🇳🏹红旗中科 RedFlag Linux (🍥Debian 11)**
+> 
+> 🚩🇨🇳✝️🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳✝️🏹红旗礼逆袭。而创办人NonMuslim孙玉芳、艺人NonMuslim蔡卓宜、本人NonMuslim黄联富都是🇨🇳北京大学校友。
+> 
+> <br>
+> **🚩🇬🇧🏹Red Cross ✝️Army RedFlag Linux 🚩🇨🇳✝️🏹红旗中科**
+> 
+> - [🚩红旗礼逆袭（官网）](https://www.chinaredflag.cn)
+> - [🚩红旗应用商店（官网）](http://www.linuxsir.cn)
+> - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
+> - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
+> 
+> ![*🚩红旗礼逆袭*](文艺坊图库/红旗礼逆袭.gif)
+> 
+> <br>
+> 可通过以下网站查阅更多详情：
+> 
+> - [猫城仓库：scibrokes/r-world/issues/1](https://github.com/scibrokes/r-world/issues/1)
+> - [猫城仓库：scibrokes/owner/issues/4](https://github.com/scibrokes/owner/issues/4)
+> - [猫城仓库：scibrokes/setup-centOS7-DO](https://github.com/scibrokes/setup-centOS7-DO)
+> 
+> <iframe src='//player.bilibili.com/player.html?aid=938367824&bvid=BV1pT4y1a7Zt&cid=581199416&page=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'> </iframe>
+> 
+> *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863?spm_id_from=333.999.list.card_time.click)
+> 
+> <br>
+> 目前使用🚩🇨🇳🏹中国国产红旗礼逆袭，并且将REmap程序包中文化，以下R编程语言函数也开始中文化，日后编程都会使用中文编程。
+> 
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/binary-Q1Inter-HFT-RV3.Rmd](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/binary-Q1Inter-HFT-RV3.Rmd)
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/日内高频指数平滑.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E6%97%A5%E5%86%85%E9%AB%98%E9%A2%91%E6%8C%87%E6%95%B0%E5%B9%B3%E6%BB%91.R)
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/季节性自回归.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E5%AD%A3%E8%8A%82%E6%80%A7%E8%87%AA%E5%9B%9E%E5%BD%92.R)
+
+*出处：[欢迎到【百度绘图】R编程语言程序包](https://github.com/englianhu/REmap/wiki/%E6%AC%A2%E8%BF%8E%E5%88%B0%E3%80%90%E7%99%BE%E5%BA%A6%E7%BB%98%E5%9B%BE%E3%80%91R%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E5%8C%85)*
 
 ------
 
@@ -489,7 +525,7 @@ knitr::opts_chunk$set(
 ```{r libs, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-source('function/libs.R')
+source('函数/libs.R')
 ```
 
 ```{r setup, include=FALSE}
@@ -518,7 +554,7 @@ rm(pkgs)
 ##  only the chart component of the HTML file is written into the output file.
 op <- options(gvis.plot.tag = 'chart')
 
-## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
+## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
 <br><br>
@@ -527,12 +563,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**                                    |                                                                                                                                                                       **Details** |
 |:---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Family Name]{style="color:RoyalBlue"}[^1]   |                                                                                                                                                [ξηg]{style="color:RoyalBlue"}[^2] |
-| [Given Name]{style="color:RoyalBlue"}        |                                                                                                                                            [Lιαη Ημ]{style="color:RoyalBlue"}[^3] |
-| [Courtesy Name]{style="color:RoyalBlue"}     |                                                                                         [阿<ruby>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby>🐯 ]{style="color:RoyalBlue"}[^4](Tiger) |
-| [Pseudonym]{style="color:RoyalBlue"}         |                                                                                                                                              [$®γσ$]{style="color:RoyalBlue"}[^5] |
-| [Alais Name]{style="color:RoyalBlue"}        |                                                                                                                                    [🎎Ryusuke Kenji]{style="color:RoyalBlue"}[^6] |
-| [Nickname]{style="color:RoyalBlue"}          | [Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)]{style="color:RoyalBlue"}[^7] / [HuHu (<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)]{style="color:RoyalBlue"}[^8] / [AHU (阿沪)]{style="color:RoyalBlue"}[^9] / [FuZai (🇭🇰Cantonese: <ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)]{style="color:RoyalBlue"}[^10] |
+| [Family Name]{style='color:RoyalBlue'}[^1]   |                                                                                                                                                [ξηg]{style='color:RoyalBlue'}[^2] |
+| [Given Name]{style='color:RoyalBlue'}        |                                                                                                                                            [Lιαη Ημ]{style='color:RoyalBlue'}[^3] |
+| [Courtesy Name]{style='color:RoyalBlue'}     |                                                                                         [阿<ruby>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby>🐯 ]{style='color:RoyalBlue'}[^4](Tiger) |
+| [Pseudonym]{style='color:RoyalBlue'}         |                                                                                                                                              [$®γσ$]{style='color:RoyalBlue'}[^5] |
+| [Alais Name]{style='color:RoyalBlue'}        |                                                                                                                                    [🎎Ryusuke Kenji]{style='color:RoyalBlue'}[^6] |
+| [Nickname]{style='color:RoyalBlue'}          | [Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^7] / [HuHu (<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^8] / [AHU (阿沪)]{style='color:RoyalBlue'}[^9] / [FuZai (🇭🇰Cantonese: <ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^10] |
 | Date of Birth (Gregorian Calendar)           |                                                                                                                                             (Zodiac: Libra ⚖) 22th-October-1984 |
 | Birthday Horoscope (Chinese Calendar)        |                                                                                        (Chinese Zodiac: Mouse 🐭) Year 1984（甲子鼠年🐭）September 28th （丑牛时🐮）time (Monday) |
 | Age                                          |          `r interval(dmy('22-10-1984', tz = 'Asia/Shanghai'), now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
@@ -542,9 +578,9 @@ op <- options(gvis.plot.tag = 'chart')
 | Others Mailbox                               |   englianhu@hotmail.com / englianhu@yahoo.com / <s>ryusukekenji@gmail.com</s> / <s>ryusukekenji@hotmail.com</s> / <s>lianhu_10@hotmail.com</s> / <s>cyber_englianhu@yahoo.com</s> |
 | Nationality                                  |                                                                                                                                                                    🇲🇾 Malaysian |
 | Place of Birth                               |                                                                                                                                                Tanjong Karang, Selangor, Malaysia |
-| Religion                                     |                                                                                          [墨μ **Mohism**, ☸ρ Confucianism, ☯️τ Taoism, 卍 Buddha]{style="color:RoyalBlue"}[^11] |
+| Religion                                     |                                                                                          [墨μ **Mohism**, ☸ρ Confucianism, ☯️τ Taoism, 卍 Buddha]{style='color:RoyalBlue'}[^11] |
 | Race                                         |                                                                                                                                                                  🇹🇼🇨🇳 Chinese |
-| Ancestral Home                               |                                                                                                                 🇹🇼🇨🇳 [Chinese Fujian Yong Chun]{style="color:RoyalBlue"}[^12] |
+| Ancestral Home                               |                                                                                                                 🇹🇼🇨🇳 [Chinese Fujian Yong Chun]{style='color:RoyalBlue'}[^12] |
 | Mother Tongue                                |                                                                                                                                           🇹🇼🇨🇳 Taiwanese / Hokkien / Mandarin |
 | Others Spoken Language                       | 🇭🇰 Cantonese / 🇬🇧🇺🇸 English / 🇯🇵 Japanese / 🇮🇩🇲🇾 Indo-Malay / <s>🇰🇷 Korean</s> / <s>🇩🇪 German</s> / <s>🇫🇷 French</s> / <s>🇬🇷 Greek</s> / <s>🇵🇭 Tagalog</s> / <s>🇰🇭 Khmer</s> |
 
@@ -576,7 +612,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Education
 
-### **[Nov-2021 to Present]{style="color:Red"} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance](https://www.nyif.com) <img src="www/NYIF.jpeg" width="30" align="center" valign="middle"/>)
+### **[Nov-2021 to Present]{style='color:Red'} : Professional Certificate, Machine Learning for Trading Specialization**; ([Cousera](http://www.coursera.org) - [New York Institute of Finance](https://www.nyif.com) <img src='文艺坊图库/NYIF.jpeg' width='30' align='center' valign='middle'/>)
 
 - *01 Course title : Introduction to Trading, Machine Learning & GCP*
 - *02 Course title : Using Machine Learning in Trading and Finance*
@@ -586,14 +622,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **[Dec-2021 to Present]{style="color:Red"} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [The Hong Kong University of Science and Technology](https://hkust.edu.hk) <img src="www/HKUST.png" width="40" align="center" valign="middle"/>)
+### **[Dec-2021 to Present]{style='color:Red'} : Python and Statistics for Financial Analysis**; ([Cousera](http://www.coursera.org) - [The Hong Kong University of Science and Technology](https://hkust.edu.hk) <img src='文艺坊图库/HKUST.png' height='16' align='center' valign='middle'/>)
 
 - *Course title : Python and Statistics for Financial Analysis*
 - **Github Repo** : [Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-### **Oct-2018 to Nov-2021 : Professional Certificate, Mastering Software Development in ® Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+### **Oct-2018 to Nov-2021 : Professional Certificate, Mastering Software Development in ® Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src='文艺坊图库/jhu.jpg' width="60" align='center' valign='middle'/>)
 
 - *01 Course title : [The ® Programming Environment](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
 - *02 Course title : [Advanced ® Programming](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
@@ -605,7 +641,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **May-2021 to Jul-2021 : <s>Professional Certificate, Machine Learning and Reinforcement Learning in Finance Specialization</s>**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src="www/NYU.png" width="10" align="center" valign="middle"/>)
+### **May-2021 to Jul-2021 : <s>Professional Certificate, Machine Learning and Reinforcement Learning in Finance Specialization</s>**; ([Cousera](http://www.coursera.org) - [New York University](https://www.nyu.edu) <img src='文艺坊图库/NYU.png' height='16' align='center' valign='middle'/>)
 
 - <s>*01 Course title : Guided Tour of Machine Learning in Finance*</s>
 - <s>*02 Course title : Fundamentals of Machine Learning in Finance*</s>
@@ -616,28 +652,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src="www/UCSC.jpeg" width="14" align="center" valign="middle"/>)
+### **May-2021 to Jul-2021 : Professional Certificate, Bayesian Statistics Mixture Models**; ([Cousera](http://www.coursera.org) - [University of California](https://www.universityofcalifornia.edu) <img src='文艺坊图库/UCSC.jpeg' height='16' align='center' valign='middle'/>)
 
 - *Course title : [Bayesian Statistics Mixture Models (®)](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **Github Repo** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-### **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src="www/Peking University 02.png" width="14" align="center" valign="middle"/>)
+### **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src='文艺坊图库/Peking University 02.png' height='16' align='center' valign='middle'/>)
 
 - *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github Repo** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-### **<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src="www/UoP-logo.jpg" width="56" align="center" valign="middle"/>)
+### **<s>Apr-2016 to Jul-2019</s> Apr-2016 to Jun-2016 : <s>Becholar Degree, Computer Science</s>**; ([University of the People (UoP)](https://www.uopeople.edu) <img src='文艺坊图库/UoP-logo.jpg' width="56" align='center' valign='middle'/>)
 
 - <s>*Course title : Computer Science*</s>
 - **Github Repo** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-### **Jun-2016 to Aug-2016 : <s>Professional Certificate, Improving Business Finances and Operations Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+### **Jun-2016 to Aug-2016 : <s>Professional Certificate, Improving Business Finances and Operations Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src='文艺坊图库/Illinois.jpg' height='16' align='center' valign='middle'/>)
 
 - <s>*01 Course title : Managerial Accounting: Cost Behaviors, Systems, and Analysis*</s>
 - *02 Course title : [Managerial Accounting: Tools for Facilitating and Guiding Business Decisions](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
@@ -651,7 +687,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Apr-2016 to Aug-2016 : <s>Professional Certificate, Data Mining Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src="www/Illinois.jpg" width="14" align="center" valign="middle"/>)
+### **Apr-2016 to Aug-2016 : <s>Professional Certificate, Data Mining Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Illinois (UI)](https://illinois.edu) <img src='文艺坊图库/Illinois.jpg' height='16' align='center' valign='middle'/>)
 
 - *01 Course title : [Data Visualization](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 Course title : [Text Retrieval and Search Engines](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
@@ -664,7 +700,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Apr-2014 to May-2016 : Professional Certificate, Data Science Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src="www/jhu.jpg" width="60" align="center" valign="middle"/>)
+### **Apr-2014 to May-2016 : Professional Certificate, Data Science Specialization**; ([Cousera](http://www.coursera.org) - [Johns Hopkins University (JHU)](https://www.jhu.edu) <img src='文艺坊图库/jhu.jpg' width="60" align='center' valign='middle'/>)
 
 - *01 Course title : [The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
 - *02 Course title : [® Programming](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
@@ -681,7 +717,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Jun-2015 to Aug-2015 : <s>Professional Certificate, Python for Everybody Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src="www/um.jpg" width="14" align="center" valign="middle"/>)
+### **Jun-2015 to Aug-2015 : <s>Professional Certificate, Python for Everybody Specialization</s>**; ([Cousera](http://www.coursera.org) - [University of Michigan (UM)](https://www.umich.edu) <img src='文艺坊图库/um.jpg' height='16' align='center' valign='middle'/>)
 
 - *01 Course title : [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 - <s>*02 Course title : Python Data Structures*</s>
@@ -693,7 +729,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **XXX-2004 to XXX-2004 : <s>Certified Accounting Technician (CAT) Qualification</s>**; ([ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC Business Institute (PAAC)](http://www.paac.edu.my) <img src="www/PAAC.jpg" width="12" align="center" valign="middle"/>)
+### **XXX-2004 to XXX-2004 : <s>Certified Accounting Technician (CAT) Qualification</s>**; ([ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC Business Institute (PAAC)](http://www.paac.edu.my) <img src='文艺坊图库/PAAC.jpg' width="12" align='center' valign='middle'/>)
 
 - *01 Course title : FAU Foundations in Audit*
 - *02 Course title : FTX Foundations in Taxation*
@@ -706,17 +742,17 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src="www/jpf.jpg" width="30" align="center" valign="middle"/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src="www/JEES.gif" width="68" align="center" valign="middle"/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src="www/JLSM.jpg" width="12" align="center" valign="middle"/>
+### **22-Dec-2002 to 29-Jun-2003 : Professional Certificate, Japanese Language Profeciency Test (JLPT)**; Home Tuition ([JLPT](http://www.jlpt.jp/index.html) - [Japan Foundation](https://www.jpf.go.jp) <img src='文艺坊图库/jpf.jpg' width='30' align='center' valign='middle'/> and [Japan Educational Exchanges and Services (JEES)](http://www.jees.or.jp/index.htm) <img src='文艺坊图库/JEES.gif' width="68" align='center' valign='middle'/>) and [Japanese Language Society of Malaysia (JLSM)](https://www.jlsm.org) <img src='文艺坊图库/JLSM.jpg' width="12" align='center' valign='middle'/>
 
 - 7-Dec-2003 : [**JLPT - Level III Certificate**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20III%20-%20Certificate.jpg) *being Kuala Lumpur*
-- 5-Dec-2004 : [**JLPT - Level II**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) *being Kuala Lumpur* [[**Failed**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
-- 4-Dec-2005 : [**JLPT - Level I**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) *being Kuala Lumpur* [[**Failed**]{style="color:Red"}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
-- 3-Dec-2006 : [**JLPT - Level I**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) *being Manila* [**Failed**]{style="color:Red"}
-- A member of [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src="www/JFKL.jpg" width="36" align="center" valign="middle"/> since year 2003.
+- 5-Dec-2004 : [**JLPT - Level II**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) *being Kuala Lumpur* [[**Failed**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
+- 4-Dec-2005 : [**JLPT - Level I**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) *being Kuala Lumpur* [[**Failed**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
+- 3-Dec-2006 : [**JLPT - Level I**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) *being Manila* [**Failed**]{style='color:Red'}
+- A member of [Japan Foundation Kuala Lumpur](http://www.jfkl.org.my) <img src='文艺坊图库/JFKL.jpg' width="36" align='center' valign='middle'/> since year 2003.
 
 <br>
 
-### **<s>11-Apr-2002 to May-2005</s> 11-Apr-2002 to 11-Oct-2003 : <s>Becholar Degree, Computer Science Combination A Stream (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src="www/TARC.jpg" width="36" align="center" valign="middle"/>)
+### **<s>11-Apr-2002 to May-2005</s> 11-Apr-2002 to 11-Oct-2003 : <s>Becholar Degree, Computer Science Combination A Stream (Major in Statistics)</s>**; ([TAR College (TARC)](https://www.tarc.edu.my) <img src='文艺坊图库/TARC.jpg' width="36" align='center' valign='middle'/>)
 
 - *Freshman*
 - *Sophomore*
@@ -727,31 +763,31 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Experience
 
-### **[Oct-2020 to Present]{style="color:Red"} : Online Financial Market, Founder and Owner**; <img src="www/Scibrokes.png" width="14" align="center" valign="middle"/>
+### **[Oct-2020 to Present]{style='color:Red'} : Online Financial Market, Founder and Owner**; <img src='文艺坊图库/Scibrokes.png' height='16' align='center' valign='middle'/>
 
-- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"}[^13] is a quantitative investment management company trading in global markets to produce high ROI for its investors by mathematical and statistical methods.*
+- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'}[^13] is a quantitative investment management company trading in global markets to produce high ROI for its investors by mathematical and statistical methods.*
 - *Job Task : Conducting R&D on statistical modelling, risk management and high frequency algorithmic trading in financial market etc and data analysis, will flight to China Mainland.*
 
 [^13]: \- [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>- [*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>- [*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
-### **Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src="www/ali.jpg" width="16" align="center" valign="middle"/>)
+### **Nov-2019 to Jul-2020 : Online Gambling, Marketing Executive**; (employed by [Ali Lottery & YiHaoCai under Lefa (Oriental Group)](https://rpubs.com/englianhu/goucai) <img src='文艺坊图库/ali.jpg' width="16" align='center' valign='middle'/>)
 
 - *Summary : Oriental Group is a Chinese business group.*
 - *Job Task : Work in Clark (Philippines) as an online marketing service executive (employed by Chinese and all Chinese but few foreigners) for half-year and then switch to be a data analyst in anti-fraud, products & P&L department.*
 
 <br>
 
-### **Nov-2017 to May-2018 : Online Gambling, Customer Service**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src="www/anr.png" width="14" align="center" valign="middle"/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src="www/7live.jpg" width="14" align="center" valign="middle"/>)
+### **Nov-2017 to May-2018 : Online Gambling, Customer Service**; (employed by [Aristocrat & Residence](http://www.aristocrat-rh.com) <img src='文艺坊图库/anr.png' height='16' align='center' valign='middle'/>) (2nd job employed by [7LiveAsia](https://www.7liveasia88.com) <img src='文艺坊图库/7live.jpg' height='16' align='center' valign='middle'/>)
 
 - *Job Task : Work in Sihanoukville (Cambodia) as a customer service executive in ALIFA Lottery (employed by Chinese and all Chinese and few Cambodians but our project mostly Malaysian) but some times need to handle anti-fraud for 5 months. 2nd job in Bavet (borderline between Cambodia & Vietnam) with 7LiveAsia with Indonesians for 1 month.*
 
 <br>
 
-### **May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src="www/manpower.jpg" width="24" align="center" valign="middle"/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src="www/mindpearl02.jpg" width="22" align="center" valign="middle"/>)
+### **May-2016 to Dec-2016 : E-commerce, Customer Service**; (employed by [Manpower Human Resource Sdn Bhd](http://www.manpower.com.my) <img src='文艺坊图库/manpower.jpg' width="24" align='center' valign='middle'/> and deployed by [Mindpearl](https://www.mindpearl.com) <img src='文艺坊图库/mindpearl02.jpg' width="22" align='center' valign='middle'/>)
 
-- *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in UOA Business Park 13A/14 floor Mindpearl office but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src="www/mas.jpg" width="36" align="center" valign="middle"/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment. Colleagues mostly Chinese, Malaysian, Japanese, Korean, American etc.*
+- *Job Task : Work in Subang Jaya (Malaysia) as a customer service executive in UOA Business Park 13A/14 floor Mindpearl office but handle [Malaysia Airlines](https://www.malaysiaairlines.com/my/en.html) <img src='文艺坊图库/mas.jpg' width="36" align='center' valign='middle'/> customers, need to handle Malaysia Airlines customers (mostly Asia Pacific, other branch handle European etc). General enquiry, new booking, booking amendment. Colleagues mostly Chinese, Malaysian, Japanese, Korean, American etc.*
 
 <br>
 
@@ -769,71 +805,71 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Feb-2015 to Apr-2015 : E-commerce, Fraud Prevention**; (employed by [IdealSeed Resources Sdn Bhd](http://www.idealseed.com) <img src="www/idealseed.jpg" width="12" align="center" valign="middle"/> and deployed by [Apple Inc.](http://www.apple.com) <img src="www/apple.jpg" width="12" align="center" valign="middle"/>)
+### **Feb-2015 to Apr-2015 : E-commerce, Fraud Prevention**; (employed by [IdealSeed Resources Sdn Bhd](http://www.idealseed.com) <img src='文艺坊图库/idealseed.jpg' width="12" align='center' valign='middle'/> and deployed by [Apple Inc.](http://www.apple.com) <img src='文艺坊图库/apple.jpg' width="12" align='center' valign='middle'/>)
 
-- *Job Task : Working in [Xerox](https://www.xerox.com)<img src="www/xerox.png" width="36" align="center" valign="middle"/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
+- *Job Task : Working in [Xerox](https://www.xerox.com)<img src='文艺坊图库/xerox.png' width="36" align='center' valign='middle'/> office. Handling inbound and outbound calls, check and approve/reject customers' ordered transactions.*
 
 <br>
 
-### **Mar-2014 to Apr-2014 : E-commerce, Customer Service**; (employed by [FujiXerox](https://www.fujixerox.com) <img src="www/fuji-xerox.png" width="50" align="center" valign="middle"/>)
+### **Mar-2014 to Apr-2014 : E-commerce, Customer Service**; (employed by [FujiXerox](https://www.fujixerox.com) <img src='文艺坊图库/fuji-xerox.png' width="50" align='center' valign='middle'/>)
 
 - *Job Task : Handling inbound calls from Taiwanese customers' orders, printers' trading and maintenance.*
 - **JCKL membership**
 
 <br>
 
-### **Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src="www/gblinks.jpg" width="32" align="center" valign="middle"/>) provides IT and platform support
+### **Nov-2013 to Mar-2014 : Online Gambling, Team Leader ∩ Trader**; (employed by [SBSolutionCorp Ltd](http://www.sbet.com) for trading while [GB-links Ltd](http://www.gb-links.com) <img src='文艺坊图库/gblinks.jpg' width='32' align='center' valign='middle'/>) provides IT and platform support
 
 - *Summary : GB-links Ltd being Hong Kong Kow Long Honghom, Hong Kongnese Bosses*
 - *Job Task : Train newbie and manage few members to update scores and bets settlement.*
 
 <br>
 
-### **Sep-2013 to Nov-2013 : Pipeline Engineering, Customer Service**; (employed by [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>)
+### **Sep-2013 to Nov-2013 : Pipeline Engineering, Customer Service**; (employed by [Getronics](http://www.getronics.com) <img src='文艺坊图库/getronics.png' height='16' align='center' valign='middle'/>)
 
 - *Summary : Work for Germans/Deutsche (Unsere Besten).*
 - *Job Task : Base in KL Sentral (Malaysia) business center, handle customers' abroad (mostly Caucasians and few Chinese from US, Europe, Asia Pacific etc.) via calls and online tickets for pipeline construction and maintenance*
 
 <br>
 
-### **Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">)
+### **Jul-2013 to Sep-2013 : Insurance, Telesales**; (employed by [AIA](https://www.aia.com.my/en/index.html) <img src='文艺坊图库/AIA.png' height='16' align="center">)
 
 - *Summary : American Insurance Assurance*
 - *Job Task : An insurance telesales for outbound calls.*
 
 <br>
 
-### **Nov-2012 to May-2013 : MASS Media, Broadcast Compliance Editor**; (employed by [UDrive Media Sdn Bhd](http://www.udrive-media.com) <img src="www/u-drive-media.jpg" width="100" align="center" valign="middle"/>)
+### **Nov-2012 to May-2013 : MASS Media, Broadcast Compliance Editor**; (employed by [UDrive Media Sdn Bhd](http://www.udrive-media.com) <img src='文艺坊图库/u-drive-media.jpg' width="100" align='center' valign='middle'/>)
 
 - *Summary : TM is a bluechip company in Malaysia.*
-- *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src="www/tm.jpg" width="24" align="center" valign="middle"/> project*
+- *Job Task : Watching and filtering video streaming from abroad prior to play in our country. [TM Bhd](https://tm.com.my/#/explore) Telekom Malaysia <img src='文艺坊图库/tm.jpg' width="24" align='center' valign='middle'/> project*
 
 <br>
 
-### **Mar-2008 to Jul-2012 : Business Process Outsourcing (BPO) Company, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src="www/scicom.jpg" width="30" align="center" valign="middle"/>)
+### **Mar-2008 to Jul-2012 : Business Process Outsourcing (BPO) Company, Customer Service**; (employed by [Scicom (MSC) Bhd](http://www.scicom-intl.com) <img src='文艺坊图库/scicom.jpg' width='30' align='center' valign='middle'/>)
 
 - *Summary : Work for English.*
-- *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal, phone bets' transactions and also train newbies. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src="www/ladbrokes.jpg" width="26" align="center" valign="middle"/> project*
+- *Job Task : Handling inbound and outbound calls, livechat, feedback, all deposit, withdrawal, phone bets' transactions and also train newbies. Sometimes need to do translation and also analysis job tasks. [Ladbrokes PLC](http://www.ladbrokesplc.com)'s <img src='文艺坊图库/ladbrokes.jpg' width="26" align='center' valign='middle'/> project*
 - Awarded [Customer Service Workshop](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
 - Awarded [(Ladbrokes) Appreciation Certificate](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
 
 <br>
 
-### **Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src="www/caspo.jpg" width="34" align="center" valign="middle"/>)
+### **Jul-2006 to Jun-2007 : Online Gambling, Trainer ∩ Trader**; (employed by [Caspo Inc.](http://www.callcenterbeat.com/caspo-philippines) <img src='文艺坊图库/caspo.jpg' width="34" align='center' valign='middle'/>)
 
 - *Summary : Caspo is an online gaming group owned by Singaporean and Taiwanese, similar with [Taiwanese Cinema 《黑金》(The Island of Greed)](https://www.bilibili.com/video/BV1Gv411y7ED).*
 - *Job Task : Provides training to newbies includes sportsbook trading and live scout. In charges to analyse the P&L reports of SB1 and SB2, need to trading as well, translate and also analysis job tasks.*
 
 <br>
 
-### **Nov-2005 to Jul-2006 : Online Gambling, Team Leader ∩ Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src="www/telebiz.jpg" width="36" align="center" valign="middle"/>)
+### **Nov-2005 to Jul-2006 : Online Gambling, Team Leader ∩ Senior Trader**; (employed by [Telebiz Sdn Bhd](http://www.telebizness.com) <img src='文艺坊图库/telebiz.jpg' width="36" align='center' valign='middle'/>)
 
 - *Summary : Telebiz is an online gaming group with a sister company MG-SC which develop online gaming platform, owned by Malaysian and co-operate with Hong Kongnese, Australian etc*
 - *Job Task : Provides training to newbies on sportsbook trading purchasing stocks, update scores for bets financial settlement, writing training manuals. Handle live-matches on corners (includes R&D on the match odds), translate and also analysis job tasks (compare the market matches and odds price etc).*
 
 <br>
 
-### **Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by Hexa Commerce Sdn Bhd cooperate with Prestigen Profits Limited <img src="www/Prestigen-02.jpg" width="12" align="center" valign="middle"/>)
+### **Jul-2005 to Oct-2005 : Online Financial Market, Trader ∩ Agent**; (employed by Hexa Commerce Sdn Bhd cooperate with Prestigen Profits Limited <img src='文艺坊图库/Prestigen-02.jpg' width="12" align='center' valign='middle'/>)
 
 - *Summary : Prestigen Profits Limited (New Zealand) --- Asia Pacific is a Forex market investment company.*
 - *Job Task : One series service on marketing, R&D, risk management, trading, training etc in Forex market to generate ROI for investors.*
@@ -843,7 +879,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Jul-2003 to Aug-2003 : Retailer, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="40" align="center" valign="middle"/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src="www/jckl.png" width="68" align="center" valign="middle"/>)
+### **Jul-2003 to Aug-2003 : Retailer, Grocery Store Staff**; (employed by [Tsukiji-Mart（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src='文艺坊图库/tsujiki-mart.png' height='16' align='center' valign='middle'/> - [The Japan Club of Kuala Lumpur (JCKL)](https://www.jckl.org.my) <img src='文艺坊图库/jckl.png' width="68" align='center' valign='middle'/>)
 
 - *Summary : Work for Japanese. All Japanese but few Malaysians, Japanese boss.*
 - *Job Task : Not only work as an indoor grocery store staff, coincident during Bon-Odori（盆踊り）festival and build a stall as hawker in Panasonic Stadium Shah Alam to sell Japanese cuisine foods.*
@@ -851,13 +887,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Jul-2003 to Jul-2003 : Food and Beverage, Waiter**; (employed by [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>)
+### **Jul-2003 to Jul-2003 : Food and Beverage, Waiter**; (employed by [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src='文艺坊图库/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>)
 
 - *Job Task : Front desk server / waiter in Tang Restaurant（唐宫）inside Hotel.*
 
 <br>
 
-### **Nov-2001 to Apr-2002 : Food and Beverage, Waiter**; (employed by [Esquire Kitchen](https://esquirekitchen.com) <img src="www/Esquire_Kitchen.png" width="18" align="center" valign="middle"/>)
+### **Nov-2001 to Apr-2002 : Food and Beverage, Waiter**; (employed by [Esquire Kitchen](https://esquirekitchen.com) <img src='文艺坊图库/Esquire_Kitchen.png' width="18" align='center' valign='middle'/>)
 
 - *Summary : A Chinese cuisine chain restaurant with chef's special [Braised Pork Belly（东波肉）]{style="color:#F6A217"} and [Boneless Chicken Breast（宫保鸡丁）]{style="color:#F6A217"} etc.*
 - *Job Task : Front desk server / waiter.*
@@ -947,10 +983,10 @@ op <- options(gvis.plot.tag = 'chart')
 - *As a one-man-band forum, the sportsbook forum major in soccer sports but also get involve other casino, lottery and gaming. Shares own statistical modelling, some experiences and tactics of pro-gamblers, some statistical modelling, some statistical tools and programming language and coding, risk management, trading strategies, latest news of gambling industry, embed livescores, news bulletins, analyse and compare different bookmakers not only platforms' but also operations' and managements' pros and cons (Art of War* --- **Know thyself, ever-victorious**), *looking for like-minded friends. meanwhile, be the agent and affiliate partner of couple European and Asian bookmakers and advertise through some forums, email and QQ marketing etc.*
 - *Due to the forums no more (and I switched to financial market and won't return to gambling industry), below figures are some archive.*
 
-    - [Google'ing（谷歌捜贴）](www/oksportcn_01.png)
-    - [COS Exchange（统计之都交流）](www/oksportcn_02.png)
-    - [Cari Forum Google'ing（佳礼论坛-捜贴）](www/oksportcn_03.png)
-    - [Chinese Mathematical Forum（数学建模社区-数学中国）](www/oksportcn_04.png)
+    - [Google'ing（谷歌捜贴）](文艺坊图库/oksportcn_01.png)
+    - [COS Exchange（统计之都交流）](文艺坊图库/oksportcn_02.png)
+    - [Cari Forum Google'ing（佳礼论坛-捜贴）](文艺坊图库/oksportcn_03.png)
+    - [Chinese Mathematical Forum（数学建模社区-数学中国）](文艺坊图库/oksportcn_04.png)
 
 <br>
 
@@ -1069,8 +1105,8 @@ skill |>
 
 ```{r, eval=FALSE, echo=FALSE}
 Sys.setlocale(category = 'LC_ALL', locale = 'zh_CN.UTF-8')
-source('function/skill.R', encoding = 'utf-8')
-source('function/skill2B.R', encoding = 'utf-8')
+source('函数/skill.R', encoding = 'utf-8')
+source('函数/skill2B.R', encoding = 'utf-8')
 ```
 
 <br>
@@ -1082,13 +1118,13 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2003**, Joined [British Council (M)](https://www.britishcouncil.my) as a member.
 - **2003**, Inquiry and wanna studying the French language class with [Alliance Francaise Kuala Lumpur (AFKL)](https://www.alliancefrancaise.org.my/alliance-francaise-de-kuala-lumpur), and also German language with [Goethe Institut Malaysia](https://www.goethe.de/ins/my/en/index.html).
 - **2003 to 2005**, Start trading in financial market with [OSK Security Firm](https://www.oskgroup.com).
-- **2003 to 2005**, Setup own company [**Starline Platation Ltd**]{style="color:RoyalBlue"} with brothers and neighbor, 4 persons/shareholders.
+- **2003 to 2005**, Setup own company [**Starline Platation Ltd**]{style='color:RoyalBlue'} with brothers and neighbor, 4 persons/shareholders.
 - **Dec-2003**, An indoor salesman in a Singaporean owned Euroluce lighting shop in Mid-Valley for one month.
 - **2003 to 2005**, Worked as a part time Chinese language home tuition teacher for Indians from Chinese primary school students in KL Ipoh Road 3rd miles behind HSBC.
-- **2003 to 2005**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src="www/Dynasty_Hotel_Tang.png" width="46" align="center" valign="middle"/>.
+- **2003 to 2005**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src='文艺坊图库/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>.
 - **2003 to 2005**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
-- **2003 to 2005**, A grocery store staff in [Tsukiji-Mart](https://www.jckl.org.my/tsukiji) <img src="www/tsujiki-mart.png" width="42" align="center" valign="middle"/> - [JCKL](https://www.jckl.org.my) <img src="www/jckl.png" width="62" align="center" valign="middle"/> opposite Mid-Valley.
-- **2003 to 2005**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style="color:RoyalBlue"}[^14] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
+- **2003 to 2005**, A grocery store staff in [Tsukiji-Mart](https://www.jckl.org.my/tsukiji) <img src='文艺坊图库/tsujiki-mart.png' width="42" align='center' valign='middle'/> - [JCKL](https://www.jckl.org.my) <img src='文艺坊图库/jckl.png' width="62" align='center' valign='middle'/> opposite Mid-Valley.
+- **2003 to 2005**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style='color:RoyalBlue'}[^14] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
 - **Feb-2006**, When I working in Telebiz, study part time Korean language class in Ampang Korean Village, and learn Taekwondo at a Korean Martial Art center within the Ampang Korean Village area.
 - **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Philippines within few days without resignation.
 - **Jul-2006 to Dec-2006**, When I working in Caspo Inc, inquiry some Japanese language center and also Korean language center,and then register the advanced level --- JLPT Level I at [Japan Foundation Manila](https://jfmo.org.ph), and take the exam at [Dela Salle University Manila](https://www.dlsu.edu.ph) in Dec-2006.
@@ -1097,11 +1133,11 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **Aug-2007 to Mar-2008**, Eldest brother setup a stall as hawker, work with brothers in a Carlsberg Restaurant MingChu Equine Park, the owner of the restaurant is a Taiwanese lady named Mingchu.
 - **2009 to 2010**, When I working in Scicom, start trading in United States and Hong Kong financial market with OSK security firm and also CIMB (Singapore).
 - **2009 to 2010**, When I working in Scicom, Jack Soh and me go to few Martial Art center and fitness center, I learn Chinese Martial Art (Hung-Fist, Long-Fist) at a Chinese Martial Art center being Serdang.
-- **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style="color:RoyalBlue"}（[跑龙套当演员]{style="color:RoyalBlue"}[^15]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD Entertainment](https://my104588-hv哦d-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style='color:RoyalBlue'}（[跑龙套当演员]{style='color:RoyalBlue'}[^15]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD Entertainment](https://my104588-hv哦d-holdings-sdn-bhd.contact.page/#gsc.tab=0).
 - **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
 - **2013**, Setup owned ®Studio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
-- **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src="www/AIA.png" width="14" align="center">  insurance telesales in Wisma AIA Ampang.
-- **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> when I am working in [Getronics](http://www.getronics.com) <img src="www/getronics.png" width="40" align="center" valign="middle"/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
+- **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src='文艺坊图库/AIA.png' height='16' align="center">  insurance telesales in Wisma AIA Ampang.
+- **01-Oct-2013**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src='文艺坊图库/Scibrokes.png' height='16' align="center"> when I am working in [Getronics](http://www.getronics.com) <img src='文艺坊图库/getronics.png' height='16' align='center' valign='middle'/>, colleagues Yap Lim Feng and Law Wei Him always chitchat about my jacket [财神挺台湾夜总会]{style="color:#F6A217"}.
 - **Nov-2013**, One day, Mike Chong Yu Ming rush to contact and employ me, bought a air ticket for me, I flight to Hong Kong Kow Long within few days without resignation. Colleague Howie Song Kah Hoe always chitchat about my T-Shirt [当好人好累 --- 老天有眼]{style="color:#F6A217"} when I work in SBet.
 - **Mar-2014**, Work with my eldest brother as a restaurant frontend / backend staff in Xing's restaurant behind One Plaza Mall Kuala Selangor for one month before employed by FujiXerox on 31-Mar-2014).
 - **2014**, Hunting for some online gaming jobs etc.
@@ -1109,13 +1145,13 @@ source('function/skill2B.R', encoding = 'utf-8')
 - **2016**, An outdoor salesman with Mybooks Publisher in Equine Park. Initially being Selangor and then move to Kedah state.
 - **2018**, A restaurant frontend/backend server in Bakut-Teh restaurant behind Balakong Aeon Mall, work in other 2 branches as well (behind Aeon Mall Balakong, Subang Jaya in front of Help University, largest night market Cheras Tmn Connaught).
 - **2018**, A chief of Bakut-Teh introduce me to work as a part-time kitchen staff in PTN Steamboat Restaurant opposite Balakong Aeon Mall, Cheras Selatan 118.
-- **2018**, Work as a customer service in [Golden Royal Casino](https://www.facebook.com/QQ779933300) <img src="www/Golden-Royal.png" width="56" align="center" valign="middle"/> Cambodia Sihanoukville, due to very dangerous and one day 2nd floor of hostel explode and few gunshots during lunch time, staffs escape to office and a fatty guy manager ask me to flight back Malaysia on spot.
+- **2018**, Work as a customer service in [Golden Royal Casino](https://www.facebook.com/QQ779933300) <img src='文艺坊图库/Golden-Royal.png' width="56" align='center' valign='middle'/> Cambodia Sihanoukville, due to very dangerous and one day 2nd floor of hostel explode and few gunshots during lunch time, staffs escape to office and a fatty guy manager ask me to flight back Malaysia on spot.
 - **2018**, employ by Bron Ong through facebook and work as an online casino dealer's agent in Johor Bharu (clients being Cambodia Sihanoukville) for one month (the company wrongly doing accounting and audit, very dangerous but the boss don't let me resign), resign and get back Selangor upon my mother's death.
-- **10-Oct-2020**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src="www/Scibrokes.png" width="14" align="center"> again.
+- **10-Oct-2020**, Register own company [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com) <img src='文艺坊图库/Scibrokes.png' height='16' align="center"> again.
 
 2003/2004, when the day I leaving *Hexa Commerce*, the boss Thomas only say ["哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays]{style="color:#F6A217"}.
 
-[^14]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style="color:RoyalBlue"} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
+[^14]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style='color:RoyalBlue'} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
 
 [^15]: \- [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)：[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>- Unprofessional Hedge Fund (不够专业避险基金) : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>- [［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)：[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>- Expert / Professional Hedge Fund (专业避险基金) : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
@@ -1123,17 +1159,17 @@ Because of noted that George Soros's mom know multilingual and there has a lot o
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[James Simons]{style="color:RoyalBlue"}[^16] is the successful investor in quantitative hedge fund whom we need to learn. I am currently learn to setup own quantitative hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style="color:RoyalBlue"} and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src="www/rstudio.jpg" width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+[James Simons]{style='color:RoyalBlue'}[^16] is the successful investor in quantitative hedge fund whom we need to learn. I am currently learn to setup own quantitative hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'} and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='文艺坊图库/rstudio.jpg' width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
 [^16]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 Kindly refer to my personal blogs for more information about me.
 
-- [WordPress](https://englianhu.wordpress.com) <img src="www/wordpress.jpg" width="16"/>
-- [Blogspot](https://englianhu.blogspot.com) <img src="www/blogspot.png" width="16"/>
-- [GitHub Blog](https://englianhu.github.io) <img src="www/Github_Pages.png" width="16"/> ([GitHub Repo Source Code](https://github.com/englianhu/englianhu.github.io))
-- [JianShu（简书）](https://www.jianshu.com/u/4565fc707969) <img src="www/JianShu.png" width="16"/>
-- [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu) <img src="www/ZhiHu.png" width="16"/>
+- [WordPress](https://englianhu.wordpress.com) <img src='文艺坊图库/wordpress.jpg' width="16"/>
+- [Blogspot](https://englianhu.blogspot.com) <img src='文艺坊图库/blogspot.png' width="16"/>
+- [GitHub Blog](https://englianhu.github.io) <img src='文艺坊图库/Github_Pages.png' width="16"/> ([GitHub Repo Source Code](https://github.com/englianhu/englianhu.github.io))
+- [JianShu（简书）](https://www.jianshu.com/u/4565fc707969) <img src='文艺坊图库/JianShu.png' width="16"/>
+- [ZhiHu（知呼）](https://www.zhihu.com/people/englianhu) <img src='文艺坊图库/ZhiHu.png' width="16"/>
 
 `r require('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
@@ -1177,8 +1213,8 @@ markLinedata <- data.frame(
 
 ```{r read-geodata2, eval = FALSE, echo=FALSE}
 ## 读取从maps::world.cities程序包翻译并储存中文地名文件
-#source('data/geoname.R')
-经纬度 <- read_csv('data/地图数据.csv', show_col_types = FALSE)
+#source('文艺数据库/geoname.R')
+经纬度 <- read_csv('文艺数据库/地图数据.csv', show_col_types = FALSE)
 
 诸国 <- 经纬度$国家 |> 
   unique()
@@ -1216,80 +1252,80 @@ knitrREmap(wmap, local = FALSE)
 
 ## Social Network
 
-<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src="www/coursera.png" width="48"/></a>
-<a href='https://www.facebook.com/englianhu'><img src="www/facebook2.jpg" width="48"/></a>
-<a href='https://instagram.com/englianhu'><img src="www/IG4.png" width="48"/></a>
-<a href='https://jp.linkedin.com/in/englianhu'><img src="www/linkedin.png" width="48"/></a>
-<a href='skype:englianhu?call'><img src="www/skype.jpg" width="48"/></a>
-<a href='https://plus.google.com/+黄联富'><img src="www/gplus.png" width="48"/></a>
-<a href='https://twitter.com/englianhu'><img src="www/twitter.png" width="48"/></a>
-<a href='https://about.me/englianhu'><img src="www/aboutme.png" width="48"/></a>
-<a href='https://linktr.ee/englianhu'><img src="www/ltree.png" width="48"/></a>
-<a href='https://weibo.com/englianhu'><img src="www/weibo.png" width="48"/></a>
-<a href='https://www.wechat.com/englianhu'><img src="www/Wechat.png" width="48"/></a>
-<a href='http://t.qq.com/englianhu'><img src="www/QQ wb.png" width="48"/></a>
-<a href='http://user.qzone.qq.com/2837330579'><img src="www/Qzone.png" width="48"/></a>
-<a href='https://scibrokes.zeef.com/ryo.eng'><img src="www/zeef.jpg" width="48"/></a>
-<a href='https://disqus.com/by/englianhu'><img src="www/disqus.png" width="48"/></a>
-<a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src="www/DouYin.png" width="48"/></a>
-<a href='http://kuaishou.com/'><img src="www/KuaiShou.png" width="48"/></a>
-<a href='https://www.pixnet.net/pcard/englianhu'><img src="www/pixnet.png" width="48"/></a>
-<a href='http://englianhu.360doc.com'><img src="www/360doc.png" width="48"/></a>
-<a href='https://www.guokr.com/zone/#special'><img src="www/guokr.jpeg" width="48"/></a>
-<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src="www/Discuss.png" width="48"/></a>
-<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src="www/cari.png" width="48"/></a>
-<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src="www/uwants.png" width="48"/></a>
-<a href='https://www.quora.com/profile/Ryo-Eng'><img src="www/Quora.png" width="48"/></a>
-<a href='https://discord.com'><img src="www/discord2.jpg" width="48"/></a>
-<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SOF.jpg" width="48"/></a>
-<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/SE.png" width="48"/></a>
-<a href='https://www.zhihu.com/people/englianhu'><img src="www/ZhiHu.png" width="48"/></a>
-<a href='https://xiaohongshu.com'><img src="www/hong.jpg" width="48"/></a>
-<a href='https://www.jianshu.com/u/4565fc707969'><img src="www/JianShu.png" width="48"/></a>
-<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src="www/RG.png" width="48"/></a>
-<a href='https://pku.academia.edu/englianhu'><img src="www/academia.jpg" width="48"/></a>
-<a href='https://englianhu.wordpress.com'><img src="www/wordpress.jpg" width="48"/></a>
-<a href='https://englianhu.github.io'><img src="www/Github_Pages.png" width="48"/></a>
-<a href='https://www.youtube.com/c/黄联富'><img src="www/YouTube.jpeg" width="48"/></a>
-<a href='https://vimeo.com/englianhu'><img src="www/vimeo.jpg" width="48"/></a>
-<a href='https://space.bilibili.com/690266950'><img src="www/BiliBili.png" width="48"/></a>
-<a href='https://www.iq.com'><img src="www/iq.png" width="48"/></a>
-<a href='https://www.vk.com/englianhu'><img src="www/vk.png" width="48"/></a>
-<a href='https://ok.ru/englianhu'><img src="www/OKru.png" width="48"/></a>
-<a href='https://www.yandex.com'><img src="www/Yandex.png" width="48"/></a>
-<a href='https://www.tumblr.com/blog/englianhu'><img src="www/Tumblr3.jpg" width="48"/></a>
-<a href='https://mlog.club/user/6960'><img src="www/MClub.png" width="48"/></a>
-<a href='https://github.com/englianhu'><img src="www/github.jpg" width="48"/></a>
-<a href='https://bitbucket.org/englianhu'><img src="www/bitbucket.png" width="48"/></a>
-<a href='https://plot.ly/~englianhu'><img src="www/plotly.jpg" width="48"/></a>
-<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src="www/rnable.jpg" width="48"/></a>
-<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src="www/talkstats.png" width="48"/></a>
-<a href='http://blog.csdn.net/github_25731367'><img src="www/csdn2.png" width="48"/></a>
-<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src="www/LQ.jpg" width="48"/></a>
-<a href='http://www.biostatistic.net/?120034'><img src="www/biostatistic.png" width="48"/></a>
-<a href='http://cos.name/cn/profile/englianhu'><img src="www/cos.jpg" width="48"/></a>
-<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src="www/JG1.png" width="48"/></a>
-<a href='http://www.madio.net/archiver'><img src="www/madio.png" width="48"/></a>
-<a href='http://www.mathchina.com/bbs'><img src="www/mathchina.jpg" width="48"/></a>
-<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src="www/centOS.png?raw=true" width="48"/></a>
-<a href='https://forum.linuxconfig.org/u/englianhu'><img src="www/LinuxConfig1.jpg" width="48"/></a>
-<a href='https://www.reddit.com/user/englianhu'><img src="www/medium.png" width="48"/></a>
-<a href='https://medium.com/@englianhu'><img src="www/Reddit.png" width="48"/></a>
-<a href='https://itsfoss.community/u/englianhu'><img src="www/FossCom1.png" width="48"/></a>
-<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src="www/AskUbuntu.png" width="48"/></a>
-<a href='https://invent.kde.org/englianhu'><img src="www/InventKDE2.png" width="48"/></a>
-<a href='https://phabricator.kde.org/p/englianhu'><img src="www/phabricator.png" width="48"/></a>
-<a href='https://forum.arduino.cc/u/englianhu'><img src="www/Arduino.png" width="48"/></a>
-<a href='https://steamcommunity.com/id/englianhu'><img src="www/Steam.png" width="48"/></a>
-<a href='https://community.rstudio.com'><img src="www/RStudioCom1.png" width="48"/></a>
-<a href='http://www.betting-forum.com/members/englianhu.10020'><img src="www/bettingforum.png" width="48"/></a>
-<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src="www/PLounge.jpg" width="48"/></a>
-<a href='http://www.sportsbookreview.com/forum'><img src="www/SBR.jpg" width="48"/></a>
-<a href='https://community.rebelbetting.com/u/englianhu'><img src="www/RB.png" width="48"/></a>
-<a href='https://home.cnblogs.com/u/englianhu'><img src="www/CNBlogs 1.png" width="48"/></a>
-<a href='https://www.bookstack.cn/user/englianhu'><img src="www/bookstack.png" width="48"/></a>
-<a href='https://englianhu.blogspot.com'><img src="www/blogspot.png" width="48"/></a>
-<a href='https://my.zol.com.cn/index.php?c=me&a=default&userid=baidu_15n64991g'><img src="www/ZOL.png" width="48"/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src='文艺坊图库/coursera.png' width='48'/></a>
+<a href='https://www.facebook.com/englianhu'><img src='文艺坊图库/facebook2.jpg' width='48'/></a>
+<a href='https://instagram.com/englianhu'><img src='文艺坊图库/IG4.png' width='48'/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src='文艺坊图库/linkedin.png' width='48'/></a>
+<a href='skype:englianhu?call'><img src='文艺坊图库/skype.jpg' width='48'/></a>
+<a href='https://plus.google.com/+黄联富'><img src='文艺坊图库/gplus.png' width='48'/></a>
+<a href='https://twitter.com/englianhu'><img src='文艺坊图库/twitter.png' width='48'/></a>
+<a href='https://about.me/englianhu'><img src='文艺坊图库/aboutme.png' width='48'/></a>
+<a href='https://linktr.ee/englianhu'><img src='文艺坊图库/ltree.png' width='48'/></a>
+<a href='https://weibo.com/englianhu'><img src='文艺坊图库/weibo.png' width='48'/></a>
+<a href='https://www.wechat.com/englianhu'><img src='文艺坊图库/Wechat.png' width='48'/></a>
+<a href='http://t.qq.com/englianhu'><img src='文艺坊图库/QQ wb.png' width='48'/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src='文艺坊图库/Qzone.png' width='48'/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src='文艺坊图库/zeef.jpg' width='48'/></a>
+<a href='https://disqus.com/by/englianhu'><img src='文艺坊图库/disqus.png' width='48'/></a>
+<a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src='文艺坊图库/DouYin.png' width='48'/></a>
+<a href='http://kuaishou.com/'><img src='文艺坊图库/KuaiShou.png' width='48'/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src='文艺坊图库/pixnet.png' width='48'/></a>
+<a href='http://englianhu.360doc.com'><img src='文艺坊图库/360doc.png' width='48'/></a>
+<a href='https://www.guokr.com/zone/#special'><img src='文艺坊图库/guokr.jpeg' width='48'/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src='文艺坊图库/Discuss.png' width='48'/></a>
+<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src='文艺坊图库/cari.png' width='48'/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src='文艺坊图库/uwants.png' width='48'/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src='文艺坊图库/Quora.png' width='48'/></a>
+<a href='https://discord.com'><img src='文艺坊图库/discord2.jpg' width='48'/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/SOF.jpg' width='48'/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/SE.png' width='48'/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src='文艺坊图库/ZhiHu.png' width='48'/></a>
+<a href='https://xiaohongshu.com'><img src='文艺坊图库/hong.jpg' width='48'/></a>
+<a href='https://www.jianshu.com/u/4565fc707969'><img src='文艺坊图库/JianShu.png' width='48'/></a>
+<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src='文艺坊图库/RG.png' width='48'/></a>
+<a href='https://pku.academia.edu/englianhu'><img src='文艺坊图库/academia.jpg' width='48'/></a>
+<a href='https://englianhu.wordpress.com'><img src='文艺坊图库/wordpress.jpg' width='48'/></a>
+<a href='https://englianhu.github.io'><img src='文艺坊图库/Github_Pages.png' width='48'/></a>
+<a href='https://www.youtube.com/c/黄联富'><img src='文艺坊图库/YouTube.jpeg' width='48'/></a>
+<a href='https://vimeo.com/englianhu'><img src='文艺坊图库/vimeo.jpg' width='48'/></a>
+<a href='https://space.bilibili.com/690266950'><img src='文艺坊图库/BiliBili.png' width='48'/></a>
+<a href='https://www.iq.com'><img src='文艺坊图库/iq.png' width='48'/></a>
+<a href='https://www.vk.com/englianhu'><img src='文艺坊图库/vk.png' width='48'/></a>
+<a href='https://ok.ru/englianhu'><img src='文艺坊图库/OKru.png' width='48'/></a>
+<a href='https://www.yandex.com'><img src='文艺坊图库/Yandex.png' width='48'/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src='文艺坊图库/Tumblr3.jpg' width='48'/></a>
+<a href='https://mlog.club/user/6960'><img src='文艺坊图库/MClub.png' width='48'/></a>
+<a href='https://github.com/englianhu'><img src='文艺坊图库/github.jpg' width='48'/></a>
+<a href='https://bitbucket.org/englianhu'><img src='文艺坊图库/bitbucket.png' width='48'/></a>
+<a href='https://plot.ly/~englianhu'><img src='文艺坊图库/plotly.jpg' width='48'/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='文艺坊图库/rnable.jpg' width='48'/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='文艺坊图库/talkstats.png' width='48'/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src='文艺坊图库/csdn2.png' width='48'/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='文艺坊图库/LQ.jpg' width='48'/></a>
+<a href='http://www.biostatistic.net/?120034'><img src='文艺坊图库/biostatistic.png' width='48'/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src='文艺坊图库/cos.jpg' width='48'/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='文艺坊图库/JG1.png' width='48'/></a>
+<a href='http://www.madio.net/archiver'><img src='文艺坊图库/madio.png' width='48'/></a>
+<a href='http://www.mathchina.com/bbs'><img src='文艺坊图库/mathchina.jpg' width='48'/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='文艺坊图库/centOS.png?raw=true" width='48'/></a>
+<a href='https://forum.linuxconfig.org/u/englianhu'><img src='文艺坊图库/LinuxConfig1.jpg' width='48'/></a>
+<a href='https://www.reddit.com/user/englianhu'><img src='文艺坊图库/medium.png' width='48'/></a>
+<a href='https://medium.com/@englianhu'><img src='文艺坊图库/Reddit.png' width='48'/></a>
+<a href='https://itsfoss.community/u/englianhu'><img src='文艺坊图库/FossCom1.png' width='48'/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/AskUbuntu.png' width='48'/></a>
+<a href='https://invent.kde.org/englianhu'><img src='文艺坊图库/InventKDE2.png' width='48'/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src='文艺坊图库/phabricator.png' width='48'/></a>
+<a href='https://forum.arduino.cc/u/englianhu'><img src='文艺坊图库/Arduino.png' width='48'/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src='文艺坊图库/Steam.png' width='48'/></a>
+<a href='https://community.rstudio.com'><img src='文艺坊图库/RStudioCom1.png' width='48'/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src='文艺坊图库/bettingforum.png' width='48'/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src='文艺坊图库/PLounge.jpg' width='48'/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src='文艺坊图库/SBR.jpg' width='48'/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src='文艺坊图库/RB.png' width='48'/></a>
+<a href='https://home.cnblogs.com/u/englianhu'><img src='文艺坊图库/CNBlogs 1.png' width='48'/></a>
+<a href='https://www.bookstack.cn/user/englianhu'><img src='文艺坊图库/bookstack.png' width='48'/></a>
+<a href='https://englianhu.blogspot.com'><img src='文艺坊图库/blogspot.png' width='48'/></a>
+<a href='https://my.zol.com.cn/index.php?c=me&a=default&userid=baidu_15n64991g'><img src='文艺坊图库/ZOL.png' width='48'/></a>
 
 <br><br>
 
@@ -1391,5 +1427,5 @@ sys
 
 ---
 
-[<img src="www/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)<br>
-[**Powered by - Copyright® Intellectual Property Rights of [<img src="www/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)**]{style="color:RoyalBlue"}
+[<img src='文艺坊图库/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)<br>
+[**Powered by - Copyright® Intellectual Property Rights of [<img src='文艺坊图库/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)**]{style='color:RoyalBlue'}

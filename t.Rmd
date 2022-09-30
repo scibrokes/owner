@@ -112,7 +112,7 @@ knitr::opts_chunk$set(
 ```{r libs, eval=FALSE}
 ## Setup Options, Loading Required Libraries and Preparing Environment
 ## Loading the packages and setting adjustment
-source('function/libs.R')
+source('函数/libs.R')
 ```
 
 ```{r set, include=FALSE}
@@ -141,7 +141,7 @@ rm(pkgs)
 ##  only the chart component of the HTML file is written into the output file.
 op <- options(gvis.plot.tag = 'chart')
 
-## <audio src='music/bigmoney.mp3' autoplay controls loop></audio>
+## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
 
@@ -213,7 +213,7 @@ vec = c('Tokyo','Shanghai','New York','Sydney','London','Bangkok',
 #geodata = suppressAll(as.data.frame(cbind(ggmap::geocode(vec),vec)))
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
-geodata <- data.table::fread('data/worldcities.csv') |> 
+geodata <- data.table::fread('文艺数据库/worldcities.csv') |> 
   dplyr::filter(capital %in% c('primary', 'admin')) |> 
   dplyr::select(lng, lat, country, city) |> 
   dplyr::rename(lon = lng) |> 

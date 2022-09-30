@@ -1,15 +1,15 @@
-# 世博量化®️ <img src="www/Scibrokes.png" width="32"/><br> Sςιβrοκεrs Trαdιηg®️ <img src="www/Scibrokes.png" width="32"/>
+# 世博量化®️ <img src='文艺坊图库/Scibrokes.png' width='32'/><br> Sςιβrοκεrs Trαdιηg®️ <img src='文艺坊图库/Scibrokes.png' width='32'/>
 
 ---
 
-[<img src='www/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='www/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](www/shiny-badge.svg)](https://www.shinyapps.io) 
+[<img src='文艺坊图库/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='文艺坊图库/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](文艺坊图库/shiny-badge.svg)](https://www.shinyapps.io) 
 
 ## 公司简介
 
 世博量化® Sςιβrοκεrs Trαdιηg®是一家以数理统计投资于金融行业，挣取高回酬。
 <br>创办人：艺人背景 ®γσ ξηg
 <br>englianhu@gmail.com
-<br>北京大学校友 <img src='www/coursera.png' height='16' class='center'/> <img src='www/Peking University 02.png' height='16' class='center'/>
+<br>北京大学校友 <img src='文艺坊图库/coursera.png' height='16' class='center'/> <img src='文艺坊图库/Peking University 02.png' height='16' class='center'/>
 
 <br>
 
@@ -29,7 +29,7 @@
 
 **文物 / 旧档案**
 
-<img src="www/20181028_225629.gif" width="240"/>
+<img src='文艺坊图库/20181028_225629.gif' width='240'/>
 
 - 多语言简历（闪霓互动式应用）shinyCV [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/4352)
 
@@ -54,11 +54,11 @@
 
 ## 简历
 
-<img src="www/quantitative trader 1.jpg" width="120" align="center" valign="middle"/>
+<img src='文艺坊图库/quantitative trader 1.jpg' width='120' align='center' valign='middle'/>
 
 ®γσ, ξηg Lιαη Ημ
 
-<audio src="music/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3" autoplay controls loop>
+<audio src='文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3' autoplay controls loop>
 
 </audio>
 
@@ -100,5 +100,5 @@
 
 ---
 
-[<img src="www/Scibrokes.png" height="14"/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src="www/Scibrokes.png" height="14"/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
+[<img src='文艺坊图库/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='文艺坊图库/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
