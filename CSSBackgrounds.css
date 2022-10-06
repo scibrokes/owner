@@ -1,6 +1,7 @@
 
 body {
-  background-image: url('www/math-3d-hd-wallpaper.jpg'); 
+  background-image: url('www/math-3d-hd-wallpaper.jpg');
+  /* background-image: url('math-3d-hd-wallpaper.jpg'); */
   background-repeat: no-repeat; 
   /*background-size: 100%;*/
   background-size: cover; 
