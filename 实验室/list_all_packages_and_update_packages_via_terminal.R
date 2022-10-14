@@ -21,8 +21,10 @@ sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts 
 
 install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages/', getOption('repos')))
 
+sudo su - -c "R -e \"devtools::install_github('cloudyr/googleCloudStorageR', INSTALL_opts = '--no-lock', force = TRUE)\""
+
 ## https://www.reddit.com/r/rstats/comments/hiu17b/can_i_delete_outdated_r_version/
-sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')), getOption('repos'), dependencies = TRUE, INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA')), getOption('repos'), lib='/usr/lib/R/library', dependencies = TRUE, INSTALL_opts = '--no-lock')\""
 
 sudo su - -c "R -e \"devtools::update_packages()\""
 sudo su - -c "R -e \"update.packages(ask=FALSE)\""
