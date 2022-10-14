@@ -7,7 +7,11 @@ nameserver 114.114.114.114
 
 
 ## update packages via terminal
+sudo apt install -y l*gls* libcatalyst-action-rest-perl libghc-hmatrix-doc libghc-storable-complex-doc libghc-hmatrix-doc libcatalyst-action-serialize-data-serializer-perl
+
 sudo su - -c "R -e \"install.packages(c('devtools', 'tidyverse', 'miniUI', 'splashr', 'nloptr', 'lme4', 'MEMSS', 'mlmRev', 'gamm4', 'pbkrtest', 'rr2', 'semEff', 'car', 'crayon', 'languageserver', 'ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl', 'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
+
+sudo su - -c "R -e \"devtools::install_github('cloudyr/MTurkR', force = TRUE)\""
 
 sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 

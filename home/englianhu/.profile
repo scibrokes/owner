@@ -39,5 +39,5 @@ fi
 
 #https://stackoverflow.com/a/33416794/3806250
 export R_LIBS_USER=/usr/lib/R/library
-export R_LIBS_USER=/usr/lib/R/site-library
+#export R_LIBS_USER=/usr/lib/R/site-library
 
