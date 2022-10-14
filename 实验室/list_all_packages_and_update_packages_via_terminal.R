@@ -7,11 +7,7 @@ nameserver 114.114.114.114
 
 
 ## update packages via terminal
-sudo su - -c "R -e \"pkgs <- c('devtools', 'tidyverse', 'miniUI', 'crayon'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', getOption('repos'), lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
-
-sudo su - -c "R -e \"pkgs <- c('ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl', 'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'); sapply(pkgs, install.packages, repos='https://cran.rstudio.org', getOption('repos'), lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
-
-sudo su - -c "R -e \"install.packages(c('splashr', 'nloptr', 'lme4', 'MEMSS', 'mlmRev', 'gamm4', 'pbkrtest', 'rr2', 'semEff', 'car'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"install.packages(c('devtools', 'tidyverse', 'miniUI', 'splashr', 'nloptr', 'lme4', 'MEMSS', 'mlmRev', 'gamm4', 'pbkrtest', 'rr2', 'semEff', 'car', 'crayon', 'languageserver', 'ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl', 'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
 sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
