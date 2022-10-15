@@ -112,89 +112,83 @@ suppressPackageStartupMessages(require('utils'))
 if(!suppressPackageStartupMessages(require('BBmisc'))) {
   install.packages('BBmisc', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
-}
-suppressPackageStartupMessages(require('BBmisc'))
+}; suppressPackageStartupMessages(require('BBmisc'))
 
 if(!suppressPackageStartupMessages(require('rmsfuns'))) {
   install.packages('rmsfuns', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
-}
-suppressPackageStartupMessages(require('rmsfuns'))
+}; suppressPackageStartupMessages(require('rmsfuns'))
 
 if(!suppressPackageStartupMessages(require('drat'))) {
   install.packages('drat', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
-}
-suppressPackageStartupMessages(require('drat'))
+}; suppressPackageStartupMessages(require('drat'))
 
 if(!suppressPackageStartupMessages(require('devtools'))) {
   install.packages('devtools', dependencies = TRUE, 
                    lib = .pth[1], INSTALL_opts = '--no-lock')
   devtools::install_github('r-lib/devtools')
-}
-suppressPackageStartupMessages(require('devtools'))
+}; suppressPackageStartupMessages(require('devtools'))
 conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
+
+if(!suppressPackageStartupMessages(require('Ipaper'))) {
+  devtools::install_github('kongdd/Ipaper')
+	# devtools::install_github('kongdd/Ipaper')
+    # devtools::install_git('https://gitee.com/adv-r/Ipaper')
+    # or from gz file
+    # install.packages('../Ipaper_0.1.5.9000.tar.gz', repos = NULL, type = 'source', dependencies = TRUE)
+    # $sudo apt install -y libfftw3-dev
+}; suppressPackageStartupMessages(require('Ipaper'))
 
 if(!suppressPackageStartupMessages(require('miniCRAN'))) {
   ## https://andrie.github.io/miniCRAN/articles/miniCRAN-introduction.html
   devtools::install_github('andrie/miniCRAN')
-}
-suppressPackageStartupMessages(require('miniCRAN'))
+}; suppressPackageStartupMessages(require('miniCRAN'))
 
 if(!suppressPackageStartupMessages(require('rhub'))) {
   ## https://github.com/r-hub/rhub
   remotes::install_github('r-hub/rhub')
-}
-suppressPackageStartupMessages(require('rhub'))
+}; suppressPackageStartupMessages(require('rhub'))
 
 if(!suppressPackageStartupMessages(require('startup'))) {
   ## https://github.com/HenrikBengtsson/startup
   remotes::install_github('HenrikBengtsson/startup', ref = 'develop')
-}
-suppressPackageStartupMessages(require('startup'))
+}; suppressPackageStartupMessages(require('startup'))
 
 if(!suppressPackageStartupMessages(require('Rdym'))) {
   devtools::install_github('wrathematics/Rdym')
-}
-suppressPackageStartupMessages(require('Rdym'))
+}; suppressPackageStartupMessages(require('Rdym'))
 
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
 if(!suppressPackageStartupMessages(require('rprofile'))) {
   remotes::install_github('csgillespie/rprofile')
-}
-suppressPackageStartupMessages(require('rprofile'))
+}; suppressPackageStartupMessages(require('rprofile'))
 
 if(!suppressPackageStartupMessages(require('prompt'))) {
   # Used for nice prompts
   remotes::install_github('gaborcsardi/prompt')
-}
-suppressPackageStartupMessages(require('prompt'))
+}; suppressPackageStartupMessages(require('prompt'))
 
 if(!suppressPackageStartupMessages(require('colorout'))) {
   # Used for nice colours in the terminal; not for Windows
   remotes::install_github('jalvesaq/colorout')
-}
-suppressPackageStartupMessages(require('colorout'))
+}; suppressPackageStartupMessages(require('colorout'))
 
 if(!suppressPackageStartupMessages(require('tidyverse'))) {
   devtools::install_github('tidyverse/tidyverse')
-}
-suppressPackageStartupMessages(require('tidyverse'))
+}; suppressPackageStartupMessages(require('tidyverse'))
 
 if(!suppressPackageStartupMessages(require('lubridate'))) {
   devtools::install_github('tidyverse/lubridate')
-}
-suppressPackageStartupMessages(require('lubridate'))
+}; suppressPackageStartupMessages(require('lubridate'))
 
 if(!suppressPackageStartupMessages(require('prettycode'))) {
   devtools::install_github('https://github.com/r-lib/prettycode')
-}
-suppressPackageStartupMessages(require('prettycode'))
+}; suppressPackageStartupMessages(require('prettycode'))
 
 if(!suppressPackageStartupMessages(require('openxlsx2'))) {
   remotes::install_github('JanMarvin/openxlsx2')
-}
-suppressPackageStartupMessages(require('openxlsx2'))
+}; suppressPackageStartupMessages(require('openxlsx2'))
 
 ## https://github.com/r-lib/crayon
 ## https://github.com/r-lib/progress
