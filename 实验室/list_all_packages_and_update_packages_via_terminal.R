@@ -5,6 +5,7 @@ sudo micro /etc/resolv.conf
 # nameserver 192.168.1.254
 nameserver 114.114.114.114
 
+sudo su - -c "R -e \"devtools::install_github('kongdd/Ipaper')\""
 
 ## update packages via terminal
 sudo apt install -y l*gls* libcatalyst-action-rest-perl libghc-hmatrix-doc libghc-storable-complex-doc libghc-hmatrix-doc libcatalyst-action-serialize-data-serializer-perl
@@ -14,6 +15,8 @@ sudo su - -c "R -e \"install.packages(c('devtools', 'tidyverse', 'miniUI', 'spla
 sudo su - -c "R -e \"devtools::install_github('cloudyr/MTurkR', force = TRUE)\""
 
 sudo su - -c "R -e \"install.packages(c('languageserver'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
+
+install.packages(c('languageserver', 'BBmics', 'devtools'), lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')
 
 install.packages(c('SkewHyperbolic', 'Rmetrics'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')
 
