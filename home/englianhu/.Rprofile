@@ -133,11 +133,10 @@ conflicted::conflict_prefer('check', 'devtools', quiet = TRUE)
 
 if(!suppressPackageStartupMessages(require('Ipaper'))) {
   devtools::install_github('kongdd/Ipaper')
-	# devtools::install_github('kongdd/Ipaper')
-    # devtools::install_git('https://gitee.com/adv-r/Ipaper')
-    # or from gz file
-    # install.packages('../Ipaper_0.1.5.9000.tar.gz', repos = NULL, type = 'source', dependencies = TRUE)
-    # $sudo apt install -y libfftw3-dev
+  #devtools::install_git('https://gitee.com/adv-r/Ipaper')
+  # or from gz file
+  # install.packages('../Ipaper_0.1.5.9000.tar.gz', repos = NULL, type = 'source', dependencies = TRUE)
+  # $sudo apt install -y libfftw3-dev
 }; suppressPackageStartupMessages(require('Ipaper'))
 
 if(!suppressPackageStartupMessages(require('miniCRAN'))) {

@@ -35,7 +35,7 @@ sudo su - -c "R -e \"install.packages(rownames(installed.packages(priority = 'NA
 
 sudo su - -c "R -e \"devtools::update_packages()\""
 sudo su - -c "R -e \"update.packages(ask=FALSE)\""
-
+sudo su - -c "R -e \"devtools::install_github('lhmet/lhmetools')\""
 
 ## ===========================================================
 ## list all r packages 

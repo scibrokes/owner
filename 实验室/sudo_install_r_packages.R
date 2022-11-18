@@ -31,6 +31,8 @@ install.packages('rstanarm', repos = c('https://mc-stan.org/r-packages/', getOpt
 
 sudo su - -c "R -e \"devtools::update_packages()\""
 sudo su - -c "R -e \"update.packages(ask=FALSE, repos='https://cran.rstudio.org')\""
+sudo su - -c "R -e \"devtools::install_github('tidyverts/fabletools')\""
+sudo su - -c "R -e \"devtools::install_github('tidyverse/lubridate')\""
 
 ----------------------------------
 
