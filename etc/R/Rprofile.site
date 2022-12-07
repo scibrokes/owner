@@ -61,6 +61,7 @@ local({
                     Omega = 'http://www.omegahat.net/R', 
                     CINC = 'https://cinc.rud.is', 
                     RForge = 'https://www.rforge.net', 
+					RForge_R = 'http://R-Forge.R-project.org', 
                     RSpatial = 'https://rspatial.r-universe.dev', 
                     Stan = 'https://mc-stan.org/r-packages', 
                     MSFT = 'http://cran.microsoft.com', 
