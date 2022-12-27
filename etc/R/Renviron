@@ -90,5 +90,5 @@ R_LIBS_USER=${R_LIBS_USER:-'%U'}
 #Zotero_Web_API = RtS6gKyd3kEG6g8vdfLEqxZY
 
 ## https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
-#GITHUB_PAT = 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
+#GITHUB_PAT = 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
 
