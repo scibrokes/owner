@@ -5,7 +5,7 @@
 ##
 ## see help(Startup) for documentation on ~/.Renviron and Renviron.site
 
-# ## Example ~/.Renviron on Unix
+# ## Unix操作系统上的范例 ~/.Renviron
 # R_LIBS=~/R/library
 # PAGER=/usr/local/bin/less
 

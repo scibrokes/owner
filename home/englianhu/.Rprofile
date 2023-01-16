@@ -1,12 +1,12 @@
 #source("renv/activate.R")
-##						Emacs please make this -*- R -*-
-## empty Rprofile.site for R on Debian
+##						Emacs编译器通过 -*- R -*-确保将达比安/德比安上的R语言软件
+## 中的 Rprofile.site 文件清空。
 ##
-## Copyright (C) 2008 - 2018  Dirk Eddelbuettel and GPL'ed
+## 智慧产权与版权 © 2008年 - 2018年 迪克·埃德尔布鲁特 Dirk Eddelbuettel 和 GPL'ed
 ##
-## see help(Startup) for documentation on ~/.Rprofile and Rprofile.site
+## 查阅 help(Startup) 汇总上奏至 ~/.Rprofile 与 Rprofile.site
 
-# ## Example of .Rprofile
+# ## 范例 .Rprofile
 # options(width=65, digits=5)
 # options(show.signif.stars=FALSE)
 # setHook(packageEvent('grDevices', 'onLoad'),
@@ -15,12 +15,11 @@
 # .First <- function() cat("\n   Welcome to R!\n\n")
 # .Last <- function()  cat("\n   Goodbye!\n\n")
 
-## ======================== Micro Editor ===================================
-
+## ======================== 微观编译器 =================================
+## Micro（微观编译器） - 新式终端编译器
 ## https://www.tecmint.com/micro-linuxtext-editor-with-syntax-highlighting/
-## Micro - A Modern Terminal Based Text Editor with Syntax Highlighting
 
-## ============================= PATH ======================================
+## ======================= 蜀道设置 ====================================
 #system('sudo chmod +rwx /usr/lib/R')
 
 .pth <- .libPaths(c('/usr/lib/R/library')) #, '/cloud/lib/R/library', '/cloud/lib/R/site-library'))
@@ -48,8 +47,7 @@ options(encoding='UTF-8')
 #dir(paste0(R.home(component = 'home'), '/etc'))
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
 
-## -------------------------------------------------------------------------
-
+## -------------------- 派森设置 ----------------------------------
 ## https://stackoverflow.com/a/13736073/3806250
 # candidates <- c(Sys.getenv('R_PROFILE'),
 # file.path(Sys.getenv('R_HOME'), 'etc', 'Rprofile.site'),
@@ -65,9 +63,9 @@ options(encoding='UTF-8')
 Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/bin/python3', 
            '_R_USE_PIPEBIND_' = 'true')
 #Sys.setenv(RETICULATE_PYTHON = '/home/englianhu/anaconda3/envs/py38/bin/python')
-## -------------------------------------------------------------------------
 
-## We set the cloud mirror, which is 'network-close' to everybody, as default
+## ------------------------ 镜像设置 ------------------------------
+## 咱们设置云端镜像，以贴近众用户。
 local({
   #r <- getOption('repos')
   #r['CRAN'] <- 'https://cloud.r-project.org'
@@ -89,8 +87,7 @@ local({
   #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
 })
 
-## ==================== Load Packages ===============================
-
+## ==================== 读取R程序包 ===============================
 ## https://github.com/JanMarvin/nlsur
 ## https://zhuanlan.zhihu.com/p/25868387
 ## https://www.cnblogs.com/simplelovecs/p/5145305.html
@@ -102,7 +99,7 @@ local({
 # drat::addRepo("JanMarvin")
 # install.packages("nlsur")
 
-## R包安装失败解决
+## R包安装失败解决方案
 ## https://www.jianshu.com/p/381340383c12
 ## options(repos='http://cran.rstudio.com/')
 options(repos='https://cran.rstudio.com/')
@@ -204,8 +201,6 @@ pkgs <- c('MASS', 'conflicted', 'prettycode', 'crayon', 'progress', 'rhub', 'ply
 suppressPackageStartupMessages(load_pkg(pkgs))
 rm(pkgs)
 
-## -------------------------------------------------------------------
-
 ## https://stackoverflow.com/a/17486231/3806250
 #.First()
 .First <- function() {
@@ -214,21 +209,20 @@ rm(pkgs)
   #suppressPackageStartupMessages(startup::startup(all = TRUE))
 }
 
-## =================== Start Up ==================================
-
-# A powerline clone, that also shows the system load average and the current working directory.
+## =================== 有一个梦，由我启动 =======================
+# 电力线，显示系统读取速度均值和当前项目路径。
 if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
 
 ## https://www.jumpingrivers.com/blog/customising-your-rprofile/
 if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
   
-  # Only useful if you use Makefiles
+  # 仅用于 Makefiles
   rprofile::create_make_functions()
   
-  # Startup options
+  # 启动设置
   rprofile::set_startup_options()
   
-  # Not RStudio console
+  # R文艺坊与终端设置
   if (rprofile::is_terminal()) {
     # https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
     rprofile::set_terminal()
@@ -238,14 +232,12 @@ if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile')
   
   .env = rprofile::set_functions()
   suppressMessages(attach(.env))
-  # Display wifi and no of R sessions
-  # Linux only
+  # 显示无线网络与R会话控制（终端互动）
+  # 仅用于礼逆袭
   suppressWarnings(rprofile::set_startup_info())
 }
 
-## -------------------------------------------------------------------------
-
-# Prints RStudio project on start-up
+# 启动R文艺坊时列印项目
 setHook('rstudio.sessionInit', function(newSession) {
   active_rproj = rprofile::get_active_rproj()
   if (!is.null(active_rproj)) {

@@ -371,12 +371,22 @@ resource_files:
 雷欧 ∪ 瑞欧，黄联富
 
 <br>
-[[**主题曲**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]
+[[**主题曲**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]：《子曰》
 <br>
-<audio controls loop autoplay src='文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3' controls></audio>
+<audio controls loop autoplay src='文艺坊曲库/卜学亮 - 子曰.mp3' controls></audio>
 <br>
 
 [^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html)
+
+**大秦赋 (Chinese Emperor)**<br>
+春秋战国《*礼记•经解*》<br>
+孔子曰：『君子慎始，差若毫厘，缪以千里。』
+
+> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9'; background-color:#696969;'>*「君子慎始。差若毫厘，谬以千里。」*</span>[^1]
+
+*引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
+
+[^1]: [HTML Color Codes](https://html-color.codes)
 
 > <img src='文艺坊图库/大秦赋 - 北京大学.png' width='100'>
 > 
@@ -499,13 +509,13 @@ h5 { color: #92AAC7; }
 ```
 
 ```{r gb-opts, class.source='hover01', class.output='hover02'}
-## 设置时区但不更换时间 Set the timezone but not change the datetime
+## 设置时区但不更换时间 设置时区但不更换时差
 Sys.setenv(TZ = 'Asia/Shanghai')
 
-## 设置忽略所有警讯 Setting to omit all warnings
+## 设置忽略所有警讯 设置忽略所有警讯
 ## https://stackoverflow.com/a/36846793/3806250
-## 设置宽度 Set width
-## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+## 设置宽度 设置宽度
+## options(knitr.table.format = 'html')一次性将所有kableExtra图表设置为'html'，省得逐个设置。
 options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
 
 ## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
@@ -523,15 +533,14 @@ knitr::opts_chunk$set(
 ## 设置
 
 ```{r libs, eval=FALSE}
-## 设定，读取所需R程序包和环境设置 Setup Options, Loading Required Libraries and Preparing Environment
-## 读取R程序包与调整设置 Loading the packages and setting adjustment
+## 设定，读取所需R程序包和环境设置 选项设置、查阅图书馆读取R程序包、环境设置
+## 读取R程序包与调整设置
 source('函数/libs.R')
 ```
 
 ```{r setup, include=FALSE}
-## Setup Options, Loading Required Libraries and Preparing Environment
-
-## Loading the package 'BBmisc'
+## 选项设置、查阅图书馆读取R程序包、环境设置
+## 读取BBmisc程序包
 if(suppressMessages(!require('BBmisc'))){
   install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
   suppressMessages(library('BBmisc'))
@@ -543,15 +552,14 @@ if (suppressMessages(!require('rmsfuns'))) {
 
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
-## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+## 一次性读取所列R程序包，一劳永逸
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
 
-## Set the googleVis options first to change the behaviour of plot.gvis, so that 
-##  only the chart component of the HTML file is written into the output file.
+## 设置googleVis中的plot.gvis选项，将html文件嵌入于成品文件。
 op <- options(gvis.plot.tag = 'chart')
 
 ## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
@@ -904,7 +912,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **猫城仓库**：[REmap程序包中文版（百度绘图）](https://github.com/englianhu/REmap)
 
-- *百度绘图，点缀全球*
+- *百度绘图，点缀全球。*
 - *由于百度地图自从前几年开始只限制中国同胞注册为百度开发人员才能使用，导致无法正常使用。故此尝试修改全球地图数据来源，而且目前正在科研高频量化对冲交易论文内容、函数、代码都一律汉化，所以尝试将此**REmap**原版，稍微修改一下为**REmap程序包中文版（百度绘图）**，也是第一个使用中文编程的R语言程序包。*
 - *英文地名使用`maps::world.cities`程序包内数据即可。*
 - *而中文数据可以使用`maps::world.cities`程序包内数据已加工并储存在`REmap`程序包的附属数据`地图数据.csv`。*

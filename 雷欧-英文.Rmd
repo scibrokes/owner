@@ -1,9 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>®γσ, ξηg Lιαη Ημ</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: 'Personal Profile'
-author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='文艺坊图库/ENG.png'
-  height='16' align='center' valign='middle'> <img src='文艺坊图库/me light mode.jpg'
-  height='16' align='center' valign='middle'>®"
+author: "[®γσ, ξηg Lιαη Ημ](https://englianhu.github.io) <img src='文艺坊图库/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/ENG.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/me light mode.jpg' height='16' align='center' valign='middle'>®"
 tags: [Econometrics, Quantitative, Artis, ®, Python, ®Studio]
 date: '22-Oct-1984'
 output:
@@ -373,12 +371,60 @@ resource_files:
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
 <br>
-[[**Theme Song**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]
+[[**Theme Song**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]：《子曰》
 <br>
-<audio controls loop autoplay src='文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3' controls></audio>
+<audio controls loop autoplay src='文艺坊曲库/卜学亮 - 子曰.mp3' controls></audio>
 <br>
 
 [^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html) means :"As fantastic / heavenly as this dish🥬, it's one in the million of a chance to have it made so exquisite and one in the million for you to have."
+
+**大秦赋 (Chinese Emperor)**<br>
+春秋战国《*礼记•经解*》<br>
+孔子曰：『君子慎始，差若毫厘，缪以千里。』
+
+> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9'; background-color:#696969;'>*「君子慎始。差若毫厘，谬以千里。」*</span>[^1]
+
+*引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
+
+[^1]: [HTML Color Codes](https://html-color.codes)
+
+> <img src='文艺坊图库/大秦赋 - 北京大学.png' width='100'>
+> 
+> **大秦赋 - 北京大学**
+> 
+> **🚩🇨🇳🏹红旗中科 RedFlag Linux (🍥Debian 11)**
+> 
+> 🚩🇨🇳✝️🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳✝️🏹红旗礼逆袭。而创办人NonMuslim孙玉芳、艺人NonMuslim蔡卓宜、本人NonMuslim黄联富都是🇨🇳北京大学校友。
+> 
+> <br>
+> **🚩🇬🇧🏹Red Cross ✝️Army RedFlag Linux 🚩🇨🇳✝️🏹红旗中科**
+> 
+> - [🚩红旗礼逆袭（官网）](https://www.chinaredflag.cn)
+> - [🚩红旗应用商店（官网）](http://www.linuxsir.cn)
+> - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
+> - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
+> 
+> ![*🚩红旗礼逆袭*](文艺坊图库/红旗礼逆袭.gif)
+> 
+> <br>
+> 可通过以下网站查阅更多详情：
+> 
+> - [猫城仓库：scibrokes/r-world/issues/1](https://github.com/scibrokes/r-world/issues/1)
+> - [猫城仓库：scibrokes/owner/issues/4](https://github.com/scibrokes/owner/issues/4)
+> - [猫城仓库：scibrokes/setup-centOS7-DO](https://github.com/scibrokes/setup-centOS7-DO)
+> 
+> <iframe src='//player.bilibili.com/player.html?aid=938367824&bvid=BV1pT4y1a7Zt&cid=581199416&page=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'> </iframe>
+> 
+> *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863?spm_id_from=333.999.list.card_time.click)
+> 
+> <br>
+> 目前使用🚩🇨🇳🏹中国国产红旗礼逆袭，并且将REmap程序包中文化，以下R编程语言函数也开始中文化，日后编程都会使用中文编程。
+> 
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/binary-Q1Inter-HFT-RV3.Rmd](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/binary-Q1Inter-HFT-RV3.Rmd)
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/日内高频指数平滑.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E6%97%A5%E5%86%85%E9%AB%98%E9%A2%91%E6%8C%87%E6%95%B0%E5%B9%B3%E6%BB%91.R)
+> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/季节性自回归.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E5%AD%A3%E8%8A%82%E6%80%A7%E8%87%AA%E5%9B%9E%E5%BD%92.R)
+
+*出处：[欢迎到【百度绘图】R编程语言程序包](https://github.com/englianhu/REmap/wiki/%E6%AC%A2%E8%BF%8E%E5%88%B0%E3%80%90%E7%99%BE%E5%BA%A6%E7%BB%98%E5%9B%BE%E3%80%91R%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E5%8C%85)*
 
 ------
 
@@ -463,13 +509,13 @@ h5 { color: #92AAC7; }
 ```
 
 ```{r gb-opts, class.source='hover01', class.output='hover02'}
-## Set the timezone but not change the datetime
+## 设置时区但不更换时差
 Sys.setenv(TZ = 'Asia/Shanghai')
 
-## Setting to omit all warnings
+## 设置忽略所有警讯
 ## https://stackoverflow.com/a/36846793/3806250
-## Set width
-## options(knitr.table.format = 'html') will set all kableExtra tables to be 'html', otherwise need to set the parameter on every single table.
+## 设置宽度
+## options(knitr.table.format = 'html')一次性将所有kableExtra图表设置为'html'，省得逐个设置。
 options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
 
 ## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
@@ -487,15 +533,14 @@ knitr::opts_chunk$set(
 ## Setup
 
 ```{r libs, eval=FALSE}
-## Setup Options, Loading Required Libraries and Preparing Environment
-## Loading the packages and setting adjustment
+## 选项设置、查阅图书馆读取R程序包、环境设置
+## 读取R程序包与调整设置
 source('函数/libs.R')
 ```
 
 ```{r setup, include=FALSE}
-## Setup Options, Loading Required Libraries and Preparing Environment
-
-## Loading the package 'BBmisc'
+## 选项设置、查阅图书馆读取R程序包、环境设置
+## 读取BBmisc程序包
 if(suppressMessages(!require('BBmisc'))){
   install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
   suppressMessages(library('BBmisc'))
@@ -507,15 +552,14 @@ if (suppressMessages(!require('rmsfuns'))) {
 
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
-## Loading multiple packages at once
-pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr')
+## 一次性读取所列R程序包，一劳永逸
+pkgs <- c('readr', 'plyr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
 
-## Set the googleVis options first to change the behaviour of plot.gvis, so that 
-##  only the chart component of the HTML file is written into the output file.
+## 设置googleVis中的plot.gvis选项，将html文件嵌入于成品文件。
 op <- options(gvis.plot.tag = 'chart')
 
 ## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
@@ -527,12 +571,12 @@ op <- options(gvis.plot.tag = 'chart')
 
 | **Title**                                    |                                                                                                                                                                       **Details** |
 |:---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Family Name]{style='color:RoyalBlue'}[^1]   |                                                                                                                                                [ξηg]{style='color:RoyalBlue'}[^2] |
-| [Given Name]{style='color:RoyalBlue'}        |                                                                                                                                            [Lιαη Ημ]{style='color:RoyalBlue'}[^3] |
-| [Courtesy Name]{style='color:RoyalBlue'}     |                                                                                         [阿<ruby>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby>🐯 ]{style='color:RoyalBlue'}[^4](Tiger) |
-| [Pseudonym]{style='color:RoyalBlue'}         |                                                                                                                                              [$®γσ$]{style='color:RoyalBlue'}[^5] |
-| [Alais Name]{style='color:RoyalBlue'}        |                                                                                                                                    [🎎Ryusuke Kenji]{style='color:RoyalBlue'}[^6] |
-| [Nickname]{style='color:RoyalBlue'}          | [Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^7] / [HuHu (<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^8] / [AHU (阿沪)]{style='color:RoyalBlue'}[^9] / [FuZai (🇭🇰Cantonese: <ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^10] |
+| [Family Name]{style='color:RoyalBlue'}[^2]   |                                                                                                                                                [ξηg]{style='color:RoyalBlue'}[^4] |
+| [Given Name]{style='color:RoyalBlue'}        |                                                                                                                                            [Lιαη Ημ]{style='color:RoyalBlue'}[^5] |
+| [Courtesy Name]{style='color:RoyalBlue'}     |                                                                                         [阿<ruby>虎<rp>(</rp><rt>hǔ</rt><rp>)</rp></ruby>🐯 ]{style='color:RoyalBlue'}[^6](Tiger) |
+| [Pseudonym]{style='color:RoyalBlue'}         |                                                                                                                                              [$®γσ$]{style='color:RoyalBlue'}[^7] |
+| [Alais Name]{style='color:RoyalBlue'}        |                                                                                                                                    [🎎Ryusuke Kenji]{style='color:RoyalBlue'}[^8] |
+| [Nickname]{style='color:RoyalBlue'}          | [Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^9] / [HuHu (<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^10] / [AHU (阿沪)]{style='color:RoyalBlue'}[^11] / [FuZai (🇭🇰Cantonese: <ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)]{style='color:RoyalBlue'}[^12] |
 | Date of Birth (Gregorian Calendar)           |                                                                                                                                             (Zodiac: Libra ⚖) 22th-October-1984 |
 | Birthday Horoscope (Chinese Calendar)        |                                                                                        (Chinese Zodiac: Mouse 🐭) Year 1984（甲子鼠年🐭）September 28th （丑牛时🐮）time (Monday) |
 | Age                                          |          `r interval(dmy('22-10-1984', tz = 'Asia/Shanghai'), now(tzone = 'Asia/Shanghai')) |> {\(.) as.period(., .unit=years)}() |> {\(.) str_replace(., '(?<=d).{1,}$', '')}()` |
@@ -542,35 +586,35 @@ op <- options(gvis.plot.tag = 'chart')
 | Others Mailbox                               |   englianhu@hotmail.com / englianhu@yahoo.com / <s>ryusukekenji@gmail.com</s> / <s>ryusukekenji@hotmail.com</s> / <s>lianhu_10@hotmail.com</s> / <s>cyber_englianhu@yahoo.com</s> |
 | Nationality                                  |                                                                                                                                                                    🇲🇾 Malaysian |
 | Place of Birth                               |                                                                                                                                                Tanjong Karang, Selangor, Malaysia |
-| Religion                                     |                                                                                          [墨μ **Mohism**, ☸ρ Confucianism, ☯️τ Taoism, 卍 Buddha]{style='color:RoyalBlue'}[^11] |
+| Religion                                     |                                                                                          [墨μ **Mohism**, ☸ρ Confucianism, ☯️τ Taoism, 卍 Buddha]{style='color:RoyalBlue'}[^13] |
 | Race                                         |                                                                                                                                                                  🇹🇼🇨🇳 Chinese |
-| Ancestral Home                               |                                                                                                                 🇹🇼🇨🇳 [Chinese Fujian Yong Chun]{style='color:RoyalBlue'}[^12] |
+| Ancestral Home                               |                                                                                                                 🇹🇼🇨🇳 [Chinese Fujian Yong Chun]{style='color:RoyalBlue'}[^14] |
 | Mother Tongue                                |                                                                                                                                           🇹🇼🇨🇳 Taiwanese / Hokkien / Mandarin |
 | Others Spoken Language                       | 🇭🇰 Cantonese / 🇬🇧🇺🇸 English / 🇯🇵 Japanese / 🇮🇩🇲🇾 Indo-Malay / <s>🇰🇷 Korean</s> / <s>🇩🇪 German</s> / <s>🇫🇷 French</s> / <s>🇬🇷 Greek</s> / <s>🇵🇭 Tagalog</s> / <s>🇰🇭 Khmer</s> |
 
-[^1]: \- [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>- [【国学】古人的名、字、号……居然有这么多讲究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>- [古人的名、字、号的区别](https://zhidao.baidu.com/question/607401941.html)<br>- [古人的名、字、号，有什么区别？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>- [古代人的「姓、名、字、号」用英文怎么翻译。还有「原名」、「人称」、「<ruby>谥<rp>(</rp><rt>shì</rt><rp>)</rp></ruby>号」、「别号」](https://zhidao.baidu.com/question/539061381.html)
+[^2]: \- [《拼出咱的名》🎼](https://youtu.be/2bsMitFaZL0)<br>- [【国学】古人的名、字、号……居然有这么多讲究](http://www.xinhuanet.com/politics/2018-09/26/c_129960980.htm)<br>- [古人的名、字、号的区别](https://zhidao.baidu.com/question/607401941.html)<br>- [古人的名、字、号，有什么区别？](http://www.360doc.com/content/18/0318/23/7724115_738280959.shtml)<br>- [古代人的「姓、名、字、号」用英文怎么翻译。还有「原名」、「人称」、「<ruby>谥<rp>(</rp><rt>shì</rt><rp>)</rp></ruby>号」、「别号」](https://zhidao.baidu.com/question/539061381.html)
 
-[^2]: *「未曾见过曾祖父和祖父的英文姓名，不过为啥咱家英文姓氏是ENG而非NG呢？当中有个小插曲，就是马来亚国家未独立，前辈们（忘了当时是曾祖父或祖父去国民登记局，还是伯父爸爸和三叔去国民登记局，总之原本英文是Ng，写为Eng）都不会马来文，只会闽南语“黄”，结果去国民登记局，马来人听到“NG”就写成“ENG”了，就像平时有人看到ENG会念成“嗯（后鼻音）”，而在下会纠正念：“Eing / A'ing”...」*<br><br>欲知更多详情，可参阅[《雪隆江夏堂》 – 家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)。<br><br>好友曾威廉也说过他的祖父🚩红军军人，光绪年间从中国飘洋过海到泰国认识他祖母结婚生子后再南下马来亚落地生根，原姓Chan后登记为Chen... 个人博文会记载以前认识的好友和经历等。
+[^4]: *「未曾见过曾祖父和祖父的英文姓名，不过为啥咱家英文姓氏是ENG而非NG呢？当中有个小插曲，就是马来亚国家未独立，前辈们（忘了当时是曾祖父或祖父去国民登记局，还是伯父爸爸和三叔去国民登记局，总之原本英文是Ng，写为Eng）都不会马来文，只会闽南语“黄”，结果去国民登记局，马来人听到“NG”就写成“ENG”了，就像平时有人看到ENG会念成“嗯（后鼻音）”，而在下会纠正念：“Eing / A'ing”...」*<br><br>欲知更多详情，可参阅[《雪隆江夏堂》 – 家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)。<br><br>好友曾威廉也说过他的祖父🚩红军军人，光绪年间从中国飘洋过海到泰国认识他祖母结婚生子后再南下马来亚落地生根，原姓Chan后登记为Chen... 个人博文会记载以前认识的好友和经历等。
 
-[^3]: **《阿虎家谱》**<br>[*父母识乩童，华财郑招添；<br>家父得十子，子名皆母起。<br>碧历真、升旗山、丰富、霜巡；<br>本欲生八子，后得幼儿女。<br>甲子甲女也，母起字霹莲；<br>乙子乙女也，母未曾起字。<br>丙子丙女也，母起字阿尿；<br>丁子甲男也，母未曾起字。<br>戊子乙男也，母起字老<ruby>旗<rp>(</rp><rt>🇹🇼闽曰：kî</rt><rp>)</rp></ruby>；<br>己子丙男也，母起字山<ruby>哪<rp>(</rp><rt>nā</rt><rp>)</rp></ruby>。<br>庚子丁男也，母未曾起字；<br>辛子戊男也，母起字阿<ruby>虎<rp>(</rp><rt>🐯</rt><rp>)</rp></ruby>。<br>壬子丁女也，母未曾起字；<br>癸子己男也，母未曾起字。<br>子称父二叔，子称母二婶。*]{style="color:#F6A217"}<br><br>--- 笔者📝本人黄联富<br><br>父母就经过友人介绍认识了一位查《三世书》的算命佬✍🏻华财(类似白骨精，外号“骨的”)，自幼家庭贫困不过不奢求啥，家人们一出世，华财就辑写每个家庭成员类似自传的一辈子运势，可以解释为《人生契约》，父母另一位好友《三太子庙》后改为《太子庙》的郑招添，童年未7岁上小学前，爸妈时常带我到村外六石里路的郑招添家（家与寺庙隔壁身兼打理人，类似1994年第一次到村里一巷四哥同学郑进祥的爸爸乩童（太上老君）外号称阿明寺庙在他家对面、2001年中学转校到瓜雪认识好友郑凌旭同学古瘄）聊天。<br><br>1984年一出世，妈妈就称我为阿虎，亲朋戚友也这么叫阿虎。时常聊起她小时候有儿歌哼：“马来亚，好风光；景色多漂亮；没天灾人祸...”、“春天不是读书天，夏日炎炎正好眠”、“耶律沙冷...”。妈妈原本要生八个孩子，碧历真<s>霹雳针</s>、升旗山（起名“升旗山”因为有气势威风凛凛且兄弟间互相帮忙，没说过和槟城旗帜与明智华小校徽一样。），打算生了丰富后就不再生育，怎么知道高龄生育，不晓得要起什么名，就起了“霜”（后来妹妹的同学朋友说过：“哑巴吃黄莲够苦命了，还要雪上加霜。”）、之后再没预料到再生一个庶子，希望家人都事业出门万事顺顺利利也没啥奢望，就起了个“巡”；而母亲为了避免家人到村里咖啡店找爸爸时与别人一样叫爸爸，咖啡店的人和自己爸爸妈妈会不晓得是谁家孩子，所以妈妈就叫家里兄弟姐妹一出世以来，就称“爸爸”为“二叔”，称“妈妈”为“二婶”。<br><br>欲知更多详情，可参阅[《雪隆江夏堂》 – 家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)。
+[^5]: **《阿虎家谱》**<br>[*父母识乩童，华财郑招添；<br>家父得十子，子名皆母起。<br>碧历真、升旗山、丰富、霜巡；<br>本欲生八子，后得幼儿女。<br>甲子甲女也，母起字霹莲；<br>乙子乙女也，母未曾起字。<br>丙子丙女也，母起字阿尿；<br>丁子甲男也，母未曾起字。<br>戊子乙男也，母起字老<ruby>旗<rp>(</rp><rt>🇹🇼闽曰：kî</rt><rp>)</rp></ruby>；<br>己子丙男也，母起字山<ruby>哪<rp>(</rp><rt>nā</rt><rp>)</rp></ruby>。<br>庚子丁男也，母未曾起字；<br>辛子戊男也，母起字阿<ruby>虎<rp>(</rp><rt>🐯</rt><rp>)</rp></ruby>。<br>壬子丁女也，母未曾起字；<br>癸子己男也，母未曾起字。<br>子称父二叔，子称母二婶。*]{style="color:#F6A217"}<br><br>--- 笔者📝本人黄联富<br><br>父母就经过友人介绍认识了一位查《三世书》的算命佬✍🏻华财(类似白骨精，外号“骨的”)，自幼家庭贫困不过不奢求啥，家人们一出世，华财就辑写每个家庭成员类似自传的一辈子运势，可以解释为《人生契约》，父母另一位好友《三太子庙》后改为《太子庙》的郑招添，童年未7岁上小学前，爸妈时常带我到村外六石里路的郑招添家（家与寺庙隔壁身兼打理人，类似1994年第一次到村里一巷四哥同学郑进祥的爸爸乩童（太上老君）外号称阿明寺庙在他家对面、2001年中学转校到瓜雪认识好友郑凌旭同学古瘄）聊天。<br><br>1984年一出世，妈妈就称我为阿虎，亲朋戚友也这么叫阿虎。时常聊起她小时候有儿歌哼：“马来亚，好风光；景色多漂亮；没天灾人祸...”、“春天不是读书天，夏日炎炎正好眠”、“耶律沙冷...”。妈妈原本要生八个孩子，碧历真<s>霹雳针</s>、升旗山（起名“升旗山”因为有气势威风凛凛且兄弟间互相帮忙，没说过和槟城旗帜与明智华小校徽一样。），打算生了丰富后就不再生育，怎么知道高龄生育，不晓得要起什么名，就起了“霜”（后来妹妹的同学朋友说过：“哑巴吃黄莲够苦命了，还要雪上加霜。”）、之后再没预料到再生一个庶子，希望家人都事业出门万事顺顺利利也没啥奢望，就起了个“巡”；而母亲为了避免家人到村里咖啡店找爸爸时与别人一样叫爸爸，咖啡店的人和自己爸爸妈妈会不晓得是谁家孩子，所以妈妈就叫家里兄弟姐妹一出世以来，就称“爸爸”为“二叔”，称“妈妈”为“二婶”。<br><br>欲知更多详情，可参阅[《雪隆江夏堂》 – 家谱](https://englianhu.wordpress.com/2022/02/22/%e3%80%8a%e9%9b%aa%e9%9a%86%e6%b1%9f%e5%a4%8f%e5%a0%82%e3%80%8b-%e5%ae%b6%e8%b0%b1)。
 
-[^4]: \- 参照以上**《阿虎家谱》**<br>-[《小虎🐯队-2019精选集 (上)》🎼](https://youtu.be/lN2HqdKvRSs)<br>- ["狗"与"犬"有区别吗？](https://baike.baidu.com/tashuo/browse/content?id=f5a54d49931410bdb8ec540c)：《尔雅·释兽》载，[*「熊🐻虎🐯丑，其子狗。」*]{style="color:#F6A217"} “丑”意思是“类”，这句话的意思是：熊虎类的<ruby>崽<rp>(</rp><rt>zǎi</rt><rp>)</rp></ruby>称为狗。清代大学者郝懿行解释《尔雅》的书《尔雅义疏》，[*「今东齐、辽东人通呼虎🐯之子为羔，羔即狗之转。」*]{style="color:#F6A217"}<br>- [中国哲学书电子化计划：“<ruby>豿<rp>(</rp><rt>gǒu</rt><rp>)</rp></ruby>”](https://ctext.org/dictionary.pl?if=gb&char=%E8%B1%BF&remap=gb)：[*「<ruby>豿<rp>(</rp><rt>gǒu</rt><rp>)</rp></ruby>：熊🐻虎🐯之子。」*]{style="color:#F6A217"} describe how to term small bear🐻 and tiger🐯 in Chinese language. For example: calf🐮 is small cow🐮.
+[^6]: \- 参照以上**《阿虎家谱》**<br>-[《小虎🐯队-2019精选集 (上)》🎼](https://youtu.be/lN2HqdKvRSs)<br>- ["狗"与"犬"有区别吗？](https://baike.baidu.com/tashuo/browse/content?id=f5a54d49931410bdb8ec540c)：《尔雅·释兽》载，[*「熊🐻虎🐯丑，其子狗。」*]{style="color:#F6A217"} “丑”意思是“类”，这句话的意思是：熊虎类的<ruby>崽<rp>(</rp><rt>zǎi</rt><rp>)</rp></ruby>称为狗。清代大学者郝懿行解释《尔雅》的书《尔雅义疏》，[*「今东齐、辽东人通呼虎🐯之子为羔，羔即狗之转。」*]{style="color:#F6A217"}<br>- [中国哲学书电子化计划：“<ruby>豿<rp>(</rp><rt>gǒu</rt><rp>)</rp></ruby>”](https://ctext.org/dictionary.pl?if=gb&char=%E8%B1%BF&remap=gb)：[*「<ruby>豿<rp>(</rp><rt>gǒu</rt><rp>)</rp></ruby>：熊🐻虎🐯之子。」*]{style="color:#F6A217"} describe how to term small bear🐻 and tiger🐯 in Chinese language. For example: calf🐮 is small cow🐮.
 
-[^5]: 2008年加入西世康首周培训时，培训师Tan Tee Wei(谐音：陈蒂薇)问我怎么称呼，有没有昵名之类的，然后想了几天后就自诩Ryo，就因为小学中学时期喜欢《街头霸王》的<ruby>龍<rp>(</rp><rt>りゅう</rt><rp>)</rp></ruby>（龙 Ryu）和升龙拳、《拳王》的<ruby>草<rp>(</rp><rt>くさ</rt><rp>)</rp>薙<rp>(</rp><rt>なぎ</rt><rp>)</rp>京<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>（京 Kyo），因为“<ruby>拾<rp>(</rp><rt>🇹🇼闽曰：khioh</rt><rp>)</rp></ruby>”字感觉像“拾金不昧”、“遭人嫌弃的养子”、“不是亲生的养子”（1983年出生的四哥联丰婴儿时期，家慈李仁曾送与大姨妈李英当儿子，祖母颜为得知赶紧到外祖母家载孙子回家。后来小姨妈李美兰花钱RM8000为大姨妈买了个1988年出生的印度裔婴儿当儿子。而小时候90年代追《包青天》有集“狸猫换太子”）；[*就不想用Ryu和Kyo，联合起来自诩Ryo*]{style="color:#F6A217"}，刚好就和《拳王》（最初出现于1992年《龍虎の拳》的角色）中的<ruby>坂<rp>(</rp><rt>さか</rt><rp>)</rp>崎<rp>(</rp><rt>ざき</rt><rp>)</rp>亮<rp>(</rp><rt>りょう</rt><rp>)</rp></ruby> Ryo命名（绝技“真・天地覇煌拳”以速度取胜，不过最喜欢豪鬼的“瞬狱杀”，类似目前科研的高频量化交易），Ryo 朗朗上口，记得西世康Jason问过Ryo中文怎么写，而我浅笑回答可以自定义为“良”、“量”、“亮”等汉字而故意不定位，不使用中文汉字，而使用外来语リョウ，1997年想学佐治.索罗斯当个金融业大玩家，当时完全没听说过任何量化圈的人物，2005年在HexaCommerce工作时只知道老外很厉害使用电脑编程和数学和统计学交易挣钱却没导师无从学起，甚至不晓得俗称“量化”，只知道以数学和统计学在交易市场挣钱。<br><br>2019年到乐发阿里彩票工作时，公司只允许使用别名，表格上本想用“<ruby>叡<rp>(</rp><rt>ruì</rt><rp>)</rp></ruby>欧”却忘了曹叡的叡字怎么写（就“叡”字少见，不过想到司马掌权就不使用“叡”字）、然后“磊欧”（为人“光明磊落”、“明人不做暗事”之意，正合个人的为人处事。从Caspo辞职回国就是立志学好在拉曼学院修读大学时所知道的统计学以数据的多寡加上统计建模在交易市场上挣钱，俗称Dixon&Coles1997提及的“大数定律”与“极大似然估计”，而非2006年在🇸🇬新加坡喜来登和嚣张🇸🇬欧阳金泰面试时夸夸其谈。2008年至2012年在西世康工作一心只想科研数学、建立量化避险基金，不靠奉承；有天光头上司Christopher欲提拔邀出席公司年宴当面，被我拒绝难堪后当面不知所措心慌。）不能朗朗上口、而“龙”字太普遍，然后就使用“雷欧”（考量到《飞跃青春》的王雷、🇸🇬新加坡行动党⚡️、🇪🇺欧盟、最主要是同是量化避险基金“雷达利欧”简称为“雷欧”）翻译原本的Ryo，然后同组有位“娟娟”（🇸🇬欧阳金泰妻子名叫“晓娟”）、“大龙”、“雷着”（2012年在马电讯工作过滤海外转播节目有出戏叫《飞跃情春》由长得像🇸🇬欧阳金泰的🇨🇳中国艺人王雷饰演，男主角的结局是悲情枪决死刑），和华财一样超短光头发型的雷着身份证姓名：王雷。“瑞欧”则是目前不速之客🇸🇪瑞典国鸟乌鸦时常飞来而命名。<br><br>2007年到 🇸🇬新加坡喜来登酒店大厅面试Caspo新宝工作时，欧阳金泰和欧阳金喜俩问:“有没有一个比较容易记的名字、称号或别名？”，当时回复：“没有!”，然后在Caspo工作时，同事上司老板们都称“Lian Hu”。
+[^7]: 2008年加入西世康首周培训时，培训师Tan Tee Wei(谐音：陈蒂薇)问我怎么称呼，有没有昵名之类的，然后想了几天后就自诩Ryo，就因为小学中学时期喜欢《街头霸王》的<ruby>龍<rp>(</rp><rt>りゅう</rt><rp>)</rp></ruby>（龙 Ryu）和升龙拳、《拳王》的<ruby>草<rp>(</rp><rt>くさ</rt><rp>)</rp>薙<rp>(</rp><rt>なぎ</rt><rp>)</rp>京<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>（京 Kyo），因为“<ruby>拾<rp>(</rp><rt>🇹🇼闽曰：khioh</rt><rp>)</rp></ruby>”字感觉像“拾金不昧”、“遭人嫌弃的养子”、“不是亲生的养子”（1983年出生的四哥联丰婴儿时期，家慈李仁曾送与大姨妈李英当儿子，祖母颜为得知赶紧到外祖母家载孙子回家。后来小姨妈李美兰花钱RM8000为大姨妈买了个1988年出生的印度裔婴儿当儿子。而小时候90年代追《包青天》有集“狸猫换太子”）；[*就不想用Ryu和Kyo，联合起来自诩Ryo*]{style="color:#F6A217"}，刚好就和《拳王》（最初出现于1992年《龍虎の拳》的角色）中的<ruby>坂<rp>(</rp><rt>さか</rt><rp>)</rp>崎<rp>(</rp><rt>ざき</rt><rp>)</rp>亮<rp>(</rp><rt>りょう</rt><rp>)</rp></ruby> Ryo命名（绝技“真・天地覇煌拳”以速度取胜，不过最喜欢豪鬼的“瞬狱杀”，类似目前科研的高频量化交易），Ryo 朗朗上口，记得西世康Jason问过Ryo中文怎么写，而我浅笑回答可以自定义为“良”、“量”、“亮”等汉字而故意不定位，不使用中文汉字，而使用外来语リョウ，1997年想学佐治.索罗斯当个金融业大玩家，当时完全没听说过任何量化圈的人物，2005年在HexaCommerce工作时只知道老外很厉害使用电脑编程和数学和统计学交易挣钱却没导师无从学起，甚至不晓得俗称“量化”，只知道以数学和统计学在交易市场挣钱。<br><br>2019年到乐发阿里彩票工作时，公司只允许使用别名，表格上本想用“<ruby>叡<rp>(</rp><rt>ruì</rt><rp>)</rp></ruby>欧”却忘了曹叡的叡字怎么写（就“叡”字少见，不过想到司马掌权就不使用“叡”字）、然后“磊欧”（为人“光明磊落”、“明人不做暗事”之意，正合个人的为人处事。从Caspo辞职回国就是立志学好在拉曼学院修读大学时所知道的统计学以数据的多寡加上统计建模在交易市场上挣钱，俗称Dixon&Coles1997提及的“大数定律”与“极大似然估计”，而非2006年在🇸🇬新加坡喜来登和嚣张🇸🇬欧阳金泰面试时夸夸其谈。2008年至2012年在西世康工作一心只想科研数学、建立量化避险基金，不靠奉承；有天光头上司Christopher欲提拔邀出席公司年宴当面，被我拒绝难堪后当面不知所措心慌。）不能朗朗上口、而“龙”字太普遍，然后就使用“雷欧”（考量到《飞跃青春》的王雷、🇸🇬新加坡行动党⚡️、🇪🇺欧盟、最主要是同是量化避险基金“雷达利欧”简称为“雷欧”）翻译原本的Ryo，然后同组有位“娟娟”（🇸🇬欧阳金泰妻子名叫“晓娟”）、“大龙”、“雷着”（2012年在马电讯工作过滤海外转播节目有出戏叫《飞跃情春》由长得像🇸🇬欧阳金泰的🇨🇳中国艺人王雷饰演，男主角的结局是悲情枪决死刑），和华财一样超短光头发型的雷着身份证姓名：王雷。“瑞欧”则是目前不速之客🇸🇪瑞典国鸟乌鸦时常飞来而命名。<br><br>2007年到 🇸🇬新加坡喜来登酒店大厅面试Caspo新宝工作时，欧阳金泰和欧阳金喜俩问:“有没有一个比较容易记的名字、称号或别名？”，当时回复：“没有!”，然后在Caspo工作时，同事上司老板们都称“Lian Hu”。
 
-[^6]: 2001/2002年（中四中五时期）每次暑假都会到怡保路汇丰银行后面的住宅区（家人赁租的公寓），然后学习电脑Photoshop、Front Page、玩Play Station电玩、追幽游白书、街头霸王、高达战士系列等动漫影片。中学时期同学们都玩网上聊天的IRC，因为大姐二姐平时使用电邮，当时90年代是雅虎年代，也注册了个邮箱（忘了什么雅虎邮箱号了），之后经中学同学慧燕介绍到巴生中路《大人餐厅》打工时，平时会查询邮箱。后来因为追《G高达战士》到结局时，喜欢悲情的东方不败的多蒙京二（自幼看琼瑶戏就爱哭，也喜欢抒情歌曲），就以《幽游白书》灵丸的<ruby>幽<rp>(</rp><rt>ゆう</rt><rp>)</rp>助<rp>(</rp><rt>すけ</rt><rp>)</rp></ruby>Yusuke、Kyoji、Ryunosuke（目前忘了是哪个电玩或者动漫角色，应该是《<ruby>龍<rp>(</rp><rt>りゅう</rt><rp>)</rp>狼<rp>(</rp><rt>ろう</rt><rp>)</rp>伝<rp>(</rp><rt>でん</rt><rp>)</rp></ruby>》的“<ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp></ruby>の<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>”天地志狼，印象中《幽游白书》有人物叫“幽助”为“幽之助”，类似比达叫“孙悟空”为“卡卡罗特”）、<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp>原<rp>(</rp><rt>はら</rt><rp>)</rp>新<rp>(</rp><rt>しん</rt><rp>)</rp>之<rp>(</rp><rt>の</rt><rp>)</rp>助<rp>(</rp><rt>すけ</rt><rp>)</rp></ruby>（新之助 Shinnosuke）联合，自诩“Ryusuke Kenji”。
+[^8]: 2001/2002年（中四中五时期）每次暑假都会到怡保路汇丰银行后面的住宅区（家人赁租的公寓），然后学习电脑Photoshop、Front Page、玩Play Station电玩、追幽游白书、街头霸王、高达战士系列等动漫影片。中学时期同学们都玩网上聊天的IRC，因为大姐二姐平时使用电邮，当时90年代是雅虎年代，也注册了个邮箱（忘了什么雅虎邮箱号了），之后经中学同学慧燕介绍到巴生中路《大人餐厅》打工时，平时会查询邮箱。后来因为追《G高达战士》到结局时，喜欢悲情的东方不败的多蒙京二（自幼看琼瑶戏就爱哭，也喜欢抒情歌曲），就以《幽游白书》灵丸的<ruby>幽<rp>(</rp><rt>ゆう</rt><rp>)</rp>助<rp>(</rp><rt>すけ</rt><rp>)</rp></ruby>Yusuke、Kyoji、Ryunosuke（目前忘了是哪个电玩或者动漫角色，应该是《<ruby>龍<rp>(</rp><rt>りゅう</rt><rp>)</rp>狼<rp>(</rp><rt>ろう</rt><rp>)</rp>伝<rp>(</rp><rt>でん</rt><rp>)</rp></ruby>》的“<ruby>竜<rp>(</rp><rt>りゅう</rt><rp>)</rp></ruby>の<ruby>子<rp>(</rp><rt>こ</rt><rp>)</rp></ruby>”天地志狼，印象中《幽游白书》有人物叫“幽助”为“幽之助”，类似比达叫“孙悟空”为“卡卡罗特”）、<ruby>野<rp>(</rp><rt>の</rt><rp>)</rp>原<rp>(</rp><rt>はら</rt><rp>)</rp>新<rp>(</rp><rt>しん</rt><rp>)</rp>之<rp>(</rp><rt>の</rt><rp>)</rp>助<rp>(</rp><rt>すけ</rt><rp>)</rp></ruby>（新之助 Shinnosuke）联合，自诩“Ryusuke Kenji”。
 
-[^7]: 2006年在Telebiz（🇭🇰香港籍秃头大股东🐯虎哥，长得像🇭🇰李嘉诚）工作时有个🇮🇩印尼股东叫Mr Yee（另一位🇮🇩印尼股东“阿明”称为明哥），而同房同事室友Chew Yee Mun 阿<ruby>文<rp>(</rp><rt>mǎn</rt><rp>)</rp></ruby>（🇭🇰粤）（像🇭🇰港星马俊伟在《马场大亨》工作过，长得和🇭🇰港星魏俊杰很相似），就喜欢称呼为Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，然后公司的同事都那么称、上司老板和当时认识的同事兼后来成为好友曾威廉称AHU (阿沪)，至于AHU (阿沪)这个小名则看下文。
+[^9]: 2006年在Telebiz（🇭🇰香港籍秃头大股东🐯虎哥，长得像🇭🇰李嘉诚）工作时有个🇮🇩印尼股东叫Mr Yee（另一位🇮🇩印尼股东“阿明”称为明哥），而同房同事室友Chew Yee Mun 阿<ruby>文<rp>(</rp><rt>mǎn</rt><rp>)</rp></ruby>（🇭🇰粤）（像🇭🇰港星马俊伟在《马场大亨》工作过，长得和🇭🇰港星魏俊杰很相似），就喜欢称呼为Mr. Hu (Mr. <ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，然后公司的同事都那么称、上司老板和当时认识的同事兼后来成为好友曾威廉称AHU (阿沪)，至于AHU (阿沪)这个小名则看下文。
 
-[^8]: 2006年在Telebiz，有位好哥儿们同事（同组后转为隔壁桌出货跟单部门、后来都从Caspo辞职后还一块儿喝茶聊天找工作，而我到世西康工作）Chris Chen Peng Kok就喜欢称<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)。
+[^10]: 2006年在Telebiz，有位好哥儿们同事（同组后转为隔壁桌出货跟单部门、后来都从Caspo辞职后还一块儿喝茶聊天找工作，而我到世西康工作）Chris Chen Peng Kok就喜欢称<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)。
 
-[^9]: 1997年上中学后，有位为人不拘泥于小节的好哥儿们同学陈有良（中一中二不同班关系还不错、中三同班同学好哥儿们。由于有良同学、伟明同学、进祥同学、表弟国添、堂哥顺昌都有黑帮背景，平时上课时间都喜欢和有良一块儿旷课畅谈黑帮）中一时一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，而日后的同事们都是一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)。
+[^11]: 1997年上中学后，有位为人不拘泥于小节的好哥儿们同学陈有良（中一中二不同班关系还不错、中三同班同学好哥儿们。由于有良同学、伟明同学、进祥同学、表弟国添、堂哥顺昌都有黑帮背景，平时上课时间都喜欢和有良一块儿旷课畅谈黑帮）中一时一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，而日后的同事们都是一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)。
 
-[^10]: 2010年左右在西世康工作，自从提交企划书，巴西不能帮万佛寺乩童张家坤（大约2002年中学毕业后认识，当时人称《万佛寺》的济公师傅，经过二哥同学张志强介绍二哥和妈妈认识后，二哥和妈妈再介绍给我认识，大约2002年第一次在《万佛寺》问神时，乩童张家坤第一眼见到我就晴天霹雳跪地求饶扮女生说话）就开始说会争取到立博交易部门。有天三姐拿着《人生契约》连同妈妈和我到华财家问神。（上文谈及查《三世书》并辑写✍🏻《人生契约》的乩童华财，打从1984年一出世就被批命），[*也就是长大后再次遇见华财后，华财眼眶红红满眼是眼泪说吃乩童这行饭不容易得承担责任。妹妹才开始在不知情的情况下称“🇭🇰<ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)”*]{style="color:#F6A217"}，家人也在不知情的情况下开始改口称“爸爸”为“<ruby>老<rp>(</rp><rt>🇹🇼闽曰：lǎo</rt><rp>)</rp>爸<rp>(</rp><rt>🇹🇼闽曰：běi</rt><rp>)</rp></ruby>”（发音类似:刘备），从此就家事不顺。<br><br>《圣经》记载着世界上只有一个神明，自从西世康辞职再找万佛寺乩童张家坤时，当时见面他说剩一个人、另一次说会死、另一次说脑袋里空白啥都想不到、再另一次说得行善捐款之类每次说法不同，许多奇奇怪怪的话，然后我就开始摸索，在Mindpearl工作时视频有人查出骨哥华财的法力在十秒内可以查询到任何事物（而2007年在Caspo时，《离岛特警》亡命之徒Billy仔🇸🇬欧阳金泰说他自己：“如果迟三秒，命仔会被夺走！”），直到7LiveAsia时才听Kevin说:“如果要相信张家坤，就要相信到刘华财死掉为止才结束，世上只有一个神明，一山不能容二虎。”，后来Juno闲聊时：“你需要先死掉才能找到工作“完全不明白，微博有人发过动态图的帖子就是一男一女各在两座山上，中间隔着悬崖，一直有男生像精子一样跨不过悬崖到对岸获得美人归而丧命，而最后一位男的成功跨过悬崖男女俩在一起时，女的却掉下悬崖死了只剩一个人。后来被中邪的家人（自从在Fujixerox工作时，当时每天上班见到经理长得像乩童张家坤的Jacky Chai Yun Cheah当小丑，只有乩童张家坤和刘华财同步的话，乩童张家坤或刘华财就会成了小丑或失心疯，直到辞职那天他就会双眼通红满眼是眼泪，在Mindpearl辞职那天人事部经理也一样双眼通红满眼眼泪。当时为了测试7LiveAsia之说，以身试法说RHU花园的乩童刘华财我死掉为止才能重生，结果到RHU花园的乩童家验证后见到刘华财失心疯胡言乱语躲躲藏藏还出门逃跑，还下家人降头，在被绑架的前几周胸口痛得死去活来，被绑架的前几天差点像Brad余素伟说过出门会消失不见）绑架到疗养院，管理员聊起《换命之说》才知道何谓换命，结果死了两个人（一个像当时报警瓜雪一位警长蔡细历不受理、也像Christopher的爸爸；另一位像乩童张家坤）和邪不能胜正才出来后。自从诸事不顺未到7LiveAsia前一直要张家坤死而以身试法在脸谱使用张家坤姓名，之后一位长得像乩童张家坤🇹🇼台籍吕联富脸谱公然发帖保一家大小后，2017年在柔佛工作时一曲[《刚好遇见你》🎼](https://www.youtube.com/watch?v=aa2AhDaK_iY)让家慈往生成为先慈，成了刘张斗法的牺牲品，而🇨🇳中国以国母葬礼仪式，远在🇨🇳大势举国哀悼（当时网上还有许多媒体直播视频，🇨🇳隆重举办国丧仪式）；一曲[《改写人生》🎼](https://www.youtube.com/watch?v=wbyLBHPDuNI&ab_channel=%E8%9E%ADCHIMUSIC)诉尽《三打白骨精》中的人妖白骨精华财和《万佛寺》乩童张家坤、《西灵宫》齐天大圣、《众仙洞》大师兄的恩怨与替死鬼... 无心插柳柳成荫，个人博文会记载以前的经历和统计推算，事出必有因、一些玄学、道学、佛法、圣经、可兰经、前因后果、奇门遁甲、三黄五帝、The Narnia、魔戒三部曲、盘古女娲、兵马俑、幽灵、魔鬼、天界、人间、地狱、数学、春秋战国、梦里会周公、西游记、天文地理文学古诗屈原数学物理瘟疫朝代兴衰全都有关系、神经网络、中药、西药、地球上第一个行政机构朝廷政府是从中国黄河文明开始、虞夏商周、封神榜、姜太公、管仲乐毅、吴王阖闾Democrats、越王卧薪尝胆、楚汉相争、古代西大美女、中国象棋、西洋棋、鬼谷子孙膑庞涓、孙子兵法、诺亚方舟、春江鸭先知、隐马尔科夫领域、GPX零的领域、万物一物克一物、规律、大数定律等。
+[^12]: 2010年左右在西世康工作，自从提交企划书，巴西不能帮万佛寺乩童张家坤（大约2002年中学毕业后认识，当时人称《万佛寺》的济公师傅，经过二哥同学张志强介绍二哥和妈妈认识后，二哥和妈妈再介绍给我认识，大约2002年第一次在《万佛寺》问神时，乩童张家坤第一眼见到我就晴天霹雳跪地求饶扮女生说话）就开始说会争取到立博交易部门。有天三姐拿着《人生契约》连同妈妈和我到华财家问神。（上文谈及查《三世书》并辑写✍🏻《人生契约》的乩童华财，打从1984年一出世就被批命），[*也就是长大后再次遇见华财后，华财眼眶红红满眼是眼泪说吃乩童这行饭不容易得承担责任。妹妹才开始在不知情的情况下称“🇭🇰<ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)”*]{style="color:#F6A217"}，家人也在不知情的情况下开始改口称“爸爸”为“<ruby>老<rp>(</rp><rt>🇹🇼闽曰：lǎo</rt><rp>)</rp>爸<rp>(</rp><rt>🇹🇼闽曰：běi</rt><rp>)</rp></ruby>”（发音类似:刘备），从此就家事不顺。<br><br>《圣经》记载着世界上只有一个神明，自从西世康辞职再找万佛寺乩童张家坤时，当时见面他说剩一个人、另一次说会死、另一次说脑袋里空白啥都想不到、再另一次说得行善捐款之类每次说法不同，许多奇奇怪怪的话，然后我就开始摸索，在Mindpearl工作时视频有人查出骨哥华财的法力在十秒内可以查询到任何事物（而2007年在Caspo时，《离岛特警》亡命之徒Billy仔🇸🇬欧阳金泰说他自己：“如果迟三秒，命仔会被夺走！”），直到7LiveAsia时才听Kevin说:“如果要相信张家坤，就要相信到刘华财死掉为止才结束，世上只有一个神明，一山不能容二虎。”，后来Juno闲聊时：“你需要先死掉才能找到工作“完全不明白，微博有人发过动态图的帖子就是一男一女各在两座山上，中间隔着悬崖，一直有男生像精子一样跨不过悬崖到对岸获得美人归而丧命，而最后一位男的成功跨过悬崖男女俩在一起时，女的却掉下悬崖死了只剩一个人。后来被中邪的家人（自从在Fujixerox工作时，当时每天上班见到经理长得像乩童张家坤的Jacky Chai Yun Cheah当小丑，只有乩童张家坤和刘华财同步的话，乩童张家坤或刘华财就会成了小丑或失心疯，直到辞职那天他就会双眼通红满眼是眼泪，在Mindpearl辞职那天人事部经理也一样双眼通红满眼眼泪。当时为了测试7LiveAsia之说，以身试法说RHU花园的乩童刘华财我死掉为止才能重生，结果到RHU花园的乩童家验证后见到刘华财失心疯胡言乱语躲躲藏藏还出门逃跑，还下家人降头，在被绑架的前几周胸口痛得死去活来，被绑架的前几天差点像Brad余素伟说过出门会消失不见）绑架到疗养院，管理员聊起《换命之说》才知道何谓换命，结果死了两个人（一个像当时报警瓜雪一位警长蔡细历不受理、也像Christopher的爸爸；另一位像乩童张家坤）和邪不能胜正才出来后。自从诸事不顺未到7LiveAsia前一直要张家坤死而以身试法在脸谱使用张家坤姓名，之后一位长得像乩童张家坤🇹🇼台籍吕联富脸谱公然发帖保一家大小后，2017年在柔佛工作时一曲[《刚好遇见你》🎼](https://www.youtube.com/watch?v=aa2AhDaK_iY)让家慈往生成为先慈，成了刘张斗法的牺牲品，而🇨🇳中国以国母葬礼仪式，远在🇨🇳大势举国哀悼（当时网上还有许多媒体直播视频，🇨🇳隆重举办国丧仪式）；一曲[《改写人生》🎼](https://www.youtube.com/watch?v=wbyLBHPDuNI&ab_channel=%E8%9E%ADCHIMUSIC)诉尽《三打白骨精》中的人妖白骨精华财和《万佛寺》乩童张家坤、《西灵宫》齐天大圣、《众仙洞》大师兄的恩怨与替死鬼... 无心插柳柳成荫，个人博文会记载以前的经历和统计推算，事出必有因、一些玄学、道学、佛法、圣经、可兰经、前因后果、奇门遁甲、三黄五帝、The Narnia、魔戒三部曲、盘古女娲、兵马俑、幽灵、魔鬼、天界、人间、地狱、数学、春秋战国、梦里会周公、西游记、天文地理文学古诗屈原数学物理瘟疫朝代兴衰全都有关系、神经网络、中药、西药、地球上第一个行政机构朝廷政府是从中国黄河文明开始、虞夏商周、封神榜、姜太公、管仲乐毅、吴王阖闾Democrats、越王卧薪尝胆、楚汉相争、古代西大美女、中国象棋、西洋棋、鬼谷子孙膑庞涓、孙子兵法、诺亚方舟、春江鸭先知、隐马尔科夫领域、GPX零的领域、万物一物克一物、规律、大数定律等。
 
-[^11]: `r vembedr::embed_youtube('r2zH4JxQSYQ')`<br>>[*#筑地 #Judi #朱棣 #菜桌椅不是菠菜庄家 #菠菜 #Spanich #🇵🇭🇰🇭 #肺炎 #证券行叫SecurityFirm如同镖局 #邪教博彩庄家诈骗如同鸦片 #博彩庄家卡款铲单杀人如麻如同邪教屠杀人类罪<br>📌只要是博彩庄家靠卡款铲单骗取彩民客户的钱的博彩庄家就是列为诈骗犯罪集团；如果博彩庄家不卡款也不铲单一直亏钱造福所有彩民客户，就是列为慈善机构。<br>📌只要是博彩庄家或任何机构靠卡款铲单骗取彩民客户的钱导致死人的博彩庄家，就是列为谋杀屠杀人类罪。<br>📌只要是运用科学、统计学、数学公式击倒博彩庄家（或者任何科学、科技、技术、数学公式），就叫墨学；墨学俗称科学，工程师、程序员、天文学家、数学家、科学家、统计学家、物理学家、医学家、计量经济学家都是信徒，遍布地球并无国籍之区别<br>📌结论：所以我只能釜底抽薪一劳永逸，根除肺炎的根源🇵🇭🇰🇭博彩庄家金宝博Caspo，支持科学方程式的墨学，拯救全世界人类性命。<br><br>📌As long as bankers or sportsbookmakers cancel transaction or block withdrawal to make money categorized as criminal organization. Only the sportsbookmaker or banker lost money to the gamblers or customers categorized as charity organization for the sake of all residences / citizens / humen.<br>📌As long as bankers or sportsbookmakers block customer's withdrawal or cancel transaction to cause human die or sacrifice, categorized as killing humans' terrorist murdering organization.<br>📌As long as applied statistical or mathematic or any scientific formula categorized as Mohism/Moism. Programmers, mathematicians, statisticians, engineers, doctors, across the World.<br>Conclusion : That's why I only can rebel the origin of covid from Caspo/188Bet being 🇵🇭🇰🇭 and support scientific Moihism or Moism to safe the World and humans' life.*]{style='color:#F6A217'}<br>- [儒家、道家、佛家、法家、墨家如何区分，看后恍然大悟](https://www.sohu.com/a/325543608_483111)<br>- [诸子百家](https://baike.baidu.com/item/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/16808)<br>- [关于儒家、墨家、道家、法家思想的异同](http://www.360doc.com/content/12/0907/21/7593597_234907351.shtml)<br>- [古希腊文明](https://baike.baidu.com/item/%E5%8F%A4%E5%B8%8C%E8%85%8A%E6%96%87%E6%98%8E/9671355)<br>欲知更多详情请查阅[GitHub: 图书馆 library](https://github.com/englianhu/library)<br><br>[*「「卍」字有兩種寫法，一種是右旋（卐），一種是左旋（卍）。高雄佛陀紀念館上方矗坐著「佛光大佛」*]{style="color:#F6A217"}*，胸口是一個左旋卍字（圖三）。希特勒親自設計的黨旗為紅底白圓心，中間嵌一個黑色右旋字。他在《我的奮鬥》書中說：“紅色象徵我們這個運動的社會意義，白色象徵民族主義思想。卐字象徵爭取雅利安人鬥爭勝利的使命。”由這句話可知，希特勒完全不了解右旋的佛學意義。」*<br><br>[*希特勒對右旋卐的了解應該是由日爾曼神話而來。今日好萊塢電影很夯的雷神索爾（Thor）其實是早期日爾曼民族共有的神祇，卐是他的槌子，直到今日，Thor符號還是白人至上主義的象徵符號。*]{style="color:#F6A217"}*右旋卐字的德語是Haken kreutz，亦意指「彎勾十字架」。右旋卐字也使用於波羅的海沿岸，稱之為Perkunas，拉脫維亞朋友克羅明博士（Janis Klovins）告訴我，一九一八年到一九三四年間，右旋卐字是該國空軍的標誌。」*<br><br>出处：[「卍」字左旋右旋大不同！寫反佛光變納粹…為何希特勒用這符號？難道跟佛教有關？](https://www.storm.mg/lifestyle/327499?page=1)
+[^13]: `r vembedr::embed_youtube('r2zH4JxQSYQ')`<br>>[*#筑地 #Judi #朱棣 #菜桌椅不是菠菜庄家 #菠菜 #Spanich #🇵🇭🇰🇭 #肺炎 #证券行叫SecurityFirm如同镖局 #邪教博彩庄家诈骗如同鸦片 #博彩庄家卡款铲单杀人如麻如同邪教屠杀人类罪<br>📌只要是博彩庄家靠卡款铲单骗取彩民客户的钱的博彩庄家就是列为诈骗犯罪集团；如果博彩庄家不卡款也不铲单一直亏钱造福所有彩民客户，就是列为慈善机构。<br>📌只要是博彩庄家或任何机构靠卡款铲单骗取彩民客户的钱导致死人的博彩庄家，就是列为谋杀屠杀人类罪。<br>📌只要是运用科学、统计学、数学公式击倒博彩庄家（或者任何科学、科技、技术、数学公式），就叫墨学；墨学俗称科学，工程师、程序员、天文学家、数学家、科学家、统计学家、物理学家、医学家、计量经济学家都是信徒，遍布地球并无国籍之区别<br>📌结论：所以我只能釜底抽薪一劳永逸，根除肺炎的根源🇵🇭🇰🇭博彩庄家金宝博Caspo，支持科学方程式的墨学，拯救全世界人类性命。<br><br>📌As long as bankers or sportsbookmakers cancel transaction or block withdrawal to make money categorized as criminal organization. Only the sportsbookmaker or banker lost money to the gamblers or customers categorized as charity organization for the sake of all residences / citizens / humen.<br>📌As long as bankers or sportsbookmakers block customer's withdrawal or cancel transaction to cause human die or sacrifice, categorized as killing humans' terrorist murdering organization.<br>📌As long as applied statistical or mathematic or any scientific formula categorized as Mohism/Moism. Programmers, mathematicians, statisticians, engineers, doctors, across the World.<br>Conclusion : That's why I only can rebel the origin of covid from Caspo/188Bet being 🇵🇭🇰🇭 and support scientific Moihism or Moism to safe the World and humans' life.*]{style='color:#F6A217'}<br>- [儒家、道家、佛家、法家、墨家如何区分，看后恍然大悟](https://www.sohu.com/a/325543608_483111)<br>- [诸子百家](https://baike.baidu.com/item/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/16808)<br>- [关于儒家、墨家、道家、法家思想的异同](http://www.360doc.com/content/12/0907/21/7593597_234907351.shtml)<br>- [古希腊文明](https://baike.baidu.com/item/%E5%8F%A4%E5%B8%8C%E8%85%8A%E6%96%87%E6%98%8E/9671355)<br>欲知更多详情请查阅[GitHub: 图书馆 library](https://github.com/englianhu/library)<br><br>[*「「卍」字有兩種寫法，一種是右旋（卐），一種是左旋（卍）。高雄佛陀紀念館上方矗坐著「佛光大佛」*]{style="color:#F6A217"}*，胸口是一個左旋卍字（圖三）。希特勒親自設計的黨旗為紅底白圓心，中間嵌一個黑色右旋字。他在《我的奮鬥》書中說：“紅色象徵我們這個運動的社會意義，白色象徵民族主義思想。卐字象徵爭取雅利安人鬥爭勝利的使命。”由這句話可知，希特勒完全不了解右旋的佛學意義。」*<br><br>[*希特勒對右旋卐的了解應該是由日爾曼神話而來。今日好萊塢電影很夯的雷神索爾（Thor）其實是早期日爾曼民族共有的神祇，卐是他的槌子，直到今日，Thor符號還是白人至上主義的象徵符號。*]{style="color:#F6A217"}*右旋卐字的德語是Haken kreutz，亦意指「彎勾十字架」。右旋卐字也使用於波羅的海沿岸，稱之為Perkunas，拉脫維亞朋友克羅明博士（Janis Klovins）告訴我，一九一八年到一九三四年間，右旋卐字是該國空軍的標誌。」*<br><br>出处：[「卍」字左旋右旋大不同！寫反佛光變納粹…為何希特勒用這符號？難道跟佛教有關？](https://www.storm.mg/lifestyle/327499?page=1)
 
-[^12]: \- Tips: *Ancient named [<ruby>会<rp>(</rp><rt>kuài</rt><rp>)</rp>稽<rp>(</rp><rt>jī</rt><rp>)</rp></ruby>郡（Kuaiji County）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217), now named [永春县（Yongchun County）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF).*<br>- **《史记·勾践世家》**载，[*「夏帝少康之庶子无余封于会稽（现今浙江省绍兴市一带），为越国之始祖。」*]{style="color:#F6A217"}<br>- 会稽人王充在《论衡·书虚篇》中引吴君高之语：[*「会稽本山名。夏禹巡狩，会计于此山，因以郡名，故曰会稽。」*]{style="color:#F6A217"}
+[^14]: \- Tips: *Ancient named [<ruby>会<rp>(</rp><rt>kuài</rt><rp>)</rp>稽<rp>(</rp><rt>jī</rt><rp>)</rp></ruby>郡（Kuaiji County）](https://baike.baidu.com/item/%E4%BC%9A%E7%A8%BD%E9%83%A1/3625217), now named [永春县（Yongchun County）](https://baike.baidu.com/item/%E6%B0%B8%E6%98%A5%E5%8E%BF).*<br>- **《史记·勾践世家》**载，[*「夏帝少康之庶子无余封于会稽（现今浙江省绍兴市一带），为越国之始祖。」*]{style="color:#F6A217"}<br>- 会稽人王充在《论衡·书虚篇》中引吴君高之语：[*「会稽本山名。夏禹巡狩，会计于此山，因以郡名，故曰会稽。」*]{style="color:#F6A217"}
 
 <br><br>
 
@@ -729,10 +773,10 @@ op <- options(gvis.plot.tag = 'chart')
 
 ### **[Oct-2020 to Present]{style='color:Red'} : Online Financial Market, Founder and Owner**; <img src='文艺坊图库/Scibrokes.png' height='16' align='center' valign='middle'/>
 
-- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'}[^13] is a quantitative investment management company trading in global markets to produce high ROI for its investors by mathematical and statistical methods.*
+- *Summary : [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'}[^15] is a quantitative investment management company trading in global markets to produce high ROI for its investors by mathematical and statistical methods.*
 - *Job Task : Conducting R&D on statistical modelling, risk management and high frequency algorithmic trading in financial market etc and data analysis, will flight to China Mainland.*
 
-[^13]: \- [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>- [*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>- [*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
+[^15]: \- [*Sςιβrοκεrs Trαdιηg® (Official Website)*](https://www.scibrokes.com)<br>- [*Sςιβrοκεrs Trαdιηg® (GitHub)*](https://github.com/scibrokes)<br>- [*Sςιβrοκεrs Trαdιηg® (Facebook)*](https://facebook.com/scibrokes).
 
 <br>
 
@@ -865,6 +909,13 @@ op <- options(gvis.plot.tag = 'chart')
 <br><br>
 
 ## Technical Experience
+
+### **Github Repo**：[REmap (Chinese)](https://github.com/englianhu/REmap)
+
+- *Baidu REmap enlight the World.*
+- *由於百度地圖自從前幾年開始只限製中國同胞註冊為百度開發人員才能使用，導致無法正常使用。故此嘗試修改全球地圖數據來源，而且目前正在科研高頻量化對沖交易論文內容、函數、代碼都一律漢化，所以嘗試將此**REmap**原版，稍微修改一下為**REmap程序包中文版（百度繪圖）**，也是第一個使用中文編程的R語言程序包。*
+- *英文地名使用`maps::world.cities`程序包內數據即可。*
+- *而中文數據可以使用`maps::world.cities`程序包內數據已加工並儲存在`REmap`程序包的附屬數據`地圖數據.csv`。*
 
 ### **Github Repo** : [**Real Time FXCM**](https://github.com/scibrokes/real-time-fxcm)
 
@@ -1002,6 +1053,7 @@ skill |>
 - [Linux创始人Linus Torvalds带你看看他的办公室~](https://www.bilibili.com/video/BV1UW41187LS?share_source=copy_web)
 - [Linus Torvalds：我写的第一行代码](https://www.bilibili.com/video/BV1vu411y7Zi?share_source=copy_web)
 - [How to pronounce Linux](https://www.bilibili.com/video/BV1Sx411V7z2?share_source=copy_web)
+- [Hadoop，Spark，Kafka这些名字的故事！](https://zhuanlan.zhihu.com/p/62303845)
 - [Git是什么? Github 和 GitLab是什么?](https://www.jianshu.com/p/4b6f1f37ba78)
 
 ```{r skill2A, eval=FALSE, echo=FALSE}
@@ -1088,7 +1140,7 @@ source('函数/skill2B.R', encoding = 'utf-8')
 - **2003 to 2005**, A waiter in Tang Restaurant（唐宫）inside [Dynasty Hotel Kuala Lumpur](https://www.facebook.com/OfficialDynastyHotelKL) <img src='文艺坊图库/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>.
 - **2003 to 2005**, A vehicle salesman/engineer in KL Ipoh Road 5th miles / Kepong.
 - **2003 to 2005**, A grocery store staff in [Tsukiji-Mart](https://www.jckl.org.my/tsukiji) <img src='文艺坊图库/tsujiki-mart.png' width="42" align='center' valign='middle'/> - [JCKL](https://www.jckl.org.my) <img src='文艺坊图库/jckl.png' width="62" align='center' valign='middle'/> opposite Mid-Valley.
-- **2003 to 2005**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style='color:RoyalBlue'}[^14] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
+- **2003 to 2005**, Employed by [my TARC's classmate (best friend) Steven Chia Teck Chai]{style='color:RoyalBlue'}[^16] as a cybercafe counter staff in Pyramid Computer Center at his hometown Sekinchan.
 - **Feb-2006**, When I working in Telebiz, study part time Korean language class in Ampang Korean Village, and learn Taekwondo at a Korean Martial Art center within the Ampang Korean Village area.
 - **Jul-2006**, When I working in Telebiz and went to Singapore to interview with Auyok Kim Tye and Auyok Kim Hwee in Sheraton Hotel lobby, few weeks later Auyok Kim Hwee rush to contact me to look for Amy who bought a ticket for me to flight to Phillipines, I flight to Philippines within few days without resignation.
 - **Jul-2006 to Dec-2006**, When I working in Caspo Inc, inquiry some Japanese language center and also Korean language center,and then register the advanced level --- JLPT Level I at [Japan Foundation Manila](https://jfmo.org.ph), and take the exam at [Dela Salle University Manila](https://www.dlsu.edu.ph) in Dec-2006.
@@ -1097,7 +1149,7 @@ source('函数/skill2B.R', encoding = 'utf-8')
 - **Aug-2007 to Mar-2008**, Eldest brother setup a stall as hawker, work with brothers in a Carlsberg Restaurant MingChu Equine Park, the owner of the restaurant is a Taiwanese lady named Mingchu.
 - **2009 to 2010**, When I working in Scicom, start trading in United States and Hong Kong financial market with OSK security firm and also CIMB (Singapore).
 - **2009 to 2010**, When I working in Scicom, Jack Soh and me go to few Martial Art center and fitness center, I learn Chinese Martial Art (Hung-Fist, Long-Fist) at a Chinese Martial Art center being Serdang.
-- **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style='color:RoyalBlue'}（[跑龙套当演员]{style='color:RoyalBlue'}[^15]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD Entertainment](https://my104588-hv哦d-holdings-sdn-bhd.contact.page/#gsc.tab=0).
+- **2009 to 2010**, When I working in Scicom, [Big Sister YY姐 from Cari Forum](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094) introduce to work a part time [actor]{style='color:RoyalBlue'}（[跑龙套当演员]{style='color:RoyalBlue'}[^17]）with [MediaCorp](https://www.mediacorp.sg/en) and [HVD Entertainment](https://my104588-hv哦d-holdings-sdn-bhd.contact.page/#gsc.tab=0).
 - **2009 to 2013**, Setup own professional sports odds modelling online forum [体育统计学社区](http://soccer.oksport.cn).
 - **2013**, Setup owned ®Studio server, learn web scrapping and flight to Taiwan for few months, and get a job as Forex trading agent but doesn't due to some concerns.
 - **Jul-2013 to Sep-2013**, an [AIA](https://www.aia.com.my/en/index.html) <img src='文艺坊图库/AIA.png' height='16' align="center">  insurance telesales in Wisma AIA Ampang.
@@ -1115,17 +1167,17 @@ source('函数/skill2B.R', encoding = 'utf-8')
 
 2003/2004, when the day I leaving *Hexa Commerce*, the boss Thomas only say ["哪里跌倒，哪里爬起来" (“Where do you fall, where do you get up”), that's why learning econometrics nowadays]{style="color:#F6A217"}.
 
-[^14]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style='color:RoyalBlue'} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
+[^16]: There has a part of history before join sportsbook industry, but in [financial market and entrepreneurship]{style='color:RoyalBlue'} via [迟了一年，更新履历表 B4Telebiz (18-DEC-2021)](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz) ([pdf copy](documents/b4TDbiz-.pdf)).
 
-[^15]: \- [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)：[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>- Unprofessional Hedge Fund (不够专业避险基金) : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>- [［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)：[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>- Expert / Professional Hedge Fund (专业避险基金) : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
+[^17]: \- [咔，精神点，临时演员也是演员！](https://www.bilibili.com/video/BV1kE411f7xD/?spm_id_from=333.788.recommend_more_video.-1)：[*「你知不知道因为不想死，浪费了多少秒、多少钱、多少片底、多少工作人员的时间和心血！换个专业的！」*]{style="color:#F6A217"}<br>- Unprofessional Hedge Fund (不够专业避险基金) : [The Matrix - Dodge from bullets](https://youtu.be/8DajVKAkL50)<br><br>- [［影视剪辑］精神点！临时演员也是演员！](https://www.bilibili.com/video/BV1my4y1s7L1/?spm_id_from=333.788.recommend_more_video.2)：[*「听到没有？！这就是我经常对大家说的专业！」*]{style="color:#F6A217"}<br>- Expert / Professional Hedge Fund (专业避险基金) : [The Matrix `0 and 1` - Pause the bullets](https://youtu.be/i_cBZSjumRw)
 
 Because of noted that George Soros's mom know multilingual and there has a lot of advantages, I learnt Korean language, German language, <s>French language</s>.
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[James Simons]{style='color:RoyalBlue'}[^16] is the successful investor in quantitative hedge fund whom we need to learn. I am currently learn to setup own quantitative hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'} and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='文艺坊图库/rstudio.jpg' width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
+[James Simons]{style='color:RoyalBlue'}[^18] is the successful investor in quantitative hedge fund whom we need to learn. I am currently learn to setup own quantitative hedge fund company [**Sςιβrοκεrs Trαdιηg®**](https://www.scibrokes.com){style='color:RoyalBlue'} and using shiny to deploy a High-Frequency-Algorithmic-Auto-Trading-System. You are welcome to own yours by refer to my [安装®StudioとShiny服务器](https://github.com/Scibrokes/setup-rstudio-server) <img src='文艺坊图库/rstudio.jpg' width="24"/>. You are welcome to contact me at [englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}.
 
-[^16]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
+[^18]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 Kindly refer to my personal blogs for more information about me.
 
