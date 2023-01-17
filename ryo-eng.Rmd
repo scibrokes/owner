@@ -911,7 +911,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## Technical Experience
 
-### **Github Repo**：[REmap (Chinese)](https://github.com/englianhu/REmap)
+### **Github Repo**：[`REmap` (Chinese)](https://github.com/englianhu/REmap)
 
 - *Baidu `REmap` enlight the World.*
 - *Due to map data in `REmap` package only restricted to open for Chinese citizens to be developer to cause it unable working smoothly, therefore I tried to get the source of map data from somewhere else. Besides, I am currently conducting research and development on quantitative high frequency trading, coding in Chinese language and translated everything to Chinese language. Hereby to modify the `REmap` package to be revised edition whereas the 1st R package coding n Chinese language.*
