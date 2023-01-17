@@ -558,6 +558,7 @@ pkgs <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubrida
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
+conflict_prefer('count', 'dplyr', quiet = TRUE)
 
 ## 设置googleVis中的plot.gvis选项，将html文件嵌入于成品文件。
 op <- options(gvis.plot.tag = 'chart')
