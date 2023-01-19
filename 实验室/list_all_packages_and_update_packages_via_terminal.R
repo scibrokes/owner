@@ -12,6 +12,8 @@ sudo apt install -y l*gsl* libcatalyst-action-rest-perl libghc-hmatrix-doc libgh
 
 sudo su - -c "R -e \"install.packages(c('devtools', 'tidyverse', 'miniUI', 'splashr', 'nloptr', 'lme4', 'MEMSS', 'mlmRev', 'gamm4', 'pbkrtest', 'rr2', 'semEff', 'car', 'crayon', 'languageserver', 'ghit', 'mosaic', 'RgoogleMaps', 'openssl', 'RcppArmadillo', 'roxygen2', 'tinytex', 'xfun', 'BiocManager', 'rgl', 'rJava', 'rJava', 'OpenStreetMap', 'loa', 'sodium', 'magick'), repos='https://cran.rstudio.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 
+sudo su - -c "R -e \"install.packages(c('schwartz97', 'fExpressCertificates', 'fArma'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
+sudo su - -c "R -e \"devtools::install_bitbucket('alexiosg/rmgarch')\""
 sudo su - -c "R -e \"devtools::install_github('cloudyr/MTurkR', force = TRUE)\""
 
 sudo su - -c "R -e \"install.packages(c('data.table'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
@@ -20,6 +22,7 @@ sudo su - -c "R -e \"install.packages(c('languageserver'), lib='/usr/lib/R/libra
 
 install.packages(c('languageserver', 'BBmics', 'devtools'), lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')
 
+sudo su - -c "R -e \"install.packages(c('SkewHyperbolic', 'Rmetrics'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')\""
 install.packages(c('SkewHyperbolic', 'Rmetrics'), repos='http://R-Forge.R-project.org', lib='/usr/lib/R/library', dependencies = c('Depends', 'Imports'), INSTALL_opts = '--no-lock')
 
 sudo su - -c "R -e \"devtools::install_github('stan-dev/rstanarm', INSTALL_opts = '--no-multiarch', force = TRUE)\""
