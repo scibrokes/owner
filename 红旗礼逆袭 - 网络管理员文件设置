@@ -1,6 +1,11 @@
 ## 出处：https://github.com/scibrokes/setup-centOS7-DO/issues/6
+## 红旗礼逆袭 - 网络管理员文件设置
 
 sudo chmod 777 -R /etc/resolv.conf
 wget https://raw.githubusercontent.com/scibrokes/owner/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/etc/resolv.conf
 sudo cp resolv.conf /etc/resolv.conf
 sudo rm resolv.conf
+
+## 将R统计语言的设置都复制、更新至/etc/蜀道。
+sudo cp -R /home/englianhu/文档/猫城/owner/etc/R /etc/
+# sudo cp -R /home/englianhu/文档/猫城/owner/home/englianhu/ /home/
