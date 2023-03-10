@@ -9,3 +9,11 @@ sudo rm resolv.conf
 ## 将R统计语言的设置都复制、更新至/etc/蜀道。
 sudo cp -R /home/englianhu/文档/猫城/owner/etc/R /etc/
 # sudo cp -R /home/englianhu/文档/猫城/owner/home/englianhu/ /home/
+
+## Quarto Token 田邑秦谏筹码
+## 网址：https://quartopub.com/profile
+#
+# 中科红旗，世博量化研究所
+# qpa_EFvMBSqupJWEmbv3X5IlVv4I49kFKbleSazq5jHcHmbnzuhf0xVuYyqcldF7CwZX
+
+
