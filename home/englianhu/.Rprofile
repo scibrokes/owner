@@ -81,6 +81,8 @@ local({
                     Stan = 'https://mc-stan.org/r-packages', 
                     MSFT = 'http://cran.microsoft.com', 
                     ROpenSci = 'https://ropensci.r-universe.dev'))
+  ## https://www.cynkra.com/opensource
+  # Cynkra = 'https://github.com/cynkra'
   #install.packages('remotes')
   #remotes::install_github('radiant-rstats/radiant.update', upgrade = 'never')
   #radiant.update::radiant.update()
