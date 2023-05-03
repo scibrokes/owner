@@ -553,12 +553,13 @@ if (suppressMessages(!require('rmsfuns'))) {
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 ## 一次性读取所列R程序包，一劳永逸
-pkgs <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper')
+pkgs <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper', 'conflicted')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
-conflict_prefer('count', 'dplyr', quiet = TRUE)
+conflict_prefer('count', 'tidyft', quiet = TRUE)
+conflict_prefer('filter', 'tidyft', quiet = TRUE)
 
 ## 设置googleVis中的plot.gvis选项，将html文件嵌入于成品文件。
 op <- options(gvis.plot.tag = 'chart')
