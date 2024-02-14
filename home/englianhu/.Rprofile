@@ -138,6 +138,7 @@ if(!suppressPackageStartupMessages(require('Ipaper'))) {
   # $sudo apt install -y libfftw3-dev
 }; suppressPackageStartupMessages(require('Ipaper'))
 conflicted::conflict_prefer('ldply', 'plyr', quiet = TRUE)
+conflicted::conflicts_prefer(Ipaper::is_empty, .quiet = TRUE)
 
 if(!suppressPackageStartupMessages(require('miniCRAN'))) {
   ## https://andrie.github.io/miniCRAN/articles/miniCRAN-introduction.html
