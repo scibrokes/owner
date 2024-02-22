@@ -88,7 +88,6 @@ local({
   #radiant.update::radiant.update()
   #install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages', getOption('repos')))
 })
-
 ## ==================== 读取R程序包 ===============================
 ## https://github.com/JanMarvin/nlsur
 ## https://zhuanlan.zhihu.com/p/25868387
@@ -214,43 +213,44 @@ rm(pkgs)
 
 ## =================== 有一个梦，由我启动 =======================
 # 电力线，显示系统读取速度均值和当前项目路径。
-if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
+if (!requie('rprofile')) {
+	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
+	
+	## https://www.jumpingrivers.com/blog/customising-your-rprofile/
+	if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
+		# 仅用于 Makefiles
+		rprofile::create_make_functions()
+		
+		# 启动设置
+		rprofile::set_startup_options()
+		
+		# R文艺坊与终端设置
+		if (rprofile::is_terminal()) {
+			# https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
+			rprofile::set_terminal()
+		} else {
+			rprofile::set_rstudio()
+		}
+		.env = rprofile::set_functions()
+		suppressMessages(attach(.env))
+		# 显示无线网络与R会话控制（终端互动）
+		# 仅用于礼逆袭
+		suppressWarnings(rprofile::set_startup_info())
+	}
+	
+	# 启动R文艺坊时列印项目
+	setHook('rstudio.sessionInit', function(newSession) {
+		active_rproj = rprofile::get_active_rproj()
+		if (!is.null(active_rproj)) {
+			base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
+		}
+	}, action = 'append')
+	
+	#rmsfuns::suppressPackageStartupMessages(.First())
+	tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
+			 error = function(ex) 
+			 base::message('.Rprofile error: ', 
+						   base::conditionMessage(ex)))
+	}
 
-## https://www.jumpingrivers.com/blog/customising-your-rprofile/
-if (interactive() && suppressPackageStartupMessages(requireNamespace('rprofile'))) {
-  
-  # 仅用于 Makefiles
-  rprofile::create_make_functions()
-  
-  # 启动设置
-  rprofile::set_startup_options()
-  
-  # R文艺坊与终端设置
-  if (rprofile::is_terminal()) {
-    # https://github.com/csgillespie/rprofile/blob/master/R/set-terminal.R
-    rprofile::set_terminal()
-  } else {
-    rprofile::set_rstudio()
-  }
-  
-  .env = rprofile::set_functions()
-  suppressMessages(attach(.env))
-  # 显示无线网络与R会话控制（终端互动）
-  # 仅用于礼逆袭
-  suppressWarnings(rprofile::set_startup_info())
-}
-
-# 启动R文艺坊时列印项目
-setHook('rstudio.sessionInit', function(newSession) {
-  active_rproj = rprofile::get_active_rproj()
-  if (!is.null(active_rproj)) {
-    base::message(glue::glue("{crayon::yellow('R-project:')} {active_rproj}"))
-  }
-}, action = 'append')
-
-#rmsfuns::suppressPackageStartupMessages(.First())
-tryCatch(suppressWarnings(startup::startup(all = TRUE)), 
-         error = function(ex) 
-           base::message('.Rprofile error: ', 
-                         base::conditionMessage(ex)))
 
