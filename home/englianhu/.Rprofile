@@ -213,7 +213,7 @@ rm(pkgs)
 
 ## =================== 有一个梦，由我启动 =======================
 # 电力线，显示系统读取速度均值和当前项目路径。
-if (!requie('rprofile')) {
+if (!require('rprofile')) {
 	if (interactive()) prompt::set_prompt(prompt::new_prompt_powerline())
 	
 	## https://www.jumpingrivers.com/blog/customising-your-rprofile/
