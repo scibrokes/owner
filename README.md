@@ -5,8 +5,6 @@
 
 ---
 
-[<img src='诸子百家考工记/RStudioCloud.png' height='20'>](https://rstudio.cloud) [<img src='诸子百家考工记/RStudioCom2.png' height='20'>](https://community.rstudio.com/new-topic?category=shiny&tags=shiny) [![](诸子百家考工记/shiny-badge.svg)](https://www.shinyapps.io) 
-
 ## 公司简介
 
 世博量化® Sςιβrοκεrs Trαdιηg®是一家以数理统计投资于金融行业，挣取高回酬。
@@ -101,7 +99,9 @@
 - [✨✨🐉®γσ ξηg✨✨](https://github.com/englianhu/englianhu)
 - [✨✨Sςιβrοκεrs Trαdιηg®✨✨](https://github.com/scibrokes/scibrokes)
 
+<br><br>
+
 ---
 
 [<img src='诸子百家考工记/世博量化.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/世博量化.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权及版权所有，盗版必究。**</span>
+<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/世博量化.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
