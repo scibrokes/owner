@@ -133,7 +133,7 @@ ui <- shinyUI(
       
       sidebarMenu(
         id = 'sidebarID', 
-        menuItem('®️Studio ☁️', tabName = 'menu', 
+        menuItem('🚩中科红旗☁️', tabName = 'menu', 
           ## https://getbootstrap.com/docs/3.4/components/#glyphicons
           ## https://fontawesome.com/icons 
           #badgeLabel = '🚧', badgeColor = 'green', 

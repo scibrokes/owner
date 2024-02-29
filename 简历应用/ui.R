@@ -1,3 +1,17 @@
+conflicted::conflicts_prefer(shinydashboardPlus::dashboardPage)
+conflicted::conflicts_prefer(shinydashboardPlus::dashboardHeader)
+conflicted::conflicts_prefer(shinydashboardPlus::dashboardSidebar)
+conflicted::conflicts_prefer(shinydashboard::sidebarMenu)
+conflicted::conflicts_prefer(shinydashboard::menuItem)
+conflicted::conflicts_prefer(shinydashboard::menuSubItem)
+conflicted::conflicts_prefer(shinydashboard::dashboardBody)
+conflicted::conflicts_prefer(shinydashboard::tabItems)
+conflicted::conflicts_prefer(shinydashboard::tabItem)
+conflicted::conflicts_prefer(shinydashboardPlus::dashboardFooter)
+conflicted::conflicts_prefer(shinydashboardPlus::box)
+conflicted::conflicts_prefer(shinydashboard::updateTabItems)
+conflicted::conflicts_prefer(git2r::reset)
+
 require('BBmisc')
 lib('shiny')
 lib('shinythemes')
@@ -8,21 +22,9 @@ lib('dashboardthemes')
 lib('shinyWidgets')
 lib('shinyjs')
 lib('memoise')
-if(!require('XML')) devtools::install_github('omegahat/XML')
+lib('conflicted')
+if (!require('XML')) devtools::install_github('omegahat/XML')
 lib('XML')
-
-conflict_prefer('dashboardPage', 'shinydashboardPlus')
-conflict_prefer('dashboardHeader', 'shinydashboardPlus')
-conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
-conflict_prefer('sidebarMenu', 'shinydashboard')
-conflict_prefer('menuItem', 'shinydashboard')
-conflict_prefer('menuSubItem', 'shinydashboard')
-conflict_prefer('dashboardBody', 'shinydashboard')
-conflict_prefer('tabItems', 'shinydashboard')
-conflict_prefer('tabItem', 'shinydashboard')
-conflict_prefer('dashboardFooter', 'shinydashboardPlus')
-conflict_prefer('box', 'shinydashboardPlus')
-conflict_prefer('updateTabItems', 'shinydashboard')
 
 #menus <- data.frame(
 #  choices = c('🇬🇧 ENGLISH',# = 'en', 
@@ -92,12 +94,13 @@ ui <- shinyUI(
     header = dashboardHeader(title = logo), 
     sidebar = dashboardSidebar(
       minified = TRUE, collapsed = FALSE, 
-      sidebarMenu(
+      shinydashboard::sidebarMenu(
         id = 'tabs', 
-        menuItem('®️Studio ☁️', tabName = 'menu', 
+        shinydashboard::menuItem('🚩中科红旗☁️', tabName = 'menu', 
                  ## https://getbootstrap.com/docs/3.4/components/#glyphicons
                  ## https://fontawesome.com/icons 
-                 icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
+                 icon = shiny::icon('font-awesome'), 
+                      startExpanded = TRUE, 
                  menuSubItem('🏠 Home', tabName = 'home'), 
                  menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
                  menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
