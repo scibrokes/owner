@@ -1,12 +1,12 @@
 # -------------- Load Packages -----------------------------
 
 require('BBmisc')
-if(!require('XML')) devtools::install_github('omegahat/XML')
-if(!require('runr')) devtools::install_github('yihui/runr')
+if (!require('XML')) devtools::install_github('omegahat/XML')
+if (!require('runr')) devtools::install_github('yihui/runr')
 ## https://shi18ny.datasketch.dev
 lib('shiny')
 conflict_prefer('runExample', 'shiny')
-if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
+if (!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
 pkgs <- c('shiny', 'shinythemes', 'shinydashboard', 'shinydashboardPlus', 'memoise', 
   'bs4Dash', 'dashboardthemes', 'shinyWidgets', 'shinyjs', 'shinyBS', 'XML', 'xml2', 
@@ -17,22 +17,22 @@ lib(pkgs)
 
 # -------------- Prefer Conflict -----------------------------
 
-conflict_prefer('dashboardPage', 'shinydashboardPlus')
-conflict_prefer('dashboardHeader', 'shinydashboardPlus')
-conflict_prefer('dashboardSidebar', 'shinydashboardPlus')
-conflict_prefer('sidebarMenu', 'shinydashboard')
-conflict_prefer('menuItem', 'shinydashboard')
-conflict_prefer('menuSubItem', 'shinydashboard')
-conflict_prefer('dashboardBody', 'shinydashboard')
-conflict_prefer('tabItems', 'shinydashboard')
-conflict_prefer('tabItem', 'shinydashboard')
-conflict_prefer('taskItem', 'shinydashboardPlus')
-conflict_prefer('messageItem', 'shinydashboardPlus')
-conflict_prefer('notificationItem', 'shinydashboardPlus')
-conflict_prefer('box', 'shinydashboardPlus')
-conflict_prefer('updateTabItems', 'shinydashboard')
-conflict_prefer('dashboardFooter', 'shinydashboardPlus')
-#conflict_prefer('runExample', 'shiny')
+conflicts_prefer(shinydashboardPlus::dashboardPage, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::dashboardHeader, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::dashboardSidebar, .quiet = TRUE)
+conflicts_prefer(shinydashboard::sidebarMenu, .quiet = TRUE)
+conflicts_prefer(shinydashboard::menuItem, .quiet = TRUE)
+conflicts_prefer(shinydashboard::menuSubItem, .quiet = TRUE)
+conflicts_prefer(shinydashboard::dashboardBody, .quiet = TRUE)
+conflicts_prefer(shinydashboard::tabItems, .quiet = TRUE)
+conflicts_prefer(shinydashboard::tabItem, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::taskItem, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::messageItem, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::notificationItem, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::box, .quiet = TRUE)
+conflicts_prefer(shinydashboard::updateTabItems, .quiet = TRUE)
+conflicts_prefer(shinydashboardPlus::dashboardFooter, .quiet = TRUE)
+#conflicts_prefer(shiny::runExample, .quiet = TRUE)
 #lib(pkgs)
 
 # -------------- Set Parameters -----------------------------
@@ -132,11 +132,11 @@ ui <- shinyUI(
       sidebarMenu(
         ## https://stackoverflow.com/a/70093686/3806250
         id = 'sidebarID', 
-        menuItem('®️Studio ☁️', tabName = 'menu', 
+        menuItem('🚩中科红旗☁️', tabName = 'menu', 
           ## https://getbootstrap.com/docs/3.4/components/#glyphicons
           ## https://fontawesome.com/icons 
           #badgeLabel = '🚧', badgeColor = 'green', 
-          icon = icon('fa-brand fa-linux'), startExpanded = TRUE, 
+          icon = icon('font-awesome'), startExpanded = TRUE, 
           menuSubItem('🏠 主页', tabName = 'home'), 
           menuSubItem('🇬🇧 ENGLISH', tabName = 'en'), 
           menuSubItem('🇨🇳 简体中文', tabName = 'cn'), 
@@ -325,7 +325,7 @@ ui <- shinyUI(
             '))), 
       
       tabItems(
-        tabItem(tabName = 'home', h2('®️Studio ☁️', align = 'center'), 
+        tabItem(tabName = 'home', h2('🚩中科红旗☁️', align = 'center'), 
           #alignCenter(
             ## https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons
             ## https://www.justinmind.com/blog/radio-button-design-examples
@@ -338,51 +338,51 @@ ui <- shinyUI(
             #   thick = TRUE, width = '100%', bigger = TRUE, 
             #   icon = icon('registered'))
             #)
-            includeHTML('www/DynRadioB.html'), 
-            includeCSS('www/DynRadioB.css')
+            includeHTML('诸子百家考工记/DynRadioB.html'), 
+            includeCSS('诸子百家考工记/DynRadioB.css')
           ), 
         tabItem(tabName = 'en', h2('🇬🇧 ENGLISH', align = 'center'), 
           ## https://stackoverflow.com/a/9158079/3806250
           #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-en', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-en.html'))#, 
-          includeHTML('www/ryo-en.html'), 
-          includeCSS('www/CSSBackgrounds.css')
+          #HTML(readLines('诸子百家考工记/ryo-en.html'))#, 
+          includeHTML('诸子百家考工记/ryo-en.html'), 
+          includeCSS('诸子百家考工记/CSSBackgrounds.css')
           #htmlOutput('ryo_en')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'cn', h2('🇨🇳 简体中文', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-cn', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-cn.html'))#, 
-          includeHTML('www/ryo-cn.html'), 
-          includeCSS('www/CSSBackgrounds.css')
+          #HTML(readLines('诸子百家考工记/ryo-cn.html'))#, 
+          includeHTML('诸子百家考工记/ryo-cn.html'), 
+          includeCSS('诸子百家考工记/CSSBackgrounds.css')
           #htmlOutput('ryo_cn')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'tw', h2('🇹🇼 繁体中文', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-tw', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-tw.html'))#, 
-          includeHTML('www/ryo-tw.html'), 
-          includeCSS('www/CSSBackgrounds.css')
+          #HTML(readLines('诸子百家考工记/ryo-tw.html'))#, 
+          includeHTML('诸子百家考工记/ryo-tw.html'), 
+          includeCSS('诸子百家考工记/CSSBackgrounds.css')
           #htmlOutput('ryo_tw')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'jp', h2('🇯🇵 日本語', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-jp', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-jp.html'))#, 
-          includeHTML('www/ryo-jp.html'), 
-          includeCSS('www/CSSBackgrounds.css')
+          #HTML(readLines('诸子百家考工记/ryo-jp.html'))#, 
+          includeHTML('诸子百家考工记/ryo-jp.html'), 
+          includeCSS('诸子百家考工记/CSSBackgrounds.css')
           #htmlOutput('ryo_jp')
           #htmlOutput('frame')
           ), 
         tabItem(tabName = 'kr', h2('🇰🇷 한국어', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-gr.html'))#, 
-          #includeHTML('www/ryo-gr.html')#, 
+          #HTML(readLines('诸子百家考工记/ryo-gr.html'))#, 
+          #includeHTML('诸子百家考工记/ryo-gr.html')#, 
           ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
           htmlOutput('ryo_kr'), br(), br(), br(), 
           HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
@@ -391,8 +391,8 @@ ui <- shinyUI(
         tabItem(tabName = 'gr', h2('🇬🇷 Ελληνικά', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-gr', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-gr.html'))#, 
-          #includeHTML('www/ryo-gr.html')#, 
+          #HTML(readLines('诸子百家考工记/ryo-gr.html'))#, 
+          #includeHTML('诸子百家考工记/ryo-gr.html')#, 
           ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
           htmlOutput('ryo_gr'), br(), br(), br(), 
           HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
@@ -401,8 +401,8 @@ ui <- shinyUI(
         tabItem(tabName = 'de', h2('🇩🇪 Deutsch', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-de', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-de.html'))#, 
-          #includeHTML('www/ryo-de.html')#,
+          #HTML(readLines('诸子百家考工记/ryo-de.html'))#, 
+          #includeHTML('诸子百家考工记/ryo-de.html')#,
           ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
           htmlOutput('ryo_de'), br(), br(), br(), 
           HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
@@ -411,8 +411,8 @@ ui <- shinyUI(
         tabItem(tabName = 'fr', h2('🇫🇷 Français', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-fr', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-fr.html'))#, 
-          #includeHTML('www/ryo-fr.html')#,
+          #HTML(readLines('诸子百家考工记/ryo-fr.html'))#, 
+          #includeHTML('诸子百家考工记/ryo-fr.html')#,
           ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
           htmlOutput('ryo_fr'), br(), br(), br(), 
           HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")#, 
@@ -424,8 +424,8 @@ ui <- shinyUI(
         tabItem(tabName = 'it', h2('🇮🇹 Italiano', align = 'center'), 
           #tags$iframe(src = 'https://rpubs.com/englianhu/ryo-it', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-it.html'))#, 
-          #includeHTML('www/ryo-it.html')#,
+          #HTML(readLines('诸子百家考工记/ryo-it.html'))#, 
+          #includeHTML('诸子百家考工记/ryo-it.html')#,
           ## https://stackoverflow.com/questions/28845499/r-shiny-how-to-align-a-gvistable-to-the-center-in-shinyapp
           htmlOutput('ryo_it'), br(), br(), br(), 
           HTML("<p align='center'><iframe width='560' height='315' src='https://www.youtube.com/embed/BrfA1HeOgko' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p>")
@@ -437,9 +437,9 @@ ui <- shinyUI(
         tabItem(tabName = 'auth', h2('作者', align = 'center'), 
           #tags$iframe(src = 'http://rpubs.com/englianhu/ryo-eng', 
           #            height = 800, width = '100%', frameborder = 0)#, 
-          #HTML(readLines('www/ryo-eng.html'))#, 
-          includeHTML('www/ryo-eng.html'), 
-          includeCSS('www/CSSBackgrounds.css')
+          #HTML(readLines('诸子百家考工记/ryo-eng.html'))#, 
+          includeHTML('诸子百家考工记/ryo-eng.html'), 
+          includeCSS('诸子百家考工记/CSSBackgrounds.css')
           #htmlOutput('ryo_eng')
           ), 
         tabItem(tabName = 'refr', h2('参考文献', align = 'center'), 
@@ -500,8 +500,8 @@ ui <- shinyUI(
         br(), 
         tags$a(href = 'https://www.scibrokes.com', target = '_blank', 
                tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
-                        #src = 'www/Scibrokes.png')), 
-                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Scibrokes.png')), 
+                        #src = '诸子百家考工记/Scibrokes.png')), 
+                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/诸子百家考工记/Scibrokes.png')), 
         HTML("<a href='https://www.scibrokes.com'>世博量化®</a>"), 
         '企业知识产权®及版权®所有，盗版必究。', 
         ), 
@@ -509,8 +509,8 @@ ui <- shinyUI(
         br(), 
         tags$a(href = 'https://www.pku.edu.cn', target = '_blank', 
                tags$img(height = '13px', alt = 'scibrokes', #align = 'right', 
-                        #src = 'www/Peking University 02.png')), 
-                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/www/Peking%20University%2002.png')), 
+                        #src = '诸子百家考工记/Peking University 02.png')), 
+                        src = 'https://raw.githubusercontent.com/scibrokes/owner/master/诸子百家考工记/Peking%20University%2002.png')), 
         HTML(paste0("<a href='https://www.pku.edu.cn'>", span('北京大学', style = 'color:blue'), "</a>")), 
         '🐉 ®γσ ξηg 2022 原著')
       ), 
@@ -521,11 +521,11 @@ ui <- shinyUI(
 
 server <- shinyServer(function(input, output, session) {
   
-  #kr <- file.exists('www/ryo-kr.html')
-  #gr <- file.exists('www/ryo-gr.html')
-  #de <- file.exists('www/ryo-de.html')
-  #fr <- file.exists('www/ryo-fr.html')
-  #it <- file.exists('www/ryo-it.html')
+  #kr <- file.exists('诸子百家考工记/ryo-kr.html')
+  #gr <- file.exists('诸子百家考工记/ryo-gr.html')
+  #de <- file.exists('诸子百家考工记/ryo-de.html')
+  #fr <- file.exists('诸子百家考工记/ryo-fr.html')
+  #it <- file.exists('诸子百家考工记/ryo-it.html')
   
   #observe({
     ## https://stackoverflow.com/questions/56064805/displaying-html-file-using-includehtml-in-shiny-is-not-working-with-renderui
@@ -579,24 +579,24 @@ server <- shinyServer(function(input, output, session) {
   #  })
   
   #output$ryo_en <- renderUI({
-  #  includeHTML('www/ryo-en.html')
+  #  includeHTML('诸子百家考工记/ryo-en.html')
   #  })
   #
   #output$ryo_cn <- renderUI({
-  #  includeHTML('www/ryo-cn.html')
+  #  includeHTML('诸子百家考工记/ryo-cn.html')
   #  })
   #
   #output$ryo_tw <- renderUI({
-  #  includeHTML('www/ryo-tw.html')
+  #  includeHTML('诸子百家考工记/ryo-tw.html')
   #  })
   #
   #output$ryo_jp <- renderUI({
-  #  includeHTML('www/ryo-jp.html')
+  #  includeHTML('诸子百家考工记/ryo-jp.html')
   #  })
   
   output$ryo_kr <- renderUI({
     
-    #kr <- file.exists('www/ryo-kr.html')
+    #kr <- file.exists('诸子百家考工记/ryo-kr.html')
     #
     #if (kr == FALSE) {
       ## https://shiny.rstudio.com/articles/html-tags.html
@@ -606,7 +606,7 @@ server <- shinyServer(function(input, output, session) {
     #    align = 'center'
     #    )
     #    } else {
-    #      includeHTML('www/ryo-kr.html')
+    #      includeHTML('诸子百家考工记/ryo-kr.html')
     #    }
     
     ## https://rstudio.github.io/shinyvalidate/reference/compose_rules.html
@@ -629,42 +629,42 @@ server <- shinyServer(function(input, output, session) {
     #shinyFeedback::feedbackWarning(kr, FALSE, HTML('<ruby>건설<rp>(</rp><rt>geonseol</rt><rp>)</rp>중<rp>(</rp><rt>jung</rt><rp>)</rp></ruby> !'))
     
     validate(
-      need(is.error(file.exists('www/ryo-kr.html')), '건설중 !'), 
+      need(is.error(file.exists('诸子百家考工记/ryo-kr.html')), '건설중 !'), 
       errorClass = 'Missing-Data-Class'
     )
-    includeHTML('www/ryo-kr.html')
+    includeHTML('诸子百家考工记/ryo-kr.html')
     })
   
   output$ryo_gr <- renderUI({
     validate(
-      need(is.error(file.exists('www/ryo-gr.html')), 'Υπό κατασκευή !'), 
+      need(is.error(file.exists('诸子百家考工记/ryo-gr.html')), 'Υπό κατασκευή !'), 
       errorClass = 'Missing-Data-Class'
     )
-    includeHTML('www/ryo-gr.html')
+    includeHTML('诸子百家考工记/ryo-gr.html')
     })
   
   output$ryo_de <- renderUI({
     validate(
-      need(is.error(file.exists('www/ryo-de.html')), 'En construction !'), 
+      need(is.error(file.exists('诸子百家考工记/ryo-de.html')), 'En construction !'), 
       errorClass = 'Missing-Data-Class'
     )
-    includeHTML('www/ryo-de.html')
+    includeHTML('诸子百家考工记/ryo-de.html')
     })
   
   output$ryo_fr <- renderUI({
     validate(
-      need(is.error(file.exists('www/ryo-fr.html')), 'Im Bau !'), 
+      need(is.error(file.exists('诸子百家考工记/ryo-fr.html')), 'Im Bau !'), 
       errorClass = 'Missing-Data-Class'
     )
-    includeHTML('www/ryo-fr.html')
+    includeHTML('诸子百家考工记/ryo-fr.html')
     })
   
   output$ryo_it <- renderUI({
     validate(
-      need(is.error(file.exists('www/ryo-it.html')), 'In costruzione !'), 
+      need(is.error(file.exists('诸子百家考工记/ryo-it.html')), 'In costruzione !'), 
       errorClass = 'Missing-Data-Class'
     )
-    includeHTML('www/ryo-it.html')
+    includeHTML('诸子百家考工记/ryo-it.html')
     })
   
   observeEvent(input$sidebarID, {
@@ -672,7 +672,7 @@ server <- shinyServer(function(input, output, session) {
   })
   
   #output$ryo_eng <- renderUI({
-  #  includeHTML('www/ryo-eng.html')
+  #  includeHTML('诸子百家考工记/ryo-eng.html')
   #  })
   
   output$scibrokes <- renderUI({
