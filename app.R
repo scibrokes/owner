@@ -1,9 +1,12 @@
+## https://unleash-shiny.rinterface.com
+
 # -------------- Load Packages -----------------------------
 
 require('BBmisc')
 if (!require('XML')) devtools::install_github('omegahat/XML')
 if (!require('runr')) devtools::install_github('yihui/runr')
 ## https://shi18ny.datasketch.dev
+## https://unleash-shiny.rinterface.com
 lib('shiny')
 conflict_prefer('runExample', 'shiny')
 if (!require('shi18ny')) devtools::install_github('datasketch/shi18ny')

@@ -1,13 +1,13 @@
 ## https://github.com/Gustavogaep/ShinyMobile_Demo/blob/master/app_forum.R
-options("rgdal_show_exportToProj4_warnings"="none")
+options('rgdal_show_exportToProj4_warnings' = 'none')
 
-# install.packages("argonR")
-# install.packages("argonDash")
-# install.packages("shinyWidgets")
-# install.packages("rvg")
-# install.packages("officer")
-# install.packages("esquisse")
-# install.packages("readr")
+# install.packages('argonR')
+# install.packages('argonDash')
+# install.packages('shinyWidgets')
+# install.packages('rvg')
+# install.packages('officer')
+# install.packages('esquisse')
+# install.packages('readr')
 
 library(shinythemes)
 library(readr)
@@ -19,7 +19,7 @@ library(officer)
 library(argonR)
 library(argonDash)
 
-#install.packages("shinydashboardPlus")
+#install.packages('shinydashboardPlus')
 library(shinydashboardPlus)
 library(shinydashboard)
 library(shinyWidgets)
@@ -34,7 +34,7 @@ library(tm)
 library(memoise)
 
 # color palettes
-library("RColorBrewer")
+library('RColorBrewer')
 
 #Para las estadisticas============================================
 

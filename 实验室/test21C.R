@@ -2,6 +2,7 @@
 ## https://shiny.rstudio.com/articles/packaging-javascript.html
 ## https://codepen.io/victorfreire/pen/XXzqEr
 ## https://stackoverflow.com/questions/66128302/can-you-define-a-maximum-width-height-to-css-transform-scale
+## https://unleash-shiny.rinterface.com
 
 require('BBmisc')
 lib('shiny')
