@@ -2,8 +2,8 @@
 ## https://stackoverflow.com/questions/53517929/css-radio-button-style-change-when-not-selected
 
 require('BBmisc')
-if(!require('XML')) devtools::install_github('omegahat/XML')
-if(!require('runr')) devtools::install_github('yihui/runr')
+if (!require('XML')) devtools::install_github('omegahat/XML')
+if (!require('runr')) devtools::install_github('yihui/runr')
 ## https://shi18ny.datasketch.dev
 #if(!require('shi18ny')) devtools::install_github('datasketch/shi18ny')
 
