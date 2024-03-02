@@ -1,9 +1,9 @@
 ---
 title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
-author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='文艺坊图库/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/ENG.png' height='16' align='center' valign='middle'> <img src='文艺坊图库/me light mode.jpg' height='16' align='center' valign='middle'>®"
+author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/ENG.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/me light mode.png' height='16' align='center' valign='middle'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, 派森, ®文艺坊]
-date: '22-Oct-1984'
+date: '农历一九八四年菊月廿八 甲子年甲戌月己丑日 属鼠 周一 第卌三周'
 output:
   html_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -15,7 +15,7 @@ output:
       collapsed: yes
       smooth_scroll: yes
     code_folding: hide
-    css: CSSBackgrounds.css
+    css: 秦谏典范与楷模.css
     fig_caption: yes
   word_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -29,7 +29,7 @@ output:
       collapsed: yes
       smooth_scroll: yes
     code_folding: hide
-    css: CSSBackgrounds.css
+    css: 秦谏典范与楷模.css
   pdf_document:
     mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     number_sections: yes
@@ -42,282 +42,283 @@ output:
       collapsed: yes
       smooth_scroll: yes
     code_folding: hide
-    css: CSSBackgrounds.css
+    css: 秦谏典范与楷模.css
 always_allow_html: yes
 resource_files:
-- 文艺坊图库/188bet.jpg
-- 文艺坊图库/20160910_121813.gif
-- 文艺坊图库/360doc.png
-- 文艺坊图库/7live.jpg
-- 文艺坊图库/7live_36x36.jpg
-- 文艺坊图库/aaa1.jpg
-- 文艺坊图库/aaa2.jpg
-- 文艺坊图库/aaaa.jpg
-- 文艺坊图库/aboutme.png
-- 文艺坊图库/aboutme_36x36.png
-- 文艺坊图库/academia.jpg
-- 文艺坊图库/AIA.png
-- 文艺坊图库/ali.jpg
-- 文艺坊图库/ali_36x36.jpg
-- 文艺坊图库/alibaba1.jpg
-- 文艺坊图库/alibaba2.jpg
-- 文艺坊图库/anr.png
-- 文艺坊图库/anr_36x36.png
-- 文艺坊图库/apple.jpg
-- 文艺坊图库/Arduino.png
-- 文艺坊图库/AskUbuntu.png
-- 文艺坊图库/bettingforum.png
-- 文艺坊图库/bettingforum_36x36.png
-- 文艺坊图库/betworks.png
-- 文艺坊图库/BiliBili.png
-- 文艺坊图库/biostatistic.png
-- 文艺坊图库/biostatistic_36x36.png
-- 文艺坊图库/bitbucket.png
-- 文艺坊图库/bitbucket_36x36.png
-- 文艺坊图库/cari.png
-- 文艺坊图库/caspo.jpg
-- 文艺坊图库/centOS.png
-- 文艺坊图库/centOS_36x36.png
-- 文艺坊图库/Chris_Evans_Captain_America.jpg
-- 文艺坊图库/cos.jpg
-- 文艺坊图库/cos_36x36.jpg
-- 文艺坊图库/coursera.png
-- 文艺坊图库/coursera_36x36.png
-- 文艺坊图库/csdn.png
-- 文艺坊图库/csdn_36x36.png
-- 文艺坊图库/csdn2.png
-- 文艺坊图库/dashencaicai2.jpg
-- 文艺坊图库/discord1.png
-- 文艺坊图库/discord2.jpg
-- 文艺坊图库/Discuss.png
-- 文艺坊图库/disqus.png
-- 文艺坊图库/disqus_36x36.png
-- 文艺坊图库/DouYin.png
-- 文艺坊图库/dwang.png
-- 文艺坊图库/dwang_36x36.png
-- 文艺坊图库/dwang2.png
-- 文艺坊图库/Dynasty_Hotel_Tang.png
-- 文艺坊图库/ENG.png
-- 文艺坊图库/Esquire_Kitchen.png
-- 文艺坊图库/facebook.jpg
-- 文艺坊图库/facebook_36x36.jpg
-- 文艺坊图库/facebook2.jpg
-- 文艺坊图库/facebook2_36x36.jpg
-- 文艺坊图库/FB.jpeg
-- 文艺坊图库/FossCom1.png
-- 文艺坊图库/FossCom2.png
-- 文艺坊图库/fuji-xerox.png
-- 文艺坊图库/gblinks.JPG
-- 文艺坊图库/getronics.png
-- 文艺坊图库/github.jpg
-- 文艺坊图库/github_36x36.jpg
-- 文艺坊图库/github2.png
-- 文艺坊图库/github2_36x36.png
-- 文艺坊图库/github3.jpg
-- 文艺坊图库/github3_36x36.jpg
-- 文艺坊图库/Github_Pages.png
-- 文艺坊图库/Golden-Royal.png
-- 文艺坊图库/gplus.png
-- 文艺坊图库/gplus_36x36.png
-- 文艺坊图库/guokr.jpeg
-- 文艺坊图库/HKUST.png
-- 文艺坊图库/hong.jpg
-- 文艺坊图库/hot.jpg
-- 文艺坊图库/idealseed.jpg
-- 文艺坊图库/IG1.png
-- 文艺坊图库/IG2.png
-- 文艺坊图库/IG3.png
-- 文艺坊图库/IG4.png
-- 文艺坊图库/IG5.png
-- 文艺坊图库/Illinois.jpg
-- 文艺坊图库/instagram.png
-- 文艺坊图库/instagram_36x36.png
-- 文艺坊图库/instagram2.jpg
-- 文艺坊图库/instagram2_36x36.jpg
-- 文艺坊图库/instagram3.jpg
-- 文艺坊图库/instagram3_36x36.jpg
-- 文艺坊图库/InventKDE1.png
-- 文艺坊图库/InventKDE2.png
-- 文艺坊图库/iq.png
-- 文艺坊图库/jckl.png
-- 文艺坊图库/JEES.gif
-- 文艺坊图库/JFKL.jpg
-- 文艺坊图库/jg.png
-- 文艺坊图库/jg_36x36.png
-- 文艺坊图库/JG1.png
-- 文艺坊图库/JG2.png
-- 文艺坊图库/jhu.jpg
-- 文艺坊图库/JianShu.png
-- 文艺坊图库/joey_jeans.jpg
-- 文艺坊图库/KuaiShou.png
-- 文艺坊图库/ladbrokes.jpg
-- 文艺坊图库/library.jpg
-- 文艺坊图库/library2.jpg
-- 文艺坊图库/library3.jpg
-- 文艺坊图库/linkedin.png
-- 文艺坊图库/linkedin_36x36.png
-- 文艺坊图库/linkedIn.jpeg
-- 文艺坊图库/LinuxConfig1.jpg
-- 文艺坊图库/LinuxConfig2.png
-- 文艺坊图库/LQ.jpg
-- 文艺坊图库/LQ_36x36.jpg
-- 文艺坊图库/LQ2.jpg
-- 文艺坊图库/LQ2_36x36.jpg
-- 文艺坊图库/ltree.png
-- 文艺坊图库/madio.png
-- 文艺坊图库/manpower.jpg
-- 文艺坊图库/mas.jpg
-- 文艺坊图库/math & stats.jpg
-- 文艺坊图库/math-3d-hd-wallpaper.jpg
-- 文艺坊图库/math-theme-03.jpg
-- 文艺坊图库/mathchina.jpg
-- 文艺坊图库/mathchina_36x36.jpg
-- 文艺坊图库/maths.jpg
-- 文艺坊图库/MClub.png
-- 文艺坊图库/Me byteDance.jpg
-- 文艺坊图库/me light mode.jpg
-- 文艺坊图库/me.JPG
-- 文艺坊图库/me light mode.jpg
-- 文艺坊图库/medium.png
-- 文艺坊图库/mindpearl01.jpg
-- 文艺坊图库/mindpearl02.jpg
-- 文艺坊图库/my-passport-size-photo.jpg
-- 文艺坊图库/no-sex-at-the-moment.png
-- 文艺坊图库/NYIF.jpeg
-- 文艺坊图库/NYU.png
-- 文艺坊图库/nyu.png
-- 文艺坊图库/oda-army.jpg
-- 文艺坊图库/OKru.png
-- 文艺坊图库/oksportcn_01.png
-- 文艺坊图库/oksportcn_02.png
-- 文艺坊图库/oksportcn_03.png
-- 文艺坊图库/oksportcn_04.png
-- 文艺坊图库/Orchard.png
-- 文艺坊图库/PAAC.jpg
-- 文艺坊图库/Peking University 02.png
-- 文艺坊图库/phabricator.png
-- 文艺坊图库/pixnet.png
-- 文艺坊图库/plotly.jpg
-- 文艺坊图库/plotly_36x36.jpg
-- 文艺坊图库/PLounge.jpg
-- 文艺坊图库/PLounge_36x36.jpg
-- 文艺坊图库/prestige.png
-- 文艺坊图库/qi-pioneer-logo.png
-- 文艺坊图库/QQ wb.png
-- 文艺坊图库/QQ wb_36x36.png
-- 文艺坊图库/QQ.jpg
-- 文艺坊图库/QQ_36x36.jpg
-- 文艺坊图库/qi-pioneer-logo.png
-- 文艺坊图库/quant_trader_adj.jpg
-- 文艺坊图库/quantitative trader.jpg
-- 文艺坊图库/quantitative trader 1.jpg
-- 文艺坊图库/quantitative trader 2.jpg
-- 文艺坊图库/quantitative_trader.jpg
-- 文艺坊图库/Quora.png
-- 文艺坊图库/Qzone.png
-- 文艺坊图库/Qzone_36x36.png
-- 文艺坊图库/RB.png
-- 文艺坊图库/rcrown.jpg
-- 文艺坊图库/Reddit.png
-- 文艺坊图库/retailsshop.jpg
-- 文艺坊图库/RG.png
-- 文艺坊图库/rnable.jpg
-- 文艺坊图库/rnable_36x36.jpg
-- 文艺坊图库/rstudio.jpg
-- 文艺坊图库/RStudioCom1.png
-- 文艺坊图库/RStudioCom2.png
-- 文艺坊图库/RT1.jpg
-- 文艺坊图库/RT2.jpg
-- 文艺坊图库/RT3.jpg
-- 文艺坊图库/RXforum.jpg
-- 文艺坊图库/RXforum_36x36.jpg
-- 文艺坊图库/RYO-Photo.jpg
-- 文艺坊图库/RYO.jpg
-- 文艺坊图库/RYU.png
-- 文艺坊图库/SBR.jpg
-- 文艺坊图库/SBR_36x36.jpg
-- 文艺坊图库/Scibrokes.png
-- 文艺坊图库/scb_logo.jpg
-- 文艺坊图库/scb_logo2.jpg
-- 文艺坊图库/scb-logo3.png
-- 文艺坊图库/scb-logo3rs.png
-- 文艺坊图库/Scibrokes®-TonyStark®.jpg
-- 文艺坊图库/Scibrokes-TonyStark.png
-- 文艺坊图库/scicom.jpg
-- 文艺坊图库/SE.png
-- 文艺坊图库/ShirotoNorimichi.jpg
-- 文艺坊图库/ShirotoNorimichi2.jpg
-- 文艺坊图库/skype.jpg
-- 文艺坊图库/skype_36x36.jpg
-- 文艺坊图库/social.jpg
-- 文艺坊图库/social_36x34.jpg
-- 文艺坊图库/SocialMedia.jpg
-- 文艺坊图库/SOF.jpg
-- 文艺坊图库/starlizard.jpg
-- 文艺坊图库/stats.jpg
-- 文艺坊图库/Steam.png
-- 文艺坊图库/talkstats.png
-- 文艺坊图库/talkstats_36x36.png
-- 文艺坊图库/TARC.jpg
-- 文艺坊图库/telebiz.jpg
-- 文艺坊图库/Thumbs.db
-- 文艺坊图库/tm.jpg
-- 文艺坊图库/TonyStark.png
-- 文艺坊图库/tsujiki-mart.png
-- 文艺坊图库/Tumblr.png
-- 文艺坊图库/Tumblr1.png
-- 文艺坊图库/Tumblr2.jpeg
-- 文艺坊图库/Tumblr3.jpg
-- 文艺坊图库/twitter.png
-- 文艺坊图库/twitter_36x36.png
-- 文艺坊图库/u-drive-media.jpg
-- 文艺坊图库/u-of-i-urbana-2.png
-- 文艺坊图库/UCSC.jpeg
-- 文艺坊图库/ucsc.jpg
-- 文艺坊图库/um.jpg
-- 文艺坊图库/UoP-logo.jpg
-- 文艺坊图库/UST.jpg
-- 文艺坊图库/uwants.png
-- 文艺坊图库/vimeo.jpg
-- 文艺坊图库/vk.png
-- 文艺坊图库/Wechat.png
-- 文艺坊图库/Wechat1.png
-- 文艺坊图库/Wechat2.png
-- 文艺坊图库/weibo.png
-- 文艺坊图库/weibo_36x36.png
-- 文艺坊图库/wordpress.jpg
-- 文艺坊图库/wordpress_36x36.jpg
-- 文艺坊图库/Wechat1.png
-- 文艺坊图库/Wechat2.png
-- 文艺坊图库/xerox.png
-- 文艺坊图库/xueba.jpg
-- 文艺坊图库/xueba1.jpg
-- 文艺坊图库/xueba2.jpg
-- 文艺坊图库/xueba2.png
-- 文艺坊图库/xueba3.jpg
-- 文艺坊图库/Yandex.png
-- 文艺坊图库/YouTube.jpeg
-- 文艺坊图库/zeef.jpg
-- 文艺坊图库/zeef_36x36.jpg
-- 文艺坊图库/ZhiHu.png
-- 文艺坊图库/zoom.jpeg
-- 文艺坊图库/βεst Jοεγ 7.jpg
-- 文艺坊图库/βεst Jοεγ 8.jpg
-- 文艺坊图库/βεst Jοεγ 胸有大痣.png
-- 文艺坊图库/βεst Jοεγ.jpg
-- 文艺坊图库/中国区划.gif
-- 文艺坊图库/美国省区旗.png
-- 文艺坊图库/βεst Jοεγ 胸有大痣.png
-- 文艺数据库/dfm.csv
-- 文艺数据库/kellym.txt
-- 文艺数据库/shinyData.rds
-- 文艺数据库/worldcities.csv
+- 诸子百家考工记/188bet.png
+- 诸子百家考工记/20160910_121813.gif
+- 诸子百家考工记/360doc.png
+- 诸子百家考工记/7live.png
+- 诸子百家考工记/7live_36x36.png
+- 诸子百家考工记/aaa1.png
+- 诸子百家考工记/aaa2.png
+- 诸子百家考工记/aaaa.png
+- 诸子百家考工记/aboutme.png
+- 诸子百家考工记/aboutme_36x36.png
+- 诸子百家考工记/academia.png
+- 诸子百家考工记/AIA.png
+- 诸子百家考工记/ali.png
+- 诸子百家考工记/ali_36x36.png
+- 诸子百家考工记/alibaba1.png
+- 诸子百家考工记/alibaba2.png
+- 诸子百家考工记/anr.png
+- 诸子百家考工记/anr_36x36.png
+- 诸子百家考工记/apple.png
+- 诸子百家考工记/Arduino.png
+- 诸子百家考工记/AskUbuntu.png
+- 诸子百家考工记/bettingforum.png
+- 诸子百家考工记/bettingforum_36x36.png
+- 诸子百家考工记/betworks.png
+- 诸子百家考工记/BiliBili.png
+- 诸子百家考工记/biostatistic.png
+- 诸子百家考工记/biostatistic_36x36.png
+- 诸子百家考工记/bitbucket.png
+- 诸子百家考工记/bitbucket_36x36.png
+- 诸子百家考工记/cari.png
+- 诸子百家考工记/caspo.png
+- 诸子百家考工记/centOS.png
+- 诸子百家考工记/centOS_36x36.png
+- 诸子百家考工记/Chris_Evans_Captain_America.png
+- 诸子百家考工记/cos.png
+- 诸子百家考工记/cos_36x36.png
+- 诸子百家考工记/coursera.png
+- 诸子百家考工记/coursera_36x36.png
+- 诸子百家考工记/csdn.png
+- 诸子百家考工记/csdn_36x36.png
+- 诸子百家考工记/csdn2.png
+- 诸子百家考工记/dashencaicai2.png
+- 诸子百家考工记/discord1.png
+- 诸子百家考工记/discord2.png
+- 诸子百家考工记/Discuss.png
+- 诸子百家考工记/disqus.png
+- 诸子百家考工记/disqus_36x36.png
+- 诸子百家考工记/DouYin.png
+- 诸子百家考工记/dwang.png
+- 诸子百家考工记/dwang_36x36.png
+- 诸子百家考工记/dwang2.png
+- 诸子百家考工记/Dynasty_Hotel_Tang.png
+- 诸子百家考工记/ENG.png
+- 诸子百家考工记/Esquire_Kitchen.png
+- 诸子百家考工记/facebook.png
+- 诸子百家考工记/facebook_36x36.png
+- 诸子百家考工记/facebook2.png
+- 诸子百家考工记/facebook2_36x36.png
+- 诸子百家考工记/FB.png
+- 诸子百家考工记/FossCom1.png
+- 诸子百家考工记/FossCom2.png
+- 诸子百家考工记/fuji-xerox.png
+- 诸子百家考工记/gblinks.png
+- 诸子百家考工记/getronics.png
+- 诸子百家考工记/github.png
+- 诸子百家考工记/github_36x36.png
+- 诸子百家考工记/github2.png
+- 诸子百家考工记/github2_36x36.png
+- 诸子百家考工记/github3.png
+- 诸子百家考工记/github3_36x36.png
+- 诸子百家考工记/Github_Pages.png
+- 诸子百家考工记/Golden-Royal.png
+- 诸子百家考工记/gplus.png
+- 诸子百家考工记/gplus_36x36.png
+- 诸子百家考工记/guokr.png
+- 诸子百家考工记/HKUST.png
+- 诸子百家考工记/hong.png
+- 诸子百家考工记/hot.png
+- 诸子百家考工记/idealseed.png
+- 诸子百家考工记/IG1.png
+- 诸子百家考工记/IG2.png
+- 诸子百家考工记/IG3.png
+- 诸子百家考工记/IG4.png
+- 诸子百家考工记/IG5.png
+- 诸子百家考工记/Illinois.png
+- 诸子百家考工记/instagram.png
+- 诸子百家考工记/instagram_36x36.png
+- 诸子百家考工记/instagram2.png
+- 诸子百家考工记/instagram2_36x36.png
+- 诸子百家考工记/instagram3.png
+- 诸子百家考工记/instagram3_36x36.png
+- 诸子百家考工记/InventKDE1.png
+- 诸子百家考工记/InventKDE2.png
+- 诸子百家考工记/iq.png
+- 诸子百家考工记/jckl.png
+- 诸子百家考工记/JEES.gif
+- 诸子百家考工记/JFKL.png
+- 诸子百家考工记/jg.png
+- 诸子百家考工记/jg_36x36.png
+- 诸子百家考工记/JG1.png
+- 诸子百家考工记/JG2.png
+- 诸子百家考工记/jhu.png
+- 诸子百家考工记/JianShu.png
+- 诸子百家考工记/joey_jeans.png
+- 诸子百家考工记/KuaiShou.png
+- 诸子百家考工记/ladbrokes.png
+- 诸子百家考工记/library.png
+- 诸子百家考工记/library2.png
+- 诸子百家考工记/library3.png
+- 诸子百家考工记/linkedin.png
+- 诸子百家考工记/linkedin_36x36.png
+- 诸子百家考工记/linkedIn.png
+- 诸子百家考工记/LinuxConfig1.png
+- 诸子百家考工记/LinuxConfig2.png
+- 诸子百家考工记/LQ.png
+- 诸子百家考工记/LQ_36x36.png
+- 诸子百家考工记/LQ2.png
+- 诸子百家考工记/LQ2_36x36.png
+- 诸子百家考工记/ltree.png
+- 诸子百家考工记/madio.png
+- 诸子百家考工记/manpower.png
+- 诸子百家考工记/mas.png
+- 诸子百家考工记/math & stats.png
+- 诸子百家考工记/math-3d-hd-wallpaper.png
+- 诸子百家考工记/math-theme-03.png
+- 诸子百家考工记/mathchina.png
+- 诸子百家考工记/mathchina_36x36.png
+- 诸子百家考工记/maths.png
+- 诸子百家考工记/MClub.png
+- 诸子百家考工记/Me byteDance.png
+- 诸子百家考工记/me light mode.png
+- 诸子百家考工记/me.png
+- 诸子百家考工记/me light mode.png
+- 诸子百家考工记/medium.png
+- 诸子百家考工记/mindpearl01.png
+- 诸子百家考工记/mindpearl02.png
+- 诸子百家考工记/my-passport-size-photo.png
+- 诸子百家考工记/no-sex-at-the-moment.png
+- 诸子百家考工记/NYIF.png
+- 诸子百家考工记/NYU.png
+- 诸子百家考工记/nyu.png
+- 诸子百家考工记/oda-army.png
+- 诸子百家考工记/OKru.png
+- 诸子百家考工记/oksportcn_01.png
+- 诸子百家考工记/oksportcn_02.png
+- 诸子百家考工记/oksportcn_03.png
+- 诸子百家考工记/oksportcn_04.png
+- 诸子百家考工记/Orchard.png
+- 诸子百家考工记/PAAC.png
+- 诸子百家考工记/大秦赋 - 北京大学.png
+- 诸子百家考工记/phabricator.png
+- 诸子百家考工记/pixnet.png
+- 诸子百家考工记/plotly.png
+- 诸子百家考工记/plotly_36x36.png
+- 诸子百家考工记/PLounge.png
+- 诸子百家考工记/PLounge_36x36.png
+- 诸子百家考工记/prestige.png
+- 诸子百家考工记/qi-pioneer-logo.png
+- 诸子百家考工记/QQ wb.png
+- 诸子百家考工记/QQ wb_36x36.png
+- 诸子百家考工记/QQ.png
+- 诸子百家考工记/QQ_36x36.png
+- 诸子百家考工记/qi-pioneer-logo.png
+- 诸子百家考工记/quant_trader_adj.png
+- 诸子百家考工记/quantitative trader.png
+- 诸子百家考工记/quantitative trader 1.png
+- 诸子百家考工记/quantitative trader 2.png
+- 诸子百家考工记/quantitative_trader.png
+- 诸子百家考工记/Quora.png
+- 诸子百家考工记/Qzone.png
+- 诸子百家考工记/Qzone_36x36.png
+- 诸子百家考工记/RB.png
+- 诸子百家考工记/rcrown.png
+- 诸子百家考工记/Reddit.png
+- 诸子百家考工记/retailsshop.png
+- 诸子百家考工记/RG.png
+- 诸子百家考工记/rnable.png
+- 诸子百家考工记/rnable_36x36.png
+- 诸子百家考工记/rstudio.png
+- 诸子百家考工记/RStudioCom1.png
+- 诸子百家考工记/RStudioCom2.png
+- 诸子百家考工记/RT1.png
+- 诸子百家考工记/RT2.png
+- 诸子百家考工记/RT3.png
+- 诸子百家考工记/RXforum.png
+- 诸子百家考工记/RXforum_36x36.png
+- 诸子百家考工记/RYO-Photo.png
+- 诸子百家考工记/RYO.png
+- 诸子百家考工记/RYU.png
+- 诸子百家考工记/SBR.png
+- 诸子百家考工记/SBR_36x36.png
+- 诸子百家考工记/Scibrokes.png
+- 诸子百家考工记/世博量化.png
+- 诸子百家考工记/scb_logo.png
+- 诸子百家考工记/scb_logo2.png
+- 诸子百家考工记/scb-logo3.png
+- 诸子百家考工记/scb-logo3rs.png
+- 诸子百家考工记/Scibrokes®-TonyStark®.png
+- 诸子百家考工记/Scibrokes-TonyStark.png
+- 诸子百家考工记/scicom.png
+- 诸子百家考工记/SE.png
+- 诸子百家考工记/ShirotoNorimichi.png
+- 诸子百家考工记/ShirotoNorimichi2.png
+- 诸子百家考工记/skype.png
+- 诸子百家考工记/skype_36x36.png
+- 诸子百家考工记/social.png
+- 诸子百家考工记/social_36x34.png
+- 诸子百家考工记/SocialMedia.png
+- 诸子百家考工记/SOF.png
+- 诸子百家考工记/starlizard.png
+- 诸子百家考工记/stats.png
+- 诸子百家考工记/Steam.png
+- 诸子百家考工记/talkstats.png
+- 诸子百家考工记/talkstats_36x36.png
+- 诸子百家考工记/TARC.png
+- 诸子百家考工记/telebiz.png
+- 诸子百家考工记/Thumbs.db
+- 诸子百家考工记/tm.png
+- 诸子百家考工记/TonyStark.png
+- 诸子百家考工记/tsujiki-mart.png
+- 诸子百家考工记/Tumblr.png
+- 诸子百家考工记/Tumblr1.png
+- 诸子百家考工记/Tumblr2.png
+- 诸子百家考工记/Tumblr3.png
+- 诸子百家考工记/twitter.png
+- 诸子百家考工记/twitter_36x36.png
+- 诸子百家考工记/u-drive-media.png
+- 诸子百家考工记/u-of-i-urbana-2.png
+- 诸子百家考工记/UCSC.png
+- 诸子百家考工记/ucsc.png
+- 诸子百家考工记/um.png
+- 诸子百家考工记/UoP-logo.png
+- 诸子百家考工记/UST.png
+- 诸子百家考工记/uwants.png
+- 诸子百家考工记/vimeo.png
+- 诸子百家考工记/vk.png
+- 诸子百家考工记/Wechat.png
+- 诸子百家考工记/Wechat1.png
+- 诸子百家考工记/Wechat2.png
+- 诸子百家考工记/weibo.png
+- 诸子百家考工记/weibo_36x36.png
+- 诸子百家考工记/wordpress.png
+- 诸子百家考工记/wordpress_36x36.png
+- 诸子百家考工记/Wechat1.png
+- 诸子百家考工记/Wechat2.png
+- 诸子百家考工记/xerox.png
+- 诸子百家考工记/xueba.png
+- 诸子百家考工记/xueba1.png
+- 诸子百家考工记/xueba2.png
+- 诸子百家考工记/xueba2.png
+- 诸子百家考工记/xueba3.png
+- 诸子百家考工记/Yandex.png
+- 诸子百家考工记/YouTube.png
+- 诸子百家考工记/zeef.png
+- 诸子百家考工记/zeef_36x36.png
+- 诸子百家考工记/ZhiHu.png
+- 诸子百家考工记/zoom.png
+- 诸子百家考工记/βεst Jοεγ 7.png
+- 诸子百家考工记/βεst Jοεγ 8.png
+- 诸子百家考工记/βεst Jοεγ 胸有大痣.png
+- 诸子百家考工记/βεst Jοεγ.png
+- 诸子百家考工记/中国区划.gif
+- 诸子百家考工记/美国省区旗.png
+- 诸子百家考工记/βεst Jοεγ 胸有大痣.png
+- 诸子百家学府/dfm.csv
+- 诸子百家学府/kellym.txt
+- 诸子百家学府/shinyData.rds
+- 诸子百家学府/worldcities.csv
 - 函数/buildFund.R
-- 函数/libs.R
+- 函数/读取程序包配套.R
 - 函数/plotChart.R
-- 文艺坊曲库/bigmoney.mp3
-- 文艺坊图库/b4TDbiz-.pdf
-- 文艺坊图库/韩国情信.mp4
+- 诸子百家诗经与古诗源/bigmoney.mp3
+- 诸子百家考工记/b4TDbiz-.pdf
+- 诸子百家考工记/韩国情信.mp4
 - 博物院/Coursera Illinous  - Data Mining - 01 Data Visualization.pdf
 - 博物院/Coursera Illinous - Data Mining - 02 Text Retrieval and Search Engines.pdf
 - 博物院/Coursera Illinous - Data Mining - 03 Text Mining and Analytics.pdf
@@ -344,10 +345,10 @@ resource_files:
 - 博物院/DataCamp - Introduction to R.pdf
 - 博物院/DataCamp - Kaggle R Tutorial on Machine Learning.pdf
 - 博物院/Google Analytics.pdf
-- 博物院/JLPT Certificate.jpg
-- 博物院/Scicom Appreciation Certificate.jpg
-- 博物院/Scicom CS Workshop.jpg
-- 博物院/SPM Certificate.jpg
+- 博物院/JLPT Certificate.png
+- 博物院/Scicom Appreciation Certificate.png
+- 博物院/Scicom CS Workshop.png
+- 博物院/SPM Certificate.png
 - 博物院/Ryo Eng_Introduction to Machine Learning for Trading_certificate.pdf
 - 博物院/Ryo Eng_Quantitative Trading Strategies and Models_certificate.pdf
 - 博物院/Ryo, Eng Lian Hu_Trading using Options Sentiment Indicators_certificate.pdf
@@ -359,52 +360,47 @@ resource_files:
 - 博物院/Coursera NYU - Overview of Advanced Methods of Reinforcement Learning in Finance.pdf
 - 博物院/Coursera Peking - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf
 - 博物院/Coursera California - Bayesian Statistics Mixture Models.pdf
-- 文艺坊曲库/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
+- 诸子百家诗经与古诗源/小松拓也 - 不知道方向 Takuya Komatsu (原创) - (Better Ownself).mp3
 ---
 
 ------
 
 # 简历
 
-<img src='文艺坊图库/quantitative trader 1.jpg' width='120' align='center' valign='middle'/>
+<img src='诸子百家考工记/quantitative trader 1.png' width='120' align='center' valign='middle'/>
 
 雷欧 ∪ 瑞欧，黄联富
 
 <br>
 [[**主题曲**]{style='color:green'}](https://zhidao.baidu.com/question/397416930.html)[^0]：《子曰》
 <br>
-<audio controls loop autoplay src='文艺坊曲库/卜学亮 - 子曰.mp3' controls></audio>
+<audio controls loop autoplay src='诸子百家诗经与古诗源/卜学亮 - 子曰.mp3' controls></audio>
 <br>
 
 [^0]: [此菜🥬只应天上有，人间难得几回尝](https://zhidao.baidu.com/question/397416930.html)
 
 **大秦赋 (Chinese Emperor)**<br>
 春秋战国《*礼记•经解*》<br>
-孔子曰：『君子慎始，差若毫厘，缪以千里。』
+孔子曰：「君子慎始，差若毫厘，缪以千里。」
 
-> <span style='color:#FFEBCD; background-color:#D2B48C;'>**《礼记·经解》孔子曰：**</span><span style='color:#A9A9A9'; background-color:#696969;'>*「君子慎始。差若毫厘，谬以千里。」*</span>[^1]
+> <span style='color:#FFEBCD; background-color:#991B00;'>**《礼记·经解》孔子曰：**</span><span style='color:#DimGrey; background-color:#D52600;'>*「君子慎始，差若毫厘，谬以千里。」*</span>[^1]
 
 *引用：[「快懂百科」《礼记•经解》](https://www.baike.com/wikiid/2225522569881832051?view_id=2tt3iw3blkq000)和[第一范文网：差之毫厘，谬以千里的故事](https://www.diyifanwen.com/chengyu/liuziyishangchengyugushi/2010051523105152347092749890.htm)和[「百度百科」春秋时期孔子作品《礼记•经解》](https://baike.baidu.com/item/%E7%A4%BC%E8%AE%B0%C2%B7%E7%BB%8F%E8%A7%A3/2523092)和[「當代中國」差之毫釐 謬以千里](https://www.ourchinastory.com/zh/2962/%E5%B7%AE%E4%B9%8B%E6%AF%AB%E9%87%90%20%E8%AC%AC%E4%BB%A5%E5%8D%83%E9%87%8C)*
 
 [^1]: [HTML Color Codes](https://html-color.codes)
 
-> <img src='文艺坊图库/大秦赋 - 北京大学.png' width='100'>
+> <img src='诸子百家考工记/大秦赋 - 北京大学.png' width='100'>
 > 
 > **大秦赋 - 北京大学**
 > 
-> **🚩🇨🇳🏹红旗中科 RedFlag Linux (🍥Debian 11)**
-> 
-> 🚩🇨🇳✝️🏹红旗中科是🇨🇳国产第一个以🍥德比安/🍥达比安操作系统改良版的🚩🇨🇳✝️🏹红旗礼逆袭。而创办人NonMuslim孙玉芳、艺人NonMuslim蔡卓宜、本人NonMuslim黄联富都是🇨🇳北京大学校友。
-> 
-> <br>
-> **🚩🇬🇧🏹Red Cross ✝️Army RedFlag Linux 🚩🇨🇳✝️🏹红旗中科**
+> 🇨🇳国操作系统🚩🇨🇳️🏹红旗礼逆袭是由🚩🇨🇳️🏹中科红旗创办人孙玉芳教授团队研发，孙玉芳教授与愚生都是🇨🇳北京大学校友。
 > 
 > - [🚩红旗礼逆袭（官网）](https://www.chinaredflag.cn)
 > - [🚩红旗应用商店（官网）](http://www.linuxsir.cn)
 > - [🚩红旗飘飘 —— 孙玉芳研究员谈国产操作系统](https://xuewen.cnki.net/CJFD-WDNJ199941001.html)
 > - [🚩Administration of User Account in Secure OS](http://journal.ucas.ac.cn/CN/abstract/abstract11932.shtml)
 > 
-> ![*🚩红旗礼逆袭*](文艺坊图库/红旗礼逆袭.gif)
+> ![*🚩🇨🇳️🏹红旗礼逆袭*](诸子百家考工记/红旗礼逆袭.gif)
 > 
 > <br>
 > 可通过以下网站查阅更多详情：
@@ -412,19 +408,11 @@ resource_files:
 > - [猫城仓库：scibrokes/r-world/issues/1](https://github.com/scibrokes/r-world/issues/1)
 > - [猫城仓库：scibrokes/owner/issues/4](https://github.com/scibrokes/owner/issues/4)
 > - [猫城仓库：scibrokes/setup-centOS7-DO](https://github.com/scibrokes/setup-centOS7-DO)
+> - [猫城仓库：englianhu/RedFlag-Linux/issues/6](https://github.com/englianhu/RedFlag-Linux/issues/6)
 > 
 > <iframe src='//player.bilibili.com/player.html?aid=938367824&bvid=BV1pT4y1a7Zt&cid=581199416&page=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'> </iframe>
 > 
-> *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863?spm_id_from=333.999.list.card_time.click)
-> 
-> <br>
-> 目前使用🚩🇨🇳🏹中国国产红旗礼逆袭，并且将REmap程序包中文化，以下R编程语言函数也开始中文化，日后编程都会使用中文编程。
-> 
-> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/binary-Q1Inter-HFT-RV3.Rmd](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/binary-Q1Inter-HFT-RV3.Rmd)
-> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/日内高频指数平滑.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E6%97%A5%E5%86%85%E9%AB%98%E9%A2%91%E6%8C%87%E6%95%B0%E5%B9%B3%E6%BB%91.R)
-> - [猫城仓库：binary.com-interview-question/blob/世博量化研究院/函数/季节性自回归.R](https://github.com/englianhu/binary.com-interview-question/blob/%E4%B8%96%E5%8D%9A%E9%87%8F%E5%8C%96%E7%A0%94%E7%A9%B6%E9%99%A2/%E5%87%BD%E6%95%B0/%E5%AD%A3%E8%8A%82%E6%80%A7%E8%87%AA%E5%9B%9E%E5%BD%92.R)
-
-*出处：[欢迎到【百度绘图】R编程语言程序包](https://github.com/englianhu/REmap/wiki/%E6%AC%A2%E8%BF%8E%E5%88%B0%E3%80%90%E7%99%BE%E5%BA%A6%E7%BB%98%E5%9B%BE%E3%80%91R%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E5%8C%85)*
+> *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863)
 
 ------
 
@@ -445,7 +433,52 @@ pre code {
 }
 </style>
 
-```{r load-sass, class.source='bg-success', class.output='bg-primary'}
+```{r 读取SASS, class.source='bg-success', class.output='bg-primary'}
+##
+## 中科红旗（百家争鸣，文艺复兴）
+## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）
+## 史无前例，一统天下
+##
+##
+##
+## 中科红旗
+## 全球NonMuslim中华民族，支持中共称霸天下战略。
+## Great Britain 大英帝国
+## Greater Chin 大秦赋
+## Republic of Chin / Republic People of Chin 大秦赋（中华民国 / 中华人民共和国）
+## Greater Chinese 大秦子民（爱民如子）
+## Oversea Greater Chinese 大秦子民（爱民如子）
+## Oversea Greater Chinese Union 大秦子民公会（秦孝公 / 姜太公 --- 陈祯禄公爵）
+## 史无前例，一统天下
+##
+## Great Britain = 大布列颠帝国/大英帝国1
+## Greater Chin = 大秦赋
+## Greater Chinese = 大秦子民（爱子如民）
+##
+## NonMuslim马来西亚籍（海外NonMuslim中华民族，自从清末民初下南洋，咱们马来西亚陈祯禄创办 Oversea Chinese Union）秦始皇黄氏江夏堂，笑傲江湖最大文明贡献
+##
+## 1）借鉴以前大英帝国东印度公司，有生之年就把一带一路高铁所经过的国家领土，一律得攻占下来（要比以前大英帝国/大蒙古帝国还要强大）称霸天下，世代延续直至史无前例，一统天下。
+## 2）一带一路所有告示牌、必须使用中文和拼音。
+## 3）借鉴大蒙古帝国骑兵所到之处寸草不生，所有被中国攻占下来的领土，所经之地（包括城市/市镇/乡村），一带一路所有高铁站，都建立国民登记局可以申请入籍中国。
+## 4）川普已经发言多次，美国兵变，会再次内战（借鉴越王勾践，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 5）中东回教国回教徒九一一恐怖份子与美国开战，中国军售中东西亚/东欧/非洲回教国（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 6）中国目前高铁除了尚未与马来西亚达成协议开工建立高铁但是已经借鉴王翦只围不攻战略，把东南亚国家都温馨说服并建立高铁，中国先不与马来西亚开战，让马来西亚兵变内战（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用马来西亚回教徒太监不造反牵制美国，军售中东/西亚/东欧回教诸国）
+## 7）南太平洋战略：中国和东南亚已经签署合约，达成协议不使用空军、核武器，出动海陆军攻占东南亚
+## 8）商鞅变法多多益善战略：最大贡献是全球十六亿回教徒太监民族与全球基督洋人鹬蚌相争... 回教徒默罕默德创办回教，建立可兰经回教刑事法典断肢法规定回教徒伪太监民族必须虔诚戴乌纱帽一天祈祷五次，倘若不虔诚施展巫术屠杀是触犯断肢法而虔诚屠杀也触犯断肢法，只有辛亥革命铲除全球回教徒、断肢法处死或宫刑全球回教徒绝子绝孙，多管齐下才能终止巫术屠杀，拯救全球16亿回教徒还俗。China大秦赋秦孝公至顾自己家族禁止七步诗自相残杀，铲除分一杯羹白骨精刘家彭城堂造反，回教徒会巫术屠杀人类，回教徒太监民族只能屠杀欧美洋人并且被断肢处死，不效忠中共称霸天下，直至一统天下的伪满洲国马来西亚1700万个回教徒九一一恐怖份子太监民族包括Michael Cutter Christopher，一律断肢法处死（借鉴越王勾践NonMuslim中华民族与美国洋人Democrats阖闾政府，中越不内讧，善用秦二世胡亥、辛亥革命、越王胡志明、中国胡景涛、马来西亚回教徒太监不反中共牵制美国，军售中东/西亚/东欧回教诸国对抗美国）。秦始皇在统一七国后就不思进取导致赵高李斯谋反（借鉴中国历史秦始皇，水能载舟亦能覆舟，宗教巫术，古惑民心，指鹿为马，成也赵李，败也赵李。所以秦始皇得铭记当初秦孝公，不能昏庸被回教徒篡位），中国借鉴秦孝公战略善用商朝和苏联俄罗斯叶利钦。秦始皇铭记秦孝公，善用全球回教徒古惑全球洋人再依照可兰经回教刑事法典断肢全球回教徒，让咱们全球NonMuslim中华民族支持中共，一统天下。
+## 9）华尔街、史无前例的万里长城Great Wall Sreet、一带一路高铁：计量经济学、学术治国、编程、统计、科学科技、量化（Fisher姜太公钓鱼大数据，各行各业购物喜好、民意、生活习惯、各国各集团、军事、诊断上市公司等）、金融、贸易、经商、军事、发展各行各业。
+## 10）中文编程语言：借鉴日本自从唐朝大话革新学习中文至明治维新学习欧洲，日本是全球首个亚洲人自创Ruby红宝石编程语言（Ruby Text可以标音），自从2008年就开始使用R语言并且认识中国R语言论坛《统计之都》论坛创办人网友谢益辉和赵坚毅创办的中国最大计量经济学专业论坛《经管之家》至今十年有余、目前已经开始以中文编程，中华人民共和国的国庆日1001和中华民国的国庆日1010都是二进制的电脑语言binary code，如同黄埔军校国共本是一家，赢家黄氏江夏堂秦孝公禁止《七步诗》自相残杀。咱们东南亚NonMuslim中华民族几乎都是国民华校生，洋人研发电脑、许多编程语言R语言、C语言、C++，推广与发展中文，希望它日有咱们NonMuslim中华民族自创新的编程语言，均以中文编程。
+## 11）发展台式电脑操作系统：中科红旗是由中国北京大学校友孙玉芳创办将Linux礼逆袭和南非原住民开发的Kubuntu忽奔兔中文化并推出自家产品，在美国微软视窗Win台式电脑操作系统垄断全球十多二十年有余，目前已经开始使用芬兰研发的Linux礼逆袭、中国中科红旗台式电脑操作系统，推广与发展中科红旗。
+##
+## 《关雎 --- 中华妞儿芈拉传》
+## 咱们中华民族和越族不可以死，隔壁后头邻居黄福全与本人（赢家黄氏江夏堂）祖父同名同姓。
+##
+## 借鉴欧洲中世纪，文艺复兴后就是开始海外军事，称霸天下之路。目前全球疫情已过三年，一带一路如火如荼进行着。
+## 借鉴周公礼乐制度，大英帝国和大日本帝国向来都是自诩绅士淑女，孔子学院，以礼待人，来称霸天下。
+## 借鉴指鹿为马的历史，百家争鸣如果散播回教徒屠杀罪、不杀马来西亚回教徒的话，就得处死回教徒学习可兰经，施展巫术下降头，古惑民心之罪，篡位咱们全球NonMuslim中华民族，人心惶惶、民不聊生，一律依照可兰经回教刑事法典断肢法处死回教徒巫师王（张佳坤Sulaiman Abdullah，分一杯羹白骨精巫师王刘瑾貹Abdul Halim）。
+## 借鉴圣经、诺亚方舟（划龙舟）、孔子儒学（Confusion Catholic）、神父Father与信徒、中国历史、姬昌伯一扈兔子、徐达吃鹅肉、富不过三代的秦始皇嬴政秦二世胡亥至嬴政孙子、公爵、公公孙子、孙文辛亥革命、马来西亚火箭民主行动党由曾敏兴创党后林吉祥林冠英后换人、蒋介石蒋经国后就不延续世袭制，圣经都是善用父子关系，咱们中华民族和英系都是善用公孙关系、法官律师女子假发、自由女神。
+## 中科红旗：借鉴北洋军阀与北约、杀袁者清，灭清者袁，许某可破北洋北约袁绍。黄埔军校国民党共产党辛亥革命是为了铲除回教徒，咱们东南亚回教徒身为伪满洲国九一一恐怖份子触犯可兰经回教刑事法典断肢法，组织个由回教徒执政的国民阵线（伪国民党）立国，1700万个马来西亚回教徒只能集体自杀，宣布亡国。
+## 何谓中国（大秦赋Chin）？中华民国和中华人民共和国。咱们东南亚自从东亚清末民初几乎都是国民华校生，自从西周的周公开始礼乐制度后，大英帝国和大日本帝国都效仿来称霸天下做得有声有色、禁止回教巫术Judi博彩庄、艺人（异人）、导演巫师巫婆道衍师傅装疯卖傻、青山是巫裔回教徒的归属地，回教巫师巫婆是屠杀人类的语言宗教习俗文化，得断肢法处死1700万个马来西亚巫裔回教徒。
+
 # install.packages('remotes', dependencies = TRUE, INSTALL_opts = '--no-lock')
 library('BBmisc', 'rmsfuns')
 #remotes::install_github("rstudio/sass")
@@ -470,7 +503,7 @@ lib('sass')
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 ```
 
-```{scss set-scss, class.source='bg-success', class.output='bg-primary'}
+```{scss SCSS设置, class.source='bg-success', class.output='bg-primary'}
 /* https://stackoverflow.com/a/66029010/3806250 */
 h1 { color: #002C54; }
 h2 { color: #2F496E; }
@@ -508,23 +541,25 @@ h5 { color: #92AAC7; }
   }
 ```
 
-```{r gb-opts, class.source='hover01', class.output='hover02'}
-## 设置时区但不更换时间 设置时区但不更换时差
+```{r 编织选项, class.source='hover01', class.output='hover02'}
+## 更换时间区域，保留日期时间。
 Sys.setenv(TZ = 'Asia/Shanghai')
 
-## 设置忽略所有警讯 设置忽略所有警讯
+## 忽略所有警讯
 ## https://stackoverflow.com/a/36846793/3806250
-## 设置宽度 设置宽度
-## options(knitr.table.format = 'html')一次性将所有kableExtra图表设置为'html'，省得逐个设置。
-options(warn = -1, width = 999, knitr.table.format = 'html')#, digits.secs = 6)
+## 设置宽度
+## options(knitr.table.format = 'html')将所有kableExtra图表一致设置为'html'格式，省略设置各别图表。
+## options(repos = 'https://cran.rstudio.com')将仓库设置为安全网。
+## options(repos = 'http://cran.rstudio.com')将仓库设置为普通网。
+options(warn = -1, width = 999, knitr.table.format = 'html', 
+        digits = 22, digits.secs = Inf, repos = 'https://cran.rstudio.com')
 
 ## https://stackoverflow.com/questions/39417003/long-vectors-not-supported-yet-abnor-in-rmd-but-not-in-r-script
 ## https://yihui.org/knitr/options
 knitr::opts_chunk$set(
   class.source = 'hover01', class.output = 'hover02', class.error = 'hover03', 
   message = FALSE, warning = FALSE, error = TRUE, 
-  autodep = TRUE, aniopts = 'loop', 
-  progress = TRUE, verbose = TRUE, 
+  autodep = TRUE, aniopts = 'loop', progress = TRUE, verbose = TRUE, 
   cache = FALSE, cache.lazy = FALSE, result = 'asis')
 ```
 
@@ -532,16 +567,16 @@ knitr::opts_chunk$set(
 
 ## 设置
 
-```{r libs, eval=FALSE}
+```{r 读取程序包配套, eval=FALSE}
 ## 设定，读取所需R程序包和环境设置 选项设置、查阅图书馆读取R程序包、环境设置
 ## 读取R程序包与调整设置
-source('函数/libs.R')
+source('函数/读取程序包配套.R')
 ```
 
 ```{r setup, include=FALSE}
 ## 选项设置、查阅图书馆读取R程序包、环境设置
 ## 读取BBmisc程序包
-if(suppressMessages(!require('BBmisc'))){
+if (suppressMessages(!require('BBmisc'))){
   install.packages('BBmisc', dependencies = TRUE, INSTALL_opts = '--no-lock')
   suppressMessages(library('BBmisc'))
 }
@@ -550,21 +585,31 @@ if (suppressMessages(!require('rmsfuns'))) {
   suppressMessages(library('rmsfuns'))
 }
 
-if(!require('REmap')) devtools::install_github('lchiffon/REmap')
+if (!require('REmap')) devtools::install_github('lchiffon/REmap')
+
+conflicted::conflicts_prefer(dplyr::rename, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::count, .quiet = TRUE)
+conflicted::conflicts_prefer(tidyft::count, .quiet = TRUE)
+conflicted::conflicts_prefer(tidyft::filter, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::lag, .quiet = TRUE)
+conflicted::conflicts_prefer(data.table::transpose, .quiet = TRUE)
+conflicted::conflicts_prefer(git2r::pull, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::summarise, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::mutate, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::arrange, .quiet = TRUE)
+conflicted::conflicts_prefer(tidyft::read_csv, .quiet = TRUE)
 
 ## 一次性读取所列R程序包，一劳永逸
-pkgs <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper', 'conflicted')
+程序包 <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper', 'conflicted')
 
-suppressAll(lib(pkgs))
-load_pkg(pkgs)
-rm(pkgs)
-conflict_prefer('count', 'tidyft', quiet = TRUE)
-conflict_prefer('filter', 'tidyft', quiet = TRUE)
+suppressAll(lib(程序包))
+load_pkg(程序包)
+rm(程序包)
 
 ## 设置googleVis中的plot.gvis选项，将html文件嵌入于成品文件。
 op <- options(gvis.plot.tag = 'chart')
 
-## <audio src='文艺坊曲库/bigmoney.mp3' autoplay controls loop></audio>
+## <audio src='诸子百家诗经与古诗源/bigmoney.mp3' autoplay controls loop></audio>
 ```
 
 <br><br>
@@ -610,7 +655,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 [^9]: 2006年在特里必斯，有位好哥儿们同事（同组后转为隔壁桌出货跟单部门、后来都从Caspo辞职后还一块儿喝茶聊天找工作，而我到世西康工作）Chris Chen Peng Kok就喜欢称<ruby>浒<rp>(</rp><rt>hǔ</rt><rp>)</rp>湖<rp>(</rp><rt>hú</rt><rp>)</rp></ruby>)。
 
-[^10]: 1997年上中学后，有位为人不拘泥于小节的好哥儿们同学陈有良（中一中二不同班关系还不错、中三同班同学好哥儿们。由于有良同学、伟明同学、进祥同学、表弟国添、堂哥顺昌都有黑帮背景，平时上课时间都喜欢和有良一块儿旷课畅谈黑帮）中一时一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，而日后的同事们都是一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)。
+[^10]: 1997年上中学后，有位为人不拘泥于小节的好哥儿们同学陈友良[样子就像改变全世界的苹果公司创办人斯蒂芬·乔布斯/意大利足球明星范切斯特·托蒂](https://www.bilibili.com/video/BV1BN411o7ff)（中一中二不同班关系还不错、中三同班同学好哥儿们。由于友良同学、伟明同学、进祥同学、表弟国添、堂哥顺昌都有黑帮背景，平时上课时间都喜欢和友良一块儿旷课畅谈黑帮）中一时一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)，而日后的同事们都是一认识就称AHU (阿<ruby>沪<rp>(</rp><rt>hù</rt><rp>)</rp></ruby>)。
 
 [^11]: 2010年左右在西世康工作，自从提交企划书，巴西不能帮万佛寺乩童张家坤（大约2002年中学毕业后认识，当时人称《万佛寺》的济公师傅，经过二哥同学张志强介绍二哥和妈妈认识后，二哥和妈妈再介绍给我认识，大约2002年第一次在《万佛寺》问神时，乩童张家坤第一眼见到我就晴天霹雳跪地求饶扮女生说话）就开始说会争取到立博交易部门。有天三姐拿着《人生契约》连同妈妈和我到华财家问神。（上文谈及查《三世书》并辑写✍🏻《人生契约》的乩童华财，打从1984年一出世就被批命），[*也就是长大后再次遇见华财后，华财眼眶红红满眼是眼泪说吃乩童这行饭不容易得承担责任。妹妹才开始在不知情的情况下称“🇭🇰<ruby>富<rp>(</rp><rt>fū</rt><rp>)</rp>仔<rp>(</rp><rt>zái</rt><rp>)</rp></ruby>)”*]{style="color:#F6A217"}，家人也在不知情的情况下开始改口称“爸爸”为“<ruby>老<rp>(</rp><rt>🇹🇼闽曰：lǎo</rt><rp>)</rp>爸<rp>(</rp><rt>🇹🇼闽曰：běi</rt><rp>)</rp></ruby>”（发音类似:刘备），从此就家事不顺。<br><br>《圣经》记载着世界上只有一个神明，自从西世康辞职再找万佛寺乩童张家坤时，当时见面他说剩一个人、另一次说会死、另一次说脑袋里空白啥都想不到、再另一次说得行善捐款之类每次说法不同，许多奇奇怪怪的话，然后我就开始摸索，在Mindpearl工作时视频有人查出骨哥华财的法力在十秒内可以查询到任何事物（而2007年在Caspo时，《离岛特警》亡命之徒Billy仔🇸🇬欧阳金泰说他自己：“如果迟三秒，命仔会被夺走！”），直到7LiveAsia时才听Kevin说:“如果要相信张家坤，就要相信到刘华财死掉为止才结束，世上只有一个神明，一山不能容二虎。”，后来Juno闲聊时：“你需要先死掉才能找到工作“完全不明白，微博有人发过动态图的帖子就是一男一女各在两座山上，中间隔着悬崖，一直有男生像精子一样跨不过悬崖到对岸获得美人归而丧命，而最后一位男的成功跨过悬崖男女俩在一起时，女的却掉下悬崖死了只剩一个人。后来被中邪的家人（自从在Fujixerox工作时，当时每天上班见到经理长得像乩童张家坤的Jacky Chai Yun Cheah当小丑，只有乩童张家坤和刘华财同步的话，乩童张家坤或刘华财就会成了小丑或失心疯，直到辞职那天他就会双眼通红满眼是眼泪，在Mindpearl辞职那天人事部经理也一样双眼通红满眼眼泪。当时为了测试7LiveAsia之说，以身试法说RHU花园的乩童刘华财我死掉为止才能重生，结果到RHU花园的乩童家验证后见到刘华财失心疯胡言乱语躲躲藏藏还出门逃跑，还下家人降头，在被绑架的前几周胸口痛得死去活来，被绑架的前几天差点像Brad余素伟说过出门会消失不见）绑架到疗养院，管理员聊起《换命之说》才知道何谓换命，结果死了两个人（一个像当时报警瓜雪一位警长蔡细历不受理、也像Christopher的爸爸；另一位像乩童张家坤）和邪不能胜正才出来后。自从诸事不顺未到7LiveAsia前一直要张家坤死而以身试法在脸谱使用张家坤姓名，之后一位长得像乩童张家坤🇹🇼台籍吕联富脸谱公然发帖保一家大小后，2017年在柔佛工作时一曲[《刚好遇见你》🎼](https://www.youtube.com/watch?v=aa2AhDaK_iY)让家慈往生成为先慈，成了刘张斗法的牺牲品，而🇨🇳中国以国母葬礼仪式，远在🇨🇳大势举国哀悼（当时网上还有许多媒体直播视频，🇨🇳隆重举办国丧仪式）；一曲[《改写人生》🎼](https://www.youtube.com/watch?v=wbyLBHPDuNI&ab_channel=%E8%9E%ADCHIMUSIC)诉尽《三打白骨精》中的人妖白骨精华财和《万佛寺》乩童张家坤、《西灵宫》齐天大圣、《众仙洞》大师兄的恩怨与替死鬼... 无心插柳柳成荫，个人博文会记载以前的经历和统计推算，事出必有因、一些玄学、道学、佛法、圣经、可兰经、前因后果、奇门遁甲、三黄五帝、The Narnia、魔戒三部曲、盘古女娲、兵马俑、幽灵、魔鬼、天界、人间、地狱、数学、春秋战国、梦里会周公、西游记、天文地理文学古诗屈原数学物理瘟疫朝代兴衰全都有关系、神经网络、中药、西药、地球上第一个行政机构朝廷政府是从中国黄河文明开始、虞夏商周、封神榜、姜太公、管仲乐毅、吴王阖闾Democrats、越王卧薪尝胆、楚汉相争、古代西大美女、中国象棋、西洋棋、鬼谷子孙膑庞涓、孙子兵法、诺亚方舟、春江鸭先知、隐马尔科夫领域、GPX零的领域、万物一物克一物、规律、大数定律等。
 
@@ -622,7 +667,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 学历
 
-### **[2021年11月 迄今]{style='color:Red'}：专业文凭，学习金融交易机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src='文艺坊图库/NYIF.jpeg' width='30' align='center' valign='middle'/>）
+### **[2021年11月 迄今]{style='color:Red'}：专业文凭，学习金融交易机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约金融学院（NYIF）](https://www.nyif.com) <img src='诸子百家考工记/NYIF.png' width='30' align='center' valign='middle'/>）
 
 - *01 课程：初识交易、学习与谷歌云端平台（GCP）*
 - *02 课程：实践金融交易机械化*
@@ -632,14 +677,14 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **[2021年12月 迄今]{style='color:Red'}：专业文凭，派森编程与统计学之金融分析**；（[考试啦](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src='文艺坊图库/HKUST.png' height='16' align='center' valign='middle'/>）
+### **[2021年12月 迄今]{style='color:Red'}：专业文凭，派森编程与统计学之金融分析**；（[考试啦](http://www.coursera.org) - [香港科技大学（HKUST）](https://hkust.edu.hk) <img src='诸子百家考工记/HKUST.png' height='16' align='center' valign='middle'/>）
 
 - *课程：派森编程与统计学之金融分析*
 - **猫城仓库**：[Coursera - Python and Statistics for Financial Analysis](https://github.com/englianhu/Coursera-Mastering-Software-Development-in-R)
 
 <br>
 
-### **2018年10月 至 2021年11月：专业文凭，掌握®编程软件开发专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src='文艺坊图库/jhu.jpg' width="60" align='center' valign='middle'/>）
+### **2018年10月 至 2021年11月：专业文凭，掌握®编程软件开发专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src='诸子百家考工记/jhu.png' width="60" align='center' valign='middle'/>）
 
 - *01 课程：[®编程环境](https://www.coursera.org/account/accomplishments/records/B4FEKWK27Q6R)*
 - *02 课程：[高级®编程](https://www.coursera.org/account/accomplishments/records/W8FRFA3F5AYC)*
@@ -651,7 +696,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src='文艺坊图库/NYU.png' height='16' align='center' valign='middle'/>）
+### **2021年5月 至 2021年7月：专业文凭，学习强化版金融机械化专项课程**；（[考试啦](http://www.coursera.org) - [纽约大学（NYU）](https://www.nyu.edu) <img src='诸子百家考工记/NYU.png' height='16' align='center' valign='middle'/>）
 
 - <s>*01 课程：金融机械化导览*</s>
 - <s>*02 课程：金融机械化基础*</s>
@@ -662,28 +707,28 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[考试啦](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src='文艺坊图库/UCSC.jpeg' height='16' align='center' valign='middle'/>）
+### **2021年5月 至 2021年7月：专业文凭，贝叶斯统计混合模型**；（[考试啦](http://www.coursera.org) - [加州大学（UC）](https://www.universityofcalifornia.edu) <img src='诸子百家考工记/UCSC.png' height='16' align='center' valign='middle'/>）
 
 - *课程：[贝叶斯统计混合模型（®编程）](https://www.coursera.org/account/accomplishments/records/Y6WGT58PAUAG)*
 - **猫城仓库** : [Coursera - Bayesian Statistics Mixture Models](https://github.com/englianhu/Coursera-Bayesian-Statistics-Mixture-Models)
 
 <br>
 
-### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src='文艺坊图库/Peking University 02.png' height='16' align='center' valign='middle'/>）
+### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src='诸子百家考工记/Peking University 02.png' height='16' align='center' valign='middle'/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **猫城仓库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
 
 <br>
 
-### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src='文艺坊图库/UoP-logo.jpg' width="56" align='center' valign='middle'/>）
+### **<s>2016月4月 至 2019年7月</s> 2016年4月 至 2016年6月：<s>大学本科，电脑科学</s>**；（[人民大学 (UoP)](https://www.uopeople.edu) <img src='诸子百家考工记/UoP-logo.png' width="56" align='center' valign='middle'/>）
 
 - <s>*课程：电脑科学*</s>
 - **猫城仓库** : [UoP Computer Science](https://github.com/englianhu/UoP-computer-science)
 
 <br>
 
-### **2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src='文艺坊图库/Illinois.jpg' height='16' align='center' valign='middle'/>）
+### **2016年6月 至 2016年8月：<s>专业文凭，提升企业财务和运营专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src='诸子百家考工记/Illinois.png' height='16' align='center' valign='middle'/>）
 
 - <s>*01 课程：会计管理：经费的习性、系统与分析*</s>
 - *02 课程：[管理会计：促进和指导商业决策的工具](https://www.coursera.org/account/accomplishments/records/AYYS2MB3ETD6)*
@@ -697,7 +742,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2016年4月 至 2016年8月：<s>专业文凭，数据挖掘专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src='文艺坊图库/Illinois.jpg' height='16' align='center' valign='middle'/>）
+### **2016年4月 至 2016年8月：<s>专业文凭，数据挖掘专项课程</s>**；（[考试啦](http://www.coursera.org) - [伊利诺伊大学（UI）](https://illinois.edu) <img src='诸子百家考工记/Illinois.png' height='16' align='center' valign='middle'/>）
 
 - *01 课程：[数据视觉化](https://www.coursera.org/account/accomplishments/records/THXLR367Y3PR)*
 - *02 课程：[文本检索和搜索引擎](https://www.coursera.org/account/accomplishments/records/9MK37PQWCWCU)*
@@ -710,7 +755,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2014年4月 至 2016年5月：专业文凭，数据科学专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src='文艺坊图库/jhu.jpg' width="60" align='center' valign='middle'/>）
+### **2014年4月 至 2016年5月：专业文凭，数据科学专项课程**；（[考试啦](http://www.coursera.org) - [约翰.霍金斯大学（JHU）](https://www.jhu.edu) <img src='诸子百家考工记/jhu.png' width="60" align='center' valign='middle'/>）
 
 - *01 课程：[数据科学家必备工具](https://www.coursera.org/account/accomplishments/records/AjMdkzyHyA2JWRRL)*
 - *02 课程：[®编程](https://www.coursera.org/account/accomplishments/records/VBB2XUA29B)*
@@ -727,7 +772,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2015年6月 至 2015年8月：专业文凭，为每个人而设的派森编程专项课程**；（[考试啦](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src='文艺坊图库/um.jpg' height='16' align='center' valign='middle'/>）
+### **2015年6月 至 2015年8月：专业文凭，为每个人而设的派森编程专项课程**；（[考试啦](http://www.coursera.org) - [密歇根大学（UM）](https://www.umich.edu) <img src='诸子百家考工记/um.png' height='16' align='center' valign='middle'/>）
 
 - *01 课程：[为每个人而设的编程语言（派森编程）](https://www.coursera.org/account/accomplishments/records/GA4cGW59ETHAevCa)*
 - <s>*02 课程：派森编程的数据结构*</s>
@@ -739,30 +784,30 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2004年X月 至 2004年X月：<s>国际公认会计技师（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src='文艺坊图库/PAAC.jpg' width="12" align='center' valign='middle'/>）
+### **2004年X月 至 2004年X月：<s>国际公认会计技师（CAT）</s>**；（[ACCA](https://www.accaglobal.com/ca/en/help/students-cat.html) - [PAAC商业学院（PAAC）](http://www.paac.edu.my) <img src='诸子百家考工记/PAAC.png' width="12" align='center' valign='middle'/>）
 
 - *01 课程：审计基础*
 - *02 课程：税务基础*
 - *03 课程：财务管理基础*
 
-    - 2004年3月17日：[*ACCA - 记录财务交易明细*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Recording%20Financial%20Transactions.jpg)
-    - 2004年3月18日：[*ACCA - 信息管理*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Accounting%20for%20Costs.jpg)
-    - 2004年6月21日：[*ACCA - 维护财务记录*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Maintaining%20Financial%20Records.jpg)
-    - 2004年6月22日：[*ACCA - 经费计算*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.jpg)
+    - 2004年3月17日：[*ACCA - 记录财务交易明细*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Recording%20Financial%20Transactions.png)
+    - 2004年3月18日：[*ACCA - 信息管理*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Accounting%20for%20Costs.png)
+    - 2004年6月21日：[*ACCA - 维护财务记录*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Maintaining%20Financial%20Records.png)
+    - 2004年6月22日：[*ACCA - 经费计算*](https://raw.githubusercontent.com/scibrokes/owner/master/documents/ACCA%20-%20Information%20for%20Management%20Control.png)
 
 <br>
 
-### **2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src='文艺坊图库/jpf.jpg' width='30' align='center' valign='middle'/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src='文艺坊图库/JEES.gif' width="68" align='center' valign='middle'/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src='文艺坊图库/JLSM.jpg' width="12" align='center' valign='middle'/>）
+### **2002年3月 至 2003年12月：专业文凭，日文能力测试**；家庭补习（[JLPT](http://www.jlpt.jp/index.html) - [日本国际交流基金会（JF）](https://www.jpf.go.jp) <img src='诸子百家考工记/jpf.png' width='30' align='center' valign='middle'/> and [日本国际教育支援协会（JEES）](http://www.jees.or.jp/index.htm) <img src='诸子百家考工记/JEES.gif' width="68" align='center' valign='middle'/>) and [马来西亚日语协会（JLSM）](https://www.jlsm.org) <img src='诸子百家考工记/JLSM.png' width="12" align='center' valign='middle'/>）
 
-- 2003年12月7日：*在吉隆坡报考*[日语能力测试 - 第三级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.jpg)
-- 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第二级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.jpg) [[**不合格**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.jpg)
-- 2005年12月4日：*在吉隆坡报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.jpg) [[**不合格**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.jpg)
-- 2006年12月3日：*在马尼拉报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.jpg) [**不合格**]{style='color:Red'}
-- 2003年开始加入[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src='文艺坊图库/JFKL.jpg' width="36" align='center' valign='middle'/>
+- 2003年12月7日：*在吉隆坡报考*[日语能力测试 - 第三级证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Certificate.png)
+- 2004年12月5日：*在吉隆坡报考*[**日语能力测试 - 第二级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004.png) [[**不合格**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20II%20-%202004%20Failed.png)
+- 2005年12月4日：*在吉隆坡报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005.png) [[**不合格**]{style='color:Red'}](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202005%20Failed.png)
+- 2006年12月3日：*在马尼拉报考*[**日语能力测试 - 第一级**](https://raw.githubusercontent.com/scibrokes/owner/master/documents/JLPT%20Level%20I%20-%202006.png) [**不合格**]{style='color:Red'}
+- 2003年开始加入[吉隆坡日本国际交流基金会（JFKL）](http://www.jfkl.org.my) <img src='诸子百家考工记/JFKL.png' width="36" align='center' valign='middle'/>
 
 <br>
 
-### **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大学本科，电脑科学系联合主流A（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src='文艺坊图库/TARC.jpg' width="36" align='center' valign='middle'/>）
+### **<s>2002月4月11日 至 2005年5月</s> 2002年4月11日 至 2003年10月11日：<s>大学本科，电脑科学系联合主流A（专攻统计学）</s>**；（[拉曼学院（TARC）](https://www.tarc.edu.my) <img src='诸子百家考工记/TARC.png' width="36" align='center' valign='middle'/>）
 
 - *大一*
 - *大二*
@@ -773,7 +818,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 ## 工作经验
 
-### **[2020年10月 迄今]{style='color:Red'}：网络金融业，创办人 ∩ 物主**；<img src='文艺坊图库/Scibrokes.png' height='16' align='center' valign='middle'/>
+### **[2020年10月 迄今]{style='color:Red'}：网络金融业，创办人 ∩ 物主**；<img src='诸子百家考工记/Scibrokes.png' height='16' align='center' valign='middle'/>
 
 - *简介：[**世博量化®**](https://www.scibrokes.com){style='color:RoyalBlue'}[^14]是一家在全球市场进行交易的量化投资管理公司，通过数理统计为投资者带来高投资回报率。*
 - *工作明细：在金融市场中科研统计建模、风险管理与高频自动演算量化交易和数据分析等，之后会到中国大陆发展。*
@@ -782,22 +827,22 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和壹号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src='文艺坊图库/ali.jpg' width="16" align='center' valign='middle'/>）
+### **2019年11月 至 2020年7月：网络博彩，推广人员**；（受聘于[东方集团旗下：乐发集团的阿里和壹号彩（阿里彩票）](https://rpubs.com/englianhu/goucai) <img src='诸子百家考工记/ali.png' width="16" align='center' valign='middle'/>）
 
 - *简介：东方集团乃中国商业集团。*
 - *工作明细：在菲律宾克拉克工作（除了少许外国人，全是中国大陆同胞），作为佛系推广人员，推广和审查单带会员，分析彩票中奖率与编写交易系统；半年后转到运维部门分析公司财务、会员、产品盈亏报表与负责风控。*
 
 <br>
 
-### **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src='文艺坊图库/anr.png' width="20" align='center' valign='middle'/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src='文艺坊图库/7live.jpg' width="18" align='center' valign='middle'/>）
+### **2017年11月 至 2018年5月：网络博彩，客服人员**；（受聘于[贵族酒店](http://www.aristocrat-rh.com) <img src='诸子百家考工记/anr.png' width="20" align='center' valign='middle'/>）（在柬埔寨的第二份工作受聘于[七驻亚洲](https://www.7liveasia88.com) <img src='诸子百家考工记/7live.png' width="18" align='center' valign='middle'/>）
 
 - *工作明细：在柬埔寨西哈努克（西港）工作五个月，作为阿里发客服人员（除了咱们项目多数是马来西亚人，其余全是中国大陆同事和少许柬埔寨人）但时而得负责风控监控与审核客户存取款与舞弊行为，第2份工作则在巴域（柬埔寨与越南边境）工作一个月。*
 
 <br>
 
-### **2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src='文艺坊图库/manpower.jpg' width="24" align='center' valign='middle'/>不过由[珍珠贝](https://www.mindpearl.com) <img src='文艺坊图库/mindpearl02.jpg' width="22" align='center' valign='middle'/> 部署）
+### **2016年5月 至 2016年12月：网络营销，客服人员**；（受聘于[万宝盛华人力资源（马）私人有限公司](http://www.manpower.com.my) <img src='诸子百家考工记/manpower.png' width="24" align='center' valign='middle'/>不过由[珍珠贝](https://www.mindpearl.com) <img src='诸子百家考工记/mindpearl02.png' width="22" align='center' valign='middle'/> 部署）
 
-- *工作明细：在疏邦再也（马来西亚）UOA商业中心的十三A/十四楼珍珠贝办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src='文艺坊图库/mas.jpg' width="36" align='center' valign='middle'/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。同事们包括中国大陆同胞、马来西亚同胞、日本同胞、韩国同胞和美国同胞等等。*
+- *工作明细：在疏邦再也（马来西亚）UOA商业中心的十三A/十四楼珍珠贝办公室上班、得接听电话与回邮件[马来西亚航空公司](https://www.malaysiaairlines.com/my/en.html) <img src='诸子百家考工记/mas.png' width="36" align='center' valign='middle'/>项目的乘客/顾客（多为亚太客户，其它分行接待欧洲客户），包括一般咨询、预订机票和修改机票等等事宜。同事们包括中国大陆同胞、马来西亚同胞、日本同胞、韩国同胞和美国同胞等等。*
 
 <br>
 
@@ -815,81 +860,81 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src='文艺坊图库/idealseed.jpg' width="12" align='center' valign='middle'/>不过由[苹果公司](http://www.apple.com) <img src='文艺坊图库/apple.jpg' width="12" align='center' valign='middle'/>部署）
+### **2015年2月 至 2015年4月：网络营销，交易审查员**；（受聘于[爱德尔锡德资源（马）私人有限公司](http://www.idealseed.com) <img src='诸子百家考工记/idealseed.png' width="12" align='center' valign='middle'/>不过由[苹果公司](http://www.apple.com) <img src='诸子百家考工记/apple.png' width="12" align='center' valign='middle'/>部署）
 
-- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src='文艺坊图库/xerox.png' width="36" align='center' valign='middle'/>。审查交易是否舞弊，外拨电话。*
+- *工作明细：在[施乐公司（台称全禄）](https://www.xerox.com)办公 <img src='诸子百家考工记/xerox.png' width="36" align='center' valign='middle'/>。审查交易是否舞弊，外拨电话。*
 
 <br>
 
-### **2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src='文艺坊图库/fuji-xerox.png' width="50" align='center' valign='middle'/>）
+### **2014年3月 至 2014年4月：网络营销，客服人员**；（受聘于[富士全禄](https://www.fujixerox.com) <img src='诸子百家考工记/fuji-xerox.png' width="50" align='center' valign='middle'/>）
 
 - *工作明细：台湾小组，接听台湾顾客的印刷机/列印机/印表机问题、预订、安排维修人员与退货、在线技术支援等等。*
 - **JCKL会员**
 
 <br>
 
-### **2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[埃斯比方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src='文艺坊图库/gblinks.jpg' width='32' align='center' valign='middle'/>平台与软件技术支援）
+### **2013年11月 至 2014年3月：网络博彩，队长 ∩ 操盘手/交易员**；（受聘于[埃斯比方案企业（菲）有限公司](http://www.sbet.com)操盘，由[光辉通信（港）有限公司](http://www.gb-links.com) <img src='诸子百家考工记/gblinks.png' width='32' align='center' valign='middle'/>平台与软件技术支援）
 
 - *简介：光辉通信（GB-links Ltd）在香港九龙红磡，老板们都是香港同胞。*
 - *工作明细：培训新人、管理下属、更新比分、赛事结算。*
 
 <br>
 
-### **2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src='文艺坊图库/getronics.png' height='16' align='center' valign='middle'/>)
+### **2013年10月 至 2013年11月：排水工程，客服人员**；(受聘于[资信利](http://www.getronics.com) <img src='诸子百家考工记/getronics.png' height='16' align='center' valign='middle'/>)
 
 - *简介：资信利（Getronics）乃德国公司，为德意志德国同胞（伟大的德国人Unsere Besten）做工。*
 - *工作明细：位于吉隆坡中央车站（KL Sentral）商业区，通过电话和网上接待国外大型水管建设与维修的客户（几乎都是来自于美国、欧洲、亚太的老外同胞和少许国内外中华同胞）。*
 
 <br>
 
-### **2013年7月 至 2013年9月：保险业，电销员**；(受聘于[美国友邦保险](https://www.aia.com.my/en/index.html) <img src='文艺坊图库/AIA.png' height='16' align="center">)
+### **2013年7月 至 2013年9月：保险业，电销员**；(受聘于[美国友邦保险](https://www.aia.com.my/en/index.html) <img src='诸子百家考工记/AIA.png' height='16' align="center">)
 
 - *简介：美国友邦保险（American Insurance Assurance）。*
 - *工作明细：外拨的保险电销员。*
 
 <br>
 
-### **2012年11月 至 2013年5月：电子媒体，节目转播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src='文艺坊图库/u-drive-media.jpg' width="100" align='center' valign='middle'/>）
+### **2012年11月 至 2013年5月：电子媒体，节目转播审查员**；（受聘于[优盘媒体（马）有限公司](http://www.udrive-media.com) <img src='诸子百家考工记/u-drive-media.png' width="100" align='center' valign='middle'/>）
 
 - *简介：马电讯™乃马来西亚蓝筹股。*
-- *工作明细：中文小组，观赏海外转播节目，并且需要审查与过滤节目内容，[马电讯™](https://tm.com.my/#/explore) Telekom Malaysia <img src='文艺坊图库/tm.jpg' width="24" align='center' valign='middle'/>项目中的happTV。*
+- *工作明细：中文小组，观赏海外转播节目，并且需要审查与过滤节目内容，[马电讯™](https://tm.com.my/#/explore) Telekom Malaysia <img src='诸子百家考工记/tm.png' width="24" align='center' valign='middle'/>项目中的happTV。*
 
 <br>
 
-### **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src='文艺坊图库/scicom.jpg' width='30' align='center' valign='middle'/>）
+### **2008年3月 至 2012年7月：外包业务，客服人员**；（受聘于[希世康（MSC）上市公司](http://www.scicom-intl.com) <img src='诸子百家考工记/scicom.png' width='30' align='center' valign='middle'/>）
 
 - *简介：为布列颠英国同胞做工。*
-- *工作明细：培训新人，接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src='文艺坊图库/ladbrokes.jpg' width="26" align='center' valign='middle'/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
-- 获奖[客服研讨会](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.jpg)
-- 获奖[（立博）嘉许状](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.jpg)
+- *工作明细：培训新人，接听所有[立博（英）上市公司](http://www.ladbrokesplc.com)'s <img src='诸子百家考工记/ladbrokes.png' width="26" align='center' valign='middle'/>远东客户的外来电话、在线咨询、电邮联系、偶尔外拨、翻译推广活动、电话投注与处理存取款等等事宜。*
+- 获奖[客服研讨会](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20CS%20Workshop.png)
+- 获奖[（立博）嘉许状](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Scicom%20Appreciation%20Certificate.png)
 
 <br>
 
-### **2006年7月 至 2007年6月：网络博彩，培训师 ∩ 操盘手/交易员**；（受聘于[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src='文艺坊图库/caspo.jpg' width="34" align='center' valign='middle'/>）
+### **2006年7月 至 2007年6月：网络博彩，培训师 ∩ 操盘手/交易员**；（受聘于[客世博（菲）有限公司](http://www.callcenterbeat.com/caspo-philippines) <img src='诸子百家考工记/caspo.png' width="34" align='center' valign='middle'/>）
 
 - *简介：客世博乃台湾同胞与新加坡同胞持有，如同[著名电影《黑金》](https://www.bilibili.com/video/BV1Gv411y7ED)。*
 - *工作明细：培训新人包括操盘与连线赛事现场、负责新宝一与新宝二网站盈亏报表，也得操盘、翻译与分析数据等等。*
 
 <br>
 
-### **2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src='文艺坊图库/telebiz.jpg' width="36" align='center' valign='middle'/>）
+### **2005年11月 至 2006年7月：网络博彩，队长 ∩ 资深操盘手/交易员**；（受聘于[特里必斯（马）私人有限公司](http://www.telebizness.com) <img src='诸子百家考工记/telebiz.png' width="36" align='center' valign='middle'/>）
 
 - *简介：特里必斯（Telebiz）乃一家网络博彩公司，与一家研发并赁租博彩平台的姐妹公司恩姆埃斯基（MG-SC）（马）私人有限公司为马来西亚同胞所有，与香港同胞和澳洲同胞等国家合作。*
 - *工作明细：培训新人、对冲、出货、更新比分、赛事结算、翻译、辑写培训手册等、数据分析（包括比较市场上竞争对手的盘口与赛事等）、负责角球盘口（包括科研盘口与赔率）等等事宜。*
 
 <br>
 
-### **2005年7月 至 2005年10月：网络金融业，操盘手/交易员 ∩ 代理**；（受聘于赫萨贸易（马）私人有限公司 与 尚誉威盈（纽）有限公司商业合作 <img src='文艺坊图库/Prestigen-02.jpg' width="12" align='center' valign='middle'/>）
+### **2005年7月 至 2005年10月：网络金融业，操盘手/交易员 ∩ 代理**；（受聘于赫萨贸易（马）私人有限公司 与 尚誉威盈（纽）有限公司商业合作 <img src='诸子百家考工记/Prestigen-02.png' width="12" align='center' valign='middle'/>）
 
 - *简介：尚誉威盈（Prestigen Profits Limited）乃一家亚太纽西兰外汇投资机构。*
 - *工作明细：为投资者在外汇市场提供一条龙式服务，包括营销、科研、风险管理、交易、培训等，以获得投资回酬。*
-- 附件：®️ [尚誉威盈（纽）有限公司 -赫萨贸易（马）私人有限公司授权书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.jpg)
-- 附件：[尚誉威盈（纽）有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.jpg)
-- 附件：[赫萨贸易（马）私人有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.jpg)
+- 附件：®️ [尚誉威盈（纽）有限公司 -赫萨贸易（马）私人有限公司授权书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Authorization%20to%20Hexa%20Commerce.png)
+- 附件：[尚誉威盈（纽）有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20Cert%20of%20Inc.png)
+- 附件：[赫萨贸易（马）私人有限公司 - 公司证书](https://raw.githubusercontent.com/scibrokes/owner/master/documents/Prestigen%20Profits%20Limited%20-%20HexaCommerce.png)
 
 <br>
 
-### **2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src='文艺坊图库/tsujiki-mart.png' height='16' align='center' valign='middle'/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src='文艺坊图库/jckl.png' width="68" align='center' valign='middle'/>）
+### **2003年7月 至 2003年8月：零售业，杂货店工人**；（受聘于[筑地商场（築地マート）㊑](https://www.jckl.org.my/tsukiji) <img src='诸子百家考工记/tsujiki-mart.png' height='16' align='center' valign='middle'/> - [JCKL 吉隆坡日本人会](https://www.jckl.org.my) <img src='诸子百家考工记/jckl.png' width="68" align='center' valign='middle'/>）
 
 - *简介：为日本同胞工作，除了一些马来西亚同胞，全是日本同胞，老板也是日本同胞。*
 - *工作明细：除了在店内当杂货店工人，期间刚好遇到盆舞节（盆踊り），也到沙阿南松下体育馆摆档口贩卖日本料理。*
@@ -897,13 +942,13 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[皇朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src='文艺坊图库/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>）
+### **2003年7月 至 2003年7月：饮食业，前台服务员**；（受聘于[皇朝大酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src='诸子百家考工记/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>）
 
 - *工作明细：在酒店内的唐宫当前台服务员。*
 
 <br>
 
-### **2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[大人餐厅](https://esquirekitchen.com) <img src='文艺坊图库/Esquire_Kitchen.png' width="18" align='center' valign='middle'/>）
+### **2001年11月 至 2002年4月：饮食业，前台服务员**；（受聘于[大人餐厅](https://esquirekitchen.com) <img src='诸子百家考工记/Esquire_Kitchen.png' width="18" align='center' valign='middle'/>）
 
 - *简介：一家中华料理连锁餐厅，而招牌菜乃[东波肉（Braised Pork Belly）]{style="color:#F6A217"}和[宫保鸡丁（Boneless Chicken Breast）]{style="color:#F6A217"}等。*
 - *工作明细：前台服务员。*
@@ -911,6 +956,10 @@ op <- options(gvis.plot.tag = 'chart')
 <br><br>
 
 ## 科研项目
+
+### **猫城仓库**：[中科红旗](https://github.com/englianhu/RedFlag-Linux)
+
+- *中科红旗，点缀全球。*
 
 ### **猫城仓库**：[`REmap`程序包中文版（百度绘图）](https://github.com/englianhu/REmap)
 
@@ -1000,10 +1049,10 @@ op <- options(gvis.plot.tag = 'chart')
 - *一个人打理的论坛以足彩为主，其它彩票游戏包括网游为副，除了分享个人足彩赔率建模、一些职业玩家的玩彩心得、一些统计建模、一些统计软件与电脑编程与代码、风险管理、交易策略、行业动态、嵌入比分网信息、行业动态、滚动新闻速报、分析与比较欧亚各足彩平台与内部管理优缺势（孙子兵法* --- **知己知彼百战百胜**）、*招贤纳士寻找志同道合的朋友，还当代理与合作伙伴打广告兼市场行销（包括邮件营销、QQ、到许多论坛网站推广体育统计学），结果2013年在友邦保险工作时适逢在工商银行开户，被大陆网络公安屏蔽了。*
 - *基于该论坛已屏蔽（已转到金融行业，也不打算回博彩行业）。*
 
-    - [谷歌捜贴](文艺坊图库/oksportcn_01.png)
-    - [统计之都交流](文艺坊图库/oksportcn_02.png)
-    - [佳礼论坛-捜贴](文艺坊图库/oksportcn_03.png)
-    - [数学建模社区-数学中国](文艺坊图库/oksportcn_04.png)
+    - [谷歌捜贴](诸子百家考工记/oksportcn_01.png)
+    - [统计之都交流](诸子百家考工记/oksportcn_02.png)
+    - [佳礼论坛-捜贴](诸子百家考工记/oksportcn_03.png)
+    - [数学建模社区-数学中国](诸子百家考工记/oksportcn_04.png)
 
 <br>
 
@@ -1025,7 +1074,8 @@ op <- options(gvis.plot.tag = 'chart')
 skill <- tibble(
   '技能' = c('计量经济学', '量化交易', '®编程', '微软办公软件', 'SQL语言', '派森编程语言', '数据分析', '客服工作', '体育博彩行业', '建立®文艺坊服务器', '统计学', '数据科学', '闪霓应用', '礼逆袭🐧操作系统', '网页应用程序接口', '闪烁大数据分析', '量化分析', '高级®编程', 'modeltime / tidyverts / prophet', 'tidyverse / tidymodels', '张量 / Pytorch', 'RStan系列', '浏览器驱动', 'FrontPage / 部署网站', 'Photoshop / Picsart'), 
   '程度' = c(9, 9, 9, 8, 3, 4, 9, 9, 7, 7, 6, 8, 8, 7, 6, 2, 8, 6, 7, 6, 7, 2, 4, 3, 5))
-skill <- tibble('序列' = 1:nrow(skill), skill)
+skill <- tibble('序列' = 1:nrow(skill), skill)|> 
+  as.data.table()
 
 skill |> 
     {\(.) tidyft::mutate(
@@ -1034,7 +1084,7 @@ skill |>
                                               begin = 0.1, end = 0.9), 
                            tooltip = paste0('程度: ', `程度`), angle = 3))}() |>#, 
     #Level = color_tile('#FFFDDC', 'darkgoldenrod')(Level)) |> 
-  {\(.) mutate_if(., is.numeric, function(x){ 
+  {\(.) mutate_if (., is.numeric, function(x){ 
     cell_spec(x, 'html', color = 
                 spec_color(x, option = 'A', begin = 0.1, end = 0.9, 
                            direction = -1), angle = 20, 
@@ -1139,14 +1189,14 @@ source('函数/skill2B.R', encoding = 'utf-8')
 - **2003年 至 2005年**，与两个哥哥和邻居，四人创办[**Starline Platation Ltd**]{style='color:RoyalBlue'}农业公司。
 - **2003年12月**，在谷中城的一家新加坡公司可信店灯饰专卖店当一个月室内销售员。
 - **2003年 至 2005年**，在吉隆坡怡保路三里路香港上海银行后面当中文家庭教师，授教一些华小的印度同胞小学生中文。
-- **2003年 至 2005年**，在[皇朝酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src='文艺坊图库/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>的唐宫当前台服务员。
+- **2003年 至 2005年**，在[皇朝酒店](https://www.facebook.com/OfficialDynastyHotelKL) <img src='诸子百家考工记/Dynasty_Hotel_Tang.png' width="46" align='center' valign='middle'/>的唐宫当前台服务员。
 - **2003年 至 2005年**，在吉隆坡怡保路五里路/甲洞当汽车销售员/维修员。
-- **2003年 至 2005年**，在谷中城对面的[日本国际交流基金会（马）](https://www.jckl.org.my) <img src='文艺坊图库/jckl.png' width="62" align='center' valign='middle'/>内的[筑地商场](https://www.jckl.org.my/tsukiji) <img src='文艺坊图库/tsujiki-mart.png' width="42" align='center' valign='middle'/>当迷你市场店员。
+- **2003年 至 2005年**，在谷中城对面的[日本国际交流基金会（马）](https://www.jckl.org.my) <img src='诸子百家考工记/jckl.png' width="62" align='center' valign='middle'/>内的[筑地商场](https://www.jckl.org.my/tsukiji) <img src='诸子百家考工记/tsujiki-mart.png' width="42" align='center' valign='middle'/>当迷你市场店员。
 - **2003年 至 2005年**，经[拉曼学院电脑科学系同学兼最佳好友谢德才](https://englianhu.wordpress.com/2021/12/20/%e8%bf%9f%e4%ba%86%e4%b8%80%e5%b9%b4%ef%bc%8c%e6%9b%b4%e6%96%b0%e5%b1%a5%e5%8e%86%e8%a1%a8-b4telebiz){style='color:RoyalBlue'}[^15]录用，到他家乡适耕庄的网吧（高峰电脑中心）当柜台小生。
 - **2006年2月**，在特里必斯工作时，业余时间到安邦韩国村修读韩语，同时也在韩国村一带的韩国跆拳道馆学跆拳道。
 - **2006年7月**，在特里必斯工作时，远到新加坡喜来登酒店楼下大厅和欧阳兄弟俩（欧阳金泰和欧阳金喜）面试，没几周欧阳金喜就匆匆忙忙拨电给我到焦赖一家旅游中心找Amy拿机票到菲律宾工作，当时没辞职就飞到菲律宾去了。
 - **2006年7月 至 2006年12月**，在馬尼拉客世博工作時，咨询了一些日语中心和一些韩语中心咨询课程，在[日本国际交流基金会（菲）](https://jfmo.org.ph) 报考高级日语JLPT Level I后，同年年底2006年12月在[德拉萨大学（马尼拉）](https://www.dlsu.edu.ph)考高级日语。
-- **2007年1月 至 2007年4月**，在马尼拉客世博工作时，到[歌德学院（菲）](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修读[德语业余课程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.jpg)。
+- **2007年1月 至 2007年4月**，在马尼拉客世博工作时，到[歌德学院（菲）](https://www.goethe.de/ins/ph/en/spr/kur/all.html)修读[德语业余课程](https://raw.githubusercontent.com/scibrokes/owner/master/documents/GOTHE-Institute.png)。
 - **2006年7月 至 2007年4月**，在马尼拉客世博工作时，曾威廉时常邀约习武练泰拳（还有日本合气道、韩国合气道），而泰拳馆就在公司PBCom大厦的一楼而已。
 - **2007年8月 至 2008年3月**，大哥在怡观园的皇帽旗下代理餐馆（台湾女老板明珠 --- 大家乐小食中心）开档口当小贩。
 - **2009年 至 2010年**，在西世康工作时，通过侨丰银行和联昌银行（新），开始在香港和美国金融市场进行交易。
@@ -1154,8 +1204,8 @@ source('函数/skill2B.R', encoding = 'utf-8')
 - **2009年 至 2010年**，在西世康工作时，经过[佳礼论坛的YY姐](https://c.cari.com.my/forum.php?mod=redirect&goto=findpost&ptid=1061770&pid=38938269&fromuid=2052094)介绍，在[新传媒（新）](https://www.mediacorp.sg/en)和[HVD娱乐公司](https://my104588-hvd-holdings-sdn-bhd.contact.page/#gsc.tab=0)旗下当个业余演员，[跑龙套当演员]{style='color:RoyalBlue'}[^16]。
 - **2009年 至 2013年**，建立了个专业足彩赔率建模论坛[体育统计学社区](http://soccer.oksport.cn)。
 - **2013年**，建立自个儿的®文艺坊服务器、学习採集网页信息、飞往台湾待了几个月，期间找到一份外汇交易公司的工作，不过没多久就不干了。
-- **2013年7月 至 2013年9月**，在安邦的友邦大厦的[友邦保险](https://www.aia.com.my/en/index.html) <img src='文艺坊图库/AIA.png' height='16' align="center">当电销员。
-- **2013年10月1号**，在[资信利](http://www.getronics.com) <img src='文艺坊图库/getronics.png' height='16' align='center' valign='middle'/>工作期间，注册了间公司[*世博量化®（官网）*](https://www.scibrokes.com) <img src='文艺坊图库/Scibrokes.png' height='16' align="center">，同事叶林峰和刘伟谦时常会聊到我穿的外衣[财神挺台湾夜总会]{style="color:#F6A217"}。
+- **2013年7月 至 2013年9月**，在安邦的友邦大厦的[友邦保险](https://www.aia.com.my/en/index.html) <img src='诸子百家考工记/AIA.png' height='16' align="center">当电销员。
+- **2013年10月1号**，在[资信利](http://www.getronics.com) <img src='诸子百家考工记/getronics.png' height='16' align='center' valign='middle'/>工作期间，注册了间公司[*世博量化®（官网）*](https://www.scibrokes.com) <img src='诸子百家考工记/Scibrokes.png' height='16' align="center">，同事叶林峰和刘伟谦时常会聊到我穿的外衣[财神挺台湾夜总会]{style="color:#F6A217"}。
 - **2013年11月**，有天麦克张有铭匆匆忙忙打电话联系并录用我并买了张机票，还没辞职就飞往香港九龙了。在SBet工作时，Howie宋家豪时常论及我穿的休闲衬衫[当好人好累 --- 老天有眼]{style="color:#F6A217"}。
 - **2014年3月**，在2014年3月31日受禄于富士全禄前，在瓜雪壹号商场后的森林茶餐厅（Xing's Restaurant）帮大哥打工一个月。
 - **2014年**，找了几份网游之类的工作。
@@ -1163,9 +1213,9 @@ source('函数/skill2B.R', encoding = 'utf-8')
 - **2016年**，在怡观园的Mybooks出版社当个户外销售员；原本在雪州，后来移到吉打州。
 - **2018年**，在无拉港永旺商场后面的大德古早味肉古茶行当（包括前台后台）店员，间中都有到另外两家分行工作（无拉港永旺商场后面、疏邦再也精英大学对面、国内最大夜市焦赖康乐花园）。
 - **2018年**，经过一位古早味头手介绍，到无拉港永旺商场对面（焦赖南镇118）的记德捞海鲜火锅食馆打零工。
-- **2018年**，到柬埔寨西哈努克港[黄金城娱乐城](https://www.facebook.com/QQ779933300) <img src='文艺坊图库/Golden-Royal.png' width="56" align='center' valign='middle'/>当客服人员，因为非常危险，有天午休时间二楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
+- **2018年**，到柬埔寨西哈努克港[黄金城娱乐城](https://www.facebook.com/QQ779933300) <img src='诸子百家考工记/Golden-Royal.png' width="56" align='center' valign='middle'/>当客服人员，因为非常危险，有天午休时间二楼宿舍大爆炸和许多枪声后，员工纷纷逃跑到公司，有位小胖经理走来叫我马上飞回国。
 - **2018年**，Bron Ong通过脸谱聘用到新山当真人荷官（合作商家为柬埔寨西哈努克港）的客服人员，干了一个月正（非常危险，而且公司作假张还不让员工辞职），由于母亲去世才能回雪州。
-- **2020年10月10号**，重新注册了间公司[*世博量化®（官网）*](https://www.scibrokes.com) <img src='文艺坊图库/Scibrokes.png' height='16' align="center">。
+- **2020年10月10号**，重新注册了间公司[*世博量化®（官网）*](https://www.scibrokes.com) <img src='诸子百家考工记/Scibrokes.png' height='16' align="center">。
 
 2003/2004年离开*赫萨贸易*网上外汇交易商那天，老板托马斯只说：[“哪里跌倒，哪里爬起来”，今天才会学习计量经济学]{style="color:#F6A217"}。
 
@@ -1177,17 +1227,17 @@ source('函数/skill2B.R', encoding = 'utf-8')
 
 > Simons left academia in 1978 to start what became Renaissance Technologies, an early pioneer in quantitative, or model-based, trading, primarily in commodities and currencies; the Medallion Fund he managed there is one of the world's most successful hedge funds. Forbes has listed him among the top 100 richest people in the world, and he has been called "the world's smartest billionaire."
 
-[詹姆斯·西蒙斯]{style='color:RoyalBlue'}[^17]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style='color:RoyalBlue'}，通过闪霓应用部署个高频量化自动交易系统。有兴趣建立自己的®文艺坊服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src='文艺坊图库/rstudio.jpg' width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
+[詹姆斯·西蒙斯]{style='color:RoyalBlue'}[^17]是大伙儿得学习的量化圈的成功人士。目前在学习建立自个儿的量化避险基金[**世博量化®**](https://www.scibrokes.com){style='color:RoyalBlue'}，通过闪霓应用部署个高频量化自动交易系统。有兴趣建立自己的®文艺坊服务器者，可以参阅[安装 ®StudioとShiny服务器](https://github.com/scibrokes/setup-rstudio-server) <img src='诸子百家考工记/rstudio.png' width="24"/>，而对于量化交易的热忱者，可通过[englianhu\@gmail.com](mailto:englianhu@gmail.com){.email}联系本人。
 
 [^17]: \- [How I Built The Best Trading Algorithm - Jim Simons](https://youtu.be/IZeo-Vj4dco)<br>- [传奇对冲基金之王:数学家西蒙斯](https://finance.sina.com.cn/money/fund/20151014/174523474580.shtml)<br>- [Jim Simons THE MAN WHO SOLVED THE MARKET by Greg Zuckerman](https://youtu.be/scHYR_ALl1c)<br>- [“World’s Smartest Billionaire:” James Simons is Cal Alumnus of the Year for 2016](https://alumni.berkeley.edu/california-magazine/spring-2016-war-stories/world-s-smartest-billionaire-james-simons-cal-alumnus)
 
 欲知更多关于我的详情，请参阅个人部落格。
 
-- [博客平台](https://englianhu.wordpress.com) <img src='文艺坊图库/wordpress.jpg' width="16"/>
-- [博文](https://englianhu.blogspot.com) <img src='文艺坊图库/blogspot.png' width="16"/>
-- [猫城部落格](https://englianhu.github.io) <img src='文艺坊图库/Github_Pages.png' width="16"/> ([猫城仓库源代码](https://github.com/englianhu/englianhu.github.io))
-- [简书](https://www.jianshu.com/u/4565fc707969) <img src='文艺坊图库/JianShu.png' width="16"/>
-- [知呼](https://www.zhihu.com/people/englianhu) <img src='文艺坊图库/ZhiHu.png' width="16"/>
+- [博客平台](https://englianhu.wordpress.com) <img src='诸子百家考工记/wordpress.png' width="16"/>
+- [博文](https://englianhu.blogspot.com) <img src='诸子百家考工记/blogspot.png' width="16"/>
+- [猫城部落格](https://englianhu.github.io) <img src='诸子百家考工记/Github_Pages.png' width="16"/> ([猫城仓库源代码](https://github.com/englianhu/englianhu.github.io))
+- [简书](https://www.jianshu.com/u/4565fc707969) <img src='诸子百家考工记/JianShu.png' width="16"/>
+- [知呼](https://www.zhihu.com/people/englianhu) <img src='诸子百家考工记/ZhiHu.png' width="16"/>
 
 `r require('vembedr'); vlist <- c('C1hrbXlreY4', 'O8qPQNz8Q8Y', '3pnXMEusQCY', 'E9_eAm2tTns', 'budv9DSiuko'); embed_youtube(vlist[1], height=215)` `r embed_youtube(vlist[2], height=215)` `r embed_youtube(vlist[3], height=215)` `r embed_youtube(vlist[4], height=215)` `r embed_youtube(vlist[5], height=215)`
 
@@ -1231,8 +1281,8 @@ markLinedata <- data.frame(
 
 ```{r read-geodata2, echo=FALSE}
 ## 读取从maps::world.cities程序包翻译并储存中文地名文件
-#source('文艺数据库/geoname.R')
-经纬度 <- read_csv('文艺数据库/地图数据.csv', show_col_types = FALSE)
+#source('诸子百家学府/geoname.R')
+经纬度 <- read_csv('诸子百家学府/地图数据.csv', show_col_types = FALSE)
 
 诸国 <- 经纬度$国家 |> 
   unique()
@@ -1270,80 +1320,80 @@ knitrREmap(夜光导航图, local = FALSE)
 
 ## 社交媒体
 
-<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src='文艺坊图库/coursera.png' width='48'/></a>
-<a href='https://www.facebook.com/englianhu'><img src='文艺坊图库/facebook2.jpg' width='48'/></a>
-<a href='https://instagram.com/englianhu'><img src='文艺坊图库/IG4.png' width='48'/></a>
-<a href='https://jp.linkedin.com/in/englianhu'><img src='文艺坊图库/linkedin.png' width='48'/></a>
-<a href='skype:englianhu?call'><img src='文艺坊图库/skype.jpg' width='48'/></a>
-<a href='https://plus.google.com/+黄联富'><img src='文艺坊图库/gplus.png' width='48'/></a>
-<a href='https://twitter.com/englianhu'><img src='文艺坊图库/twitter.png' width='48'/></a>
-<a href='https://about.me/englianhu'><img src='文艺坊图库/aboutme.png' width='48'/></a>
-<a href='https://linktr.ee/englianhu'><img src='文艺坊图库/ltree.png' width='48'/></a>
-<a href='https://weibo.com/englianhu'><img src='文艺坊图库/weibo.png' width='48'/></a>
-<a href='https://www.wechat.com/englianhu'><img src='文艺坊图库/Wechat.png' width='48'/></a>
-<a href='http://t.qq.com/englianhu'><img src='文艺坊图库/QQ wb.png' width='48'/></a>
-<a href='http://user.qzone.qq.com/2837330579'><img src='文艺坊图库/Qzone.png' width='48'/></a>
-<a href='https://scibrokes.zeef.com/ryo.eng'><img src='文艺坊图库/zeef.jpg' width='48'/></a>
-<a href='https://disqus.com/by/englianhu'><img src='文艺坊图库/disqus.png' width='48'/></a>
-<a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src='文艺坊图库/DouYin.png' width='48'/></a>
-<a href='http://kuaishou.com/'><img src='文艺坊图库/KuaiShou.png' width='48'/></a>
-<a href='https://www.pixnet.net/pcard/englianhu'><img src='文艺坊图库/pixnet.png' width='48'/></a>
-<a href='http://englianhu.360doc.com'><img src='文艺坊图库/360doc.png' width='48'/></a>
-<a href='https://www.guokr.com/zone/#special'><img src='文艺坊图库/guokr.jpeg' width='48'/></a>
-<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src='文艺坊图库/Discuss.png' width='48'/></a>
-<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src='文艺坊图库/cari.png' width='48'/></a>
-<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src='文艺坊图库/uwants.png' width='48'/></a>
-<a href='https://www.quora.com/profile/Ryo-Eng'><img src='文艺坊图库/Quora.png' width='48'/></a>
-<a href='https://discord.com'><img src='文艺坊图库/discord2.jpg' width='48'/></a>
-<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/SOF.jpg' width='48'/></a>
-<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/SE.png' width='48'/></a>
-<a href='https://www.zhihu.com/people/englianhu'><img src='文艺坊图库/ZhiHu.png' width='48'/></a>
-<a href='https://xiaohongshu.com'><img src='文艺坊图库/hong.jpg' width='48'/></a>
-<a href='https://www.jianshu.com/u/4565fc707969'><img src='文艺坊图库/JianShu.png' width='48'/></a>
-<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src='文艺坊图库/RG.png' width='48'/></a>
-<a href='https://pku.academia.edu/englianhu'><img src='文艺坊图库/academia.jpg' width='48'/></a>
-<a href='https://englianhu.wordpress.com'><img src='文艺坊图库/wordpress.jpg' width='48'/></a>
-<a href='https://englianhu.github.io'><img src='文艺坊图库/Github_Pages.png' width='48'/></a>
-<a href='https://www.youtube.com/c/黄联富'><img src='文艺坊图库/YouTube.jpeg' width='48'/></a>
-<a href='https://vimeo.com/englianhu'><img src='文艺坊图库/vimeo.jpg' width='48'/></a>
-<a href='https://space.bilibili.com/690266950'><img src='文艺坊图库/BiliBili.png' width='48'/></a>
-<a href='https://www.iq.com'><img src='文艺坊图库/iq.png' width='48'/></a>
-<a href='https://www.vk.com/englianhu'><img src='文艺坊图库/vk.png' width='48'/></a>
-<a href='https://ok.ru/englianhu'><img src='文艺坊图库/OKru.png' width='48'/></a>
-<a href='https://www.yandex.com'><img src='文艺坊图库/Yandex.png' width='48'/></a>
-<a href='https://www.tumblr.com/blog/englianhu'><img src='文艺坊图库/Tumblr3.jpg' width='48'/></a>
-<a href='https://mlog.club/user/6960'><img src='文艺坊图库/MClub.png' width='48'/></a>
-<a href='https://github.com/englianhu'><img src='文艺坊图库/github.jpg' width='48'/></a>
-<a href='https://bitbucket.org/englianhu'><img src='文艺坊图库/bitbucket.png' width='48'/></a>
-<a href='https://plot.ly/~englianhu'><img src='文艺坊图库/plotly.jpg' width='48'/></a>
-<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='文艺坊图库/rnable.jpg' width='48'/></a>
-<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='文艺坊图库/talkstats.png' width='48'/></a>
-<a href='http://blog.csdn.net/github_25731367'><img src='文艺坊图库/csdn2.png' width='48'/></a>
-<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='文艺坊图库/LQ.jpg' width='48'/></a>
-<a href='http://www.biostatistic.net/?120034'><img src='文艺坊图库/biostatistic.png' width='48'/></a>
-<a href='http://cos.name/cn/profile/englianhu'><img src='文艺坊图库/cos.jpg' width='48'/></a>
-<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='文艺坊图库/JG1.png' width='48'/></a>
-<a href='http://www.madio.net/archiver'><img src='文艺坊图库/madio.png' width='48'/></a>
-<a href='http://www.mathchina.com/bbs'><img src='文艺坊图库/mathchina.jpg' width='48'/></a>
-<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='文艺坊图库/centOS.png?raw=true" width='48'/></a>
-<a href='https://forum.linuxconfig.org/u/englianhu'><img src='文艺坊图库/LinuxConfig1.jpg' width='48'/></a>
-<a href='https://www.reddit.com/user/englianhu'><img src='文艺坊图库/medium.png' width='48'/></a>
-<a href='https://medium.com/@englianhu'><img src='文艺坊图库/Reddit.png' width='48'/></a>
-<a href='https://itsfoss.community/u/englianhu'><img src='文艺坊图库/FossCom1.png' width='48'/></a>
-<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='文艺坊图库/AskUbuntu.png' width='48'/></a>
-<a href='https://invent.kde.org/englianhu'><img src='文艺坊图库/InventKDE2.png' width='48'/></a>
-<a href='https://phabricator.kde.org/p/englianhu'><img src='文艺坊图库/phabricator.png' width='48'/></a>
-<a href='https://forum.arduino.cc/u/englianhu'><img src='文艺坊图库/Arduino.png' width='48'/></a>
-<a href='https://steamcommunity.com/id/englianhu'><img src='文艺坊图库/Steam.png' width='48'/></a>
-<a href='https://community.rstudio.com'><img src='文艺坊图库/RStudioCom1.png' width='48'/></a>
-<a href='http://www.betting-forum.com/members/englianhu.10020'><img src='文艺坊图库/bettingforum.png' width='48'/></a>
-<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src='文艺坊图库/PLounge.jpg' width='48'/></a>
-<a href='http://www.sportsbookreview.com/forum'><img src='文艺坊图库/SBR.jpg' width='48'/></a>
-<a href='https://community.rebelbetting.com/u/englianhu'><img src='文艺坊图库/RB.png' width='48'/></a>
-<a href='https://home.cnblogs.com/u/englianhu'><img src='文艺坊图库/CNBlogs 1.png' width='48'/></a>
-<a href='https://www.bookstack.cn/user/englianhu'><img src='文艺坊图库/bookstack.png' width='48'/></a>
-<a href='https://englianhu.blogspot.com'><img src='文艺坊图库/blogspot.png' width='48'/></a>
-<a href='https://my.zol.com.cn/index.php?c=me&a=default&userid=baidu_15n64991g'><img src='文艺坊图库/ZOL.png' width='48'/></a>
+<a href='https://www.coursera.org/user/617ad9f360f8fa19031b59c9af23b799'><img src='诸子百家考工记/coursera.png' width='48'/></a>
+<a href='https://www.facebook.com/englianhu'><img src='诸子百家考工记/facebook2.png' width='48'/></a>
+<a href='https://instagram.com/englianhu'><img src='诸子百家考工记/IG4.png' width='48'/></a>
+<a href='https://jp.linkedin.com/in/englianhu'><img src='诸子百家考工记/linkedin.png' width='48'/></a>
+<a href='skype:englianhu?call'><img src='诸子百家考工记/skype.png' width='48'/></a>
+<a href='https://plus.google.com/+黄联富'><img src='诸子百家考工记/gplus.png' width='48'/></a>
+<a href='https://twitter.com/englianhu'><img src='诸子百家考工记/twitter.png' width='48'/></a>
+<a href='https://about.me/englianhu'><img src='诸子百家考工记/aboutme.png' width='48'/></a>
+<a href='https://linktr.ee/englianhu'><img src='诸子百家考工记/ltree.png' width='48'/></a>
+<a href='https://weibo.com/englianhu'><img src='诸子百家考工记/weibo.png' width='48'/></a>
+<a href='https://www.wechat.com/englianhu'><img src='诸子百家考工记/Wechat.png' width='48'/></a>
+<a href='http://t.qq.com/englianhu'><img src='诸子百家考工记/QQ wb.png' width='48'/></a>
+<a href='http://user.qzone.qq.com/2837330579'><img src='诸子百家考工记/Qzone.png' width='48'/></a>
+<a href='https://scibrokes.zeef.com/ryo.eng'><img src='诸子百家考工记/zeef.png' width='48'/></a>
+<a href='https://disqus.com/by/englianhu'><img src='诸子百家考工记/disqus.png' width='48'/></a>
+<a href='https://www.douyin.com/user/MS4wLjABAAAAgnpmCWEdda8Wauzuo_MTsC-UjxjbRlUNUSkA55Ecot75KfHulPYUuYTXts0uzPS7'><img src='诸子百家考工记/DouYin.png' width='48'/></a>
+<a href='http://kuaishou.com/'><img src='诸子百家考工记/KuaiShou.png' width='48'/></a>
+<a href='https://www.pixnet.net/pcard/englianhu'><img src='诸子百家考工记/pixnet.png' width='48'/></a>
+<a href='http://englianhu.360doc.com'><img src='诸子百家考工记/360doc.png' width='48'/></a>
+<a href='https://www.guokr.com/zone/#special'><img src='诸子百家考工记/guokr.png' width='48'/></a>
+<a href='https://www.discuss.com.hk/space.php?action=viewpro&uid=7157158'><img src='诸子百家考工记/Discuss.png' width='48'/></a>
+<a href='https://c.cari.com.my/home.php?mod=space&uid=2052094'><img src='诸子百家考工记/cari.png' width='48'/></a>
+<a href='https://www.uwants.com/space.php?action=viewpro&view=home_view&uid=5834381'><img src='诸子百家考工记/uwants.png' width='48'/></a>
+<a href='https://www.quora.com/profile/Ryo-Eng'><img src='诸子百家考工记/Quora.png' width='48'/></a>
+<a href='https://discord.com'><img src='诸子百家考工记/discord2.png' width='48'/></a>
+<a href='https://stackoverflow.com/users/3806250/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='诸子百家考工记/SOF.png' width='48'/></a>
+<a href='https://stackexchange.com/users/4703258/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='诸子百家考工记/SE.png' width='48'/></a>
+<a href='https://www.zhihu.com/people/englianhu'><img src='诸子百家考工记/ZhiHu.png' width='48'/></a>
+<a href='https://xiaohongshu.com'><img src='诸子百家考工记/hong.png' width='48'/></a>
+<a href='https://www.jianshu.com/u/4565fc707969'><img src='诸子百家考工记/JianShu.png' width='48'/></a>
+<a href='https://www.researchgate.net/profile/Rgs-Lian-Hu-Eng'><img src='诸子百家考工记/RG.png' width='48'/></a>
+<a href='https://pku.academia.edu/englianhu'><img src='诸子百家考工记/academia.png' width='48'/></a>
+<a href='https://englianhu.wordpress.com'><img src='诸子百家考工记/wordpress.png' width='48'/></a>
+<a href='https://englianhu.github.io'><img src='诸子百家考工记/Github_Pages.png' width='48'/></a>
+<a href='https://www.youtube.com/c/黄联富'><img src='诸子百家考工记/YouTube.png' width='48'/></a>
+<a href='https://vimeo.com/englianhu'><img src='诸子百家考工记/vimeo.png' width='48'/></a>
+<a href='https://space.bilibili.com/690266950'><img src='诸子百家考工记/BiliBili.png' width='48'/></a>
+<a href='https://www.iq.com'><img src='诸子百家考工记/iq.png' width='48'/></a>
+<a href='https://www.vk.com/englianhu'><img src='诸子百家考工记/vk.png' width='48'/></a>
+<a href='https://ok.ru/englianhu'><img src='诸子百家考工记/OKru.png' width='48'/></a>
+<a href='https://www.yandex.com'><img src='诸子百家考工记/Yandex.png' width='48'/></a>
+<a href='https://www.tumblr.com/blog/englianhu'><img src='诸子百家考工记/Tumblr3.png' width='48'/></a>
+<a href='https://mlog.club/user/6960'><img src='诸子百家考工记/MClub.png' width='48'/></a>
+<a href='https://github.com/englianhu'><img src='诸子百家考工记/github.png' width='48'/></a>
+<a href='https://bitbucket.org/englianhu'><img src='诸子百家考工记/bitbucket.png' width='48'/></a>
+<a href='https://plot.ly/~englianhu'><img src='诸子百家考工记/plotly.png' width='48'/></a>
+<a href='http://r.789695.n4.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=379689'><img src='诸子百家考工记/rnable.png' width='48'/></a>
+<a href='http://www.talkstats.com/member.php/107100-englianhu'><img src='诸子百家考工记/talkstats.png' width='48'/></a>
+<a href='http://blog.csdn.net/github_25731367'><img src='诸子百家考工记/csdn2.png' width='48'/></a>
+<a href='http://www.linuxquestions.org/questions/user/englianhu-1019212/'><img src='诸子百家考工记/LQ.png' width='48'/></a>
+<a href='http://www.biostatistic.net/?120034'><img src='诸子百家考工记/biostatistic.png' width='48'/></a>
+<a href='http://cos.name/cn/profile/englianhu'><img src='诸子百家考工记/cos.png' width='48'/></a>
+<a href='http://bbs.pinggu.org/home.php?mod=space&uid=5794471'><img src='诸子百家考工记/JG1.png' width='48'/></a>
+<a href='http://www.madio.net/archiver'><img src='诸子百家考工记/madio.png' width='48'/></a>
+<a href='http://www.mathchina.com/bbs'><img src='诸子百家考工记/mathchina.png' width='48'/></a>
+<a href='https://www.centos.org/forums/search.php?author_id=100465&sr=posts'><img src='诸子百家考工记/centOS.png?raw=true" width='48'/></a>
+<a href='https://forum.linuxconfig.org/u/englianhu'><img src='诸子百家考工记/LinuxConfig1.png' width='48'/></a>
+<a href='https://www.reddit.com/user/englianhu'><img src='诸子百家考工记/medium.png' width='48'/></a>
+<a href='https://medium.com/@englianhu'><img src='诸子百家考工记/Reddit.png' width='48'/></a>
+<a href='https://itsfoss.community/u/englianhu'><img src='诸子百家考工记/FossCom1.png' width='48'/></a>
+<a href='https://askubuntu.com/users/424049/r%ce%b3%cf%83-%ce%be%ce%b7g-l%ce%b9%ce%b1%ce%b7-%ce%97%ce%bc'><img src='诸子百家考工记/AskUbuntu.png' width='48'/></a>
+<a href='https://invent.kde.org/englianhu'><img src='诸子百家考工记/InventKDE2.png' width='48'/></a>
+<a href='https://phabricator.kde.org/p/englianhu'><img src='诸子百家考工记/phabricator.png' width='48'/></a>
+<a href='https://forum.arduino.cc/u/englianhu'><img src='诸子百家考工记/Arduino.png' width='48'/></a>
+<a href='https://steamcommunity.com/id/englianhu'><img src='诸子百家考工记/Steam.png' width='48'/></a>
+<a href='https://community.rstudio.com'><img src='诸子百家考工记/RStudioCom1.png' width='48'/></a>
+<a href='http://www.betting-forum.com/members/englianhu.10020'><img src='诸子百家考工记/bettingforum.png' width='48'/></a>
+<a href='http://https://forum.punterslounge.com/profile/94378-ryoeng'><img src='诸子百家考工记/PLounge.png' width='48'/></a>
+<a href='http://www.sportsbookreview.com/forum'><img src='诸子百家考工记/SBR.png' width='48'/></a>
+<a href='https://community.rebelbetting.com/u/englianhu'><img src='诸子百家考工记/RB.png' width='48'/></a>
+<a href='https://home.cnblogs.com/u/englianhu'><img src='诸子百家考工记/CNBlogs 1.png' width='48'/></a>
+<a href='https://www.bookstack.cn/user/englianhu'><img src='诸子百家考工记/bookstack.png' width='48'/></a>
+<a href='https://englianhu.blogspot.com'><img src='诸子百家考工记/blogspot.png' width='48'/></a>
+<a href='https://my.zol.com.cn/index.php?c=me&a=default&userid=baidu_15n64991g'><img src='诸子百家考工记/ZOL.png' width='48'/></a>
 
 <br><br>
 
@@ -1364,61 +1414,70 @@ knitrREmap(夜光导航图, local = FALSE)
 - 猫城：[源代码](https://github.com/scibrokes/owner)
 - 追加附属信息
 
-```{r info}
-#suppressMessages(require('formattable', quietly = TRUE))
-#suppressMessages(require('knitr', quietly = TRUE))
-#suppressMessages(require('kableExtra', quietly = TRUE))
-#suppressMessages(require('magittr', quietly = TRUE))
-#suppressMessages(require('devtools', quietly = TRUE))
+```{r 信息, results = 'asis'}
+suppressMessages(require('formattable', quietly = TRUE))
+suppressMessages(require('knitr', quietly = TRUE))
+suppressMessages(require('kableExtra', quietly = TRUE))
+suppressMessages(require('magittr', quietly = TRUE))
+suppressMessages(require('devtools', quietly = TRUE))
 
-sys1 <- session_info()$platform |> 
+系统信息甲 <- session_info()$platform |> 
     unlist() |> 
     {\(.) data.frame(row.names = 1:length(.), 
                      Category = names(.), session_info = .)}()
 
-sys2 <- data.frame(Sys.info()) |> 
+系统信息乙 <- data.frame(Sys.info()) |> 
     {\(.) data.frame(Category = row.names(.), Sys.info = .[,1])}()
 
-#remarks, dim(sys1), dim(sys2)
-if (nrow(sys1) == 11 && nrow(sys2) == 8) {
-  sys2 <- sys2 |> 
+#remarks, dim(系统信息甲), dim(系统信息乙)
+if (nrow(系统信息甲) == 11 && nrow(系统信息乙) == 8) {
+  系统信息乙 <- 系统信息乙 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '当前时间'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
+                 paste(as.character(
+                   lubridate::now('Asia/Shanghai')), 'CST 中国标准时间 🗺'))))}()
   
-} else if (nrow(sys1) == 10 && nrow(sys2) == 8) {
-  sys1 <- rbind(sys1, data.frame(Category = '', session_info = ''))
+} else if (nrow(系统信息甲) == 10 && nrow(系统信息乙) == 8) {
+  系统信息甲 <- rbind(系统信息甲, data.frame(Category = '', session_info = ''))
   
-  sys2 <- sys2 |> 
+  系统信息乙 <- 系统信息乙 |> 
     {\(.) rbind(., data.frame(
-    Category = c('rmarkdown', 'rsconnect', 'Current time'), 
+    Category = c('rmarkdown', 'rsconnect', '当前时间'), 
     Sys.info = c(as.character(getwd()), 
                  as.character(packageVersion('rsconnect')), 
-                 paste(as.character(lubridate::now('Asia/Shanghai')), 'CST 🗺'))))}()
+                 paste(as.character(
+                   lubridate::now('Asia/Shanghai')), 'CST 中国标准时间 🗺'))))}()
 }
 
-sys <- cbind(sys1, sys2) |> 
+系统信息 <- cbind(系统信息甲, 系统信息乙)
+names(系统信息) <- c('分类甲', '访谈信息甲', '分类乙', '访谈信息乙')
+系统信息$分类甲 <- c('版本', '操作系统', '系统', '界面', '语言', '核对', 
+              '©标准库', '时区', '日期', '®文艺坊版本', 'Pandoc瑞士军刀')
+系统信息$分类乙 <- c('系统名称', '发布', '版本', '元素节点', '机器', '登录', 
+              '用户', '活跃用户', 'rmarkdown (®降价编译)', 
+              'rsconnect (®s联通)', '当前时间')
+rm(系统信息甲, 系统信息乙)
+
+系统信息 |> 
   {\(.) 
-    kbl(., caption = 'Additional session information:')}() |> 
+    kbl(., caption = '附加访谈信息：')}() |> 
   {\(.) 
-    kable_styling(., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
+    kable_styling(
+      ., bootstrap_options = c('striped', 'hover', 'condensed', 'responsive'))}() |> 
   {\(.) 
-    row_spec(., 0, background = 'DimGrey', color = 'yellow')}() |> 
+    row_spec(., 0, background = 'DimGrey', color = '#7b1113')}() |> 
   {\(.) 
     column_spec(., 1, background = 'CornflowerBlue', color = 'red')}() |> 
   {\(.) 
-    column_spec(., 2, background = 'grey', color = 'black')}() |> 
+    column_spec(., 2, background = 'grey', color = '#8B0000')}() |> 
   {\(.) 
     column_spec(., 3, background = 'CornflowerBlue', color = 'blue')}() |> 
   {\(.) 
     column_spec(., 4, background = 'grey', color = 'white')}() |> 
   {\(.) 
     row_spec(., 11, bold = TRUE, color = 'yellow', background = '#D7261E')}()
-
-rm(sys1, sys2)
-sys
 ```
 
 <br><br>
@@ -1445,5 +1504,5 @@ sys
 
 ---
 
-[<img src='文艺坊图库/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
-<span style='color:RoyalBlue'>**[<img src='文艺坊图库/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
+[<img src='诸子百家考工记/Scibrokes.png' height='14'/> Sςιβrοκεrs Trαdιηg®](http://www.scibrokes.com)<br>
+<span style='color:RoyalBlue'>**[<img src='诸子百家考工记/Scibrokes.png' height='14'/> 世博量化®](http://www.scibrokes.com)企业知识产权®及版权®所有，盗版必究。**</span>
