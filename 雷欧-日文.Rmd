@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby></span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '<ruby>個<rp>(</rp><rt>こ</rt><rp>)</rp>人<rp>(</rp><rt>じん</rt><rp>)</rp>簡<rp>(</rp><rt>かん</rt><rp>)</rp>歷<rp>(</rp><rt>れき</rt><rp>)</rp></ruby>'
-author: "[リョウ、<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>](https://englianhu.github.io) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/ENG.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/me light mode.png' height='16' align='center' valign='middle'>®"
+author: "[<ruby>贏<rp>(</rp><rt>yíng</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp>黃<rp>(</rp><rt>huáng</rt><rp>)</rp>氏<rp>(</rp><rt>shì</rt><rp>)</rp>江<rp>(</rp><rt>jiānɡ</rt><rp>)</rp>夏<rp>(</rp><rt>xià</rt><rp>)</rp>堂<rp>(</rp><rt>táng</rt><rp>)</rp></ruby> ®γσ, ξηg Lιαη Ημ，<ruby>黃<rp>(</rp><rt>こう</rt><rp>)</rp>聯<rp>(</rp><rt>れん</rt><rp>)</rp>富<rp>(</rp><rt>ふ/とみ</rt><rp>)</rp></ruby>（リョウ）](https://englianhu.wordpress.com.com) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='20'><img src='诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' height='20'>®"
 tags: [計量経済學, 量化圈, 娛樂圈, ®, 派森, ®文藝坊]
 date: '農曆一九八四年菊月廿八 甲子年甲戌月己醜日 屬鼠 週一 第卌三週'
 output:
@@ -410,9 +410,11 @@ resource_files:
 > - [貓城倉庫：scibrokes/setup-centOS7-DO](https://github.com/scibrokes/setup-centOS7-DO)
 > - [貓城倉庫：englianhu/RedFlag-Linux/issues/6](https://github.com/englianhu/RedFlag-Linux/issues/6)
 > 
-> <iframe src=''//player.bilibili.com/player.html?aid=938367824&bvid=BV1pT4y1a7Zt&cid=581199416&page=1'' scrolling=''no'' border=''0'' frameborder=''no'' framespacing=''0'' allowfullscreen=''true''> </iframe>
+> <iframe src='//player.bilibili.com/player.html?aid=938367824&bvid=BV1pT4y1a7Zt&cid=581199416&page=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'> </iframe>
 > 
 > *視頻來源*：[*β站：安裝🚩紅旗Linux繫統*](https://t.bilibili.com/678703037247651863)
+
+有關農曆與二十四節氣，目前正在自修中科紅旗之禮逆襲紅旗操作繫統，會先將曦與曦佳佳編程語言翻譯爲咱們中文編程附上拼音（李斯篆書），再提昇爲文言文及古文編程、日期均以農曆與咱們中華五千多年習俗文化道教爲主，它日再研髮「大秦賦」操作繫統，欲知更多詳情請查閱[「貓城」雷歐/中科紅旗](https://github.com/englianhu/RedFlag-Linux)和[「貓城」雷歐/圖書館](https://github.com/englianhu/library)。
 
 ------
 
@@ -714,7 +716,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2021年1月から 2021年1月迄：専業証明書、生物情報學: 導論と方法**；（[コーセラ](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src='诸子百家考工记/Peking University 02.png' height='16' align='center' valign='middle'/>）
+### **2021年1月から 2021年1月迄：専業証明書、生物情報學: 導論と方法**；（[コーセラ](http://www.coursera.org) - [北京大學（PKU）](https://www.pku.edu.cn) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'/>）
 
 - *課程：[生物情報學: 導論と方法（隠れマルコフ模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **貓城倉庫** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)

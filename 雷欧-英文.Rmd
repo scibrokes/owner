@@ -414,6 +414,8 @@ $®γσ$, $ξηg\ Lιαη\ Ημ$
 > 
 > *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863)
 
+有关农历与二十四节气，目前正在自修中科红旗之礼逆袭红旗操作系统，会先将曦与曦佳佳编程语言翻译为咱们中文编程附上拼音（李斯篆书），再提升为文言文及古文编程、日期均以农历与咱们中华五千多年习俗文化道教为主，它日再研发「大秦赋」操作系统，欲知更多详情请查阅[「猫城」雷欧/中科红旗](https://github.com/englianhu/RedFlag-Linux)和[「猫城」雷欧/图书馆](https://github.com/englianhu/library)。
+
 ------
 
 # Setting
@@ -667,7 +669,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src='诸子百家考工记/Peking University 02.png' height='16' align='center' valign='middle'/>)
+### **Jan-2021 to Jan-2021 : Professional Certificate, Bioinformatics : Introduction and Methods**; ([Cousera](http://www.coursera.org) - [Peking University](https://www.pku.edu.cn) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'/>)
 
 - *Course title : [Bioinformatics Introduction and Methods (Hidden Markov Model)](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **Github Repo** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)

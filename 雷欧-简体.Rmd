@@ -1,7 +1,7 @@
 ---
 title: "[<span style='color:goldenrod'>雷欧 ∪ 瑞欧，黄联富</span>](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)"
 subtitle: '个人简历'
-author: "[雷欧 ∪ 瑞欧，黄联富](https://englianhu.github.io) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/ENG.png' height='16' align='center' valign='middle'> <img src='诸子百家考工记/me light mode.png' height='16' align='center' valign='middle'>®"
+author: "[<ruby>赢<rp>(</rp><rt>yíng</rt><rp>)</rp>家<rp>(</rp><rt>jiā</rt><rp>)</rp>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>氏<rp>(</rp><rt>shì</rt><rp>)</rp>江<rp>(</rp><rt>jiānɡ</rt><rp>)</rp>夏<rp>(</rp><rt>xià</rt><rp>)</rp>堂<rp>(</rp><rt>táng</rt><rp>)</rp></ruby> ®γσ, ξηg Lιαη Ημ，<ruby>黄<rp>(</rp><rt>huáng</rt><rp>)</rp>联<rp>(</rp><rt>lián</rt><rp>)</rp>富<rp>(</rp><rt>fù</rt><rp>)</rp></ruby>（<ruby>雷<rp>(</rp><rt>léi</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>∪ <ruby>瑞<rp>(</rp><rt>ruì</rt><rp>)</rp>欧<rp>(</rp><rt>ōu</rt><rp>)</rp></ruby>）](https://englianhu.wordpress.com.com) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='20'><img src='诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' height='20'>®"
 tags: [计量经济学, 量化圈, 娱乐圈, ®, 派森, ®文艺坊]
 date: '农历一九八四年菊月廿八 甲子年甲戌月己丑日 属鼠 周一 第卌三周'
 output:
@@ -414,6 +414,8 @@ resource_files:
 > 
 > *视频来源*：[*β站：安装🚩红旗Linux系统*](https://t.bilibili.com/678703037247651863)
 
+有关农历与二十四节气，目前正在自修中科红旗之礼逆袭红旗操作系统，会先将曦与曦佳佳编程语言翻译为咱们中文编程附上拼音（李斯篆书），再提升为文言文及古文编程、日期均以农历与咱们中华五千多年习俗文化道教为主，它日再研发「大秦赋」操作系统，欲知更多详情请查阅[「猫城」雷欧/中科红旗](https://github.com/englianhu/RedFlag-Linux)和[「猫城」雷欧/图书馆](https://github.com/englianhu/library)。
+
 ------
 
 # 设定
@@ -714,7 +716,7 @@ op <- options(gvis.plot.tag = 'chart')
 
 <br>
 
-### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src='诸子百家考工记/Peking University 02.png' height='16' align='center' valign='middle'/>）
+### **2021年1月 至 2021年1月：专业文凭，生物信息学: 导论与方法**；（[考试啦](http://www.coursera.org) - [北京大学（PKU）](https://www.pku.edu.cn) <img src='诸子百家考工记/大秦赋 - 北京大学.png' height='16' align='center' valign='middle'/>）
 
 - *课程：[生物信息学: 导论与方法（隐马尔科夫模型）](https://www.coursera.org/account/accomplishments/records/ZS8ZVNU6LYL2)*
 - **猫城仓库** : [Coursera - Bioinformatics Introduction and Methods](https://github.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods)
