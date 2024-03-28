@@ -308,10 +308,10 @@ resource_files:
 - 文艺坊图库/中国区划.gif
 - 文艺坊图库/美国省区旗.png
 - 文艺坊图库/βεst Jοεγ 胸有大痣.png
-- 文艺数据库/dfm.csv
-- 文艺数据库/kellym.txt
-- 文艺数据库/shinyData.rds
-- 文艺数据库/worldcities.csv
+- 诸子百家学府/dfm.csv
+- 诸子百家学府/kellym.txt
+- 诸子百家学府/shinyData.rds
+- 诸子百家学府/worldcities.csv
 - 函数/buildFund.R
 - 函数/libs.R
 - 函数/plotChart.R
@@ -366,7 +366,7 @@ resource_files:
 
 # Curriculum Vitae
 
-<img src='文艺坊图库/quantitative trader 1.jpg' width='120' align='center' valign='middle'/>
+<img src='诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' width='120' align='center' valign='middle'/>
 
 $®γσ$, $ξηg\ Lιαη\ Ημ$
 
@@ -552,14 +552,23 @@ if (suppressMessages(!require('rmsfuns'))) {
 
 if(!require('REmap')) devtools::install_github('lchiffon/REmap')
 
+conflicted::conflicts_prefer(dplyr::rename, .quiet = TRUE)
+conflicted::conflicts_prefer(plyr::count, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::filter, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::lag, .quiet = TRUE)
+conflicted::conflicts_prefer(data.table::transpose, .quiet = TRUE)
+conflicted::conflicts_prefer(git2r::pull, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::summarise, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::mutate, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::arrange, .quiet = TRUE)
+conflicted::conflicts_prefer(readr::read_csv, .quiet = TRUE)
+
 ## Loading multiple packages at once
 pkgs <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper', 'conflicted')
 
 suppressAll(lib(pkgs))
 load_pkg(pkgs)
 rm(pkgs)
-conflict_prefer('count', 'tidyft', quiet = TRUE)
-conflict_prefer('filter', 'tidyft', quiet = TRUE)
 
 ## Set the googleVis options first to change the behaviour of plot.gvis, so that only the chart component of the HTML file is written into the output file.
 op <- options(gvis.plot.tag = 'chart')
@@ -1028,7 +1037,7 @@ skill <- tibble(
 skill <- tibble(No = 1:nrow(skill), skill)
 
 skill |> 
-    {\(.) tidyft::mutate(
+    {\(.) dplyr::mutate(
       ., Skill = cell_spec(Skill, italic = TRUE, 
                            color = spec_color(seq(nrow(skill)), option = 'A', 
                                               begin = 0.1, end = 0.9), 
@@ -1200,9 +1209,9 @@ suppressAll(remap.init())
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- maps::world.cities |> 
-  tidyft::rename(city = name, country = country.etc, lon = long) |> 
-  tidyft::select(country, city, capital, lon, lat, pop) |> 
-  tidyft::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
+  # dplyr::rename(city = name, country = country.etc, lon = long) |> 
+  # dplyr::select(country, city, capital, lon, lat, pop) |> 
+  dplyr::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
                             'Tanjong Karang', 'Klang', 'Seri Kembangan', 
                             'Serdang', 'Equine Park') | capital != 0)
 
@@ -1220,8 +1229,8 @@ vec <- geodata$city
 ## lon & lat of cities
 geodata <- geodata |> 
   data.frame() |> 
-  tidyft::select(lon, lat, city) |> 
-  tidyft::rename(vec = city)
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
 
 ## Design a line data frame
 markLinedata <- data.frame(
@@ -1231,8 +1240,8 @@ markLinedata <- data.frame(
 
 ```{r read-geodata2, eval = FALSE, echo=FALSE}
 ## 读取从maps::world.cities程序包翻译并储存中文地名文件
-#source('文艺数据库/geoname.R')
-经纬度 <- read_csv('文艺数据库/地图数据.csv', show_col_types = FALSE)
+#source('诸子百家学府/geoname.R')
+经纬度 <- read_csv('诸子百家学府/地图数据.csv', show_col_types = FALSE)
 
 诸国 <- 经纬度$国家 |> 
   unique()
@@ -1247,7 +1256,7 @@ markLinedata <- data.frame(
 
 ## 城镇经纬度
 经纬度 <- 经纬度 |> 
-  tidyft::select(经度, 纬度, 城镇)
+  dplyr::select(经度, 纬度, 城镇)
 
 ## 描画彩色霓虹导航线
 夜光导航线 <- data.frame(

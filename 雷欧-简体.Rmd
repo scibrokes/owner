@@ -367,7 +367,7 @@ resource_files:
 
 # 简历
 
-<img src='诸子百家考工记/quantitative trader 1.png' width='120' align='center' valign='middle'/>
+<img src='诸子百家考工记/赢家ξng黄氏江夏堂 - 量化对冲（中）.png' width='120' align='center' valign='middle'/>
 
 雷欧 ∪ 瑞欧，黄联富
 
@@ -590,16 +590,15 @@ if (suppressMessages(!require('rmsfuns'))) {
 if (!require('REmap')) devtools::install_github('lchiffon/REmap')
 
 conflicted::conflicts_prefer(dplyr::rename, .quiet = TRUE)
-conflicted::conflicts_prefer(dplyr::count, .quiet = TRUE)
-conflicted::conflicts_prefer(tidyft::count, .quiet = TRUE)
-conflicted::conflicts_prefer(tidyft::filter, .quiet = TRUE)
+conflicted::conflicts_prefer(plyr::count, .quiet = TRUE)
+conflicted::conflicts_prefer(dplyr::filter, .quiet = TRUE)
 conflicted::conflicts_prefer(dplyr::lag, .quiet = TRUE)
 conflicted::conflicts_prefer(data.table::transpose, .quiet = TRUE)
 conflicted::conflicts_prefer(git2r::pull, .quiet = TRUE)
 conflicted::conflicts_prefer(dplyr::summarise, .quiet = TRUE)
 conflicted::conflicts_prefer(dplyr::mutate, .quiet = TRUE)
 conflicted::conflicts_prefer(dplyr::arrange, .quiet = TRUE)
-conflicted::conflicts_prefer(tidyft::read_csv, .quiet = TRUE)
+conflicted::conflicts_prefer(readr::read_csv, .quiet = TRUE)
 
 ## 一次性读取所列R程序包，一劳永逸
 程序包 <- c('readr', 'dplyr', 'magrittr', 'tidyverse', 'devtools', 'zoo', 'lubridate', 'stringr', 'stringi', 'rvest', 'markdown', 'googleVis', 'knitr', 'rmarkdown', 'htmltools', 'knitr', 'kableExtra', 'formattable', 'echarts4r', 'radarchart', 'MASS', 'htmlwidgets', 'maps', 'REmap', 'ggmap', 'vembedr', 'rsconnect', 'tidyft', 'Ipaper', 'conflicted')
@@ -1080,7 +1079,7 @@ skill <- tibble('序列' = 1:nrow(skill), skill)|>
   as.data.table()
 
 skill |> 
-    {\(.) tidyft::mutate(
+    {\(.) dplyr::mutate(
       ., `技能` = cell_spec(`技能`, italic = TRUE, 
                            color = spec_color(seq(nrow(skill)), option = 'A', 
                                               begin = 0.1, end = 0.9), 
@@ -1252,9 +1251,9 @@ suppressAll(remap.init())
 ## Get world city geocode from simplemaps.com
 ## https://simplemaps.com/data/world-cities
 geodata <- maps::world.cities |> 
-  tidyft::rename(city = name, country = country.etc, lon = long) |> 
-  tidyft::select(country, city, capital, lon, lat, pop) |> 
-  tidyft::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
+  # dplyr::rename(city = name, country = country.etc, lon = long) |> 
+  # dplyr::select(country, city, capital, lon, lat, pop) |> 
+  dplyr::filter(city %in% c('Zhengzhou', 'Kuala Selangor', 
                             'Tanjong Karang', 'Klang', 'Seri Kembangan', 
                             'Serdang', 'Equine Park') | capital != 0)
 
@@ -1272,8 +1271,8 @@ vec <- geodata$city
 ## lon & lat of cities
 geodata <- geodata |> 
   data.frame() |> 
-  tidyft::select(lon, lat, city) |> 
-  tidyft::rename(vec = city)
+  dplyr::select(lon, lat, city) |> 
+  dplyr::rename(vec = city)
 
 ## Design a line data frame
 markLinedata <- data.frame(
@@ -1299,7 +1298,7 @@ markLinedata <- data.frame(
 
 ## 城镇经纬度
 经纬度 <- 经纬度 |> 
-  tidyft::select(经度, 纬度, 城镇) #因为呈现出来的夜光导航图只显示地名和随机国号，故此文件名、纬经度并无翻译为繁体
+  dplyr::select(经度, 纬度, 城镇) #因为呈现出来的夜光导航图只显示地名和随机国号，故此文件名、纬经度并无翻译为繁体
 
 ## 描画彩色霓虹导航线
 夜光导航线 <- data.frame(
@@ -1312,9 +1311,10 @@ markLinedata <- data.frame(
 夜光导航图 <- remapC(随机国号, maptype = 'world', 
                color = c('black', 'black'),
                theme = get_theme(backgroundColor = 'black'), 
-               title = '量化圈', subtitle = '金融计量经济学', 
-               markPointData = 诸城镇, markLineData = 夜光导航线, 
-               geoData = 经纬度)
+               title = '量化圈', subtitle = '金融计量经济学'#, 
+               # markPointData = 诸城镇, markLineData = 夜光导航线, 
+               # geoData = 经纬度
+               )
 knitrREmap(夜光导航图, local = FALSE)
 ```
 
