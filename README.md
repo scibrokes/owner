@@ -59,6 +59,12 @@
 -   <http://englianhu.github.io> (新)
 -   <http://englianhu.wordpress.com> (旧)
 
+### R语言
+
+- [**关于**统计之都](https://cosx.org/about/)
+- [](https://xiaokai.me/talk/r_language_quickstart_workshops_beijing/)
+- 
+
 <br>
 
 ## 简历
