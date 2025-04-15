@@ -62,8 +62,9 @@
 ### R语言
 
 - [**关于**统计之都](https://cosx.org/about/)
-- [](https://xiaokai.me/talk/r_language_quickstart_workshops_beijing/)
-- 
+- [R 语言快速入门工作坊（北京）](https://xiaokai.me/talk/r_language_quickstart_workshops_beijing/)
+- [R语言教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)
+- [九个学习R语言的网站和教程，搞定R语言自学（国内外知名大学课程）](https://www.xue8nav.com/2063.html)
 
 <br>
 
